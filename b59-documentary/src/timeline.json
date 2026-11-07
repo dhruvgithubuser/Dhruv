@@ -1,0 +1,1169 @@
+{
+ "fps": 30,
+ "duration": 88.689,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "A Soviet submarine was surrounded by American warships.",
+   "start": 0.3,
+   "end": 3.566,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.2,
+     "end": 0.36
+    },
+    {
+     "w": "Soviet",
+     "start": 0.36,
+     "end": 0.72
+    },
+    {
+     "w": "submarine",
+     "start": 0.72,
+     "end": 1.24
+    },
+    {
+     "w": "was",
+     "start": 1.24,
+     "end": 1.66
+    },
+    {
+     "w": "surrounded",
+     "start": 1.66,
+     "end": 2.0
+    },
+    {
+     "w": "by",
+     "start": 2.0,
+     "end": 2.38
+    },
+    {
+     "w": "American",
+     "start": 2.38,
+     "end": 2.78
+    },
+    {
+     "w": "warships.",
+     "start": 2.78,
+     "end": 3.12
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Its crew believed World War III might have already begun.",
+   "start": 3.846,
+   "end": 7.081,
+   "words": [
+    {
+     "w": "Its",
+     "start": 3.746,
+     "end": 3.946
+    },
+    {
+     "w": "crew",
+     "start": 3.946,
+     "end": 4.166
+    },
+    {
+     "w": "believed",
+     "start": 4.166,
+     "end": 4.466
+    },
+    {
+     "w": "World",
+     "start": 4.466,
+     "end": 4.866
+    },
+    {
+     "w": "War",
+     "start": 4.866,
+     "end": 5.146
+    },
+    {
+     "w": "III",
+     "start": 5.146,
+     "end": 5.626
+    },
+    {
+     "w": "might",
+     "start": 5.626,
+     "end": 6.046
+    },
+    {
+     "w": "have",
+     "start": 6.046,
+     "end": 6.206
+    },
+    {
+     "w": "already",
+     "start": 6.206,
+     "end": 6.466
+    },
+    {
+     "w": "begun.",
+     "start": 6.466,
+     "end": 6.806
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Then one officer refused to authorize a nuclear strike.",
+   "start": 7.361,
+   "end": 10.465,
+   "words": [
+    {
+     "w": "Then",
+     "start": 7.361,
+     "end": 7.481
+    },
+    {
+     "w": "one",
+     "start": 7.461,
+     "end": 7.621
+    },
+    {
+     "w": "officer",
+     "start": 7.621,
+     "end": 7.981
+    },
+    {
+     "w": "refused",
+     "start": 7.981,
+     "end": 8.521
+    },
+    {
+     "w": "to",
+     "start": 8.521,
+     "end": 8.881
+    },
+    {
+     "w": "authorize",
+     "start": 8.881,
+     "end": 9.241
+    },
+    {
+     "w": "a",
+     "start": 9.241,
+     "end": 9.561
+    },
+    {
+     "w": "nuclear",
+     "start": 9.561,
+     "end": 9.761
+    },
+    {
+     "w": "strike.",
+     "start": 9.761,
+     "end": 10.161
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "October 27, 1962.",
+   "start": 11.105,
+   "end": 13.579,
+   "words": [
+    {
+     "w": "October",
+     "start": 11.005,
+     "end": 11.385
+    },
+    {
+     "w": "27,",
+     "start": 11.385,
+     "end": 12.405
+    },
+    {
+     "w": "1962.",
+     "start": 12.405,
+     "end": 13.265
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "The Cuban Missile Crisis had brought the United States and Soviet Union dangerously close to nuclear war.",
+   "start": 13.899,
+   "end": 19.935,
+   "words": [
+    {
+     "w": "The",
+     "start": 13.799,
+     "end": 13.979
+    },
+    {
+     "w": "Cuban",
+     "start": 13.979,
+     "end": 14.159
+    },
+    {
+     "w": "Missile",
+     "start": 14.159,
+     "end": 14.459
+    },
+    {
+     "w": "Crisis",
+     "start": 14.459,
+     "end": 14.959
+    },
+    {
+     "w": "had",
+     "start": 14.959,
+     "end": 15.359
+    },
+    {
+     "w": "brought",
+     "start": 15.359,
+     "end": 15.579
+    },
+    {
+     "w": "the",
+     "start": 15.579,
+     "end": 15.759
+    },
+    {
+     "w": "United",
+     "start": 15.759,
+     "end": 16.059
+    },
+    {
+     "w": "States",
+     "start": 16.059,
+     "end": 16.479
+    },
+    {
+     "w": "and",
+     "start": 16.479,
+     "end": 16.739
+    },
+    {
+     "w": "Soviet",
+     "start": 16.739,
+     "end": 17.039
+    },
+    {
+     "w": "Union",
+     "start": 17.039,
+     "end": 17.479
+    },
+    {
+     "w": "dangerously",
+     "start": 17.479,
+     "end": 18.199
+    },
+    {
+     "w": "close",
+     "start": 18.199,
+     "end": 18.899
+    },
+    {
+     "w": "to",
+     "start": 18.899,
+     "end": 19.119
+    },
+    {
+     "w": "nuclear",
+     "start": 19.119,
+     "end": 19.259
+    },
+    {
+     "w": "war.",
+     "start": 19.259,
+     "end": 19.739
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Deep beneath the Atlantic, Soviet submarine B-59 was being hunted by American destroyers.",
+   "start": 20.375,
+   "end": 26.473,
+   "words": [
+    {
+     "w": "Deep",
+     "start": 20.275,
+     "end": 20.515
+    },
+    {
+     "w": "beneath",
+     "start": 20.515,
+     "end": 20.775
+    },
+    {
+     "w": "the",
+     "start": 20.775,
+     "end": 21.035
+    },
+    {
+     "w": "Atlantic,",
+     "start": 21.035,
+     "end": 21.535
+    },
+    {
+     "w": "Soviet",
+     "start": 21.955,
+     "end": 22.215
+    },
+    {
+     "w": "submarine",
+     "start": 22.215,
+     "end": 22.735
+    },
+    {
+     "w": "B-59",
+     "start": 22.735,
+     "end": 23.615
+    },
+    {
+     "w": "was",
+     "start": 23.615,
+     "end": 24.315
+    },
+    {
+     "w": "being",
+     "start": 24.315,
+     "end": 24.535
+    },
+    {
+     "w": "hunted",
+     "start": 24.535,
+     "end": 24.815
+    },
+    {
+     "w": "by",
+     "start": 24.815,
+     "end": 25.115
+    },
+    {
+     "w": "American",
+     "start": 25.115,
+     "end": 25.555
+    },
+    {
+     "w": "destroyers.",
+     "start": 25.555,
+     "end": 26.335
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "The Americans began dropping practice depth charges, designed to force the submarine to surface.",
+   "start": 26.873,
+   "end": 32.305,
+   "words": [
+    {
+     "w": "The",
+     "start": 26.773,
+     "end": 26.953
+    },
+    {
+     "w": "Americans",
+     "start": 26.953,
+     "end": 27.253
+    },
+    {
+     "w": "began",
+     "start": 27.253,
+     "end": 27.833
+    },
+    {
+     "w": "dropping",
+     "start": 27.833,
+     "end": 28.273
+    },
+    {
+     "w": "practice",
+     "start": 28.273,
+     "end": 28.753
+    },
+    {
+     "w": "depth",
+     "start": 28.753,
+     "end": 28.973
+    },
+    {
+     "w": "charges,",
+     "start": 28.973,
+     "end": 29.433
+    },
+    {
+     "w": "designed",
+     "start": 29.953,
+     "end": 30.273
+    },
+    {
+     "w": "to",
+     "start": 30.273,
+     "end": 30.513
+    },
+    {
+     "w": "force",
+     "start": 30.513,
+     "end": 30.753
+    },
+    {
+     "w": "the",
+     "start": 30.753,
+     "end": 30.973
+    },
+    {
+     "w": "submarine",
+     "start": 30.973,
+     "end": 31.313
+    },
+    {
+     "w": "to",
+     "start": 31.313,
+     "end": 31.633
+    },
+    {
+     "w": "surface.",
+     "start": 31.633,
+     "end": 31.973
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "But inside B-59, the explosions sounded like an attack.",
+   "start": 32.705,
+   "end": 36.501,
+   "words": [
+    {
+     "w": "But",
+     "start": 32.605,
+     "end": 32.785
+    },
+    {
+     "w": "inside",
+     "start": 32.785,
+     "end": 33.045
+    },
+    {
+     "w": "B-59,",
+     "start": 33.045,
+     "end": 33.885
+    },
+    {
+     "w": "the",
+     "start": 34.425,
+     "end": 34.525
+    },
+    {
+     "w": "explosions",
+     "start": 34.525,
+     "end": 34.905
+    },
+    {
+     "w": "sounded",
+     "start": 34.905,
+     "end": 35.425
+    },
+    {
+     "w": "like",
+     "start": 35.425,
+     "end": 35.805
+    },
+    {
+     "w": "an",
+     "start": 35.805,
+     "end": 35.945
+    },
+    {
+     "w": "attack.",
+     "start": 35.945,
+     "end": 36.225
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "The submarine was running low on battery power.",
+   "start": 36.981,
+   "end": 39.598,
+   "words": [
+    {
+     "w": "The",
+     "start": 36.881,
+     "end": 37.041
+    },
+    {
+     "w": "submarine",
+     "start": 37.041,
+     "end": 37.401
+    },
+    {
+     "w": "was",
+     "start": 37.401,
+     "end": 37.781
+    },
+    {
+     "w": "running",
+     "start": 37.781,
+     "end": 38.001
+    },
+    {
+     "w": "low",
+     "start": 38.001,
+     "end": 38.341
+    },
+    {
+     "w": "on",
+     "start": 38.341,
+     "end": 38.681
+    },
+    {
+     "w": "battery",
+     "start": 38.681,
+     "end": 38.981
+    },
+    {
+     "w": "power.",
+     "start": 38.981,
+     "end": 39.461
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Temperatures were rising, communications with Moscow had been lost,",
+   "start": 39.838,
+   "end": 43.686,
+   "words": [
+    {
+     "w": "Temperatures",
+     "start": 39.738,
+     "end": 40.318
+    },
+    {
+     "w": "were",
+     "start": 40.318,
+     "end": 40.478
+    },
+    {
+     "w": "rising,",
+     "start": 40.478,
+     "end": 40.878
+    },
+    {
+     "w": "communications",
+     "start": 41.278,
+     "end": 41.778
+    },
+    {
+     "w": "with",
+     "start": 41.778,
+     "end": 42.258
+    },
+    {
+     "w": "Moscow",
+     "start": 42.258,
+     "end": 42.538
+    },
+    {
+     "w": "had",
+     "start": 42.538,
+     "end": 42.958
+    },
+    {
+     "w": "been",
+     "start": 42.958,
+     "end": 43.098
+    },
+    {
+     "w": "lost,",
+     "start": 43.098,
+     "end": 43.378
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "and the exhausted crew feared war had already begun.",
+   "start": 43.846,
+   "end": 46.568,
+   "words": [
+    {
+     "w": "and",
+     "start": 43.746,
+     "end": 43.926
+    },
+    {
+     "w": "the",
+     "start": 43.926,
+     "end": 43.986
+    },
+    {
+     "w": "exhausted",
+     "start": 43.986,
+     "end": 44.286
+    },
+    {
+     "w": "crew",
+     "start": 44.286,
+     "end": 44.726
+    },
+    {
+     "w": "feared",
+     "start": 44.726,
+     "end": 45.106
+    },
+    {
+     "w": "war",
+     "start": 45.106,
+     "end": 45.426
+    },
+    {
+     "w": "had",
+     "start": 45.426,
+     "end": 45.706
+    },
+    {
+     "w": "already",
+     "start": 45.706,
+     "end": 45.986
+    },
+    {
+     "w": "begun.",
+     "start": 45.986,
+     "end": 46.326
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "What the Americans didn't know was that B-59 carried a nuclear-armed torpedo.",
+   "start": 47.048,
+   "end": 51.771,
+   "words": [
+    {
+     "w": "What",
+     "start": 46.948,
+     "end": 47.128
+    },
+    {
+     "w": "the",
+     "start": 47.128,
+     "end": 47.228
+    },
+    {
+     "w": "Americans",
+     "start": 47.228,
+     "end": 47.528
+    },
+    {
+     "w": "didn't",
+     "start": 47.528,
+     "end": 48.068
+    },
+    {
+     "w": "know",
+     "start": 48.068,
+     "end": 48.328
+    },
+    {
+     "w": "was",
+     "start": 48.328,
+     "end": 48.948
+    },
+    {
+     "w": "that",
+     "start": 48.948,
+     "end": 49.108
+    },
+    {
+     "w": "B-59",
+     "start": 49.108,
+     "end": 49.728
+    },
+    {
+     "w": "carried",
+     "start": 49.728,
+     "end": 50.228
+    },
+    {
+     "w": "a",
+     "start": 50.228,
+     "end": 50.388
+    },
+    {
+     "w": "nuclear-armed",
+     "start": 50.388,
+     "end": 51.048
+    },
+    {
+     "w": "torpedo.",
+     "start": 51.048,
+     "end": 51.308
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "Its captain, Valentin Savitsky, reportedly considered launching it against the American ships.",
+   "start": 52.251,
+   "end": 57.562,
+   "words": [
+    {
+     "w": "Its",
+     "start": 52.151,
+     "end": 52.371
+    },
+    {
+     "w": "captain,",
+     "start": 52.371,
+     "end": 52.731
+    },
+    {
+     "w": "Valentin",
+     "start": 52.971,
+     "end": 53.451
+    },
+    {
+     "w": "Savitsky,",
+     "start": 53.451,
+     "end": 54.091
+    },
+    {
+     "w": "reportedly",
+     "start": 54.451,
+     "end": 54.831
+    },
+    {
+     "w": "considered",
+     "start": 54.831,
+     "end": 55.311
+    },
+    {
+     "w": "launching",
+     "start": 55.311,
+     "end": 55.871
+    },
+    {
+     "w": "it",
+     "start": 55.871,
+     "end": 56.091
+    },
+    {
+     "w": "against",
+     "start": 56.091,
+     "end": 56.291
+    },
+    {
+     "w": "the",
+     "start": 56.291,
+     "end": 56.531
+    },
+    {
+     "w": "American",
+     "start": 56.531,
+     "end": 56.751
+    },
+    {
+     "w": "ships.",
+     "start": 56.751,
+     "end": 57.231
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "The political officer agreed.",
+   "start": 57.882,
+   "end": 59.626,
+   "words": [
+    {
+     "w": "The",
+     "start": 57.782,
+     "end": 57.942
+    },
+    {
+     "w": "political",
+     "start": 57.942,
+     "end": 58.282
+    },
+    {
+     "w": "officer",
+     "start": 58.282,
+     "end": 58.702
+    },
+    {
+     "w": "agreed.",
+     "start": 58.702,
+     "end": 59.222
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "But another senior officer was aboard: Vasili Arkhipov.",
+   "start": 60.106,
+   "end": 63.607,
+   "words": [
+    {
+     "w": "But",
+     "start": 60.006,
+     "end": 60.166
+    },
+    {
+     "w": "another",
+     "start": 60.166,
+     "end": 60.366
+    },
+    {
+     "w": "senior",
+     "start": 60.366,
+     "end": 60.686
+    },
+    {
+     "w": "officer",
+     "start": 60.686,
+     "end": 61.126
+    },
+    {
+     "w": "was",
+     "start": 61.126,
+     "end": 61.426
+    },
+    {
+     "w": "aboard:",
+     "start": 61.426,
+     "end": 61.726
+    },
+    {
+     "w": "Vasili",
+     "start": 61.726,
+     "end": 62.666
+    },
+    {
+     "w": "Arkhipov.",
+     "start": 62.666,
+     "end": 63.607
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "text": "He opposed the launch and urged the captain to surface and seek orders from Moscow.",
+   "start": 64.007,
+   "end": 68.443,
+   "words": [
+    {
+     "w": "He",
+     "start": 63.907,
+     "end": 64.067
+    },
+    {
+     "w": "opposed",
+     "start": 64.067,
+     "end": 64.287
+    },
+    {
+     "w": "the",
+     "start": 64.287,
+     "end": 64.547
+    },
+    {
+     "w": "launch",
+     "start": 64.547,
+     "end": 64.807
+    },
+    {
+     "w": "and",
+     "start": 64.807,
+     "end": 65.387
+    },
+    {
+     "w": "urged",
+     "start": 65.387,
+     "end": 65.587
+    },
+    {
+     "w": "the",
+     "start": 65.587,
+     "end": 65.787
+    },
+    {
+     "w": "captain",
+     "start": 65.787,
+     "end": 65.987
+    },
+    {
+     "w": "to",
+     "start": 65.987,
+     "end": 66.307
+    },
+    {
+     "w": "surface",
+     "start": 66.307,
+     "end": 66.647
+    },
+    {
+     "w": "and",
+     "start": 66.647,
+     "end": 66.947
+    },
+    {
+     "w": "seek",
+     "start": 66.947,
+     "end": 67.167
+    },
+    {
+     "w": "orders",
+     "start": 67.167,
+     "end": 67.487
+    },
+    {
+     "w": "from",
+     "start": 67.487,
+     "end": 67.807
+    },
+    {
+     "w": "Moscow.",
+     "start": 67.807,
+     "end": 68.027
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "text": "His position prevailed. B-59 finally surfaced. The nuclear torpedo was never fired.",
+   "start": 68.923,
+   "end": 74.755,
+   "words": [
+    {
+     "w": "His",
+     "start": 68.823,
+     "end": 69.023
+    },
+    {
+     "w": "position",
+     "start": 69.023,
+     "end": 69.443
+    },
+    {
+     "w": "prevailed.",
+     "start": 69.443,
+     "end": 69.783
+    },
+    {
+     "w": "B-59",
+     "start": 69.783,
+     "end": 70.983
+    },
+    {
+     "w": "finally",
+     "start": 70.983,
+     "end": 71.683
+    },
+    {
+     "w": "surfaced.",
+     "start": 71.683,
+     "end": 72.123
+    },
+    {
+     "w": "The",
+     "start": 72.783,
+     "end": 72.803
+    },
+    {
+     "w": "nuclear",
+     "start": 72.803,
+     "end": 72.943
+    },
+    {
+     "w": "torpedo",
+     "start": 72.943,
+     "end": 73.403
+    },
+    {
+     "w": "was",
+     "start": 73.403,
+     "end": 73.863
+    },
+    {
+     "w": "never",
+     "start": 73.863,
+     "end": 74.063
+    },
+    {
+     "w": "fired.",
+     "start": 74.063,
+     "end": 74.503
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "text": "For decades, the world knew little about this underwater confrontation.",
+   "start": 75.315,
+   "end": 78.963,
+   "words": [
+    {
+     "w": "For",
+     "start": 75.215,
+     "end": 75.415
+    },
+    {
+     "w": "decades,",
+     "start": 75.415,
+     "end": 75.755
+    },
+    {
+     "w": "the",
+     "start": 76.115,
+     "end": 76.155
+    },
+    {
+     "w": "world",
+     "start": 76.155,
+     "end": 76.335
+    },
+    {
+     "w": "knew",
+     "start": 76.335,
+     "end": 76.555
+    },
+    {
+     "w": "little",
+     "start": 76.555,
+     "end": 76.795
+    },
+    {
+     "w": "about",
+     "start": 76.795,
+     "end": 77.095
+    },
+    {
+     "w": "this",
+     "start": 77.095,
+     "end": 77.295
+    },
+    {
+     "w": "underwater",
+     "start": 77.295,
+     "end": 77.755
+    },
+    {
+     "w": "confrontation.",
+     "start": 77.755,
+     "end": 78.435
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "text": "Sometimes, history is changed not by the weapon that is fired, but by the person who refuses to authorize it.",
+   "start": 79.443,
+   "end": 85.889,
+   "words": [
+    {
+     "w": "Sometimes,",
+     "start": 79.343,
+     "end": 79.783
+    },
+    {
+     "w": "history",
+     "start": 80.163,
+     "end": 80.403
+    },
+    {
+     "w": "is",
+     "start": 80.403,
+     "end": 80.663
+    },
+    {
+     "w": "changed",
+     "start": 80.663,
+     "end": 80.863
+    },
+    {
+     "w": "not",
+     "start": 80.863,
+     "end": 81.363
+    },
+    {
+     "w": "by",
+     "start": 81.363,
+     "end": 81.583
+    },
+    {
+     "w": "the",
+     "start": 81.583,
+     "end": 81.723
+    },
+    {
+     "w": "weapon",
+     "start": 81.723,
+     "end": 82.023
+    },
+    {
+     "w": "that",
+     "start": 82.023,
+     "end": 82.223
+    },
+    {
+     "w": "is",
+     "start": 82.223,
+     "end": 82.343
+    },
+    {
+     "w": "fired,",
+     "start": 82.343,
+     "end": 82.723
+    },
+    {
+     "w": "but",
+     "start": 83.403,
+     "end": 83.503
+    },
+    {
+     "w": "by",
+     "start": 83.503,
+     "end": 83.643
+    },
+    {
+     "w": "the",
+     "start": 83.643,
+     "end": 83.743
+    },
+    {
+     "w": "person",
+     "start": 83.743,
+     "end": 84.063
+    },
+    {
+     "w": "who",
+     "start": 84.063,
+     "end": 84.323
+    },
+    {
+     "w": "refuses",
+     "start": 84.323,
+     "end": 84.663
+    },
+    {
+     "w": "to",
+     "start": 84.663,
+     "end": 85.063
+    },
+    {
+     "w": "authorize",
+     "start": 85.063,
+     "end": 85.363
+    },
+    {
+     "w": "it.",
+     "start": 85.363,
+     "end": 85.823
+    }
+   ]
+  }
+ ]
+}
