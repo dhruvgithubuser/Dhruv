@@ -13,6 +13,7 @@ const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, FILM, 'film.json'), 'utf8
 const FPS = Number(opt('fps', cfg.fps || 30)), WORKERS = Number(opt('workers', 4));
 const FROM = Number(opt('from', 0)), TO = Number(opt('to', cfg.duration));
 const OUT = opt('out', path.join('out', FILM, 'video_16x9.mp4'));
+const PAGE = opt('page', 'index.html');
 const W = 1920, H = 1080;
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 
@@ -21,7 +22,7 @@ const srv = http.createServer((q, r) => { const p = path.join(ROOT, decodeURICom
   if (!p.startsWith(ROOT) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { r.writeHead(404); return r.end(); }
   r.writeHead(200, { 'Content-Type': MIME[path.extname(p)] || 'application/octet-stream' }); fs.createReadStream(p).pipe(r); });
 await new Promise((r) => srv.listen(0, '127.0.0.1', r));
-const url = `http://127.0.0.1:${srv.address().port}/${FILM}/index.html?render=1&blur=0&fps=${FPS}&format=16x9&w=${W}&h=${H}`;
+const url = `http://127.0.0.1:${srv.address().port}/${FILM}/${PAGE}?render=1&blur=0&fps=${FPS}&format=16x9&w=${W}&h=${H}`;
 const browser = await chromium.launch({ args: ['--font-render-hinting=none', '--disable-lcd-text'] });
 const pages = await Promise.all(Array.from({ length: WORKERS }, async () => {
   const pg = await browser.newPage({ viewport: { width: W, height: H } });
