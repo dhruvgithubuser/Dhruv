@@ -42,12 +42,12 @@
  {
   "file": "siren.wav",
   "at": 16.024,
-  "volume": 0.32
+  "volume": 0.16
  },
  {
   "file": "alert-beeps.wav",
   "at": 16.074,
-  "volume": 0.28
+  "volume": 0.2
  },
  {
   "file": "impact-deep.wav",
@@ -107,7 +107,7 @@
  {
   "file": "heartbeat.wav",
   "at": 32.638,
-  "volume": 0.55
+  "volume": 0.35
  },
  {
   "file": "pulse.wav",
@@ -157,12 +157,12 @@
  {
   "file": "heartbeat.wav",
   "at": 51.101,
-  "volume": 0.6
+  "volume": 0.4
  },
  {
   "file": "clock-tick.wav",
   "at": 51.301,
-  "volume": 0.45
+  "volume": 0.3
  },
  {
   "file": "whoosh.wav",
@@ -172,7 +172,7 @@
  {
   "file": "space-ambience.wav",
   "at": 54.196,
-  "volume": 0.5
+  "volume": 0.32
  },
  {
   "file": "shimmer.wav",

@@ -34,15 +34,17 @@ const ENTRY: [TransitionKind, number][] = [
 const OVERLAP = 18; // each scene keeps playing under the next one's entry transition
 
 // Music sits under the narration: full between lines, ducked while the narrator speaks.
-const musicVolume = (f: number) => {
-  const t = f / FPS;
+const duckAt = (t: number) => {
   let duck = 0;
   for (const p of PHRASES) {
     const d = Math.min(t - (p.start - 0.25), p.end + 0.35 - t);
     duck = Math.max(duck, Math.max(0, Math.min(1, d / 0.25 + 1)));
   }
+  return duck;
+};
+const musicVolume = (f: number) => {
   const fadeIn = interpolate(f, [0, 10], [0, 1], { extrapolateRight: 'clamp' });
-  return fadeIn * (0.75 - 0.4 * duck);
+  return fadeIn * (0.7 - 0.48 * duckAt(f / FPS));
 };
 
 export const Documentary: React.FC = () => (
@@ -68,7 +70,7 @@ export const Documentary: React.FC = () => (
     <Audio src={staticFile('audio/background-music.mp3')} volume={musicVolume} />
     {(cues as { file: string; at: number; volume: number }[]).map((c, i) => (
       <Sequence key={i} from={Math.max(0, Math.round(c.at * FPS))} durationInFrames={DURATION_FRAMES} name={`sfx ${c.file}`}>
-        <Audio src={staticFile(`audio/sound-effects/${c.file}`)} volume={c.volume} />
+        <Audio src={staticFile(`audio/sound-effects/${c.file}`)} volume={(f) => c.volume * (1 - 0.45 * duckAt(c.at + f / FPS))} />
       </Sequence>
     ))}
   </AbsoluteFill>
