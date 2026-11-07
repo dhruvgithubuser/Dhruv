@@ -89,7 +89,7 @@ export const B05: React.FC = () => {
   const d = D(5);
   return (
     <AbsoluteFill style={{ background: '#03060a' }}>
-      <Globe1962 lon0={-60 + 15 * ease(f, 0, d)} lat0={35} usa={lin(f, 5, 20)} cuba={lin(f, 15, 30)} ussr={lin(f, wf(5, 'soviet') - 5, wf(5, 'soviet') + 10)} quarantine={ease(f, 40, 110)} />
+      <Globe1962 cy={1000} lon0={-60 + 15 * ease(f, 0, d)} lat0={35} usa={lin(f, 5, 20)} cuba={lin(f, 15, 30)} ussr={lin(f, wf(5, 'soviet') - 5, wf(5, 'soviet') + 10)} quarantine={ease(f, 40, 110)} />
       <Headline lines={['The Cuban Missile Crisis', 'US naval quarantine around Cuba']} at={6} out={d + 10} top={260} />
     </AbsoluteFill>
   );
@@ -103,7 +103,7 @@ export const B06: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: '#03060a' }}>
       <AbsoluteFill style={{ opacity: 1 - lin(f, half, half + 10) }}>
-        <Globe1962 lon0={-45} lat0={38} usa={1} cuba={1} ussr={1} quarantine={1} route={ease(f, 0, half)} sub={lin(f, half - 15, half)} />
+        <Globe1962 cy={1000} lon0={-45} lat0={38} usa={1} cuba={1} ussr={1} quarantine={1} route={ease(f, 0, half)} sub={lin(f, half - 15, half)} />
       </AbsoluteFill>
       <AbsoluteFill style={{ opacity: lin(f, half, half + 10) }}>
         <DepthShot name="sub_underwater" frames={d} from={{ x: 0.3, y: 0, z: 1.15 }} to={{ x: -0.2, y: 0, z: 1.25 }} grade="contrast(1.1) brightness(0.45) saturate(0.8)" tag={false} />
@@ -181,7 +181,7 @@ export const B11: React.FC = () => (
 export const B12: React.FC = () => (
   <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 50%, #0d1a26 0%, #02050a 75%)' }}>
     <Ocean rays={0.3} bubbles={20} o={0.6} />
-    <Cutaway at={wf(12, 'carried') - 30} />
+    <Cutaway at={8} />
   </AbsoluteFill>
 );
 
@@ -226,6 +226,30 @@ export const B16: React.FC = () => {
   );
 };
 
+/** B-59's conning tower and casing breaking the surface in the foreground, with spray (vector). */
+const Surfacing: React.FC<{ start: number }> = ({ start }) => {
+  const f = useCurrentFrame();
+  const k = ease(f, start, start + 50);
+  const y = 1700 - 360 * k;
+  return (
+    <svg width={1080} height={1920} style={{ position: 'absolute', inset: 0 }}>
+      <g transform={`translate(0,${y})`}>
+        <path d="M-40,120 C200,70 820,70 1120,110 L1120,400 L-40,400 Z" fill="#14181c" />
+        <path d="M380,110 L420,-130 L620,-130 L690,100 Z" fill="#191e23" stroke="#3a444c" strokeWidth={3} />
+        <rect x={450} y={-190} width={14} height={70} fill="#2a3036" /><rect x={500} y={-170} width={10} height={50} fill="#2a3036" />
+        <path d="M-40,120 C200,70 820,70 1120,110" fill="none" stroke="rgba(255,255,255,0.25)" strokeWidth={4} />
+      </g>
+      {Array.from({ length: 40 }, (_, i) => {
+        const t = (f - start - (i % 10) * 2) / 30;
+        if (t < 0 || t > 1.4) return null;
+        const x = 120 + ((i * 97) % 860), yy = y + 90 - Math.sin(Math.min(t, 1) * Math.PI) * (60 + (i % 7) * 18);
+        return <circle key={i} cx={x} cy={yy} r={6 + (i % 5) * 3} fill="rgba(235,245,255,0.75)" opacity={1 - t / 1.4} />;
+      })}
+      <rect x={0} y={y + 140} width={1080} height={400} fill="rgba(30,45,60,0.55)" />
+    </svg>
+  );
+};
+
 // 17 surfacing
 export const B17: React.FC = () => {
   const f = useCurrentFrame();
@@ -237,7 +261,8 @@ export const B17: React.FC = () => {
         <Ocean rays={1.5} bubbles={90} />
       </AbsoluteFill>
       <AbsoluteFill style={{ opacity: lin(f, sf - 15, sf) }}>
-        <DepthShot name="surfacing" frames={D(17) - sf + 15} from={{ x: 0, y: -0.2, z: 1.15 }} to={{ x: 0, y: 0, z: 1.02 }} />
+        <DepthShot name="destroyers" frames={D(17) - sf + 15} from={{ x: 0.2, y: 0, z: 1.12 }} to={{ x: -0.1, y: 0, z: 1.02 }} tag={false} />
+        <Surfacing start={sf - 10} />
         <LightLeak o={0.35} />
       </AbsoluteFill>
       <AbsoluteFill style={{ background: '#fff', opacity: f >= sf - 3 && f < sf + 5 ? 0.4 * (1 - Math.abs(f - sf) / 5) : 0 }} />

@@ -249,8 +249,8 @@ export const Timeline62: React.FC<{ at: number; hl?: number }> = ({ at, hl = 3 }
         return (
           <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 28, margin: '0 0 34px', opacity: o, transform: `translateX(${(1 - o) * 30}px)` }}>
             <div style={{ width: 22, height: 22, borderRadius: 11, background: on ? C.accent : 'rgba(255,255,255,0.4)', boxShadow: on ? '0 0 24px rgba(232,65,44,0.8)' : 'none' }} />
-            <div style={{ fontFamily: MONO, fontSize: on ? 40 : 30, color: on ? '#fff' : C.dim, width: 190 }}>{d}</div>
-            <div style={{ fontFamily: SANS, fontWeight: on ? 800 : 400, fontSize: on ? 34 : 28, color: on ? '#fff' : C.dim, flex: 1 }}>{t}</div>
+            <div style={{ fontFamily: MONO, fontSize: on ? 44 : 34, color: on ? '#fff' : C.dim, width: 210 }}>{d}</div>
+            <div style={{ fontFamily: SANS, fontWeight: on ? 800 : 600, fontSize: on ? 38 : 32, color: on ? '#fff' : '#b8c2cc', flex: 1 }}>{t}</div>
           </div>
         );
       })}
