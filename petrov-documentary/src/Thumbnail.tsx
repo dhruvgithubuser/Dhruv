@@ -18,8 +18,8 @@ export const Thumbnail: React.FC = () => (
     <EmergencyLights level={0.5} />
     <FilmGrain strength={0.8} />
     <Box x={30} y={1460} w={1020} h={360} style={{ textAlign: 'center' }}>
-      <div style={{ fontFamily: 'Oswald', fontWeight: 700, fontSize: 104, lineHeight: 1.02, color: '#fff', WebkitTextStroke: '12px #000', paintOrder: 'stroke fill', textTransform: 'uppercase' }}>
-        5 Missiles.<br /><span style={{ color: '#ffd34d' }}>He Said No.</span>
+      <div style={{ fontFamily: 'Oswald', fontWeight: 700, fontSize: 128, lineHeight: 1.0, color: '#fff', WebkitTextStroke: '12px #000', paintOrder: 'stroke fill', textTransform: 'uppercase' }}>
+        5 Missiles<br /><span style={{ color: '#ffd34d' }}>Incoming</span>
       </div>
     </Box>
   </AbsoluteFill>
