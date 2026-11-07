@@ -37,7 +37,7 @@ function build() {
   B.push({ x0: -104, x1: -76, z0: 46, z1: 78, h: 17, temple: true, k: 0.5 });
   B.push({ x0: -160, x1: -112, z0: -10, z1: 50, h: 12, k: 0.3 });
   FIELDS = []; const q = rng(23);
-  for (let gx = -16; gx <= 16; gx++) for (let gz = -9; gz <= 30; gz++) {
+  for (let gx = -16; gx <= 16; gx++) for (let gz = -40; gz <= 30; gz++) {
     const x = gx * 290 + (q() - 0.5) * 60, z = gz * 290 + (q() - 0.5) * 60;
     if ((x / 700) ** 2 + (z / 380) ** 2 < 1.05) continue;
     if (x < -2600 + z * 0.12 + 150) continue; // sea
@@ -60,7 +60,7 @@ export function drawAerial(ctx, W, H, t, st) {
   // sea (west/left) and land
   const fogD = 9000;
   const P = (pts, col, a = 1) => poly(ctx, cam, pts, col, lk, a, fogD);
-  poly(ctx, cam, [[-60000, 0, -3000], [60000, 0, -3000], [60000, 0, 60000], [-60000, 0, 60000]], mixc(hex('#5f86a0'), lk.sky[1], 0.35), lk, 1, 1e9);
+  poly(ctx, cam, [[-60000, 0, -30000], [60000, 0, -30000], [60000, 0, 60000], [-60000, 0, 60000]], mixc(hex('#5f86a0'), lk.sky[1], 0.35), lk, 1, 1e9);
   // distant Apennine hills (right) + Lattari (left far)
   const far = cam.proj([0, 0, 40000]);
   if (far) {
@@ -69,8 +69,8 @@ export function drawAerial(ctx, W, H, t, st) {
   }
   // land mass: coast running roughly N-S to the west of the town
   const land = mulc(mixc(hex(st.bury > 0.6 && st.green < 0.5 ? '#9b948a' : '#7d8051'), hex('#b8a77c'), 0.25), lk.light);
-  const coast = []; for (let i = 0; i <= 30; i++) { const z = -3000 + i * 1500; coast.push([-2600 + z * 0.12 + 300 * Math.sin(i * 0.9), 0, z]); }
-  poly(ctx, cam, [...coast, [40000, 0, 45000 - 3000 + 1500], [40000, 0, -3000]], mixc(mixc(land, hex('#8f8a7a'), st.bury || 0), hex('#6f7a43'), st.green ?? 0), lk, 1, 1e9);
+  const coast = []; for (let i = 0; i <= 50; i++) { const z = -30000 + i * 1500; coast.push([-2600 + z * 0.12 + 300 * Math.sin(i * 0.9), 0, z]); }
+  poly(ctx, cam, [...coast, [40000, 0, 45000], [40000, 0, -30000]], mixc(mixc(land, hex('#8f8a7a'), st.bury || 0), hex('#6f7a43'), st.green ?? 0), lk, 1, 1e9);
   veil(ctx, W, H, lk.fog, 0.7, 0.0, horizon, horizon + H * 0.22);
   // fields + vineyards
   for (const f of FIELDS) {
