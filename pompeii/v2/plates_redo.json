@@ -1,0 +1,36 @@
+{
+ "style": ", oil painting, painterly historical illustration, cinematic composition, dramatic lighting, rich detail, ancient Roman era, masterpiece",
+ "negative": "text, letters, watermark, logo, signature, modern buildings, electric lights, city lights, cars, power lines, modern clothing, photo, blurry, deformed, ugly, extra limbs, lowres, frame, border, lava, lava flow, molten rock, horses, cavalry, soldiers, armor",
+ "plates": [
+  [
+   "1B",
+   212,
+   "crowded ancient Roman street in Pompeii at golden morning, many people walking in colorful tunics and robes, market stalls, stone paved road with stepping stones, red and ochre plastered houses with tiled roofs, warm sunlight"
+  ],
+  [
+   "3E",
+   235,
+   "peaceful ancient Roman town at dusk at the foot of a huge dark volcano, quiet streets and red tiled roofs, purple twilight sky, ominous mood, no eruption"
+  ],
+  [
+   "5E",
+   254,
+   "crowd of Roman men women and children on foot fleeing through falling grey ash toward a stone city gate, carrying bundles and baskets, cloths held over their heads, gloomy"
+  ],
+  [
+   "6A",
+   261,
+   "night view of a volcano with a towering dark ash column lit from inside by volcanic lightning, faint orange glow at the summit, ancient town in darkness below, no lava"
+  ],
+  [
+   "7Cb",
+   273,
+   "enormous billowing cloud of grey volcanic ash and gas racing down a mountain slope toward the valley, pyroclastic flow, dramatic, wide view"
+  ],
+  [
+   "7F",
+   275,
+   "close up still life of a small carved wooden toy horse figurine, a child's toy, lying alone on a layer of grey volcanic ash on old paving stones, soft grey light, melancholic"
+  ]
+ ]
+}
