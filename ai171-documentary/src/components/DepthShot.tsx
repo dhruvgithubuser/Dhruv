@@ -32,6 +32,24 @@ export const DepthShot: React.FC<{ name: string; frames: number; from: Cam; to: 
   const gl = useRef<{ g: WebGLRenderingContext; u: Record<string, WebGLUniformLocation | null>; depth: boolean } | null>(null);
   const [handle] = useState(() => delayRender(`depthshot ${name}`));
   const [ready, setReady] = useState(false);
+  const params = useRef({ f, frames, from, to, focus });
+  params.current = { f, frames, from, to, focus };
+  const draw = () => {
+    const s = gl.current;
+    if (!s) return;
+    const { f: fr, frames: n, from: a, to: b, focus: fo } = params.current;
+    const p = ease(fr, 0, n);
+    const x = a.x + (b.x - a.x) * p, y = a.y + (b.y - a.y) * p;
+    const z = a.z * Math.pow(b.z / a.z, p);
+    const { g, u } = s;
+    g.viewport(0, 0, 1920, 1080);
+    g.uniform2f(u.off, x * 0.06, y * 0.06);
+    g.uniform1f(u.zoom, z);
+    g.uniform1f(u.focus, fo);
+    g.uniform1f(u.hasDepth, s.depth ? 1 : 0);
+    g.drawArrays(g.TRIANGLE_STRIP, 0, 4);
+    g.finish();
+  };
 
   useEffect(() => {
     let alive = true;
@@ -57,25 +75,16 @@ export const DepthShot: React.FC<{ name: string; frames: number; from: Cam; to: 
       const u = Object.fromEntries(['img', 'dep', 'off', 'zoom', 'focus', 'hasDepth'].map((k) => [k, g.getUniformLocation(pr, k)]));
       g.uniform1i(u.img, 0); g.uniform1i(u.dep, 1);
       gl.current = { g, u, depth: !!dep };
-      if (alive) { setReady(true); continueRender(handle); }
+      draw();
+      if (alive) setReady(true);
+      requestAnimationFrame(() => continueRender(handle));
     })().catch((e) => { console.error(e); continueRender(handle); });
     return () => { alive = false; };
   }, [handle, name]);
 
   useLayoutEffect(() => {
-    const s = gl.current;
-    if (!ready || !s) return;
-    const p = ease(f, 0, frames);
-    const x = from.x + (to.x - from.x) * p, y = from.y + (to.y - from.y) * p;
-    const z = from.z * Math.pow(to.z / from.z, p);
-    const { g, u } = s;
-    g.viewport(0, 0, 1920, 1080);
-    g.uniform2f(u.off, x * 0.06, y * 0.06);
-    g.uniform1f(u.zoom, z);
-    g.uniform1f(u.focus, focus);
-    g.uniform1f(u.hasDepth, s.depth ? 1 : 0);
-    g.drawArrays(g.TRIANGLE_STRIP, 0, 4);
-  }, [f, ready, frames, from, to, focus]);
+    if (ready) draw();
+  });
 
   return (
     <AbsoluteFill style={{ background: '#000' }}>

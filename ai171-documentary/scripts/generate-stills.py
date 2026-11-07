@@ -15,14 +15,14 @@ from diffusers import AutoencoderKL, LCMScheduler, StableDiffusionPipeline
 
 STYLE = ", cinematic documentary still, 35mm film, natural light, highly detailed, photorealistic"
 SHOTS = {
-    "city_aerial": ("aerial drone photo of Ahmedabad city India at midday, dense buildings, river, summer haze", 11),
+    "city_aerial": ("aerial drone photo of a flat modern Indian city, dense concrete apartment blocks, wide river with riverfront promenade, hazy hot summer day", 31),
     "terminal": ("international airport terminal in India, wide glass facade, palm trees, hot sunny afternoon", 12),
     "gate": ("passengers waiting at an airport departure gate, seen from behind, large window, airliner outside", 13),
-    "jet_runway": ("white twin engine widebody airliner on runway, heat haze, telephoto lens, no logos", 14),
+    "jet_runway": ("plain white twin engine Boeing 787 airliner taking off, landing gear down, side view, heat haze, clear sky, no text", 47),
     "cockpit": ("modern airliner cockpit seen from behind two pilots, bright daylight through windshield", 15),
     "tower": ("air traffic control tower interior, controller with headset looking out at runway, afternoon", 16),
     "runway_low": ("low angle view along an empty airport runway, heat shimmer, distant city skyline", 17),
-    "fire_trucks": ("fire engines and ambulances driving on an Indian city road, flashing lights, dust", 18),
+    "fire_trucks": ("red fire truck with ladder and flashing emergency lights driving fast on a dusty Indian city road, firefighters, hazy afternoon", 72),
     "lab": ("accident investigation laboratory, orange flight recorder on a workbench, technicians in gloves", 19),
     "documents": ("investigation report pages and photographs spread on a dark desk, desk lamp, moody", 20),
     "hospital": ("quiet hospital corridor in India at night, soft lights, empty chairs", 21),

@@ -14,15 +14,17 @@ import torch
 from PIL import Image, ImageFilter
 from transformers import AutoImageProcessor, AutoModelForDepthEstimation, Swin2SRForImageSuperResolution, Swin2SRImageProcessor
 
-SRC = Path(sys.argv[1])
+SRC = Path(sys.argv[1])  # add --sr for Swin2SR x2 upscaling
 OUT = Path(__file__).resolve().parent.parent / "public" / "stills"
 OUT.mkdir(parents=True, exist_ok=True)
 torch.set_num_threads(4)
 
 dproc = AutoImageProcessor.from_pretrained("depth-anything/Depth-Anything-V2-Small-hf")
 dmodel = AutoModelForDepthEstimation.from_pretrained("depth-anything/Depth-Anything-V2-Small-hf").eval()
-sproc = Swin2SRImageProcessor.from_pretrained("caidas/swin2SR-classical-sr-x2-64")
-smodel = Swin2SRForImageSuperResolution.from_pretrained("caidas/swin2SR-classical-sr-x2-64").eval()
+USE_SR = "--sr" in sys.argv  # Swin2SR is ~5 min per image on a 4-core CPU; Lanczos + sharpen by default
+if USE_SR:
+    sproc = Swin2SRImageProcessor.from_pretrained("caidas/swin2SR-classical-sr-x2-64")
+    smodel = Swin2SRForImageSuperResolution.from_pretrained("caidas/swin2SR-classical-sr-x2-64").eval()
 
 
 def upscale(im):
@@ -48,7 +50,7 @@ for p in sorted(SRC.glob("*.png")):
     if (OUT / f"{name}_depth.png").exists():
         continue
     im = Image.open(p).convert("RGB")
-    big = upscale(im).resize((1920, 1080), Image.LANCZOS).filter(ImageFilter.UnsharpMask(radius=1.5, percent=40, threshold=2))
+    big = (upscale(im) if USE_SR else im).resize((1920, 1080), Image.LANCZOS).filter(ImageFilter.UnsharpMask(radius=2.0, percent=55, threshold=2))
     big.save(OUT / f"{name}.jpg", quality=92)
     with torch.no_grad():
         d = dmodel(**dproc(images=im, return_tensors="pt")).predicted_depth[0].numpy()

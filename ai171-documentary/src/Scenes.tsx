@@ -1,6 +1,8 @@
 import React from 'react';
 import { AbsoluteFill, Easing, Sequence, interpolate, useCurrentFrame } from 'remotion';
 import { DepthShot } from './components/DepthShot';
+import { PhotoShot } from './components/PhotoShot';
+import { Img, staticFile } from 'remotion';
 import { BigNumber, ChapterCard, DataCard, FuelSwitches, ReportedSpeech, RouteGlobe, SeatMap, Super, Timeline32 } from './components/Graphics';
 import { Marker, SatMap, project } from './components/SatMap';
 import geo from './geo.json';
@@ -42,7 +44,7 @@ export const S01: React.FC = () => {
   const d = D(1);
   return (
     <AbsoluteFill>
-      <SatMap keys={[{ f: 0, lat: 21.5, lon: 78.5, z: 4.3 }, { f: Math.round(d * 0.45), lat: 23.0, lon: 72.9, z: 8.2 }, { f: d + 15, lat: 23.068, lon: 72.628, z: 12.6 }]}>
+      <SatMap keys={[{ f: 0, lat: 22.0, lon: 75.5, z: 6.0 }, { f: Math.round(d * 0.45), lat: 23.0, lon: 72.9, z: 8.2 }, { f: d + 15, lat: 23.068, lon: 72.628, z: 12.6 }]}>
         {(cam) => {
           const [x, y] = project(cam, geo.amd[0], geo.amd[1]);
           return <Marker x={x} y={y} label="AHMEDABAD AIRPORT · AMD" color={C.amber} o={lin(cam.z, 7.5, 8.5)} dx={70} dy={-70} />;
@@ -63,7 +65,7 @@ export const S02: React.FC = () => {
       [0, <DepthShot name="city_aerial" frames={170} from={{ x: -0.6, y: 0.2, z: 1.05 }} to={{ x: 0.6, y: -0.1, z: 1.12 }} />],
       [150, <DepthShot name="terminal" frames={200} from={{ x: 0.5, y: 0, z: 1.02 }} to={{ x: -0.4, y: 0.1, z: 1.14 }} />],
       [330, <DepthShot name="gate" frames={Math.max(60, p2 - 330)} from={{ x: -0.3, y: 0, z: 1.03 }} to={{ x: 0.3, y: 0, z: 1.1 }} />],
-      [p2 - 15, <DepthShot name="jet_runway" frames={d - p2 + 15} from={{ x: 0, y: 0.1, z: 1.0 }} to={{ x: -0.2, y: -0.1, z: 1.18 }} />],
+      [p2 - 15, <PhotoShot file="vtanb_photo.jpg" frames={d - p2 + 15} credit="PHOTO: THE AIRCRAFT, VT-ANB · RYANZ225 PC (ZHANGERAVIATION) · CC BY-SA 4.0" from={1.0} to={1.15} fx={60} fy={50} />],
     ]} />
   );
 };
@@ -90,7 +92,10 @@ export const S04: React.FC = () => {
   const d = D(4);
   return (
     <AbsoluteFill style={{ background: '#03060a' }}>
-      <RouteGlobe from={geo.amd} to={geo.lgw} draw={ease(f, 50, d - 40)} lon0={40 - 8 * ease(f, 0, d)} lat0={42} />
+      <RouteGlobe from={geo.amd} to={geo.lgw} draw={ease(f, 50, pf(4, 1) - 20)} lon0={40 - 8 * ease(f, 0, d)} lat0={42} />
+      <Sequence from={pf(4, 1) - 15} layout="absolute-fill">
+        <Fade dur={15}><PhotoShot file="vtanb_photo.jpg" frames={d - pf(4, 1) + 15} credit="PHOTO: THE AIRCRAFT, VT-ANB · RYANZ225 PC (ZHANGERAVIATION) · CC BY-SA 4.0" from={1.12} to={1.0} fx={75} fy={45} /></Fade>
+      </Sequence>
       <DataCard title="FLIGHT AI171 · 12 JUNE 2025" rows={[['Route', 'AMD → LGW'], ['Aircraft', 'Boeing 787-8'], ['Registration', 'VT-ANB'], ['With Air India since', '2014'], ['Passengers', '230'], ['Crew', '12']]} at={pf(4, 0)} out={d + 10} side="right" top={170} width={600} />
       <ChapterCard num="I" title="The Flight" at={0} out={70} />
     </AbsoluteFill>
@@ -159,6 +164,14 @@ export const S07: React.FC = () => {
       <AbsoluteFill style={{ opacity: switchesOut, transition: 'none' }}>
         <FuelSwitches cut={[cut, cut + 30]} back={[run1, run2]} at={cut - 40} />
       </AbsoluteFill>
+      <Sequence from={pf(7, 1) - 10} durationInFrames={pf(7, 2) - pf(7, 1) + 10} layout="absolute-fill">
+        <Fade dur={12}>
+          <div style={{ position: 'absolute', right: 120, top: 330, width: 420 }}>
+            <Img src={staticFile('stills/throttle_photo.jpg')} style={{ width: 420, height: 420, objectFit: 'cover', border: '2px solid rgba(255,255,255,0.3)' }} />
+            <div style={{ fontFamily: MONO, fontSize: 16, color: 'rgba(255,255,255,0.75)', marginTop: 8, letterSpacing: 1, lineHeight: 1.4 }}>A 787 THROTTLE MODULE: THE FUEL CONTROL SWITCHES SIT BELOW THE LEVERS<br />PHOTO: BRUSSELS AIRPORT · CC BY-SA 2.0</div>
+          </div>
+        </Fade>
+      </Sequence>
       <ReportedSpeech lines={['One pilot asks the other why he cut off the fuel.', 'The other replies that he did not.']} source="COCKPIT VOICE RECORDING · AS REPORTED BY THE AAIB · 12 JULY 2025" at={cvr - 5} out={cvrEnd + 10} />
       <TimelineT T={T} events={[
         { t: 3, label: 'FUEL SWITCHES → CUTOFF', at: cut, color: C.accent },
@@ -328,6 +341,7 @@ export const S12: React.FC = () => {
                 FAA Special Airworthiness Information Bulletin NM-18-33 (2018)<br /><br />
                 <div style={{ color: C.ink, letterSpacing: 8, marginBottom: 18 }}>IMAGERY</div>
                 Satellite: Sentinel-2 cloudless 2016 by EOX IT Services GmbH (contains modified Copernicus Sentinel data), CC BY 4.0<br />
+                Photos: VT-ANB by RyanZ225 PC (ZhangerAviation), CC BY-SA 4.0 · 787 throttle module by Brussels Airport, CC BY-SA 2.0 (Wikimedia Commons)<br />
                 Dramatizations: AI-generated images (Realistic Vision V5.1). No footage of the accident is shown.<br />
                 Narration: AI voice · Flight path and seat layout illustrative
               </div>
