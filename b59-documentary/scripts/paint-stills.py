@@ -16,18 +16,18 @@ SHOTS = {
     # environments
     "sub_underwater": ("Soviet Foxtrot class diesel submarine gliding deep underwater, dark navy ocean, light rays from surface, warship hulls above", 591),
     "destroyers": ("1960s US Navy destroyers sailing on grey Atlantic ocean, cold daylight, overcast sky, spray", 592),
-    "control_room": ("cramped 1960s Soviet submarine control room, officers at analog gauges and valves, red emergency light, steam", 593),
+    "control_room": ("crowded 1960s Soviet submarine control room, many male sailors and officers at periscope, valves and analog gauges, red emergency light", 811),
     "engine_room": ("1960s submarine battery and engine compartment, analog gauges, pipes, flickering dim yellow lights, sailor checking dials", 594),
-    "radio": ("Soviet sailor radio operator with headphones turning dials on 1960s radio equipment, red light, submarine", 595),
-    "crew_heat": ("exhausted sweating sailors in a cramped hot submarine compartment, bunks and pipes, dim red light", 596),
-    "surfacing": ("Soviet diesel submarine surfacing on the Atlantic ocean in daylight, water pouring off the hull, US destroyer nearby", 597),
+    "radio": ("male Soviet navy sailor radio operator with headphones at 1960s submarine radio set, turning dials, red light, sweat", 812),
+    "crew_heat": ("group of exhausted sweating male sailors in undershirts crowded in a hot cramped submarine compartment, pipes, dim red light", 813),
+    "surfacing": ("black diesel submarine conning tower rising out of grey Atlantic waves, water pouring off, US navy destroyer in the distance", 814),
     "ocean_gold": ("calm ocean horizon at golden sunrise, soft clouds, peaceful, warm light on the water", 598),
     # character lock: one portrait each, reused everywhere
-    "arkhipov": ("portrait of a 36 year old Soviet navy officer in 1962, short dark hair, clean-shaven, calm serious face, black naval uniform, shoulder boards, red light", 701),
-    "savitsky": ("portrait of a tense exhausted Soviet submarine captain in 1962, short dark hair, clean-shaven, black naval uniform with captain insignia, sweat, red light", 702),
-    "political": ("portrait of a stern Soviet naval political officer in 1962, short hair, clean-shaven, black naval uniform, shoulder boards, red light", 703),
+    "arkhipov": ("head and shoulders portrait of a 36 year old Soviet navy officer man, mature face, short dark hair, clean-shaven, calm serious eyes, black naval uniform, red light", 821),
+    "savitsky": ("head and shoulders portrait of a 45 year old Soviet submarine captain man, tense exhausted lined face, short dark hair, clean-shaven, black naval uniform, sweat, red light", 822),
+    "political": ("head and shoulders portrait of a 40 year old stern Soviet naval political officer man, short hair, clean-shaven, black naval uniform, red light", 823),
 }
-NEG = "photo, photograph, 3d render, cgi, anime, cartoon, text, watermark, logo, letters, deformed face, extra fingers, blurry, modern, touchscreen, beard, mustache"
+NEG = "photo, photograph, 3d render, cgi, anime, cartoon, text, watermark, logo, letters, deformed face, extra fingers, blurry, modern, touchscreen, beard, mustache, woman, girl, female, child, teenager, young boy, frame, border, poster"
 
 out = Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)
 names = sys.argv[2:] or list(SHOTS)
