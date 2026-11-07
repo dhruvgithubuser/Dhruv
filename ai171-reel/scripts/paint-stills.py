@@ -18,7 +18,7 @@ SHOTS = {
     "city": ("aerial view of Ahmedabad city India, Sabarmati riverfront, hot hazy summer noon", 101),
     "gate": ("families at an airport departure gate window watching a large white airliner, seen from behind", 102),
     "boarding": ("passengers with hand luggage walking through a jet bridge toward an open aircraft door, seen from behind", 103),
-    "cockpit": ("two airline pilots in the cockpit seen from behind, bright daylight through the windshield, runway ahead", 104),
+    "cockpit": ("captain and first officer, only two pilots, side by side in an airliner cockpit, seen from behind, bright daylight, runway ahead", 214),
     "runway": ("long airport runway at noon, heat haze, control tower in the distance, empty", 105),
     "tower": ("air traffic controller with headset seen from behind looking out of a control tower window", 106),
     "lab": ("accident investigators in gloves examining an orange flight recorder on a workbench", 107),

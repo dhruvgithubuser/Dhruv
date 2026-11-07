@@ -49,7 +49,7 @@ const TimelineT: React.FC<{ T: number; events: { t: number; label: string; at: n
 export const R01: React.FC = () => {
   const f = useCurrentFrame();
   const d = D(1);
-  const n = Math.round(interpolate(f, [0, 24], [0, 32], { extrapolateRight: 'clamp' }));
+  const n = Math.round(interpolate(f, [0, 10], [24, 32], { extrapolateRight: 'clamp' }));
   return (
     <Shake at={0} amp={14}>
       <SatMap keys={[{ f: 0, lat: 23.2, lon: 72.7, z: 9.5 }, { f: d + 10, lat: 23.074, lon: 72.632, z: 13.6, rot: -3 }]}>
@@ -57,8 +57,8 @@ export const R01: React.FC = () => {
       </SatMap>
       <div style={{ position: 'absolute', left: 0, right: 0, top: 330, textAlign: 'center' }}>
         <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 300, lineHeight: 1, color: '#fff', textShadow: '0 0 60px rgba(232,65,44,0.6), 0 8px 30px #000' }}>{n}</div>
-        <div style={{ fontFamily: SANS, fontWeight: 300, fontSize: 64, letterSpacing: 26, color: '#fff', marginTop: 4, opacity: lin(f, 12, 24), textShadow: '0 4px 20px #000' }}>SECONDS</div>
-        <div style={{ fontFamily: MONO, fontSize: 30, letterSpacing: 6, color: C.accent, marginTop: 24, opacity: lin(f, 28, 40) }}>AIR INDIA FLIGHT AI171</div>
+        <div style={{ fontFamily: SANS, fontWeight: 300, fontSize: 64, letterSpacing: 26, color: '#fff', marginTop: 4, textShadow: '0 4px 20px #000' }}>SECONDS</div>
+        <div style={{ fontFamily: MONO, fontSize: 30, letterSpacing: 6, color: C.accent, marginTop: 24, textShadow: '0 2px 12px #000' }}>AIR INDIA FLIGHT AI171</div>
       </div>
     </Shake>
   );
@@ -177,14 +177,14 @@ export const R08: React.FC = () => {
   return (
     <Shake at={may} amp={20}>
       <DepthShot name="tower" frames={d} from={{ x: 0.3, y: 0, z: 1.04 }} to={{ x: -0.3, y: 0.1, z: 1.18 }} grade="contrast(1.1) saturate(0.7) brightness(0.55)" />
-      <AbsoluteFill style={{ opacity: 1 - lin(f, may - 10, may) }}>
+      <AbsoluteFill style={{ opacity: 1 - lin(f, wf(8, 'relight') - 5, wf(8, 'relight') + 10) }}>
         <FuelSwitches cut={[-60, -60]} back={[10, 30]} at={-30} />
       </AbsoluteFill>
       <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', opacity: lin(f, may - 2, may + 4) }}>
-        <div style={{ fontFamily: MONO, fontSize: 130, letterSpacing: 18, color: C.accent, textShadow: '0 0 50px rgba(232,65,44,0.7)', marginTop: -300 }}>MAYDAY</div>
+        <div style={{ fontFamily: MONO, fontSize: 130, letterSpacing: 18, color: C.accent, textShadow: '0 0 50px rgba(232,65,44,0.7)', marginTop: -420, background: 'rgba(0,0,0,0.55)', padding: '0 30px' }}>MAYDAY</div>
         <div style={{ fontFamily: MONO, fontSize: 34, letterSpacing: 6, color: '#fff' }}>LOSS OF THRUST · T+26 s</div>
       </AbsoluteFill>
-      <TimelineT T={T} events={[{ t: 3, label: 'CUTOFF', at: -50, color: C.accent }, { t: 13, label: 'ENG 1 → RUN', at: 0, color: '#9fe0a0' }, { t: 17, label: 'ENG 2 → RUN', at: 10, color: '#9fe0a0' }, { t: 26, label: 'MAYDAY', at: may, color: C.accent }]} />
+      <TimelineT T={T} events={[{ t: 3, label: 'CUTOFF', at: -50, color: C.accent }, { t: 15, label: 'BOTH → RUN', at: 10, color: '#9fe0a0' }]} />
     </Shake>
   );
 };
@@ -197,7 +197,7 @@ export const R09: React.FC = () => {
   const prog = ease(f, 0, hit, 0.4, 1);
   return (
     <AbsoluteFill>
-      <SatMap keys={[{ f: 0, lat: 23.065, lon: 72.622, z: 14.4, rot: -30 }, { f: d, lat: 23.057, lon: 72.614, z: 15.0, rot: -30 }]}>
+      <SatMap keys={[{ f: 0, lat: 23.062, lon: 72.619, z: 14.4 }, { f: d, lat: 23.058, lon: 72.615, z: 15.0 }]}>
         {(cam) => {
           const pts = PATH.map((p) => project(cam, p[0], p[1]));
           const n = Math.max(2, Math.round(prog * (pts.length - 1)) + 1);
@@ -209,7 +209,7 @@ export const R09: React.FC = () => {
               <circle cx={pts[n - 1][0]} cy={pts[n - 1][1]} r={14} fill="#fff" stroke={C.accent} strokeWidth={5} />
               {k > 0 && <line x1={e[0]} y1={e[1]} x2={e[0] + (c[0] - e[0]) * k} y2={e[1] + (c[1] - e[1]) * k} stroke="#fff" strokeWidth={4} strokeDasharray="10 10" />}
               {k > 0.95 && <text x={(e[0] + c[0]) / 2 + 30} y={(e[1] + c[1]) / 2} fontFamily={MONO} fontSize={44} fill={C.amber} style={{ paintOrder: 'stroke', stroke: '#000', strokeWidth: 6 }}>1.7 km</text>}
-              <Marker x={c[0]} y={c[1]} label="MEDICAL COLLEGE HOSTEL" sub="MEGHANI NAGAR" o={lin(f, hit, hit + 12)} dx={-40} dy={170} />
+              <Marker x={c[0]} y={c[1]} label="MEDICAL COLLEGE HOSTEL" sub="MEGHANI NAGAR" o={lin(f, hit, hit + 12)} dx={40} dy={-230} />
             </g>
           );
         }}
@@ -256,7 +256,7 @@ export const R12: React.FC = () => {
       <DepthShot name="vigil" frames={d} from={{ x: 0, y: 0.2, z: 1.03 }} to={{ x: 0, y: -0.1, z: 1.18 }} grade="contrast(1.05) saturate(0.9) brightness(0.7)" />
       <LightLeak o={0.25} seed={12} />
       <Headline lines={['260 lives', '32 seconds']} at={8} out={d + 10} top={330} />
-      <div style={{ position: 'absolute', left: 60, right: 60, top: 1500, textAlign: 'center', opacity: lin(f, end - 20, end), fontFamily: MONO, fontSize: 20, lineHeight: 1.7, letterSpacing: 1, color: 'rgba(255,255,255,0.7)' }}>
+      <div style={{ position: 'absolute', left: 60, right: 60, top: 520, textAlign: 'center', opacity: lin(f, end - 20, end), fontFamily: MONO, fontSize: 20, lineHeight: 1.7, letterSpacing: 1, color: 'rgba(255,255,255,0.7)' }}>
         SOURCES: AAIB INDIA PRELIMINARY REPORT (12 JULY 2025) · WIKIPEDIA: AIR INDIA FLIGHT 171<br />
         MAPS: SENTINEL-2 CLOUDLESS 2016, EOX, CC BY 4.0 · ILLUSTRATIONS AI-GENERATED · AI NARRATION
       </div>
