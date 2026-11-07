@@ -22,3 +22,8 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+
+# Reel production (regenerable)
+node_modules/
+out/
+return-of-ram/audio/*.wav
