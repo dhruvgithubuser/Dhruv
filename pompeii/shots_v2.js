@@ -19,7 +19,7 @@ const TAU = Math.PI * 2;
 function plate(ctx, img, W, H, k, from, to, { roll = 0, grade = null, shakeAmp = 0, t = 0 } = {}) {
   if (!img) { ctx.fillStyle = '#20160f'; ctx.fillRect(0, 0, W, H); return; }
   const p = E.inOutSine(clamp(k));
-  const z = from[2] * (to[2] / from[2]) ** p, fx = lerp(from[0], to[0], p), fy = lerp(from[1], to[1], p);
+  const z = 1.07 * from[2] * (to[2] / from[2]) ** p, fx = lerp(from[0], to[0], p), fy = lerp(from[1], to[1], p);
   const s = Math.max(W / img.width, H / img.height) * z, dw = img.width * s, dh = img.height * s;
   ctx.save();
   if (shakeAmp) ctx.translate(shakeAmp * Math.sin(t * 53) * Math.sin(t * 7), shakeAmp * Math.cos(t * 47) * Math.sin(t * 5));
