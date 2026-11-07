@@ -826,7 +826,7 @@ M.film({
     const g = ctx.createLinearGradient(0, H * 0.6, 0, H); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,0.5)');
     ctx.fillStyle = g; ctx.fillRect(0, H * 0.6, W, H * 0.4);
     ctx.restore();
-    captions(ctx, u);
+    if (M.CFG.captions !== false) captions(ctx, u);   // film.json "captions": false -> song-ready version
     // grain at 24 fps
     ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.globalAlpha = 0.09;
     ctx.drawImage(grainTiles[Math.floor(t * 24) % 4], 0, 0, W, H); ctx.restore();
