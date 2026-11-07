@@ -26,6 +26,18 @@ The man who saved the world never fired a shot. He refused to mistake a warning 
 
 📌 Subscribe to Buried Chronicles for forgotten heroes and hidden stories from history.
 
+📚 SOURCES
+• 1983 Soviet nuclear false alarm incident — Wikipedia: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+• Stanislav Petrov — Wikipedia: https://en.wikipedia.org/wiki/Stanislav_Petrov
+• Stanislav Petrov — Encyclopaedia Britannica: https://www.britannica.com/biography/Stanislav-Petrov
+• "1983: Averting potential nuclear war" — APS News: https://www.aps.org/apsnews/2026/09/1983-averting-potential-nuclear-war
+• "Stanislav Petrov, 'The Man Who Saved The World,' Dies At 77" — NPR (via Texas Public Radio), 18 Sept 2017: https://www.tpr.org/2017-09-18/stanislav-petrov-the-man-who-saved-the-world-dies-at-77
+• "The unsung Soviet officer who averted nuclear war" — WGBH, 21 Sept 2017: https://www.wgbh.org/news/2017-09-21/the-unsung-soviet-officer-who-averted-nuclear-war
+• "Stanislav Petrov: The man who may have saved the world" — BBC News, Sept 2013 (interview with Petrov)
+
+Accounts differ on some details (for example, exactly what Petrov told his superiors); this Short follows the widely reported version.
+🎨 Illustrations: Buried Chronicles (2D animation). Narration: AI voice.
+
 #StanislavPetrov #ColdWar #History #Shorts #WW3 #NuclearWar #1983 #HistoryShorts #ForgottenHeroes #TrueStory
 ```
 
