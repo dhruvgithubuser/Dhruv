@@ -1,0 +1,336 @@
+1
+00:00:06,400 --> 00:00:07,900
+Thursday, the twelfth of June,
+
+2
+00:00:07,900 --> 00:00:10,910
+2025. Ahmedabad, Gujarat.
+
+3
+00:00:11,813 --> 00:00:13,783
+The afternoon was hot and clear.
+
+4
+00:00:14,193 --> 00:00:16,803
+Light winds. Six kilometres of visibility.
+
+5
+00:00:17,918 --> 00:00:20,658
+At Sardar Vallabhbhai Patel International
+
+6
+00:00:20,658 --> 00:00:24,698
+Airport, a Boeing 787 Dreamliner was being
+
+7
+00:00:24,698 --> 00:00:26,518
+prepared for a long flight west,
+
+8
+00:00:26,518 --> 00:00:28,188
+to London Gatwick.
+
+9
+00:00:28,939 --> 00:00:32,259
+This is the story of Air India Flight 171,
+
+10
+00:00:32,259 --> 00:00:35,119
+and of thirty-two seconds that are still
+
+11
+00:00:35,119 --> 00:00:36,349
+not fully explained.
+
+12
+00:00:41,517 --> 00:00:43,337
+Air India Flight 171.
+
+13
+00:00:43,337 --> 00:00:45,557
+Two hundred and thirty passengers.
+
+14
+00:00:45,557 --> 00:00:46,747
+Twelve crew.
+
+15
+00:00:47,338 --> 00:00:50,418
+The aircraft, registered VT-ANB,
+
+16
+00:00:50,418 --> 00:00:52,988
+had flown with Air India since 2014.
+
+17
+00:00:53,768 --> 00:00:56,338
+In the cockpit sat an experienced crew.
+
+18
+00:00:56,848 --> 00:01:00,338
+The captain had logged around 15,600 hours.
+
+19
+00:01:00,788 --> 00:01:04,090
+The first officer, around 3,400.
+
+20
+00:01:04,740 --> 00:01:07,280
+The jet was cleared for a full-length takeoff
+
+21
+00:01:07,280 --> 00:01:08,750
+from runway 23.
+
+22
+00:01:09,416 --> 00:01:12,296
+After a 62-second takeoff roll,
+
+23
+00:01:12,296 --> 00:01:15,606
+at 1:38 and 39 seconds in the afternoon,
+
+24
+00:01:16,096 --> 00:01:18,366
+Flight 171 left the ground.
+
+25
+00:01:19,589 --> 00:01:22,619
+Three seconds later, at 180 knots,
+
+26
+00:01:22,989 --> 00:01:25,799
+the flight recorder logged something extraordinary.
+
+27
+00:01:26,621 --> 00:01:28,981
+Both engine fuel control switches moved
+
+28
+00:01:28,981 --> 00:01:31,461
+from RUN to CUTOFF.
+
+29
+00:01:31,461 --> 00:01:32,611
+One after the other.
+
+30
+00:01:32,961 --> 00:01:33,951
+One second apart.
+
+31
+00:01:35,039 --> 00:01:36,689
+Fuel to both engines stopped.
+
+32
+00:01:37,059 --> 00:01:38,629
+Thrust began to fall away.
+
+33
+00:01:39,179 --> 00:01:40,289
+The ram air turbine,
+
+34
+00:01:40,679 --> 00:01:42,869
+the aircraft's emergency power source,
+
+35
+00:01:43,219 --> 00:01:44,632
+dropped into the airstream.
+
+36
+00:01:45,182 --> 00:01:46,832
+On the cockpit voice recording,
+
+37
+00:01:47,322 --> 00:01:49,902
+one pilot asks the other why he cut off
+
+38
+00:01:49,902 --> 00:01:52,262
+the fuel. The other replies that he did
+
+39
+00:01:52,262 --> 00:01:52,712
+not.
+
+40
+00:01:53,543 --> 00:01:55,503
+Ten seconds after the cutoff,
+
+41
+00:01:55,503 --> 00:01:57,973
+the first switch was moved back to RUN.
+
+42
+00:01:58,483 --> 00:02:00,233
+Four seconds later, the second.
+
+43
+00:02:00,563 --> 00:02:02,953
+The engines began trying to relight.
+
+44
+00:02:03,503 --> 00:02:04,933
+Then, a mayday call.
+
+45
+00:02:05,283 --> 00:02:06,233
+A loss of thrust.
+
+46
+00:02:06,743 --> 00:02:08,523
+The controller asked for the flight's call
+
+47
+00:02:08,523 --> 00:02:10,273
+sign. There was no reply.
+
+48
+00:02:11,460 --> 00:02:13,310
+Thirty-two seconds after takeoff,
+
+49
+00:02:13,760 --> 00:02:16,230
+at 13:39 and 11 seconds,
+
+50
+00:02:16,560 --> 00:02:17,690
+the recordings stopped.
+
+51
+00:02:19,888 --> 00:02:24,128
+Flight 171 came down 1.7 kilometres from
+
+52
+00:02:24,128 --> 00:02:26,528
+the runway, onto the hostel buildings of
+
+53
+00:02:26,528 --> 00:02:30,258
+B.J. Medical College, in Meghani Nagar.
+
+54
+00:02:30,898 --> 00:02:34,848
+It was lunchtime. Of the 242 people on board,
+
+55
+00:02:35,738 --> 00:02:38,158
+241 were killed. On the ground,
+
+56
+00:02:38,158 --> 00:02:40,298
+nineteen more lost their lives,
+
+57
+00:02:40,298 --> 00:02:42,988
+and 67 were seriously injured.
+
+58
+00:02:44,016 --> 00:02:46,716
+One passenger survived. He had been sitting
+
+59
+00:02:46,716 --> 00:02:50,386
+in seat 11A, beside an emergency exit.
+
+60
+00:02:51,042 --> 00:02:54,242
+Hundreds of firefighters, soldiers and disaster
+
+61
+00:02:54,242 --> 00:02:56,732
+response teams were sent to the site.
+
+62
+00:02:58,035 --> 00:03:00,475
+India's Aircraft Accident Investigation
+
+63
+00:03:00,475 --> 00:03:02,805
+Bureau led the inquiry,
+
+64
+00:03:03,275 --> 00:03:05,905
+assisted by British and American investigators.
+
+65
+00:03:06,769 --> 00:03:08,779
+Both flight recorders were recovered.
+
+66
+00:03:09,329 --> 00:03:11,789
+A month later, the preliminary report set
+
+67
+00:03:11,789 --> 00:03:13,299
+out what the switches did,
+
+68
+00:03:13,629 --> 00:03:14,339
+but not why.
+
+69
+00:03:15,164 --> 00:03:17,054
+It found no mechanical fault.
+
+70
+00:03:17,544 --> 00:03:19,924
+It made no safety recommendations for Boeing,
+
+71
+00:03:19,924 --> 00:03:21,524
+or for the engine maker,
+
+72
+00:03:21,524 --> 00:03:22,621
+GE.
+
+73
+00:03:23,071 --> 00:03:27,051
+In 2018, the US regulator had advised operators
+
+74
+00:03:27,051 --> 00:03:29,701
+to inspect the switches' locking feature.
+
+75
+00:03:30,271 --> 00:03:31,711
+Air India had not done so,
+
+76
+00:03:31,711 --> 00:03:34,081
+because the advice was not mandatory.
+
+77
+00:03:34,871 --> 00:03:36,891
+Later inspections of its fleet found no
+
+78
+00:03:36,891 --> 00:03:37,381
+problems.
+
+79
+00:03:38,317 --> 00:03:39,847
+At the time of this film,
+
+80
+00:03:40,117 --> 00:03:42,427
+the final report had not been made public.
+
+81
+00:03:44,261 --> 00:03:45,721
+Two hundred and sixty lives.
+
+82
+00:03:45,721 --> 00:03:47,271
+Thirty-two seconds.
+
+83
+00:03:48,218 --> 00:03:50,658
+And a question that their families are still
+
+84
+00:03:50,658 --> 00:03:52,068
+waiting to have answered.
+
