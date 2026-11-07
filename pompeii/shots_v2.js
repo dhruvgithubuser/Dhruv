@@ -93,7 +93,7 @@ export function buildShotsV2(TL) {
     '7E': [P('7E'), [0.5, 0.5, 1.0], [0.5, 0.5, 1.25], (c, lt, d, t, W, H) => smoke(c, W, H, t, 0.35 + 0.4 * lt / d, 'grey', 0.8)],
     '7F': [P('7F'), [0.5, 0.5, 1.0], [0.5, 0.55, 1.15], (c, lt, d, t, W, H) => { fall(c, W, H, t, { kind: 'ash', density: 0.4, wind: 20 }); c.fillStyle = `rgba(150,142,132,${0.9 * smooth(d - 2.2, d, lt)})`; c.fillRect(0, 0, W, H); }],
     '8A': [P('8A'), [0.5, 0.5, 1.15], [0.5, 0.5, 1.0], (c, lt, d, t, W, H) => smoke(c, W, H, t, 0.18, 'grey', 0.55)],
-    '8B': [P('8B'), [0.5, 0.5, 1.0], [0.5, 0.55, 1.12], (c, lt, d, t, W, H) => { callout(c, W * 0.55, H * 0.4, W * 0.7, H * 0.18, 'PUMICE & ASH LAYERS', 'several metres deep', smooth(0.5, 2, lt)); callout(c, W * 0.4, H * 0.75, W * 0.18, H * 0.88, 'BURIED HOUSES', 'walls sealed in place', smooth(2, 3.5, lt), { align: 'left' }); }],
+    '8B': [P('8B'), [0.5, 0.5, 1.0], [0.5, 0.55, 1.12], (c, lt, d, t, W, H) => { callout(c, W * 0.42, H * 0.3, W * 0.62, H * 0.16, 'SEALED BENEATH THE DEPOSITS', 'layers of pumice and ash, several metres deep', smooth(0.5, 2, lt)); }],
     '8C': [P('8C'), [0.5, 0.5, 1.0], [0.5, 0.45, 1.12], (c, lt, d, t, W, H) => rays(c, W * 0.7, 0, H, 0.4, 0.1, [255, 240, 210], 6, t)],
     '8E': [P('8E'), [0.5, 0.5, 1.2], [0.5, 0.5, 1.0], (c, lt, d, t, W, H) => smoke(c, W, H, t, 0.12, 'grey', 0.4)],
     '9A': [P('9A'), [0.5, 0.5, 1.15], [0.5, 0.5, 1.0], (c, lt, d, t, W, H) => stamp(c, W, H, `AD ${Math.round(lerp(79, 500, smooth(1, d, lt)))}`, smooth(0, 1, lt), 0, { y: H * 0.2, size: 96 })],
