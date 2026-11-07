@@ -1,0 +1,1836 @@
+{
+ "duration": 439.254,
+ "shots": [
+  {
+   "id": "1A",
+   "t0": 0,
+   "t1": 8,
+   "set": "aerial",
+   "amb": "dawn",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Establishing aerial at dawn: the walled town on the plain, Vesuvius (a single green cone) beyond, mist over the vineyards. Slow descending push.",
+   "sfx": [
+    [
+     0,
+     "swell",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "1B",
+   "t0": 8,
+   "t1": 15.383,
+   "set": "street",
+   "amb": "street_morning",
+   "tin": [
+    "dissolve",
+    1.2
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Street level, morning: a slow dolly down a paved street as shops open; crowd, fountain, the arch and Vesuvius closing the view.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "1C",
+   "t0": 15.383,
+   "t1": 22.757,
+   "set": "aerial",
+   "amb": "dawn",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Title: low golden aerial gliding over the town toward the mountain. POMPEII title card + lower third (Campania, Roman Italy, AD 79).",
+   "sfx": [
+    [
+     15.583,
+     "swell",
+     0.6
+    ],
+    [
+     16.983,
+     "boom",
+     0.35
+    ]
+   ],
+   "title": true,
+   "lower": [
+    "CAMPANIA · ROMAN ITALY",
+    "AD 79 · REIGN OF TITUS"
+   ],
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "1D",
+   "t0": 22.757,
+   "t1": 30.547,
+   "set": "street",
+   "amb": "street_morning",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Marcus slides the shutters off his food counter; Livia and Julia pass with a basket; old Gaius greets them from across the street.",
+   "sfx": [
+    [
+     23.357,
+     "wood",
+     0.5
+    ],
+    [
+     24.357,
+     "wood",
+     0.4
+    ],
+    [
+     25.357,
+     "wood",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "1E",
+   "t0": 30.547,
+   "t1": 36.568,
+   "set": "street",
+   "amb": "street_morning",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Tilt up from the street to Vesuvius above the arch; music turns minor.",
+   "sfx": [
+    [
+     30.747,
+     "rumble",
+     0.25
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "2A",
+   "t0": 36.568,
+   "t1": 47.711,
+   "set": "map",
+   "amb": "map",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "MAP · APPROXIMATE AD 79 COASTLINE",
+   "desc": "Map: the Mediterranean, then Italy and Campania; Rome and Pompeii labelled; sea routes from Puteoli to Ostia, Alexandria and Carthage draw on.",
+   "sfx": [
+    [
+     36.968,
+     "paper",
+     0.6
+    ],
+    [
+     39.768,
+     "tick",
+     0.4
+    ],
+    [
+     41.768,
+     "tick",
+     0.4
+    ],
+    [
+     43.168,
+     "whoosh",
+     0.3
+    ],
+    [
+     44.768,
+     "tick",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "2B",
+   "t0": 47.711,
+   "t1": 52.995,
+   "set": "street",
+   "amb": "market",
+   "tin": [
+    "whip",
+    0.5
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Lateral tracking shot past shopfronts; labels: TABERNA (shop), THERMOPOLIUM (hot-food counter), FOUNTAIN.",
+   "sfx": [
+    [
+     47.711,
+     "whoosh",
+     0.4
+    ],
+    [
+     48.711,
+     "tick",
+     0.35
+    ],
+    [
+     49.911,
+     "tick",
+     0.35
+    ],
+    [
+     51.111,
+     "tick",
+     0.35
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "2C",
+   "t0": 52.995,
+   "t1": 61.999,
+   "set": "atrium",
+   "amb": "room",
+   "tin": [
+    "dissolve",
+    0.9
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Inside a wealthy house: the atrium with its impluvium and painted red panels; the camera glides toward the garden as the family crosses.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "2D",
+   "t0": 61.999,
+   "t1": 65.607,
+   "set": "forum",
+   "amb": "forum",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "The Forum: crowds before the Temple of Jupiter, Vesuvius rising behind it. Slow push.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "2E",
+   "t0": 65.607,
+   "t1": 76.093,
+   "set": "slopes",
+   "amb": "country",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "The vineyards on the slopes of Vesuvius: workers among the vines, cypresses, the mountain filling the frame. A low rumble under the music.",
+   "sfx": [
+    [
+     70.407,
+     "rumble",
+     0.3
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "3A",
+   "t0": 76.093,
+   "t1": 79.822,
+   "set": "aerial",
+   "amb": "wind",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Brooding aerial close on the cone, low cloud; the mountain as character.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "3B",
+   "t0": 79.822,
+   "t1": 90.759,
+   "set": "forum",
+   "amb": "quake",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Earthquake c. AD 62: the Forum shakes, columns tilt, dust pours from the cornices. Date stamp.",
+   "sfx": [
+    [
+     79.822,
+     "quake",
+     0.9
+    ],
+    [
+     79.922,
+     "impact",
+     0.6
+    ],
+    [
+     83.022,
+     "crack",
+     0.5
+    ],
+    [
+     85.322,
+     "crack",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": "c. AD 62",
+   "caption": null
+  },
+  {
+   "id": "3C",
+   "t0": 90.759,
+   "t1": 93.784,
+   "set": "forum",
+   "amb": "forum_work",
+   "tin": [
+    "dissolve",
+    0.7
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Years later: scaffolding around the temple and colonnades. Repairs were still under way in AD 79.",
+   "sfx": [
+    [
+     91.159,
+     "pick",
+     0.4
+    ],
+    [
+     91.859,
+     "pick",
+     0.4
+    ],
+    [
+     92.559,
+     "pick",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "3D",
+   "t0": 93.784,
+   "t1": 99.797,
+   "set": "cutaway",
+   "amb": "deep",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "Geological cutaway: magma reservoir, conduit, rising magma; callouts.",
+   "sfx": [
+    [
+     94.084,
+     "rumble",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "3E",
+   "t0": 99.797,
+   "t1": 108.999,
+   "set": "cutaway",
+   "amb": "deep",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "The cutaway pans to the town on the plain: \"beneath their feet\".",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4A",
+   "t0": 108.999,
+   "t1": 118.921,
+   "set": "calendar",
+   "amb": "paper",
+   "tin": [
+    "dip",
+    0.8
+   ],
+   "tag": "ARCHAEOLOGICAL EVIDENCE · ILLUSTRATED",
+   "desc": "Dating the eruption: the manuscript tradition (24 August) presented as a page from Pliny's letters.",
+   "sfx": [
+    [
+     109.099,
+     "impact",
+     0.6
+    ],
+    [
+     112.399,
+     "paper",
+     0.6
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": "AD 79",
+   "caption": null
+  },
+  {
+   "id": "4B",
+   "t0": 118.921,
+   "t1": 129.483,
+   "set": "calendar",
+   "amb": "paper",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARCHAEOLOGICAL EVIDENCE · ILLUSTRATED",
+   "desc": "The 2018 charcoal inscription (\"XVI K NOV\" = 17 October) slides in beside it: an autumn date is possible. Other debated clues listed.",
+   "sfx": [
+    [
+     119.121,
+     "paper",
+     0.6
+    ],
+    [
+     122.921,
+     "tick",
+     0.3
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4C",
+   "t0": 129.483,
+   "t1": 137.125,
+   "set": "aerial",
+   "amb": "eruption",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "THE ERUPTION: wide aerial from the south. A blast at the summit; the column climbs into the sky over the bay.",
+   "sfx": [
+    [
+     129.483,
+     "blast",
+     1
+    ],
+    [
+     129.533,
+     "impact",
+     0.8
+    ],
+    [
+     129.983,
+     "rumble",
+     0.8
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4D",
+   "t0": 137.125,
+   "t1": 140.823,
+   "set": "street",
+   "amb": "street_alarm",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "From the street: the column towers above the arch; people stop and stare.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4E",
+   "t0": 140.823,
+   "t1": 147.54,
+   "set": "bay",
+   "amb": "sea",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Across the bay at Misenum: an onlooker under an umbrella pine; a gold outline traces the pine shape over the distant column (Pliny's comparison).",
+   "sfx": [
+    [
+     142.423,
+     "shimmer",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": [
+    "MISENUM · ACROSS THE BAY",
+    "PLINY THE YOUNGER'S VIEWPOINT · c. 30 KM"
+   ],
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4F",
+   "t0": 147.54,
+   "t1": 152.173,
+   "set": "street",
+   "amb": "street_alarm",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "The family and Gaius look toward the mountain; Gaius points.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4G",
+   "t0": 152.173,
+   "t1": 154.141,
+   "set": "street",
+   "amb": "wind",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Looking up: the umbrella cloud spreads overhead and the sun dims.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4H",
+   "t0": 154.141,
+   "t1": 156.273,
+   "set": "street",
+   "amb": "wind",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Close: Julia holds out her hand as fine ash drifts down.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "4I",
+   "t0": 156.273,
+   "t1": 161.835,
+   "set": "aerial",
+   "amb": "eruption",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Wide aerial: the umbrella cloud spreads south-east over the town; ash begins to fall.",
+   "sfx": [
+    [
+     156.773,
+     "rumble",
+     0.6
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5A",
+   "t0": 161.835,
+   "t1": 168.368,
+   "set": "map",
+   "amb": "map_dark",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "MAP · APPROXIMATE AD 79 COASTLINE",
+   "desc": "Map of the bay: the plume drifts south-east; Pompeii and Stabiae fall inside the ash and pumice lobe.",
+   "sfx": [
+    [
+     162.135,
+     "paper",
+     0.5
+    ],
+    [
+     164.235,
+     "whoosh",
+     0.3
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5B",
+   "t0": 168.368,
+   "t1": 172.78,
+   "set": "street",
+   "amb": "pumice",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Pumice rains on the street, bouncing off the paving and piling up; people pull cloth over their heads.",
+   "sfx": [
+    [
+     168.368,
+     "pumice_start",
+     0.7
+    ]
+   ],
+   "title": false,
+   "lower": [
+    "PUMICE FALL",
+    "DEPOSITS BUILT UP OVER MANY HOURS"
+   ],
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5C",
+   "t0": 172.78,
+   "t1": 176.019,
+   "set": "street",
+   "amb": "pumice",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Wide street: daylight fails; a lamp is lit in a doorway.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5D",
+   "t0": 176.019,
+   "t1": 178.961,
+   "set": "atrium",
+   "amb": "interior_pumice",
+   "tin": [
+    "dissolve",
+    0.5
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Lamp-lit atrium: Marcus at the doorway, Livia holding Julia, Gaius urging them to leave: an impossible decision (no dialogue).",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5E",
+   "t0": 178.961,
+   "t1": 180.621,
+   "set": "street",
+   "amb": "pumice",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Some flee: figures with cloth over their heads hurry away toward a city gate.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5F",
+   "t0": 180.621,
+   "t1": 182.818,
+   "set": "atrium",
+   "amb": "interior_pumice",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Others shelter: a family huddles by lamplight as pumice drifts through the roof opening.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5G",
+   "t0": 182.818,
+   "t1": 188.86,
+   "set": "street",
+   "amb": "pumice",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Roof failure: the weight of pumice brings down a roof; tiles and beams fall in a burst of dust.",
+   "sfx": [
+    [
+     185.218,
+     "creak",
+     0.6
+    ],
+    [
+     185.818,
+     "collapse",
+     1
+    ]
+   ],
+   "title": false,
+   "lower": [
+    "ROOFS GAVE WAY",
+    "UNDER THE WEIGHT OF PUMICE"
+   ],
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "5H",
+   "t0": 188.86,
+   "t1": 195.545,
+   "set": "street",
+   "amb": "pumice",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Marcus carries Julia; Livia and Gaius follow through knee-deep pumice into the dark. Their fate is left unknown.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6A",
+   "t0": 195.545,
+   "t1": 200.204,
+   "set": "aerial",
+   "amb": "eruption_night",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Time passes: the aerial goes from dusk to night, lightning in the column. A timeline of the eruption phases runs below (approximate).",
+   "sfx": [
+    [
+     197.345,
+     "thunder",
+     0.6
+    ],
+    [
+     199.145,
+     "thunder",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6B",
+   "t0": 200.204,
+   "t1": 205.682,
+   "set": "street",
+   "amb": "night_chaos",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Night street: torches, deep pumice, people struggling over the drifts.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6C",
+   "t0": 205.682,
+   "t1": 209.577,
+   "set": "street",
+   "amb": "night_chaos",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "A building front collapses across the street.",
+   "sfx": [
+    [
+     206.582,
+     "collapse",
+     1
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6D",
+   "t0": 209.577,
+   "t1": 211.698,
+   "set": "street",
+   "amb": "night_chaos",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Families separated: torch-lit figures scatter in different directions at a junction.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6E",
+   "t0": 211.698,
+   "t1": 214.175,
+   "set": "street",
+   "amb": "night_chaos",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Visibility collapses: ash fog swallows the street until only lamp glows remain.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6F",
+   "t0": 214.175,
+   "t1": 220.272,
+   "set": "atrium",
+   "amb": "interior_quake",
+   "tin": [
+    "dissolve",
+    0.5
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Cross-cut inside: the lamp sways, dust sifts from the ceiling, the room trembles.",
+   "sfx": [
+    [
+     215.175,
+     "rumble",
+     0.6
+    ],
+    [
+     217.575,
+     "crack",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "6G",
+   "t0": 220.272,
+   "t1": 224.864,
+   "set": "aerial",
+   "amb": "eruption_night",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Night aerial: the glowing column wavers. Music drops out on \"still to come\".",
+   "sfx": [
+    [
+     221.272,
+     "thunder",
+     0.5
+    ],
+    [
+     222.872,
+     "sub",
+     0.7
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "7A",
+   "t0": 224.864,
+   "t1": 229.232,
+   "set": "pdc",
+   "amb": "science",
+   "tin": [
+    "dip",
+    0.8
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "Side-section diagram: the stable eruption column, labelled.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "7B",
+   "t0": 229.232,
+   "t1": 236.568,
+   "set": "pdc",
+   "amb": "rush",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "The column collapses and feeds a pyroclastic current that races down the flank toward the town.",
+   "sfx": [
+    [
+     230.232,
+     "rush",
+     0.9
+    ],
+    [
+     230.232,
+     "riser",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "7C",
+   "t0": 236.568,
+   "t1": 245.331,
+   "set": "lava",
+   "amb": "science",
+   "tin": [
+    "wipe",
+    0.6
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "Split screen: a slow lava flow (crossed out) vs a fast pyroclastic current.",
+   "sfx": [
+    [
+     236.668,
+     "whoosh",
+     0.5
+    ],
+    [
+     241.468,
+     "thud",
+     0.6
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "7D",
+   "t0": 245.331,
+   "t1": 254.638,
+   "set": "map",
+   "amb": "map_dark",
+   "tin": [
+    "dissolve",
+    0.7
+   ],
+   "tag": "MAP · APPROXIMATE AD 79 COASTLINE",
+   "desc": "Map: currents spread from the volcano. Herculaneum struck first (overnight), Pompeii the next morning, Stabiae later (sequence per deposit studies; times approximate).",
+   "sfx": [
+    [
+     246.131,
+     "rush",
+     0.5
+    ],
+    [
+     251.131,
+     "rush",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "7E",
+   "t0": 254.638,
+   "t1": 260.308,
+   "set": "aerial",
+   "amb": "rush",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Grey dawn: from a distance, the current rolls across the plain toward the walls and the town disappears into it. No victims shown.",
+   "sfx": [
+    [
+     254.838,
+     "rush",
+     1
+    ],
+    [
+     258.038,
+     "impact",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "7F",
+   "t0": 260.308,
+   "t1": 266.363,
+   "set": "street",
+   "amb": "silence",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Silence. An empty street under ash; Julia's small wooden horse lies on the surface as the grey thickens.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "8A",
+   "t0": 266.363,
+   "t1": 272.031,
+   "set": "aerial",
+   "amb": "aftermath",
+   "tin": [
+    "dissolve",
+    1.2
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Aftermath: a grey, smoking landscape where the town was; weak sun.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "8B",
+   "t0": 272.031,
+   "t1": 278.49,
+   "set": "strata",
+   "amb": "aftermath",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "Cross-section: the town's walls with the deposits stacked over them: white pumice, grey pumice, current layers, later soils.",
+   "sfx": [
+    [
+     272.631,
+     "thud",
+     0.4
+    ],
+    [
+     273.831,
+     "thud",
+     0.4
+    ],
+    [
+     275.031,
+     "thud",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "8C",
+   "t0": 278.49,
+   "t1": 282.759,
+   "set": "forum",
+   "amb": "aftermath",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "The Forum, empty and half-buried, in pale light. A quiet caption: no exact death toll is known.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": "Many died. Others escaped. The exact number of victims is unknown."
+  },
+  {
+   "id": "8D",
+   "t0": 282.759,
+   "t1": 289.596,
+   "set": "map",
+   "amb": "map_dark",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "MAP · APPROXIMATE AD 79 COASTLINE",
+   "desc": "Map pins: Herculaneum, Oplontis, Stabiae and Pompeii: the communities buried.",
+   "sfx": [
+    [
+     283.559,
+     "pin",
+     0.5
+    ],
+    [
+     284.559,
+     "pin",
+     0.5
+    ],
+    [
+     285.559,
+     "pin",
+     0.5
+    ],
+    [
+     286.559,
+     "pin",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "8E",
+   "t0": 289.596,
+   "t1": 296.626,
+   "set": "aerial",
+   "amb": "aftermath",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Wide: the smoking mountain over the grey plain and the bay. Slow pull-back.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "9A",
+   "t0": 296.626,
+   "t1": 307.177,
+   "set": "aerial",
+   "amb": "time",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Time-lapse: green returns over the buried plain; a year counter starts at AD 79.",
+   "sfx": [
+    [
+     297.126,
+     "clock",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "9B",
+   "t0": 307.177,
+   "t1": 313.731,
+   "set": "strata",
+   "amb": "time",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "SCIENTIFIC ILLUSTRATION · SIMPLIFIED",
+   "desc": "Not erased, preserved: the section again, the town sealed under the layers, grass on the surface.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "9C",
+   "t0": 313.731,
+   "t1": 319.98,
+   "set": "aerial",
+   "amb": "time",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Centuries race by: the counter runs to the 1600s; the mountain's profile changes to the twin Somma-Vesuvius shape after later eruptions (e.g. 1631).",
+   "sfx": [
+    [
+     313.931,
+     "clock",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "9D",
+   "t0": 319.98,
+   "t1": 326.272,
+   "set": "aerial",
+   "amb": "time",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "X-ray reveal: the buried street grid glows beneath the fields.",
+   "sfx": [
+    [
+     320.58,
+     "shimmer",
+     0.6
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "10A",
+   "t0": 326.272,
+   "t1": 332.052,
+   "set": "street",
+   "amb": "dig",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "1748: workmen in 18th-century dress dig into the deposits; the tops of walls appear.",
+   "sfx": [
+    [
+     326.572,
+     "pick",
+     0.5
+    ],
+    [
+     327.372,
+     "pick",
+     0.5
+    ],
+    [
+     328.172,
+     "pick",
+     0.5
+    ],
+    [
+     328.972,
+     "pick",
+     0.5
+    ],
+    [
+     329.772,
+     "pick",
+     0.5
+    ],
+    [
+     330.572,
+     "pick",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": "1748",
+   "caption": null
+  },
+  {
+   "id": "10B",
+   "t0": 332.052,
+   "t1": 337.452,
+   "set": "archival",
+   "amb": "dig",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARCHIVAL · 19TH-CENTURY WATERCOLOUR",
+   "desc": "Archival: 19th-century watercolour of an excavation (finds lifted from the deposit). Slow Ken Burns.",
+   "sfx": [
+    [
+     332.252,
+     "paper",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "10C",
+   "t0": 337.452,
+   "t1": 343.547,
+   "set": "archival",
+   "amb": "dig",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARCHIVAL · ENGRAVING, 1860s",
+   "desc": "Archival: engraving of recent excavations directed by inspector Giuseppe Fiorelli (1860s).",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "10D",
+   "t0": 343.547,
+   "t1": 350.005,
+   "set": "finds",
+   "amb": "museum",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "ARCHAEOLOGICAL EVIDENCE · ILLUSTRATED",
+   "desc": "The finds: amphora, wall painting, painted notice, oil lamp, carbonised bread (illustrated, generic examples).",
+   "sfx": [
+    [
+     343.847,
+     "tick",
+     0.4
+    ],
+    [
+     344.847,
+     "tick",
+     0.4
+    ],
+    [
+     345.847,
+     "tick",
+     0.4
+    ],
+    [
+     346.847,
+     "tick",
+     0.4
+    ],
+    [
+     347.847,
+     "tick",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "10E",
+   "t0": 350.005,
+   "t1": 355.845,
+   "set": "street",
+   "amb": "dig",
+   "tin": [
+    "dissolve",
+    0.7
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "The street emerges: the deposit level drops as the paving, kerbs and stepping stones reappear.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "10F",
+   "t0": 355.845,
+   "t1": 364.838,
+   "set": "aerial",
+   "amb": "modern_site",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "PRESENT DAY · ILLUSTRATION",
+   "desc": "Today's excavated city from the air, roofless streets and houses; the modern twin profile of Vesuvius. UNESCO World Heritage listing (1997).",
+   "sfx": [],
+   "title": false,
+   "lower": [
+    "UNESCO WORLD HERITAGE SITE",
+    "INSCRIBED 1997 · WITH HERCULANEUM & TORRE ANNUNZIATA"
+   ],
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "11A",
+   "t0": 364.838,
+   "t1": 372.125,
+   "set": "street",
+   "amb": "modern_site",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "RECONSTRUCTION ↔ PRESENT DAY",
+   "desc": "Then and now: a divider sweeps across the same street, reconstruction on one side, today's ruins on the other.",
+   "sfx": [
+    [
+     365.638,
+     "whoosh",
+     0.5
+    ],
+    [
+     369.238,
+     "whoosh",
+     0.4
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "11B",
+   "t0": 372.125,
+   "t1": 375.422,
+   "set": "street",
+   "amb": "modern_site",
+   "tin": [
+    "cut",
+    0
+   ],
+   "tag": "PRESENT DAY · ILLUSTRATION",
+   "desc": "Low on the paving: cart ruts and stepping stones; animated arrows show wheels running between the stones and feet crossing over them.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "11C",
+   "t0": 375.422,
+   "t1": 377.918,
+   "set": "plan",
+   "amb": "paper",
+   "tin": [
+    "dissolve",
+    0.4
+   ],
+   "tag": "PLAN · SIMPLIFIED",
+   "desc": "A Pompeian house plan draws itself: fauces, atrium, impluvium, tablinum, peristyle, cubicula.",
+   "sfx": [
+    [
+     375.522,
+     "paper",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "11D",
+   "t0": 377.918,
+   "t1": 382.935,
+   "set": "atrium",
+   "amb": "room",
+   "tin": [
+    "dissolve",
+    0.5
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Close on painted walls: red panels, gold frames, a small vignette; slow lateral glide.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "11E",
+   "t0": 382.935,
+   "t1": 389.644,
+   "set": "aerial",
+   "amb": "modern_site",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "PRESENT DAY · ILLUSTRATION",
+   "desc": "The excavated site from the air with key places labelled: Forum, amphitheatre. About two-thirds of the walled city has been excavated.",
+   "sfx": [],
+   "title": false,
+   "lower": [
+    "ABOUT TWO-THIRDS EXCAVATED",
+    "PARTS OF THE CITY REMAIN UNEXPLORED"
+   ],
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "11F",
+   "t0": 389.644,
+   "t1": 397.987,
+   "set": "atrium",
+   "amb": "room",
+   "tin": [
+    "dissolve",
+    0.6
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Match dissolve: a ruined, roofless atrium fills back in with colour, roof and the family: the room as it was.",
+   "sfx": [
+    [
+     391.644,
+     "shimmer",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "12A",
+   "t0": 397.987,
+   "t1": 409.08,
+   "set": "street",
+   "amb": "street_evening",
+   "tin": [
+    "dissolve",
+    1
+   ],
+   "tag": "FICTIONAL FAMILY · RECONSTRUCTION",
+   "desc": "Sunset in the reconstructed street: the family walks home toward the camera with Gaius; warm light, long shadows.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "12B",
+   "t0": 409.08,
+   "t1": 414.364,
+   "set": "aerial",
+   "amb": "evening",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "ARTISTIC RECONSTRUCTION",
+   "desc": "Aerial pull-back at sunset toward the single-peaked Vesuvius.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "12C",
+   "t0": 414.364,
+   "t1": 421.292,
+   "set": "aerial",
+   "amb": "evening",
+   "tin": [
+    "dissolve",
+    2
+   ],
+   "tag": "PRESENT DAY · ILLUSTRATION",
+   "desc": "The same view today: roofless ruins, the twin-peaked mountain.",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "12D",
+   "t0": 421.292,
+   "t1": 428.369,
+   "set": "street",
+   "amb": "evening",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": "PRESENT DAY · ILLUSTRATION",
+   "desc": "Slow push into a ruined street at golden hour: \"human stories waiting to be uncovered\".",
+   "sfx": [],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "12E",
+   "t0": 428.369,
+   "t1": 430.128,
+   "set": "title",
+   "amb": "evening",
+   "tin": [
+    "dip",
+    0.8
+   ],
+   "tag": null,
+   "desc": "\"This was Pompeii.\": gold stamp over the darkened aerial.",
+   "sfx": [
+    [
+     428.469,
+     "boom",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  },
+  {
+   "id": "12F",
+   "t0": 430.128,
+   "t1": 439.254,
+   "set": "end",
+   "amb": "end",
+   "tin": [
+    "dissolve",
+    0.8
+   ],
+   "tag": null,
+   "desc": "End card: Buried Chronicles medallion and wordmark.",
+   "sfx": [
+    [
+     430.428,
+     "bell",
+     0.5
+    ]
+   ],
+   "title": false,
+   "lower": null,
+   "stamp": null,
+   "caption": null
+  }
+ ],
+ "chapters": [
+  {
+   "t0": 37.068,
+   "t1": 41.568,
+   "num": "II",
+   "title": "A City at the Height of Roman Life"
+  },
+  {
+   "t0": 76.593,
+   "t1": 81.093,
+   "num": "III",
+   "title": "The Mountain Above the City"
+  },
+  {
+   "t0": 109.499,
+   "t1": 113.999,
+   "num": "IV",
+   "title": "The First Eruption"
+  },
+  {
+   "t0": 162.335,
+   "t1": 166.835,
+   "num": "V",
+   "title": "Ash Falls Over Pompeii"
+  },
+  {
+   "t0": 196.045,
+   "t1": 200.545,
+   "num": "VI",
+   "title": "The City Descends into Chaos"
+  },
+  {
+   "t0": 225.364,
+   "t1": 229.864,
+   "num": "VII",
+   "title": "The Pyroclastic Currents"
+  },
+  {
+   "t0": 266.863,
+   "t1": 271.363,
+   "num": "VIII",
+   "title": "The End of an Ancient City"
+  },
+  {
+   "t0": 297.126,
+   "t1": 301.626,
+   "num": "IX",
+   "title": "Lost Beneath the Earth"
+  },
+  {
+   "t0": 326.772,
+   "t1": 331.272,
+   "num": "X",
+   "title": "The Rediscovery"
+  },
+  {
+   "t0": 365.338,
+   "t1": 369.838,
+   "num": "XI",
+   "title": "A Window into Roman Life"
+  },
+  {
+   "t0": 398.487,
+   "t1": 402.987,
+   "num": "XII",
+   "title": "The Final Reflection"
+  }
+ ]
+}

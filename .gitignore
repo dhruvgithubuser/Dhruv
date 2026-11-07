@@ -22,3 +22,10 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+
+# Buried Chronicles production
+node_modules/
+out/
+pompeii/audio/_*.wav
+pompeii/audio/*.wav
+pompeii/audio/vo/takes/

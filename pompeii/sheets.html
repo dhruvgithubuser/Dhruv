@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Character sheets</title>
+<style>
+@font-face{font-family:Display;src:url(fonts/playfair-display-latin-800-italic.woff2);font-style:italic;font-weight:800}
+@font-face{font-family:Caps;src:url(fonts/cinzel-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#111}canvas{display:block}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import { drawFigure, CHAR } from './lib/figures.js';
+import { buildArt, finish } from './lib/paint.js';
+const p = new URLSearchParams(location.search), who = p.get('who') || 'marcus';
+await document.fonts.load('800 italic 40px Display'); await document.fonts.load('700 40px Caps');
+buildArt();
+const c = document.getElementById('c'), x = c.getContext('2d');
+const g = x.createLinearGradient(0,0,0,1080); g.addColorStop(0,'#efe4cc'); g.addColorStop(1,'#d9c8a6'); x.fillStyle=g; x.fillRect(0,0,1920,1080);
+const sp = CHAR[who];
+x.fillStyle='#6b4a2a'; x.font='700 26px Caps'; x.letterSpacing='6px'; x.fillText('BURIED CHRONICLES · CHARACTER REFERENCE · FICTIONAL RECONSTRUCTION', 80, 80); x.letterSpacing='0px';
+x.fillStyle='#2b1d12'; x.font='italic 800 92px Display'; x.fillText(sp.name, 80, 190);
+const views = [['front','FRONT'],['3q','THREE-QUARTER'],['side','SIDE'],['back','BACK']];
+const H = 640 * sp.h / 1.76;
+views.forEach(([v,l],i)=>{ const cx = 330 + i*330, base = 930;
+  x.strokeStyle='rgba(80,50,30,0.25)'; x.beginPath(); x.moveTo(cx-120,base); x.lineTo(cx+120,base); x.stroke();
+  drawFigure(x, cx, base, H, sp, { view: v, detail: 1 });
+  x.fillStyle='#6b4a2a'; x.font='700 22px Caps'; x.textAlign='center'; x.fillText(l, cx, base+50); x.textAlign='left'; });
+// walk cycle strip
+for (let k=0;k<6;k++) drawFigure(x, 1560 + (k%3)*110, 470 + Math.floor(k/3)*330, 260*sp.h/1.76, sp, { view:'side', walk:1, phase:k/6, detail:1 });
+x.fillStyle='#6b4a2a'; x.font='700 20px Caps'; x.fillText('WALK CYCLE (6 KEYS)', 1500, 160);
+// head close-up
+{ const HH = 1500, headY = sp.child ? 0.83 : 0.885; x.save(); x.beginPath(); x.arc(1370, 330, 130, 0, Math.PI*2); x.clip(); x.fillStyle='#e8dcc2'; x.fillRect(1230,190,280,280);
+drawFigure(x, 1340, 330 + HH*headY, HH, sp, { view: '3q', detail: 1 }); x.restore();
+x.strokeStyle='rgba(80,50,30,0.5)'; x.lineWidth=2; x.beginPath(); x.arc(1370,330,130,0,Math.PI*2); x.stroke(); }
+finish(x,1920,1080,0,{vignette:0.25});
+window.done = true;
+</script></body></html>

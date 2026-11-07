@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Thumbnails</title>
+<style>
+@font-face{font-family:Display;src:url(fonts/playfair-display-latin-800-italic.woff2);font-style:italic;font-weight:800}
+@font-face{font-family:Display;src:url(fonts/playfair-display-latin-400-italic.woff2);font-style:italic;font-weight:400}
+@font-face{font-family:Caps;src:url(fonts/cinzel-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Caps;src:url(fonts/cinzel-latin-900-normal.woff2);font-weight:900}
+html,body{margin:0;background:#111}canvas{display:block}</style></head>
+<body><canvas id="film"></canvas>
+<script type="module">
+// Three thumbnail concepts (docs/L_thumbnails.md), painted at 1920x1080 and saved at 1280x720.
+import { buildArt, finish } from './lib/paint.js';
+import { look } from './lib/util.js';
+import { drawStreet } from './sets/street.js';
+import { drawAerial } from './sets/aerial.js';
+import { CHAR } from './lib/figures.js';
+import { goldText, capsText } from './lib/gfx.js';
+const W = 1920, H = 1080, c = document.getElementById('film'); c.width = W; c.height = H; const x = c.getContext('2d');
+await Promise.all(['800 italic 40px Display', '700 40px Caps', '900 40px Caps'].map((f) => document.fonts.load(f)));
+buildArt();
+const k = new URLSearchParams(location.search).get('k') || '1';
+const kicker = (s, y) => capsText(x, s, W / 2, y, 70, '#f3e8cf', 1, 'center', 0.1, 900);
+if (k === '1') { // ONE DAY: the column over the street, the family seen from behind
+  drawStreet(x, W, H, 12, { cam: { pos: [0.2, 1.5, 4.5], yaw: 0.0, pitch: 0.26, fov: 58 }, lk: look('storm', 'ash', 0.35), ashFall: 0.4, vesuvius: { erupt: { grow: 1, spread: 1, tone: 0.45, H: 11, glow: 0.4 } },
+    people: [{ spec: CHAR.marcus, x: 0.75, z: 10.4, view: 'back' }, { spec: CHAR.livia, x: 0.0, z: 10.2, view: 'back' }, { spec: CHAR.julia, x: -0.6, z: 10.0, view: 'back', armUp: [0, 0.4] }] });
+  const g = x.createLinearGradient(0, 0, 0, H * 0.4); g.addColorStop(0, 'rgba(10,6,3,0.7)'); g.addColorStop(1, 'rgba(10,6,3,0)'); x.fillStyle = g; x.fillRect(0, 0, W, H * 0.4);
+  kicker('THEY HAD ONE DAY', 120); goldText(x, 'Pompeii', W / 2, H - 90, 230);
+} else if (k === '2') { // THEN / NOW split
+  const cam = { pos: [0.2, 1.7, 3], yaw: 0.02, pitch: 0.05, fov: 54 };
+  drawStreet(x, W, H, 5, { cam, lk: look('golden'), crowd: 0.5, shutters: 1 });
+  x.save(); x.beginPath(); x.rect(W / 2, 0, W / 2, H); x.clip(); drawStreet(x, W, H, 5, { cam, lk: look('modern'), ruin: 1, vesuvius: { kind: 'modern' } }); x.restore();
+  x.fillStyle = '#e8bd55'; x.fillRect(W / 2 - 4, 0, 8, H);
+  capsText(x, 'AD 79', W * 0.25, 130, 80, '#f3e8cf', 1, 'center', 0.1, 900); capsText(x, 'TODAY', W * 0.75, 130, 80, '#f3e8cf', 1, 'center', 0.1, 900);
+  goldText(x, 'Buried in a day', W / 2, H - 80, 170);
+} else { // the plume over the town from the air
+  drawAerial(x, W, H, 14, { cam: { pos: [1500, 900, -4200], yaw: -0.2, pitch: -0.02, fov: 50 }, lk: look('storm', 'ash', 0.3), erupt: { grow: 1, spread: 1, tone: 0.35, H: 16, glow: 0.5 } });
+  const tp = (window._st = 0); void tp; x.strokeStyle = '#c0381e'; x.lineWidth = 14; x.lineCap = 'round'; x.beginPath(); x.moveTo(W * 0.86, H * 0.58); x.quadraticCurveTo(W * 0.84, H * 0.7, W * 0.76, H * 0.7); x.stroke();
+  x.fillStyle = '#c0381e'; x.beginPath(); x.moveTo(W * 0.725, H * 0.7); x.lineTo(W * 0.77, H * 0.665); x.lineTo(W * 0.77, H * 0.735); x.fill();
+  capsText(x, 'POMPEII', W * 0.86, H * 0.54, 60, '#f3e8cf', 1, 'center', 0.15, 900);
+  kicker('THE CITY THAT', 120); goldText(x, 'Disappeared', W / 2, 300, 190);
+}
+finish(x, W, H, 0, { vignette: 0.35 });
+window.done = true;
+</script></body></html>

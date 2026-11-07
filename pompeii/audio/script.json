@@ -1,0 +1,113 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "gap_scale": 0.7,
+  "note": "Narration for POMPEII: THE CITY THAT DISAPPEARED IN ONE DAY. Each line is one TTS take. 'gap' is the silence (s) after the line; 'lead' is the silence before the scene's first line. Edits vs. the brief are logged in docs/B_narration_script.md.",
+  "scenes": [
+    { "id": "S01", "title": "The Final Morning", "lead": 3.0, "lines": [
+      ["Imagine waking up in a beautiful Roman city, surrounded by busy streets, crowded marketplaces, and the sounds of everyday life.", 0.7],
+      ["Nobody knows what is coming.", 1.4],
+      ["Almost two thousand years ago, Pompeii was a thriving Roman town in the shadow of Mount Vesuvius.", 0.6],
+      ["Its people worked, traded, celebrated, and raised their families, just as generations had done before them.", 0.8],
+      ["But above their city stood a volcano that was about to change everything.", 2.6]
+    ]},
+    { "id": "S02", "title": "A City at the Height of Roman Life", "lead": 1.6, "lines": [
+      ["Pompeii stood in the fertile region of Campania, close to the Bay of Naples.", 0.6],
+      ["It was a prosperous town, connected to Roman trade and culture.", 0.8],
+      ["Its streets were filled with shops, workshops, public baths, and elegant houses.", 0.6],
+      ["Some residents lived in modest homes, while wealthy families decorated their walls with colourful frescoes and elaborate courtyards.", 0.8],
+      ["The city was alive with commerce and conversation.", 0.9],
+      ["To its residents, Mount Vesuvius was part of the familiar landscape.", 0.6],
+      ["They had no reason to believe their world was about to disappear.", 2.2]
+    ]},
+    { "id": "S03", "title": "The Mountain Above the City", "lead": 1.4, "lines": [
+      ["But the mountain had a violent history.", 0.7],
+      ["The region had experienced powerful earthquakes, including a major earthquake in about A.D. sixty-two, that damaged Pompeii and neighbouring settlements.", 0.6],
+      ["Repairs were still under way years later.", 0.9],
+      ["Modern volcanology tells us that Vesuvius was a dangerous volcanic system.", 0.6],
+      ["Yet the people of Pompeii did not have the scientific knowledge needed to understand what was building beneath their feet.", 2.4]
+    ]},
+    { "id": "S04", "title": "The First Eruption", "lead": 1.6, "lines": [
+      ["Then came the eruption of A.D. seventy-nine.", 0.8],
+      ["Copies of an ancient letter traditionally place it on the twenty-fourth of August.", 0.5],
+      ["But archaeological evidence, including a charcoal inscription found at Pompeii in twenty eighteen, suggests it may have happened in the autumn instead.", 1.0],
+      ["Mount Vesuvius violently expelled ash, gas, and fragments of volcanic rock high into the atmosphere.", 0.6],
+      ["A towering eruption column rose above the mountain.", 0.5],
+      ["Pliny the Younger, who watched from across the bay, later compared its shape to an umbrella pine.", 0.9],
+      ["At first, many residents may not have understood the scale of the danger.", 0.6],
+      ["But the sky was changing.", 0.6],
+      ["Fine ash began to fall.", 0.7],
+      ["The familiar mountain had become the centre of a catastrophe.", 2.4]
+    ]},
+    { "id": "S05", "title": "Ash Falls Over Pompeii", "lead": 1.4, "lines": [
+      ["The eruption column continued to send volcanic material into the atmosphere.", 0.6],
+      ["Pumice stones and ash began accumulating across Pompeii.", 0.7],
+      ["Daylight faded behind the falling debris.", 1.0],
+      ["People faced impossible decisions.", 0.7],
+      ["Some tried to escape.", 0.4],
+      ["Others sheltered indoors.", 0.9],
+      ["As the volcanic material piled up, roofs and buildings came under increasing pressure.", 0.7],
+      ["The city was no longer safe.", 0.6],
+      ["Every passing moment made escape more difficult.", 2.2]
+    ]},
+    { "id": "S06", "title": "The City Descends into Chaos", "lead": 1.4, "lines": [
+      ["The eruption continued through the day and into the night.", 0.6],
+      ["Falling volcanic debris turned familiar streets into dangerous obstacles.", 0.6],
+      ["Buildings were damaged, and some collapsed under the weight.", 0.8],
+      ["Families became separated.", 0.5],
+      ["Visibility deteriorated.", 0.8],
+      ["The people of Pompeii were facing a disaster unlike anything they had experienced.", 1.0],
+      ["And the most dangerous phase was still to come.", 2.8]
+    ]},
+    { "id": "S07", "title": "The Pyroclastic Currents", "lead": 1.4, "lines": [
+      ["As the eruption evolved, the danger changed.", 0.6],
+      ["The eruption column became unstable, and extremely hot pyroclastic currents moved down the volcano.", 0.8],
+      ["These were not slow rivers of molten lava.", 0.5],
+      ["They were rapidly moving mixtures of hot gas, ash, and volcanic fragments.", 0.7],
+      ["Studies of the deposits suggest that Herculaneum, closer to the volcano, was struck first.", 0.5],
+      ["Pompeii was reached the following morning.", 0.8],
+      ["These currents could overwhelm settlements with extraordinary force and lethal heat.", 0.6],
+      ["For people still in their path, the consequences were devastating.", 3.0]
+    ]},
+    { "id": "S08", "title": "The End of an Ancient City", "lead": 1.6, "lines": [
+      ["By the time the eruption subsided, Pompeii had been transformed.", 0.6],
+      ["Streets, houses, shops, and public spaces lay buried beneath volcanic deposits.", 0.8],
+      ["Many residents had died, while others had managed to escape.", 0.7],
+      ["The disaster also struck neighbouring communities, including Herculaneum, Oplontis, and Stabiae.", 0.7],
+      ["The Roman world had witnessed a catastrophe that would be remembered for generations.", 2.6]
+    ]},
+    { "id": "S09", "title": "Lost Beneath the Earth", "lead": 1.4, "lines": [
+      ["After the eruption, Pompeii gradually disappeared from everyday knowledge.", 0.6],
+      ["Its buildings, paintings, objects, and streets remained buried.", 0.7],
+      ["The city was not erased from the earth.", 0.4],
+      ["It was preserved beneath layers of volcanic material.", 0.9],
+      ["Centuries passed, empires changed, and the world around the buried town moved on.", 0.7],
+      ["Yet beneath the ground, an extraordinary record of Roman life remained.", 2.4]
+    ]},
+    { "id": "S10", "title": "The Rediscovery", "lead": 1.4, "lines": [
+      ["Centuries later, excavations began to reveal the buried settlement.", 0.6],
+      ["Digging at Pompeii began in seventeen forty-eight, and in the following century, archaeologists such as Giuseppe Fiorelli introduced more systematic methods.", 0.8],
+      ["Researchers uncovered streets, homes, shops, paintings, inscriptions, and everyday objects.", 0.6],
+      ["These discoveries offered an extraordinary window into ancient Roman society.", 0.8],
+      ["Pompeii became more than a place of tragedy.", 0.5],
+      ["It became one of the most important archaeological sites in the world.", 2.2]
+    ]},
+    { "id": "S11", "title": "A Window into Roman Life", "lead": 1.4, "lines": [
+      ["Today, Pompeii allows us to study ordinary Roman life in remarkable detail.", 0.6],
+      ["Its streets reveal how people moved through the city.", 0.4],
+      ["Its buildings show how families lived.", 0.4],
+      ["Its paintings and inscriptions preserve fragments of personal expression.", 0.8],
+      ["The catastrophe that destroyed Pompeii also left behind a unique archaeological record.", 0.6],
+      ["Every excavated room helps us understand a world that existed almost two thousand years ago.", 2.2]
+    ]},
+    { "id": "S12", "title": "The Final Reflection", "lead": 1.4, "lines": [
+      ["Pompeii was not simply a city destroyed by a volcano.", 0.5],
+      ["It was a community of real people, with families, ambitions, routines, and dreams.", 0.7],
+      ["Their lives were interrupted by one of nature's most powerful forces.", 1.0],
+      ["Nearly two thousand years later, their city still speaks to us, through its streets, paintings, and ruins.", 0.7],
+      ["It reminds us that beneath every historical event are human stories, waiting to be uncovered.", 1.4],
+      ["This was Pompeii.", 1.0],
+      ["And this is Buried Chronicles.", 7.0]
+    ]}
+  ]
+}
