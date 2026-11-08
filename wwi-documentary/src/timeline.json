@@ -1,0 +1,1305 @@
+{
+ "fps": 30,
+ "duration": 79.681,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "One of history's deadliest wars almost never happened.",
+   "start": 0.35,
+   "end": 3.365,
+   "words": [
+    {
+     "w": "One",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "of",
+     "start": 0.43,
+     "end": 0.49
+    },
+    {
+     "w": "history's",
+     "start": 0.49,
+     "end": 1.01
+    },
+    {
+     "w": "deadliest",
+     "start": 1.01,
+     "end": 1.27
+    },
+    {
+     "w": "wars",
+     "start": 1.27,
+     "end": 1.85
+    },
+    {
+     "w": "almost",
+     "start": 1.85,
+     "end": 2.33
+    },
+    {
+     "w": "never",
+     "start": 2.33,
+     "end": 2.69
+    },
+    {
+     "w": "happened.",
+     "start": 2.69,
+     "end": 3.15
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "A wrong turn, a stalled engine, and two gunshots changed the world forever.",
+   "start": 3.644,
+   "end": 7.844,
+   "words": [
+    {
+     "w": "A",
+     "start": 3.544,
+     "end": 3.704
+    },
+    {
+     "w": "wrong",
+     "start": 3.704,
+     "end": 3.884
+    },
+    {
+     "w": "turn,",
+     "start": 3.884,
+     "end": 4.204
+    },
+    {
+     "w": "a",
+     "start": 4.484,
+     "end": 4.504
+    },
+    {
+     "w": "stalled",
+     "start": 4.504,
+     "end": 4.744
+    },
+    {
+     "w": "engine,",
+     "start": 4.744,
+     "end": 5.164
+    },
+    {
+     "w": "and",
+     "start": 5.544,
+     "end": 5.644
+    },
+    {
+     "w": "two",
+     "start": 5.644,
+     "end": 5.804
+    },
+    {
+     "w": "gunshots",
+     "start": 5.804,
+     "end": 6.204
+    },
+    {
+     "w": "changed",
+     "start": 6.204,
+     "end": 6.704
+    },
+    {
+     "w": "the",
+     "start": 6.704,
+     "end": 7.004
+    },
+    {
+     "w": "world",
+     "start": 7.004,
+     "end": 7.184
+    },
+    {
+     "w": "forever.",
+     "start": 7.184,
+     "end": 7.544
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "June 28, 1914.",
+   "start": 8.278,
+   "end": 10.267,
+   "words": [
+    {
+     "w": "June",
+     "start": 8.178,
+     "end": 8.498
+    },
+    {
+     "w": "28,",
+     "start": 8.498,
+     "end": 9.018
+    },
+    {
+     "w": "1914.",
+     "start": 9.238,
+     "end": 9.898
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, rides through Sarajevo with his wife, Sophie.",
+   "start": 10.484,
+   "end": 16.593,
+   "words": [
+    {
+     "w": "Archduke",
+     "start": 10.384,
+     "end": 10.904
+    },
+    {
+     "w": "Franz",
+     "start": 10.904,
+     "end": 11.104
+    },
+    {
+     "w": "Ferdinand,",
+     "start": 11.104,
+     "end": 11.444
+    },
+    {
+     "w": "heir",
+     "start": 12.204,
+     "end": 12.224
+    },
+    {
+     "w": "to",
+     "start": 12.224,
+     "end": 12.384
+    },
+    {
+     "w": "the",
+     "start": 12.384,
+     "end": 12.484
+    },
+    {
+     "w": "Austro-Hungarian",
+     "start": 12.484,
+     "end": 13.344
+    },
+    {
+     "w": "throne,",
+     "start": 13.344,
+     "end": 13.624
+    },
+    {
+     "w": "rides",
+     "start": 14.144,
+     "end": 14.444
+    },
+    {
+     "w": "through",
+     "start": 14.444,
+     "end": 14.764
+    },
+    {
+     "w": "Sarajevo",
+     "start": 14.764,
+     "end": 15.464
+    },
+    {
+     "w": "with",
+     "start": 15.464,
+     "end": 15.604
+    },
+    {
+     "w": "his",
+     "start": 15.604,
+     "end": 15.704
+    },
+    {
+     "w": "wife,",
+     "start": 15.704,
+     "end": 15.904
+    },
+    {
+     "w": "Sophie.",
+     "start": 15.904,
+     "end": 16.244
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Along the route, six assassins are waiting.",
+   "start": 16.841,
+   "end": 18.985,
+   "words": [
+    {
+     "w": "Along",
+     "start": 16.741,
+     "end": 16.981
+    },
+    {
+     "w": "the",
+     "start": 16.981,
+     "end": 17.141
+    },
+    {
+     "w": "route,",
+     "start": 17.141,
+     "end": 17.321
+    },
+    {
+     "w": "six",
+     "start": 17.601,
+     "end": 17.701
+    },
+    {
+     "w": "assassins",
+     "start": 17.701,
+     "end": 18.121
+    },
+    {
+     "w": "are",
+     "start": 18.121,
+     "end": 18.461
+    },
+    {
+     "w": "waiting.",
+     "start": 18.461,
+     "end": 18.721
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "At ten past ten, one of them throws a bomb.",
+   "start": 19.326,
+   "end": 21.714,
+   "words": [
+    {
+     "w": "At",
+     "start": 19.326,
+     "end": 19.446
+    },
+    {
+     "w": "ten",
+     "start": 19.446,
+     "end": 19.566
+    },
+    {
+     "w": "past",
+     "start": 19.566,
+     "end": 19.786
+    },
+    {
+     "w": "ten,",
+     "start": 19.786,
+     "end": 20.446
+    },
+    {
+     "w": "one",
+     "start": 20.446,
+     "end": 20.566
+    },
+    {
+     "w": "of",
+     "start": 20.566,
+     "end": 20.666
+    },
+    {
+     "w": "them",
+     "start": 20.666,
+     "end": 20.766
+    },
+    {
+     "w": "throws",
+     "start": 20.766,
+     "end": 21.066
+    },
+    {
+     "w": "a",
+     "start": 21.066,
+     "end": 21.226
+    },
+    {
+     "w": "bomb.",
+     "start": 21.226,
+     "end": 21.446
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "It bounces off the folded roof and explodes under the next car, wounding around twenty people.",
+   "start": 21.9,
+   "end": 26.79,
+   "words": [
+    {
+     "w": "It",
+     "start": 21.8,
+     "end": 21.98
+    },
+    {
+     "w": "bounces",
+     "start": 21.98,
+     "end": 22.18
+    },
+    {
+     "w": "off",
+     "start": 22.18,
+     "end": 22.54
+    },
+    {
+     "w": "the",
+     "start": 22.54,
+     "end": 22.72
+    },
+    {
+     "w": "folded",
+     "start": 22.72,
+     "end": 22.94
+    },
+    {
+     "w": "roof",
+     "start": 22.94,
+     "end": 23.3
+    },
+    {
+     "w": "and",
+     "start": 23.3,
+     "end": 23.9
+    },
+    {
+     "w": "explodes",
+     "start": 23.9,
+     "end": 24.26
+    },
+    {
+     "w": "under",
+     "start": 24.26,
+     "end": 24.56
+    },
+    {
+     "w": "the",
+     "start": 24.56,
+     "end": 24.7
+    },
+    {
+     "w": "next",
+     "start": 24.7,
+     "end": 24.86
+    },
+    {
+     "w": "car,",
+     "start": 24.86,
+     "end": 25.18
+    },
+    {
+     "w": "wounding",
+     "start": 25.44,
+     "end": 25.56
+    },
+    {
+     "w": "around",
+     "start": 25.56,
+     "end": 25.9
+    },
+    {
+     "w": "twenty",
+     "start": 25.9,
+     "end": 26.2
+    },
+    {
+     "w": "people.",
+     "start": 26.2,
+     "end": 26.66
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "The Archduke is unharmed. The plot has failed.",
+   "start": 27.038,
+   "end": 29.689,
+   "words": [
+    {
+     "w": "The",
+     "start": 26.938,
+     "end": 27.118
+    },
+    {
+     "w": "Archduke",
+     "start": 27.118,
+     "end": 27.638
+    },
+    {
+     "w": "is",
+     "start": 27.638,
+     "end": 27.758
+    },
+    {
+     "w": "unharmed.",
+     "start": 27.758,
+     "end": 28.358
+    },
+    {
+     "w": "The",
+     "start": 28.618,
+     "end": 28.658
+    },
+    {
+     "w": "plot",
+     "start": 28.658,
+     "end": 28.818
+    },
+    {
+     "w": "has",
+     "start": 28.818,
+     "end": 29.058
+    },
+    {
+     "w": "failed.",
+     "start": 29.058,
+     "end": 29.358
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "At the town hall, he is furious: \"I came here on a visit, and I am greeted with bombs!\"",
+   "start": 30.03,
+   "end": 34.602,
+   "words": [
+    {
+     "w": "At",
+     "start": 29.93,
+     "end": 30.11
+    },
+    {
+     "w": "the",
+     "start": 30.11,
+     "end": 30.19
+    },
+    {
+     "w": "town",
+     "start": 30.19,
+     "end": 30.41
+    },
+    {
+     "w": "hall,",
+     "start": 30.41,
+     "end": 30.65
+    },
+    {
+     "w": "he",
+     "start": 30.65,
+     "end": 30.91
+    },
+    {
+     "w": "is",
+     "start": 30.91,
+     "end": 31.01
+    },
+    {
+     "w": "furious:",
+     "start": 31.01,
+     "end": 31.19
+    },
+    {
+     "w": "\"I",
+     "start": 32.07,
+     "end": 32.09
+    },
+    {
+     "w": "came",
+     "start": 32.09,
+     "end": 32.27
+    },
+    {
+     "w": "here",
+     "start": 32.27,
+     "end": 32.45
+    },
+    {
+     "w": "on",
+     "start": 32.45,
+     "end": 32.59
+    },
+    {
+     "w": "a",
+     "start": 32.59,
+     "end": 32.65
+    },
+    {
+     "w": "visit,",
+     "start": 32.65,
+     "end": 32.91
+    },
+    {
+     "w": "and",
+     "start": 32.91,
+     "end": 33.17
+    },
+    {
+     "w": "I",
+     "start": 33.17,
+     "end": 33.31
+    },
+    {
+     "w": "am",
+     "start": 33.31,
+     "end": 33.43
+    },
+    {
+     "w": "greeted",
+     "start": 33.43,
+     "end": 33.71
+    },
+    {
+     "w": "with",
+     "start": 33.71,
+     "end": 33.97
+    },
+    {
+     "w": "bombs!\"",
+     "start": 33.97,
+     "end": 34.17
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "He decides to visit the wounded in hospital, driving straight along the river.",
+   "start": 34.881,
+   "end": 38.857,
+   "words": [
+    {
+     "w": "He",
+     "start": 34.781,
+     "end": 34.941
+    },
+    {
+     "w": "decides",
+     "start": 34.941,
+     "end": 35.181
+    },
+    {
+     "w": "to",
+     "start": 35.181,
+     "end": 35.481
+    },
+    {
+     "w": "visit",
+     "start": 35.481,
+     "end": 35.701
+    },
+    {
+     "w": "the",
+     "start": 35.701,
+     "end": 35.881
+    },
+    {
+     "w": "wounded",
+     "start": 35.881,
+     "end": 36.081
+    },
+    {
+     "w": "in",
+     "start": 36.081,
+     "end": 36.341
+    },
+    {
+     "w": "hospital,",
+     "start": 36.341,
+     "end": 36.781
+    },
+    {
+     "w": "driving",
+     "start": 37.161,
+     "end": 37.441
+    },
+    {
+     "w": "straight",
+     "start": 37.441,
+     "end": 37.901
+    },
+    {
+     "w": "along",
+     "start": 37.901,
+     "end": 38.221
+    },
+    {
+     "w": "the",
+     "start": 38.221,
+     "end": 38.441
+    },
+    {
+     "w": "river.",
+     "start": 38.441,
+     "end": 38.661
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "But no one tells his driver.",
+   "start": 39.074,
+   "end": 40.659,
+   "words": [
+    {
+     "w": "But",
+     "start": 38.974,
+     "end": 39.154
+    },
+    {
+     "w": "no",
+     "start": 39.154,
+     "end": 39.294
+    },
+    {
+     "w": "one",
+     "start": 39.294,
+     "end": 39.514
+    },
+    {
+     "w": "tells",
+     "start": 39.514,
+     "end": 39.754
+    },
+    {
+     "w": "his",
+     "start": 39.754,
+     "end": 40.014
+    },
+    {
+     "w": "driver.",
+     "start": 40.014,
+     "end": 40.334
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "At the Latin Bridge, the cars ahead turn right, and his driver follows.",
+   "start": 41.0,
+   "end": 44.914,
+   "words": [
+    {
+     "w": "At",
+     "start": 40.9,
+     "end": 41.08
+    },
+    {
+     "w": "the",
+     "start": 41.08,
+     "end": 41.16
+    },
+    {
+     "w": "Latin",
+     "start": 41.16,
+     "end": 41.34
+    },
+    {
+     "w": "Bridge,",
+     "start": 41.34,
+     "end": 41.7
+    },
+    {
+     "w": "the",
+     "start": 41.94,
+     "end": 42.02
+    },
+    {
+     "w": "cars",
+     "start": 42.02,
+     "end": 42.2
+    },
+    {
+     "w": "ahead",
+     "start": 42.2,
+     "end": 42.52
+    },
+    {
+     "w": "turn",
+     "start": 42.52,
+     "end": 42.76
+    },
+    {
+     "w": "right,",
+     "start": 42.76,
+     "end": 43.1
+    },
+    {
+     "w": "and",
+     "start": 43.66,
+     "end": 43.7
+    },
+    {
+     "w": "his",
+     "start": 43.7,
+     "end": 43.8
+    },
+    {
+     "w": "driver",
+     "start": 43.8,
+     "end": 44.08
+    },
+    {
+     "w": "follows.",
+     "start": 44.08,
+     "end": 44.58
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "The governor shouts: \"Wrong way!\" The driver brakes, tries to reverse, and the engine stalls.",
+   "start": 45.131,
+   "end": 49.744,
+   "words": [
+    {
+     "w": "The",
+     "start": 45.031,
+     "end": 45.191
+    },
+    {
+     "w": "governor",
+     "start": 45.191,
+     "end": 45.411
+    },
+    {
+     "w": "shouts:",
+     "start": 45.411,
+     "end": 45.731
+    },
+    {
+     "w": "\"Wrong",
+     "start": 45.731,
+     "end": 46.071
+    },
+    {
+     "w": "way!\"",
+     "start": 46.071,
+     "end": 46.391
+    },
+    {
+     "w": "The",
+     "start": 46.671,
+     "end": 46.691
+    },
+    {
+     "w": "driver",
+     "start": 46.691,
+     "end": 46.931
+    },
+    {
+     "w": "brakes,",
+     "start": 46.931,
+     "end": 47.371
+    },
+    {
+     "w": "tries",
+     "start": 47.371,
+     "end": 47.571
+    },
+    {
+     "w": "to",
+     "start": 47.571,
+     "end": 47.851
+    },
+    {
+     "w": "reverse,",
+     "start": 47.851,
+     "end": 48.111
+    },
+    {
+     "w": "and",
+     "start": 48.491,
+     "end": 48.671
+    },
+    {
+     "w": "the",
+     "start": 48.671,
+     "end": 48.751
+    },
+    {
+     "w": "engine",
+     "start": 48.751,
+     "end": 48.951
+    },
+    {
+     "w": "stalls.",
+     "start": 48.951,
+     "end": 49.371
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "Standing five feet away is 19-year-old Gavrilo Princip.",
+   "start": 50.116,
+   "end": 53.636,
+   "words": [
+    {
+     "w": "Standing",
+     "start": 50.016,
+     "end": 50.316
+    },
+    {
+     "w": "five",
+     "start": 50.316,
+     "end": 50.676
+    },
+    {
+     "w": "feet",
+     "start": 50.676,
+     "end": 50.936
+    },
+    {
+     "w": "away",
+     "start": 50.936,
+     "end": 51.196
+    },
+    {
+     "w": "is",
+     "start": 51.196,
+     "end": 51.596
+    },
+    {
+     "w": "19-year-old",
+     "start": 51.596,
+     "end": 52.616
+    },
+    {
+     "w": "Gavrilo",
+     "start": 52.616,
+     "end": 53.096
+    },
+    {
+     "w": "Princip.",
+     "start": 53.096,
+     "end": 53.576
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "He had missed his chance that morning. Now his target is right in front of him.",
+   "start": 53.884,
+   "end": 57.903,
+   "words": [
+    {
+     "w": "He",
+     "start": 53.784,
+     "end": 53.944
+    },
+    {
+     "w": "had",
+     "start": 53.944,
+     "end": 54.024
+    },
+    {
+     "w": "missed",
+     "start": 54.024,
+     "end": 54.164
+    },
+    {
+     "w": "his",
+     "start": 54.164,
+     "end": 54.384
+    },
+    {
+     "w": "chance",
+     "start": 54.384,
+     "end": 54.644
+    },
+    {
+     "w": "that",
+     "start": 54.644,
+     "end": 54.904
+    },
+    {
+     "w": "morning.",
+     "start": 54.904,
+     "end": 55.204
+    },
+    {
+     "w": "Now",
+     "start": 55.984,
+     "end": 55.984
+    },
+    {
+     "w": "his",
+     "start": 56.184,
+     "end": 56.284
+    },
+    {
+     "w": "target",
+     "start": 56.284,
+     "end": 56.624
+    },
+    {
+     "w": "is",
+     "start": 56.624,
+     "end": 56.844
+    },
+    {
+     "w": "right",
+     "start": 56.844,
+     "end": 57.104
+    },
+    {
+     "w": "in",
+     "start": 57.104,
+     "end": 57.284
+    },
+    {
+     "w": "front",
+     "start": 57.284,
+     "end": 57.444
+    },
+    {
+     "w": "of",
+     "start": 57.444,
+     "end": 57.604
+    },
+    {
+     "w": "him.",
+     "start": 57.604,
+     "end": 57.744
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "text": "He steps forward and fires twice.",
+   "start": 58.275,
+   "end": 60.119,
+   "words": [
+    {
+     "w": "He",
+     "start": 58.175,
+     "end": 58.335
+    },
+    {
+     "w": "steps",
+     "start": 58.335,
+     "end": 58.515
+    },
+    {
+     "w": "forward",
+     "start": 58.515,
+     "end": 58.915
+    },
+    {
+     "w": "and",
+     "start": 58.915,
+     "end": 59.095
+    },
+    {
+     "w": "fires",
+     "start": 59.095,
+     "end": 59.375
+    },
+    {
+     "w": "twice.",
+     "start": 59.375,
+     "end": 59.735
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "text": "The first bullet strikes the Archduke. The second strikes Sophie. Within the hour, both are dead.",
+   "start": 60.491,
+   "end": 65.49,
+   "words": [
+    {
+     "w": "The",
+     "start": 60.391,
+     "end": 60.551
+    },
+    {
+     "w": "first",
+     "start": 60.551,
+     "end": 60.751
+    },
+    {
+     "w": "bullet",
+     "start": 60.751,
+     "end": 60.991
+    },
+    {
+     "w": "strikes",
+     "start": 60.991,
+     "end": 61.291
+    },
+    {
+     "w": "the",
+     "start": 61.291,
+     "end": 61.571
+    },
+    {
+     "w": "Archduke.",
+     "start": 61.571,
+     "end": 62.171
+    },
+    {
+     "w": "The",
+     "start": 62.391,
+     "end": 62.451
+    },
+    {
+     "w": "second",
+     "start": 62.451,
+     "end": 62.751
+    },
+    {
+     "w": "strikes",
+     "start": 62.751,
+     "end": 63.091
+    },
+    {
+     "w": "Sophie.",
+     "start": 63.091,
+     "end": 63.411
+    },
+    {
+     "w": "Within",
+     "start": 64.071,
+     "end": 64.111
+    },
+    {
+     "w": "the",
+     "start": 64.111,
+     "end": 64.271
+    },
+    {
+     "w": "hour,",
+     "start": 64.271,
+     "end": 64.511
+    },
+    {
+     "w": "both",
+     "start": 64.511,
+     "end": 64.811
+    },
+    {
+     "w": "are",
+     "start": 64.811,
+     "end": 65.031
+    },
+    {
+     "w": "dead.",
+     "start": 65.031,
+     "end": 65.251
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "text": "One month later, Austria-Hungary declares war on Serbia.",
+   "start": 65.862,
+   "end": 68.962,
+   "words": [
+    {
+     "w": "One",
+     "start": 65.762,
+     "end": 65.962
+    },
+    {
+     "w": "month",
+     "start": 65.962,
+     "end": 66.122
+    },
+    {
+     "w": "later,",
+     "start": 66.122,
+     "end": 66.482
+    },
+    {
+     "w": "Austria-Hungary",
+     "start": 66.482,
+     "end": 67.462
+    },
+    {
+     "w": "declares",
+     "start": 67.462,
+     "end": 67.702
+    },
+    {
+     "w": "war",
+     "start": 67.702,
+     "end": 68.102
+    },
+    {
+     "w": "on",
+     "start": 68.102,
+     "end": 68.382
+    },
+    {
+     "w": "Serbia.",
+     "start": 68.382,
+     "end": 68.702
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "text": "Alliances pull in Russia, Germany, France and Britain.",
+   "start": 69.148,
+   "end": 71.993,
+   "words": [
+    {
+     "w": "Alliances",
+     "start": 69.048,
+     "end": 69.428
+    },
+    {
+     "w": "pull",
+     "start": 69.428,
+     "end": 69.768
+    },
+    {
+     "w": "in",
+     "start": 69.768,
+     "end": 69.908
+    },
+    {
+     "w": "Russia,",
+     "start": 69.908,
+     "end": 70.168
+    },
+    {
+     "w": "Germany,",
+     "start": 70.488,
+     "end": 70.748
+    },
+    {
+     "w": "France",
+     "start": 70.948,
+     "end": 71.228
+    },
+    {
+     "w": "and",
+     "start": 71.228,
+     "end": 71.488
+    },
+    {
+     "w": "Britain.",
+     "start": 71.488,
+     "end": 71.688
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "text": "An estimated 20 million people would die in the war that followed.",
+   "start": 72.272,
+   "end": 75.96,
+   "words": [
+    {
+     "w": "An",
+     "start": 72.172,
+     "end": 72.352
+    },
+    {
+     "w": "estimated",
+     "start": 72.352,
+     "end": 72.732
+    },
+    {
+     "w": "20",
+     "start": 72.732,
+     "end": 73.112
+    },
+    {
+     "w": "million",
+     "start": 73.112,
+     "end": 73.412
+    },
+    {
+     "w": "people",
+     "start": 73.412,
+     "end": 73.872
+    },
+    {
+     "w": "would",
+     "start": 73.872,
+     "end": 74.072
+    },
+    {
+     "w": "die",
+     "start": 74.072,
+     "end": 74.372
+    },
+    {
+     "w": "in",
+     "start": 74.372,
+     "end": 74.752
+    },
+    {
+     "w": "the",
+     "start": 74.752,
+     "end": 74.852
+    },
+    {
+     "w": "war",
+     "start": 74.852,
+     "end": 75.072
+    },
+    {
+     "w": "that",
+     "start": 75.072,
+     "end": 75.272
+    },
+    {
+     "w": "followed.",
+     "start": 75.272,
+     "end": 75.712
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "text": "All because of one wrong turn.",
+   "start": 76.332,
+   "end": 77.981,
+   "words": [
+    {
+     "w": "All",
+     "start": 76.232,
+     "end": 76.452
+    },
+    {
+     "w": "because",
+     "start": 76.452,
+     "end": 76.672
+    },
+    {
+     "w": "of",
+     "start": 76.672,
+     "end": 76.872
+    },
+    {
+     "w": "one",
+     "start": 76.872,
+     "end": 77.112
+    },
+    {
+     "w": "wrong",
+     "start": 77.112,
+     "end": 77.352
+    },
+    {
+     "w": "turn.",
+     "start": 77.352,
+     "end": 77.732
+    }
+   ]
+  }
+ ]
+}

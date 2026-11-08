@@ -1,0 +1,272 @@
+[
+ {
+  "file": "wind.wav",
+  "at": 0.0,
+  "volume": 0.35
+ },
+ {
+  "file": "boom.wav",
+  "at": 0.05,
+  "volume": 0.35
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 3.404,
+  "volume": 0.35
+ },
+ {
+  "file": "stamp.wav",
+  "at": 3.704,
+  "volume": 0.5
+ },
+ {
+  "file": "stall.wav",
+  "at": 4.504,
+  "volume": 0.4
+ },
+ {
+  "file": "gunshot.wav",
+  "at": 5.804,
+  "volume": 0.55
+ },
+ {
+  "file": "gunshot.wav",
+  "at": 6.104,
+  "volume": 0.45
+ },
+ {
+  "file": "click.wav",
+  "at": 8.028,
+  "volume": 0.4
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.128,
+  "volume": 0.25
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.228,
+  "volume": 0.25
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.328,
+  "volume": 0.25
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.428,
+  "volume": 0.25
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.528,
+  "volume": 0.25
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.628,
+  "volume": 0.25
+ },
+ {
+  "file": "tick.wav",
+  "at": 8.728,
+  "volume": 0.25
+ },
+ {
+  "file": "crowd.wav",
+  "at": 10.134,
+  "volume": 0.35
+ },
+ {
+  "file": "click.wav",
+  "at": 10.804,
+  "volume": 0.45
+ },
+ {
+  "file": "click.wav",
+  "at": 15.754,
+  "volume": 0.45
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 16.191,
+  "volume": 0.3
+ },
+ {
+  "file": "tick.wav",
+  "at": 17.601,
+  "volume": 0.35
+ },
+ {
+  "file": "tick.wav",
+  "at": 17.751,
+  "volume": 0.35
+ },
+ {
+  "file": "tick.wav",
+  "at": 17.901,
+  "volume": 0.35
+ },
+ {
+  "file": "tick.wav",
+  "at": 18.051,
+  "volume": 0.35
+ },
+ {
+  "file": "tick.wav",
+  "at": 18.201,
+  "volume": 0.35
+ },
+ {
+  "file": "tick.wav",
+  "at": 18.351,
+  "volume": 0.35
+ },
+ {
+  "file": "tick.wav",
+  "at": 19.246,
+  "volume": 0.3
+ },
+ {
+  "file": "tick.wav",
+  "at": 19.746,
+  "volume": 0.3
+ },
+ {
+  "file": "tick.wav",
+  "at": 20.246,
+  "volume": 0.3
+ },
+ {
+  "file": "tick.wav",
+  "at": 20.746,
+  "volume": 0.3
+ },
+ {
+  "file": "tick.wav",
+  "at": 21.246,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 20.766,
+  "volume": 0.25
+ },
+ {
+  "file": "boom.wav",
+  "at": 23.9,
+  "volume": 0.75
+ },
+ {
+  "file": "crowd.wav",
+  "at": 24.3,
+  "volume": 0.25
+ },
+ {
+  "file": "stamp.wav",
+  "at": 27.758,
+  "volume": 0.5
+ },
+ {
+  "file": "stamp.wav",
+  "at": 29.058,
+  "volume": 0.6
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 34.231,
+  "volume": 0.3
+ },
+ {
+  "file": "click.wav",
+  "at": 38.824,
+  "volume": 0.4
+ },
+ {
+  "file": "stamp.wav",
+  "at": 40.014,
+  "volume": 0.55
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 40.35,
+  "volume": 0.3
+ },
+ {
+  "file": "stamp.wav",
+  "at": 45.731,
+  "volume": 0.5
+ },
+ {
+  "file": "brakes.wav",
+  "at": 46.931,
+  "volume": 0.4
+ },
+ {
+  "file": "stall.wav",
+  "at": 48.751,
+  "volume": 0.6
+ },
+ {
+  "file": "heartbeat.wav",
+  "at": 49.766,
+  "volume": 0.5
+ },
+ {
+  "file": "gunshot.wav",
+  "at": 59.375,
+  "volume": 0.9
+ },
+ {
+  "file": "gunshot.wav",
+  "at": 59.775,
+  "volume": 0.85
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 65.112,
+  "volume": 0.3
+ },
+ {
+  "file": "stamp.wav",
+  "at": 67.462,
+  "volume": 0.5
+ },
+ {
+  "file": "stamp.wav",
+  "at": 69.908,
+  "volume": 0.35
+ },
+ {
+  "file": "stamp.wav",
+  "at": 70.488,
+  "volume": 0.35
+ },
+ {
+  "file": "stamp.wav",
+  "at": 70.948,
+  "volume": 0.35
+ },
+ {
+  "file": "stamp.wav",
+  "at": 71.488,
+  "volume": 0.35
+ },
+ {
+  "file": "artillery.wav",
+  "at": 71.922,
+  "volume": 0.5
+ },
+ {
+  "file": "wind.wav",
+  "at": 73.922,
+  "volume": 0.3
+ },
+ {
+  "file": "boom.wav",
+  "at": 77.352,
+  "volume": 0.35
+ }
+]
