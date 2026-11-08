@@ -28,6 +28,27 @@ Accuracy notes:
 - #10 refers to the AD 62 earthquake.
 - #11 "18 hours" is an approximate duration of the first eruption phase. If you want zero risk, use #2.
 
+## 15 long titles (90-100 characters; 100 is YouTube's maximum)
+| # | Title | Chars |
+|---|---|---|
+| 1 | Pompeii: The City That Disappeared in One Day | The Final Hours of Vesuvius | Buried Chronicles | 95 |
+| 2 | The Last Day of Pompeii, Hour by Hour: How Mount Vesuvius Buried a Roman City | Buried Chronicles | 97 |
+| 3 | It Wasn't Lava That Killed Pompeii: The Real Story of the AD 79 Eruption | Buried Chronicles Doc | 96 |
+| 4 | What Really Happened at Pompeii in AD 79? The Eruption of Vesuvius Explained | Buried Chronicles | 96 |
+| 5 | Pompeii's Final Hours: The Day Mount Vesuvius Woke Up and a Roman City Vanished | Buried Chronicles | 99 |
+| 6 | Buried Chronicles: How Mount Vesuvius Erased Pompeii in a Day and Preserved It for 1,700 Years | 94 |
+| 7 | Why Didn't They Escape Pompeii? The Final Hours of a Roman City Under Vesuvius | Buried Chronicles | 98 |
+| 8 | The Wrong Date? The Pompeii Mystery That Rewrites the Eruption of Mount Vesuvius | Buried Chronicles | 100 |
+| 9 | Buried for 1,700 Years, Then Found: Pompeii, the Lost Roman City of Vesuvius | Buried Chronicles | 96 |
+| 10 | The Volcano Above Pompeii Gave a Warning 17 Years Early. Nobody Understood It | Buried Chronicles | 97 |
+| 11 | 18 Hours of Ash: The Fall of Pompeii and the Deadly Eruption of Mount Vesuvius | Buried Chronicles | 98 |
+| 12 | Buried Chronicles: Pompeii, the Roman City Frozen in Time by Vesuvius | Full History Documentary | 96 |
+| 13 | How One Eruption Destroyed Pompeii and Preserved Roman Life Forever | Buried Chronicles Documentary | 99 |
+| 14 | Pompeii Explained: From Roman Paradise to Ash in One Day | Mount Vesuvius AD 79 | Buried Chronicles | 99 |
+| 15 | The Lost City Under Vesuvius: Pompeii's Last Day, Its Burial and Rediscovery | Buried Chronicles | 96 |
+
+Only about the first 60-70 characters show in search and on mobile, so the hook comes first and the brand name sits at the end.
+
 ## Description
 ```
 Almost two thousand years ago, a thriving Roman town stood in the shadow of Mount Vesuvius. Then, in AD 79, the mountain erupted.
