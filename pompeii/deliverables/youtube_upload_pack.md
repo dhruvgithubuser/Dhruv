@@ -10,19 +10,19 @@
 
 **Strategy:** lead with *destruction of pompeii*, the lowest-competition exact match, and add *ancient civilizations*, which has big volume, a rising trend and only medium competition. *Pompeii* and *history* are there for broad reach.
 
-### 10 keyword-optimised titles (all within the 100-character limit)
+### 10 keyword-optimised titles ("Pompeii" exactly twice in each, all within 100 characters)
 | # | Title | Chars |
 |---|---|---|
-| 1 | Destruction of Pompeii: The City That Disappeared in One Day | Ancient History | Buried Chronicles | 98 |
-| 2 | The Destruction of Pompeii Explained: How Vesuvius Buried a Roman City | History | Buried Chronicles | 100 |
-| 3 | Pompeii: The Last Day of an Ancient Civilization Under Mount Vesuvius | History | Buried Chronicles | 99 |
-| 4 | It Wasn't Lava: The Real Destruction of Pompeii in AD 79 | Ancient History Doc | Buried Chronicles | 98 |
-| 5 | Pompeii History: The Day Vesuvius Destroyed a Roman City and Froze It in Time | Buried Chronicles | 97 |
-| 6 | Buried Chronicles: The Destruction of Pompeii, Hour by Hour | Ancient Civilizations Documentary | 95 |
-| 7 | How an Ancient Civilization Vanished in One Day | The Destruction of Pompeii | Buried Chronicles | 96 |
-| 8 | What Really Happened at Pompeii? The Destruction of a Roman City Explained | Buried Chronicles | 94 |
-| 9 | Lost Ancient Civilizations: Pompeii, the Roman City Buried by Vesuvius | History | Buried Chronicles | 100 |
-| 10 | The Destruction of Pompeii: Why Didn't They Escape Vesuvius? | Ancient History | Buried Chronicles | 98 |
+| 1 | Destruction of Pompeii: The City That Disappeared in One Day | Pompeii History | Buried Chronicles | 98 |
+| 2 | Pompeii: The Last Day of an Ancient Civilization | The Destruction of Pompeii | Buried Chronicles | 97 |
+| 3 | The Destruction of Pompeii Explained: How Vesuvius Buried Pompeii in AD 79 | Buried Chronicles | 94 |
+| 4 | It Wasn't Lava That Killed Pompeii | The Real Destruction of Pompeii, AD 79 | Buried Chronicles | 95 |
+| 5 | Pompeii History: The Day Vesuvius Destroyed Pompeii and Froze It in Time | Buried Chronicles | 92 |
+| 6 | Buried Chronicles: The Destruction of Pompeii, Hour by Hour | Pompeii Ancient History Documentary | 97 |
+| 7 | Ancient Civilizations: How Pompeii Vanished in a Day | Destruction of Pompeii | Buried Chronicles | 97 |
+| 8 | What Really Happened at Pompeii? The Destruction of Pompeii Explained | History | Buried Chronicles | 99 |
+| 9 | Pompeii: Lost Ancient Civilization Under Vesuvius | Destruction of Pompeii Story | Buried Chronicles | 100 |
+| 10 | Destruction of Pompeii: Why Couldn't Pompeii Escape Vesuvius? | Ancient History | Buried Chronicles | 99 |
 
 **Recommended:** #1 (exact keyword first, then the video's own title) with thumbnail 1.
 
