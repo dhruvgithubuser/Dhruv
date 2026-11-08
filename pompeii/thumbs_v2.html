@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Thumbnails v2</title>
+<style>
+@font-face{font-family:Display;src:url(fonts/playfair-display-latin-900-italic.woff2);font-style:italic;font-weight:800}
+@font-face{font-family:Caps;src:url(fonts/cinzel-latin-900-normal.woff2);font-weight:900}
+@font-face{font-family:Caps;src:url(fonts/cinzel-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#111}canvas{display:block}</style></head>
+<body><canvas id="c" width="1280" height="720"></canvas>
+<script type="module">
+// Painted-cut thumbnails (Globexplained style): one painting, a small-caps kicker, one huge gold italic word.
+const W = 1280, H = 720, c = document.getElementById('c'), x = c.getContext('2d');
+await Promise.all(['italic 800 40px Display', '900 40px Caps', '700 40px Caps'].map((f) => document.fonts.load(f)));
+const load = (s) => new Promise((r) => { const i = new Image(); i.onload = () => r(i); i.src = s; });
+const k = new URLSearchParams(location.search).get('k') || '1';
+function photo(img, fx, fy, zoom, filter = 'contrast(1.12) saturate(1.15)') {
+  const s = Math.max(W / img.width, H / img.height) * zoom, dw = img.width * s, dh = img.height * s;
+  x.save(); x.filter = filter; x.drawImage(img, (W - dw) * fx, (H - dh) * fy, dw, dh); x.restore();
+}
+function shade(y0, y1, a0, a1) { const g = x.createLinearGradient(0, y0, 0, y1); g.addColorStop(0, `rgba(12,7,3,${a0})`); g.addColorStop(1, `rgba(12,7,3,${a1})`); x.fillStyle = g; x.fillRect(0, Math.min(y0, y1), W, Math.abs(y1 - y0)); }
+function vignette(a = 0.55) { const g = x.createRadialGradient(W / 2, H * 0.45, H * 0.35, W / 2, H / 2, W * 0.75); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, `rgba(8,4,2,${a})`); x.fillStyle = g; x.fillRect(0, 0, W, H); }
+function gold(str, cx, by, size, rot = -0.02) {
+  x.save(); x.translate(cx, by); x.rotate(rot); x.font = `italic 800 ${size}px Display`; x.textAlign = 'center';
+  x.shadowColor = 'rgba(0,0,0,0.85)'; x.shadowBlur = size * 0.25; x.shadowOffsetY = size * 0.06;
+  x.lineJoin = 'round'; x.lineWidth = size * 0.09; x.strokeStyle = '#2a1405'; x.strokeText(str, 0, 0); x.shadowColor = 'transparent';
+  const g = x.createLinearGradient(0, -size * 0.8, 0, size * 0.1); g.addColorStop(0, '#fff1b8'); g.addColorStop(0.42, '#f2c75a'); g.addColorStop(1, '#a8701c');
+  x.fillStyle = g; x.fillText(str, 0, 0);
+  x.lineWidth = size * 0.012; x.strokeStyle = 'rgba(255,248,220,0.6)'; x.strokeText(str, 0, -size * 0.01); x.restore();
+}
+function caps(str, cx, by, size, col = '#fbf3e0', track = 0.12) {
+  x.save(); x.font = `900 ${size}px Caps`; x.letterSpacing = `${size * track}px`; x.textAlign = 'center';
+  x.shadowColor = 'rgba(0,0,0,0.9)'; x.shadowBlur = size * 0.4; x.lineWidth = size * 0.08; x.strokeStyle = 'rgba(20,10,4,0.8)'; x.strokeText(str, cx, by); x.fillStyle = col; x.fillText(str, cx, by); x.restore();
+}
+function arrow(x0, y0, cx, cy, x1, y1, w = 14) {
+  x.save(); x.lineCap = 'round'; x.shadowColor = 'rgba(0,0,0,0.7)'; x.shadowBlur = 12;
+  for (const [col, lw] of [['#fbf3e0', w + 8], ['#c8261a', w]]) { x.strokeStyle = col; x.lineWidth = lw; x.beginPath(); x.moveTo(x0, y0); x.quadraticCurveTo(cx, cy, x1, y1); x.stroke(); }
+  const a = Math.atan2(y1 - cy, x1 - cx), L = w * 3.2;
+  x.fillStyle = '#c8261a'; x.strokeStyle = '#fbf3e0'; x.lineWidth = 4; x.beginPath(); x.moveTo(x1 + Math.cos(a) * L * 0.6, y1 + Math.sin(a) * L * 0.6);
+  x.lineTo(x1 + Math.cos(a + 2.5) * L, y1 + Math.sin(a + 2.5) * L); x.lineTo(x1 + Math.cos(a - 2.5) * L, y1 + Math.sin(a - 2.5) * L); x.closePath(); x.stroke(); x.fill(); x.restore();
+}
+if (k === '1') {          // THEY HAD ONE DAY: the family watches the eruption
+  photo(await load('v2/plates_hd/4F.jpg'), 0.62, 0.0, 1.04);
+  shade(0, H * 0.3, 0.45, 0); shade(H * 0.55, H, 0, 0.85); vignette(0.45);
+  caps('THEY HAD', W * 0.24, 84, 60); caps('ONE DAY', W * 0.24, 152, 60);
+  gold('Pompeii', W / 2, H - 52, 210);
+} else if (k === '2') {   // NOT LAVA: ash columns over the city, crowd and fire
+  photo(await load('v2/plates_hd/4D.jpg'), 0.5, 0.3, 1.1);
+  shade(0, H * 0.3, 0.6, 0); shade(H * 0.5, H, 0, 0.88); vignette(0.5);
+  caps('IT WASN\'T', W * 0.5, H - 238, 58);
+  gold('Lava', W * 0.5, H - 60, 230);
+  x.save(); x.strokeStyle = '#c8261a'; x.lineWidth = 16; x.lineCap = 'round'; x.shadowColor = 'rgba(0,0,0,0.7)'; x.shadowBlur = 10; x.beginPath(); x.moveTo(W * 0.33, H - 200); x.lineTo(W * 0.67, H - 70); x.stroke(); x.restore();
+} else {                  // THE CITY THAT DISAPPEARED: golden city under the volcano, arrow to the town
+  photo(await load('v2/plates_hd/1C.jpg'), 0.5, 0.25, 1.08);
+  shade(0, H * 0.2, 0.4, 0); shade(H * 0.5, H, 0, 0.9); vignette(0.45);
+  caps('THE CITY THAT', W / 2, H - 205, 54);
+  gold('Disappeared', W / 2, H - 50, 165);
+  arrow(W * 0.9, H * 0.12, W * 0.93, H * 0.36, W * 0.78, H * 0.44);
+  caps('POMPEII', W * 0.88, H * 0.09, 40, '#fbf3e0', 0.16);
+}
+window.done = true;
+</script></body></html>
