@@ -6,10 +6,10 @@ Brand: **Buried Chronicles**
 | # | Title | Chars |
 |---|---|---|
 | 1 | Pompeii: The City That Disappeared in One Day \| Buried Chronicles | 65 |
-| 2 | The Last Day of Pompeii, Hour by Hour \| Buried Chronicles | 58 |
+| 2 | The Last Day of Pompeii, Hour by Hour \| Buried Chronicles | 57 |
 | 3 | It Wasn't Lava That Killed Pompeii \| Buried Chronicles | 54 |
 | 4 | What Really Happened at Pompeii in AD 79? \| Buried Chronicles | 61 |
-| 5 | Pompeii's Final Hours: The Day Vesuvius Woke Up \| Buried Chronicles | 68 |
+| 5 | Pompeii's Final Hours: The Day Vesuvius Woke Up \| Buried Chronicles | 67 |
 | 6 | Buried Chronicles: How Vesuvius Erased a Roman City | 51 |
 | 7 | Why Didn't They Escape Pompeii? \| Buried Chronicles | 51 |
 | 8 | The Wrong Date? The Pompeii Mystery Explained \| Buried Chronicles | 65 |
@@ -70,7 +70,7 @@ Scenes of the ancient city are artistic reconstructions created with AI-assisted
 #Pompeii #Vesuvius #AncientRome #BuriedChronicles #HistoryDocumentary
 ```
 
-## Tags (comma-separated: 470 characters, under YouTube's 500 limit)
+## Tags (comma-separated: 439 characters, under YouTube's 500 limit)
 ```
 buried chronicles,pompeii,pompeii documentary,last day of pompeii,mount vesuvius,vesuvius eruption,ad 79,pompeii eruption,ancient rome,roman history,ancient history,history documentary,pyroclastic flow,herculaneum,pliny the younger,pompeii explained,lost city,buried city,volcano documentary,archaeology,roman empire,pompeii history,what happened in pompeii,pompeii animation,animated history,natural disasters in history,history explained
 ```
