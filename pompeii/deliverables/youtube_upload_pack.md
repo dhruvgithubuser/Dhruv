@@ -1,5 +1,47 @@
 # YouTube upload pack: Pompeii (painted cut, 7:19)
 
+## Keyword-optimised set (from your vidIQ research)
+| Keyword | Search volume | Competition | vidIQ score | Where used |
+|---|---|---|---|---|
+| Pompeii | 341,191 | High | 61 | Every title, first word of the description, tag #2, hashtag |
+| destruction of pompeii | 7,511 | Medium | 55 | Exact phrase in most titles, line 1 of the description, tag #3 |
+| ancient civilizations | 413,260 (rising) | Medium | 67 | Titles 3, 6, 7, 9; description; tags; #AncientCivilizations |
+| history | 7,315,956 | High | 72 | Broad support word in titles, tags and #History; too competitive to lead with |
+
+**Strategy:** lead with *destruction of pompeii*, the lowest-competition exact match, and add *ancient civilizations*, which has big volume, a rising trend and only medium competition. *Pompeii* and *history* are there for broad reach.
+
+### 10 keyword-optimised titles (all within the 100-character limit)
+| # | Title | Chars |
+|---|---|---|
+| 1 | Destruction of Pompeii: The City That Disappeared in One Day | Ancient History | Buried Chronicles | 98 |
+| 2 | The Destruction of Pompeii Explained: How Vesuvius Buried a Roman City | History | Buried Chronicles | 100 |
+| 3 | Pompeii: The Last Day of an Ancient Civilization Under Mount Vesuvius | History | Buried Chronicles | 99 |
+| 4 | It Wasn't Lava: The Real Destruction of Pompeii in AD 79 | Ancient History Doc | Buried Chronicles | 98 |
+| 5 | Pompeii History: The Day Vesuvius Destroyed a Roman City and Froze It in Time | Buried Chronicles | 97 |
+| 6 | Buried Chronicles: The Destruction of Pompeii, Hour by Hour | Ancient Civilizations Documentary | 95 |
+| 7 | How an Ancient Civilization Vanished in One Day | The Destruction of Pompeii | Buried Chronicles | 96 |
+| 8 | What Really Happened at Pompeii? The Destruction of a Roman City Explained | Buried Chronicles | 94 |
+| 9 | Lost Ancient Civilizations: Pompeii, the Roman City Buried by Vesuvius | History | Buried Chronicles | 100 |
+| 10 | The Destruction of Pompeii: Why Didn't They Escape Vesuvius? | Ancient History | Buried Chronicles | 98 |
+
+**Recommended:** #1 (exact keyword first, then the video's own title) with thumbnail 1.
+
+### Description opening (replace the first paragraph)
+```
+The destruction of Pompeii in AD 79 is one of the most dramatic moments in ancient history. In one day, Mount Vesuvius buried a thriving Roman city and preserved an entire ancient civilization in ash.
+
+In this Buried Chronicles history documentary, we follow Pompeii's final hours step by step: the towering eruption column, the endless fall of pumice, the darkness, and the deadly pyroclastic currents of the next morning. We also ask why the traditional date may be wrong, and why it wasn't lava that destroyed the city.
+```
+
+### Updated tags (412 characters)
+```
+buried chronicles,pompeii,destruction of pompeii,pompeii history,history,ancient history,ancient civilizations,lost civilizations,pompeii documentary,last day of pompeii,mount vesuvius,vesuvius eruption,ad 79,ancient rome,roman history,roman empire,history documentary,pyroclastic flow,herculaneum,pompeii explained,lost city,buried city,archaeology,what happened in pompeii,volcano documentary,history explained
+```
+
+### Updated hashtags
+#Pompeii #DestructionOfPompeii #AncientCivilizations #History #BuriedChronicles
+
+
 Brand: **Buried Chronicles**
 
 ## 15 title options
