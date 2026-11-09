@@ -2,3 +2,5 @@ node_modules
 output/*.mp4
 output/*.log
 output/x264*
+public/assets/music/*.wav
+public/assets/sound/voiceover.wav
