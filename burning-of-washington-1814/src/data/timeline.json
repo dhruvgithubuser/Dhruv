@@ -1,0 +1,1146 @@
+{
+ "fps": 30,
+ "duration": 72.464,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "In 1814, Britain burned Washington. Less than a day later, the sky put the fire out.",
+   "start": 0.35,
+   "end": 5.357,
+   "words": [
+    {
+     "w": "In",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "1814,",
+     "start": 0.43,
+     "end": 0.91
+    },
+    {
+     "w": "Britain",
+     "start": 0.97,
+     "end": 1.37
+    },
+    {
+     "w": "burned",
+     "start": 1.37,
+     "end": 1.67
+    },
+    {
+     "w": "Washington.",
+     "start": 1.67,
+     "end": 2.23
+    },
+    {
+     "w": "Less",
+     "start": 2.85,
+     "end": 2.89
+    },
+    {
+     "w": "than",
+     "start": 2.89,
+     "end": 3.11
+    },
+    {
+     "w": "a",
+     "start": 3.11,
+     "end": 3.17
+    },
+    {
+     "w": "day",
+     "start": 3.17,
+     "end": 3.33
+    },
+    {
+     "w": "later,",
+     "start": 3.33,
+     "end": 3.67
+    },
+    {
+     "w": "the",
+     "start": 4.07,
+     "end": 4.15
+    },
+    {
+     "w": "sky",
+     "start": 4.15,
+     "end": 4.35
+    },
+    {
+     "w": "put",
+     "start": 4.35,
+     "end": 4.63
+    },
+    {
+     "w": "the",
+     "start": 4.63,
+     "end": 4.73
+    },
+    {
+     "w": "fire",
+     "start": 4.73,
+     "end": 4.95
+    },
+    {
+     "w": "out.",
+     "start": 4.95,
+     "end": 5.25
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "August 24th. 4,500 British troops routed 6,000 Americans at Bladensburg, Maryland. It's still mocked as the Bladensburg Races.",
+   "start": 5.682,
+   "end": 14.34,
+   "words": [
+    {
+     "w": "August",
+     "start": 5.582,
+     "end": 5.882
+    },
+    {
+     "w": "24th.",
+     "start": 5.882,
+     "end": 6.762
+    },
+    {
+     "w": "4,500",
+     "start": 6.762,
+     "end": 7.662
+    },
+    {
+     "w": "British",
+     "start": 7.662,
+     "end": 8.242
+    },
+    {
+     "w": "troops",
+     "start": 8.242,
+     "end": 8.522
+    },
+    {
+     "w": "routed",
+     "start": 8.522,
+     "end": 8.842
+    },
+    {
+     "w": "6,000",
+     "start": 8.842,
+     "end": 9.622
+    },
+    {
+     "w": "Americans",
+     "start": 9.622,
+     "end": 9.902
+    },
+    {
+     "w": "at",
+     "start": 9.902,
+     "end": 10.262
+    },
+    {
+     "w": "Bladensburg,",
+     "start": 10.262,
+     "end": 10.862
+    },
+    {
+     "w": "Maryland.",
+     "start": 11.162,
+     "end": 11.302
+    },
+    {
+     "w": "It's",
+     "start": 11.302,
+     "end": 12.082
+    },
+    {
+     "w": "still",
+     "start": 12.082,
+     "end": 12.322
+    },
+    {
+     "w": "mocked",
+     "start": 12.322,
+     "end": 12.562
+    },
+    {
+     "w": "as",
+     "start": 12.562,
+     "end": 12.862
+    },
+    {
+     "w": "the",
+     "start": 12.862,
+     "end": 13.002
+    },
+    {
+     "w": "Bladensburg",
+     "start": 13.002,
+     "end": 13.662
+    },
+    {
+     "w": "Races.",
+     "start": 13.662,
+     "end": 13.902
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "That evening, they marched into the capital. President Madison had already fled.",
+   "start": 14.567,
+   "end": 18.488,
+   "words": [
+    {
+     "w": "That",
+     "start": 14.467,
+     "end": 14.667
+    },
+    {
+     "w": "evening,",
+     "start": 14.667,
+     "end": 14.847
+    },
+    {
+     "w": "they",
+     "start": 14.847,
+     "end": 15.147
+    },
+    {
+     "w": "marched",
+     "start": 15.147,
+     "end": 15.387
+    },
+    {
+     "w": "into",
+     "start": 15.387,
+     "end": 15.667
+    },
+    {
+     "w": "the",
+     "start": 15.667,
+     "end": 15.807
+    },
+    {
+     "w": "capital.",
+     "start": 15.807,
+     "end": 16.627
+    },
+    {
+     "w": "President",
+     "start": 16.627,
+     "end": 16.867
+    },
+    {
+     "w": "Madison",
+     "start": 16.867,
+     "end": 17.287
+    },
+    {
+     "w": "had",
+     "start": 17.287,
+     "end": 17.647
+    },
+    {
+     "w": "already",
+     "start": 17.647,
+     "end": 17.927
+    },
+    {
+     "w": "fled.",
+     "start": 17.927,
+     "end": 18.227
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "They torched the Capitol first. The Library of Congress, all 3,000 books, burned with it.",
+   "start": 18.715,
+   "end": 23.483,
+   "words": [
+    {
+     "w": "They",
+     "start": 18.615,
+     "end": 18.795
+    },
+    {
+     "w": "torched",
+     "start": 18.795,
+     "end": 19.075
+    },
+    {
+     "w": "the",
+     "start": 19.075,
+     "end": 19.195
+    },
+    {
+     "w": "Capitol",
+     "start": 19.195,
+     "end": 19.415
+    },
+    {
+     "w": "first.",
+     "start": 19.415,
+     "end": 19.775
+    },
+    {
+     "w": "The",
+     "start": 20.435,
+     "end": 20.435
+    },
+    {
+     "w": "Library",
+     "start": 20.435,
+     "end": 20.675
+    },
+    {
+     "w": "of",
+     "start": 20.675,
+     "end": 20.995
+    },
+    {
+     "w": "Congress,",
+     "start": 20.995,
+     "end": 21.355
+    },
+    {
+     "w": "all",
+     "start": 21.355,
+     "end": 21.695
+    },
+    {
+     "w": "3,000",
+     "start": 21.695,
+     "end": 22.395
+    },
+    {
+     "w": "books,",
+     "start": 22.395,
+     "end": 22.615
+    },
+    {
+     "w": "burned",
+     "start": 22.615,
+     "end": 22.995
+    },
+    {
+     "w": "with",
+     "start": 22.995,
+     "end": 23.255
+    },
+    {
+     "w": "it.",
+     "start": 23.255,
+     "end": 23.395
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Then up Pennsylvania Avenue, to the President's House. Dinner was still on the table. British troops ate it, then burned the house.",
+   "start": 23.71,
+   "end": 30.223,
+   "words": [
+    {
+     "w": "Then",
+     "start": 23.61,
+     "end": 23.81
+    },
+    {
+     "w": "up",
+     "start": 23.81,
+     "end": 23.91
+    },
+    {
+     "w": "Pennsylvania",
+     "start": 23.91,
+     "end": 24.29
+    },
+    {
+     "w": "Avenue,",
+     "start": 24.29,
+     "end": 24.91
+    },
+    {
+     "w": "to",
+     "start": 24.91,
+     "end": 25.25
+    },
+    {
+     "w": "the",
+     "start": 25.25,
+     "end": 25.31
+    },
+    {
+     "w": "President's",
+     "start": 25.31,
+     "end": 25.81
+    },
+    {
+     "w": "House.",
+     "start": 25.81,
+     "end": 26.01
+    },
+    {
+     "w": "Dinner",
+     "start": 26.49,
+     "end": 26.63
+    },
+    {
+     "w": "was",
+     "start": 26.63,
+     "end": 26.85
+    },
+    {
+     "w": "still",
+     "start": 26.85,
+     "end": 27.07
+    },
+    {
+     "w": "on",
+     "start": 27.07,
+     "end": 27.23
+    },
+    {
+     "w": "the",
+     "start": 27.23,
+     "end": 27.33
+    },
+    {
+     "w": "table.",
+     "start": 27.33,
+     "end": 27.57
+    },
+    {
+     "w": "British",
+     "start": 28.05,
+     "end": 28.11
+    },
+    {
+     "w": "troops",
+     "start": 28.11,
+     "end": 28.39
+    },
+    {
+     "w": "ate",
+     "start": 28.39,
+     "end": 28.67
+    },
+    {
+     "w": "it,",
+     "start": 28.67,
+     "end": 28.87
+    },
+    {
+     "w": "then",
+     "start": 29.21,
+     "end": 29.31
+    },
+    {
+     "w": "burned",
+     "start": 29.31,
+     "end": 29.51
+    },
+    {
+     "w": "the",
+     "start": 29.51,
+     "end": 29.75
+    },
+    {
+     "w": "house.",
+     "start": 29.75,
+     "end": 29.97
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "They fed the fires all night.",
+   "start": 30.45,
+   "end": 31.874,
+   "words": [
+    {
+     "w": "They",
+     "start": 30.35,
+     "end": 30.53
+    },
+    {
+     "w": "fed",
+     "start": 30.53,
+     "end": 30.71
+    },
+    {
+     "w": "the",
+     "start": 30.71,
+     "end": 30.87
+    },
+    {
+     "w": "fires",
+     "start": 30.87,
+     "end": 31.13
+    },
+    {
+     "w": "all",
+     "start": 31.13,
+     "end": 31.45
+    },
+    {
+     "w": "night.",
+     "start": 31.45,
+     "end": 31.73
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "The next afternoon, the sky turned black. A violent storm hit the city, and the rain drowned the flames.",
+   "start": 32.134,
+   "end": 37.55,
+   "words": [
+    {
+     "w": "The",
+     "start": 32.034,
+     "end": 32.194
+    },
+    {
+     "w": "next",
+     "start": 32.194,
+     "end": 32.334
+    },
+    {
+     "w": "afternoon,",
+     "start": 32.334,
+     "end": 32.714
+    },
+    {
+     "w": "the",
+     "start": 32.714,
+     "end": 33.014
+    },
+    {
+     "w": "sky",
+     "start": 33.014,
+     "end": 33.234
+    },
+    {
+     "w": "turned",
+     "start": 33.234,
+     "end": 33.554
+    },
+    {
+     "w": "black.",
+     "start": 33.554,
+     "end": 33.854
+    },
+    {
+     "w": "A",
+     "start": 34.474,
+     "end": 34.494
+    },
+    {
+     "w": "violent",
+     "start": 34.494,
+     "end": 34.814
+    },
+    {
+     "w": "storm",
+     "start": 34.814,
+     "end": 35.154
+    },
+    {
+     "w": "hit",
+     "start": 35.154,
+     "end": 35.434
+    },
+    {
+     "w": "the",
+     "start": 35.434,
+     "end": 35.574
+    },
+    {
+     "w": "city,",
+     "start": 35.574,
+     "end": 35.814
+    },
+    {
+     "w": "and",
+     "start": 35.814,
+     "end": 36.134
+    },
+    {
+     "w": "the",
+     "start": 36.134,
+     "end": 36.194
+    },
+    {
+     "w": "rain",
+     "start": 36.194,
+     "end": 36.414
+    },
+    {
+     "w": "drowned",
+     "start": 36.414,
+     "end": 36.674
+    },
+    {
+     "w": "the",
+     "start": 36.674,
+     "end": 36.914
+    },
+    {
+     "w": "flames.",
+     "start": 36.914,
+     "end": 37.154
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "A tornado tore through town, lifting cannons off the ground and killing British soldiers and civilians alike.",
+   "start": 37.712,
+   "end": 43.452,
+   "words": [
+    {
+     "w": "A",
+     "start": 37.612,
+     "end": 37.772
+    },
+    {
+     "w": "tornado",
+     "start": 37.772,
+     "end": 38.092
+    },
+    {
+     "w": "tore",
+     "start": 38.092,
+     "end": 38.452
+    },
+    {
+     "w": "through",
+     "start": 38.452,
+     "end": 38.812
+    },
+    {
+     "w": "town,",
+     "start": 38.812,
+     "end": 39.092
+    },
+    {
+     "w": "lifting",
+     "start": 39.532,
+     "end": 39.852
+    },
+    {
+     "w": "cannons",
+     "start": 39.852,
+     "end": 40.132
+    },
+    {
+     "w": "off",
+     "start": 40.132,
+     "end": 40.452
+    },
+    {
+     "w": "the",
+     "start": 40.452,
+     "end": 40.612
+    },
+    {
+     "w": "ground",
+     "start": 40.612,
+     "end": 40.852
+    },
+    {
+     "w": "and",
+     "start": 40.852,
+     "end": 41.192
+    },
+    {
+     "w": "killing",
+     "start": 41.192,
+     "end": 41.472
+    },
+    {
+     "w": "British",
+     "start": 41.472,
+     "end": 41.732
+    },
+    {
+     "w": "soldiers",
+     "start": 41.732,
+     "end": 42.212
+    },
+    {
+     "w": "and",
+     "start": 42.212,
+     "end": 42.512
+    },
+    {
+     "w": "civilians",
+     "start": 42.512,
+     "end": 42.692
+    },
+    {
+     "w": "alike.",
+     "start": 42.692,
+     "end": 43.232
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Admiral Cockburn reportedly asked: \"Is this the weather to which you are accustomed in this infernal country?\"",
+   "start": 43.679,
+   "end": 49.255,
+   "words": [
+    {
+     "w": "Admiral",
+     "start": 43.579,
+     "end": 43.939
+    },
+    {
+     "w": "Cockburn",
+     "start": 43.939,
+     "end": 44.499
+    },
+    {
+     "w": "reportedly",
+     "start": 44.499,
+     "end": 44.939
+    },
+    {
+     "w": "asked:",
+     "start": 44.939,
+     "end": 45.359
+    },
+    {
+     "w": "\"Is",
+     "start": 45.939,
+     "end": 45.999
+    },
+    {
+     "w": "this",
+     "start": 45.999,
+     "end": 46.159
+    },
+    {
+     "w": "the",
+     "start": 46.159,
+     "end": 46.319
+    },
+    {
+     "w": "weather",
+     "start": 46.319,
+     "end": 46.519
+    },
+    {
+     "w": "to",
+     "start": 46.519,
+     "end": 46.759
+    },
+    {
+     "w": "which",
+     "start": 46.759,
+     "end": 46.879
+    },
+    {
+     "w": "you",
+     "start": 46.879,
+     "end": 47.039
+    },
+    {
+     "w": "are",
+     "start": 47.039,
+     "end": 47.179
+    },
+    {
+     "w": "accustomed",
+     "start": 47.179,
+     "end": 47.399
+    },
+    {
+     "w": "in",
+     "start": 47.399,
+     "end": 47.939
+    },
+    {
+     "w": "this",
+     "start": 47.939,
+     "end": 48.099
+    },
+    {
+     "w": "infernal",
+     "start": 48.099,
+     "end": 48.559
+    },
+    {
+     "w": "country?\"",
+     "start": 48.559,
+     "end": 49.079
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "That night, the British marched out. The occupation lasted about 26 hours.",
+   "start": 49.548,
+   "end": 53.655,
+   "words": [
+    {
+     "w": "That",
+     "start": 49.548,
+     "end": 49.668
+    },
+    {
+     "w": "night,",
+     "start": 49.628,
+     "end": 49.808
+    },
+    {
+     "w": "the",
+     "start": 49.968,
+     "end": 49.988
+    },
+    {
+     "w": "British",
+     "start": 49.988,
+     "end": 50.188
+    },
+    {
+     "w": "marched",
+     "start": 50.188,
+     "end": 50.428
+    },
+    {
+     "w": "out.",
+     "start": 50.428,
+     "end": 50.768
+    },
+    {
+     "w": "The",
+     "start": 51.288,
+     "end": 51.328
+    },
+    {
+     "w": "occupation",
+     "start": 51.328,
+     "end": 51.628
+    },
+    {
+     "w": "lasted",
+     "start": 51.628,
+     "end": 52.168
+    },
+    {
+     "w": "about",
+     "start": 52.168,
+     "end": 52.548
+    },
+    {
+     "w": "26",
+     "start": 52.548,
+     "end": 52.848
+    },
+    {
+     "w": "hours.",
+     "start": 52.848,
+     "end": 53.368
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "So did the storm save Washington? Historians say no. The British came to burn, not to stay.",
+   "start": 53.915,
+   "end": 58.96,
+   "words": [
+    {
+     "w": "So",
+     "start": 53.815,
+     "end": 54.055
+    },
+    {
+     "w": "did",
+     "start": 54.055,
+     "end": 54.235
+    },
+    {
+     "w": "the",
+     "start": 54.235,
+     "end": 54.335
+    },
+    {
+     "w": "storm",
+     "start": 54.335,
+     "end": 54.495
+    },
+    {
+     "w": "save",
+     "start": 54.495,
+     "end": 54.915
+    },
+    {
+     "w": "Washington?",
+     "start": 54.915,
+     "end": 55.415
+    },
+    {
+     "w": "Historians",
+     "start": 55.875,
+     "end": 56.195
+    },
+    {
+     "w": "say",
+     "start": 56.195,
+     "end": 56.535
+    },
+    {
+     "w": "no.",
+     "start": 56.535,
+     "end": 56.795
+    },
+    {
+     "w": "The",
+     "start": 57.295,
+     "end": 57.315
+    },
+    {
+     "w": "British",
+     "start": 57.315,
+     "end": 57.475
+    },
+    {
+     "w": "came",
+     "start": 57.475,
+     "end": 57.735
+    },
+    {
+     "w": "to",
+     "start": 57.735,
+     "end": 57.875
+    },
+    {
+     "w": "burn,",
+     "start": 57.875,
+     "end": 58.115
+    },
+    {
+     "w": "not",
+     "start": 58.115,
+     "end": 58.415
+    },
+    {
+     "w": "to",
+     "start": 58.415,
+     "end": 58.555
+    },
+    {
+     "w": "stay.",
+     "start": 58.555,
+     "end": 58.755
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Three weeks later, the same army failed at Baltimore, inspiring the poem that became the Star-Spangled Banner.",
+   "start": 59.22,
+   "end": 64.941,
+   "words": [
+    {
+     "w": "Three",
+     "start": 59.12,
+     "end": 59.36
+    },
+    {
+     "w": "weeks",
+     "start": 59.36,
+     "end": 59.56
+    },
+    {
+     "w": "later,",
+     "start": 59.56,
+     "end": 59.9
+    },
+    {
+     "w": "the",
+     "start": 60.1,
+     "end": 60.14
+    },
+    {
+     "w": "same",
+     "start": 60.14,
+     "end": 60.32
+    },
+    {
+     "w": "army",
+     "start": 60.32,
+     "end": 60.62
+    },
+    {
+     "w": "failed",
+     "start": 60.62,
+     "end": 61.06
+    },
+    {
+     "w": "at",
+     "start": 61.06,
+     "end": 61.66
+    },
+    {
+     "w": "Baltimore,",
+     "start": 61.66,
+     "end": 61.66
+    },
+    {
+     "w": "inspiring",
+     "start": 62.1,
+     "end": 62.4
+    },
+    {
+     "w": "the",
+     "start": 62.4,
+     "end": 62.8
+    },
+    {
+     "w": "poem",
+     "start": 62.8,
+     "end": 62.98
+    },
+    {
+     "w": "that",
+     "start": 62.98,
+     "end": 63.26
+    },
+    {
+     "w": "became",
+     "start": 63.26,
+     "end": 63.52
+    },
+    {
+     "w": "the",
+     "start": 63.52,
+     "end": 63.74
+    },
+    {
+     "w": "Star-Spangled",
+     "start": 63.74,
+     "end": 64.38
+    },
+    {
+     "w": "Banner.",
+     "start": 64.38,
+     "end": 64.72
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "And no, the White House wasn't painted white to hide the scorch marks. It had been white since 1798.",
+   "start": 65.233,
+   "end": 70.864,
+   "words": [
+    {
+     "w": "And",
+     "start": 65.133,
+     "end": 65.313
+    },
+    {
+     "w": "no,",
+     "start": 65.313,
+     "end": 65.513
+    },
+    {
+     "w": "the",
+     "start": 65.513,
+     "end": 65.773
+    },
+    {
+     "w": "White",
+     "start": 65.773,
+     "end": 65.953
+    },
+    {
+     "w": "House",
+     "start": 65.953,
+     "end": 66.253
+    },
+    {
+     "w": "wasn't",
+     "start": 66.253,
+     "end": 66.613
+    },
+    {
+     "w": "painted",
+     "start": 66.613,
+     "end": 66.793
+    },
+    {
+     "w": "white",
+     "start": 66.793,
+     "end": 67.153
+    },
+    {
+     "w": "to",
+     "start": 67.153,
+     "end": 67.373
+    },
+    {
+     "w": "hide",
+     "start": 67.373,
+     "end": 67.573
+    },
+    {
+     "w": "the",
+     "start": 67.573,
+     "end": 67.733
+    },
+    {
+     "w": "scorch",
+     "start": 67.733,
+     "end": 68.113
+    },
+    {
+     "w": "marks.",
+     "start": 68.113,
+     "end": 68.233
+    },
+    {
+     "w": "It",
+     "start": 68.933,
+     "end": 68.953
+    },
+    {
+     "w": "had",
+     "start": 68.953,
+     "end": 69.033
+    },
+    {
+     "w": "been",
+     "start": 69.033,
+     "end": 69.173
+    },
+    {
+     "w": "white",
+     "start": 69.173,
+     "end": 69.433
+    },
+    {
+     "w": "since",
+     "start": 69.433,
+     "end": 69.673
+    },
+    {
+     "w": "1798.",
+     "start": 69.673,
+     "end": 70.613
+    }
+   ]
+  }
+ ]
+}
