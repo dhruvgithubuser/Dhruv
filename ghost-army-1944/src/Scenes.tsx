@@ -254,7 +254,7 @@ const S09: React.FC = () => {
   return (
     <AbsoluteFill>
       <EuroMap view={v} cy={700} pins={[{ at: 'viersen', label: 'Viersen', o: lin(f, 60, 70), side: 'l', size: 38 }, { at: 'dusseldorf', label: 'Düsseldorf', o: lin(f, 60, 70), side: 'r', size: 32 }]}
-        labels={[{ at: [6.86, 51.47], text: 'RHINE', o: lin(f, 60, 72), size: 40, color: '#2f6f93', rot: -70 }, { at: [6.38, 51.47], text: 'ALLIES', o: lin(f, 66, 78), size: 44, color: C.navy }, { at: [6.93, 51.3], text: 'GERMANS', o: lin(f, 66, 78), size: 44, color: C.german, rot: -70 }]}>
+        labels={[{ at: [6.86, 51.47], text: 'RHINE', o: lin(f, 60, 72), size: 40, color: '#2f6f93', rot: -70 }, { at: [6.38, 51.47], text: 'ALLIES', o: lin(f, 66, 78), size: 44, color: C.navy }, { at: [6.93, 51.48], text: 'GERMANS', o: lin(f, 66, 78), size: 44, color: C.german, rot: -70 }]}>
         {(P) => <RhineLayer P={P} dAt={set - 10} f={f} />}
       </EuroMap>
       <Tag text={`Operation Viersen · ${f < 70 ? 'March' : 'March 18–24'}, 1945`} at={wf(9, 'march') - 6} x={60} y={110} size={30} />
