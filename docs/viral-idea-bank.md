@@ -40,12 +40,27 @@ Built from a reference-channel analysis on 11 Nov 2026 (yt-viral method: each vi
 **Their long videos don't work** (median 185 views): the Shorts audience doesn't follow them to long-form, which matches your own channel.
 **Lesson, and new formula F6:** **an ordinary object or person seen through the ENEMY's eyes**: *the enemy said / found / feared [small, unexpected thing]*. A trailing "…" holds the curiosity gap.
 
-### The six formulas to use (tags below)
+### @TheBlackoutHistory (Shorts): 4.0K subscribers, 111 Shorts, median 3.9K, best 143K (37×)
+| × median | Views | Title |
+|---|---|---|
+| **36.7×** | 143K | The General Who Commanded the Bombers That Crushed Nazi Germany |
+| **35.4×** | 138K | The Man Behind Hitler's Waffen-SS |
+| 23.6× | 92K | Germany Broke Through—Then Ran Out of Fuel (Manteuffel) |
+| 19.0× | 74K | The German Field Marshal Who Lost Everything |
+| 13.3× | 52K | Walter Model: Hitler's Firefighter |
+
+**Pattern:** **commander profiles**, often from the **German side**, with a plain role label ("The General Who…", "The Man Behind…").
+**Their early Allied-hero Shorts flopped** (Leo Major 155, Virginia Hall 661, Montgomery 981, Pilecki 1K). Clickbait-emoji titles (😱) sit at the bottom.
+**Their long videos don't work** (median 581).
+**Lesson, and new formula F7:** "**The [rank] Who [one defining fact]**" about a commander, including the enemy side. Tell it critically and factually: crimes, trials, failures. Never glorify.
+
+### The seven formulas to use (tags below)
 - **F1 · Genius trap/trick:** "The Genius Trap That Destroyed…", "The Trick That…" (ravelin's 35–38×)
 - **F2 · The day a superpower lost:** "The Day [Empire] Lost an Entire Army" (10.7×)
 - **F3 · Underdog numbers:** "How 150 Men Held Off 4,000…" (5.4×)
 - **F4 · Unlikely hero/villain:** "The Teenager / Fake General / Traitor Who…" (4–5×)
 - **F5 · Paradox or mistake:** "The Mistake That Cost…", "The War That Lasted 38 Minutes" (Vault's best Shorts, ravelin 5.4×)
+- **F7 · Commander profile:** "The [rank] Who [defining fact]" (Blackout 13–37×)
 - **F6 · Enemy's-eye surprise / small thing, huge effect:** "[Enemy] said / found / feared [ordinary thing]…" (Unsung Heroes 140–218×)
 
 S = Short (35–60 s) · L = long video (8–15 min). Figures in brackets are the facts to verify and hedge in the script.
@@ -141,6 +156,22 @@ S = Short (35–60 s) · L = long video (8–15 min). Figures in brackets are th
 | S | The Invisible Weapon That Won the Battle of Britain | Chain Home radar, 1940 |
 | S | German Soldiers Reportedly Called Them "Devils in Baggy Pants" | 504th PIR, Anzio (the source of the quote is debated) |
 | S | Napoleon Called Britain "a Nation of Shopkeepers"… Then Lost to Them | Attribution debated, so frame it that way |
+
+### 🎖️ F7 originals (commander profiles, both sides; topics Blackout hasn't covered)
+| | Title | Key fact (verify and hedge) |
+|---|---|---|
+| S | The Field Marshal Hitler Promoted So He Would Die | Paulus at Stalingrad, Jan 1943: promoted, then surrendered |
+| S | The Admiral Who Ruled Germany for 23 Days | Dönitz, Flensburg government, 1–23 May 1945 |
+| S | The Tank General Hitler Fired Twice | Guderian: dismissed Dec 1941 and Mar 1945 |
+| S | Why Hitler Forced His Favorite General to Take Poison | Rommel, Oct 1944 |
+| S | The Admiral Who Warned Japan Not to Fight America | Yamamoto ("run wild for six months", attributed) |
+| S | The Day Britain Surrendered 80,000 Men | Singapore 1942: Yamashita, "Tiger of Malaya" |
+| S | The German General Who Was Never Defeated in WWI | Lettow-Vorbeck, East Africa: surrendered undefeated, 25 Nov 1918 |
+| S | The Letter Eisenhower Wrote in Case D-Day Failed | The "In case of failure" note, 5 Jun 1944 |
+| S | The General Who Slapped a Soldier and Lost His Command | Patton, Sicily 1943 |
+| S | From Hitler's Rockets to the Moon | Wernher von Braun, Operation Paperclip (tell both sides) |
+| S | Napoleon's "Bravest of the Brave", Executed by France | Marshal Ney, 1815 |
+| L | The Day Britain Lost 19,240 Men | The Somme, 1 Jul 1916, Haig |
 
 ### 🏆 Toppers of the wars (aces, snipers, most decorated, unkillable)
 | | Title | Formula | Key fact |
