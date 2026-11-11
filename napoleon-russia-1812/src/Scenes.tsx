@@ -72,7 +72,7 @@ const S07: React.FC = () => {
     </AbsoluteFill>
   );
 };
-const S08: React.FC = () => <S n={8} src="s08_tsar" grade="neutral" move={{ s0: 1.04, s1: 1.14, y0: 1, y1: -1 }}><LowerThird name="Alexander I" role="Tsar of Russia" at={wf(8, 'russia') - 2} out={wf(8, 'last') - 10} /><DateTag text="31 DECEMBER 1810" at={wf(8, 'last') - 6} /></S>;
+const S08: React.FC = () => <S n={8} src="s08_tsar" grade="neutral" move={{ s0: 1.5, s1: 1.6, x0: 18, x1: 20, y0: 4, y1: 3 }}><LowerThird name="Alexander I" role="Tsar of Russia" at={wf(8, 'russia') - 2} out={wf(8, 'last') - 10} /><DateTag text="31 DECEMBER 1810" at={wf(8, 'last') - 6} /></S>;
 const S09: React.FC = () => <S n={9} src="s09_napoleon_window" grade="night" move={{ s0: 1.15, s1: 1.03 }}><Statement text="“Betrayal.”" at={wf(9, 'betrayal') - 4} out={wf(9, 'he') - 10} y={430} size={120} /></S>;
 const S10: React.FC = () => {
   const f = useCurrentFrame();
@@ -130,7 +130,7 @@ const S23: React.FC = () => <S n={23} src="s23_aftermath" grade="night" atmo="sm
 const S24: React.FC = () => <S n={24} src="s24_guard" grade="neutral" atmo="smoke" move={{ s0: 1.04, s1: 1.14, x0: -2, x1: 1 }}><LowerThird name="The Imperial Guard" role="Napoleon's elite · held back" at={wf(24, 'imperial') - 10} /></S>;
 const S25: React.FC = () => <S n={25} src="s25_russian_army" grade="neutral" move={{ s0: 1.04, s1: 1.14, x0: 1, x1: -2 }} />;
 const S26: React.FC = () => <S n={26} src="s26_moscow_view" grade="warm" move={{ s0: 1.04, s1: 1.2, x0: 0, x1: -3 }}><Chapter num="V" title="Moscow" dur={74} /><DateTag text="14 SEPTEMBER 1812" at={80} /><Stat value="≈ 100,000" label="men reached Moscow" at={wf(26, '100000') - 6} out={wf(26, 'he') - 6} y={700} size={100} /></S>;
-const S27: React.FC = () => <S n={27} src="s27_moscow_fire" grade="fire" atmo="embers" move={{ s0: 1.04, s1: 1.18 }}><Stat value="¾" label="of Moscow burned" at={wf(27, 'threequarters') - 6} y={680} color="#ffb347" size={150} /><LowerThird name="Count Fyodor Rostopchin" role="Governor of Moscow" at={wf(27, 'count') - 6} /></S>;
+const S27: React.FC = () => <S n={27} src="s27_moscow_fire" grade="fire" atmo="embers" move={{ s0: 1.04, s1: 1.18 }}><Stat value="¾" label="of Moscow burned" at={wf(27, 'threequarters') - 6} x={1420} y={180} color="#ffb347" size={150} /><LowerThird name="Count Fyodor Rostopchin" role="Governor of Moscow" at={wf(27, 'count') - 6} /></S>;
 const S28: React.FC = () => <S n={28} src="s28_kremlin_desk" grade="fire" move={{ s0: 1.16, s1: 1.04 }}><Chapter num="VI" title="The Mistake" dur={80} /><Statement text="He waited." at={wf(28, 'waited') - 2} out={wf(28, 'convinced') + 10} y={760} size={110} color={GOLD} /></S>;
 const S29: React.FC = () => <S n={29} src="s29_letter" grade="night" move={{ s0: 1.06, s1: 1.14 }}><Statement text="No reply." at={wf(29, 'refused') - 4} y={760} size={110} /></S>;
 const S30: React.FC = () => {
@@ -214,11 +214,11 @@ const S44: React.FC = () => {
 const S45: React.FC = () => <S n={45} src="s45_leipzig" grade="neutral" atmo="smoke" move={{ s0: 1.04, s1: 1.16 }}><DateTag text="OCTOBER 1813 · LEIPZIG" at={wf(45, '1813') - 10} /></S>;
 const S46: React.FC = () => <S n={46} src="s46_elba" grade="warm" move={{ s0: 1.04, s1: 1.14, x0: -2, x1: 1 }}><DateTag text="APRIL 1814 · EXILE TO ELBA" /></S>;
 const S47: React.FC = () => <S n={47} src="s47_waterloo" grade="night" move={{ s0: 1.04, s1: 1.18 }}><DateTag text="JUNE 1815 · WATERLOO" at={wf(47, 'waterloo') - 20} /></S>;
-const S48: React.FC = () => <S n={48} src="s48_eagle" grade="cold" atmo="snow" move={{ s0: 1.04, s1: 1.2 }}><Chips y={760} items={[{ t: 'One battle', at: wf(48, 'gamble') + 10 }, { t: 'One captured city', at: wf(48, 'captured') - 4 }, { t: '35 days of waiting', at: wf(48, '35') - 4, color: 'rgba(200,66,58,0.85)' }]} /></S>;
+const S48: React.FC = () => <S n={48} src="s36_abandoned" grade="cold" atmo="snow" move={{ s0: 1.2, s1: 1.06, x0: -2, x1: 1 }}><Chips y={760} items={[{ t: 'One battle', at: wf(48, 'gamble') + 10 }, { t: 'One captured city', at: wf(48, 'captured') - 4 }, { t: '35 days of waiting', at: wf(48, '35') - 4, color: 'rgba(200,66,58,0.85)' }]} /></S>;
 const S49: React.FC = () => {
   const f = useCurrentFrame();
   return (
-    <S n={49} src="s03_cannon_snow" grade="cold" atmo="snow" move={{ s0: 1.2, s1: 1.08 }} dark={0.45}>
+    <S n={49} src="s01_frozen_bridge" grade="cold" atmo="snow" move={{ s0: 1.2, s1: 1.08 }} dark={0.62}>
       <Statement text="Napoleon's greatest mistake — or was Russia unconquerable?" at={6} y={330} size={78} />
       <div style={{ position: 'absolute', left: 0, right: 0, top: 640, textAlign: 'center', opacity: lin(f, wf(49, 'subscribe') - 10, wf(49, 'subscribe')) }}>
         <span style={{ fontFamily: SANS, fontWeight: 800, fontSize: 44, color: '#fff', background: RED, padding: '14px 40px', borderRadius: 8, letterSpacing: 2 }}>SUBSCRIBE · BURIED CHRONICLES</span>
