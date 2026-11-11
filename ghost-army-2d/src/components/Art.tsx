@@ -190,7 +190,7 @@ export const PlaneTop: React.FC<{ x: number; y: number; s?: number; rot?: number
 
 /* ---------------------------------------------------------------- people */
 /** GI (3/4 view facing right). pose: stand | walk | lift | sit | salute. */
-export const GI: React.FC<{ x: number; y: number; s?: number; pose?: 'stand' | 'walk' | 'lift' | 'sit'; phase?: number; flip?: boolean; ghost?: boolean; patch?: boolean; dark?: number }> = ({ x, y, s = 1, pose = 'stand', phase = 0, flip, ghost, patch, dark = 0 }) => {
+export const GI: React.FC<{ x: number; y: number; s?: number; pose?: 'stand' | 'walk' | 'lift' | 'sit' | 'overhead'; phase?: number; flip?: boolean; ghost?: boolean; patch?: boolean; dark?: number }> = ({ x, y, s = 1, pose = 'stand', phase = 0, flip, ghost, patch, dark = 0 }) => {
   const f = useCurrentFrame();
   const sw = pose === 'walk' ? Math.sin(f * 0.3 + phase) * 16 : 0;
   const sit = pose === 'sit';
@@ -208,9 +208,10 @@ export const GI: React.FC<{ x: number; y: number; s?: number; pose?: 'stand' | '
       <rect x={-31} y={sit ? -112 : -122} width={62} height={10} fill={ghost ? 'none' : '#4a4128'} />
       {patch && <circle cx={-26} cy={sit ? -184 : -194} r={9} fill="#c8352b" stroke={INK} strokeWidth={2} />}
       {/* arms */}
-      {lift ? <path d="M-24,-200 L20,-262 M24,-200 L52,-256" stroke={ghost ? st : '#6d6643'} strokeWidth={17} strokeLinecap="round" />
+      {pose === 'overhead' ? <path d="M-24,-200 L-34,-300 M24,-200 L34,-300" stroke={ghost ? st : '#6d6643'} strokeWidth={17} strokeLinecap="round" />
+        : lift ? <path d="M-24,-200 L20,-262 M24,-200 L52,-256" stroke={ghost ? st : '#6d6643'} strokeWidth={17} strokeLinecap="round" />
         : <path d={`M-26,${sit ? -186 : -196} L${-32 + sw * 0.6},${sit ? -130 : -130} M26,${sit ? -186 : -196} L${30 - sw * 0.6},${sit ? -120 : -128}`} stroke={ghost ? st : '#6d6643'} strokeWidth={17} strokeLinecap="round" />}
-      {!ghost && <>{lift ? <><circle cx={22} cy={-266} r={10} fill={SKIN} /><circle cx={54} cy={-260} r={10} fill={SKIN} /></> : null}</>}
+      {!ghost && <>{pose === 'overhead' ? <><circle cx={-34} cy={-304} r={10} fill={SKIN} /><circle cx={34} cy={-304} r={10} fill={SKIN} /></> : lift ? <><circle cx={22} cy={-266} r={10} fill={SKIN} /><circle cx={54} cy={-260} r={10} fill={SKIN} /></> : null}</>}
       {/* head */}
       <circle cx={4} cy={sit ? -232 : -242} r={22} fill={ghost ? 'none' : SKIN} stroke={st} strokeWidth={4} />
       {!ghost && <path d={`M18,${sit ? -236 : -246} l8,8 l-8,2`} fill={SKIN_DK} />}
