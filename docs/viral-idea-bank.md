@@ -26,12 +26,27 @@ Built from a reference-channel analysis on 11 Nov 2026 (yt-viral method: each vi
 - Every title is stuffed with ", WWII, World War II, WW2, WWII Documentary". **Don't copy that.** It didn't rescue their weak Shorts (their own Ghost Army Short got 36 views).
 - Their Shorts ceiling is low: your best Short (Petrov, 1,251) already sits near their best. Ravelin's long-form formula is the stronger model to learn from.
 
-### The five formulas to use (tags below)
+
+### @AmericanUnsungHeros26 (Shorts): 3.5K subscribers, 62 Shorts, median 2.1K. The biggest multiples of all three channels
+| × median | Views | Title |
+|---|---|---|
+| **217.6×** | 457K | A German General Said America's Greatest Weapon Was... Doughnuts |
+| **180.0×** | 378K | What German Soldiers Found in American Pockets Shocked Them |
+| **173.8×** | 365K | One 21-Year-Old Stopped Hitler's Counterattack With Just a Radio |
+| 140.5× | 295K | The Bridge That Helped End World War II |
+| 65.7× | 138K | The Tiny American Weapon That Changed World War II |
+
+**Flops (172–1K):** "…Explained" titles, gadget trivia with no enemy and no stakes ("Before Radar, America Used This…", "A Warship Just to Serve Ice Cream").
+**Their long videos don't work** (median 185 views): the Shorts audience doesn't follow them to long-form, which matches your own channel.
+**Lesson, and new formula F6:** **an ordinary object or person seen through the ENEMY's eyes**: *the enemy said / found / feared [small, unexpected thing]*. A trailing "…" holds the curiosity gap.
+
+### The six formulas to use (tags below)
 - **F1 · Genius trap/trick:** "The Genius Trap That Destroyed…", "The Trick That…" (ravelin's 35–38×)
 - **F2 · The day a superpower lost:** "The Day [Empire] Lost an Entire Army" (10.7×)
 - **F3 · Underdog numbers:** "How 150 Men Held Off 4,000…" (5.4×)
 - **F4 · Unlikely hero/villain:** "The Teenager / Fake General / Traitor Who…" (4–5×)
 - **F5 · Paradox or mistake:** "The Mistake That Cost…", "The War That Lasted 38 Minutes" (Vault's best Shorts, ravelin 5.4×)
+- **F6 · Enemy's-eye surprise / small thing, huge effect:** "[Enemy] said / found / feared [ordinary thing]…" (Unsung Heroes 140–218×)
 
 S = Short (35–60 s) · L = long video (8–15 min). Figures in brackets are the facts to verify and hedge in the script.
 
@@ -115,6 +130,17 @@ S = Short (35–60 s) · L = long video (8–15 min). Figures in brackets are th
 | L | Why Market Garden Failed — A Bridge Too Far | F5 | 1944 |
 | S | The Woman the Gestapo Called "The White Mouse" | F4 | Nancy Wake |
 | S | The Man Who Volunteered for Auschwitz | F4 | Witold Pilecki |
+
+
+### 🔎 F6 originals (enemy's-eye view, small thing with a huge effect)
+| | Title | Key fact (verify and hedge) |
+|---|---|---|
+| S | The Wooden Plane That Made Göring Furious | De Havilland Mosquito; Göring's 1943 complaint (quote attributed) |
+| S | Why We Call Them "Tanks": Britain's WWI Disguise | The code name "tank" hid them as water tanks |
+| S | Napoleon's Army Needed Food… So France Invented Canning | Appert and the government prize, about 1810 |
+| S | The Invisible Weapon That Won the Battle of Britain | Chain Home radar, 1940 |
+| S | German Soldiers Reportedly Called Them "Devils in Baggy Pants" | 504th PIR, Anzio (the source of the quote is debated) |
+| S | Napoleon Called Britain "a Nation of Shopkeepers"… Then Lost to Them | Attribution debated, so frame it that way |
 
 ### 🏆 Toppers of the wars (aces, snipers, most decorated, unkillable)
 | | Title | Formula | Key fact |
