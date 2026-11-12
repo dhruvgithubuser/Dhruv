@@ -17,3 +17,11 @@ Don't upload both on the same channel with the same title, because they compete 
 
 ## Description: replace the credits line with this one
 🎬 Portraits: Jacques-Louis David (1812), George Dawe, Roman Volkov, François Gérard — public domain. Dramatized reconstructions are AI-generated illustrations, not historical photographs. Maps: Natural Earth coastlines; 1812 regions are approximate. Narration: AI voice. Music and sound: original.
+
+## Thumbnails (1280×720)
+| File | Text | Pair with title | Notes |
+|---|---|---|---|
+| `thumbnail-A-35-days-1280x720.jpg` ★ | HE WAITED · **35 DAYS** · MOSCOW 1812 | The Mistake That Cost Napoleon His Empire (Russia 1812) | Napoleon portrait (J.-L. David, 1812) over burning Moscow. The text adds to the title (the "how") without repeating it. |
+| `thumbnail-B-not-the-winter-1280x720.jpg` | **IT WASN'T THE WINTER** (snowflake crossed out) | the same title, or "Winter Didn't Destroy Napoleon's Army. This Did." | Myth-buster angle. A frozen soldier's face makes a strong close-up. |
+
+Upload A as the main thumbnail and add B in YouTube's **Test & Compare** (Studio → video → Thumbnail → Test & compare) so YouTube picks the winner on watch time.
