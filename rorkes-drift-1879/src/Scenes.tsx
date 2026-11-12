@@ -45,7 +45,7 @@ export const S02: React.FC = () => {
       <AfricaMap view={V} rivers={1} pins={[{ at: 'rorkes', label: "RORKE'S DRIFT", o: 1, side: 'b', size: 44 }, { at: 'isandlwana', label: 'ISANDLWANA', o: lin(f, wf(2, 'isandlwana') - 10, wf(2, 'isandlwana')), side: 't', size: 48 }]}>
         {() => (<g opacity={lin(f, 4, 24)}>
           <line x1={x0} y1={y0} x2={x0 + (x1 - x0) * ease(f, 4, 30)} y2={y0 + (y1 - y0) * ease(f, 4, 30)} stroke={C.charcoal} strokeWidth={4} strokeDasharray="12 10" />
-          <text x={(x0 + x1) / 2} y={(y0 + y1) / 2 + 70} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={46} fill={C.ink} stroke="rgba(239,230,210,0.95)" strokeWidth={7} style={{ paintOrder: 'stroke' }}>~6 MILES</text>
+          <text x={(x0 + x1) / 2 + 40} y={(y0 + y1) / 2 + 150} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={46} fill={C.ink} stroke="rgba(239,230,210,0.95)" strokeWidth={7} style={{ paintOrder: 'stroke' }}>~6 MILES</text>
         </g>)}
       </AfricaMap>
       <Note text="THE SAME DAY · ISANDLWANA" at={wf(2, 'just')} x={70} y={130} size={36} />
@@ -95,9 +95,9 @@ export const S04: React.FC = () => {
     <Cam>
       <Parchment />
       <Photo src={por('chard')} at={0} x={70} y={110} w={440} h={500} rot={-3} pos="50% 20%" caption="Lt. John Chard" credit="photograph · public domain" grade="sepia" />
-      <Notes lines={['ROYAL ENGINEERS · AGE 31', 'IN COMMAND']} at={6} x={540} y={170} gap={60} size={30} step={8} />
+      <Notes lines={['ROYAL ENGINEERS', 'AGE 31 · IN COMMAND']} at={6} x={560} y={150} gap={60} size={28} step={8} />
       <Photo src={por('bromhead')} at={10} x={560} y={370} w={440} h={420} rot={3} pos="50% 30%" caption="Lt. Gonville Bromhead" credit="engraving · public domain" grade="sepia" />
-      <Notes lines={['24TH FOOT · AGE 33', 'PARTLY DEAF']} at={16} x={70} y={660} gap={60} size={30} step={8} />
+      <Notes lines={['24TH FOOT · AGE 33', 'PARTLY DEAF']} at={16} x={70} y={770} gap={60} size={30} step={8} />
       <Note text="DOZENS SICK IN THE HOSPITAL" at={sick - 4} x={70} y={930} size={34} />
       <Stamp text="THEY STAYED" at={stay} x={540} y={1130} size={110} rot={-6} />
     </Cam>
