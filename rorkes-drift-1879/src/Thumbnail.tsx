@@ -22,7 +22,7 @@ export const ThumbShort: React.FC<{ mode?: 'numbers' | 'stayed' }> = ({ mode = '
       <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%)' }} />
     </div>
     <div style={{ position: 'absolute', left: 0, top: 960, width: 1080, height: 960, overflow: 'hidden' }}>
-      <Img src={staticFile('assets/stills/r07_redcoat.png')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 35%', transform: 'scale(1.15)', filter: 'contrast(1.12) saturate(1.15) brightness(1.05)' }} />
+      <Img src={staticFile('assets/stills/r07_redcoat.png')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '48% 50%', transform: 'scale(1.3)', transformOrigin: '48% 100%', filter: 'contrast(1.12) saturate(1.15) brightness(1.05)' }} />
       <AbsoluteFill style={{ background: 'linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 45%)' }} />
     </div>
     <div style={{ position: 'absolute', left: 0, right: 0, top: 952, height: 16, background: C.redHi }} />
@@ -45,7 +45,7 @@ export const ThumbWide: React.FC = () => (
     <Fonts />
     <Img src={staticFile('assets/stills/r02_charge.png')} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '60% 40%', filter: 'contrast(1.15) saturate(1.1) brightness(0.8)' }} />
     <div style={{ position: 'absolute', left: 0, top: 0, width: 560, height: 720, overflow: 'hidden', clipPath: 'polygon(0 0, 100% 0, 82% 100%, 0 100%)' }}>
-      <Img src={staticFile('assets/stills/r07_redcoat.png')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '45% 35%', transform: 'scale(1.1)', filter: 'contrast(1.12) saturate(1.15)' }} />
+      <Img src={staticFile('assets/stills/r07_redcoat.png')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '47% 50%', transform: 'scale(1.08)', transformOrigin: '47% 100%', filter: 'contrast(1.12) saturate(1.15)' }} />
     </div>
     <svg width={1280} height={720} style={{ position: 'absolute', inset: 0 }}><line x1={560} y1={0} x2={459} y2={720} stroke={C.redHi} strokeWidth={14} /></svg>
     <AbsoluteFill style={{ background: 'linear-gradient(0deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 45%)' }} />

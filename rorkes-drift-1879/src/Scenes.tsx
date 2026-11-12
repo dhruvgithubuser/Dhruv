@@ -49,7 +49,7 @@ export const S02: React.FC = () => {
         </g>)}
       </AfricaMap>
       <Note text="THE SAME DAY · ISANDLWANA" at={wf(2, 'just')} x={70} y={130} size={36} />
-      <Stamp text="WIPED OUT" at={wi} x={x1} y={y1 + 210} size={92} rot={-8} />
+      <Stamp text="WIPED OUT" at={wi} x={Math.min(x1, 760)} y={y1 - 330} size={92} rot={-8} />
       <div style={{ position: 'absolute', left: 70, top: 860, padding: '6px 26px', background: 'rgba(239,230,210,0.9)', opacity: lin(f, dead - 2, dead + 6), borderLeft: `8px solid ${C.red}` }}>
         <Counter to={1300} at={dead} dur={22} x={0} y={0} size={140} align="left" suffix="+" label="BRITISH & ALLIED DEAD" color={C.red} />
         <div style={{ height: 200, width: 560 }} />
@@ -96,10 +96,10 @@ export const S04: React.FC = () => {
       <Parchment />
       <Photo src={por('chard')} at={0} x={70} y={110} w={440} h={500} rot={-3} pos="50% 20%" caption="Lt. John Chard" credit="photograph · public domain" grade="sepia" />
       <Notes lines={['ROYAL ENGINEERS · AGE 31', 'IN COMMAND']} at={6} x={540} y={170} gap={60} size={30} step={8} />
-      <Photo src={por('bromhead')} at={10} x={560} y={430} w={440} h={500} rot={3} pos="50% 30%" caption="Lt. Gonville Bromhead" credit="engraving · public domain" grade="sepia" />
-      <Notes lines={['24TH FOOT · AGE 33', 'PARTLY DEAF']} at={16} x={70} y={720} gap={60} size={30} step={8} />
-      <Note text="DOZENS SICK IN THE HOSPITAL" at={sick - 4} x={70} y={880} size={32} />
-      <Stamp text="THEY STAYED" at={stay} x={540} y={1120} size={110} rot={-6} />
+      <Photo src={por('bromhead')} at={10} x={560} y={370} w={440} h={420} rot={3} pos="50% 30%" caption="Lt. Gonville Bromhead" credit="engraving · public domain" grade="sepia" />
+      <Notes lines={['24TH FOOT · AGE 33', 'PARTLY DEAF']} at={16} x={70} y={660} gap={60} size={30} step={8} />
+      <Note text="DOZENS SICK IN THE HOSPITAL" at={sick - 4} x={70} y={930} size={34} />
+      <Stamp text="THEY STAYED" at={stay} x={540} y={1130} size={110} rot={-6} />
     </Cam>
   );
 };
@@ -113,8 +113,8 @@ export const S05: React.FC = () => {
       <PostPlan wall={ease(f, ma - 20, ma + 40)} cross={ease(f, bi - 4, bi + 26)} />
       <Ico name="clock" at={hr - 6} x={170} y={190} s={150} />
       <Note text="≈ 1 HOUR TO BUILD" at={hr} x={270} y={160} size={36} />
-      <Ico name="sack" at={ma - 2} x={820} y={330} s={150} rot={-6} />
-      <Ico name="box" at={bi - 2} x={960} y={330} s={130} rot={6} />
+      <Ico name="sack" at={ma - 2} x={800} y={215} s={130} rot={-6} />
+      <Ico name="box" at={bi - 2} x={950} y={215} s={120} rot={6} />
       <Note text="MAIZE SACKS ≈ 200 LB EACH" at={ma + 6} x={70} y={1180} size={30} />
     </Cam>
   );
@@ -196,8 +196,8 @@ export const S11: React.FC = () => {
       <Ico name="vc" at={el - 6} x={540} y={330} s={360} />
       <Counter to={11} at={el} dur={16} x={540} y={540} size={200} label="VICTORIA CROSSES" color={C.red} />
       <Stamp text="MOST EVER FOR ONE BATTLE" at={mo} x={540} y={900} size={64} rot={-4} />
-      {(['chard', 'bromhead', 'hook'] as const).map((k, i) => <Photo key={k} src={por(k)} at={el + 8 + i * 4} x={90 + i * 310} y={990} w={280} h={240} rot={[-4, 2, -2][i]} pos="50% 20%" grade="sepia" />)}
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 1210, textAlign: 'center', fontFamily: TYPE, fontWeight: 700, fontSize: 24, color: C.ink, opacity: lin(f, el + 20, el + 30) }}>CHARD · BROMHEAD · HOOK — ALL THREE RECEIVED IT</div>
+      {(['chard', 'bromhead', 'hook'] as const).map((k, i) => <Photo key={k} src={por(k)} at={el + 8 + i * 4} x={90 + i * 310} y={920} w={280} h={200} rot={[-4, 2, -2][i]} pos="50% 20%" grade="sepia" />)}
+      <div style={{ position: 'absolute', left: 0, right: 0, top: 1185, textAlign: 'center', fontFamily: TYPE, fontWeight: 700, fontSize: 24, color: C.ink, opacity: lin(f, el + 20, el + 30) }}>CHARD · BROMHEAD · HOOK — ALL THREE RECEIVED IT</div>
     </Cam>
   );
 };
@@ -209,7 +209,7 @@ export const S12: React.FC = () => {
   return (
     <Cam>
       <Parchment dark={0.1} />
-      <Photo src={st('r07_redcoat')} at={0} x={90} y={120} w={900} h={620} rot={-2} credit={DR} grade="warm" />
+      <Photo src={st('r03_barricade')} at={0} x={90} y={120} w={900} h={560} rot={-2} caption="THE WALL OF SACKS" credit={DR} grade="warm" />
       <Headline text="WOULD YOU HAVE STAYED?" at={2} y={840} size={84} />
       <div style={{ position: 'absolute', left: 0, right: 0, top: 1000, display: 'flex', justifyContent: 'center', gap: 40, opacity: lin(f, 14, 22) }}>
         {['STAY', 'RUN'].map((t, i) => <div key={t} style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 64, padding: '8px 40px', background: '#f6f0e2', borderTop: `10px solid ${i ? C.charcoal : C.red}`, boxShadow: '0 12px 30px rgba(20,12,4,0.45)' }}>{t}</div>)}

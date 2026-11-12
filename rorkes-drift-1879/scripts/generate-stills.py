@@ -22,7 +22,7 @@ SHOTS = {
     "r04_hospital_fire": ("long building with a thatched roof burning at night, flames and sparks, silhouettes of soldiers carrying a wounded man, smoke", 304),
     "r05_night": ("British redcoat soldiers in white pith helmets firing rifles over a wall of grain sacks at night, lit orange by a burning building behind, smoke, muzzle flashes", 305),
     "r06_dawn": ("misty dawn over a smoking ruined mission station in grassland, exhausted British soldiers in red tunics sitting behind a wall of sacks, quiet", 306),
-    "r07_redcoat": ("close-up portrait of an exhausted young British soldier, red tunic, white pith helmet, dirt and sweat on his face, firelight, night, intense eyes", 307),
+    "r07_redcoat": ("head and shoulders portrait of a tired young British soldier wearing a white pith helmet and a red coat, Anglo-Zulu war 1879, dirty sweaty face, orange firelight, smoke, night, intense eyes", 733),
     "r08_shields": ("close-up of a line of Zulu warriors holding tall black and white cowhide shields and short spears, grassland, dramatic sky, dignified", 308),
 }
 
