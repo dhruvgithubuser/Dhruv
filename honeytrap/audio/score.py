@@ -139,80 +139,111 @@ def main():
 
     drums, bass, music, fx = (Bus(DUR, BPM) for _ in range(4))
 
-    # harmony: D minor. Dm - Bb - Gm - A (2 beats... each chord = 1 bar of 4 beats)
-    prog = [(["D3", "F3", "A3", "D4"], "D2"), (["Bb2", "D3", "F3", "Bb3"], "Bb1"),
-            (["G2", "Bb2", "D3", "G3"], "G1"), (["A2", "C#3", "E3", "A3"], "A1")]
+    def wt(pid, prefix):
+        return next(w["t0"] for p in P if p["id"] == pid for w in p["words"] if w["w"].lower().startswith(prefix))
 
-    def chord(b):
-        return prog[int(b // 8) % 4]          # two bars per chord: slow, brooding
-
+    t_trap, t_oust, t_land = trap_word["t0"], wt("wsj", "oust"), wt("money", "billion")
+    t_target, t_dec = wt("center", "targeted"), wt("end", "decision")
     stop0, stop1 = worse_b - 1.5, worse_b + 2.0        # hard stop around "Then it got worse."
     calm0, calm1 = why_b - 0.5, center_b + 4           # payoff strips back
+    story0 = B["story"][0]
 
     def active(b):
         return not (stop0 <= b < stop1)
 
-    # ---- pads all the way (except the stop): two-bar chords, slow filter
-    for b in range(0, nb, 8):
-        if b >= stop0 - 0.01 and b < stop1:
-            continue
-        L = min(8, nb - b) * BEAT
-        notes, _ = chord(b)
-        g = 0.20 if b < B["chips"][0] else 0.26
-        cut = (500, 1300) if not (calm0 <= b < calm1) else (400, 800)
-        music.add(pad_chord(notes, L + 0.3, cut, attack=0.4, release=0.6), b, g)
-    # ---- clock tick: 8ths from the top; this is the "spy" texture
+    # ---- suspense palette: D Phrygian (D Eb F G A Bb C). Drones, clusters, pizzicato, heartbeat.
+    def drone(notes, length, cut=(260, 520), lfo=0.11):
+        n = int(length * SR); t = tvec(n)
+        x = np.zeros(n)
+        for nt in notes:
+            f = hz(nt)
+            x += saw(f, n) * 0.5 + saw(f * 1.004, n) * 0.5 + np.sin(2 * np.pi * f * t) * 0.8
+        fc = np.geomspace(cut[0], cut[1], n) * (1 + 0.35 * np.sin(2 * np.pi * lfo * t))
+        x = sweep_filter(x, fc, "lowpass", 0.9) / len(notes)
+        env = np.clip(t / 2.5, 0, 1) * np.clip((length - t) / 2.0, 0, 1)
+        return np.stack([x * env, np.roll(x, 240) * env])
+
+    def tremolo(notes, length, rate=11.0, cut=2600):
+        x = pad_chord(notes, length, cut, attack=1.2, release=1.2, voices=3, detune=0.08)
+        t = tvec(x.shape[1])
+        return x * (0.55 + 0.45 * np.sin(2 * np.pi * rate * t))
+
+    def pizz(note, g=1.0):
+        return ks_pluck(hz(note), 0.5, bright=0.45, buzz=0.15) * g
+
+    def heartbeat():
+        a = kick(soft=True); out = np.zeros(int(0.7 * SR))
+        out[:len(a)] += a[:len(out)]
+        b = kick(soft=True) * 0.7; i = int(0.24 * SR)
+        out[i:i + len(b)] += b[:len(out) - i]
+        return filt(out, "lowpass", 180)
+
+    def braam(length=2.6):
+        n = int(length * SR); t = tvec(n)
+        x = sum(saw(hz(nt), n) + saw(hz(nt) * 1.006, n) for nt in ("D1", "D2", "Eb2", "A2"))
+        x = sweep_filter(x, 120 + 1400 * np.exp(-t / 0.35), "lowpass", 1.1)
+        x = np.tanh(1.8 * x / 4) * np.exp(-t / 1.1) * (1 - np.exp(-t / 0.01))
+        return x
+
+    # drones under everything but the stop (cluster gets darker as the story escalates)
+    sections = [(0, story0, ["D1", "A1"]), (story0, stop0, ["D1", "A1", "Eb2"]),
+                (stop1, calm0, ["D1", "Eb2", "A2"]), (calm0, nb, ["D1", "A1"])]
+    for b0, b1, nts in sections:
+        if b1 <= b0: continue
+        music.add(drone(nts, T(b1 - b0) + 1.5), b0, 0.9 if b0 < stop0 else 0.6)
+    # high string tremolo: minor-2nd rub, enters with the story
+    for b0, b1, nts, g in ((8, story0, ["A4", "Bb4"], 0.07), (story0, stop0, ["D5", "Eb5"], 0.11), (stop1, calm0, ["A4", "Bb4", "D5"], 0.13),
+                           (center_b, nb - 4, ["D5", "Eb5", "A5"], 0.09)):
+        music.add(tremolo(nts, T(b1 - b0)), b0, g)
+    # clock tick: 8ths, the spy texture
     for b2 in range(0, nb * 2):
         b = b2 / 2
         if not active(b) or b >= end_b + 6:
             continue
-        drums.add(tick(b2 % 2 == 0), b, 0.10 if b2 % 2 else 0.14, pan=0.35)
-    # ---- low pulse on 8ths in the hook, quarters later
-    for b2 in range(0, nb * 2):
+        drums.add(tick(b2 % 2 == 0), b, 0.05 if b2 % 2 else 0.08, pan=0.35)
+    # heartbeat: from "honey trap" in the hook, every 2 beats; every beat after the drop
+    for b in range(int(trap_word["t0"] / BEAT) - 4, nb):
+        if not active(b) or (calm0 <= b < calm1) or b >= end_b + 3:
+            continue
+        fast = b >= stop1
+        if fast or b % 2 == 0:
+            drums.add(heartbeat(), b, 0.8 if fast else 0.6)
+    # pizzicato motif, the "sneaking" line: D . F . Ab(=G#) G . Eb . D
+    motif = [(0, "D4"), (1, "F4"), (2, "G#4"), (2.5, "G4"), (4, "D#4"), (6, "D4"), (6.5, "A3")]
+    for bar in range(0, nb, 8):
+        if bar >= end_b + 2: break
+        for off, nt in motif:
+            b = bar + off
+            if not active(b) or (calm0 <= b < calm1):
+                continue
+            bass.add(pizz(nt), b, 0.33, pan=-0.25 if off % 2 else 0.25)
+            bass.add(pizz(nt[:-1] + str(int(nt[-1]) - 1)), b, 0.22)
+    # low pulse after the drop (driving, uneasy)
+    for b2 in range(int(stop1 * 2), int(calm0 * 2)):
         b = b2 / 2
-        if not active(b) or b >= end_b + 4 or (calm0 <= b < calm1):
-            continue
-        root = chord(b)[1]
-        if b < B["chips"][0] or b2 % 2 == 0:
-            bass.add(low_pulse(root[:-1] + str(int(root[-1]) + 1), BEAT * 0.5), b, 0.30 if b2 % 2 else 0.42)
-    # ---- kick + rim: enters at the chips section, heavier after "worse"
-    for b in range(int(B["chips"][0]), nb):
-        if not active(b) or (calm0 <= b < calm1) or b >= end_b + 3:
-            continue
-        after = b >= stop1
-        if b % 4 in (0, 2.5) or (after and b % 2 == 0):
-            drums.add(kick(soft=not after), b, 0.75 if after else 0.55)
-        if b % 4 == 2 and b >= B["story"][0]:
-            drums.add(clap(tight=True), b, 0.22 if after else 0.14, pan=-0.05)
-        if after:
-            drums.add(hat(), b + 0.5, 0.10, pan=-0.25)
-        if b % 4 == 3:
-            drums.add(kick(soft=True), b + 0.5, 0.35)
-    # ---- sub bass under the story onward
-    for b in range(int(B["story"][0]), nb, 2):
-        if not active(b) or (calm0 <= b < calm1) or b >= end_b + 3:
-            continue
-        bass.add(bass_note(chord(b)[1], BEAT * 1.8, 500), b, 0.42)
-    # ---- accents
-    fx.add(bell("A5"), 1.0, 0.10, pan=0.3)                                  # hook entry
-    fx.add(sub_drop(1.4), 0, at=trap_word["t0"], gain=0.55)                    # "honey TRAP"
-    fx.add(bell("D5", 3.0), 0, at=trap_word["t0"], gain=0.14, pan=-0.2)
-    fx.add(riser(T(stop1 - stop0 - 0.1)), stop0 + 0.05, 0.16)               # into the drop
-    fx.add(sub_drop(1.2), stop1, 0.6)
-    drums.add(crash(1.8), stop1, 0.18)
-    fx.add(whoosh(T(1.5), 300, 3000, 0.8), money_b - 1.5, 0.10)
-    for nt, off in (("D5", 0), ("F5", 1.5), ("A5", 3), ("E5", 4.5)):       # payoff: bare bells
-        fx.add(bell(nt), why_b + off, 0.09, pan=0.2)
-    music.add(pad_chord(["D3", "A3", "D4", "F4", "A4"], T(6) + 2.0, (900, 400), attack=0.2, release=1.5), end_b + 1, 0.30)
-    fx.add(bell("D5", 3.5), end_b + 1, 0.12)
+        bass.add(low_pulse("D2" if (b // 8) % 2 == 0 else "Eb2", BEAT * 0.45), b, 0.30 if b2 % 2 else 0.4)
+    # ---- stingers on the reveals
+    fx.add(braam(2.6), 0, at=t_trap, gain=0.55)
+    fx.add(sub_drop(1.6), 0, at=t_trap, gain=0.5)
+    fx.add(riser(T(stop1 - stop0 - 0.1)), stop0 + 0.05, 0.18)
+    fx.add(braam(3.0), stop1, 0.65)
+    fx.add(sub_drop(1.4), stop1, 0.6)
+    drums.add(crash(2.0), stop1, 0.14)
+    fx.add(braam(1.8), 0, at=t_oust, gain=0.35)
+    fx.add(sub_drop(1.0), 0, at=t_land, gain=0.45)
+    fx.add(braam(2.4), 0, at=t_target, gain=0.5)
+    for nt, off in (("D5", 0), ("Eb5", 1.5), ("A4", 3)):
+        fx.add(bell(nt), why_b + off, 0.08, pan=0.2)
+    fx.add(braam(3.5), 0, at=t_dec, gain=0.45)
+    music.add(drone(["D1", "A1", "D2"], T(8) + 2.0, (400, 160)), end_b + 1, 0.4)
 
     # ---- bed
     ir = reverb_ir(2.2, 0.6)
     wet_src = music.x * 0.5 + fx.x * 0.4 + drums.x * 0.05
     wet = np.stack([signal.fftconvolve(wet_src[c], ir[c])[: wet_src.shape[1]] for c in range(2)])
-    kick_t = [T(b) for b in range(int(B["chips"][0]), nb) if active(b)]
+    kick_t = [T(b) for b in range(int(stop1), int(calm0))]
     pump = sidechain(kick_t, bass.x.shape[1], 0.3, 0.12)
-    bed = drums.x * 0.8 + bass.x * 0.85 + music.x * pump * 0.8 + fx.x * 0.8 + wet * 0.5
+    bed = drums.x * 0.8 + bass.x * 0.85 + music.x * pump * 0.75 + fx.x * 0.85 + wet * 0.55
     bed = np.stack([filt(ch, "highpass", 28) for ch in bed])[:, :N]
     bed /= np.abs(bed).max() + 1e-9
     bed *= 0.5

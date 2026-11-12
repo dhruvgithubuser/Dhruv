@@ -66,3 +66,13 @@ rather than repeating the gossip. This reel takes the "why it matters" angle.
   Whisper transcript was word-perfect on "Nvidia", "Huang" and "Ministry of State Security".
 - Music + SFX: synthesized in code (`honeytrap/audio/score.py`), original, no licensing.
 - Map: Natural Earth via `world-atlas`. No photos, likenesses, logos or mastheads are used.
+
+## v2 changes (documentary cut)
+- Real photos (all freely licensed, credited on screen and in the end card): Jensen Huang x3, Nvidia HQ,
+  Singapore (Marina Bay), MSS insignia, Trump official portrait. Details: `honeytrap/assets/photos/CREDITS.md`.
+- New map beat: Singapore (Megaspeed, the Nvidia customer) -> Beijing (Ministry of State Security), line marked "alleged".
+- Not shown on purpose: Lori Huang (his wife, not accused of anything) and Alice Huang (no licensed photo; a
+  wrong face next to "alleged spy" is a real risk). Alice Huang appears as a silhouette.
+- Score: darker suspense bed (D Phrygian drone, minor-2nd string tremolo, pizzicato motif, heartbeat, braam stingers on
+  "honey trap", the drop, "oust", "targeted" and "decision").
+- Add to the Instagram caption: "Photos: Wikimedia Commons (CC BY / CC BY-SA / CC0 / public domain)."

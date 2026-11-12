@@ -12,5 +12,7 @@ const out = { w: 1000, h: Math.ceil(y1 - y0), oy: y0, countries: {} };
 for (const f of fc.features) out.countries[f.properties.name] = path(f);
 const c = (n) => { const ff = fc.features.find((f) => f.properties.name === n); return path.centroid(ff); };
 out.us = c('United States of America'); out.cn = c('China');
+const pt = (lon, lat) => proj([lon, lat]);
+out.pts = { sg: pt(103.82, 1.35), bj: pt(116.40, 39.90), sc: pt(-121.95, 37.35), dc: pt(-77.04, 38.90) };
 fs.writeFileSync(new URL('../assets/map.json', import.meta.url), JSON.stringify(out));
-console.log(Object.keys(out.countries).length, 'countries', out.w, 'x', out.h, 'us', out.us, 'cn', out.cn);
+console.log(out.pts, Object.keys(out.countries).length, 'countries', out.w, 'x', out.h, 'us', out.us, 'cn', out.cn);

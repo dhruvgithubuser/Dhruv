@@ -22,7 +22,7 @@ const ease = (t, a, b, f = E.outCubic) => f(prog(t, a, b));
 
 // ---------------------------------------------------------------- shot boundaries (seconds)
 const CUT = {
-  hook: 0, dc0: 5.0, ask: 7.38, chips: 9.93, map: 13.08, memo: 17.88, dossier: 24.03, goal: 35.13,
+  hook: 0, dc0: 5.0, ask: 7.38, chips: 9.93, map: 13.08, memo: 17.88, dossier: 24.03, asia: 29.55, goal: 35.13,
   trap: 40.68, deny: 42.93, worse: 51.12, clips: 52.5, money: 60.78, dc: 66.78, why: 77.25,
   target: 79.08, question: 86.43, end: 90.18,
 };
@@ -46,14 +46,17 @@ const HITS = [
   [BT(15.45), 'export barrier', 'thud'],
   [BT(15.95), 'chip hits barrier', 'click'],
   [BT(18.1), 'NOV 8 stamp', 'impact', { gain: 0.35 }],
-  [BT(20.7), 'typing from line', 'type', { len: 0.7 }],
+  [BT(18.9), 'portrait drops', 'thud', { gain: 0.3 }],
+  [BT(20.6), 'name lower third', 'whoosh', { len: 0.3, from: 2500, to: 800, gain: 0.15 }],
+  [BT(21.35), 'memo slides up', 'whoosh', { len: 0.35, from: 500, to: 2000, gain: 0.15 }],
   [BT(22.45), 'typing summary', 'type', { len: 1.0 }],
   [BT(24.1), 'dossier whip', 'whoosh', { len: 0.4 }],
   [BT(27.0), 'SUSPECTED stamp', 'thud', { gain: 0.35 }],
-  [BT(27.6), 'card A pins', 'pop', { pitch: 'E5' }],
+  [BT(26.12), 'card A pins', 'pop', { pitch: 'E5' }],
+  [BT(29.6), 'map push to Asia', 'whoosh', { len: 0.6, from: 300, to: 1500 }],
   [BT(28.62), 'name types', 'type', { len: 0.5 }],
   [BT(31.96), 'thread zips', 'whoosh', { len: 0.5, from: 800, to: 3000, gain: 0.15 }],
-  [BT(33.42), 'card B pins', 'pop', { pitch: 'A4' }],
+  [BT(32.7), 'Beijing pin', 'pop', { pitch: 'A4' }],
   [BT(35.35), 'goal card', 'click'],
   [BT(36.42), 'tick 1', 'tick'],
   [BT(37.7), 'tick 2', 'tick'],
@@ -66,6 +69,7 @@ const HITS = [
   [BT(63.0), 'counter rolls', 'type', { len: 0.6 }],
   [BT(63.65), 'counter lands', 'thud'],
   [BT(67.25), 'split', 'whoosh', { len: 0.4 }],
+  [BT(68.6), 'portrait print', 'thud', { gain: 0.25 }],
   [BT(69.8), 'quote lands', 'click'],
   [BT(72.15), 'calendar flips', 'whoosh', { len: 0.3, gain: 0.15 }],
   [BT(76.1), 'date circled', 'pop', { pitch: 'D5' }],
@@ -248,6 +252,34 @@ function wipeDown(ctx, t, t0, dur, band, drawA, drawB, bandFn) {
   bandFn(bot - band, bot);
 }
 
+// ---------------------------------------------------------------- photos (documentary treatment)
+// Every photo is freely licensed (assets/photos/CREDITS.md); its credit is drawn on it.
+function creditTag(ctx, s, x, y, align = 'right') {
+  const f = F(20, 600, UI); ctx.font = f;
+  const tw = ctx.measureText(s).width, x0 = align === 'right' ? x - tw - 12 : x - 4;
+  ctx.fillStyle = 'rgba(19,18,16,0.6)'; ctx.fillRect(x0, y - 20, tw + 16, 28);
+  text(ctx, s, align === 'right' ? x - 4 : x + 4, y, f, '#EFE8DA', align);
+}
+function photoPrint(ctx, img, x, y, w, h, { rot = 0, fx = 0.5, fy = 0.4, zoom = 1, credit = '', b = 16, s = 1 } = {}) {
+  if (!img) return;
+  withRot(ctx, x + w / 2, y + h / 2, rot, s, () => {
+    ctx.fillStyle = 'rgba(40,30,15,0.24)'; ctx.fillRect(x + 12, y + 16, w, h);
+    ctx.fillStyle = C.card; ctx.fillRect(x, y, w, h);
+    M.cover(ctx, img, x + b, y + b, w - 2 * b, h - 2 * b, { fx, fy, zoom });
+    if (credit) creditTag(ctx, credit, x + w - b - 8, y + h - b - 10);
+  });
+}
+// full-bleed blurred, graded background with a slow push and a dark wash for type
+function fullBleed(ctx, img, t, t0, t1, { fx = 0.5, fy = 0.5, z0 = 1.1, z1 = 1.0, dark = 0.35, credit = '' } = {}) {
+  if (!img) { fill(ctx, C.night); return; }
+  const z = Math.exp(lerp(Math.log(z0), Math.log(z1), prog(t, t0, t1)));
+  M.cover(ctx, img, 0, 0, W, H, { fx, fy, zoom: z });
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, `rgba(19,18,16,${dark + 0.3})`); g.addColorStop(0.5, `rgba(19,18,16,${dark})`); g.addColorStop(1, `rgba(19,18,16,${dark + 0.4})`);
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  if (credit) creditTag(ctx, credit, 48, 1300, 'left');
+}
+
 // ================================================================ SHOTS
 
 // ---- 1. hook: your index fund, honey on the NVDA slice
@@ -388,13 +420,20 @@ function shotDome(ctx, t, IMG) {
 // ---- 3. turn: "What does Nvidia actually sell?"
 function shotAsk(ctx, t, IMG) {
   paper(ctx, IMG);
-  const k = sp(t, CUT.ask, SPRING.bouncy);
-  const y = lerp(-700, 470, clamp(k)) + (k > 1 ? 0 : 0);
-  const rot = lerp(-0.22, -0.025, clamp(k)) + 0.03 * M.wobble(t - CUT.ask - 0.25, 1.8, 4);
-  withRot(ctx, CX, y + 300, rot, 1, () => {
-    card(ctx, 110, y, 860, 600, { seed: 3 });
-    label(ctx, 'First, the business', 170, y + 95, 30, C.mute);
-    para(ctx, 'What does Nvidia actually sell?', 170, y + 240, F(108, 400, D), 760, 118, C.ink,
+  // the real building, as a print at the top; the question card lands under it
+  const kp = sp(t, CUT.ask - 0.05, SPRING.snappy);
+  const z = Math.exp(lerp(0, Math.log(1.1), prog(t, CUT.ask, CUT.chips)));
+  photoPrint(ctx, IMG.hq, 90, lerp(-700, 290, clamp(kp)), 900, 560, { rot: 0.02, fx: 0.4, fy: 0.62, zoom: 1.25 * z,
+    credit: 'Photo: Coolcaesar / CC BY-SA 4.0' });
+  ctx.globalAlpha = clamp(kp * 1.5);
+  label(ctx, 'Nvidia HQ · Santa Clara, California', CX, 905, 30, C.ink2, 'center');
+  ctx.globalAlpha = 1;
+  const k = sp(t, CUT.ask + 0.25, SPRING.bouncy);
+  const y = lerp(1950, 950, clamp(k));
+  const rot = lerp(0.2, -0.02, clamp(k)) + 0.03 * M.wobble(t - CUT.ask - 0.5, 1.8, 4);
+  withRot(ctx, CX, y + 160, rot, 1, () => {
+    card(ctx, 110, y, 860, 330, { seed: 3 });
+    para(ctx, 'What does Nvidia actually sell?', 160, y + 125, F(84, 400, D), 780, 94, C.ink,
       { sell: ease(t, w('turn', 7), w('turn', 7) + 0.3) });
   });
 }
@@ -500,106 +539,156 @@ function shotMap(ctx, t, IMG) {
   ctx.globalAlpha = 1;
 }
 
-// ---- 6. Nov 8: the message to staff (redacted card, paraphrase only)
-function shotMemo(ctx, t, IMG) {
-  paper(ctx, IMG);
-  const t0 = CUT.memo;
-  const k = sp(t, t0, SPRING.snappy);
-  const exit = 0;
-  const x = 100 + lerp(900, 0, clamp(k)) - exit * 1200, y = 430;
-  withRot(ctx, x + 440, y + 380, -0.02, 1, () => {
-    card(ctx, x, y, 880, 800, { seed: 13 });
-    label(ctx, 'Message to Nvidia staff', x + 60, y + 90, 32, C.mute);
-    ctx.fillStyle = C.rule; ctx.fillRect(x + 60, y + 120, 760, 3);
-    const fl = F(40, 600, UI);
-    text(ctx, typed('From: Jensen Huang, CEO', t, w('admit', 5) - 0.1, 40), x + 60, y + 200, fl, C.ink);
-    // redacted body: bars draw on
-    const bars = [[0.9], [0.7], [0.82], [0.5]];
-    bars.forEach(([f], i) => {
-      const p = ease(t, t0 + 0.6 + i * 0.18, t0 + 1.0 + i * 0.18);
-      ctx.fillStyle = C.ink; ctx.fillRect(x + 60, y + 255 + i * 62, 760 * f * p, 34);
-    });
-    // the one line, paraphrased (not a quote)
-    const kp = ease(t, w('admit', 9) - 0.3, w('admit', 9));
-    ctx.globalAlpha = kp;
-    label(ctx, 'In summary', x + 60, y + 545, 26, C.mute);
-    ctx.globalAlpha = 1;
-    const line1 = typed('He had been unfaithful', t, w('admit', 9), 30);
-    const line2 = typed('to his wife.', t, w('admit', 9) + 22 / 30, 30);
-    const f2 = F(64, 400, D);
-    ctx.font = f2;
-    hilite(ctx, x + 56, y + 588, ctx.measureText(line1).width, 64, ease(t, w('admit', 12), w('admit', 12) + 0.4));
-    text(ctx, line1, x + 60, y + 640, f2, C.ink);
-    text(ctx, line2, x + 60, y + 715, f2, C.ink);
-    source(ctx, 'Huang’s note to staff, via Axios', x + 60, y + 780, ease(t, w('admit', 13), w('admit', 15)));
-  });
-  // date stamp slams on "November"
-  const ks = sp(t, w('admit', 1), SPRING.bouncy);
-  stamp(ctx, 'NOV 8', 760 - exit * 1200, 390, 0.12, ks, 70);
-}
-
-// ---- 7. the NYT report: dossier, thread, MSS card
 function silhouette(ctx, x, y, s) {
   ctx.fillStyle = '#CFC4AF';
   ctx.beginPath(); ctx.arc(x, y - s * 0.22, s * 0.2, 0, M.TAU); ctx.fill();
   ctx.beginPath(); ctx.ellipse(x, y + s * 0.3, s * 0.36, s * 0.3, 0, Math.PI, 0); ctx.fill();
   text(ctx, '?', x, y - s * 0.12, F(s * 0.26, 400, D), C.card, 'center');
 }
+// ---- 6. Nov 8: the CEO, then his message to staff (redacted card, paraphrase only)
+function shotMemo(ctx, t, IMG) {
+  paper(ctx, IMG);
+  const tp = w('admit', 3) - 0.1;                       // portrait drops on "Nvidia's CEO"
+  const kp = sp(t, tp, SPRING.snappy);
+  const km = sp(t, w('admit', 7) - 0.2, SPRING.snappy); // memo slides up on "told staff"
+  // the date first, big; it shrinks to the photo's corner when the photo lands
+  const ks = sp(t, w('admit', 1), SPRING.bouncy);
+  if (kp < 0.02) {
+    label(ctx, 'Sunday', CX, 640, 40, C.mute, 'center');
+    stamp(ctx, 'NOV 8, 2026', CX, 800, -0.06, ks, 92);
+  }
+  if (kp > 0) {
+    const y = lerp(-1300, 300, clamp(kp));
+    const z = Math.exp(lerp(0, Math.log(1.08), prog(t, tp, CUT.dossier)));
+    photoPrint(ctx, IMG.jhS, 110, y, 860, 920, { rot: -0.025, fx: 0.5, fy: 0.28, zoom: z,
+      credit: 'Photo: Anderseidesvik / CC BY-SA 4.0' });
+    stamp(ctx, 'NOV 8', 840, y + 40, 0.12, 1, 60);
+    // lower third: name
+    const kn = sp(t, w('admit', 5) - 0.1, SPRING.snappy);
+    if (kn > 0) {
+      const x = lerp(-900, 80, clamp(kn));
+      ctx.fillStyle = C.night; ctx.fillRect(x, y + 690, 700, 150);
+      ctx.fillStyle = C.honey; ctx.fillRect(x, y + 690, 12, 150);
+      text(ctx, 'JENSEN HUANG', x + 44, y + 762, F(60, 800, UI), C.white, 'left', 3);
+      text(ctx, 'Co-founder & CEO, Nvidia', x + 44, y + 812, F(34, 600, UI), C.honey);
+    }
+  }
+  if (km > 0) {
+    ctx.fillStyle = `rgba(19,18,16,${0.35 * clamp(km)})`; ctx.fillRect(0, 0, W, H);
+    const y = lerp(1950, 760, clamp(km)), x = 130;
+    withRot(ctx, x + 410, y + 240, 0.02, 1, () => {
+      card(ctx, x, y, 820, 500, { seed: 13, shadow: 0.3 });
+      label(ctx, 'Message to Nvidia staff', x + 50, y + 70, 30, C.mute);
+      ctx.fillStyle = C.rule; ctx.fillRect(x + 50, y + 92, 720, 3);
+      [0.9, 0.62].forEach((f, i) => {
+        const p = ease(t, w('admit', 7) + i * 0.15, w('admit', 7) + 0.4 + i * 0.15);
+        ctx.fillStyle = C.ink; ctx.fillRect(x + 50, y + 125 + i * 54, 720 * f * p, 30);
+      });
+      ctx.globalAlpha = ease(t, w('admit', 9) - 0.3, w('admit', 9));
+      label(ctx, 'In summary', x + 50, y + 265, 26, C.mute);
+      ctx.globalAlpha = 1;
+      const line1 = typed('He had been unfaithful', t, w('admit', 9), 30);
+      const line2 = typed('to his wife.', t, w('admit', 9) + 22 / 30, 30);
+      const f2 = F(62, 400, D); ctx.font = f2;
+      hilite(ctx, x + 46, y + 300, ctx.measureText(line1).width, 62, ease(t, w('admit', 12), w('admit', 12) + 0.4));
+      text(ctx, line1, x + 50, y + 350, f2, C.ink);
+      text(ctx, line2, x + 50, y + 420, f2, C.ink);
+      source(ctx, 'Huang’s note to staff, via Axios', x + 50, y + 475, ease(t, w('admit', 13), w('admit', 15)));
+    });
+  }
+}
+
+// ---- 7a. the NYT report: the subject card
 function shotDossier(ctx, t, IMG) {
   paper(ctx, IMG);
-  const t0 = CUT.dossier;
-  ctx.save();
-  // header: the source, said first
-  ctx.globalAlpha = 1;
   label(ctx, 'According to', 90, TOP + 30, 32, C.mute);
   text(ctx, 'The New York Times', 90, TOP + 110, F(76, 400, D), C.ink);
-  ctx.globalAlpha = 1;
-  // card A: the woman (full width, two columns)
   const ka = sp(t, w('nyt', 6), SPRING.bouncy);
-  const ax = 70, ay = 440, aw = 940, ah = 470;
+  const ax = 70, ay = 460, aw = 940, ah = 430;
   if (ka > 0) withRot(ctx, ax + aw / 2, ay, -0.015 * (2 - clamp(ka)), lerp(0.75, 1, clamp(ka)), () => {
     ctx.globalAlpha = clamp(ka * 2);
     card(ctx, ax, ay, aw, ah, { seed: 21 });
-    silhouette(ctx, ax + 150, ay + 200, 240);
-    label(ctx, 'Subject', ax + 310, ay + 95, 30, C.mute);
-    text(ctx, typed('Alice Huang', t, w('nyt', 12) - 0.05, 30), ax + 310, ay + 175, F(80, 400, D), C.ink);
-    ctx.globalAlpha = clamp(ka * 2) * ease(t, w('nyt', 14), w('nyt', 14) + 0.3);
-    para(ctx, 'Executive at an Nvidia customer', ax + 310, ay + 260, F(46, 600, UI), 580, 58, C.ink2,
-      { customer: ease(t, w('nyt', 19), w('nyt', 19) + 0.3) });
-    ctx.globalAlpha = clamp(ka * 2) * ease(t, w('nyt', 19) + 0.3, w('nyt', 19) + 0.7);
-    text(ctx, 'Megaspeed, Singapore', ax + 310, ay + 395, F(38, 400, UI), C.mute);
-    text(ctx, 'No relation to Jensen Huang', ax + 310, ay + 440, F(38, 400, UI), C.mute);
+    silhouette(ctx, ax + 160, ay + 210, 260);
+    label(ctx, 'The woman', ax + 330, ay + 100, 30, C.mute);
+    text(ctx, typed('Alice Huang', t, w('nyt', 12) - 0.05, 30), ax + 330, ay + 190, F(84, 400, D), C.ink);
+    ctx.globalAlpha = clamp(ka * 2) * ease(t, w('nyt', 13) + 0.1, w('nyt', 13) + 0.5);
+    text(ctx, 'No relation to Jensen Huang', ax + 330, ay + 255, F(36, 600, UI), C.mute);
+    text(ctx, 'No photo shown: identity', ax + 330, ay + 340, F(28, 400, UI), C.mute);
+    text(ctx, 'and allegations unverified', ax + 330, ay + 378, F(28, 400, UI), C.mute);
     ctx.globalAlpha = 1;
-    ctx.fillStyle = C.ink; ctx.beginPath(); ctx.arc(ax + aw - 120, ay + ah - 30, 13, 0, M.TAU); ctx.fill();
   });
-  // stamp under card A, on "authorities suspect"
-  const kst = sp(t, w('nyt', 9), SPRING.bouncy);
-  stamp(ctx, 'SUSPECTED', 250, 1010, -0.08, kst, 52);
+  stamp(ctx, 'SUSPECTED', 290, 1010, -0.08, sp(t, w('nyt', 9), SPRING.bouncy), 56);
   ctx.globalAlpha = ease(t, w('nyt', 9) + 0.2, w('nyt', 9) + 0.6);
-  text(ctx, 'by U.S. authorities', 250, 1095, F(34, 600, UI), C.ink2, 'center');
+  text(ctx, 'by U.S. authorities', 290, 1100, F(36, 600, UI), C.ink2, 'center');
   ctx.globalAlpha = 1;
-  // card B: MSS, lower right
-  const kb = sp(t, w('nyt', 23), SPRING.bouncy);
-  const bx = 470, by = 1010, bw = 540, bh = 250;
-  const pt = ease(t, w('nyt', 20), w('nyt', 23) + 0.1, E.inOutCubic);
-  const x0 = ax + aw - 120, y0 = ay + ah - 30, x1 = bx + bw - 90, y1 = by + 22;
-  if (pt > 0) {
-    const sag = 50 * (1 - ease(t, w('nyt', 23), w('nyt', 23) + 0.5));
-    ctx.strokeStyle = C.honeyD; ctx.lineWidth = 8; ctx.lineCap = 'round';
-    ctx.beginPath(); ctx.moveTo(x0, y0);
-    for (let i = 1; i <= 30; i++) { const s = (i / 30) * pt; ctx.lineTo(lerp(x0, x1, s) + Math.sin(s * Math.PI) * sag, lerp(y0, y1, s)); }
-    ctx.stroke();
+}
+
+// ---- 7b. the map: Singapore (the customer) -> Beijing (the ministry)
+function shotAsia(ctx, t, IMG) {
+  paper(ctx, IMG);
+  if (!MAPP) return;
+  const t0 = CUT.asia;
+  const { sg, bj } = MAP.pts;
+  const z = Math.exp(lerp(Math.log(1.6), Math.log(4.2), ease(t, t0 - 0.05, t0 + 1.0, E.inOutCubic)));
+  const mx = (sg[0] + bj[0]) / 2 + 12, my = (sg[1] + bj[1]) / 2;
+  const ox = CX - mx * z, oy = 800 - my * z;
+  ctx.save(); ctx.translate(ox, oy); ctx.scale(z, z);
+  ctx.lineWidth = 1.2 / z; ctx.strokeStyle = C.paper;
+  for (const [name, p] of MAPP) { ctx.fillStyle = name === 'China' ? '#BFB29A' : '#D6CCB8'; ctx.fill(p); ctx.stroke(p); }
+  ctx.restore();
+  const P2 = (q) => [ox + q[0] * z, oy + q[1] * z];
+  const [sx, sy] = P2(sg), [bx, by] = P2(bj);
+  label(ctx, 'The alleged link', 90, TOP + 40, 34, C.ink);
+  // pins
+  const pin = (x, y, k, name, left) => {
+    if (k <= 0) return;
+    const r = 16 * clamp(k);
+    ctx.fillStyle = C.ink; ctx.beginPath(); ctx.arc(x, y, r, 0, M.TAU); ctx.fill();
+    ctx.strokeStyle = C.ink; ctx.lineWidth = 3; ctx.globalAlpha = 1 - ((t * 0.8) % 1);
+    ctx.beginPath(); ctx.arc(x, y, r + 30 * ((t * 0.8) % 1), 0, M.TAU); ctx.stroke(); ctx.globalAlpha = 1;
+    label(ctx, name, left ? x - 34 : x + 34, y + 12, 32, C.ink, left ? 'right' : 'left');
+  };
+  const ksg = sp(t, w('nyt', 14) - 0.1, SPRING.bouncy), kbj = sp(t, w('nyt', 23) - 0.15, SPRING.bouncy);
+  // the line: drawn on "was recruited"
+  const pl = ease(t, w('nyt', 20), w('nyt', 23), E.inOutCubic);
+  if (pl > 0) {
+    ctx.save(); ctx.strokeStyle = C.honeyD; ctx.lineWidth = 8; ctx.setLineDash([22, 14]); ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(lerp(sx, bx, pl), lerp(sy, by, pl)); ctx.stroke(); ctx.restore();
+    ctx.globalAlpha = ease(t, w('nyt', 21), w('nyt', 21) + 0.4);
+    const mxl = lerp(sx, bx, 0.5), myl = lerp(sy, by, 0.5);
+    ctx.save(); ctx.translate(mxl - 28, myl); ctx.rotate(Math.atan2(by - sy, bx - sx));
+    text(ctx, 'RECRUITED? (ALLEGED)', 0, 0, F(28, 800, UI), C.ink, 'center', 2); ctx.restore();
+    ctx.globalAlpha = 1;
   }
-  if (kb > 0) withRot(ctx, bx + bw / 2, by, 0.025, lerp(0.75, 1, clamp(kb)), () => {
-    ctx.globalAlpha = clamp(kb * 2);
-    card(ctx, bx, by, bw, bh, { seed: 27 });
-    label(ctx, 'China’s', bx + 45, by + 80, 32, C.mute);
-    para(ctx, 'Ministry of State Security', bx + 45, by + 150, F(58, 400, D), bw - 80, 64, C.ink,
-      { security: ease(t, w('nyt', 27), w('nyt', 27) + 0.3) });
-    ctx.fillStyle = C.ink; ctx.beginPath(); ctx.arc(x1, y1, 13, 0, M.TAU); ctx.fill();
+  pin(sx, sy, ksg, 'Singapore', true);
+  pin(bx, by, kbj, 'Beijing', true);
+  // Singapore card: the customer
+  if (ksg > 0) withRot(ctx, 760, 1090, 0.02, lerp(0.7, 1, clamp(ksg)), () => {
+    ctx.globalAlpha = clamp(ksg * 2);
+    const x = 520, y = 900, cw = 490, ch = 360;
+    card(ctx, x, y, cw, ch, { seed: 81, shadow: 0.22 });
+    M.cover(ctx, IMG.sg, x + 14, y + 14, cw - 28, 160, { fx: 0.5, fy: 0.35 });
+    creditTag(ctx, 'Photo: DvTor8303 / CC0', x + cw - 22, y + 166);
+    silhouette(ctx, x + 70, y + 255, 110);
+    text(ctx, 'Alice Huang', x + 140, y + 236, F(46, 400, D), C.ink);
+    text(ctx, 'Executive, Megaspeed', x + 140, y + 280, F(28, 600, UI), C.ink2);
+    ctx.font = F(28, 800, UI); const tw = ctx.measureText('AN NVIDIA CUSTOMER').width;
+    hilite(ctx, x + 140, y + 300, tw, 34, ease(t, w('nyt', 19), w('nyt', 19) + 0.3));
+    text(ctx, 'AN NVIDIA CUSTOMER', x + 140, y + 328, F(28, 800, UI), C.ink, 'left');
     ctx.globalAlpha = 1;
   });
-  ctx.restore();
+  // Beijing card: the ministry
+  if (kbj > 0) withRot(ctx, 800, 470, -0.02, lerp(0.7, 1, clamp(kbj)), () => {
+    ctx.globalAlpha = clamp(kbj * 2);
+    const x = 560, y = 330, cw = 450, ch = 300;
+    card(ctx, x, y, cw, ch, { seed: 83, shadow: 0.22 });
+    if (IMG.mss) ctx.drawImage(IMG.mss, x + 24, y + 30, 150, 150);
+    label(ctx, 'China’s', x + 196, y + 62, 28, C.mute);
+    para(ctx, 'Ministry of State Security', x + 196, y + 115, F(44, 400, D), 230, 50, C.ink,
+      { security: ease(t, w('nyt', 27), w('nyt', 27) + 0.3) });
+    text(ctx, 'Insignia: public domain', x + 24, y + 270, F(20, 600, UI), C.mute);
+    ctx.globalAlpha = 1;
+  });
 }
 
 // ---- 8. the alleged goal
@@ -745,7 +834,8 @@ function clipping(ctx, t, ti, y, rot, kicker, body, src, hl, seed) {
   ctx.restore();
 }
 function shotClips(ctx, t, IMG) {
-  paper(ctx, IMG);
+  fullBleed(ctx, IMG.jhCBg, t, CUT.clips, CUT.money, { fx: 0.5, fy: 0.4, z0: 1.0, z1: 1.1, dark: 0.45,
+    credit: 'Photo: NVIDIA Taiwan / CC BY 2.0' });
   const out = ease(t, CUT.money - 0.35, CUT.money + 0.1, E.inCubic);
   ctx.save(); ctx.translate(0, out * 1400);
   clipping(ctx, t, CUT.clips + 0.05, 320, -0.03, 'Report', 'A second relationship, with an Nvidia vice president',
@@ -816,14 +906,14 @@ function shotDC(ctx, t, IMG) {
   const ka = sp(t, w('trump', 2) - 0.1, SPRING.snappy);
   if (ka > 0) {
     ctx.globalAlpha = clamp(ka * 2);
+    photoPrint(ctx, IMG.trump, 680, TOP + 60, 320, 400, { rot: 0.045, fx: 0.5, fy: 0.22, zoom: 1.15, b: 12,
+      s: lerp(1.3, 1, clamp(ka)), credit: 'White House / PD' });
     label(ctx, 'The President', 90, TOP + 180, 32, C.mute);
-    const f = F(84, 400, D);
-    ctx.font = f; const tw = ctx.measureText('“An honorable guy.”').width;
-    hilite(ctx, 90, TOP + 220, tw, 90, ease(t, w('trump', 7), w('trump', 8) + 0.2));
-    text(ctx, '“An honorable guy.”', 90, TOP + 295, f, C.ink);
+    para(ctx, '“An honorable guy.”', 90, TOP + 270, F(76, 400, D), 560, 84, C.ink,
+      { honorable: ease(t, w('trump', 7), w('trump', 7) + 0.3), guy: ease(t, w('trump', 8), w('trump', 8) + 0.25) });
     ctx.globalAlpha = ease(t, w('trump', 10), w('trump', 10) + 0.3);
-    text(ctx, 'Says Huang should stay as CEO', 90, TOP + 380, F(40, 600, UI), C.ink2);
-    source(ctx, 'President Trump, Nov 9', 90, TOP + 440, 1);
+    text(ctx, 'Says Huang should stay as CEO', 90, TOP + 420, F(34, 600, UI), C.ink2);
+    source(ctx, 'President Trump, Nov 9', 90, TOP + 470, 1);
     ctx.globalAlpha = 1;
   }
   // bottom: Congress, a calendar page flips in
@@ -892,13 +982,19 @@ function shotTarget(ctx, t, IMG) {
     ctx.strokeStyle = C.rule; ctx.lineWidth = 3; ctx.stroke();
   }
   const kc = sp(t, w('center', 4) - 0.05, SPRING.bouncy);
-  if (kc > 0) chip(ctx, cx, cy, 120 * clamp(kc), { glow: M.bump(t, w('center', 13) + 0.3, 0.5) });
+  if (kc > 0) {
+    const r = 118 * clamp(kc);
+    ctx.beginPath(); ctx.arc(cx, cy, r + 10, 0, M.TAU); ctx.fillStyle = C.ink; ctx.fill();
+    if (IMG.jhSC) M.cover(ctx, IMG.jhSC, cx - r, cy - r, 2 * r, 2 * r, { fx: 0.64, fy: 0.3, zoom: 2.4, radius: r });
+    const fl = M.bump(t, w('center', 13) + 0.3, 0.4);
+    if (fl > 0) { ctx.strokeStyle = C.honey; ctx.lineWidth = 14 * fl; ctx.beginPath(); ctx.arc(cx, cy, r + 16, 0, M.TAU); ctx.stroke(); }
+  }
   // the arrow flies in on "targeted"
   const ta = w('center', 13) - 0.15;
   const pa = ease(t, ta, ta + 0.42, E.inQuad);
   if (pa > 0) {
     const ang = -0.75, L = 520;
-    const tipD = lerp(1300, 70, pa);
+    const tipD = lerp(1300, 150, pa);
     const tx = cx + Math.cos(ang) * tipD, ty = cy + Math.sin(ang) * tipD;
     const wob = pa >= 1 ? 0.05 * M.ring(t - ta - 0.42, 4, 5) : 0;
     ctx.save(); ctx.translate(tx, ty); ctx.rotate(ang + wob);
@@ -972,6 +1068,8 @@ function shotEnd(ctx, t, IMG) {
   ctx.globalAlpha = ease(t, w('end', 9), w('end', 10) + 0.5);
   text(ctx, 'Sources: The New York Times, The Wall Street Journal,', CX, 1180, F(28, 400, UI), C.mute, 'center');
   text(ctx, 'CBS News, Axios, CNBC, Reuters. Allegations are unproven.', CX, 1222, F(28, 400, UI), C.mute, 'center');
+  text(ctx, 'Photos via Wikimedia Commons: Anderseidesvik (CC BY-SA 4.0), NVIDIA Taiwan (CC BY 2.0),', CX, 1268, F(22, 400, UI), C.mute, 'center');
+  text(ctx, 'Raysonho (CC0), Coolcaesar (CC BY-SA 4.0), DvTor8303 (CC0), White House (public domain).', CX, 1298, F(22, 400, UI), C.mute, 'center');
   ctx.globalAlpha = 1;
 }
 
@@ -1031,7 +1129,7 @@ function captions(ctx, t) {
 // ================================================================ the film
 const SHOTS = {
   hook: shotHook, dc0: shotDome, ask: shotAsk, chips: shotChips, map: shotMap, memo: shotMemo, dossier: shotDossier,
-  goal: shotGoal, trap: shotTrap, deny: shotDeny, worse: shotWorse, clips: shotClips, money: shotMoney, dc: shotDC,
+  asia: shotAsia, goal: shotGoal, trap: shotTrap, deny: shotDeny, worse: shotWorse, clips: shotClips, money: shotMoney, dc: shotDC,
   why: shotWhy, target: shotTarget, question: shotQuestion, end: shotEnd,
 };
 
@@ -1066,6 +1164,8 @@ M.film({
   fonts: [F(100, 400, D), F(40, 400, UI), F(40, 600, UI), F(40, 800, UI)],
   hits: HITS,
   samples: 6,
+  images: { hq: 'assets/photos/nvidia_hq.jpg', jhS: 'assets/photos/jh_stanford.jpg', jhC: 'assets/photos/jh_computex.jpg',
+    jhSC: 'assets/photos/jh_sc18.jpg', sg: 'assets/photos/singapore.jpg', mss: 'assets/photos/mss.png', trump: 'assets/photos/trump.jpg' },
   async init(ctx, IMG) {
     MAP = await fetch('assets/map.json').then((r) => r.json());
     MAPP = Object.entries(MAP.countries).map(([k, d]) => [k, new Path2D(d)]);
@@ -1090,6 +1190,16 @@ M.film({
     vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(60,40,10,0.08)');
     c.fillStyle = vg; c.fillRect(0, 0, W, H);
     IMG.paperTex = cv;
+    // documentary grade, baked once: slightly desaturated + warm; backgrounds also blurred
+    const bake = (im, filter) => {
+      if (!im) return null;
+      const c2 = document.createElement('canvas'); c2.width = im.width; c2.height = im.height;
+      const x2 = c2.getContext('2d'); x2.filter = filter; x2.drawImage(im, 0, 0); return c2;
+    };
+    const grade = 'grayscale(0.28) sepia(0.16) contrast(1.06)';
+    for (const k of ['jhS', 'jhC', 'jhSC', 'sg', 'trump']) IMG[k] = bake(IMG[k], grade) || IMG[k];
+    IMG.hqBg = bake(IMG.hq, grade + ' blur(3px)');
+    IMG.jhCBg = bake(IMG.jhC, grade + ' blur(2.5px)');
     // grain tiles
     IMG.grain = [];
     for (let g = 0; g < 6; g++) {
