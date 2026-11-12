@@ -76,3 +76,31 @@ rather than repeating the gossip. This reel takes the "why it matters" angle.
 - Score: darker suspense bed (D Phrygian drone, minor-2nd string tremolo, pizzicato motif, heartbeat, braam stingers on
   "honey trap", the drop, "oust", "targeted" and "decision").
 - Add to the Instagram caption: "Photos: Wikimedia Commons (CC BY / CC BY-SA / CC0 / public domain)."
+
+## Instagram caption (v2, ~1,350 of 2,200 chars)
+```
+If you own an index fund, this Nvidia story already cost you money. 🍯🕵️
+
+Nvidia CEO Jensen Huang admitted an affair with Alice Huang, an executive at Megaspeed, a Singapore-based Nvidia customer. U.S. authorities reportedly suspect she was recruited by China's Ministry of State Security: an alleged honey trap aimed at the man who sells America's most important AI chips. (The New York Times)
+
+What happened, Nov 8–12:
+🔹 Nov 8: Huang tells staff he was unfaithful. Nvidia's board opens an independent investigation
+🔹 The Times reports a second relationship, with an Nvidia vice president
+🔹 WSJ: the board is preparing to oust him
+🔹 $450B+ in Nvidia market value gone since the probe began (CBS News)
+🔹 Trump calls Huang "an honorable guy." 3 House committee chairs request a closed-door briefing on Nov 18
+
+Why it matters: Nvidia's AI chips are so strategic that the U.S. limits which ones China can buy. The real question for the board isn't his marriage. It's national security.
+
+⚠️ Allegations are unproven. China calls the spy story "unsubstantiated." Nvidia's board says it has "no reason to believe" secrets were compromised.
+
+As of Nov 12, the board hasn't announced a decision. Follow for the update.
+
+💬 Should Nvidia's board keep Jensen Huang? Tell me in the comments.
+
+Sources: The New York Times, The Wall Street Journal, CBS News, Axios, CNBC, Reuters
+Photos: Wikimedia Commons (CC BY / CC BY-SA / CC0 / public domain)
+
+#Nvidia #JensenHuang #HoneyTrap #AIChips #Espionage
+```
+Swap-ins if you rotate tags: #NVDA #NvidiaStock #TechNews #ExportControls #NationalSecurity
