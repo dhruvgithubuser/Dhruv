@@ -65,7 +65,7 @@ rather than repeating the gossip. This reel takes the "why it matters" angle.
 - Narrator: Kokoro-82M, voice `af_heart` (open-weight TTS, run locally), chosen over 6 others because its
   Whisper transcript was word-perfect on "Nvidia", "Huang" and "Ministry of State Security".
 - Music + SFX: synthesized in code (`honeytrap/audio/score.py`), original, no licensing.
-- Map: Natural Earth via `world-atlas`. No photos, likenesses, logos or mastheads are used.
+- Map: Natural Earth via `world-atlas`. No outlet logos or mastheads are used; photos are listed under v2 below.
 
 ## v2 changes (documentary cut)
 - Real photos (all freely licensed, credited on screen and in the end card): Jensen Huang x3, Nvidia HQ,
