@@ -77,11 +77,15 @@ rather than repeating the gossip. This reel takes the "why it matters" angle.
   "honey trap", the drop, "oust", "targeted" and "decision").
 - Add to the Instagram caption: "Photos: Wikimedia Commons (CC BY / CC BY-SA / CC0 / public domain)."
 
-## Instagram caption (v2, ~1,350 of 2,200 chars)
+## Instagram caption (v3: opens with the title, adds the Megaspeed chips angle)
 ```
-If you own an index fund, this Nvidia story already cost you money. 🍯🕵️
+Nvidia CEO Jensen Huang Honey Trap Allegation: Alice Huang, Megaspeed and the $2B AI Chip Question, Explained 🍯🕵️
+
+If you own an index fund, this story already cost you money.
 
 Nvidia CEO Jensen Huang admitted an affair with Alice Huang, an executive at Megaspeed, a Singapore-based Nvidia customer. U.S. authorities reportedly suspect she was recruited by China's Ministry of State Security: an alleged honey trap aimed at the man who sells America's most important AI chips. (The New York Times)
+
+The chip angle: Megaspeed is under U.S. and Singapore investigation over whether Nvidia chips reached China. The NYT reports nearly $2B of its Nvidia chips sit in data centers in Malaysia and Indonesia allegedly serving Chinese customers remotely. Megaspeed denies any wrongdoing.
 
 What happened, Nov 8–12:
 🔹 Nov 8: Huang tells staff he was unfaithful. Nvidia's board opens an independent investigation
@@ -98,7 +102,7 @@ As of Nov 12, the board hasn't announced a decision. Follow for the update.
 
 💬 Should Nvidia's board keep Jensen Huang? Tell me in the comments.
 
-Sources: The New York Times, The Wall Street Journal, CBS News, Axios, CNBC, Reuters
+Sources: The New York Times, The Wall Street Journal, CBS News, CNBC, Axios, Reuters
 Photos: Wikimedia Commons (CC BY / CC BY-SA / CC0 / public domain)
 
 #Nvidia #JensenHuang #HoneyTrap #AIChips #Espionage
