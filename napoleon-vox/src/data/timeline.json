@@ -1,0 +1,5739 @@
+{
+ "fps": 30,
+ "duration": 424.955,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "December 1812. A handful of frozen, starving men stumble across a bridge over the Niemen River, at the western edge of the Russian Empire.",
+   "start": 0.35,
+   "end": 9.514,
+   "words": [
+    {
+     "w": "December",
+     "start": 0.25,
+     "end": 0.59
+    },
+    {
+     "w": "1812.",
+     "start": 0.59,
+     "end": 1.63
+    },
+    {
+     "w": "A",
+     "start": 2.41,
+     "end": 2.49
+    },
+    {
+     "w": "handful",
+     "start": 2.49,
+     "end": 2.83
+    },
+    {
+     "w": "of",
+     "start": 2.83,
+     "end": 3.11
+    },
+    {
+     "w": "frozen,",
+     "start": 3.11,
+     "end": 3.43
+    },
+    {
+     "w": "starving",
+     "start": 3.81,
+     "end": 4.17
+    },
+    {
+     "w": "men",
+     "start": 4.17,
+     "end": 4.55
+    },
+    {
+     "w": "stumble",
+     "start": 4.55,
+     "end": 4.91
+    },
+    {
+     "w": "across",
+     "start": 4.91,
+     "end": 5.41
+    },
+    {
+     "w": "a",
+     "start": 5.41,
+     "end": 5.57
+    },
+    {
+     "w": "bridge",
+     "start": 5.57,
+     "end": 5.83
+    },
+    {
+     "w": "over",
+     "start": 5.83,
+     "end": 6.15
+    },
+    {
+     "w": "the",
+     "start": 6.15,
+     "end": 6.27
+    },
+    {
+     "w": "Niemen",
+     "start": 6.27,
+     "end": 6.55
+    },
+    {
+     "w": "River,",
+     "start": 6.55,
+     "end": 6.83
+    },
+    {
+     "w": "at",
+     "start": 6.83,
+     "end": 7.35
+    },
+    {
+     "w": "the",
+     "start": 7.35,
+     "end": 7.49
+    },
+    {
+     "w": "western",
+     "start": 7.49,
+     "end": 7.69
+    },
+    {
+     "w": "edge",
+     "start": 7.69,
+     "end": 8.15
+    },
+    {
+     "w": "of",
+     "start": 8.15,
+     "end": 8.33
+    },
+    {
+     "w": "the",
+     "start": 8.33,
+     "end": 8.45
+    },
+    {
+     "w": "Russian",
+     "start": 8.45,
+     "end": 8.65
+    },
+    {
+     "w": "Empire.",
+     "start": 8.65,
+     "end": 9.17
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Six months earlier, more than 450,000 soldiers had marched across this same river. One of the largest armies Europe had ever seen.",
+   "start": 10.114,
+   "end": 18.811,
+   "words": [
+    {
+     "w": "Six",
+     "start": 10.014,
+     "end": 10.274
+    },
+    {
+     "w": "months",
+     "start": 10.274,
+     "end": 10.534
+    },
+    {
+     "w": "earlier,",
+     "start": 10.534,
+     "end": 10.954
+    },
+    {
+     "w": "more",
+     "start": 11.334,
+     "end": 11.434
+    },
+    {
+     "w": "than",
+     "start": 11.434,
+     "end": 11.594
+    },
+    {
+     "w": "450,000",
+     "start": 11.594,
+     "end": 13.114
+    },
+    {
+     "w": "soldiers",
+     "start": 13.114,
+     "end": 13.634
+    },
+    {
+     "w": "had",
+     "start": 13.634,
+     "end": 13.994
+    },
+    {
+     "w": "marched",
+     "start": 13.994,
+     "end": 14.194
+    },
+    {
+     "w": "across",
+     "start": 14.194,
+     "end": 14.534
+    },
+    {
+     "w": "this",
+     "start": 14.534,
+     "end": 14.894
+    },
+    {
+     "w": "same",
+     "start": 14.894,
+     "end": 15.134
+    },
+    {
+     "w": "river.",
+     "start": 15.134,
+     "end": 15.534
+    },
+    {
+     "w": "One",
+     "start": 16.294,
+     "end": 16.334
+    },
+    {
+     "w": "of",
+     "start": 16.334,
+     "end": 16.434
+    },
+    {
+     "w": "the",
+     "start": 16.434,
+     "end": 16.534
+    },
+    {
+     "w": "largest",
+     "start": 16.534,
+     "end": 16.894
+    },
+    {
+     "w": "armies",
+     "start": 16.894,
+     "end": 17.334
+    },
+    {
+     "w": "Europe",
+     "start": 17.334,
+     "end": 17.734
+    },
+    {
+     "w": "had",
+     "start": 17.734,
+     "end": 18.014
+    },
+    {
+     "w": "ever",
+     "start": 18.014,
+     "end": 18.254
+    },
+    {
+     "w": "seen.",
+     "start": 18.254,
+     "end": 18.574
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Most of them never came back.",
+   "start": 19.411,
+   "end": 21.28,
+   "words": [
+    {
+     "w": "Most",
+     "start": 19.311,
+     "end": 19.671
+    },
+    {
+     "w": "of",
+     "start": 19.671,
+     "end": 19.811
+    },
+    {
+     "w": "them",
+     "start": 19.811,
+     "end": 19.991
+    },
+    {
+     "w": "never",
+     "start": 19.991,
+     "end": 20.371
+    },
+    {
+     "w": "came",
+     "start": 20.371,
+     "end": 20.711
+    },
+    {
+     "w": "back.",
+     "start": 20.711,
+     "end": 21.011
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "History blames the Russian winter. But the army was already half gone before the first snow fell.",
+   "start": 22.08,
+   "end": 27.597,
+   "words": [
+    {
+     "w": "History",
+     "start": 21.98,
+     "end": 22.3
+    },
+    {
+     "w": "blames",
+     "start": 22.3,
+     "end": 22.62
+    },
+    {
+     "w": "the",
+     "start": 22.62,
+     "end": 22.92
+    },
+    {
+     "w": "Russian",
+     "start": 22.92,
+     "end": 23.26
+    },
+    {
+     "w": "winter.",
+     "start": 23.26,
+     "end": 23.54
+    },
+    {
+     "w": "But",
+     "start": 24.02,
+     "end": 24.14
+    },
+    {
+     "w": "the",
+     "start": 24.14,
+     "end": 24.26
+    },
+    {
+     "w": "army",
+     "start": 24.26,
+     "end": 24.56
+    },
+    {
+     "w": "was",
+     "start": 24.56,
+     "end": 24.82
+    },
+    {
+     "w": "already",
+     "start": 24.82,
+     "end": 25.14
+    },
+    {
+     "w": "half",
+     "start": 25.14,
+     "end": 25.36
+    },
+    {
+     "w": "gone",
+     "start": 25.36,
+     "end": 25.72
+    },
+    {
+     "w": "before",
+     "start": 25.72,
+     "end": 26.32
+    },
+    {
+     "w": "the",
+     "start": 26.32,
+     "end": 26.46
+    },
+    {
+     "w": "first",
+     "start": 26.46,
+     "end": 26.68
+    },
+    {
+     "w": "snow",
+     "start": 26.68,
+     "end": 27.02
+    },
+    {
+     "w": "fell.",
+     "start": 27.02,
+     "end": 27.38
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "This is the story of the mistake that cost Napoleon Bonaparte his empire.",
+   "start": 28.297,
+   "end": 32.601,
+   "words": [
+    {
+     "w": "This",
+     "start": 28.197,
+     "end": 28.417
+    },
+    {
+     "w": "is",
+     "start": 28.417,
+     "end": 28.537
+    },
+    {
+     "w": "the",
+     "start": 28.537,
+     "end": 28.697
+    },
+    {
+     "w": "story",
+     "start": 28.697,
+     "end": 29.037
+    },
+    {
+     "w": "of",
+     "start": 29.037,
+     "end": 29.217
+    },
+    {
+     "w": "the",
+     "start": 29.217,
+     "end": 29.337
+    },
+    {
+     "w": "mistake",
+     "start": 29.337,
+     "end": 29.717
+    },
+    {
+     "w": "that",
+     "start": 29.717,
+     "end": 30.057
+    },
+    {
+     "w": "cost",
+     "start": 30.057,
+     "end": 30.317
+    },
+    {
+     "w": "Napoleon",
+     "start": 30.317,
+     "end": 31.017
+    },
+    {
+     "w": "Bonaparte",
+     "start": 31.017,
+     "end": 31.737
+    },
+    {
+     "w": "his",
+     "start": 31.737,
+     "end": 31.917
+    },
+    {
+     "w": "empire.",
+     "start": 31.917,
+     "end": 32.197
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "By 1812, Napoleon was the most powerful man in Europe. In a decade of war, he had crushed Austria, Prussia and Russia, and placed his own brothers on thrones across the continent.",
+   "start": 33.801,
+   "end": 44.965,
+   "words": [
+    {
+     "w": "By",
+     "start": 33.701,
+     "end": 33.881
+    },
+    {
+     "w": "1812,",
+     "start": 33.881,
+     "end": 34.541
+    },
+    {
+     "w": "Napoleon",
+     "start": 34.861,
+     "end": 34.981
+    },
+    {
+     "w": "was",
+     "start": 34.981,
+     "end": 35.581
+    },
+    {
+     "w": "the",
+     "start": 35.581,
+     "end": 35.721
+    },
+    {
+     "w": "most",
+     "start": 35.721,
+     "end": 35.881
+    },
+    {
+     "w": "powerful",
+     "start": 35.881,
+     "end": 36.281
+    },
+    {
+     "w": "man",
+     "start": 36.281,
+     "end": 36.761
+    },
+    {
+     "w": "in",
+     "start": 36.761,
+     "end": 36.921
+    },
+    {
+     "w": "Europe.",
+     "start": 36.921,
+     "end": 37.181
+    },
+    {
+     "w": "In",
+     "start": 37.941,
+     "end": 38.021
+    },
+    {
+     "w": "a",
+     "start": 38.021,
+     "end": 38.061
+    },
+    {
+     "w": "decade",
+     "start": 38.061,
+     "end": 38.321
+    },
+    {
+     "w": "of",
+     "start": 38.321,
+     "end": 38.541
+    },
+    {
+     "w": "war,",
+     "start": 38.541,
+     "end": 38.881
+    },
+    {
+     "w": "he",
+     "start": 39.241,
+     "end": 39.261
+    },
+    {
+     "w": "had",
+     "start": 39.261,
+     "end": 39.361
+    },
+    {
+     "w": "crushed",
+     "start": 39.361,
+     "end": 39.541
+    },
+    {
+     "w": "Austria,",
+     "start": 39.541,
+     "end": 40.201
+    },
+    {
+     "w": "Prussia",
+     "start": 40.621,
+     "end": 40.861
+    },
+    {
+     "w": "and",
+     "start": 40.861,
+     "end": 41.101
+    },
+    {
+     "w": "Russia,",
+     "start": 41.101,
+     "end": 41.281
+    },
+    {
+     "w": "and",
+     "start": 41.901,
+     "end": 41.961
+    },
+    {
+     "w": "placed",
+     "start": 41.961,
+     "end": 42.161
+    },
+    {
+     "w": "his",
+     "start": 42.161,
+     "end": 42.401
+    },
+    {
+     "w": "own",
+     "start": 42.401,
+     "end": 42.561
+    },
+    {
+     "w": "brothers",
+     "start": 42.561,
+     "end": 42.821
+    },
+    {
+     "w": "on",
+     "start": 42.821,
+     "end": 43.201
+    },
+    {
+     "w": "thrones",
+     "start": 43.201,
+     "end": 43.641
+    },
+    {
+     "w": "across",
+     "start": 43.641,
+     "end": 44.041
+    },
+    {
+     "w": "the",
+     "start": 44.041,
+     "end": 44.301
+    },
+    {
+     "w": "continent.",
+     "start": 44.301,
+     "end": 44.621
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Only one enemy refused to bow: Britain. Protected by the Royal Navy, it was beyond the reach of his armies.",
+   "start": 45.565,
+   "end": 52.308,
+   "words": [
+    {
+     "w": "Only",
+     "start": 45.465,
+     "end": 45.785
+    },
+    {
+     "w": "one",
+     "start": 45.785,
+     "end": 45.985
+    },
+    {
+     "w": "enemy",
+     "start": 45.985,
+     "end": 46.325
+    },
+    {
+     "w": "refused",
+     "start": 46.325,
+     "end": 46.785
+    },
+    {
+     "w": "to",
+     "start": 46.785,
+     "end": 47.085
+    },
+    {
+     "w": "bow:",
+     "start": 47.085,
+     "end": 47.285
+    },
+    {
+     "w": "Britain.",
+     "start": 47.785,
+     "end": 47.985
+    },
+    {
+     "w": "Protected",
+     "start": 48.685,
+     "end": 49.025
+    },
+    {
+     "w": "by",
+     "start": 49.025,
+     "end": 49.305
+    },
+    {
+     "w": "the",
+     "start": 49.305,
+     "end": 49.445
+    },
+    {
+     "w": "Royal",
+     "start": 49.445,
+     "end": 49.645
+    },
+    {
+     "w": "Navy,",
+     "start": 49.645,
+     "end": 49.985
+    },
+    {
+     "w": "it",
+     "start": 50.465,
+     "end": 50.465
+    },
+    {
+     "w": "was",
+     "start": 50.465,
+     "end": 50.585
+    },
+    {
+     "w": "beyond",
+     "start": 50.585,
+     "end": 50.885
+    },
+    {
+     "w": "the",
+     "start": 50.885,
+     "end": 51.085
+    },
+    {
+     "w": "reach",
+     "start": 51.085,
+     "end": 51.265
+    },
+    {
+     "w": "of",
+     "start": 51.265,
+     "end": 51.465
+    },
+    {
+     "w": "his",
+     "start": 51.465,
+     "end": 51.585
+    },
+    {
+     "w": "armies.",
+     "start": 51.585,
+     "end": 51.905
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "So Napoleon tried to strangle Britain with trade. Under his Continental System, the ports of Europe were closed to British goods.",
+   "start": 52.808,
+   "end": 60.469,
+   "words": [
+    {
+     "w": "So",
+     "start": 52.708,
+     "end": 52.928
+    },
+    {
+     "w": "Napoleon",
+     "start": 52.928,
+     "end": 53.048
+    },
+    {
+     "w": "tried",
+     "start": 53.048,
+     "end": 53.748
+    },
+    {
+     "w": "to",
+     "start": 53.748,
+     "end": 53.988
+    },
+    {
+     "w": "strangle",
+     "start": 53.988,
+     "end": 54.428
+    },
+    {
+     "w": "Britain",
+     "start": 54.428,
+     "end": 54.648
+    },
+    {
+     "w": "with",
+     "start": 54.648,
+     "end": 54.988
+    },
+    {
+     "w": "trade.",
+     "start": 54.988,
+     "end": 55.228
+    },
+    {
+     "w": "Under",
+     "start": 56.288,
+     "end": 56.288
+    },
+    {
+     "w": "his",
+     "start": 56.288,
+     "end": 56.468
+    },
+    {
+     "w": "Continental",
+     "start": 56.468,
+     "end": 56.828
+    },
+    {
+     "w": "System,",
+     "start": 56.828,
+     "end": 57.528
+    },
+    {
+     "w": "the",
+     "start": 58.008,
+     "end": 58.048
+    },
+    {
+     "w": "ports",
+     "start": 58.048,
+     "end": 58.248
+    },
+    {
+     "w": "of",
+     "start": 58.248,
+     "end": 58.488
+    },
+    {
+     "w": "Europe",
+     "start": 58.488,
+     "end": 58.768
+    },
+    {
+     "w": "were",
+     "start": 58.768,
+     "end": 59.008
+    },
+    {
+     "w": "closed",
+     "start": 59.008,
+     "end": 59.208
+    },
+    {
+     "w": "to",
+     "start": 59.208,
+     "end": 59.548
+    },
+    {
+     "w": "British",
+     "start": 59.548,
+     "end": 59.728
+    },
+    {
+     "w": "goods.",
+     "start": 59.728,
+     "end": 60.088
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Russia had joined the blockade in 1807. But it was crippling the Russian economy. And on the last day of 1810, Tsar Alexander I broke away.",
+   "start": 60.969,
+   "end": 70.867,
+   "words": [
+    {
+     "w": "Russia",
+     "start": 60.869,
+     "end": 61.229
+    },
+    {
+     "w": "had",
+     "start": 61.229,
+     "end": 61.469
+    },
+    {
+     "w": "joined",
+     "start": 61.469,
+     "end": 61.709
+    },
+    {
+     "w": "the",
+     "start": 61.709,
+     "end": 61.929
+    },
+    {
+     "w": "blockade",
+     "start": 61.929,
+     "end": 62.169
+    },
+    {
+     "w": "in",
+     "start": 62.169,
+     "end": 62.649
+    },
+    {
+     "w": "1807.",
+     "start": 62.649,
+     "end": 63.229
+    },
+    {
+     "w": "But",
+     "start": 63.949,
+     "end": 64.129
+    },
+    {
+     "w": "it",
+     "start": 64.129,
+     "end": 64.229
+    },
+    {
+     "w": "was",
+     "start": 64.229,
+     "end": 64.309
+    },
+    {
+     "w": "crippling",
+     "start": 64.309,
+     "end": 64.629
+    },
+    {
+     "w": "the",
+     "start": 64.629,
+     "end": 64.989
+    },
+    {
+     "w": "Russian",
+     "start": 64.989,
+     "end": 65.249
+    },
+    {
+     "w": "economy.",
+     "start": 65.249,
+     "end": 65.889
+    },
+    {
+     "w": "And",
+     "start": 66.629,
+     "end": 66.669
+    },
+    {
+     "w": "on",
+     "start": 66.669,
+     "end": 66.789
+    },
+    {
+     "w": "the",
+     "start": 66.789,
+     "end": 66.889
+    },
+    {
+     "w": "last",
+     "start": 66.889,
+     "end": 67.089
+    },
+    {
+     "w": "day",
+     "start": 67.089,
+     "end": 67.389
+    },
+    {
+     "w": "of",
+     "start": 67.389,
+     "end": 67.529
+    },
+    {
+     "w": "1810,",
+     "start": 67.529,
+     "end": 68.209
+    },
+    {
+     "w": "Tsar",
+     "start": 68.589,
+     "end": 68.889
+    },
+    {
+     "w": "Alexander",
+     "start": 68.889,
+     "end": 69.169
+    },
+    {
+     "w": "I",
+     "start": 69.169,
+     "end": 69.909
+    },
+    {
+     "w": "broke",
+     "start": 69.909,
+     "end": 70.269
+    },
+    {
+     "w": "away.",
+     "start": 70.269,
+     "end": 70.649
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "To Napoleon, it was betrayal. If Russia could defy him, others would follow. He decided to teach the Tsar a lesson.",
+   "start": 71.467,
+   "end": 78.645,
+   "words": [
+    {
+     "w": "To",
+     "start": 71.367,
+     "end": 71.567
+    },
+    {
+     "w": "Napoleon,",
+     "start": 71.567,
+     "end": 71.787
+    },
+    {
+     "w": "it",
+     "start": 72.287,
+     "end": 72.327
+    },
+    {
+     "w": "was",
+     "start": 72.327,
+     "end": 72.427
+    },
+    {
+     "w": "betrayal.",
+     "start": 72.427,
+     "end": 72.827
+    },
+    {
+     "w": "If",
+     "start": 73.647,
+     "end": 73.687
+    },
+    {
+     "w": "Russia",
+     "start": 73.687,
+     "end": 73.887
+    },
+    {
+     "w": "could",
+     "start": 73.887,
+     "end": 74.227
+    },
+    {
+     "w": "defy",
+     "start": 74.227,
+     "end": 74.447
+    },
+    {
+     "w": "him,",
+     "start": 74.447,
+     "end": 74.867
+    },
+    {
+     "w": "others",
+     "start": 75.067,
+     "end": 75.227
+    },
+    {
+     "w": "would",
+     "start": 75.227,
+     "end": 75.487
+    },
+    {
+     "w": "follow.",
+     "start": 75.487,
+     "end": 75.867
+    },
+    {
+     "w": "He",
+     "start": 76.427,
+     "end": 76.527
+    },
+    {
+     "w": "decided",
+     "start": 76.527,
+     "end": 76.787
+    },
+    {
+     "w": "to",
+     "start": 76.787,
+     "end": 77.107
+    },
+    {
+     "w": "teach",
+     "start": 77.107,
+     "end": 77.367
+    },
+    {
+     "w": "the",
+     "start": 77.367,
+     "end": 77.587
+    },
+    {
+     "w": "Tsar",
+     "start": 77.587,
+     "end": 77.907
+    },
+    {
+     "w": "a",
+     "start": 77.907,
+     "end": 78.087
+    },
+    {
+     "w": "lesson.",
+     "start": 78.087,
+     "end": 78.367
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "His plan was simple: march into Russia, destroy the Russian army in one decisive battle within weeks, and force Alexander back into line.",
+   "start": 79.345,
+   "end": 88.174,
+   "words": [
+    {
+     "w": "His",
+     "start": 79.245,
+     "end": 79.445
+    },
+    {
+     "w": "plan",
+     "start": 79.445,
+     "end": 79.705
+    },
+    {
+     "w": "was",
+     "start": 79.705,
+     "end": 79.945
+    },
+    {
+     "w": "simple:",
+     "start": 79.945,
+     "end": 80.305
+    },
+    {
+     "w": "march",
+     "start": 81.085,
+     "end": 81.085
+    },
+    {
+     "w": "into",
+     "start": 81.085,
+     "end": 81.305
+    },
+    {
+     "w": "Russia,",
+     "start": 81.305,
+     "end": 81.845
+    },
+    {
+     "w": "destroy",
+     "start": 82.145,
+     "end": 82.445
+    },
+    {
+     "w": "the",
+     "start": 82.445,
+     "end": 82.725
+    },
+    {
+     "w": "Russian",
+     "start": 82.725,
+     "end": 83.045
+    },
+    {
+     "w": "army",
+     "start": 83.045,
+     "end": 83.365
+    },
+    {
+     "w": "in",
+     "start": 83.365,
+     "end": 83.705
+    },
+    {
+     "w": "one",
+     "start": 83.705,
+     "end": 83.885
+    },
+    {
+     "w": "decisive",
+     "start": 83.885,
+     "end": 84.245
+    },
+    {
+     "w": "battle",
+     "start": 84.245,
+     "end": 84.925
+    },
+    {
+     "w": "within",
+     "start": 84.925,
+     "end": 85.165
+    },
+    {
+     "w": "weeks,",
+     "start": 85.165,
+     "end": 85.465
+    },
+    {
+     "w": "and",
+     "start": 86.025,
+     "end": 86.085
+    },
+    {
+     "w": "force",
+     "start": 86.085,
+     "end": 86.405
+    },
+    {
+     "w": "Alexander",
+     "start": 86.405,
+     "end": 86.765
+    },
+    {
+     "w": "back",
+     "start": 86.765,
+     "end": 87.405
+    },
+    {
+     "w": "into",
+     "start": 87.405,
+     "end": 87.605
+    },
+    {
+     "w": "line.",
+     "start": 87.605,
+     "end": 87.945
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "He assembled a force unlike anything seen before. More than 450,000 men. 150,000 horses. 25,000 wagons. And nearly 1,400 cannon.",
+   "start": 88.674,
+   "end": 100.67,
+   "words": [
+    {
+     "w": "He",
+     "start": 88.574,
+     "end": 88.754
+    },
+    {
+     "w": "assembled",
+     "start": 88.754,
+     "end": 89.094
+    },
+    {
+     "w": "a",
+     "start": 89.094,
+     "end": 89.334
+    },
+    {
+     "w": "force",
+     "start": 89.334,
+     "end": 89.714
+    },
+    {
+     "w": "unlike",
+     "start": 89.714,
+     "end": 89.914
+    },
+    {
+     "w": "anything",
+     "start": 89.914,
+     "end": 90.474
+    },
+    {
+     "w": "seen",
+     "start": 90.474,
+     "end": 90.754
+    },
+    {
+     "w": "before.",
+     "start": 90.754,
+     "end": 91.094
+    },
+    {
+     "w": "More",
+     "start": 91.954,
+     "end": 91.974
+    },
+    {
+     "w": "than",
+     "start": 91.974,
+     "end": 92.154
+    },
+    {
+     "w": "450,000",
+     "start": 92.154,
+     "end": 93.794
+    },
+    {
+     "w": "men.",
+     "start": 93.794,
+     "end": 94.074
+    },
+    {
+     "w": "150,000",
+     "start": 94.074,
+     "end": 96.074
+    },
+    {
+     "w": "horses.",
+     "start": 96.074,
+     "end": 96.414
+    },
+    {
+     "w": "25,000",
+     "start": 96.414,
+     "end": 97.994
+    },
+    {
+     "w": "wagons.",
+     "start": 97.994,
+     "end": 98.414
+    },
+    {
+     "w": "And",
+     "start": 98.814,
+     "end": 98.974
+    },
+    {
+     "w": "nearly",
+     "start": 98.974,
+     "end": 99.134
+    },
+    {
+     "w": "1,400",
+     "start": 99.134,
+     "end": 100.014
+    },
+    {
+     "w": "cannon.",
+     "start": 100.014,
+     "end": 100.334
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Only about half of them were French. Poles, Germans, Italians, Austrians and Swiss marched under the same eagle.",
+   "start": 101.17,
+   "end": 107.881,
+   "words": [
+    {
+     "w": "Only",
+     "start": 101.07,
+     "end": 101.39
+    },
+    {
+     "w": "about",
+     "start": 101.39,
+     "end": 101.57
+    },
+    {
+     "w": "half",
+     "start": 101.57,
+     "end": 101.85
+    },
+    {
+     "w": "of",
+     "start": 101.85,
+     "end": 102.01
+    },
+    {
+     "w": "them",
+     "start": 102.01,
+     "end": 102.15
+    },
+    {
+     "w": "were",
+     "start": 102.15,
+     "end": 102.29
+    },
+    {
+     "w": "French.",
+     "start": 102.29,
+     "end": 102.59
+    },
+    {
+     "w": "Poles,",
+     "start": 103.15,
+     "end": 103.47
+    },
+    {
+     "w": "Germans,",
+     "start": 103.83,
+     "end": 104.13
+    },
+    {
+     "w": "Italians,",
+     "start": 104.55,
+     "end": 104.93
+    },
+    {
+     "w": "Austrians",
+     "start": 105.33,
+     "end": 105.77
+    },
+    {
+     "w": "and",
+     "start": 105.95,
+     "end": 106.03
+    },
+    {
+     "w": "Swiss",
+     "start": 106.03,
+     "end": 106.25
+    },
+    {
+     "w": "marched",
+     "start": 106.25,
+     "end": 106.65
+    },
+    {
+     "w": "under",
+     "start": 106.65,
+     "end": 106.95
+    },
+    {
+     "w": "the",
+     "start": 106.95,
+     "end": 107.11
+    },
+    {
+     "w": "same",
+     "start": 107.11,
+     "end": 107.35
+    },
+    {
+     "w": "eagle.",
+     "start": 107.35,
+     "end": 107.63
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "On June 24, 1812, the Grande Arm\u00e9e crossed the Niemen River into Russia.",
+   "start": 108.381,
+   "end": 113.576,
+   "words": [
+    {
+     "w": "On",
+     "start": 108.281,
+     "end": 108.501
+    },
+    {
+     "w": "June",
+     "start": 108.501,
+     "end": 108.661
+    },
+    {
+     "w": "24,",
+     "start": 108.661,
+     "end": 109.681
+    },
+    {
+     "w": "1812,",
+     "start": 109.681,
+     "end": 110.201
+    },
+    {
+     "w": "the",
+     "start": 110.781,
+     "end": 110.941
+    },
+    {
+     "w": "Grande",
+     "start": 110.941,
+     "end": 111.281
+    },
+    {
+     "w": "Arm\u00e9e",
+     "start": 111.281,
+     "end": 111.621
+    },
+    {
+     "w": "crossed",
+     "start": 111.621,
+     "end": 111.901
+    },
+    {
+     "w": "the",
+     "start": 111.901,
+     "end": 112.181
+    },
+    {
+     "w": "Niemen",
+     "start": 112.181,
+     "end": 112.481
+    },
+    {
+     "w": "River",
+     "start": 112.481,
+     "end": 112.721
+    },
+    {
+     "w": "into",
+     "start": 112.721,
+     "end": 113.021
+    },
+    {
+     "w": "Russia.",
+     "start": 113.021,
+     "end": 113.261
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "Napoleon expected the Russians to stand and fight. They did not. The Russian armies retreated, deeper and deeper into their vast country, burning crops, villages and supplies as they went.",
+   "start": 114.576,
+   "end": 126.265,
+   "words": [
+    {
+     "w": "Napoleon",
+     "start": 114.476,
+     "end": 115.016
+    },
+    {
+     "w": "expected",
+     "start": 115.016,
+     "end": 115.496
+    },
+    {
+     "w": "the",
+     "start": 115.496,
+     "end": 115.796
+    },
+    {
+     "w": "Russians",
+     "start": 115.796,
+     "end": 115.976
+    },
+    {
+     "w": "to",
+     "start": 115.976,
+     "end": 116.356
+    },
+    {
+     "w": "stand",
+     "start": 116.356,
+     "end": 116.716
+    },
+    {
+     "w": "and",
+     "start": 116.716,
+     "end": 116.956
+    },
+    {
+     "w": "fight.",
+     "start": 116.956,
+     "end": 117.256
+    },
+    {
+     "w": "They",
+     "start": 117.936,
+     "end": 117.976
+    },
+    {
+     "w": "did",
+     "start": 117.976,
+     "end": 118.116
+    },
+    {
+     "w": "not.",
+     "start": 118.116,
+     "end": 118.416
+    },
+    {
+     "w": "The",
+     "start": 119.136,
+     "end": 119.216
+    },
+    {
+     "w": "Russian",
+     "start": 119.216,
+     "end": 119.396
+    },
+    {
+     "w": "armies",
+     "start": 119.396,
+     "end": 119.896
+    },
+    {
+     "w": "retreated,",
+     "start": 119.896,
+     "end": 120.316
+    },
+    {
+     "w": "deeper",
+     "start": 120.316,
+     "end": 120.976
+    },
+    {
+     "w": "and",
+     "start": 120.976,
+     "end": 121.316
+    },
+    {
+     "w": "deeper",
+     "start": 121.316,
+     "end": 121.576
+    },
+    {
+     "w": "into",
+     "start": 121.576,
+     "end": 121.876
+    },
+    {
+     "w": "their",
+     "start": 121.876,
+     "end": 122.036
+    },
+    {
+     "w": "vast",
+     "start": 122.036,
+     "end": 122.276
+    },
+    {
+     "w": "country,",
+     "start": 122.276,
+     "end": 122.836
+    },
+    {
+     "w": "burning",
+     "start": 123.096,
+     "end": 123.436
+    },
+    {
+     "w": "crops,",
+     "start": 123.436,
+     "end": 123.916
+    },
+    {
+     "w": "villages",
+     "start": 124.236,
+     "end": 124.356
+    },
+    {
+     "w": "and",
+     "start": 124.356,
+     "end": 124.836
+    },
+    {
+     "w": "supplies",
+     "start": 124.836,
+     "end": 125.096
+    },
+    {
+     "w": "as",
+     "start": 125.096,
+     "end": 125.576
+    },
+    {
+     "w": "they",
+     "start": 125.576,
+     "end": 125.736
+    },
+    {
+     "w": "went.",
+     "start": 125.736,
+     "end": 125.976
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "The Grande Arm\u00e9e marched into an empty land, and its supply wagons could not keep up.",
+   "start": 126.765,
+   "end": 131.83,
+   "words": [
+    {
+     "w": "The",
+     "start": 126.665,
+     "end": 126.845
+    },
+    {
+     "w": "Grande",
+     "start": 126.845,
+     "end": 127.045
+    },
+    {
+     "w": "Arm\u00e9e",
+     "start": 127.045,
+     "end": 127.545
+    },
+    {
+     "w": "marched",
+     "start": 127.545,
+     "end": 127.845
+    },
+    {
+     "w": "into",
+     "start": 127.845,
+     "end": 128.265
+    },
+    {
+     "w": "an",
+     "start": 128.265,
+     "end": 128.385
+    },
+    {
+     "w": "empty",
+     "start": 128.385,
+     "end": 128.565
+    },
+    {
+     "w": "land,",
+     "start": 128.565,
+     "end": 128.985
+    },
+    {
+     "w": "and",
+     "start": 129.665,
+     "end": 129.705
+    },
+    {
+     "w": "its",
+     "start": 129.705,
+     "end": 129.805
+    },
+    {
+     "w": "supply",
+     "start": 129.805,
+     "end": 130.065
+    },
+    {
+     "w": "wagons",
+     "start": 130.065,
+     "end": 130.665
+    },
+    {
+     "w": "could",
+     "start": 130.665,
+     "end": 130.945
+    },
+    {
+     "w": "not",
+     "start": 130.945,
+     "end": 131.125
+    },
+    {
+     "w": "keep",
+     "start": 131.125,
+     "end": 131.365
+    },
+    {
+     "w": "up.",
+     "start": 131.365,
+     "end": 131.645
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "text": "The summer was brutal. Men collapsed from heat and thirst. Dysentery and typhus spread through the ranks.",
+   "start": 132.33,
+   "end": 138.287,
+   "words": [
+    {
+     "w": "The",
+     "start": 132.23,
+     "end": 132.41
+    },
+    {
+     "w": "summer",
+     "start": 132.41,
+     "end": 132.59
+    },
+    {
+     "w": "was",
+     "start": 132.59,
+     "end": 132.87
+    },
+    {
+     "w": "brutal.",
+     "start": 132.87,
+     "end": 133.23
+    },
+    {
+     "w": "Men",
+     "start": 133.67,
+     "end": 133.77
+    },
+    {
+     "w": "collapsed",
+     "start": 133.77,
+     "end": 134.11
+    },
+    {
+     "w": "from",
+     "start": 134.11,
+     "end": 134.45
+    },
+    {
+     "w": "heat",
+     "start": 134.45,
+     "end": 134.73
+    },
+    {
+     "w": "and",
+     "start": 134.73,
+     "end": 134.89
+    },
+    {
+     "w": "thirst.",
+     "start": 134.89,
+     "end": 135.13
+    },
+    {
+     "w": "Dysentery",
+     "start": 135.99,
+     "end": 136.39
+    },
+    {
+     "w": "and",
+     "start": 136.39,
+     "end": 136.57
+    },
+    {
+     "w": "typhus",
+     "start": 136.57,
+     "end": 137.07
+    },
+    {
+     "w": "spread",
+     "start": 137.07,
+     "end": 137.29
+    },
+    {
+     "w": "through",
+     "start": 137.29,
+     "end": 137.57
+    },
+    {
+     "w": "the",
+     "start": 137.57,
+     "end": 137.69
+    },
+    {
+     "w": "ranks.",
+     "start": 137.69,
+     "end": 137.91
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "text": "Horses died by the thousands. By the time Napoleon reached Vilnius, more than 5,000 dead horses lay behind him.",
+   "start": 138.787,
+   "end": 146.485,
+   "words": [
+    {
+     "w": "Horses",
+     "start": 138.687,
+     "end": 139.047
+    },
+    {
+     "w": "died",
+     "start": 139.047,
+     "end": 139.387
+    },
+    {
+     "w": "by",
+     "start": 139.387,
+     "end": 139.767
+    },
+    {
+     "w": "the",
+     "start": 139.767,
+     "end": 139.887
+    },
+    {
+     "w": "thousands.",
+     "start": 139.887,
+     "end": 140.267
+    },
+    {
+     "w": "By",
+     "start": 141.107,
+     "end": 141.147
+    },
+    {
+     "w": "the",
+     "start": 141.147,
+     "end": 141.267
+    },
+    {
+     "w": "time",
+     "start": 141.267,
+     "end": 141.507
+    },
+    {
+     "w": "Napoleon",
+     "start": 141.507,
+     "end": 141.747
+    },
+    {
+     "w": "reached",
+     "start": 141.747,
+     "end": 142.567
+    },
+    {
+     "w": "Vilnius,",
+     "start": 142.567,
+     "end": 143.087
+    },
+    {
+     "w": "more",
+     "start": 143.507,
+     "end": 143.687
+    },
+    {
+     "w": "than",
+     "start": 143.687,
+     "end": 143.867
+    },
+    {
+     "w": "5,000",
+     "start": 143.867,
+     "end": 144.707
+    },
+    {
+     "w": "dead",
+     "start": 144.707,
+     "end": 144.927
+    },
+    {
+     "w": "horses",
+     "start": 144.927,
+     "end": 145.287
+    },
+    {
+     "w": "lay",
+     "start": 145.287,
+     "end": 145.627
+    },
+    {
+     "w": "behind",
+     "start": 145.627,
+     "end": 145.907
+    },
+    {
+     "w": "him.",
+     "start": 145.907,
+     "end": 146.327
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "text": "In just the first eight weeks, the main army lost a third of its strength, before a single major battle had been fought.",
+   "start": 146.985,
+   "end": 153.711,
+   "words": [
+    {
+     "w": "In",
+     "start": 146.885,
+     "end": 147.065
+    },
+    {
+     "w": "just",
+     "start": 147.065,
+     "end": 147.205
+    },
+    {
+     "w": "the",
+     "start": 147.205,
+     "end": 147.425
+    },
+    {
+     "w": "first",
+     "start": 147.425,
+     "end": 147.645
+    },
+    {
+     "w": "eight",
+     "start": 147.645,
+     "end": 147.925
+    },
+    {
+     "w": "weeks,",
+     "start": 147.925,
+     "end": 148.205
+    },
+    {
+     "w": "the",
+     "start": 148.625,
+     "end": 148.705
+    },
+    {
+     "w": "main",
+     "start": 148.705,
+     "end": 148.865
+    },
+    {
+     "w": "army",
+     "start": 148.865,
+     "end": 149.245
+    },
+    {
+     "w": "lost",
+     "start": 149.245,
+     "end": 149.605
+    },
+    {
+     "w": "a",
+     "start": 149.605,
+     "end": 149.845
+    },
+    {
+     "w": "third",
+     "start": 149.845,
+     "end": 150.105
+    },
+    {
+     "w": "of",
+     "start": 150.105,
+     "end": 150.325
+    },
+    {
+     "w": "its",
+     "start": 150.325,
+     "end": 150.425
+    },
+    {
+     "w": "strength,",
+     "start": 150.425,
+     "end": 150.785
+    },
+    {
+     "w": "before",
+     "start": 150.785,
+     "end": 151.545
+    },
+    {
+     "w": "a",
+     "start": 151.545,
+     "end": 151.725
+    },
+    {
+     "w": "single",
+     "start": 151.725,
+     "end": 152.025
+    },
+    {
+     "w": "major",
+     "start": 152.025,
+     "end": 152.305
+    },
+    {
+     "w": "battle",
+     "start": 152.305,
+     "end": 152.805
+    },
+    {
+     "w": "had",
+     "start": 152.805,
+     "end": 153.025
+    },
+    {
+     "w": "been",
+     "start": 153.025,
+     "end": 153.205
+    },
+    {
+     "w": "fought.",
+     "start": 153.205,
+     "end": 153.485
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "text": "In August, the Russians fought at Smolensk, then slipped away again, leaving the city in flames.",
+   "start": 154.311,
+   "end": 159.673,
+   "words": [
+    {
+     "w": "In",
+     "start": 154.211,
+     "end": 154.391
+    },
+    {
+     "w": "August,",
+     "start": 154.391,
+     "end": 154.731
+    },
+    {
+     "w": "the",
+     "start": 154.911,
+     "end": 154.991
+    },
+    {
+     "w": "Russians",
+     "start": 154.991,
+     "end": 155.211
+    },
+    {
+     "w": "fought",
+     "start": 155.211,
+     "end": 155.571
+    },
+    {
+     "w": "at",
+     "start": 155.571,
+     "end": 155.731
+    },
+    {
+     "w": "Smolensk,",
+     "start": 155.731,
+     "end": 156.191
+    },
+    {
+     "w": "then",
+     "start": 156.711,
+     "end": 156.971
+    },
+    {
+     "w": "slipped",
+     "start": 156.971,
+     "end": 157.171
+    },
+    {
+     "w": "away",
+     "start": 157.171,
+     "end": 157.531
+    },
+    {
+     "w": "again,",
+     "start": 157.531,
+     "end": 157.851
+    },
+    {
+     "w": "leaving",
+     "start": 158.091,
+     "end": 158.331
+    },
+    {
+     "w": "the",
+     "start": 158.331,
+     "end": 158.511
+    },
+    {
+     "w": "city",
+     "start": 158.511,
+     "end": 158.731
+    },
+    {
+     "w": "in",
+     "start": 158.731,
+     "end": 158.911
+    },
+    {
+     "w": "flames.",
+     "start": 158.911,
+     "end": 159.191
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "text": "The Tsar now gave command to an old, battle-scarred general: Mikhail Kutuzov.",
+   "start": 160.173,
+   "end": 165.237,
+   "words": [
+    {
+     "w": "The",
+     "start": 160.173,
+     "end": 160.353
+    },
+    {
+     "w": "Tsar",
+     "start": 160.353,
+     "end": 160.533
+    },
+    {
+     "w": "now",
+     "start": 160.533,
+     "end": 160.673
+    },
+    {
+     "w": "gave",
+     "start": 160.673,
+     "end": 161.013
+    },
+    {
+     "w": "command",
+     "start": 161.013,
+     "end": 161.313
+    },
+    {
+     "w": "to",
+     "start": 161.313,
+     "end": 161.633
+    },
+    {
+     "w": "an",
+     "start": 161.633,
+     "end": 161.733
+    },
+    {
+     "w": "old,",
+     "start": 161.733,
+     "end": 161.993
+    },
+    {
+     "w": "battle-scarred",
+     "start": 161.993,
+     "end": 162.833
+    },
+    {
+     "w": "general:",
+     "start": 162.833,
+     "end": 163.393
+    },
+    {
+     "w": "Mikhail",
+     "start": 163.913,
+     "end": 164.153
+    },
+    {
+     "w": "Kutuzov.",
+     "start": 164.153,
+     "end": 165.237
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "text": "On September 7, near the village of Borodino, about 75 miles from Moscow, Kutuzov finally stood his ground.",
+   "start": 166.237,
+   "end": 173.811,
+   "words": [
+    {
+     "w": "On",
+     "start": 166.137,
+     "end": 166.337
+    },
+    {
+     "w": "September",
+     "start": 166.337,
+     "end": 166.617
+    },
+    {
+     "w": "7,",
+     "start": 166.617,
+     "end": 167.537
+    },
+    {
+     "w": "near",
+     "start": 167.537,
+     "end": 167.657
+    },
+    {
+     "w": "the",
+     "start": 167.657,
+     "end": 167.797
+    },
+    {
+     "w": "village",
+     "start": 167.797,
+     "end": 168.037
+    },
+    {
+     "w": "of",
+     "start": 168.037,
+     "end": 168.197
+    },
+    {
+     "w": "Borodino,",
+     "start": 168.197,
+     "end": 169.177
+    },
+    {
+     "w": "about",
+     "start": 169.177,
+     "end": 169.317
+    },
+    {
+     "w": "75",
+     "start": 169.317,
+     "end": 169.837
+    },
+    {
+     "w": "miles",
+     "start": 169.837,
+     "end": 170.437
+    },
+    {
+     "w": "from",
+     "start": 170.437,
+     "end": 170.717
+    },
+    {
+     "w": "Moscow,",
+     "start": 170.717,
+     "end": 170.997
+    },
+    {
+     "w": "Kutuzov",
+     "start": 170.997,
+     "end": 172.217
+    },
+    {
+     "w": "finally",
+     "start": 172.217,
+     "end": 172.597
+    },
+    {
+     "w": "stood",
+     "start": 172.597,
+     "end": 173.037
+    },
+    {
+     "w": "his",
+     "start": 173.037,
+     "end": 173.197
+    },
+    {
+     "w": "ground.",
+     "start": 173.197,
+     "end": 173.497
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "text": "About a quarter of a million soldiers clashed in a single day. It became the bloodiest day of the Napoleonic Wars.",
+   "start": 174.311,
+   "end": 181.006,
+   "words": [
+    {
+     "w": "About",
+     "start": 174.211,
+     "end": 174.451
+    },
+    {
+     "w": "a",
+     "start": 174.451,
+     "end": 174.551
+    },
+    {
+     "w": "quarter",
+     "start": 174.551,
+     "end": 174.831
+    },
+    {
+     "w": "of",
+     "start": 174.831,
+     "end": 174.951
+    },
+    {
+     "w": "a",
+     "start": 174.951,
+     "end": 175.031
+    },
+    {
+     "w": "million",
+     "start": 175.031,
+     "end": 175.291
+    },
+    {
+     "w": "soldiers",
+     "start": 175.291,
+     "end": 175.891
+    },
+    {
+     "w": "clashed",
+     "start": 175.891,
+     "end": 176.211
+    },
+    {
+     "w": "in",
+     "start": 176.211,
+     "end": 176.651
+    },
+    {
+     "w": "a",
+     "start": 176.651,
+     "end": 176.731
+    },
+    {
+     "w": "single",
+     "start": 176.731,
+     "end": 176.891
+    },
+    {
+     "w": "day.",
+     "start": 176.891,
+     "end": 177.371
+    },
+    {
+     "w": "It",
+     "start": 177.991,
+     "end": 178.051
+    },
+    {
+     "w": "became",
+     "start": 178.051,
+     "end": 178.251
+    },
+    {
+     "w": "the",
+     "start": 178.251,
+     "end": 178.511
+    },
+    {
+     "w": "bloodiest",
+     "start": 178.511,
+     "end": 178.891
+    },
+    {
+     "w": "day",
+     "start": 178.891,
+     "end": 179.231
+    },
+    {
+     "w": "of",
+     "start": 179.231,
+     "end": 179.471
+    },
+    {
+     "w": "the",
+     "start": 179.471,
+     "end": 179.571
+    },
+    {
+     "w": "Napoleonic",
+     "start": 179.571,
+     "end": 180.291
+    },
+    {
+     "w": "Wars.",
+     "start": 180.291,
+     "end": 180.631
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "text": "By nightfall, more than 70,000 men had been killed or wounded.",
+   "start": 181.506,
+   "end": 185.432,
+   "words": [
+    {
+     "w": "By",
+     "start": 181.406,
+     "end": 181.606
+    },
+    {
+     "w": "nightfall,",
+     "start": 181.606,
+     "end": 182.106
+    },
+    {
+     "w": "more",
+     "start": 182.386,
+     "end": 182.466
+    },
+    {
+     "w": "than",
+     "start": 182.466,
+     "end": 182.646
+    },
+    {
+     "w": "70,000",
+     "start": 182.646,
+     "end": 183.486
+    },
+    {
+     "w": "men",
+     "start": 183.486,
+     "end": 183.726
+    },
+    {
+     "w": "had",
+     "start": 183.726,
+     "end": 183.906
+    },
+    {
+     "w": "been",
+     "start": 183.906,
+     "end": 184.046
+    },
+    {
+     "w": "killed",
+     "start": 184.046,
+     "end": 184.366
+    },
+    {
+     "w": "or",
+     "start": 184.366,
+     "end": 184.806
+    },
+    {
+     "w": "wounded.",
+     "start": 184.806,
+     "end": 185.086
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "text": "Napoleon held the field. But at the decisive moment, he refused to send in his elite Imperial Guard.",
+   "start": 186.032,
+   "end": 192.204,
+   "words": [
+    {
+     "w": "Napoleon",
+     "start": 185.932,
+     "end": 186.292
+    },
+    {
+     "w": "held",
+     "start": 186.292,
+     "end": 186.772
+    },
+    {
+     "w": "the",
+     "start": 186.772,
+     "end": 186.972
+    },
+    {
+     "w": "field.",
+     "start": 186.972,
+     "end": 187.272
+    },
+    {
+     "w": "But",
+     "start": 187.812,
+     "end": 187.972
+    },
+    {
+     "w": "at",
+     "start": 187.972,
+     "end": 188.072
+    },
+    {
+     "w": "the",
+     "start": 188.072,
+     "end": 188.152
+    },
+    {
+     "w": "decisive",
+     "start": 188.152,
+     "end": 188.452
+    },
+    {
+     "w": "moment,",
+     "start": 188.452,
+     "end": 189.092
+    },
+    {
+     "w": "he",
+     "start": 189.412,
+     "end": 189.452
+    },
+    {
+     "w": "refused",
+     "start": 189.452,
+     "end": 189.692
+    },
+    {
+     "w": "to",
+     "start": 189.692,
+     "end": 190.032
+    },
+    {
+     "w": "send",
+     "start": 190.032,
+     "end": 190.272
+    },
+    {
+     "w": "in",
+     "start": 190.272,
+     "end": 190.472
+    },
+    {
+     "w": "his",
+     "start": 190.472,
+     "end": 190.612
+    },
+    {
+     "w": "elite",
+     "start": 190.612,
+     "end": 190.892
+    },
+    {
+     "w": "Imperial",
+     "start": 190.892,
+     "end": 191.412
+    },
+    {
+     "w": "Guard.",
+     "start": 191.412,
+     "end": 191.892
+    }
+   ]
+  },
+  {
+   "scene": 25,
+   "text": "The Russian army pulled back, bloodied but alive. The decisive victory he needed had slipped away.",
+   "start": 192.704,
+   "end": 198.559,
+   "words": [
+    {
+     "w": "The",
+     "start": 192.604,
+     "end": 192.764
+    },
+    {
+     "w": "Russian",
+     "start": 192.764,
+     "end": 193.004
+    },
+    {
+     "w": "army",
+     "start": 193.004,
+     "end": 193.424
+    },
+    {
+     "w": "pulled",
+     "start": 193.424,
+     "end": 193.724
+    },
+    {
+     "w": "back,",
+     "start": 193.724,
+     "end": 194.044
+    },
+    {
+     "w": "bloodied",
+     "start": 194.264,
+     "end": 194.644
+    },
+    {
+     "w": "but",
+     "start": 194.864,
+     "end": 194.964
+    },
+    {
+     "w": "alive.",
+     "start": 194.964,
+     "end": 195.244
+    },
+    {
+     "w": "The",
+     "start": 196.024,
+     "end": 196.084
+    },
+    {
+     "w": "decisive",
+     "start": 196.084,
+     "end": 196.404
+    },
+    {
+     "w": "victory",
+     "start": 196.404,
+     "end": 196.944
+    },
+    {
+     "w": "he",
+     "start": 196.944,
+     "end": 197.224
+    },
+    {
+     "w": "needed",
+     "start": 197.224,
+     "end": 197.444
+    },
+    {
+     "w": "had",
+     "start": 197.444,
+     "end": 197.664
+    },
+    {
+     "w": "slipped",
+     "start": 197.664,
+     "end": 197.884
+    },
+    {
+     "w": "away.",
+     "start": 197.884,
+     "end": 198.264
+    }
+   ]
+  },
+  {
+   "scene": 26,
+   "text": "A week later, on September 14, Napoleon rode into Moscow with roughly 100,000 men. He expected nobles to greet him with the keys of the city. No one came. Moscow was almost empty.",
+   "start": 199.559,
+   "end": 212.231,
+   "words": [
+    {
+     "w": "A",
+     "start": 199.459,
+     "end": 199.639
+    },
+    {
+     "w": "week",
+     "start": 199.639,
+     "end": 199.779
+    },
+    {
+     "w": "later,",
+     "start": 199.779,
+     "end": 200.119
+    },
+    {
+     "w": "on",
+     "start": 200.119,
+     "end": 200.359
+    },
+    {
+     "w": "September",
+     "start": 200.359,
+     "end": 200.719
+    },
+    {
+     "w": "14,",
+     "start": 200.719,
+     "end": 201.839
+    },
+    {
+     "w": "Napoleon",
+     "start": 201.839,
+     "end": 202.179
+    },
+    {
+     "w": "rode",
+     "start": 202.179,
+     "end": 202.499
+    },
+    {
+     "w": "into",
+     "start": 202.499,
+     "end": 202.779
+    },
+    {
+     "w": "Moscow",
+     "start": 202.779,
+     "end": 203.059
+    },
+    {
+     "w": "with",
+     "start": 203.059,
+     "end": 203.519
+    },
+    {
+     "w": "roughly",
+     "start": 203.519,
+     "end": 203.839
+    },
+    {
+     "w": "100,000",
+     "start": 203.839,
+     "end": 204.939
+    },
+    {
+     "w": "men.",
+     "start": 204.939,
+     "end": 205.179
+    },
+    {
+     "w": "He",
+     "start": 205.819,
+     "end": 205.879
+    },
+    {
+     "w": "expected",
+     "start": 205.879,
+     "end": 206.279
+    },
+    {
+     "w": "nobles",
+     "start": 206.279,
+     "end": 206.619
+    },
+    {
+     "w": "to",
+     "start": 206.619,
+     "end": 207.059
+    },
+    {
+     "w": "greet",
+     "start": 207.059,
+     "end": 207.239
+    },
+    {
+     "w": "him",
+     "start": 207.239,
+     "end": 207.519
+    },
+    {
+     "w": "with",
+     "start": 207.519,
+     "end": 207.699
+    },
+    {
+     "w": "the",
+     "start": 207.699,
+     "end": 207.839
+    },
+    {
+     "w": "keys",
+     "start": 207.839,
+     "end": 208.099
+    },
+    {
+     "w": "of",
+     "start": 208.099,
+     "end": 208.319
+    },
+    {
+     "w": "the",
+     "start": 208.319,
+     "end": 208.439
+    },
+    {
+     "w": "city.",
+     "start": 208.439,
+     "end": 208.619
+    },
+    {
+     "w": "No",
+     "start": 209.279,
+     "end": 209.419
+    },
+    {
+     "w": "one",
+     "start": 209.419,
+     "end": 209.639
+    },
+    {
+     "w": "came.",
+     "start": 209.639,
+     "end": 209.919
+    },
+    {
+     "w": "Moscow",
+     "start": 210.879,
+     "end": 210.879
+    },
+    {
+     "w": "was",
+     "start": 210.879,
+     "end": 211.179
+    },
+    {
+     "w": "almost",
+     "start": 211.179,
+     "end": 211.519
+    },
+    {
+     "w": "empty.",
+     "start": 211.519,
+     "end": 211.819
+    }
+   ]
+  },
+  {
+   "scene": 27,
+   "text": "That night, fires broke out across the city. Within days, three-quarters of Moscow had burned. The city's governor, Count Rostopchin, is widely believed to have organized the destruction.",
+   "start": 212.831,
+   "end": 224.045,
+   "words": [
+    {
+     "w": "That",
+     "start": 212.731,
+     "end": 212.951
+    },
+    {
+     "w": "night,",
+     "start": 212.951,
+     "end": 213.131
+    },
+    {
+     "w": "fires",
+     "start": 213.131,
+     "end": 213.551
+    },
+    {
+     "w": "broke",
+     "start": 213.551,
+     "end": 213.931
+    },
+    {
+     "w": "out",
+     "start": 213.931,
+     "end": 214.171
+    },
+    {
+     "w": "across",
+     "start": 214.171,
+     "end": 214.331
+    },
+    {
+     "w": "the",
+     "start": 214.331,
+     "end": 214.651
+    },
+    {
+     "w": "city.",
+     "start": 214.651,
+     "end": 214.911
+    },
+    {
+     "w": "Within",
+     "start": 215.671,
+     "end": 215.671
+    },
+    {
+     "w": "days,",
+     "start": 215.671,
+     "end": 216.091
+    },
+    {
+     "w": "three-quarters",
+     "start": 216.091,
+     "end": 216.931
+    },
+    {
+     "w": "of",
+     "start": 216.931,
+     "end": 217.131
+    },
+    {
+     "w": "Moscow",
+     "start": 217.131,
+     "end": 217.391
+    },
+    {
+     "w": "had",
+     "start": 217.391,
+     "end": 217.851
+    },
+    {
+     "w": "burned.",
+     "start": 217.851,
+     "end": 218.111
+    },
+    {
+     "w": "The",
+     "start": 218.811,
+     "end": 218.871
+    },
+    {
+     "w": "city's",
+     "start": 218.871,
+     "end": 219.271
+    },
+    {
+     "w": "governor,",
+     "start": 219.271,
+     "end": 219.591
+    },
+    {
+     "w": "Count",
+     "start": 219.891,
+     "end": 220.051
+    },
+    {
+     "w": "Rostopchin,",
+     "start": 220.051,
+     "end": 221.091
+    },
+    {
+     "w": "is",
+     "start": 221.091,
+     "end": 221.291
+    },
+    {
+     "w": "widely",
+     "start": 221.291,
+     "end": 221.591
+    },
+    {
+     "w": "believed",
+     "start": 221.591,
+     "end": 222.171
+    },
+    {
+     "w": "to",
+     "start": 222.171,
+     "end": 222.411
+    },
+    {
+     "w": "have",
+     "start": 222.411,
+     "end": 222.511
+    },
+    {
+     "w": "organized",
+     "start": 222.511,
+     "end": 222.911
+    },
+    {
+     "w": "the",
+     "start": 222.911,
+     "end": 223.311
+    },
+    {
+     "w": "destruction.",
+     "start": 223.311,
+     "end": 223.611
+    }
+   ]
+  },
+  {
+   "scene": 28,
+   "text": "And here, Napoleon made the decision that sealed his fate. He waited.",
+   "start": 225.045,
+   "end": 229.116,
+   "words": [
+    {
+     "w": "And",
+     "start": 224.945,
+     "end": 225.145
+    },
+    {
+     "w": "here,",
+     "start": 225.145,
+     "end": 225.345
+    },
+    {
+     "w": "Napoleon",
+     "start": 225.345,
+     "end": 225.525
+    },
+    {
+     "w": "made",
+     "start": 225.525,
+     "end": 226.245
+    },
+    {
+     "w": "the",
+     "start": 226.245,
+     "end": 226.405
+    },
+    {
+     "w": "decision",
+     "start": 226.405,
+     "end": 226.725
+    },
+    {
+     "w": "that",
+     "start": 226.725,
+     "end": 227.045
+    },
+    {
+     "w": "sealed",
+     "start": 227.045,
+     "end": 227.305
+    },
+    {
+     "w": "his",
+     "start": 227.305,
+     "end": 227.605
+    },
+    {
+     "w": "fate.",
+     "start": 227.605,
+     "end": 227.885
+    },
+    {
+     "w": "He",
+     "start": 228.485,
+     "end": 228.525
+    },
+    {
+     "w": "waited.",
+     "start": 228.525,
+     "end": 228.765
+    }
+   ]
+  },
+  {
+   "scene": 28,
+   "text": "Convinced the Tsar would now ask for peace, he stayed in the ruins of Moscow for five weeks, sending letters to Alexander.",
+   "start": 229.916,
+   "end": 237.27,
+   "words": [
+    {
+     "w": "Convinced",
+     "start": 229.816,
+     "end": 230.336
+    },
+    {
+     "w": "the",
+     "start": 230.336,
+     "end": 230.476
+    },
+    {
+     "w": "Tsar",
+     "start": 230.476,
+     "end": 230.816
+    },
+    {
+     "w": "would",
+     "start": 230.816,
+     "end": 230.976
+    },
+    {
+     "w": "now",
+     "start": 230.976,
+     "end": 231.176
+    },
+    {
+     "w": "ask",
+     "start": 231.176,
+     "end": 231.516
+    },
+    {
+     "w": "for",
+     "start": 231.516,
+     "end": 231.716
+    },
+    {
+     "w": "peace,",
+     "start": 231.716,
+     "end": 231.936
+    },
+    {
+     "w": "he",
+     "start": 232.616,
+     "end": 232.676
+    },
+    {
+     "w": "stayed",
+     "start": 232.676,
+     "end": 232.936
+    },
+    {
+     "w": "in",
+     "start": 232.936,
+     "end": 233.156
+    },
+    {
+     "w": "the",
+     "start": 233.156,
+     "end": 233.236
+    },
+    {
+     "w": "ruins",
+     "start": 233.236,
+     "end": 233.496
+    },
+    {
+     "w": "of",
+     "start": 233.496,
+     "end": 233.796
+    },
+    {
+     "w": "Moscow",
+     "start": 233.796,
+     "end": 234.036
+    },
+    {
+     "w": "for",
+     "start": 234.036,
+     "end": 234.536
+    },
+    {
+     "w": "five",
+     "start": 234.536,
+     "end": 234.876
+    },
+    {
+     "w": "weeks,",
+     "start": 234.876,
+     "end": 235.136
+    },
+    {
+     "w": "sending",
+     "start": 235.156,
+     "end": 235.856
+    },
+    {
+     "w": "letters",
+     "start": 235.856,
+     "end": 236.176
+    },
+    {
+     "w": "to",
+     "start": 236.176,
+     "end": 236.476
+    },
+    {
+     "w": "Alexander.",
+     "start": 236.476,
+     "end": 236.736
+    }
+   ]
+  },
+  {
+   "scene": 29,
+   "text": "Alexander refused to answer.",
+   "start": 237.77,
+   "end": 239.713,
+   "words": [
+    {
+     "w": "Alexander",
+     "start": 237.67,
+     "end": 238.17
+    },
+    {
+     "w": "refused",
+     "start": 238.17,
+     "end": 238.75
+    },
+    {
+     "w": "to",
+     "start": 238.75,
+     "end": 239.11
+    },
+    {
+     "w": "answer.",
+     "start": 239.11,
+     "end": 239.43
+    }
+   ]
+  },
+  {
+   "scene": 30,
+   "text": "Every day Napoleon waited, Kutuzov's army grew stronger, and the Russian winter came closer.",
+   "start": 240.413,
+   "end": 246.255,
+   "words": [
+    {
+     "w": "Every",
+     "start": 240.313,
+     "end": 240.573
+    },
+    {
+     "w": "day",
+     "start": 240.573,
+     "end": 240.833
+    },
+    {
+     "w": "Napoleon",
+     "start": 240.833,
+     "end": 241.013
+    },
+    {
+     "w": "waited,",
+     "start": 241.013,
+     "end": 241.833
+    },
+    {
+     "w": "Kutuzov's",
+     "start": 241.833,
+     "end": 242.893
+    },
+    {
+     "w": "army",
+     "start": 242.893,
+     "end": 243.173
+    },
+    {
+     "w": "grew",
+     "start": 243.173,
+     "end": 243.473
+    },
+    {
+     "w": "stronger,",
+     "start": 243.473,
+     "end": 243.853
+    },
+    {
+     "w": "and",
+     "start": 244.533,
+     "end": 244.573
+    },
+    {
+     "w": "the",
+     "start": 244.573,
+     "end": 244.673
+    },
+    {
+     "w": "Russian",
+     "start": 244.673,
+     "end": 244.893
+    },
+    {
+     "w": "winter",
+     "start": 244.893,
+     "end": 245.193
+    },
+    {
+     "w": "came",
+     "start": 245.193,
+     "end": 245.553
+    },
+    {
+     "w": "closer.",
+     "start": 245.553,
+     "end": 245.933
+    }
+   ]
+  },
+  {
+   "scene": 31,
+   "text": "This was the mistake. Napoleon believed that capturing a capital would end the war, as it always had before. But Russia was not Austria. And Alexander was not going to surrender.",
+   "start": 246.855,
+   "end": 257.781,
+   "words": [
+    {
+     "w": "This",
+     "start": 246.755,
+     "end": 246.995
+    },
+    {
+     "w": "was",
+     "start": 246.995,
+     "end": 247.175
+    },
+    {
+     "w": "the",
+     "start": 247.175,
+     "end": 247.335
+    },
+    {
+     "w": "mistake.",
+     "start": 247.335,
+     "end": 247.715
+    },
+    {
+     "w": "Napoleon",
+     "start": 248.855,
+     "end": 248.855
+    },
+    {
+     "w": "believed",
+     "start": 248.855,
+     "end": 249.275
+    },
+    {
+     "w": "that",
+     "start": 249.275,
+     "end": 249.655
+    },
+    {
+     "w": "capturing",
+     "start": 249.655,
+     "end": 250.135
+    },
+    {
+     "w": "a",
+     "start": 250.135,
+     "end": 250.315
+    },
+    {
+     "w": "capital",
+     "start": 250.315,
+     "end": 250.675
+    },
+    {
+     "w": "would",
+     "start": 250.675,
+     "end": 250.975
+    },
+    {
+     "w": "end",
+     "start": 250.975,
+     "end": 251.155
+    },
+    {
+     "w": "the",
+     "start": 251.155,
+     "end": 251.335
+    },
+    {
+     "w": "war,",
+     "start": 251.335,
+     "end": 251.595
+    },
+    {
+     "w": "as",
+     "start": 251.595,
+     "end": 251.895
+    },
+    {
+     "w": "it",
+     "start": 251.895,
+     "end": 251.995
+    },
+    {
+     "w": "always",
+     "start": 251.995,
+     "end": 252.235
+    },
+    {
+     "w": "had",
+     "start": 252.235,
+     "end": 252.575
+    },
+    {
+     "w": "before.",
+     "start": 252.575,
+     "end": 252.915
+    },
+    {
+     "w": "But",
+     "start": 253.555,
+     "end": 253.695
+    },
+    {
+     "w": "Russia",
+     "start": 253.695,
+     "end": 253.935
+    },
+    {
+     "w": "was",
+     "start": 253.935,
+     "end": 254.315
+    },
+    {
+     "w": "not",
+     "start": 254.315,
+     "end": 254.535
+    },
+    {
+     "w": "Austria.",
+     "start": 254.535,
+     "end": 254.995
+    },
+    {
+     "w": "And",
+     "start": 255.535,
+     "end": 255.595
+    },
+    {
+     "w": "Alexander",
+     "start": 255.595,
+     "end": 256.015
+    },
+    {
+     "w": "was",
+     "start": 256.015,
+     "end": 256.395
+    },
+    {
+     "w": "not",
+     "start": 256.395,
+     "end": 256.615
+    },
+    {
+     "w": "going",
+     "start": 256.615,
+     "end": 256.915
+    },
+    {
+     "w": "to",
+     "start": 256.915,
+     "end": 257.115
+    },
+    {
+     "w": "surrender.",
+     "start": 257.115,
+     "end": 257.355
+    }
+   ]
+  },
+  {
+   "scene": 32,
+   "text": "On October 19, Napoleon finally left Moscow. He had waited 35 days.",
+   "start": 258.381,
+   "end": 263.785,
+   "words": [
+    {
+     "w": "On",
+     "start": 258.281,
+     "end": 258.461
+    },
+    {
+     "w": "October",
+     "start": 258.461,
+     "end": 258.841
+    },
+    {
+     "w": "19,",
+     "start": 258.841,
+     "end": 259.641
+    },
+    {
+     "w": "Napoleon",
+     "start": 259.641,
+     "end": 260.021
+    },
+    {
+     "w": "finally",
+     "start": 260.021,
+     "end": 260.441
+    },
+    {
+     "w": "left",
+     "start": 260.441,
+     "end": 260.901
+    },
+    {
+     "w": "Moscow.",
+     "start": 260.901,
+     "end": 261.281
+    },
+    {
+     "w": "He",
+     "start": 262.001,
+     "end": 262.081
+    },
+    {
+     "w": "had",
+     "start": 262.081,
+     "end": 262.161
+    },
+    {
+     "w": "waited",
+     "start": 262.161,
+     "end": 262.361
+    },
+    {
+     "w": "35",
+     "start": 262.361,
+     "end": 262.861
+    },
+    {
+     "w": "days.",
+     "start": 262.861,
+     "end": 263.421
+    }
+   ]
+  },
+  {
+   "scene": 33,
+   "text": "He tried to take a southern road through untouched country. But at Maloyaroslavets, the Russians blocked the way. The army was forced back onto the same road it had come by, a road it had already stripped bare.",
+   "start": 264.785,
+   "end": 276.521,
+   "words": [
+    {
+     "w": "He",
+     "start": 264.685,
+     "end": 264.845
+    },
+    {
+     "w": "tried",
+     "start": 264.845,
+     "end": 265.065
+    },
+    {
+     "w": "to",
+     "start": 265.065,
+     "end": 265.205
+    },
+    {
+     "w": "take",
+     "start": 265.205,
+     "end": 265.405
+    },
+    {
+     "w": "a",
+     "start": 265.405,
+     "end": 265.505
+    },
+    {
+     "w": "southern",
+     "start": 265.505,
+     "end": 265.765
+    },
+    {
+     "w": "road",
+     "start": 265.765,
+     "end": 266.145
+    },
+    {
+     "w": "through",
+     "start": 266.145,
+     "end": 266.445
+    },
+    {
+     "w": "untouched",
+     "start": 266.445,
+     "end": 266.745
+    },
+    {
+     "w": "country.",
+     "start": 266.745,
+     "end": 267.505
+    },
+    {
+     "w": "But",
+     "start": 268.025,
+     "end": 268.125
+    },
+    {
+     "w": "at",
+     "start": 268.125,
+     "end": 268.225
+    },
+    {
+     "w": "Maloyaroslavets,",
+     "start": 268.225,
+     "end": 269.505
+    },
+    {
+     "w": "the",
+     "start": 269.505,
+     "end": 269.545
+    },
+    {
+     "w": "Russians",
+     "start": 269.545,
+     "end": 269.805
+    },
+    {
+     "w": "blocked",
+     "start": 269.805,
+     "end": 270.205
+    },
+    {
+     "w": "the",
+     "start": 270.205,
+     "end": 270.505
+    },
+    {
+     "w": "way.",
+     "start": 270.505,
+     "end": 270.685
+    },
+    {
+     "w": "The",
+     "start": 271.225,
+     "end": 271.345
+    },
+    {
+     "w": "army",
+     "start": 271.345,
+     "end": 271.605
+    },
+    {
+     "w": "was",
+     "start": 271.605,
+     "end": 271.865
+    },
+    {
+     "w": "forced",
+     "start": 271.865,
+     "end": 272.125
+    },
+    {
+     "w": "back",
+     "start": 272.125,
+     "end": 272.505
+    },
+    {
+     "w": "onto",
+     "start": 272.505,
+     "end": 272.705
+    },
+    {
+     "w": "the",
+     "start": 272.705,
+     "end": 272.905
+    },
+    {
+     "w": "same",
+     "start": 272.905,
+     "end": 273.105
+    },
+    {
+     "w": "road",
+     "start": 273.105,
+     "end": 273.465
+    },
+    {
+     "w": "it",
+     "start": 273.465,
+     "end": 273.645
+    },
+    {
+     "w": "had",
+     "start": 273.645,
+     "end": 273.725
+    },
+    {
+     "w": "come",
+     "start": 273.725,
+     "end": 273.925
+    },
+    {
+     "w": "by,",
+     "start": 273.925,
+     "end": 274.265
+    },
+    {
+     "w": "a",
+     "start": 274.745,
+     "end": 274.825
+    },
+    {
+     "w": "road",
+     "start": 274.825,
+     "end": 275.105
+    },
+    {
+     "w": "it",
+     "start": 275.105,
+     "end": 275.245
+    },
+    {
+     "w": "had",
+     "start": 275.245,
+     "end": 275.365
+    },
+    {
+     "w": "already",
+     "start": 275.365,
+     "end": 275.565
+    },
+    {
+     "w": "stripped",
+     "start": 275.565,
+     "end": 275.885
+    },
+    {
+     "w": "bare.",
+     "start": 275.885,
+     "end": 276.265
+    }
+   ]
+  },
+  {
+   "scene": 34,
+   "text": "Then, on November 6, the winter arrived.",
+   "start": 277.121,
+   "end": 279.58,
+   "words": [
+    {
+     "w": "Then,",
+     "start": 277.021,
+     "end": 277.281
+    },
+    {
+     "w": "on",
+     "start": 277.281,
+     "end": 277.421
+    },
+    {
+     "w": "November",
+     "start": 277.421,
+     "end": 277.741
+    },
+    {
+     "w": "6,",
+     "start": 277.741,
+     "end": 278.521
+    },
+    {
+     "w": "the",
+     "start": 278.521,
+     "end": 278.541
+    },
+    {
+     "w": "winter",
+     "start": 278.541,
+     "end": 278.701
+    },
+    {
+     "w": "arrived.",
+     "start": 278.701,
+     "end": 279.221
+    }
+   ]
+  },
+  {
+   "scene": 35,
+   "text": "The soldiers were still wearing summer uniforms. The horses had no winter shoes. They slipped on the icy roads, and died.",
+   "start": 280.18,
+   "end": 287.292,
+   "words": [
+    {
+     "w": "The",
+     "start": 280.08,
+     "end": 280.26
+    },
+    {
+     "w": "soldiers",
+     "start": 280.26,
+     "end": 280.66
+    },
+    {
+     "w": "were",
+     "start": 280.66,
+     "end": 280.94
+    },
+    {
+     "w": "still",
+     "start": 280.94,
+     "end": 281.14
+    },
+    {
+     "w": "wearing",
+     "start": 281.14,
+     "end": 281.4
+    },
+    {
+     "w": "summer",
+     "start": 281.4,
+     "end": 281.74
+    },
+    {
+     "w": "uniforms.",
+     "start": 281.74,
+     "end": 282.12
+    },
+    {
+     "w": "The",
+     "start": 283.02,
+     "end": 283.04
+    },
+    {
+     "w": "horses",
+     "start": 283.04,
+     "end": 283.26
+    },
+    {
+     "w": "had",
+     "start": 283.26,
+     "end": 283.66
+    },
+    {
+     "w": "no",
+     "start": 283.66,
+     "end": 283.88
+    },
+    {
+     "w": "winter",
+     "start": 283.88,
+     "end": 284.08
+    },
+    {
+     "w": "shoes.",
+     "start": 284.08,
+     "end": 284.58
+    },
+    {
+     "w": "They",
+     "start": 285.16,
+     "end": 285.2
+    },
+    {
+     "w": "slipped",
+     "start": 285.2,
+     "end": 285.4
+    },
+    {
+     "w": "on",
+     "start": 285.4,
+     "end": 285.66
+    },
+    {
+     "w": "the",
+     "start": 285.66,
+     "end": 285.76
+    },
+    {
+     "w": "icy",
+     "start": 285.76,
+     "end": 285.94
+    },
+    {
+     "w": "roads,",
+     "start": 285.94,
+     "end": 286.42
+    },
+    {
+     "w": "and",
+     "start": 286.42,
+     "end": 286.72
+    },
+    {
+     "w": "died.",
+     "start": 286.72,
+     "end": 287.0
+    }
+   ]
+  },
+  {
+   "scene": 36,
+   "text": "Without horses, the cannon and supply wagons were abandoned. Men fought over horse meat, and froze where they slept.",
+   "start": 287.792,
+   "end": 294.376,
+   "words": [
+    {
+     "w": "Without",
+     "start": 287.692,
+     "end": 287.992
+    },
+    {
+     "w": "horses,",
+     "start": 287.992,
+     "end": 288.372
+    },
+    {
+     "w": "the",
+     "start": 288.812,
+     "end": 288.832
+    },
+    {
+     "w": "cannon",
+     "start": 288.832,
+     "end": 289.112
+    },
+    {
+     "w": "and",
+     "start": 289.112,
+     "end": 289.352
+    },
+    {
+     "w": "supply",
+     "start": 289.352,
+     "end": 289.552
+    },
+    {
+     "w": "wagons",
+     "start": 289.552,
+     "end": 290.172
+    },
+    {
+     "w": "were",
+     "start": 290.172,
+     "end": 290.392
+    },
+    {
+     "w": "abandoned.",
+     "start": 290.392,
+     "end": 290.752
+    },
+    {
+     "w": "Men",
+     "start": 291.492,
+     "end": 291.632
+    },
+    {
+     "w": "fought",
+     "start": 291.632,
+     "end": 291.892
+    },
+    {
+     "w": "over",
+     "start": 291.892,
+     "end": 292.132
+    },
+    {
+     "w": "horse",
+     "start": 292.132,
+     "end": 292.372
+    },
+    {
+     "w": "meat,",
+     "start": 292.372,
+     "end": 292.772
+    },
+    {
+     "w": "and",
+     "start": 292.772,
+     "end": 293.072
+    },
+    {
+     "w": "froze",
+     "start": 293.072,
+     "end": 293.312
+    },
+    {
+     "w": "where",
+     "start": 293.312,
+     "end": 293.652
+    },
+    {
+     "w": "they",
+     "start": 293.652,
+     "end": 293.772
+    },
+    {
+     "w": "slept.",
+     "start": 293.772,
+     "end": 294.052
+    }
+   ]
+  },
+  {
+   "scene": 37,
+   "text": "Cossacks and Russian peasants struck the stragglers, day and night.",
+   "start": 294.876,
+   "end": 298.452,
+   "words": [
+    {
+     "w": "Cossacks",
+     "start": 294.776,
+     "end": 295.316
+    },
+    {
+     "w": "and",
+     "start": 295.316,
+     "end": 295.516
+    },
+    {
+     "w": "Russian",
+     "start": 295.516,
+     "end": 295.696
+    },
+    {
+     "w": "peasants",
+     "start": 295.696,
+     "end": 296.096
+    },
+    {
+     "w": "struck",
+     "start": 296.096,
+     "end": 296.536
+    },
+    {
+     "w": "the",
+     "start": 296.536,
+     "end": 296.756
+    },
+    {
+     "w": "stragglers,",
+     "start": 296.756,
+     "end": 297.296
+    },
+    {
+     "w": "day",
+     "start": 297.296,
+     "end": 297.836
+    },
+    {
+     "w": "and",
+     "start": 297.836,
+     "end": 298.036
+    },
+    {
+     "w": "night.",
+     "start": 298.036,
+     "end": 298.316
+    }
+   ]
+  },
+  {
+   "scene": 38,
+   "text": "At night, temperatures plunged far below zero, at times to minus thirty degrees and colder.",
+   "start": 298.952,
+   "end": 304.609,
+   "words": [
+    {
+     "w": "At",
+     "start": 298.852,
+     "end": 299.052
+    },
+    {
+     "w": "night,",
+     "start": 299.052,
+     "end": 299.232
+    },
+    {
+     "w": "temperatures",
+     "start": 299.552,
+     "end": 299.852
+    },
+    {
+     "w": "plunged",
+     "start": 299.852,
+     "end": 300.172
+    },
+    {
+     "w": "far",
+     "start": 300.172,
+     "end": 300.692
+    },
+    {
+     "w": "below",
+     "start": 300.692,
+     "end": 300.972
+    },
+    {
+     "w": "zero,",
+     "start": 300.972,
+     "end": 301.412
+    },
+    {
+     "w": "at",
+     "start": 302.052,
+     "end": 302.092
+    },
+    {
+     "w": "times",
+     "start": 302.092,
+     "end": 302.492
+    },
+    {
+     "w": "to",
+     "start": 302.492,
+     "end": 302.692
+    },
+    {
+     "w": "minus",
+     "start": 302.692,
+     "end": 302.912
+    },
+    {
+     "w": "thirty",
+     "start": 302.912,
+     "end": 303.292
+    },
+    {
+     "w": "degrees",
+     "start": 303.292,
+     "end": 303.772
+    },
+    {
+     "w": "and",
+     "start": 303.772,
+     "end": 303.992
+    },
+    {
+     "w": "colder.",
+     "start": 303.992,
+     "end": 304.272
+    }
+   ]
+  },
+  {
+   "scene": 39,
+   "text": "In late November, the army reached the Berezina River, with Russian armies closing in from three sides. The bridges were gone.",
+   "start": 305.609,
+   "end": 313.038,
+   "words": [
+    {
+     "w": "In",
+     "start": 305.509,
+     "end": 305.689
+    },
+    {
+     "w": "late",
+     "start": 305.689,
+     "end": 305.849
+    },
+    {
+     "w": "November,",
+     "start": 305.849,
+     "end": 306.229
+    },
+    {
+     "w": "the",
+     "start": 306.509,
+     "end": 306.569
+    },
+    {
+     "w": "army",
+     "start": 306.569,
+     "end": 306.849
+    },
+    {
+     "w": "reached",
+     "start": 306.849,
+     "end": 307.289
+    },
+    {
+     "w": "the",
+     "start": 307.289,
+     "end": 307.429
+    },
+    {
+     "w": "Berezina",
+     "start": 307.429,
+     "end": 307.909
+    },
+    {
+     "w": "River,",
+     "start": 307.909,
+     "end": 308.149
+    },
+    {
+     "w": "with",
+     "start": 308.509,
+     "end": 308.609
+    },
+    {
+     "w": "Russian",
+     "start": 308.609,
+     "end": 308.889
+    },
+    {
+     "w": "armies",
+     "start": 308.889,
+     "end": 309.409
+    },
+    {
+     "w": "closing",
+     "start": 309.409,
+     "end": 309.789
+    },
+    {
+     "w": "in",
+     "start": 309.789,
+     "end": 310.169
+    },
+    {
+     "w": "from",
+     "start": 310.169,
+     "end": 310.409
+    },
+    {
+     "w": "three",
+     "start": 310.409,
+     "end": 310.629
+    },
+    {
+     "w": "sides.",
+     "start": 310.629,
+     "end": 310.949
+    },
+    {
+     "w": "The",
+     "start": 311.789,
+     "end": 311.889
+    },
+    {
+     "w": "bridges",
+     "start": 311.889,
+     "end": 312.109
+    },
+    {
+     "w": "were",
+     "start": 312.109,
+     "end": 312.509
+    },
+    {
+     "w": "gone.",
+     "start": 312.509,
+     "end": 312.789
+    }
+   ]
+  },
+  {
+   "scene": 40,
+   "text": "Napoleon's engineers waded into the freezing water to build two new ones. Their commander, General Ebl\u00e9, had disobeyed orders to destroy his bridging tools. That disobedience saved what was left of the army.",
+   "start": 313.538,
+   "end": 326.515,
+   "words": [
+    {
+     "w": "Napoleon's",
+     "start": 313.438,
+     "end": 314.178
+    },
+    {
+     "w": "engineers",
+     "start": 314.178,
+     "end": 314.538
+    },
+    {
+     "w": "waded",
+     "start": 314.538,
+     "end": 315.138
+    },
+    {
+     "w": "into",
+     "start": 315.138,
+     "end": 315.358
+    },
+    {
+     "w": "the",
+     "start": 315.358,
+     "end": 315.498
+    },
+    {
+     "w": "freezing",
+     "start": 315.498,
+     "end": 315.698
+    },
+    {
+     "w": "water",
+     "start": 315.698,
+     "end": 316.118
+    },
+    {
+     "w": "to",
+     "start": 316.118,
+     "end": 316.378
+    },
+    {
+     "w": "build",
+     "start": 316.378,
+     "end": 316.558
+    },
+    {
+     "w": "two",
+     "start": 316.558,
+     "end": 316.818
+    },
+    {
+     "w": "new",
+     "start": 316.818,
+     "end": 317.018
+    },
+    {
+     "w": "ones.",
+     "start": 317.018,
+     "end": 317.278
+    },
+    {
+     "w": "Their",
+     "start": 318.038,
+     "end": 318.138
+    },
+    {
+     "w": "commander,",
+     "start": 318.138,
+     "end": 318.458
+    },
+    {
+     "w": "General",
+     "start": 318.978,
+     "end": 319.238
+    },
+    {
+     "w": "Ebl\u00e9,",
+     "start": 319.238,
+     "end": 320.058
+    },
+    {
+     "w": "had",
+     "start": 320.058,
+     "end": 320.298
+    },
+    {
+     "w": "disobeyed",
+     "start": 320.298,
+     "end": 320.938
+    },
+    {
+     "w": "orders",
+     "start": 320.938,
+     "end": 321.178
+    },
+    {
+     "w": "to",
+     "start": 321.178,
+     "end": 321.538
+    },
+    {
+     "w": "destroy",
+     "start": 321.538,
+     "end": 321.898
+    },
+    {
+     "w": "his",
+     "start": 321.898,
+     "end": 322.258
+    },
+    {
+     "w": "bridging",
+     "start": 322.258,
+     "end": 322.638
+    },
+    {
+     "w": "tools.",
+     "start": 322.638,
+     "end": 322.858
+    },
+    {
+     "w": "That",
+     "start": 323.758,
+     "end": 323.858
+    },
+    {
+     "w": "disobedience",
+     "start": 323.858,
+     "end": 324.158
+    },
+    {
+     "w": "saved",
+     "start": 324.158,
+     "end": 324.998
+    },
+    {
+     "w": "what",
+     "start": 324.998,
+     "end": 325.338
+    },
+    {
+     "w": "was",
+     "start": 325.338,
+     "end": 325.478
+    },
+    {
+     "w": "left",
+     "start": 325.478,
+     "end": 325.678
+    },
+    {
+     "w": "of",
+     "start": 325.678,
+     "end": 325.898
+    },
+    {
+     "w": "the",
+     "start": 325.898,
+     "end": 325.998
+    },
+    {
+     "w": "army.",
+     "start": 325.998,
+     "end": 326.258
+    }
+   ]
+  },
+  {
+   "scene": 41,
+   "text": "For three days, the army crossed under Russian fire. Tens of thousands never made it to the other side.",
+   "start": 327.015,
+   "end": 332.964,
+   "words": [
+    {
+     "w": "For",
+     "start": 326.915,
+     "end": 327.115
+    },
+    {
+     "w": "three",
+     "start": 327.115,
+     "end": 327.295
+    },
+    {
+     "w": "days,",
+     "start": 327.295,
+     "end": 327.615
+    },
+    {
+     "w": "the",
+     "start": 327.875,
+     "end": 327.915
+    },
+    {
+     "w": "army",
+     "start": 327.915,
+     "end": 328.215
+    },
+    {
+     "w": "crossed",
+     "start": 328.215,
+     "end": 328.575
+    },
+    {
+     "w": "under",
+     "start": 328.575,
+     "end": 328.895
+    },
+    {
+     "w": "Russian",
+     "start": 328.895,
+     "end": 329.195
+    },
+    {
+     "w": "fire.",
+     "start": 329.195,
+     "end": 329.675
+    },
+    {
+     "w": "Tens",
+     "start": 330.295,
+     "end": 330.435
+    },
+    {
+     "w": "of",
+     "start": 330.435,
+     "end": 330.635
+    },
+    {
+     "w": "thousands",
+     "start": 330.635,
+     "end": 331.075
+    },
+    {
+     "w": "never",
+     "start": 331.075,
+     "end": 331.495
+    },
+    {
+     "w": "made",
+     "start": 331.495,
+     "end": 331.815
+    },
+    {
+     "w": "it",
+     "start": 331.815,
+     "end": 331.935
+    },
+    {
+     "w": "to",
+     "start": 331.935,
+     "end": 332.075
+    },
+    {
+     "w": "the",
+     "start": 332.075,
+     "end": 332.175
+    },
+    {
+     "w": "other",
+     "start": 332.175,
+     "end": 332.355
+    },
+    {
+     "w": "side.",
+     "start": 332.355,
+     "end": 332.695
+    }
+   ]
+  },
+  {
+   "scene": 42,
+   "text": "On December 5, Napoleon left his army behind and raced back to Paris by sleigh.",
+   "start": 333.664,
+   "end": 338.904,
+   "words": [
+    {
+     "w": "On",
+     "start": 333.564,
+     "end": 333.764
+    },
+    {
+     "w": "December",
+     "start": 333.764,
+     "end": 333.944
+    },
+    {
+     "w": "5,",
+     "start": 333.944,
+     "end": 334.804
+    },
+    {
+     "w": "Napoleon",
+     "start": 334.804,
+     "end": 334.904
+    },
+    {
+     "w": "left",
+     "start": 334.904,
+     "end": 335.544
+    },
+    {
+     "w": "his",
+     "start": 335.544,
+     "end": 335.764
+    },
+    {
+     "w": "army",
+     "start": 335.764,
+     "end": 335.984
+    },
+    {
+     "w": "behind",
+     "start": 335.984,
+     "end": 336.464
+    },
+    {
+     "w": "and",
+     "start": 336.464,
+     "end": 337.024
+    },
+    {
+     "w": "raced",
+     "start": 337.024,
+     "end": 337.244
+    },
+    {
+     "w": "back",
+     "start": 337.244,
+     "end": 337.564
+    },
+    {
+     "w": "to",
+     "start": 337.564,
+     "end": 337.764
+    },
+    {
+     "w": "Paris",
+     "start": 337.764,
+     "end": 338.044
+    },
+    {
+     "w": "by",
+     "start": 338.044,
+     "end": 338.344
+    },
+    {
+     "w": "sleigh.",
+     "start": 338.344,
+     "end": 338.724
+    }
+   ]
+  },
+  {
+   "scene": 43,
+   "text": "Marshal Michel Ney commanded the rear guard. He is said to have been the last French soldier to leave Russian soil.",
+   "start": 339.404,
+   "end": 345.665,
+   "words": [
+    {
+     "w": "Marshal",
+     "start": 339.404,
+     "end": 339.724
+    },
+    {
+     "w": "Michel",
+     "start": 339.724,
+     "end": 340.044
+    },
+    {
+     "w": "Ney",
+     "start": 340.044,
+     "end": 340.364
+    },
+    {
+     "w": "commanded",
+     "start": 340.364,
+     "end": 340.784
+    },
+    {
+     "w": "the",
+     "start": 340.784,
+     "end": 341.064
+    },
+    {
+     "w": "rear",
+     "start": 341.064,
+     "end": 341.204
+    },
+    {
+     "w": "guard.",
+     "start": 341.204,
+     "end": 341.524
+    },
+    {
+     "w": "He",
+     "start": 342.224,
+     "end": 342.284
+    },
+    {
+     "w": "is",
+     "start": 342.284,
+     "end": 342.364
+    },
+    {
+     "w": "said",
+     "start": 342.364,
+     "end": 342.544
+    },
+    {
+     "w": "to",
+     "start": 342.544,
+     "end": 342.684
+    },
+    {
+     "w": "have",
+     "start": 342.684,
+     "end": 342.784
+    },
+    {
+     "w": "been",
+     "start": 342.784,
+     "end": 342.924
+    },
+    {
+     "w": "the",
+     "start": 342.924,
+     "end": 343.024
+    },
+    {
+     "w": "last",
+     "start": 343.024,
+     "end": 343.244
+    },
+    {
+     "w": "French",
+     "start": 343.244,
+     "end": 343.604
+    },
+    {
+     "w": "soldier",
+     "start": 343.604,
+     "end": 344.004
+    },
+    {
+     "w": "to",
+     "start": 344.004,
+     "end": 344.364
+    },
+    {
+     "w": "leave",
+     "start": 344.364,
+     "end": 344.544
+    },
+    {
+     "w": "Russian",
+     "start": 344.544,
+     "end": 344.904
+    },
+    {
+     "w": "soil.",
+     "start": 344.904,
+     "end": 345.364
+    }
+   ]
+  },
+  {
+   "scene": 44,
+   "text": "Of the 450,000 men who had entered Russia with the main army, only a small fraction came back. Estimates of the French and allied dead run to 300,000 or more.",
+   "start": 346.765,
+   "end": 357.758,
+   "words": [
+    {
+     "w": "Of",
+     "start": 346.665,
+     "end": 346.865
+    },
+    {
+     "w": "the",
+     "start": 346.865,
+     "end": 346.945
+    },
+    {
+     "w": "450,000",
+     "start": 346.945,
+     "end": 348.545
+    },
+    {
+     "w": "men",
+     "start": 348.545,
+     "end": 348.785
+    },
+    {
+     "w": "who",
+     "start": 348.785,
+     "end": 349.065
+    },
+    {
+     "w": "had",
+     "start": 349.065,
+     "end": 349.165
+    },
+    {
+     "w": "entered",
+     "start": 349.165,
+     "end": 349.425
+    },
+    {
+     "w": "Russia",
+     "start": 349.425,
+     "end": 349.785
+    },
+    {
+     "w": "with",
+     "start": 349.785,
+     "end": 350.085
+    },
+    {
+     "w": "the",
+     "start": 350.085,
+     "end": 350.205
+    },
+    {
+     "w": "main",
+     "start": 350.205,
+     "end": 350.405
+    },
+    {
+     "w": "army,",
+     "start": 350.405,
+     "end": 350.765
+    },
+    {
+     "w": "only",
+     "start": 351.365,
+     "end": 351.565
+    },
+    {
+     "w": "a",
+     "start": 351.565,
+     "end": 351.725
+    },
+    {
+     "w": "small",
+     "start": 351.725,
+     "end": 352.005
+    },
+    {
+     "w": "fraction",
+     "start": 352.005,
+     "end": 352.385
+    },
+    {
+     "w": "came",
+     "start": 352.385,
+     "end": 352.765
+    },
+    {
+     "w": "back.",
+     "start": 352.765,
+     "end": 353.185
+    },
+    {
+     "w": "Estimates",
+     "start": 353.885,
+     "end": 354.065
+    },
+    {
+     "w": "of",
+     "start": 354.065,
+     "end": 354.405
+    },
+    {
+     "w": "the",
+     "start": 354.405,
+     "end": 354.525
+    },
+    {
+     "w": "French",
+     "start": 354.525,
+     "end": 354.745
+    },
+    {
+     "w": "and",
+     "start": 354.745,
+     "end": 355.005
+    },
+    {
+     "w": "allied",
+     "start": 355.005,
+     "end": 355.325
+    },
+    {
+     "w": "dead",
+     "start": 355.325,
+     "end": 355.685
+    },
+    {
+     "w": "run",
+     "start": 355.685,
+     "end": 355.985
+    },
+    {
+     "w": "to",
+     "start": 355.985,
+     "end": 356.185
+    },
+    {
+     "w": "300,000",
+     "start": 356.185,
+     "end": 357.225
+    },
+    {
+     "w": "or",
+     "start": 357.225,
+     "end": 357.365
+    },
+    {
+     "w": "more.",
+     "start": 357.365,
+     "end": 357.565
+    }
+   ]
+  },
+  {
+   "scene": 44,
+   "text": "Decades later, a French engineer named Charles Joseph Minard drew the disaster as a single graphic. The army shrinks from 422,000 men to 10,000.",
+   "start": 358.258,
+   "end": 369.18,
+   "words": [
+    {
+     "w": "Decades",
+     "start": 358.158,
+     "end": 358.618
+    },
+    {
+     "w": "later,",
+     "start": 358.618,
+     "end": 358.858
+    },
+    {
+     "w": "a",
+     "start": 359.138,
+     "end": 359.178
+    },
+    {
+     "w": "French",
+     "start": 359.178,
+     "end": 359.418
+    },
+    {
+     "w": "engineer",
+     "start": 359.418,
+     "end": 359.798
+    },
+    {
+     "w": "named",
+     "start": 359.798,
+     "end": 360.258
+    },
+    {
+     "w": "Charles",
+     "start": 360.258,
+     "end": 360.578
+    },
+    {
+     "w": "Joseph",
+     "start": 360.578,
+     "end": 361.098
+    },
+    {
+     "w": "Minard",
+     "start": 361.098,
+     "end": 361.618
+    },
+    {
+     "w": "drew",
+     "start": 361.618,
+     "end": 361.958
+    },
+    {
+     "w": "the",
+     "start": 361.958,
+     "end": 362.098
+    },
+    {
+     "w": "disaster",
+     "start": 362.098,
+     "end": 362.438
+    },
+    {
+     "w": "as",
+     "start": 362.438,
+     "end": 362.858
+    },
+    {
+     "w": "a",
+     "start": 362.858,
+     "end": 362.938
+    },
+    {
+     "w": "single",
+     "start": 362.938,
+     "end": 363.158
+    },
+    {
+     "w": "graphic.",
+     "start": 363.158,
+     "end": 363.598
+    },
+    {
+     "w": "The",
+     "start": 364.358,
+     "end": 364.438
+    },
+    {
+     "w": "army",
+     "start": 364.438,
+     "end": 364.658
+    },
+    {
+     "w": "shrinks",
+     "start": 364.658,
+     "end": 365.178
+    },
+    {
+     "w": "from",
+     "start": 365.178,
+     "end": 365.438
+    },
+    {
+     "w": "422,000",
+     "start": 365.438,
+     "end": 367.258
+    },
+    {
+     "w": "men",
+     "start": 367.258,
+     "end": 367.518
+    },
+    {
+     "w": "to",
+     "start": 367.518,
+     "end": 368.198
+    },
+    {
+     "w": "10,000.",
+     "start": 368.198,
+     "end": 369.18
+    }
+   ]
+  },
+  {
+   "scene": 44,
+   "text": "It has been called the best statistical graphic ever drawn.",
+   "start": 369.68,
+   "end": 372.822,
+   "words": [
+    {
+     "w": "It",
+     "start": 369.58,
+     "end": 369.74
+    },
+    {
+     "w": "has",
+     "start": 369.74,
+     "end": 369.86
+    },
+    {
+     "w": "been",
+     "start": 369.86,
+     "end": 370.02
+    },
+    {
+     "w": "called",
+     "start": 370.02,
+     "end": 370.28
+    },
+    {
+     "w": "the",
+     "start": 370.28,
+     "end": 370.48
+    },
+    {
+     "w": "best",
+     "start": 370.48,
+     "end": 370.68
+    },
+    {
+     "w": "statistical",
+     "start": 370.68,
+     "end": 371.2
+    },
+    {
+     "w": "graphic",
+     "start": 371.2,
+     "end": 371.66
+    },
+    {
+     "w": "ever",
+     "start": 371.66,
+     "end": 372.18
+    },
+    {
+     "w": "drawn.",
+     "start": 372.18,
+     "end": 372.5
+    }
+   ]
+  },
+  {
+   "scene": 45,
+   "text": "Napoleon's aura of invincibility was gone. Prussia and Austria turned against him, and in 1813, the armies of Europe crushed him at Leipzig.",
+   "start": 373.622,
+   "end": 382.722,
+   "words": [
+    {
+     "w": "Napoleon's",
+     "start": 373.522,
+     "end": 374.262
+    },
+    {
+     "w": "aura",
+     "start": 374.262,
+     "end": 374.462
+    },
+    {
+     "w": "of",
+     "start": 374.462,
+     "end": 374.782
+    },
+    {
+     "w": "invincibility",
+     "start": 374.782,
+     "end": 375.262
+    },
+    {
+     "w": "was",
+     "start": 375.262,
+     "end": 375.742
+    },
+    {
+     "w": "gone.",
+     "start": 375.742,
+     "end": 376.042
+    },
+    {
+     "w": "Prussia",
+     "start": 376.842,
+     "end": 377.102
+    },
+    {
+     "w": "and",
+     "start": 377.102,
+     "end": 377.342
+    },
+    {
+     "w": "Austria",
+     "start": 377.342,
+     "end": 377.542
+    },
+    {
+     "w": "turned",
+     "start": 377.542,
+     "end": 378.022
+    },
+    {
+     "w": "against",
+     "start": 378.022,
+     "end": 378.402
+    },
+    {
+     "w": "him,",
+     "start": 378.402,
+     "end": 378.702
+    },
+    {
+     "w": "and",
+     "start": 379.062,
+     "end": 379.182
+    },
+    {
+     "w": "in",
+     "start": 379.182,
+     "end": 379.262
+    },
+    {
+     "w": "1813,",
+     "start": 379.262,
+     "end": 379.982
+    },
+    {
+     "w": "the",
+     "start": 380.502,
+     "end": 380.522
+    },
+    {
+     "w": "armies",
+     "start": 380.522,
+     "end": 380.802
+    },
+    {
+     "w": "of",
+     "start": 380.802,
+     "end": 381.082
+    },
+    {
+     "w": "Europe",
+     "start": 381.082,
+     "end": 381.342
+    },
+    {
+     "w": "crushed",
+     "start": 381.342,
+     "end": 381.642
+    },
+    {
+     "w": "him",
+     "start": 381.642,
+     "end": 381.942
+    },
+    {
+     "w": "at",
+     "start": 381.942,
+     "end": 382.082
+    },
+    {
+     "w": "Leipzig.",
+     "start": 382.082,
+     "end": 382.522
+    }
+   ]
+  },
+  {
+   "scene": 46,
+   "text": "In April 1814, Napoleon gave up his throne and was exiled to the island of Elba.",
+   "start": 383.222,
+   "end": 389.092,
+   "words": [
+    {
+     "w": "In",
+     "start": 383.122,
+     "end": 383.322
+    },
+    {
+     "w": "April",
+     "start": 383.322,
+     "end": 383.602
+    },
+    {
+     "w": "1814,",
+     "start": 383.602,
+     "end": 384.382
+    },
+    {
+     "w": "Napoleon",
+     "start": 385.002,
+     "end": 385.462
+    },
+    {
+     "w": "gave",
+     "start": 385.462,
+     "end": 385.842
+    },
+    {
+     "w": "up",
+     "start": 385.842,
+     "end": 386.042
+    },
+    {
+     "w": "his",
+     "start": 386.042,
+     "end": 386.202
+    },
+    {
+     "w": "throne",
+     "start": 386.202,
+     "end": 386.482
+    },
+    {
+     "w": "and",
+     "start": 386.482,
+     "end": 387.002
+    },
+    {
+     "w": "was",
+     "start": 387.002,
+     "end": 387.122
+    },
+    {
+     "w": "exiled",
+     "start": 387.122,
+     "end": 387.442
+    },
+    {
+     "w": "to",
+     "start": 387.442,
+     "end": 387.902
+    },
+    {
+     "w": "the",
+     "start": 387.902,
+     "end": 388.002
+    },
+    {
+     "w": "island",
+     "start": 388.002,
+     "end": 388.342
+    },
+    {
+     "w": "of",
+     "start": 388.342,
+     "end": 388.562
+    },
+    {
+     "w": "Elba.",
+     "start": 388.562,
+     "end": 388.942
+    }
+   ]
+  },
+  {
+   "scene": 47,
+   "text": "He would return one last time, for a hundred days, and meet his final defeat at Waterloo.",
+   "start": 389.592,
+   "end": 394.918,
+   "words": [
+    {
+     "w": "He",
+     "start": 389.492,
+     "end": 389.672
+    },
+    {
+     "w": "would",
+     "start": 389.672,
+     "end": 389.732
+    },
+    {
+     "w": "return",
+     "start": 389.732,
+     "end": 390.052
+    },
+    {
+     "w": "one",
+     "start": 390.052,
+     "end": 390.372
+    },
+    {
+     "w": "last",
+     "start": 390.372,
+     "end": 390.672
+    },
+    {
+     "w": "time,",
+     "start": 390.672,
+     "end": 391.072
+    },
+    {
+     "w": "for",
+     "start": 391.072,
+     "end": 391.732
+    },
+    {
+     "w": "a",
+     "start": 391.732,
+     "end": 391.852
+    },
+    {
+     "w": "hundred",
+     "start": 391.852,
+     "end": 392.152
+    },
+    {
+     "w": "days,",
+     "start": 392.152,
+     "end": 392.512
+    },
+    {
+     "w": "and",
+     "start": 392.512,
+     "end": 392.872
+    },
+    {
+     "w": "meet",
+     "start": 392.872,
+     "end": 393.052
+    },
+    {
+     "w": "his",
+     "start": 393.052,
+     "end": 393.212
+    },
+    {
+     "w": "final",
+     "start": 393.212,
+     "end": 393.472
+    },
+    {
+     "w": "defeat",
+     "start": 393.472,
+     "end": 393.892
+    },
+    {
+     "w": "at",
+     "start": 393.892,
+     "end": 394.272
+    },
+    {
+     "w": "Waterloo.",
+     "start": 394.272,
+     "end": 394.592
+    }
+   ]
+  },
+  {
+   "scene": 48,
+   "text": "So what really destroyed the Grande Arm\u00e9e? Not one battle. Not even the winter.",
+   "start": 395.918,
+   "end": 400.266,
+   "words": [
+    {
+     "w": "So",
+     "start": 395.818,
+     "end": 396.058
+    },
+    {
+     "w": "what",
+     "start": 396.058,
+     "end": 396.198
+    },
+    {
+     "w": "really",
+     "start": 396.198,
+     "end": 396.498
+    },
+    {
+     "w": "destroyed",
+     "start": 396.498,
+     "end": 396.918
+    },
+    {
+     "w": "the",
+     "start": 396.918,
+     "end": 397.198
+    },
+    {
+     "w": "Grande",
+     "start": 397.198,
+     "end": 397.458
+    },
+    {
+     "w": "Arm\u00e9e?",
+     "start": 397.458,
+     "end": 397.878
+    },
+    {
+     "w": "Not",
+     "start": 398.358,
+     "end": 398.378
+    },
+    {
+     "w": "one",
+     "start": 398.378,
+     "end": 398.558
+    },
+    {
+     "w": "battle.",
+     "start": 398.558,
+     "end": 398.898
+    },
+    {
+     "w": "Not",
+     "start": 399.238,
+     "end": 399.438
+    },
+    {
+     "w": "even",
+     "start": 399.438,
+     "end": 399.578
+    },
+    {
+     "w": "the",
+     "start": 399.578,
+     "end": 399.758
+    },
+    {
+     "w": "winter.",
+     "start": 399.758,
+     "end": 399.918
+    }
+   ]
+  },
+  {
+   "scene": 48,
+   "text": "It was a gamble: that one battle, or one captured city, would force an empire to surrender. And 35 days of waiting in a burning city, while the winter marched toward him.",
+   "start": 400.866,
+   "end": 411.111,
+   "words": [
+    {
+     "w": "It",
+     "start": 400.766,
+     "end": 400.926
+    },
+    {
+     "w": "was",
+     "start": 400.926,
+     "end": 401.026
+    },
+    {
+     "w": "a",
+     "start": 401.026,
+     "end": 401.126
+    },
+    {
+     "w": "gamble:",
+     "start": 401.126,
+     "end": 401.386
+    },
+    {
+     "w": "that",
+     "start": 401.386,
+     "end": 401.946
+    },
+    {
+     "w": "one",
+     "start": 401.946,
+     "end": 402.146
+    },
+    {
+     "w": "battle,",
+     "start": 402.146,
+     "end": 402.566
+    },
+    {
+     "w": "or",
+     "start": 402.566,
+     "end": 402.806
+    },
+    {
+     "w": "one",
+     "start": 402.806,
+     "end": 403.006
+    },
+    {
+     "w": "captured",
+     "start": 403.006,
+     "end": 403.326
+    },
+    {
+     "w": "city,",
+     "start": 403.326,
+     "end": 403.846
+    },
+    {
+     "w": "would",
+     "start": 403.846,
+     "end": 404.366
+    },
+    {
+     "w": "force",
+     "start": 404.366,
+     "end": 404.646
+    },
+    {
+     "w": "an",
+     "start": 404.646,
+     "end": 404.826
+    },
+    {
+     "w": "empire",
+     "start": 404.826,
+     "end": 405.186
+    },
+    {
+     "w": "to",
+     "start": 405.186,
+     "end": 405.546
+    },
+    {
+     "w": "surrender.",
+     "start": 405.546,
+     "end": 405.846
+    },
+    {
+     "w": "And",
+     "start": 406.746,
+     "end": 406.826
+    },
+    {
+     "w": "35",
+     "start": 406.826,
+     "end": 407.146
+    },
+    {
+     "w": "days",
+     "start": 407.146,
+     "end": 407.706
+    },
+    {
+     "w": "of",
+     "start": 407.706,
+     "end": 407.926
+    },
+    {
+     "w": "waiting",
+     "start": 407.926,
+     "end": 408.106
+    },
+    {
+     "w": "in",
+     "start": 408.106,
+     "end": 408.386
+    },
+    {
+     "w": "a",
+     "start": 408.386,
+     "end": 408.426
+    },
+    {
+     "w": "burning",
+     "start": 408.426,
+     "end": 408.606
+    },
+    {
+     "w": "city,",
+     "start": 408.606,
+     "end": 409.126
+    },
+    {
+     "w": "while",
+     "start": 409.126,
+     "end": 409.566
+    },
+    {
+     "w": "the",
+     "start": 409.566,
+     "end": 409.706
+    },
+    {
+     "w": "winter",
+     "start": 409.706,
+     "end": 409.986
+    },
+    {
+     "w": "marched",
+     "start": 409.986,
+     "end": 410.246
+    },
+    {
+     "w": "toward",
+     "start": 410.246,
+     "end": 410.686
+    },
+    {
+     "w": "him.",
+     "start": 410.686,
+     "end": 410.946
+    }
+   ]
+  },
+  {
+   "scene": 49,
+   "text": "Was it Napoleon's greatest mistake, or was Russia simply unconquerable? Tell us in the comments, and subscribe to Buried Chronicles for more of history's turning points.",
+   "start": 411.911,
+   "end": 421.955,
+   "words": [
+    {
+     "w": "Was",
+     "start": 411.811,
+     "end": 412.011
+    },
+    {
+     "w": "it",
+     "start": 412.011,
+     "end": 412.111
+    },
+    {
+     "w": "Napoleon's",
+     "start": 412.111,
+     "end": 412.791
+    },
+    {
+     "w": "greatest",
+     "start": 412.791,
+     "end": 413.051
+    },
+    {
+     "w": "mistake,",
+     "start": 413.051,
+     "end": 413.711
+    },
+    {
+     "w": "or",
+     "start": 413.711,
+     "end": 414.291
+    },
+    {
+     "w": "was",
+     "start": 414.291,
+     "end": 414.511
+    },
+    {
+     "w": "Russia",
+     "start": 414.511,
+     "end": 414.771
+    },
+    {
+     "w": "simply",
+     "start": 414.771,
+     "end": 415.271
+    },
+    {
+     "w": "unconquerable?",
+     "start": 415.271,
+     "end": 416.191
+    },
+    {
+     "w": "Tell",
+     "start": 416.951,
+     "end": 417.011
+    },
+    {
+     "w": "us",
+     "start": 417.011,
+     "end": 417.191
+    },
+    {
+     "w": "in",
+     "start": 417.191,
+     "end": 417.311
+    },
+    {
+     "w": "the",
+     "start": 417.311,
+     "end": 417.431
+    },
+    {
+     "w": "comments,",
+     "start": 417.431,
+     "end": 417.751
+    },
+    {
+     "w": "and",
+     "start": 417.751,
+     "end": 418.311
+    },
+    {
+     "w": "subscribe",
+     "start": 418.311,
+     "end": 418.691
+    },
+    {
+     "w": "to",
+     "start": 418.691,
+     "end": 419.071
+    },
+    {
+     "w": "Buried",
+     "start": 419.071,
+     "end": 419.471
+    },
+    {
+     "w": "Chronicles",
+     "start": 419.471,
+     "end": 419.651
+    },
+    {
+     "w": "for",
+     "start": 419.651,
+     "end": 420.231
+    },
+    {
+     "w": "more",
+     "start": 420.231,
+     "end": 420.431
+    },
+    {
+     "w": "of",
+     "start": 420.431,
+     "end": 420.551
+    },
+    {
+     "w": "history's",
+     "start": 420.551,
+     "end": 421.011
+    },
+    {
+     "w": "turning",
+     "start": 421.011,
+     "end": 421.231
+    },
+    {
+     "w": "points.",
+     "start": 421.231,
+     "end": 421.611
+    }
+   ]
+  }
+ ]
+}
