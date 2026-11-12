@@ -1,0 +1,102 @@
+[
+ {
+  "id": "hook1",
+  "sec": "hook",
+  "text": "If you own an index fund, an alleged Chinese honey trap just cost you money."
+ },
+ {
+  "id": "hook2",
+  "sec": "hook",
+  "text": "But that's not why Washington is worried."
+ },
+ {
+  "id": "turn",
+  "sec": "turn",
+  "text": "To see why, start with what Nvidia sells."
+ },
+ {
+  "id": "chips1",
+  "sec": "chips",
+  "text": "Nvidia makes the chips that power much of the world's AI"
+ },
+ {
+  "id": "chips2",
+  "sec": "chips",
+  "text": "They're so strategic, the U.S. limits which ones can be sold to China."
+ },
+ {
+  "id": "admit",
+  "sec": "story",
+  "text": "On November 8th, Nvidia's C.E.O., Jensen Huang, told staff he had been unfaithful to his wife."
+ },
+ {
+  "id": "nyt",
+  "sec": "story",
+  "text": "According to The New York Times, U.S. authorities suspect the woman, Alice Huang, an executive at an Nvidia customer, was recruited by China's Ministry of State Security."
+ },
+ {
+  "id": "goal",
+  "sec": "story",
+  "text": "The alleged goal: learn about Huang, and influence his views on selling AI chips to China."
+ },
+ {
+  "id": "trap",
+  "sec": "story",
+  "text": "If true, that's a textbook honey trap."
+ },
+ {
+  "id": "deny",
+  "sec": "story",
+  "text": "China calls the spy story unsubstantiated. Nvidia's board says it has no reason to believe secrets were compromised."
+ },
+ {
+  "id": "worse",
+  "sec": "worse",
+  "text": "Then it got worse."
+ },
+ {
+  "id": "second",
+  "sec": "worse",
+  "text": "The Times reported a second relationship, with an Nvidia vice president."
+ },
+ {
+  "id": "wsj",
+  "sec": "worse",
+  "text": "The Wall Street Journal reported the board was preparing to oust him."
+ },
+ {
+  "id": "money",
+  "sec": "worse",
+  "text": "And by CBS News' count, more than four hundred and fifty billion dollars in market value vanished."
+ },
+ {
+  "id": "trump",
+  "sec": "dc",
+  "text": "Washington split. President Trump called Huang an honourable guy, and said he should stay."
+ },
+ {
+  "id": "house",
+  "sec": "dc",
+  "text": "Three House committee chairs asked him for a closed-door briefing on November 18th."
+ },
+ {
+  "id": "why",
+  "sec": "payoff",
+  "text": "So here's why it matters."
+ },
+ {
+  "id": "center",
+  "sec": "payoff",
+  "text": "The man at the center of America's AI chip business may have been targeted by an operation aimed at exactly that business."
+ },
+ {
+  "id": "q",
+  "sec": "payoff",
+  "text": "That's the question for Nvidia's board. Not his marriage."
+ },
+ {
+  "id": "end",
+  "sec": "end",
+  "text": "As of November 12th, there's no decision. Follow for the update."
+ }
+]
