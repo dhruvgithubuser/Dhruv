@@ -1,5 +1,44 @@
 # Next 2 long videos (Sat 14 Nov and Mon 16 Nov 2026)
 
+## UPDATE 13 Nov: unique angles (these replace the standard retellings below)
+I checked the top 25 YouTube results for each topic. The saturated angles are:
+- **Custer:** the plain battle retelling, "myths exposed", archaeology, gore clickbait ("they didn't just kill Custer"), eyewitness accounts, and minute-by-minute tactics.
+- **Isandlwana:** the plain battle documentary, Total War cinematics, "from above" maps, Zulu Dawn, and "Britain's worst defeat / hubris".
+
+**Almost nobody does these:**
+
+### Sat: Custer **on trial**
+**"The Trial After Little Bighorn: Who Really Lost Custer's Battle?"**
+- **Frame:** In January 1879, Major Marcus Reno, the officer blamed for Custer's death, demanded a Court of Inquiry in Chicago (this is real).
+- **Structure:** the whole battle is told as courtroom testimony. Each mistake is presented as an "exhibit": the refused Gatling guns, the night march, the split regiment, the "bring packs" note. The Lakota and Cheyenne side is presented as testimony too.
+- **Twist:** the court cleared Reno. So who was to blame? The viewer is the jury, so the comments become the verdict.
+- **Visuals:** a realistic 1879 courtroom, with flashbacks to the battle.
+- **Thumbnail:** Custer's photo stamped **"GUILTY?"**.
+
+### Mon: Isandlwana from the **Zulu commander's** side
+**"The Zulu General Who Out-Planned the British Empire (Isandlwana 1879)"**
+- **Frame:** the enemy's-eye angle. Every competitor tells it from the British side. This is the formula that did 218× in the viral idea bank.
+- **Beats:**
+  1. Ntshingwayo kaMahole's march: 20,000 men moving unseen in small columns.
+  2. The hidden valley.
+  3. **The twist:** the Zulu army did **not** plan to fight on 22 January, because it was the "day of the dead moon" (an unlucky day). A British patrol stumbled onto them, and they attacked anyway.
+  4. The "horns of the buffalo" encircling attack.
+  5. The eclipse.
+  6. That night, the reserve goes on to Rorke's Drift, which links to your Short.
+- **Thumbnail:** a Zulu commander's silhouette looking down on the British camp; text **"HE WASN'T READY"**.
+
+## A unique-angle checklist for every future video
+1. **Enemy's eye:** tell it from the other side.
+2. **Put it on trial:** an inquiry, court-martial or verdict.
+3. **One witness or object:** a horse, a flag, a letter (e.g. Comanche, the horse found alive after Custer's battle).
+4. **The aftermath nobody covers:** what happened to the survivors.
+5. **Myth autopsy:** the famous version vs the evidence.
+
+**Test:** if 2 or more of the top 25 results already use the angle with 100k+ views, pick another.
+
+---
+
+
 Both sit in niche **pillar 3: the commander's fatal mistake**, run 8–10 min at 16:9, and use the realistic photoreal format (no 2D Vox).
 YouTube autocomplete demand checked on 13 Nov: both show "… documentary" searches.
 
