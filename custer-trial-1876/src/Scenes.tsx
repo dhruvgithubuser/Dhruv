@@ -89,7 +89,7 @@ const Overlay: React.FC<{ n: number; frames: number }> = ({ n, frames }) => {
     case 25: return <Chapter n="III" title="The Battle" />;
     case 30: return <Exhibit letter="E" title="THE LAST MESSAGE" at={wf(30, 'exhibit')} />;
     case 31: return (
-      <div style={{ position: 'absolute', right: 120, top: 360, width: 560, fontFamily: TYPE, fontWeight: 700, fontSize: 40, lineHeight: 1.5, color: '#f2ead8', opacity: lin(f, 10, 24), textShadow: '0 2px 10px #000' }}>
+      <div style={{ position: 'absolute', right: 60, top: 360, width: 520, fontFamily: TYPE, fontWeight: 700, fontSize: 40, lineHeight: 1.5, color: '#f2ead8', opacity: lin(f, 10, 24), textShadow: '0 2px 10px #000' }}>
         Benteen.<br />Come on. Big Village.<br />Be quick. Bring packs.<br /><span style={{ color: C.gold }}>P.S. Bring packs.</span>
       </div>);
     case 34: return <Chapter n="IV" title="The Witnesses" />;
@@ -97,10 +97,10 @@ const Overlay: React.FC<{ n: number; frames: number }> = ({ n, frames }) => {
     case 42: return <Label text="WEIR POINT" sub="Afternoon, June 25" at={10} />;
     case 44: return <Chapter n="V" title="The Verdict" />;
     case 46: return (
-      <div style={{ position: 'absolute', left: 260, right: 260, top: 300, textAlign: 'center', opacity: lin(f, wf(46, 'quote') - 6, wf(46, 'quote') + 6) }}>
+      <AbsoluteFill style={{ background: `rgba(0,0,0,${0.5 * lin(f, wf(46, 'quote') - 6, wf(46, 'quote') + 6)})` }}><div style={{ position: 'absolute', left: 260, right: 260, top: 300, textAlign: 'center', opacity: lin(f, wf(46, 'quote') - 6, wf(46, 'quote') + 6) }}>
         <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 54, lineHeight: 1.3, color: '#f4ecda', textShadow: '0 4px 24px #000' }}>“The suspicion or accusation that Gen. Custer owed his death … to the failure of Major Reno … is considered as set to rest.”</div>
         <div style={{ fontFamily: TYPE, fontWeight: 700, fontSize: 24, color: C.gold, marginTop: 20, textShadow: '0 2px 10px #000' }}>JUDGE ADVOCATE GENERAL W. M. DUNN · FEBRUARY 21, 1879</div>
-      </div>);
+      </div></AbsoluteFill>);
     case 50: return <Label text="1967" sub="Reno reburied with honors at Custer National Cemetery" at={wf(50, 'reburied') - 6} />;
     case 55: {
       const names = ['CUSTER', 'RENO', 'BENTEEN', 'WASHINGTON'];
@@ -126,10 +126,10 @@ const Overlay: React.FC<{ n: number; frames: number }> = ({ n, frames }) => {
     case 33: return <Label text="THE PACK TRAIN" sub="Reserve ammunition, on mules" at={10} />;
     case 39: return <Label text="1984 · ARCHAEOLOGICAL SURVEY" sub="After the 1983 grass fire" at={wf(39, 'archaeologists') - 4} />;
     case 45: return (
-      <div style={{ position: 'absolute', left: 260, right: 260, top: 330, textAlign: 'center', opacity: lin(f, 20, 34) }}>
+      <AbsoluteFill style={{ background: `rgba(0,0,0,${0.5 * lin(f, 20, 34)})` }}><div style={{ position: 'absolute', left: 260, right: 260, top: 330, textAlign: 'center', opacity: lin(f, 20, 34) }}>
         <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 52, lineHeight: 1.3, color: '#f4ecda', textShadow: '0 4px 24px #000' }}>“…there was nothing in his conduct which requires animadversion from this Court.”</div>
         <div style={{ fontFamily: TYPE, fontWeight: 700, fontSize: 24, color: C.gold, marginTop: 20, textShadow: '0 2px 10px #000' }}>FINDINGS OF THE RENO COURT OF INQUIRY · 1879</div>
-      </div>);
+      </div></AbsoluteFill>);
     case 54: return <Label text="1991" sub="Little Bighorn Battlefield National Monument" at={wf(54, '1991') - 4} />;
     default: return null;
   }

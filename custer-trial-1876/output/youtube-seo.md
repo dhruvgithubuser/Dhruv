@@ -1,6 +1,6 @@
 # YouTube pack: The Trial After Little Bighorn
 
-**Video:** `the-trial-after-little-bighorn.mp4`, 16:9, 1080p, about 6:06
+**Video:** `the-trial-after-little-bighorn.mp4`, 16:9, 1080p, 10:02
 **Format:** realistic documentary. Photoreal dramatized scenes with 3D camera motion, real 1865–1908 photographs, Red Horse's 1881 drawings, the original "Bring packs" note, courtroom framing with "exhibits", and an orchestral score.
 
 ## Best time to post (Saturday 14 Nov)
@@ -25,7 +25,7 @@ Title 1 puts "Little Bighorn" and "Custer" in the first 40 characters, so the su
 ```
 In January 1879, a U.S. Army court opened in a Chicago hotel. The man on trial had asked to be there: Major Marcus Reno, the officer America blamed for Custer's death at the Little Bighorn.
 
-You've heard the legend of Custer's Last Stand. Now hear the evidence: the Gatling guns Custer refused, the "800 warriors" estimate, the split of the 7th Cavalry, Reno's retreat, and the last message ever sent from Custer's command: "Benteen. Come on. Big village. Be quick. Bring packs."
+You've heard the legend of Custer's Last Stand. Now hear the evidence: the Washita grudge, the Gatling guns Custer refused, the "800 warriors" estimate, the split of the 7th Cavalry, Reno's retreat, the drinking testimony, Benteen's long wait, and the last message ever sent from Custer's command: "Benteen. Come on. Big village. Be quick. Bring packs."
 
 We also hear from the witnesses the court never called: the Lakota, Cheyenne and Arapaho who defended their village, through the drawings of the Lakota warrior Red Horse.
 
@@ -33,23 +33,27 @@ You are the jury. Who's guilty? Tell us in the comments.
 
 ⏱ CHAPTERS
 0:00 The trial
-0:35 The dead man
-1:04 How they got to that river
-1:35 Exhibit A: The Gatling guns
-1:56 Exhibit B: "800 warriors"
-2:15 Exhibit C: The Crow's Nest
-2:34 Exhibit D: The split
-2:51 Reno's charge
-3:22 Exhibit E: The last message
-3:42 The witnesses never called
-4:24 Weir Point
-4:42 The verdict
-5:29 1967
-5:29 Who lost the Little Bighorn?
+0:22 The book that started it
+0:56 The dead man
+2:14 How they got to that river
+2:57 Exhibit A: The Gatling guns
+3:19 Exhibit B: "800 warriors"
+3:39 Exhibit C: The Crow's Nest
+4:05 Exhibit D: The split
+4:39 Reno's charge
+5:22 Exhibit E: The last message
+5:57 The witnesses the court never called
+6:41 What the ground revealed
+7:27 Weir Point
+7:56 The verdict
+8:43 The widow who never stopped
+9:10 Who lost the Little Bighorn?
 
 📚 SOURCES
 • Battle of the Little Bighorn; Marcus Reno; Frederick Benteen (Wikipedia, and the works they cite: W. A. Graham, The Reno Court of Inquiry; Richard A. Fox, Archaeology, History and Custer's Last Battle; Nevin 1973; Hardoff 2002)
-• Judge Advocate General W. M. Dunn, opinion of February 21, 1879
+• Judge Advocate General W. M. Dunn, opinion of February 21, 1879; findings of the Reno Court of Inquiry
+• Battle of the Washita River; Elizabeth Bacon Custer; Comanche (horse) (Wikipedia and cited works)
+• Little Bighorn battlefield archaeological surveys, 1984–85 (Scott and Fox)
 • Red Horse pictographic account, 1881 (Smithsonian / public domain)
 Warrior numbers are estimates (1,100–2,500).
 
@@ -57,11 +61,10 @@ Warrior numbers are estimates (1,100–2,500).
 
 #LittleBighorn #Custer #History
 ```
-**Fix the chapter times after rendering.** I'll replace them with the exact times from the final video.
 
 ## Tags
 ```
-little bighorn, battle of little bighorn, custer, custer's last stand, custer last stand documentary, george armstrong custer, marcus reno, reno court of inquiry, frederick benteen, sitting bull, crazy horse, lakota, 7th cavalry, great sioux war, american history documentary, wild west history, military history, buried chronicles
+little bighorn, battle of little bighorn, custer, custer's last stand, custer last stand documentary, george armstrong custer, marcus reno, reno court of inquiry, frederick benteen, sitting bull, crazy horse, lakota, 7th cavalry, great sioux war, comanche horse, libbie custer, american history documentary, wild west history, military history, buried chronicles
 ```
 
 ## Hashtags
@@ -73,7 +76,7 @@ little bighorn, battle of little bighorn, custer, custer's last stand, custer la
 > Reply with your letter 👇
 
 ## End screen and cards
-- At 2:34 (Exhibit D), add a card pointing to your **Rorke's Drift Short**: "Another last stand, 1879".
+- At 4:05 (Exhibit D), add a card pointing to your **Rorke's Drift Short**: "Another last stand, 1879".
 - End screen: subscribe button plus the Napoleon long video (both are "fatal mistake" videos).
 
 ## Shorts to cut from this video

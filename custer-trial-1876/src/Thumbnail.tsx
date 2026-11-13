@@ -34,8 +34,8 @@ export const ThumbB: React.FC = () => (
     <Img src={staticFile('assets/stills/c02_court.png')} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'sepia(0.3) contrast(1.1) brightness(0.6)' }} />
     <AbsoluteFill style={{ background: 'linear-gradient(270deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 60%)' }} />
     <Photo k="reno" x={70} y={50} h={620} w={480} rot={3} pos="50% 20%" />
-    <div style={{ position: 'absolute', right: 60, top: 150, textAlign: 'right' }}>
-      <div style={{ fontFamily: SERIF, fontWeight: 900, fontSize: 112, lineHeight: 0.98, color: '#f4ecda', textShadow: '0 8px 30px #000' }}>THEY BLAMED</div>
+    <div style={{ position: 'absolute', right: 40, top: 160, textAlign: 'right' }}>
+      <div style={{ fontFamily: SERIF, fontWeight: 900, fontSize: 96, lineHeight: 0.98, color: '#f4ecda', textShadow: '0 8px 30px #000' }}>THEY BLAMED</div>
       <div style={{ fontFamily: SERIF, fontWeight: 900, fontSize: 150, lineHeight: 0.98, color: '#f0c96a', textShadow: '0 8px 30px #000' }}>HIM</div>
     </div>
     <Stamp text="ON TRIAL · 1879" x={930} y={560} size={60} rot={-5} />
