@@ -13,7 +13,7 @@ export const C = {
   ink: '#2a2117', dim: '#7a6b55', blue: '#2f4f7a', blueHi: '#4a74a8', gold: '#f0c96a', snow: '#f4f1ea', fire: '#d9531e', land: '#e2d4b0', sea: '#b9b8a0',
 };
 export const HEAD = 'Oswald', TYPE = 'Courier Prime', MONO = 'Plex Mono', SANS = 'Inter', SERIF = 'Playfair';
-export const N_SCENES = 43;
+export const N_SCENES = 55;
 
 export const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 export const lin = (f: number, a: number, b: number, from = 0, to = 1) => (b <= a ? (f >= a ? to : from) : interpolate(f, [a, b], [from, to], clamp));

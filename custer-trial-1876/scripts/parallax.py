@@ -25,7 +25,9 @@ MOTION = {
     "c23_bluffs": ("rise", 1.0), "c24_witness": ("push", 0.9), "c25_trumpeter": ("left", 1.2), "c26_hill": ("push", 0.9), "c27_riders": ("right", 1.0),
     "c28_dawn_tipi": ("push", 0.8), "c29_horseman": ("drift", 1.0), "c31_dust": ("push", 1.1), "c33_weir": ("push", 1.0), "c34_relief": ("left", 0.9),
     "c36_testimony": ("push", 0.8), "c37_verdict": ("push", 0.9), "c38_barracks": ("right", 0.8), "c39_alone": ("push", 0.8), "c40_honors": ("left", 0.9),
-    "c42_hills": ("pull", 1.0),
+    "c42_hills": ("pull", 1.0), "c45_writer": ("push", 0.8), "c46_washita": ("right", 1.0), "c48_rosebud": ("left", 1.0), "c49_packer": ("push", 0.9),
+    "c50_packtrain": ("right", 1.0), "c51_archaeology": ("left", 0.9), "c52_comanche": ("push", 0.9), "c53_widow": ("push", 0.8), "c54_memorial": ("rise", 0.9),
+    "c55_water": ("push", 1.0), "c56_elder": ("push", 0.8), "c03b_reno": ("push", 1.0),
 }
 
 

@@ -52,6 +52,18 @@ SHOTS = {
     "c39_alone": ("lonely old man in a worn coat sitting by a window in a dim boarding house room, 1880s, rain outside", 439),
     "c40_honors": ("honor guard firing a rifle salute at a funeral in a cemetery on a grassy hill, white grave markers, 1960s, flag", 440),
     "c42_hills": ("Black Hills of South Dakota at dusk, pine covered mountains, mist in the valleys, dramatic sky", 442),
+    "c45_writer": ("writer with mutton chop whiskers writing a book manuscript by lamplight in a cluttered 1876 study, books and newspapers, focused", 445),
+    "c46_washita": ("US cavalry riding through deep snow at dawn toward a river valley with tipis and rising smoke, winter 1868, grey light, distant", 446),
+    "c48_rosebud": ("distant battle on rolling green hills by a creek, cavalry and mounted warriors in clouds of dust and gun smoke, 1876, wide shot", 448),
+    "c49_packer": ("rough civilian mule packer with a beard in a buckskin shirt testifying in a 1879 courtroom, pointing, officers watching from a long table", 449),
+    "c50_packtrain": ("long line of pack mules loaded with wooden ammunition boxes on a dusty trail, soldiers leading them, 1876, hot afternoon", 450),
+    "c51_archaeology": ("archaeologists with metal detectors and small red marker flags on a burned blackened grassland hill, 1984, overcast", 451),
+    "c52_comanche": ("badly wounded bay cavalry horse standing alone on an empty grassy battlefield in morning mist, saddle still on, somber", 452),
+    "c53_widow": ("Victorian widow in a black dress writing at a desk by lamplight, framed portrait of a cavalry officer on the desk, 1880s", 453),
+    "c54_memorial": ("modern memorial sculpture of horse riders in dark metal silhouette on a grassy hill at sunset, Montana, wide sky", 454),
+    "c55_water": ("soldiers crawling down a steep ravine toward a river carrying canteens and kettles, gun smoke above, 1876, desperate", 455),
+    "c56_elder": ("elderly Native American man in a blanket telling a story to a man with a notebook outside a log cabin, early 1900s, warm light", 456),
+    "c03b_reno": ("portrait of a single middle aged US army cavalry major with a dark mustache in a dark blue 1870s uniform sitting alone at a wooden table in a dim courtroom, tense, looking down, one man", 503),
 }
 
 out = Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)

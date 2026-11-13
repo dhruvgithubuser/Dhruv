@@ -30,7 +30,7 @@ def ph(n):
 
 
 S = {1: 0.0}
-for n in range(2, 44):
+for n in range(2, 56):
     S[n] = ph(n)[0]["start"] - 0.3
 
 
@@ -205,36 +205,36 @@ def score():
         while start + 1 + k * every < end - 1: place(X, piano(notes[k % len(notes)], 4.5), start + 1 + k * every, g); k += 1
     Am = [[33, 40, 45, 48], [29, 36, 41, 45], [31, 38, 43, 47], [28, 35, 40, 44]]
     # cold open (1-6): the court. low strings, piano motif, timpani on the title
-    pads(0, S[7], [[21, 33, 40, 45], [17, 29, 36, 41], [19, 31, 38, 43], [16, 28, 35, 40]], 0.22, 700)
-    pianoline(0, S[7], [69, 72, 76, 74, 71, 69], 3.2, 0.08)
-    place(X, timpani(33, 1.0), word_t(6, 'jury') - 0.1); place(X, brass([57, 64, 69], 4.0, 1300), word_t(6, 'jury'), 0.2)
+    pads(0, S[8], [[21, 33, 40, 45], [17, 29, 36, 41], [19, 31, 38, 43], [16, 28, 35, 40]], 0.22, 700)
+    pianoline(0, S[8], [69, 72, 76, 74, 71, 69], 3.2, 0.08)
+    place(X, timpani(33, 1.0), word_t(7, 'jury') - 0.1); place(X, brass([57, 64, 69], 4.0, 1300), word_t(7, 'jury'), 0.2)
     # backstory (7-12): restrained march
-    march(S[7], S[13] - 0.2, 0.35)
-    ostinato(S[7], S[13] - 0.2, [33, 29, 31, 28], 0.3)
-    pads(S[7], S[13], Am, 0.14, 900)
+    march(S[8], S[17] - 0.2, 0.35)
+    ostinato(S[8], S[17] - 0.2, [33, 29, 31, 28], 0.3)
+    pads(S[8], S[17], Am, 0.14, 900)
     # the evidence (13-19): tension pulse
-    ostinato(S[13], S[20] - 0.2, [33, 34, 33, 31], 0.42)
-    pads(S[13], S[20], [[21, 28, 33], [22, 29, 34], [21, 28, 33], [19, 26, 31]], 0.22, 700)
-    drums(S[13], S[20] - 0.3, 4 * BEAT, 28, 0.35)
-    place(X, snare_roll(3.0, 0.1, 0.8), S[20] - 3.0)
+    ostinato(S[17], S[25] - 0.2, [33, 34, 33, 31], 0.42)
+    pads(S[17], S[25], [[21, 28, 33], [22, 29, 34], [21, 28, 33], [19, 26, 31]], 0.22, 700)
+    drums(S[17], S[25] - 0.3, 4 * BEAT, 28, 0.35)
+    place(X, snare_roll(3.0, 0.1, 0.8), S[25] - 3.0)
     # the battle (20-26)
-    march(S[20], S[27] - 0.3, 0.8)
-    ostinato(S[20], S[27] - 0.3, [33, 34, 36, 33], 0.5)
-    brassline(S[20], S[27], [[33, 40, 45, 48], [34, 41, 46, 50], [36, 43, 48, 52], [33, 40, 45, 48]], 0.24, 4 * BEAT, 1000)
-    drums(S[20], S[27] - 0.3, BEAT, 33, 0.5)
+    march(S[25], S[34] - 0.3, 0.8)
+    ostinato(S[25], S[34] - 0.3, [33, 34, 36, 33], 0.5)
+    brassline(S[25], S[34], [[33, 40, 45, 48], [34, 41, 46, 50], [36, 43, 48, 52], [33, 40, 45, 48]], 0.24, 4 * BEAT, 1000)
+    drums(S[25], S[34] - 0.3, BEAT, 33, 0.5)
     # the witnesses (27-34): wide, sparse, heartbeat drum
-    pads(S[27], S[35], [[26, 33, 38, 42], [24, 31, 36, 40], [22, 29, 34, 38], [21, 28, 33, 37]], 0.24, 800)
-    drums(S[27], S[33] - 0.3, 2 * BEAT, 26, 0.3)
-    march(S[33], S[35] - 0.3, 0.45); drums(S[33], S[35] - 0.3, BEAT, 33, 0.35)
+    pads(S[34], S[44], [[26, 33, 38, 42], [24, 31, 36, 40], [22, 29, 34, 38], [21, 28, 33, 37]], 0.24, 800)
+    drums(S[34], S[42] - 0.3, 2 * BEAT, 26, 0.3)
+    march(S[42], S[44] - 0.3, 0.45); drums(S[42], S[44] - 0.3, BEAT, 33, 0.35)
     # the verdict (35-39): the court again
-    pads(S[35], S[40], Am, 0.18, 750)
-    pianoline(S[35], S[40], [69, 72, 76, 74, 71, 69, 67], 3.0, 0.09)
-    place(X, timpani(33, 0.9), S[39])
+    pads(S[44], S[51], Am, 0.18, 750)
+    pianoline(S[44], S[51], [69, 72, 76, 74, 71, 69, 67], 3.0, 0.09)
+    place(X, timpani(33, 0.9), S[50])
     # finale (40-43): rising chorale to the question
-    pads(S[40], DUR, [[33, 40, 45, 48], [29, 36, 41, 45], [36, 43, 48, 52], [31, 38, 43, 47]], 0.2, 1000)
-    brassline(S[41], DUR - 0.5, [[45, 48, 52], [41, 45, 48], [48, 52, 55], [43, 47, 50], [45, 49, 52, 57]], 0.22, 4 * BEAT, 1200)
-    drums(S[41], S[43] - 0.3, 2 * BEAT, 33, 0.45)
-    place(X, timpani(33, 1.0), word_t(43, 'guilty')); place(X, timpani(33, 0.8), DUR - 3)
+    pads(S[51], DUR, [[33, 40, 45, 48], [29, 36, 41, 45], [36, 43, 48, 52], [31, 38, 43, 47]], 0.2, 1000)
+    brassline(S[52], DUR - 0.5, [[45, 48, 52], [41, 45, 48], [48, 52, 55], [43, 47, 50], [45, 49, 52, 57]], 0.22, 4 * BEAT, 1200)
+    drums(S[52], S[55] - 0.3, 2 * BEAT, 33, 0.45)
+    place(X, timpani(33, 1.0), word_t(55, 'guilty')); place(X, timpani(33, 0.8), DUR - 3)
     x = reverb(X, 3.2, 1.5, 0.34)
     fade = int(3 * SR); x[-fade:] *= np.linspace(1, 0, fade) ** 1.5
     return x
@@ -450,15 +450,15 @@ def main():
         save(k, v)
     w = word_t
     cues = [("wind.wav", 0.0, 0.35), ("murmur.wav", S[2], 0.28), ("gavel.wav", S[2] + 1.2, 0.55), ("clock.wav", S[3], 0.3), ("paper.wav", S[4] + 0.2, 0.35),
-            ("wind.wav", S[5], 0.35), ("impact.wav", w(6, "jury"), 0.45), ("whoosh.wav", S[7], 0.22), ("gallop.wav", S[8], 0.3), ("wind.wav", S[10], 0.25),
-            ("paper.wav", w(13, "exhibit"), 0.4), ("gallop.wav", S[13] + 4, 0.25), ("paper.wav", w(15, "exhibit"), 0.4), ("wind.wav", S[16], 0.3),
-            ("paper.wav", w(17, "exhibit"), 0.4), ("wind.wav", S[17], 0.3), ("paper.wav", w(19, "exhibit"), 0.4),
-            ("gallop.wav", S[20], 0.55), ("volley.wav", S[20] + 2.5, 0.4), ("volley.wav", S[21] + 0.5, 0.5), ("musket.wav", S[21] + 2.5, 0.4), ("musket.wav", w(22, "shot"), 0.5),
-            ("gallop.wav", w(22, "retreat"), 0.5), ("murmur.wav", S[23], 0.25), ("bugle.wav", S[24] + 1.0, 0.35), ("gallop.wav", w(24, "galloped"), 0.5), ("paper.wav", S[25], 0.4),
-            ("wind.wav", S[27], 0.4), ("wind.wav", S[29], 0.3), ("volley.wav", S[31] + 0.5, 0.35), ("musket.wav", S[31] + 2.5, 0.3), ("wind.wav", S[32], 0.35),
-            ("volley.wav", S[33] + 3, 0.25), ("musket.wav", S[34] + 1, 0.3), ("murmur.wav", S[35], 0.25), ("clock.wav", S[35] + 0.5, 0.3), ("paper.wav", S[35] + 0.3, 0.35),
-            ("gavel.wav", w(35, "censure"), 0.5), ("clock.wav", S[38], 0.25), ("volley.wav", w(39, "honors"), 0.35), ("impact.wav", S[40] + 0.2, 0.4),
-            ("whoosh.wav", S[41], 0.22), ("wind.wav", S[42], 0.3), ("gavel.wav", w(43, "guilty"), 0.6)]
+            ("wind.wav", S[6], 0.35), ("impact.wav", w(7, "jury"), 0.45), ("whoosh.wav", S[8], 0.22), ("gallop.wav", S[9], 0.3), ("wind.wav", S[13], 0.25),
+            ("paper.wav", w(17, "exhibit"), 0.4), ("gallop.wav", S[17] + 4, 0.25), ("paper.wav", w(19, "exhibit"), 0.4), ("wind.wav", S[20], 0.3),
+            ("paper.wav", w(21, "exhibit"), 0.4), ("wind.wav", S[21], 0.3), ("paper.wav", w(23, "exhibit"), 0.4),
+            ("gallop.wav", S[25], 0.55), ("volley.wav", S[25] + 2.5, 0.4), ("volley.wav", S[26] + 0.5, 0.5), ("musket.wav", S[26] + 2.5, 0.4), ("musket.wav", w(27, "shot"), 0.5),
+            ("gallop.wav", w(27, "retreat"), 0.5), ("murmur.wav", S[29], 0.25), ("bugle.wav", S[30] + 1.0, 0.35), ("gallop.wav", w(30, "galloped"), 0.5), ("paper.wav", S[31], 0.4),
+            ("wind.wav", S[34], 0.4), ("wind.wav", S[36], 0.3), ("volley.wav", S[38] + 0.5, 0.35), ("musket.wav", S[38] + 2.5, 0.3), ("wind.wav", S[40], 0.35),
+            ("volley.wav", S[42] + 3, 0.25), ("musket.wav", S[43] + 1, 0.3), ("murmur.wav", S[44], 0.25), ("clock.wav", S[44] + 0.5, 0.3), ("paper.wav", S[44] + 0.3, 0.35),
+            ("gavel.wav", w(44, "censure"), 0.5), ("clock.wav", S[48], 0.25), ("volley.wav", w(50, "honors"), 0.35), ("impact.wav", S[51] + 0.2, 0.4),
+            ("whoosh.wav", S[52], 0.22), ("wind.wav", S[53], 0.3), ("gavel.wav", w(55, "guilty"), 0.6)]
     (ROOT / "src" / "data" / "sfx-cues.json").write_text(json.dumps([{"file": f, "at": round(a, 3), "volume": v} for f, a, v in cues], indent=1))
     m = score()
     m = m / (np.abs(m).max() + 1e-9) * 10 ** (-3 / 20)
