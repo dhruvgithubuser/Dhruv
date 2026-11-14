@@ -27,3 +27,25 @@ export const ThumbShort: React.FC = () => (
     <Img src={staticFile('assets/textures/grain_3.png')} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', mixBlendMode: 'overlay', opacity: 0.14 }} />
   </AbsoluteFill>
 );
+
+/** 16:9 version (1280×720): note left, Custer pointing, trumpeter galloping, stamp right. */
+export const ThumbWide: React.FC = () => (
+  <AbsoluteFill>
+    <Fonts />
+    <Frontier />
+    <div style={{ position: 'absolute', left: 50, top: 70, width: 420, height: 560, transform: 'rotate(-4deg)', background: '#f4eedf', padding: 12, boxShadow: '0 24px 50px rgba(20,12,4,0.6)' }}>
+      <Img src={staticFile('assets/archival/note.jpg')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 18%', filter: 'sepia(0.4) contrast(1.2)' }} />
+    </div>
+    <svg width={1280} height={720} style={{ position: 'absolute', inset: 0, overflow: 'visible' }}>
+      <CutoutDefs />
+      <Person x={600} y={640} s={0.95} coat="buckskin" head="assets/archival/head_custer.png" armR={84} nod={4} />
+      <Horse x={1040} y={700} s={0.75} phase={0.35} rider="trooper" coat="#5a3a22" />
+    </svg>
+    <div style={{ position: 'absolute', right: 40, top: 60, width: 560, textAlign: 'right' }}>
+      <div style={{ fontFamily: TYPE, fontWeight: 700, fontSize: 30, letterSpacing: 5, color: '#2a1d12' }}>CUSTER'S LAST ORDER</div>
+      <div style={{ display: 'inline-block', marginTop: 14, transform: 'rotate(-5deg)', fontFamily: HEAD, fontWeight: 700, fontSize: 96, lineHeight: 1, color: '#d8261c', border: '10px solid #d8261c', padding: '6px 22px', background: 'rgba(244,236,218,0.94)', borderRadius: 8, whiteSpace: 'nowrap' }}>HELP NEVER<br />CAME</div>
+    </div>
+    <Img src={staticFile('assets/textures/grain_3.png')} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', mixBlendMode: 'overlay', opacity: 0.14 }} />
+    <AbsoluteFill style={{ background: 'radial-gradient(ellipse 85% 80% at 50% 50%, rgba(0,0,0,0) 60%, rgba(40,25,10,0.45) 100%)' }} />
+  </AbsoluteFill>
+);
