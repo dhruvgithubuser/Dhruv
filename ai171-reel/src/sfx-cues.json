@@ -1,0 +1,72 @@
+[
+ {
+  "file": "boom.wav",
+  "at": 0.0,
+  "volume": 0.7
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 0.0,
+  "volume": 0.4
+ },
+ {
+  "file": "wind.wav",
+  "at": 5.966,
+  "volume": 0.35
+ },
+ {
+  "file": "airport.wav",
+  "at": 9.97,
+  "volume": 0.45
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 16.68,
+  "volume": 0.3
+ },
+ {
+  "file": "jet-roll.wav",
+  "at": 24.708,
+  "volume": 0.45
+ },
+ {
+  "file": "click.wav",
+  "at": 35.454,
+  "volume": 0.8
+ },
+ {
+  "file": "click.wav",
+  "at": 36.454,
+  "volume": 0.8
+ },
+ {
+  "file": "boom.wav",
+  "at": 35.454,
+  "volume": 0.35
+ },
+ {
+  "file": "click.wav",
+  "at": 44.759,
+  "volume": 0.7
+ },
+ {
+  "file": "click.wav",
+  "at": 45.459,
+  "volume": 0.7
+ },
+ {
+  "file": "radio.wav",
+  "at": 49.389,
+  "volume": 0.55
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 50.236,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 74.367,
+  "volume": 0.3
+ }
+]

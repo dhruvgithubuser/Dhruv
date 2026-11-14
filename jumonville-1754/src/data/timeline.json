@@ -1,0 +1,6754 @@
+{
+ "fps": 30,
+ "duration": 507.077,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "May 28, 1754. Dawn, in a rocky glen in the forests of western Pennsylvania.",
+   "start": 1.0,
+   "end": 7.501,
+   "words": [
+    {
+     "w": "May",
+     "start": 0.9,
+     "end": 1.12
+    },
+    {
+     "w": "28,",
+     "start": 1.12,
+     "end": 1.56
+    },
+    {
+     "w": "1754.",
+     "start": 1.94,
+     "end": 2.74
+    },
+    {
+     "w": "Dawn,",
+     "start": 3.7,
+     "end": 3.82
+    },
+    {
+     "w": "in",
+     "start": 4.3,
+     "end": 4.4
+    },
+    {
+     "w": "a",
+     "start": 4.4,
+     "end": 4.44
+    },
+    {
+     "w": "rocky",
+     "start": 4.44,
+     "end": 4.78
+    },
+    {
+     "w": "glen",
+     "start": 4.78,
+     "end": 5.12
+    },
+    {
+     "w": "in",
+     "start": 5.12,
+     "end": 5.38
+    },
+    {
+     "w": "the",
+     "start": 5.38,
+     "end": 5.5
+    },
+    {
+     "w": "forests",
+     "start": 5.5,
+     "end": 5.84
+    },
+    {
+     "w": "of",
+     "start": 5.84,
+     "end": 6.18
+    },
+    {
+     "w": "western",
+     "start": 6.18,
+     "end": 6.34
+    },
+    {
+     "w": "Pennsylvania.",
+     "start": 6.34,
+     "end": 7.12
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Forty Virginian soldiers and a dozen Native warriors creep into position around a French camp.",
+   "start": 8.051,
+   "end": 14.031,
+   "words": [
+    {
+     "w": "Forty",
+     "start": 8.051,
+     "end": 8.311
+    },
+    {
+     "w": "Virginian",
+     "start": 8.311,
+     "end": 8.991
+    },
+    {
+     "w": "soldiers",
+     "start": 8.991,
+     "end": 9.331
+    },
+    {
+     "w": "and",
+     "start": 9.331,
+     "end": 10.211
+    },
+    {
+     "w": "a",
+     "start": 10.211,
+     "end": 10.291
+    },
+    {
+     "w": "dozen",
+     "start": 10.291,
+     "end": 10.591
+    },
+    {
+     "w": "Native",
+     "start": 10.591,
+     "end": 10.991
+    },
+    {
+     "w": "warriors",
+     "start": 10.991,
+     "end": 11.411
+    },
+    {
+     "w": "creep",
+     "start": 11.411,
+     "end": 11.891
+    },
+    {
+     "w": "into",
+     "start": 11.891,
+     "end": 12.191
+    },
+    {
+     "w": "position",
+     "start": 12.191,
+     "end": 12.531
+    },
+    {
+     "w": "around",
+     "start": 12.531,
+     "end": 12.971
+    },
+    {
+     "w": "a",
+     "start": 12.971,
+     "end": 13.131
+    },
+    {
+     "w": "French",
+     "start": 13.131,
+     "end": 13.331
+    },
+    {
+     "w": "camp.",
+     "start": 13.331,
+     "end": 13.771
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Their commander is 22 years old. His name is George Washington.",
+   "start": 14.581,
+   "end": 19.047,
+   "words": [
+    {
+     "w": "Their",
+     "start": 14.481,
+     "end": 14.681
+    },
+    {
+     "w": "commander",
+     "start": 14.681,
+     "end": 14.941
+    },
+    {
+     "w": "is",
+     "start": 14.941,
+     "end": 15.361
+    },
+    {
+     "w": "22",
+     "start": 15.361,
+     "end": 15.601
+    },
+    {
+     "w": "years",
+     "start": 15.601,
+     "end": 16.061
+    },
+    {
+     "w": "old.",
+     "start": 16.061,
+     "end": 16.401
+    },
+    {
+     "w": "His",
+     "start": 16.801,
+     "end": 16.881
+    },
+    {
+     "w": "name",
+     "start": 16.881,
+     "end": 17.261
+    },
+    {
+     "w": "is",
+     "start": 17.261,
+     "end": 17.761
+    },
+    {
+     "w": "George",
+     "start": 17.761,
+     "end": 18.041
+    },
+    {
+     "w": "Washington.",
+     "start": 18.041,
+     "end": 18.641
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "The fight that follows lasts about fifteen minutes.",
+   "start": 19.747,
+   "end": 22.648,
+   "words": [
+    {
+     "w": "The",
+     "start": 19.647,
+     "end": 19.827
+    },
+    {
+     "w": "fight",
+     "start": 19.827,
+     "end": 20.067
+    },
+    {
+     "w": "that",
+     "start": 20.067,
+     "end": 20.267
+    },
+    {
+     "w": "follows",
+     "start": 20.267,
+     "end": 20.647
+    },
+    {
+     "w": "lasts",
+     "start": 20.647,
+     "end": 21.087
+    },
+    {
+     "w": "about",
+     "start": 21.087,
+     "end": 21.527
+    },
+    {
+     "w": "fifteen",
+     "start": 21.527,
+     "end": 21.907
+    },
+    {
+     "w": "minutes.",
+     "start": 21.907,
+     "end": 22.327
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "But it lights the fuse of a war that will spread across five continents, redraw the map of the world, and, twenty years later, help give birth to the United States.",
+   "start": 23.198,
+   "end": 32.439,
+   "words": [
+    {
+     "w": "But",
+     "start": 23.098,
+     "end": 23.278
+    },
+    {
+     "w": "it",
+     "start": 23.278,
+     "end": 23.358
+    },
+    {
+     "w": "lights",
+     "start": 23.358,
+     "end": 23.518
+    },
+    {
+     "w": "the",
+     "start": 23.518,
+     "end": 23.818
+    },
+    {
+     "w": "fuse",
+     "start": 23.818,
+     "end": 23.998
+    },
+    {
+     "w": "of",
+     "start": 23.998,
+     "end": 24.238
+    },
+    {
+     "w": "a",
+     "start": 24.238,
+     "end": 24.338
+    },
+    {
+     "w": "war",
+     "start": 24.338,
+     "end": 24.598
+    },
+    {
+     "w": "that",
+     "start": 24.598,
+     "end": 24.818
+    },
+    {
+     "w": "will",
+     "start": 24.818,
+     "end": 24.958
+    },
+    {
+     "w": "spread",
+     "start": 24.958,
+     "end": 25.178
+    },
+    {
+     "w": "across",
+     "start": 25.178,
+     "end": 25.458
+    },
+    {
+     "w": "five",
+     "start": 25.458,
+     "end": 25.958
+    },
+    {
+     "w": "continents,",
+     "start": 25.958,
+     "end": 26.418
+    },
+    {
+     "w": "redraw",
+     "start": 27.218,
+     "end": 27.498
+    },
+    {
+     "w": "the",
+     "start": 27.498,
+     "end": 27.678
+    },
+    {
+     "w": "map",
+     "start": 27.678,
+     "end": 27.858
+    },
+    {
+     "w": "of",
+     "start": 27.858,
+     "end": 28.018
+    },
+    {
+     "w": "the",
+     "start": 28.018,
+     "end": 28.138
+    },
+    {
+     "w": "world,",
+     "start": 28.138,
+     "end": 28.418
+    },
+    {
+     "w": "and,",
+     "start": 28.918,
+     "end": 28.978
+    },
+    {
+     "w": "twenty",
+     "start": 28.978,
+     "end": 29.358
+    },
+    {
+     "w": "years",
+     "start": 29.358,
+     "end": 29.658
+    },
+    {
+     "w": "later,",
+     "start": 29.658,
+     "end": 30.058
+    },
+    {
+     "w": "help",
+     "start": 30.358,
+     "end": 30.458
+    },
+    {
+     "w": "give",
+     "start": 30.458,
+     "end": 30.738
+    },
+    {
+     "w": "birth",
+     "start": 30.738,
+     "end": 31.018
+    },
+    {
+     "w": "to",
+     "start": 31.018,
+     "end": 31.298
+    },
+    {
+     "w": "the",
+     "start": 31.298,
+     "end": 31.398
+    },
+    {
+     "w": "United",
+     "start": 31.398,
+     "end": 31.578
+    },
+    {
+     "w": "States.",
+     "start": 31.578,
+     "end": 32.078
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "This is the story of the ambush at Jumonville Glen.",
+   "start": 33.039,
+   "end": 36.126,
+   "words": [
+    {
+     "w": "This",
+     "start": 32.939,
+     "end": 33.159
+    },
+    {
+     "w": "is",
+     "start": 33.159,
+     "end": 33.299
+    },
+    {
+     "w": "the",
+     "start": 33.299,
+     "end": 33.459
+    },
+    {
+     "w": "story",
+     "start": 33.459,
+     "end": 33.799
+    },
+    {
+     "w": "of",
+     "start": 33.799,
+     "end": 33.999
+    },
+    {
+     "w": "the",
+     "start": 33.999,
+     "end": 34.099
+    },
+    {
+     "w": "ambush",
+     "start": 34.099,
+     "end": 34.499
+    },
+    {
+     "w": "at",
+     "start": 34.499,
+     "end": 34.939
+    },
+    {
+     "w": "Jumonville",
+     "start": 34.939,
+     "end": 35.519
+    },
+    {
+     "w": "Glen.",
+     "start": 35.519,
+     "end": 35.759
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "In the 1750s, North America was split between two rival empires.",
+   "start": 37.726,
+   "end": 42.615,
+   "words": [
+    {
+     "w": "In",
+     "start": 37.626,
+     "end": 37.826
+    },
+    {
+     "w": "the",
+     "start": 37.826,
+     "end": 37.906
+    },
+    {
+     "w": "1750s,",
+     "start": 37.906,
+     "end": 39.146
+    },
+    {
+     "w": "North",
+     "start": 39.386,
+     "end": 39.686
+    },
+    {
+     "w": "America",
+     "start": 39.686,
+     "end": 40.006
+    },
+    {
+     "w": "was",
+     "start": 40.006,
+     "end": 40.366
+    },
+    {
+     "w": "split",
+     "start": 40.366,
+     "end": 40.626
+    },
+    {
+     "w": "between",
+     "start": 40.626,
+     "end": 41.006
+    },
+    {
+     "w": "two",
+     "start": 41.006,
+     "end": 41.326
+    },
+    {
+     "w": "rival",
+     "start": 41.326,
+     "end": 41.626
+    },
+    {
+     "w": "empires.",
+     "start": 41.626,
+     "end": 42.026
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Britain's thirteen colonies hugged the Atlantic coast: crowded, growing, and hungry for land.",
+   "start": 43.165,
+   "end": 48.66,
+   "words": [
+    {
+     "w": "Britain's",
+     "start": 43.065,
+     "end": 43.505
+    },
+    {
+     "w": "thirteen",
+     "start": 43.505,
+     "end": 43.745
+    },
+    {
+     "w": "colonies",
+     "start": 43.745,
+     "end": 44.305
+    },
+    {
+     "w": "hugged",
+     "start": 44.305,
+     "end": 44.705
+    },
+    {
+     "w": "the",
+     "start": 44.705,
+     "end": 44.885
+    },
+    {
+     "w": "Atlantic",
+     "start": 44.885,
+     "end": 45.145
+    },
+    {
+     "w": "coast:",
+     "start": 45.145,
+     "end": 45.625
+    },
+    {
+     "w": "crowded,",
+     "start": 46.125,
+     "end": 46.585
+    },
+    {
+     "w": "growing,",
+     "start": 46.905,
+     "end": 47.065
+    },
+    {
+     "w": "and",
+     "start": 47.065,
+     "end": 47.545
+    },
+    {
+     "w": "hungry",
+     "start": 47.545,
+     "end": 47.825
+    },
+    {
+     "w": "for",
+     "start": 47.825,
+     "end": 48.085
+    },
+    {
+     "w": "land.",
+     "start": 48.085,
+     "end": 48.365
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "France held a vast arc of territory, from Quebec, along the Great Lakes, down to New Orleans, linked by rivers and a thin chain of forts.",
+   "start": 49.21,
+   "end": 57.697,
+   "words": [
+    {
+     "w": "France",
+     "start": 49.11,
+     "end": 49.41
+    },
+    {
+     "w": "held",
+     "start": 49.41,
+     "end": 49.73
+    },
+    {
+     "w": "a",
+     "start": 49.73,
+     "end": 49.87
+    },
+    {
+     "w": "vast",
+     "start": 49.87,
+     "end": 50.11
+    },
+    {
+     "w": "arc",
+     "start": 50.11,
+     "end": 50.51
+    },
+    {
+     "w": "of",
+     "start": 50.51,
+     "end": 50.63
+    },
+    {
+     "w": "territory,",
+     "start": 50.63,
+     "end": 51.09
+    },
+    {
+     "w": "from",
+     "start": 51.09,
+     "end": 51.61
+    },
+    {
+     "w": "Quebec,",
+     "start": 51.61,
+     "end": 51.81
+    },
+    {
+     "w": "along",
+     "start": 52.37,
+     "end": 52.55
+    },
+    {
+     "w": "the",
+     "start": 52.55,
+     "end": 52.75
+    },
+    {
+     "w": "Great",
+     "start": 52.75,
+     "end": 52.93
+    },
+    {
+     "w": "Lakes,",
+     "start": 52.93,
+     "end": 53.21
+    },
+    {
+     "w": "down",
+     "start": 53.85,
+     "end": 53.99
+    },
+    {
+     "w": "to",
+     "start": 53.99,
+     "end": 54.19
+    },
+    {
+     "w": "New",
+     "start": 54.19,
+     "end": 54.31
+    },
+    {
+     "w": "Orleans,",
+     "start": 54.31,
+     "end": 54.63
+    },
+    {
+     "w": "linked",
+     "start": 55.07,
+     "end": 55.21
+    },
+    {
+     "w": "by",
+     "start": 55.21,
+     "end": 55.51
+    },
+    {
+     "w": "rivers",
+     "start": 55.51,
+     "end": 55.75
+    },
+    {
+     "w": "and",
+     "start": 55.75,
+     "end": 56.15
+    },
+    {
+     "w": "a",
+     "start": 56.15,
+     "end": 56.23
+    },
+    {
+     "w": "thin",
+     "start": 56.23,
+     "end": 56.45
+    },
+    {
+     "w": "chain",
+     "start": 56.45,
+     "end": 56.79
+    },
+    {
+     "w": "of",
+     "start": 56.79,
+     "end": 57.01
+    },
+    {
+     "w": "forts.",
+     "start": 57.01,
+     "end": 57.57
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Between them lay the Ohio Country: a rich wilderness of forests and rivers, home to the Shawnee, the Delaware, the Mingo and other nations, who traded with both sides and trusted neither.",
+   "start": 58.247,
+   "end": 69.814,
+   "words": [
+    {
+     "w": "Between",
+     "start": 58.147,
+     "end": 58.467
+    },
+    {
+     "w": "them",
+     "start": 58.467,
+     "end": 58.707
+    },
+    {
+     "w": "lay",
+     "start": 58.707,
+     "end": 58.887
+    },
+    {
+     "w": "the",
+     "start": 58.887,
+     "end": 59.087
+    },
+    {
+     "w": "Ohio",
+     "start": 59.087,
+     "end": 59.227
+    },
+    {
+     "w": "Country:",
+     "start": 59.227,
+     "end": 59.987
+    },
+    {
+     "w": "a",
+     "start": 60.627,
+     "end": 60.747
+    },
+    {
+     "w": "rich",
+     "start": 60.747,
+     "end": 60.987
+    },
+    {
+     "w": "wilderness",
+     "start": 60.987,
+     "end": 61.347
+    },
+    {
+     "w": "of",
+     "start": 61.347,
+     "end": 61.727
+    },
+    {
+     "w": "forests",
+     "start": 61.727,
+     "end": 62.107
+    },
+    {
+     "w": "and",
+     "start": 62.107,
+     "end": 62.507
+    },
+    {
+     "w": "rivers,",
+     "start": 62.507,
+     "end": 62.827
+    },
+    {
+     "w": "home",
+     "start": 63.367,
+     "end": 63.587
+    },
+    {
+     "w": "to",
+     "start": 63.587,
+     "end": 63.867
+    },
+    {
+     "w": "the",
+     "start": 63.867,
+     "end": 63.947
+    },
+    {
+     "w": "Shawnee,",
+     "start": 63.947,
+     "end": 64.467
+    },
+    {
+     "w": "the",
+     "start": 64.667,
+     "end": 64.667
+    },
+    {
+     "w": "Delaware,",
+     "start": 64.667,
+     "end": 64.947
+    },
+    {
+     "w": "the",
+     "start": 65.467,
+     "end": 65.507
+    },
+    {
+     "w": "Mingo",
+     "start": 65.507,
+     "end": 65.907
+    },
+    {
+     "w": "and",
+     "start": 66.067,
+     "end": 66.107
+    },
+    {
+     "w": "other",
+     "start": 66.107,
+     "end": 66.227
+    },
+    {
+     "w": "nations,",
+     "start": 66.227,
+     "end": 66.647
+    },
+    {
+     "w": "who",
+     "start": 66.647,
+     "end": 67.127
+    },
+    {
+     "w": "traded",
+     "start": 67.127,
+     "end": 67.367
+    },
+    {
+     "w": "with",
+     "start": 67.367,
+     "end": 67.707
+    },
+    {
+     "w": "both",
+     "start": 67.707,
+     "end": 67.927
+    },
+    {
+     "w": "sides",
+     "start": 67.927,
+     "end": 68.387
+    },
+    {
+     "w": "and",
+     "start": 68.387,
+     "end": 68.847
+    },
+    {
+     "w": "trusted",
+     "start": 68.847,
+     "end": 69.207
+    },
+    {
+     "w": "neither.",
+     "start": 69.207,
+     "end": 69.507
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "The powerful Iroquois Confederacy, the Six Nations, claimed authority over the region, and sent leaders like Tanacharison to speak for them.",
+   "start": 70.364,
+   "end": 78.992,
+   "words": [
+    {
+     "w": "The",
+     "start": 70.264,
+     "end": 70.444
+    },
+    {
+     "w": "powerful",
+     "start": 70.444,
+     "end": 70.884
+    },
+    {
+     "w": "Iroquois",
+     "start": 70.884,
+     "end": 71.584
+    },
+    {
+     "w": "Confederacy,",
+     "start": 71.584,
+     "end": 71.964
+    },
+    {
+     "w": "the",
+     "start": 72.664,
+     "end": 72.744
+    },
+    {
+     "w": "Six",
+     "start": 72.744,
+     "end": 72.944
+    },
+    {
+     "w": "Nations,",
+     "start": 72.944,
+     "end": 73.264
+    },
+    {
+     "w": "claimed",
+     "start": 73.944,
+     "end": 74.264
+    },
+    {
+     "w": "authority",
+     "start": 74.264,
+     "end": 74.704
+    },
+    {
+     "w": "over",
+     "start": 74.704,
+     "end": 75.164
+    },
+    {
+     "w": "the",
+     "start": 75.164,
+     "end": 75.284
+    },
+    {
+     "w": "region,",
+     "start": 75.284,
+     "end": 75.624
+    },
+    {
+     "w": "and",
+     "start": 76.204,
+     "end": 76.264
+    },
+    {
+     "w": "sent",
+     "start": 76.264,
+     "end": 76.484
+    },
+    {
+     "w": "leaders",
+     "start": 76.484,
+     "end": 76.904
+    },
+    {
+     "w": "like",
+     "start": 76.904,
+     "end": 77.244
+    },
+    {
+     "w": "Tanacharison",
+     "start": 77.244,
+     "end": 77.984
+    },
+    {
+     "w": "to",
+     "start": 77.984,
+     "end": 78.164
+    },
+    {
+     "w": "speak",
+     "start": 78.164,
+     "end": 78.364
+    },
+    {
+     "w": "for",
+     "start": 78.364,
+     "end": 78.664
+    },
+    {
+     "w": "them.",
+     "start": 78.664,
+     "end": 78.824
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Whoever controlled its rivers controlled the heart of the continent.",
+   "start": 79.542,
+   "end": 83.246,
+   "words": [
+    {
+     "w": "Whoever",
+     "start": 79.442,
+     "end": 79.742
+    },
+    {
+     "w": "controlled",
+     "start": 79.742,
+     "end": 80.142
+    },
+    {
+     "w": "its",
+     "start": 80.142,
+     "end": 80.582
+    },
+    {
+     "w": "rivers",
+     "start": 80.582,
+     "end": 80.822
+    },
+    {
+     "w": "controlled",
+     "start": 80.822,
+     "end": 81.322
+    },
+    {
+     "w": "the",
+     "start": 81.322,
+     "end": 81.742
+    },
+    {
+     "w": "heart",
+     "start": 81.742,
+     "end": 82.042
+    },
+    {
+     "w": "of",
+     "start": 82.042,
+     "end": 82.442
+    },
+    {
+     "w": "the",
+     "start": 82.442,
+     "end": 82.542
+    },
+    {
+     "w": "continent.",
+     "start": 82.542,
+     "end": 82.862
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "And the key to those rivers was a single point of land: the Forks of the Ohio, where the Allegheny and the Monongahela meet. Today, it is the city of Pittsburgh.",
+   "start": 83.796,
+   "end": 93.78,
+   "words": [
+    {
+     "w": "And",
+     "start": 83.696,
+     "end": 83.876
+    },
+    {
+     "w": "the",
+     "start": 83.876,
+     "end": 83.956
+    },
+    {
+     "w": "key",
+     "start": 83.956,
+     "end": 84.156
+    },
+    {
+     "w": "to",
+     "start": 84.156,
+     "end": 84.376
+    },
+    {
+     "w": "those",
+     "start": 84.376,
+     "end": 84.576
+    },
+    {
+     "w": "rivers",
+     "start": 84.576,
+     "end": 84.816
+    },
+    {
+     "w": "was",
+     "start": 84.816,
+     "end": 85.196
+    },
+    {
+     "w": "a",
+     "start": 85.196,
+     "end": 85.316
+    },
+    {
+     "w": "single",
+     "start": 85.316,
+     "end": 85.536
+    },
+    {
+     "w": "point",
+     "start": 85.536,
+     "end": 85.976
+    },
+    {
+     "w": "of",
+     "start": 85.976,
+     "end": 86.096
+    },
+    {
+     "w": "land:",
+     "start": 86.096,
+     "end": 86.336
+    },
+    {
+     "w": "the",
+     "start": 87.116,
+     "end": 87.116
+    },
+    {
+     "w": "Forks",
+     "start": 87.116,
+     "end": 87.376
+    },
+    {
+     "w": "of",
+     "start": 87.376,
+     "end": 87.656
+    },
+    {
+     "w": "the",
+     "start": 87.656,
+     "end": 87.776
+    },
+    {
+     "w": "Ohio,",
+     "start": 87.776,
+     "end": 87.996
+    },
+    {
+     "w": "where",
+     "start": 87.996,
+     "end": 88.736
+    },
+    {
+     "w": "the",
+     "start": 88.736,
+     "end": 88.856
+    },
+    {
+     "w": "Allegheny",
+     "start": 88.856,
+     "end": 89.376
+    },
+    {
+     "w": "and",
+     "start": 89.376,
+     "end": 89.616
+    },
+    {
+     "w": "the",
+     "start": 89.616,
+     "end": 89.716
+    },
+    {
+     "w": "Monongahela",
+     "start": 89.716,
+     "end": 90.576
+    },
+    {
+     "w": "meet.",
+     "start": 90.576,
+     "end": 91.576
+    },
+    {
+     "w": "Today,",
+     "start": 91.576,
+     "end": 91.736
+    },
+    {
+     "w": "it",
+     "start": 92.136,
+     "end": 92.256
+    },
+    {
+     "w": "is",
+     "start": 92.256,
+     "end": 92.356
+    },
+    {
+     "w": "the",
+     "start": 92.356,
+     "end": 92.516
+    },
+    {
+     "w": "city",
+     "start": 92.516,
+     "end": 92.796
+    },
+    {
+     "w": "of",
+     "start": 92.796,
+     "end": 92.996
+    },
+    {
+     "w": "Pittsburgh.",
+     "start": 92.996,
+     "end": 93.196
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "In 1753, the French began building forts south from Lake Erie, pushing into land that Virginia claimed.",
+   "start": 95.18,
+   "end": 102.441,
+   "words": [
+    {
+     "w": "In",
+     "start": 95.08,
+     "end": 95.28
+    },
+    {
+     "w": "1753,",
+     "start": 95.28,
+     "end": 96.3
+    },
+    {
+     "w": "the",
+     "start": 96.84,
+     "end": 97.1
+    },
+    {
+     "w": "French",
+     "start": 97.1,
+     "end": 97.32
+    },
+    {
+     "w": "began",
+     "start": 97.32,
+     "end": 97.64
+    },
+    {
+     "w": "building",
+     "start": 97.64,
+     "end": 98.14
+    },
+    {
+     "w": "forts",
+     "start": 98.14,
+     "end": 98.44
+    },
+    {
+     "w": "south",
+     "start": 98.44,
+     "end": 98.8
+    },
+    {
+     "w": "from",
+     "start": 98.8,
+     "end": 99.14
+    },
+    {
+     "w": "Lake",
+     "start": 99.14,
+     "end": 99.32
+    },
+    {
+     "w": "Erie,",
+     "start": 99.32,
+     "end": 99.58
+    },
+    {
+     "w": "pushing",
+     "start": 100.1,
+     "end": 100.4
+    },
+    {
+     "w": "into",
+     "start": 100.4,
+     "end": 100.62
+    },
+    {
+     "w": "land",
+     "start": 100.62,
+     "end": 100.96
+    },
+    {
+     "w": "that",
+     "start": 100.96,
+     "end": 101.22
+    },
+    {
+     "w": "Virginia",
+     "start": 101.22,
+     "end": 101.62
+    },
+    {
+     "w": "claimed.",
+     "start": 101.62,
+     "end": 102.14
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "Virginia's governor, Robert Dinwiddie, needed someone to carry a warning to the French commander: leave, or be removed.",
+   "start": 102.991,
+   "end": 110.385,
+   "words": [
+    {
+     "w": "Virginia's",
+     "start": 102.891,
+     "end": 103.611
+    },
+    {
+     "w": "governor,",
+     "start": 103.611,
+     "end": 103.951
+    },
+    {
+     "w": "Robert",
+     "start": 104.191,
+     "end": 104.451
+    },
+    {
+     "w": "Dinwiddie,",
+     "start": 104.451,
+     "end": 105.391
+    },
+    {
+     "w": "needed",
+     "start": 105.391,
+     "end": 105.491
+    },
+    {
+     "w": "someone",
+     "start": 105.491,
+     "end": 105.891
+    },
+    {
+     "w": "to",
+     "start": 105.891,
+     "end": 106.111
+    },
+    {
+     "w": "carry",
+     "start": 106.111,
+     "end": 106.351
+    },
+    {
+     "w": "a",
+     "start": 106.351,
+     "end": 106.491
+    },
+    {
+     "w": "warning",
+     "start": 106.491,
+     "end": 106.791
+    },
+    {
+     "w": "to",
+     "start": 106.791,
+     "end": 107.071
+    },
+    {
+     "w": "the",
+     "start": 107.071,
+     "end": 107.151
+    },
+    {
+     "w": "French",
+     "start": 107.151,
+     "end": 107.391
+    },
+    {
+     "w": "commander:",
+     "start": 107.391,
+     "end": 107.731
+    },
+    {
+     "w": "leave,",
+     "start": 108.791,
+     "end": 108.791
+    },
+    {
+     "w": "or",
+     "start": 108.791,
+     "end": 109.351
+    },
+    {
+     "w": "be",
+     "start": 109.351,
+     "end": 109.551
+    },
+    {
+     "w": "removed.",
+     "start": 109.551,
+     "end": 110.011
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "text": "He chose a 21-year-old surveyor and militia major with no combat experience: George Washington.",
+   "start": 110.935,
+   "end": 117.82,
+   "words": [
+    {
+     "w": "He",
+     "start": 110.835,
+     "end": 111.015
+    },
+    {
+     "w": "chose",
+     "start": 111.015,
+     "end": 111.255
+    },
+    {
+     "w": "a",
+     "start": 111.255,
+     "end": 111.455
+    },
+    {
+     "w": "21-year-old",
+     "start": 111.455,
+     "end": 112.495
+    },
+    {
+     "w": "surveyor",
+     "start": 112.495,
+     "end": 113.175
+    },
+    {
+     "w": "and",
+     "start": 113.175,
+     "end": 113.295
+    },
+    {
+     "w": "militia",
+     "start": 113.295,
+     "end": 113.495
+    },
+    {
+     "w": "major",
+     "start": 113.495,
+     "end": 113.975
+    },
+    {
+     "w": "with",
+     "start": 113.975,
+     "end": 114.475
+    },
+    {
+     "w": "no",
+     "start": 114.475,
+     "end": 114.735
+    },
+    {
+     "w": "combat",
+     "start": 114.735,
+     "end": 115.015
+    },
+    {
+     "w": "experience:",
+     "start": 115.015,
+     "end": 115.795
+    },
+    {
+     "w": "George",
+     "start": 116.855,
+     "end": 116.855
+    },
+    {
+     "w": "Washington.",
+     "start": 116.855,
+     "end": 117.395
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "text": "That winter, Washington traveled hundreds of miles through snow and forest to Fort Le Boeuf, near Lake Erie, and handed over the letter.",
+   "start": 118.37,
+   "end": 126.494,
+   "words": [
+    {
+     "w": "That",
+     "start": 118.27,
+     "end": 118.47
+    },
+    {
+     "w": "winter,",
+     "start": 118.47,
+     "end": 118.75
+    },
+    {
+     "w": "Washington",
+     "start": 119.11,
+     "end": 119.49
+    },
+    {
+     "w": "traveled",
+     "start": 119.49,
+     "end": 119.97
+    },
+    {
+     "w": "hundreds",
+     "start": 119.97,
+     "end": 120.41
+    },
+    {
+     "w": "of",
+     "start": 120.41,
+     "end": 120.69
+    },
+    {
+     "w": "miles",
+     "start": 120.69,
+     "end": 120.99
+    },
+    {
+     "w": "through",
+     "start": 120.99,
+     "end": 121.37
+    },
+    {
+     "w": "snow",
+     "start": 121.37,
+     "end": 121.63
+    },
+    {
+     "w": "and",
+     "start": 121.63,
+     "end": 122.05
+    },
+    {
+     "w": "forest",
+     "start": 122.05,
+     "end": 122.39
+    },
+    {
+     "w": "to",
+     "start": 122.39,
+     "end": 122.73
+    },
+    {
+     "w": "Fort",
+     "start": 122.73,
+     "end": 122.93
+    },
+    {
+     "w": "Le",
+     "start": 122.93,
+     "end": 123.07
+    },
+    {
+     "w": "Boeuf,",
+     "start": 123.07,
+     "end": 124.07
+    },
+    {
+     "w": "near",
+     "start": 124.07,
+     "end": 124.07
+    },
+    {
+     "w": "Lake",
+     "start": 124.07,
+     "end": 124.27
+    },
+    {
+     "w": "Erie,",
+     "start": 124.27,
+     "end": 124.61
+    },
+    {
+     "w": "and",
+     "start": 125.27,
+     "end": 125.31
+    },
+    {
+     "w": "handed",
+     "start": 125.31,
+     "end": 125.59
+    },
+    {
+     "w": "over",
+     "start": 125.59,
+     "end": 125.93
+    },
+    {
+     "w": "the",
+     "start": 125.93,
+     "end": 126.07
+    },
+    {
+     "w": "letter.",
+     "start": 126.07,
+     "end": 126.25
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "text": "His journal of the trip was printed in Williamsburg and in London. Almost overnight, the young major's name was known on both sides of the Atlantic.",
+   "start": 127.044,
+   "end": 136.175,
+   "words": [
+    {
+     "w": "His",
+     "start": 126.944,
+     "end": 127.164
+    },
+    {
+     "w": "journal",
+     "start": 127.164,
+     "end": 127.524
+    },
+    {
+     "w": "of",
+     "start": 127.524,
+     "end": 127.724
+    },
+    {
+     "w": "the",
+     "start": 127.724,
+     "end": 127.824
+    },
+    {
+     "w": "trip",
+     "start": 127.824,
+     "end": 128.064
+    },
+    {
+     "w": "was",
+     "start": 128.064,
+     "end": 128.324
+    },
+    {
+     "w": "printed",
+     "start": 128.324,
+     "end": 128.604
+    },
+    {
+     "w": "in",
+     "start": 128.604,
+     "end": 128.924
+    },
+    {
+     "w": "Williamsburg",
+     "start": 128.924,
+     "end": 129.584
+    },
+    {
+     "w": "and",
+     "start": 129.584,
+     "end": 129.984
+    },
+    {
+     "w": "in",
+     "start": 129.984,
+     "end": 130.084
+    },
+    {
+     "w": "London.",
+     "start": 130.084,
+     "end": 130.384
+    },
+    {
+     "w": "Almost",
+     "start": 131.504,
+     "end": 131.504
+    },
+    {
+     "w": "overnight,",
+     "start": 131.504,
+     "end": 132.004
+    },
+    {
+     "w": "the",
+     "start": 132.544,
+     "end": 132.624
+    },
+    {
+     "w": "young",
+     "start": 132.624,
+     "end": 132.824
+    },
+    {
+     "w": "major's",
+     "start": 132.824,
+     "end": 133.424
+    },
+    {
+     "w": "name",
+     "start": 133.424,
+     "end": 133.624
+    },
+    {
+     "w": "was",
+     "start": 133.624,
+     "end": 133.804
+    },
+    {
+     "w": "known",
+     "start": 133.804,
+     "end": 134.044
+    },
+    {
+     "w": "on",
+     "start": 134.044,
+     "end": 134.384
+    },
+    {
+     "w": "both",
+     "start": 134.384,
+     "end": 134.604
+    },
+    {
+     "w": "sides",
+     "start": 134.604,
+     "end": 135.104
+    },
+    {
+     "w": "of",
+     "start": 135.104,
+     "end": 135.284
+    },
+    {
+     "w": "the",
+     "start": 135.284,
+     "end": 135.424
+    },
+    {
+     "w": "Atlantic.",
+     "start": 135.424,
+     "end": 135.744
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "text": "The French reply was polite and absolutely clear: \"As to the summons you send me to retire, I do not think myself obliged to obey it.\"",
+   "start": 136.725,
+   "end": 145.453,
+   "words": [
+    {
+     "w": "The",
+     "start": 136.625,
+     "end": 136.805
+    },
+    {
+     "w": "French",
+     "start": 136.805,
+     "end": 137.025
+    },
+    {
+     "w": "reply",
+     "start": 137.025,
+     "end": 137.385
+    },
+    {
+     "w": "was",
+     "start": 137.385,
+     "end": 137.865
+    },
+    {
+     "w": "polite",
+     "start": 137.865,
+     "end": 138.185
+    },
+    {
+     "w": "and",
+     "start": 138.185,
+     "end": 138.805
+    },
+    {
+     "w": "absolutely",
+     "start": 138.805,
+     "end": 139.325
+    },
+    {
+     "w": "clear:",
+     "start": 139.325,
+     "end": 139.845
+    },
+    {
+     "w": "\"As",
+     "start": 140.745,
+     "end": 140.865
+    },
+    {
+     "w": "to",
+     "start": 140.865,
+     "end": 141.025
+    },
+    {
+     "w": "the",
+     "start": 141.025,
+     "end": 141.145
+    },
+    {
+     "w": "summons",
+     "start": 141.145,
+     "end": 141.405
+    },
+    {
+     "w": "you",
+     "start": 141.405,
+     "end": 141.685
+    },
+    {
+     "w": "send",
+     "start": 141.685,
+     "end": 141.885
+    },
+    {
+     "w": "me",
+     "start": 141.885,
+     "end": 142.065
+    },
+    {
+     "w": "to",
+     "start": 142.065,
+     "end": 142.205
+    },
+    {
+     "w": "retire,",
+     "start": 142.205,
+     "end": 142.405
+    },
+    {
+     "w": "I",
+     "start": 143.025,
+     "end": 143.105
+    },
+    {
+     "w": "do",
+     "start": 143.105,
+     "end": 143.205
+    },
+    {
+     "w": "not",
+     "start": 143.205,
+     "end": 143.385
+    },
+    {
+     "w": "think",
+     "start": 143.385,
+     "end": 143.625
+    },
+    {
+     "w": "myself",
+     "start": 143.625,
+     "end": 144.105
+    },
+    {
+     "w": "obliged",
+     "start": 144.105,
+     "end": 144.345
+    },
+    {
+     "w": "to",
+     "start": 144.345,
+     "end": 144.845
+    },
+    {
+     "w": "obey",
+     "start": 144.845,
+     "end": 145.045
+    },
+    {
+     "w": "it.\"",
+     "start": 145.045,
+     "end": 145.385
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "text": "Dinwiddie made Washington a lieutenant colonel and ordered a fort built at the Forks of the Ohio.",
+   "start": 146.853,
+   "end": 152.508,
+   "words": [
+    {
+     "w": "Dinwiddie",
+     "start": 146.853,
+     "end": 147.253
+    },
+    {
+     "w": "made",
+     "start": 147.253,
+     "end": 147.453
+    },
+    {
+     "w": "Washington",
+     "start": 147.453,
+     "end": 148.033
+    },
+    {
+     "w": "a",
+     "start": 148.033,
+     "end": 148.353
+    },
+    {
+     "w": "lieutenant",
+     "start": 148.353,
+     "end": 148.513
+    },
+    {
+     "w": "colonel",
+     "start": 148.513,
+     "end": 148.933
+    },
+    {
+     "w": "and",
+     "start": 148.933,
+     "end": 149.653
+    },
+    {
+     "w": "ordered",
+     "start": 149.653,
+     "end": 149.893
+    },
+    {
+     "w": "a",
+     "start": 149.893,
+     "end": 150.033
+    },
+    {
+     "w": "fort",
+     "start": 150.033,
+     "end": 150.333
+    },
+    {
+     "w": "built",
+     "start": 150.333,
+     "end": 150.693
+    },
+    {
+     "w": "at",
+     "start": 150.693,
+     "end": 150.873
+    },
+    {
+     "w": "the",
+     "start": 150.873,
+     "end": 150.973
+    },
+    {
+     "w": "Forks",
+     "start": 150.973,
+     "end": 151.273
+    },
+    {
+     "w": "of",
+     "start": 151.273,
+     "end": 151.573
+    },
+    {
+     "w": "the",
+     "start": 151.573,
+     "end": 151.713
+    },
+    {
+     "w": "Ohio.",
+     "start": 151.713,
+     "end": 151.893
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "text": "In February 1754, a small Virginian party began the work. Two months later, about five hundred French soldiers, militia and Native allies came down the Allegheny River.",
+   "start": 153.058,
+   "end": 165.031,
+   "words": [
+    {
+     "w": "In",
+     "start": 152.958,
+     "end": 153.158
+    },
+    {
+     "w": "February",
+     "start": 153.158,
+     "end": 153.458
+    },
+    {
+     "w": "1754,",
+     "start": 153.458,
+     "end": 154.598
+    },
+    {
+     "w": "a",
+     "start": 155.078,
+     "end": 155.238
+    },
+    {
+     "w": "small",
+     "start": 155.238,
+     "end": 155.538
+    },
+    {
+     "w": "Virginian",
+     "start": 155.538,
+     "end": 156.278
+    },
+    {
+     "w": "party",
+     "start": 156.278,
+     "end": 156.538
+    },
+    {
+     "w": "began",
+     "start": 156.538,
+     "end": 157.018
+    },
+    {
+     "w": "the",
+     "start": 157.018,
+     "end": 157.218
+    },
+    {
+     "w": "work.",
+     "start": 157.218,
+     "end": 157.458
+    },
+    {
+     "w": "Two",
+     "start": 158.218,
+     "end": 158.418
+    },
+    {
+     "w": "months",
+     "start": 158.418,
+     "end": 158.618
+    },
+    {
+     "w": "later,",
+     "start": 158.618,
+     "end": 159.038
+    },
+    {
+     "w": "about",
+     "start": 159.398,
+     "end": 159.638
+    },
+    {
+     "w": "five",
+     "start": 159.638,
+     "end": 159.888
+    },
+    {
+     "w": "hundred",
+     "start": 159.888,
+     "end": 160.138
+    },
+    {
+     "w": "French",
+     "start": 160.138,
+     "end": 160.678
+    },
+    {
+     "w": "soldiers,",
+     "start": 160.678,
+     "end": 161.258
+    },
+    {
+     "w": "militia",
+     "start": 161.778,
+     "end": 162.058
+    },
+    {
+     "w": "and",
+     "start": 162.058,
+     "end": 162.478
+    },
+    {
+     "w": "Native",
+     "start": 162.478,
+     "end": 162.738
+    },
+    {
+     "w": "allies",
+     "start": 162.738,
+     "end": 163.178
+    },
+    {
+     "w": "came",
+     "start": 163.178,
+     "end": 163.518
+    },
+    {
+     "w": "down",
+     "start": 163.518,
+     "end": 163.878
+    },
+    {
+     "w": "the",
+     "start": 163.878,
+     "end": 164.018
+    },
+    {
+     "w": "Allegheny",
+     "start": 164.018,
+     "end": 164.478
+    },
+    {
+     "w": "River.",
+     "start": 164.478,
+     "end": 164.838
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "text": "The thirty-six Virginians had no choice. They handed over the site, and the French began building their own stronghold: Fort Duquesne.",
+   "start": 165.581,
+   "end": 173.742,
+   "words": [
+    {
+     "w": "The",
+     "start": 165.481,
+     "end": 165.661
+    },
+    {
+     "w": "thirty-six",
+     "start": 165.661,
+     "end": 166.041
+    },
+    {
+     "w": "Virginians",
+     "start": 166.041,
+     "end": 166.981
+    },
+    {
+     "w": "had",
+     "start": 166.981,
+     "end": 167.261
+    },
+    {
+     "w": "no",
+     "start": 167.261,
+     "end": 167.481
+    },
+    {
+     "w": "choice.",
+     "start": 167.481,
+     "end": 167.841
+    },
+    {
+     "w": "They",
+     "start": 168.761,
+     "end": 168.781
+    },
+    {
+     "w": "handed",
+     "start": 168.781,
+     "end": 169.001
+    },
+    {
+     "w": "over",
+     "start": 169.001,
+     "end": 169.361
+    },
+    {
+     "w": "the",
+     "start": 169.361,
+     "end": 169.461
+    },
+    {
+     "w": "site,",
+     "start": 169.461,
+     "end": 169.741
+    },
+    {
+     "w": "and",
+     "start": 169.741,
+     "end": 170.021
+    },
+    {
+     "w": "the",
+     "start": 170.021,
+     "end": 170.121
+    },
+    {
+     "w": "French",
+     "start": 170.121,
+     "end": 170.301
+    },
+    {
+     "w": "began",
+     "start": 170.301,
+     "end": 170.681
+    },
+    {
+     "w": "building",
+     "start": 170.681,
+     "end": 171.141
+    },
+    {
+     "w": "their",
+     "start": 171.141,
+     "end": 171.401
+    },
+    {
+     "w": "own",
+     "start": 171.401,
+     "end": 171.601
+    },
+    {
+     "w": "stronghold:",
+     "start": 171.601,
+     "end": 172.181
+    },
+    {
+     "w": "Fort",
+     "start": 172.781,
+     "end": 172.901
+    },
+    {
+     "w": "Duquesne.",
+     "start": 172.901,
+     "end": 173.742
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "text": "Their commander, Captain Contrec\u0153ur, was under orders not to attack unless provoked. Instead, he sent a small party to find the Virginians and deliver a formal summons to leave.",
+   "start": 174.292,
+   "end": 185.594,
+   "words": [
+    {
+     "w": "Their",
+     "start": 174.192,
+     "end": 174.392
+    },
+    {
+     "w": "commander,",
+     "start": 174.392,
+     "end": 174.712
+    },
+    {
+     "w": "Captain",
+     "start": 175.052,
+     "end": 175.372
+    },
+    {
+     "w": "Contrec\u0153ur,",
+     "start": 175.372,
+     "end": 176.532
+    },
+    {
+     "w": "was",
+     "start": 176.532,
+     "end": 176.712
+    },
+    {
+     "w": "under",
+     "start": 176.712,
+     "end": 176.912
+    },
+    {
+     "w": "orders",
+     "start": 176.912,
+     "end": 177.312
+    },
+    {
+     "w": "not",
+     "start": 177.312,
+     "end": 177.592
+    },
+    {
+     "w": "to",
+     "start": 177.592,
+     "end": 177.832
+    },
+    {
+     "w": "attack",
+     "start": 177.832,
+     "end": 178.172
+    },
+    {
+     "w": "unless",
+     "start": 178.172,
+     "end": 178.472
+    },
+    {
+     "w": "provoked.",
+     "start": 178.472,
+     "end": 178.852
+    },
+    {
+     "w": "Instead,",
+     "start": 179.812,
+     "end": 180.152
+    },
+    {
+     "w": "he",
+     "start": 180.592,
+     "end": 180.632
+    },
+    {
+     "w": "sent",
+     "start": 180.632,
+     "end": 180.792
+    },
+    {
+     "w": "a",
+     "start": 180.792,
+     "end": 180.932
+    },
+    {
+     "w": "small",
+     "start": 180.932,
+     "end": 181.152
+    },
+    {
+     "w": "party",
+     "start": 181.152,
+     "end": 181.612
+    },
+    {
+     "w": "to",
+     "start": 181.612,
+     "end": 181.872
+    },
+    {
+     "w": "find",
+     "start": 181.872,
+     "end": 182.132
+    },
+    {
+     "w": "the",
+     "start": 182.132,
+     "end": 182.292
+    },
+    {
+     "w": "Virginians",
+     "start": 182.292,
+     "end": 182.892
+    },
+    {
+     "w": "and",
+     "start": 182.892,
+     "end": 183.392
+    },
+    {
+     "w": "deliver",
+     "start": 183.392,
+     "end": 183.672
+    },
+    {
+     "w": "a",
+     "start": 183.672,
+     "end": 183.932
+    },
+    {
+     "w": "formal",
+     "start": 183.932,
+     "end": 184.332
+    },
+    {
+     "w": "summons",
+     "start": 184.332,
+     "end": 184.612
+    },
+    {
+     "w": "to",
+     "start": 184.612,
+     "end": 185.012
+    },
+    {
+     "w": "leave.",
+     "start": 185.012,
+     "end": 185.212
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "text": "By then, Washington was already marching west with fewer than 160 men, under orders that one historian later called \"an invitation to start a war.\"",
+   "start": 186.144,
+   "end": 196.02,
+   "words": [
+    {
+     "w": "By",
+     "start": 186.044,
+     "end": 186.244
+    },
+    {
+     "w": "then,",
+     "start": 186.244,
+     "end": 186.544
+    },
+    {
+     "w": "Washington",
+     "start": 186.744,
+     "end": 187.104
+    },
+    {
+     "w": "was",
+     "start": 187.104,
+     "end": 187.484
+    },
+    {
+     "w": "already",
+     "start": 187.484,
+     "end": 187.824
+    },
+    {
+     "w": "marching",
+     "start": 187.824,
+     "end": 188.064
+    },
+    {
+     "w": "west",
+     "start": 188.064,
+     "end": 188.564
+    },
+    {
+     "w": "with",
+     "start": 188.564,
+     "end": 188.864
+    },
+    {
+     "w": "fewer",
+     "start": 188.864,
+     "end": 189.184
+    },
+    {
+     "w": "than",
+     "start": 189.184,
+     "end": 189.504
+    },
+    {
+     "w": "160",
+     "start": 189.504,
+     "end": 189.764
+    },
+    {
+     "w": "men,",
+     "start": 189.764,
+     "end": 190.804
+    },
+    {
+     "w": "under",
+     "start": 191.384,
+     "end": 191.584
+    },
+    {
+     "w": "orders",
+     "start": 191.584,
+     "end": 191.924
+    },
+    {
+     "w": "that",
+     "start": 191.924,
+     "end": 192.264
+    },
+    {
+     "w": "one",
+     "start": 192.264,
+     "end": 192.464
+    },
+    {
+     "w": "historian",
+     "start": 192.464,
+     "end": 192.704
+    },
+    {
+     "w": "later",
+     "start": 192.704,
+     "end": 193.324
+    },
+    {
+     "w": "called",
+     "start": 193.324,
+     "end": 193.664
+    },
+    {
+     "w": "\"an",
+     "start": 193.664,
+     "end": 194.324
+    },
+    {
+     "w": "invitation",
+     "start": 194.324,
+     "end": 194.604
+    },
+    {
+     "w": "to",
+     "start": 194.604,
+     "end": 195.144
+    },
+    {
+     "w": "start",
+     "start": 195.144,
+     "end": 195.344
+    },
+    {
+     "w": "a",
+     "start": 195.344,
+     "end": 195.524
+    },
+    {
+     "w": "war.\"",
+     "start": 195.524,
+     "end": 195.784
+    }
+   ]
+  },
+  {
+   "scene": 25,
+   "text": "He camped at a clearing called the Great Meadows. And there, he received a message.",
+   "start": 196.57,
+   "end": 201.074,
+   "words": [
+    {
+     "w": "He",
+     "start": 196.47,
+     "end": 196.65
+    },
+    {
+     "w": "camped",
+     "start": 196.65,
+     "end": 197.05
+    },
+    {
+     "w": "at",
+     "start": 197.05,
+     "end": 197.13
+    },
+    {
+     "w": "a",
+     "start": 197.13,
+     "end": 197.17
+    },
+    {
+     "w": "clearing",
+     "start": 197.17,
+     "end": 197.45
+    },
+    {
+     "w": "called",
+     "start": 197.45,
+     "end": 197.81
+    },
+    {
+     "w": "the",
+     "start": 197.81,
+     "end": 197.95
+    },
+    {
+     "w": "Great",
+     "start": 197.95,
+     "end": 198.13
+    },
+    {
+     "w": "Meadows.",
+     "start": 198.13,
+     "end": 198.43
+    },
+    {
+     "w": "And",
+     "start": 199.17,
+     "end": 199.33
+    },
+    {
+     "w": "there,",
+     "start": 199.33,
+     "end": 199.55
+    },
+    {
+     "w": "he",
+     "start": 199.55,
+     "end": 199.91
+    },
+    {
+     "w": "received",
+     "start": 199.91,
+     "end": 200.15
+    },
+    {
+     "w": "a",
+     "start": 200.15,
+     "end": 200.39
+    },
+    {
+     "w": "message.",
+     "start": 200.39,
+     "end": 200.69
+    }
+   ]
+  },
+  {
+   "scene": 26,
+   "text": "On May 27, the frontiersman Christopher Gist rode in with news: a French party was moving through the area.",
+   "start": 202.474,
+   "end": 209.828,
+   "words": [
+    {
+     "w": "On",
+     "start": 202.374,
+     "end": 202.594
+    },
+    {
+     "w": "May",
+     "start": 202.594,
+     "end": 202.754
+    },
+    {
+     "w": "27,",
+     "start": 202.754,
+     "end": 203.274
+    },
+    {
+     "w": "the",
+     "start": 203.814,
+     "end": 203.934
+    },
+    {
+     "w": "frontiersman",
+     "start": 203.934,
+     "end": 204.514
+    },
+    {
+     "w": "Christopher",
+     "start": 204.514,
+     "end": 204.854
+    },
+    {
+     "w": "Gist",
+     "start": 204.854,
+     "end": 205.394
+    },
+    {
+     "w": "rode",
+     "start": 205.394,
+     "end": 205.774
+    },
+    {
+     "w": "in",
+     "start": 205.774,
+     "end": 206.174
+    },
+    {
+     "w": "with",
+     "start": 206.174,
+     "end": 206.354
+    },
+    {
+     "w": "news:",
+     "start": 206.354,
+     "end": 206.574
+    },
+    {
+     "w": "a",
+     "start": 207.454,
+     "end": 207.494
+    },
+    {
+     "w": "French",
+     "start": 207.494,
+     "end": 207.714
+    },
+    {
+     "w": "party",
+     "start": 207.714,
+     "end": 208.234
+    },
+    {
+     "w": "was",
+     "start": 208.234,
+     "end": 208.474
+    },
+    {
+     "w": "moving",
+     "start": 208.474,
+     "end": 208.834
+    },
+    {
+     "w": "through",
+     "start": 208.834,
+     "end": 209.114
+    },
+    {
+     "w": "the",
+     "start": 209.114,
+     "end": 209.254
+    },
+    {
+     "w": "area.",
+     "start": 209.254,
+     "end": 209.594
+    }
+   ]
+  },
+  {
+   "scene": 27,
+   "text": "It came from Tanacharison, a Mingo leader the British called the Half King. He had found a French camp, hidden in a ravine a few miles away.",
+   "start": 210.378,
+   "end": 218.602,
+   "words": [
+    {
+     "w": "It",
+     "start": 210.278,
+     "end": 210.458
+    },
+    {
+     "w": "came",
+     "start": 210.458,
+     "end": 210.658
+    },
+    {
+     "w": "from",
+     "start": 210.658,
+     "end": 210.878
+    },
+    {
+     "w": "Tanacharison,",
+     "start": 210.878,
+     "end": 212.118
+    },
+    {
+     "w": "a",
+     "start": 212.118,
+     "end": 212.158
+    },
+    {
+     "w": "Mingo",
+     "start": 212.158,
+     "end": 212.538
+    },
+    {
+     "w": "leader",
+     "start": 212.538,
+     "end": 212.738
+    },
+    {
+     "w": "the",
+     "start": 212.738,
+     "end": 212.998
+    },
+    {
+     "w": "British",
+     "start": 212.998,
+     "end": 213.218
+    },
+    {
+     "w": "called",
+     "start": 213.218,
+     "end": 213.578
+    },
+    {
+     "w": "the",
+     "start": 213.578,
+     "end": 213.778
+    },
+    {
+     "w": "Half",
+     "start": 213.778,
+     "end": 213.938
+    },
+    {
+     "w": "King.",
+     "start": 213.938,
+     "end": 214.198
+    },
+    {
+     "w": "He",
+     "start": 214.978,
+     "end": 215.138
+    },
+    {
+     "w": "had",
+     "start": 215.138,
+     "end": 215.238
+    },
+    {
+     "w": "found",
+     "start": 215.238,
+     "end": 215.438
+    },
+    {
+     "w": "a",
+     "start": 215.438,
+     "end": 215.578
+    },
+    {
+     "w": "French",
+     "start": 215.578,
+     "end": 215.778
+    },
+    {
+     "w": "camp,",
+     "start": 215.778,
+     "end": 216.158
+    },
+    {
+     "w": "hidden",
+     "start": 216.158,
+     "end": 216.618
+    },
+    {
+     "w": "in",
+     "start": 216.618,
+     "end": 216.898
+    },
+    {
+     "w": "a",
+     "start": 216.898,
+     "end": 216.958
+    },
+    {
+     "w": "ravine",
+     "start": 216.958,
+     "end": 217.378
+    },
+    {
+     "w": "a",
+     "start": 217.378,
+     "end": 217.518
+    },
+    {
+     "w": "few",
+     "start": 217.518,
+     "end": 217.698
+    },
+    {
+     "w": "miles",
+     "start": 217.698,
+     "end": 217.958
+    },
+    {
+     "w": "away.",
+     "start": 217.958,
+     "end": 218.378
+    }
+   ]
+  },
+  {
+   "scene": 28,
+   "text": "Its commander was Ensign Joseph Coulon de Villiers de Jumonville, with about thirty-five men. He carried a written summons ordering the Virginians to leave, the same kind of message Washington had delivered months earlier.",
+   "start": 219.152,
+   "end": 232.619,
+   "words": [
+    {
+     "w": "Its",
+     "start": 219.052,
+     "end": 219.272
+    },
+    {
+     "w": "commander",
+     "start": 219.272,
+     "end": 219.572
+    },
+    {
+     "w": "was",
+     "start": 219.572,
+     "end": 219.992
+    },
+    {
+     "w": "Ensign",
+     "start": 219.992,
+     "end": 220.492
+    },
+    {
+     "w": "Joseph",
+     "start": 220.492,
+     "end": 220.952
+    },
+    {
+     "w": "Coulon",
+     "start": 220.952,
+     "end": 221.532
+    },
+    {
+     "w": "de",
+     "start": 221.532,
+     "end": 221.732
+    },
+    {
+     "w": "Villiers",
+     "start": 221.732,
+     "end": 222.152
+    },
+    {
+     "w": "de",
+     "start": 222.152,
+     "end": 222.332
+    },
+    {
+     "w": "Jumonville,",
+     "start": 222.332,
+     "end": 223.332
+    },
+    {
+     "w": "with",
+     "start": 223.332,
+     "end": 223.452
+    },
+    {
+     "w": "about",
+     "start": 223.452,
+     "end": 223.632
+    },
+    {
+     "w": "thirty-five",
+     "start": 223.632,
+     "end": 224.192
+    },
+    {
+     "w": "men.",
+     "start": 224.192,
+     "end": 224.852
+    },
+    {
+     "w": "He",
+     "start": 225.652,
+     "end": 225.772
+    },
+    {
+     "w": "carried",
+     "start": 225.772,
+     "end": 226.072
+    },
+    {
+     "w": "a",
+     "start": 226.072,
+     "end": 226.172
+    },
+    {
+     "w": "written",
+     "start": 226.172,
+     "end": 226.352
+    },
+    {
+     "w": "summons",
+     "start": 226.352,
+     "end": 226.732
+    },
+    {
+     "w": "ordering",
+     "start": 226.732,
+     "end": 227.312
+    },
+    {
+     "w": "the",
+     "start": 227.312,
+     "end": 227.512
+    },
+    {
+     "w": "Virginians",
+     "start": 227.512,
+     "end": 228.092
+    },
+    {
+     "w": "to",
+     "start": 228.092,
+     "end": 228.312
+    },
+    {
+     "w": "leave,",
+     "start": 228.312,
+     "end": 228.512
+    },
+    {
+     "w": "the",
+     "start": 229.192,
+     "end": 229.212
+    },
+    {
+     "w": "same",
+     "start": 229.212,
+     "end": 229.432
+    },
+    {
+     "w": "kind",
+     "start": 229.432,
+     "end": 229.712
+    },
+    {
+     "w": "of",
+     "start": 229.712,
+     "end": 229.832
+    },
+    {
+     "w": "message",
+     "start": 229.832,
+     "end": 230.192
+    },
+    {
+     "w": "Washington",
+     "start": 230.192,
+     "end": 230.532
+    },
+    {
+     "w": "had",
+     "start": 230.532,
+     "end": 231.172
+    },
+    {
+     "w": "delivered",
+     "start": 231.172,
+     "end": 231.472
+    },
+    {
+     "w": "months",
+     "start": 231.472,
+     "end": 231.832
+    },
+    {
+     "w": "earlier.",
+     "start": 231.832,
+     "end": 232.232
+    }
+   ]
+  },
+  {
+   "scene": 29,
+   "text": "Through a night of pouring rain, Washington and forty men followed Tanacharison's warriors through the dark forest.",
+   "start": 233.169,
+   "end": 239.919,
+   "words": [
+    {
+     "w": "Through",
+     "start": 233.069,
+     "end": 233.309
+    },
+    {
+     "w": "a",
+     "start": 233.309,
+     "end": 233.409
+    },
+    {
+     "w": "night",
+     "start": 233.409,
+     "end": 233.589
+    },
+    {
+     "w": "of",
+     "start": 233.589,
+     "end": 233.729
+    },
+    {
+     "w": "pouring",
+     "start": 233.729,
+     "end": 233.929
+    },
+    {
+     "w": "rain,",
+     "start": 233.929,
+     "end": 234.429
+    },
+    {
+     "w": "Washington",
+     "start": 234.889,
+     "end": 235.329
+    },
+    {
+     "w": "and",
+     "start": 235.329,
+     "end": 235.689
+    },
+    {
+     "w": "forty",
+     "start": 235.689,
+     "end": 235.909
+    },
+    {
+     "w": "men",
+     "start": 235.909,
+     "end": 236.249
+    },
+    {
+     "w": "followed",
+     "start": 236.249,
+     "end": 236.909
+    },
+    {
+     "w": "Tanacharison's",
+     "start": 236.909,
+     "end": 237.789
+    },
+    {
+     "w": "warriors",
+     "start": 237.789,
+     "end": 238.049
+    },
+    {
+     "w": "through",
+     "start": 238.429,
+     "end": 238.769
+    },
+    {
+     "w": "the",
+     "start": 238.769,
+     "end": 238.909
+    },
+    {
+     "w": "dark",
+     "start": 238.909,
+     "end": 239.129
+    },
+    {
+     "w": "forest.",
+     "start": 239.129,
+     "end": 239.509
+    }
+   ]
+  },
+  {
+   "scene": 30,
+   "text": "At dawn on May 28, they took positions behind the rocks above the French camp.",
+   "start": 240.469,
+   "end": 245.499,
+   "words": [
+    {
+     "w": "At",
+     "start": 240.369,
+     "end": 240.589
+    },
+    {
+     "w": "dawn",
+     "start": 240.589,
+     "end": 240.789
+    },
+    {
+     "w": "on",
+     "start": 240.789,
+     "end": 241.109
+    },
+    {
+     "w": "May",
+     "start": 241.109,
+     "end": 241.309
+    },
+    {
+     "w": "28,",
+     "start": 241.309,
+     "end": 242.449
+    },
+    {
+     "w": "they",
+     "start": 242.449,
+     "end": 242.549
+    },
+    {
+     "w": "took",
+     "start": 242.549,
+     "end": 242.709
+    },
+    {
+     "w": "positions",
+     "start": 242.709,
+     "end": 243.049
+    },
+    {
+     "w": "behind",
+     "start": 243.049,
+     "end": 243.569
+    },
+    {
+     "w": "the",
+     "start": 243.569,
+     "end": 243.749
+    },
+    {
+     "w": "rocks",
+     "start": 243.749,
+     "end": 243.989
+    },
+    {
+     "w": "above",
+     "start": 243.989,
+     "end": 244.429
+    },
+    {
+     "w": "the",
+     "start": 244.429,
+     "end": 244.629
+    },
+    {
+     "w": "French",
+     "start": 244.629,
+     "end": 244.849
+    },
+    {
+     "w": "camp.",
+     "start": 244.849,
+     "end": 245.229
+    }
+   ]
+  },
+  {
+   "scene": 31,
+   "text": "Someone saw them. A shot rang out. Washington gave the order to fire.",
+   "start": 246.049,
+   "end": 250.557,
+   "words": [
+    {
+     "w": "Someone",
+     "start": 245.949,
+     "end": 246.349
+    },
+    {
+     "w": "saw",
+     "start": 246.349,
+     "end": 246.669
+    },
+    {
+     "w": "them.",
+     "start": 246.669,
+     "end": 246.929
+    },
+    {
+     "w": "A",
+     "start": 247.129,
+     "end": 247.189
+    },
+    {
+     "w": "shot",
+     "start": 247.189,
+     "end": 247.409
+    },
+    {
+     "w": "rang",
+     "start": 247.409,
+     "end": 247.689
+    },
+    {
+     "w": "out.",
+     "start": 247.689,
+     "end": 248.009
+    },
+    {
+     "w": "Washington",
+     "start": 248.969,
+     "end": 248.969
+    },
+    {
+     "w": "gave",
+     "start": 248.969,
+     "end": 249.389
+    },
+    {
+     "w": "the",
+     "start": 249.389,
+     "end": 249.569
+    },
+    {
+     "w": "order",
+     "start": 249.569,
+     "end": 249.749
+    },
+    {
+     "w": "to",
+     "start": 249.749,
+     "end": 249.969
+    },
+    {
+     "w": "fire.",
+     "start": 249.969,
+     "end": 250.269
+    }
+   ]
+  },
+  {
+   "scene": 32,
+   "text": "The Virginians fired from the rocks. Some of the French grabbed their muskets. Others ran for the woods, straight into Tanacharison's warriors, and turned back to surrender.",
+   "start": 251.107,
+   "end": 260.918,
+   "words": [
+    {
+     "w": "The",
+     "start": 251.007,
+     "end": 251.187
+    },
+    {
+     "w": "Virginians",
+     "start": 251.187,
+     "end": 251.767
+    },
+    {
+     "w": "fired",
+     "start": 251.767,
+     "end": 252.027
+    },
+    {
+     "w": "from",
+     "start": 252.027,
+     "end": 252.427
+    },
+    {
+     "w": "the",
+     "start": 252.427,
+     "end": 252.547
+    },
+    {
+     "w": "rocks.",
+     "start": 252.547,
+     "end": 252.767
+    },
+    {
+     "w": "Some",
+     "start": 253.707,
+     "end": 253.707
+    },
+    {
+     "w": "of",
+     "start": 253.707,
+     "end": 253.787
+    },
+    {
+     "w": "the",
+     "start": 253.787,
+     "end": 253.887
+    },
+    {
+     "w": "French",
+     "start": 253.887,
+     "end": 254.107
+    },
+    {
+     "w": "grabbed",
+     "start": 254.107,
+     "end": 254.467
+    },
+    {
+     "w": "their",
+     "start": 254.467,
+     "end": 254.847
+    },
+    {
+     "w": "muskets.",
+     "start": 254.847,
+     "end": 255.307
+    },
+    {
+     "w": "Others",
+     "start": 255.947,
+     "end": 256.107
+    },
+    {
+     "w": "ran",
+     "start": 256.107,
+     "end": 256.427
+    },
+    {
+     "w": "for",
+     "start": 256.427,
+     "end": 256.747
+    },
+    {
+     "w": "the",
+     "start": 256.747,
+     "end": 256.847
+    },
+    {
+     "w": "woods,",
+     "start": 256.847,
+     "end": 257.107
+    },
+    {
+     "w": "straight",
+     "start": 257.107,
+     "end": 257.647
+    },
+    {
+     "w": "into",
+     "start": 257.647,
+     "end": 257.967
+    },
+    {
+     "w": "Tanacharison's",
+     "start": 257.967,
+     "end": 258.827
+    },
+    {
+     "w": "warriors,",
+     "start": 258.827,
+     "end": 259.067
+    },
+    {
+     "w": "and",
+     "start": 259.067,
+     "end": 259.547
+    },
+    {
+     "w": "turned",
+     "start": 259.547,
+     "end": 259.747
+    },
+    {
+     "w": "back",
+     "start": 259.747,
+     "end": 260.047
+    },
+    {
+     "w": "to",
+     "start": 260.047,
+     "end": 260.267
+    },
+    {
+     "w": "surrender.",
+     "start": 260.267,
+     "end": 260.487
+    }
+   ]
+  },
+  {
+   "scene": 33,
+   "text": "In about fifteen minutes, it was over. Jumonville and nine of his men were dead. Twenty-one were taken prisoner. Washington lost one man.",
+   "start": 261.468,
+   "end": 269.746,
+   "words": [
+    {
+     "w": "In",
+     "start": 261.368,
+     "end": 261.548
+    },
+    {
+     "w": "about",
+     "start": 261.548,
+     "end": 261.688
+    },
+    {
+     "w": "fifteen",
+     "start": 261.688,
+     "end": 262.048
+    },
+    {
+     "w": "minutes,",
+     "start": 262.048,
+     "end": 262.428
+    },
+    {
+     "w": "it",
+     "start": 262.428,
+     "end": 262.668
+    },
+    {
+     "w": "was",
+     "start": 262.668,
+     "end": 262.788
+    },
+    {
+     "w": "over.",
+     "start": 262.788,
+     "end": 263.108
+    },
+    {
+     "w": "Jumonville",
+     "start": 263.108,
+     "end": 264.048
+    },
+    {
+     "w": "and",
+     "start": 264.048,
+     "end": 264.308
+    },
+    {
+     "w": "nine",
+     "start": 264.308,
+     "end": 264.548
+    },
+    {
+     "w": "of",
+     "start": 264.548,
+     "end": 264.728
+    },
+    {
+     "w": "his",
+     "start": 264.728,
+     "end": 264.828
+    },
+    {
+     "w": "men",
+     "start": 264.828,
+     "end": 265.048
+    },
+    {
+     "w": "were",
+     "start": 265.048,
+     "end": 265.268
+    },
+    {
+     "w": "dead.",
+     "start": 265.268,
+     "end": 265.508
+    },
+    {
+     "w": "Twenty-one",
+     "start": 265.508,
+     "end": 266.568
+    },
+    {
+     "w": "were",
+     "start": 266.568,
+     "end": 266.728
+    },
+    {
+     "w": "taken",
+     "start": 266.728,
+     "end": 266.988
+    },
+    {
+     "w": "prisoner.",
+     "start": 266.988,
+     "end": 267.288
+    },
+    {
+     "w": "Washington",
+     "start": 268.488,
+     "end": 268.488
+    },
+    {
+     "w": "lost",
+     "start": 268.488,
+     "end": 268.868
+    },
+    {
+     "w": "one",
+     "start": 268.868,
+     "end": 269.168
+    },
+    {
+     "w": "man.",
+     "start": 269.168,
+     "end": 269.508
+    }
+   ]
+  },
+  {
+   "scene": 34,
+   "text": "Afterward, he wrote to his brother: \"I heard the bullets whistle, and believe me, there was something charming in the sound.\"",
+   "start": 270.296,
+   "end": 276.734,
+   "words": [
+    {
+     "w": "Afterward,",
+     "start": 270.196,
+     "end": 270.776
+    },
+    {
+     "w": "he",
+     "start": 270.776,
+     "end": 270.916
+    },
+    {
+     "w": "wrote",
+     "start": 270.916,
+     "end": 271.096
+    },
+    {
+     "w": "to",
+     "start": 271.096,
+     "end": 271.296
+    },
+    {
+     "w": "his",
+     "start": 271.296,
+     "end": 271.436
+    },
+    {
+     "w": "brother:",
+     "start": 271.436,
+     "end": 271.656
+    },
+    {
+     "w": "\"I",
+     "start": 272.136,
+     "end": 272.436
+    },
+    {
+     "w": "heard",
+     "start": 272.436,
+     "end": 272.656
+    },
+    {
+     "w": "the",
+     "start": 272.656,
+     "end": 272.796
+    },
+    {
+     "w": "bullets",
+     "start": 272.796,
+     "end": 273.036
+    },
+    {
+     "w": "whistle,",
+     "start": 273.036,
+     "end": 273.416
+    },
+    {
+     "w": "and",
+     "start": 273.416,
+     "end": 273.836
+    },
+    {
+     "w": "believe",
+     "start": 273.836,
+     "end": 274.136
+    },
+    {
+     "w": "me,",
+     "start": 274.136,
+     "end": 274.456
+    },
+    {
+     "w": "there",
+     "start": 274.456,
+     "end": 274.796
+    },
+    {
+     "w": "was",
+     "start": 274.796,
+     "end": 274.876
+    },
+    {
+     "w": "something",
+     "start": 274.876,
+     "end": 275.196
+    },
+    {
+     "w": "charming",
+     "start": 275.196,
+     "end": 275.496
+    },
+    {
+     "w": "in",
+     "start": 275.496,
+     "end": 275.936
+    },
+    {
+     "w": "the",
+     "start": 275.936,
+     "end": 276.076
+    },
+    {
+     "w": "sound.\"",
+     "start": 276.076,
+     "end": 276.456
+    }
+   ]
+  },
+  {
+   "scene": 35,
+   "text": "But how Jumonville died became one of the most disputed moments in early American history.",
+   "start": 278.134,
+   "end": 283.3,
+   "words": [
+    {
+     "w": "But",
+     "start": 278.034,
+     "end": 278.214
+    },
+    {
+     "w": "how",
+     "start": 278.214,
+     "end": 278.354
+    },
+    {
+     "w": "Jumonville",
+     "start": 278.354,
+     "end": 278.934
+    },
+    {
+     "w": "died",
+     "start": 278.934,
+     "end": 279.314
+    },
+    {
+     "w": "became",
+     "start": 279.314,
+     "end": 279.734
+    },
+    {
+     "w": "one",
+     "start": 279.734,
+     "end": 280.034
+    },
+    {
+     "w": "of",
+     "start": 280.034,
+     "end": 280.114
+    },
+    {
+     "w": "the",
+     "start": 280.114,
+     "end": 280.214
+    },
+    {
+     "w": "most",
+     "start": 280.214,
+     "end": 280.374
+    },
+    {
+     "w": "disputed",
+     "start": 280.374,
+     "end": 280.794
+    },
+    {
+     "w": "moments",
+     "start": 280.794,
+     "end": 281.334
+    },
+    {
+     "w": "in",
+     "start": 281.334,
+     "end": 281.774
+    },
+    {
+     "w": "early",
+     "start": 281.774,
+     "end": 282.034
+    },
+    {
+     "w": "American",
+     "start": 282.034,
+     "end": 282.574
+    },
+    {
+     "w": "history.",
+     "start": 282.574,
+     "end": 282.954
+    }
+   ]
+  },
+  {
+   "scene": 36,
+   "text": "French reports said he was shot in the head while his summons was being read aloud.",
+   "start": 283.85,
+   "end": 288.556,
+   "words": [
+    {
+     "w": "French",
+     "start": 283.75,
+     "end": 284.03
+    },
+    {
+     "w": "reports",
+     "start": 284.03,
+     "end": 284.37
+    },
+    {
+     "w": "said",
+     "start": 284.37,
+     "end": 284.85
+    },
+    {
+     "w": "he",
+     "start": 284.85,
+     "end": 284.97
+    },
+    {
+     "w": "was",
+     "start": 284.97,
+     "end": 285.07
+    },
+    {
+     "w": "shot",
+     "start": 285.07,
+     "end": 285.33
+    },
+    {
+     "w": "in",
+     "start": 285.33,
+     "end": 285.57
+    },
+    {
+     "w": "the",
+     "start": 285.57,
+     "end": 285.67
+    },
+    {
+     "w": "head",
+     "start": 285.67,
+     "end": 285.91
+    },
+    {
+     "w": "while",
+     "start": 285.91,
+     "end": 286.49
+    },
+    {
+     "w": "his",
+     "start": 286.49,
+     "end": 286.65
+    },
+    {
+     "w": "summons",
+     "start": 286.65,
+     "end": 286.89
+    },
+    {
+     "w": "was",
+     "start": 286.89,
+     "end": 287.29
+    },
+    {
+     "w": "being",
+     "start": 287.29,
+     "end": 287.57
+    },
+    {
+     "w": "read",
+     "start": 287.57,
+     "end": 287.79
+    },
+    {
+     "w": "aloud.",
+     "start": 287.79,
+     "end": 288.25
+    }
+   ]
+  },
+  {
+   "scene": 37,
+   "text": "Other accounts said Tanacharison himself stepped up to the wounded officer and killed him with a hatchet.",
+   "start": 289.106,
+   "end": 294.852,
+   "words": [
+    {
+     "w": "Other",
+     "start": 289.006,
+     "end": 289.266
+    },
+    {
+     "w": "accounts",
+     "start": 289.266,
+     "end": 289.606
+    },
+    {
+     "w": "said",
+     "start": 289.606,
+     "end": 289.966
+    },
+    {
+     "w": "Tanacharison",
+     "start": 289.966,
+     "end": 290.706
+    },
+    {
+     "w": "himself",
+     "start": 290.706,
+     "end": 290.986
+    },
+    {
+     "w": "stepped",
+     "start": 290.986,
+     "end": 291.506
+    },
+    {
+     "w": "up",
+     "start": 291.506,
+     "end": 291.766
+    },
+    {
+     "w": "to",
+     "start": 291.766,
+     "end": 291.946
+    },
+    {
+     "w": "the",
+     "start": 291.946,
+     "end": 292.026
+    },
+    {
+     "w": "wounded",
+     "start": 292.026,
+     "end": 292.206
+    },
+    {
+     "w": "officer",
+     "start": 292.206,
+     "end": 292.666
+    },
+    {
+     "w": "and",
+     "start": 292.666,
+     "end": 293.426
+    },
+    {
+     "w": "killed",
+     "start": 293.426,
+     "end": 293.686
+    },
+    {
+     "w": "him",
+     "start": 293.686,
+     "end": 293.946
+    },
+    {
+     "w": "with",
+     "start": 293.946,
+     "end": 294.126
+    },
+    {
+     "w": "a",
+     "start": 294.126,
+     "end": 294.226
+    },
+    {
+     "w": "hatchet.",
+     "start": 294.226,
+     "end": 294.706
+    }
+   ]
+  },
+  {
+   "scene": 38,
+   "text": "Washington's own accounts are brief. One historian believes they were written to hide what happened after the shooting stopped.",
+   "start": 295.402,
+   "end": 302.56,
+   "words": [
+    {
+     "w": "Washington's",
+     "start": 295.302,
+     "end": 296.042
+    },
+    {
+     "w": "own",
+     "start": 296.042,
+     "end": 296.222
+    },
+    {
+     "w": "accounts",
+     "start": 296.222,
+     "end": 296.462
+    },
+    {
+     "w": "are",
+     "start": 296.462,
+     "end": 296.962
+    },
+    {
+     "w": "brief.",
+     "start": 296.962,
+     "end": 297.242
+    },
+    {
+     "w": "One",
+     "start": 298.162,
+     "end": 298.162
+    },
+    {
+     "w": "historian",
+     "start": 298.162,
+     "end": 298.422
+    },
+    {
+     "w": "believes",
+     "start": 298.422,
+     "end": 299.102
+    },
+    {
+     "w": "they",
+     "start": 299.102,
+     "end": 299.562
+    },
+    {
+     "w": "were",
+     "start": 299.562,
+     "end": 299.662
+    },
+    {
+     "w": "written",
+     "start": 299.662,
+     "end": 299.862
+    },
+    {
+     "w": "to",
+     "start": 299.862,
+     "end": 300.062
+    },
+    {
+     "w": "hide",
+     "start": 300.062,
+     "end": 300.322
+    },
+    {
+     "w": "what",
+     "start": 300.322,
+     "end": 300.582
+    },
+    {
+     "w": "happened",
+     "start": 300.582,
+     "end": 301.002
+    },
+    {
+     "w": "after",
+     "start": 301.002,
+     "end": 301.262
+    },
+    {
+     "w": "the",
+     "start": 301.262,
+     "end": 301.502
+    },
+    {
+     "w": "shooting",
+     "start": 301.502,
+     "end": 301.702
+    },
+    {
+     "w": "stopped.",
+     "start": 301.702,
+     "end": 302.282
+    }
+   ]
+  },
+  {
+   "scene": 39,
+   "text": "To the French, Jumonville was a diplomat, murdered on a peaceful mission. To the Virginians, he was a spy, whose men had been shadowing their camp.",
+   "start": 303.11,
+   "end": 311.636,
+   "words": [
+    {
+     "w": "To",
+     "start": 303.01,
+     "end": 303.19
+    },
+    {
+     "w": "the",
+     "start": 303.19,
+     "end": 303.27
+    },
+    {
+     "w": "French,",
+     "start": 303.27,
+     "end": 303.53
+    },
+    {
+     "w": "Jumonville",
+     "start": 303.53,
+     "end": 304.23
+    },
+    {
+     "w": "was",
+     "start": 304.23,
+     "end": 304.45
+    },
+    {
+     "w": "a",
+     "start": 304.45,
+     "end": 304.55
+    },
+    {
+     "w": "diplomat,",
+     "start": 304.55,
+     "end": 304.85
+    },
+    {
+     "w": "murdered",
+     "start": 305.63,
+     "end": 305.63
+    },
+    {
+     "w": "on",
+     "start": 305.63,
+     "end": 305.93
+    },
+    {
+     "w": "a",
+     "start": 305.93,
+     "end": 306.03
+    },
+    {
+     "w": "peaceful",
+     "start": 306.03,
+     "end": 306.27
+    },
+    {
+     "w": "mission.",
+     "start": 306.27,
+     "end": 306.79
+    },
+    {
+     "w": "To",
+     "start": 307.57,
+     "end": 307.61
+    },
+    {
+     "w": "the",
+     "start": 307.61,
+     "end": 307.69
+    },
+    {
+     "w": "Virginians,",
+     "start": 307.69,
+     "end": 308.31
+    },
+    {
+     "w": "he",
+     "start": 308.53,
+     "end": 308.55
+    },
+    {
+     "w": "was",
+     "start": 308.55,
+     "end": 308.65
+    },
+    {
+     "w": "a",
+     "start": 308.65,
+     "end": 308.77
+    },
+    {
+     "w": "spy,",
+     "start": 308.77,
+     "end": 309.05
+    },
+    {
+     "w": "whose",
+     "start": 309.05,
+     "end": 309.71
+    },
+    {
+     "w": "men",
+     "start": 309.71,
+     "end": 309.99
+    },
+    {
+     "w": "had",
+     "start": 309.99,
+     "end": 310.19
+    },
+    {
+     "w": "been",
+     "start": 310.19,
+     "end": 310.37
+    },
+    {
+     "w": "shadowing",
+     "start": 310.37,
+     "end": 310.89
+    },
+    {
+     "w": "their",
+     "start": 310.89,
+     "end": 311.03
+    },
+    {
+     "w": "camp.",
+     "start": 311.03,
+     "end": 311.29
+    }
+   ]
+  },
+  {
+   "scene": 40,
+   "text": "The truth may never be known. But the consequences arrived quickly.",
+   "start": 312.186,
+   "end": 316.207,
+   "words": [
+    {
+     "w": "The",
+     "start": 312.086,
+     "end": 312.266
+    },
+    {
+     "w": "truth",
+     "start": 312.266,
+     "end": 312.506
+    },
+    {
+     "w": "may",
+     "start": 312.506,
+     "end": 312.766
+    },
+    {
+     "w": "never",
+     "start": 312.766,
+     "end": 313.086
+    },
+    {
+     "w": "be",
+     "start": 313.086,
+     "end": 313.266
+    },
+    {
+     "w": "known.",
+     "start": 313.266,
+     "end": 313.526
+    },
+    {
+     "w": "But",
+     "start": 314.066,
+     "end": 314.166
+    },
+    {
+     "w": "the",
+     "start": 314.166,
+     "end": 314.266
+    },
+    {
+     "w": "consequences",
+     "start": 314.266,
+     "end": 314.666
+    },
+    {
+     "w": "arrived",
+     "start": 314.666,
+     "end": 315.326
+    },
+    {
+     "w": "quickly.",
+     "start": 315.326,
+     "end": 315.746
+    }
+   ]
+  },
+  {
+   "scene": 41,
+   "text": "Washington knew the French would come. At the Great Meadows, his men threw up a small, round stockade. He called it Fort Necessity.",
+   "start": 317.607,
+   "end": 325.628,
+   "words": [
+    {
+     "w": "Washington",
+     "start": 317.507,
+     "end": 317.987
+    },
+    {
+     "w": "knew",
+     "start": 317.987,
+     "end": 318.367
+    },
+    {
+     "w": "the",
+     "start": 318.367,
+     "end": 318.507
+    },
+    {
+     "w": "French",
+     "start": 318.507,
+     "end": 318.747
+    },
+    {
+     "w": "would",
+     "start": 318.747,
+     "end": 318.987
+    },
+    {
+     "w": "come.",
+     "start": 318.987,
+     "end": 319.327
+    },
+    {
+     "w": "At",
+     "start": 320.047,
+     "end": 320.087
+    },
+    {
+     "w": "the",
+     "start": 320.087,
+     "end": 320.187
+    },
+    {
+     "w": "Great",
+     "start": 320.187,
+     "end": 320.367
+    },
+    {
+     "w": "Meadows,",
+     "start": 320.367,
+     "end": 320.687
+    },
+    {
+     "w": "his",
+     "start": 321.067,
+     "end": 321.127
+    },
+    {
+     "w": "men",
+     "start": 321.127,
+     "end": 321.347
+    },
+    {
+     "w": "threw",
+     "start": 321.347,
+     "end": 321.707
+    },
+    {
+     "w": "up",
+     "start": 321.707,
+     "end": 321.867
+    },
+    {
+     "w": "a",
+     "start": 321.867,
+     "end": 321.967
+    },
+    {
+     "w": "small,",
+     "start": 321.967,
+     "end": 322.347
+    },
+    {
+     "w": "round",
+     "start": 322.347,
+     "end": 322.747
+    },
+    {
+     "w": "stockade.",
+     "start": 322.747,
+     "end": 323.627
+    },
+    {
+     "w": "He",
+     "start": 324.087,
+     "end": 324.167
+    },
+    {
+     "w": "called",
+     "start": 324.167,
+     "end": 324.387
+    },
+    {
+     "w": "it",
+     "start": 324.387,
+     "end": 324.547
+    },
+    {
+     "w": "Fort",
+     "start": 324.547,
+     "end": 324.787
+    },
+    {
+     "w": "Necessity.",
+     "start": 324.787,
+     "end": 325.467
+    }
+   ]
+  },
+  {
+   "scene": 42,
+   "text": "It was a poor position: a low, wet meadow, with wooded high ground inside musket range. A company of British regulars from South Carolina joined him, bringing his force to about four hundred.",
+   "start": 326.178,
+   "end": 338.198,
+   "words": [
+    {
+     "w": "It",
+     "start": 326.078,
+     "end": 326.238
+    },
+    {
+     "w": "was",
+     "start": 326.238,
+     "end": 326.338
+    },
+    {
+     "w": "a",
+     "start": 326.338,
+     "end": 326.438
+    },
+    {
+     "w": "poor",
+     "start": 326.438,
+     "end": 326.618
+    },
+    {
+     "w": "position:",
+     "start": 326.618,
+     "end": 327.058
+    },
+    {
+     "w": "a",
+     "start": 327.558,
+     "end": 327.698
+    },
+    {
+     "w": "low,",
+     "start": 327.698,
+     "end": 327.938
+    },
+    {
+     "w": "wet",
+     "start": 327.938,
+     "end": 328.358
+    },
+    {
+     "w": "meadow,",
+     "start": 328.358,
+     "end": 328.738
+    },
+    {
+     "w": "with",
+     "start": 328.738,
+     "end": 329.118
+    },
+    {
+     "w": "wooded",
+     "start": 329.118,
+     "end": 329.398
+    },
+    {
+     "w": "high",
+     "start": 329.398,
+     "end": 329.638
+    },
+    {
+     "w": "ground",
+     "start": 329.638,
+     "end": 330.098
+    },
+    {
+     "w": "inside",
+     "start": 330.098,
+     "end": 330.338
+    },
+    {
+     "w": "musket",
+     "start": 330.338,
+     "end": 331.078
+    },
+    {
+     "w": "range.",
+     "start": 331.078,
+     "end": 331.338
+    },
+    {
+     "w": "A",
+     "start": 332.258,
+     "end": 332.318
+    },
+    {
+     "w": "company",
+     "start": 332.318,
+     "end": 332.638
+    },
+    {
+     "w": "of",
+     "start": 332.638,
+     "end": 332.878
+    },
+    {
+     "w": "British",
+     "start": 332.878,
+     "end": 333.198
+    },
+    {
+     "w": "regulars",
+     "start": 333.198,
+     "end": 333.458
+    },
+    {
+     "w": "from",
+     "start": 333.458,
+     "end": 334.018
+    },
+    {
+     "w": "South",
+     "start": 334.018,
+     "end": 334.198
+    },
+    {
+     "w": "Carolina",
+     "start": 334.198,
+     "end": 334.838
+    },
+    {
+     "w": "joined",
+     "start": 334.838,
+     "end": 335.238
+    },
+    {
+     "w": "him,",
+     "start": 335.238,
+     "end": 335.618
+    },
+    {
+     "w": "bringing",
+     "start": 335.998,
+     "end": 336.198
+    },
+    {
+     "w": "his",
+     "start": 336.198,
+     "end": 336.438
+    },
+    {
+     "w": "force",
+     "start": 336.438,
+     "end": 336.698
+    },
+    {
+     "w": "to",
+     "start": 336.698,
+     "end": 336.998
+    },
+    {
+     "w": "about",
+     "start": 336.998,
+     "end": 337.218
+    },
+    {
+     "w": "four",
+     "start": 337.218,
+     "end": 337.708
+    },
+    {
+     "w": "hundred.",
+     "start": 337.708,
+     "end": 338.198
+    }
+   ]
+  },
+  {
+   "scene": 43,
+   "text": "On July 3, about six hundred French and Canadian soldiers and a hundred Native warriors arrived. Their commander was Louis Coulon de Villiers: Jumonville's older brother.",
+   "start": 338.748,
+   "end": 349.728,
+   "words": [
+    {
+     "w": "On",
+     "start": 338.648,
+     "end": 338.868
+    },
+    {
+     "w": "July",
+     "start": 338.868,
+     "end": 338.988
+    },
+    {
+     "w": "3,",
+     "start": 338.988,
+     "end": 339.488
+    },
+    {
+     "w": "about",
+     "start": 339.708,
+     "end": 340.008
+    },
+    {
+     "w": "six",
+     "start": 340.008,
+     "end": 340.178
+    },
+    {
+     "w": "hundred",
+     "start": 340.178,
+     "end": 340.348
+    },
+    {
+     "w": "French",
+     "start": 340.348,
+     "end": 340.988
+    },
+    {
+     "w": "and",
+     "start": 340.988,
+     "end": 341.248
+    },
+    {
+     "w": "Canadian",
+     "start": 341.248,
+     "end": 341.608
+    },
+    {
+     "w": "soldiers",
+     "start": 341.608,
+     "end": 342.228
+    },
+    {
+     "w": "and",
+     "start": 342.228,
+     "end": 342.908
+    },
+    {
+     "w": "a",
+     "start": 342.908,
+     "end": 343.028
+    },
+    {
+     "w": "hundred",
+     "start": 343.018,
+     "end": 343.138
+    },
+    {
+     "w": "Native",
+     "start": 343.128,
+     "end": 343.728
+    },
+    {
+     "w": "warriors",
+     "start": 343.728,
+     "end": 344.068
+    },
+    {
+     "w": "arrived.",
+     "start": 344.068,
+     "end": 344.608
+    },
+    {
+     "w": "Their",
+     "start": 345.588,
+     "end": 345.608
+    },
+    {
+     "w": "commander",
+     "start": 345.608,
+     "end": 345.908
+    },
+    {
+     "w": "was",
+     "start": 345.908,
+     "end": 346.328
+    },
+    {
+     "w": "Louis",
+     "start": 346.328,
+     "end": 346.528
+    },
+    {
+     "w": "Coulon",
+     "start": 346.528,
+     "end": 347.148
+    },
+    {
+     "w": "de",
+     "start": 347.148,
+     "end": 347.308
+    },
+    {
+     "w": "Villiers:",
+     "start": 347.308,
+     "end": 347.748
+    },
+    {
+     "w": "Jumonville's",
+     "start": 347.748,
+     "end": 348.928
+    },
+    {
+     "w": "older",
+     "start": 348.928,
+     "end": 349.088
+    },
+    {
+     "w": "brother.",
+     "start": 349.088,
+     "end": 349.468
+    }
+   ]
+  },
+  {
+   "scene": 44,
+   "text": "Heavy rain flooded the trenches and soaked the gunpowder. By nightfall, about one in four of Washington's men had been killed or wounded.",
+   "start": 350.278,
+   "end": 358.575,
+   "words": [
+    {
+     "w": "Heavy",
+     "start": 350.178,
+     "end": 350.418
+    },
+    {
+     "w": "rain",
+     "start": 350.418,
+     "end": 350.758
+    },
+    {
+     "w": "flooded",
+     "start": 350.758,
+     "end": 351.158
+    },
+    {
+     "w": "the",
+     "start": 351.158,
+     "end": 351.438
+    },
+    {
+     "w": "trenches",
+     "start": 351.438,
+     "end": 351.598
+    },
+    {
+     "w": "and",
+     "start": 351.598,
+     "end": 352.038
+    },
+    {
+     "w": "soaked",
+     "start": 352.038,
+     "end": 352.298
+    },
+    {
+     "w": "the",
+     "start": 352.298,
+     "end": 352.558
+    },
+    {
+     "w": "gunpowder.",
+     "start": 352.558,
+     "end": 353.018
+    },
+    {
+     "w": "By",
+     "start": 353.878,
+     "end": 353.918
+    },
+    {
+     "w": "nightfall,",
+     "start": 353.918,
+     "end": 354.438
+    },
+    {
+     "w": "about",
+     "start": 354.798,
+     "end": 355.038
+    },
+    {
+     "w": "one",
+     "start": 355.038,
+     "end": 355.318
+    },
+    {
+     "w": "in",
+     "start": 355.318,
+     "end": 355.458
+    },
+    {
+     "w": "four",
+     "start": 355.458,
+     "end": 355.698
+    },
+    {
+     "w": "of",
+     "start": 355.698,
+     "end": 355.938
+    },
+    {
+     "w": "Washington's",
+     "start": 355.938,
+     "end": 356.638
+    },
+    {
+     "w": "men",
+     "start": 356.638,
+     "end": 356.818
+    },
+    {
+     "w": "had",
+     "start": 356.818,
+     "end": 357.038
+    },
+    {
+     "w": "been",
+     "start": 357.038,
+     "end": 357.198
+    },
+    {
+     "w": "killed",
+     "start": 357.198,
+     "end": 357.518
+    },
+    {
+     "w": "or",
+     "start": 357.518,
+     "end": 357.918
+    },
+    {
+     "w": "wounded.",
+     "start": 357.918,
+     "end": 358.218
+    }
+   ]
+  },
+  {
+   "scene": 45,
+   "text": "Washington surrendered. It was the only time in his military career he ever would.",
+   "start": 359.125,
+   "end": 364.161,
+   "words": [
+    {
+     "w": "Washington",
+     "start": 359.025,
+     "end": 359.505
+    },
+    {
+     "w": "surrendered.",
+     "start": 359.505,
+     "end": 360.205
+    },
+    {
+     "w": "It",
+     "start": 360.885,
+     "end": 360.965
+    },
+    {
+     "w": "was",
+     "start": 360.965,
+     "end": 361.105
+    },
+    {
+     "w": "the",
+     "start": 361.105,
+     "end": 361.245
+    },
+    {
+     "w": "only",
+     "start": 361.245,
+     "end": 361.465
+    },
+    {
+     "w": "time",
+     "start": 361.465,
+     "end": 361.925
+    },
+    {
+     "w": "in",
+     "start": 361.925,
+     "end": 362.125
+    },
+    {
+     "w": "his",
+     "start": 362.125,
+     "end": 362.245
+    },
+    {
+     "w": "military",
+     "start": 362.245,
+     "end": 362.525
+    },
+    {
+     "w": "career",
+     "start": 362.525,
+     "end": 363.045
+    },
+    {
+     "w": "he",
+     "start": 363.045,
+     "end": 363.385
+    },
+    {
+     "w": "ever",
+     "start": 363.385,
+     "end": 363.625
+    },
+    {
+     "w": "would.",
+     "start": 363.625,
+     "end": 363.925
+    }
+   ]
+  },
+  {
+   "scene": 46,
+   "text": "The terms were written in French, a language he could not read. His Dutch translator, Jacob Van Braam, read them out in the pouring rain.",
+   "start": 364.711,
+   "end": 373.112,
+   "words": [
+    {
+     "w": "The",
+     "start": 364.611,
+     "end": 364.791
+    },
+    {
+     "w": "terms",
+     "start": 364.791,
+     "end": 365.031
+    },
+    {
+     "w": "were",
+     "start": 365.031,
+     "end": 365.291
+    },
+    {
+     "w": "written",
+     "start": 365.291,
+     "end": 365.511
+    },
+    {
+     "w": "in",
+     "start": 365.511,
+     "end": 365.671
+    },
+    {
+     "w": "French,",
+     "start": 365.671,
+     "end": 365.971
+    },
+    {
+     "w": "a",
+     "start": 366.391,
+     "end": 366.551
+    },
+    {
+     "w": "language",
+     "start": 366.551,
+     "end": 366.931
+    },
+    {
+     "w": "he",
+     "start": 366.931,
+     "end": 367.151
+    },
+    {
+     "w": "could",
+     "start": 367.151,
+     "end": 367.291
+    },
+    {
+     "w": "not",
+     "start": 367.291,
+     "end": 367.491
+    },
+    {
+     "w": "read.",
+     "start": 367.491,
+     "end": 367.771
+    },
+    {
+     "w": "His",
+     "start": 368.791,
+     "end": 368.811
+    },
+    {
+     "w": "Dutch",
+     "start": 368.811,
+     "end": 368.991
+    },
+    {
+     "w": "translator,",
+     "start": 368.991,
+     "end": 369.711
+    },
+    {
+     "w": "Jacob",
+     "start": 370.011,
+     "end": 370.211
+    },
+    {
+     "w": "Van",
+     "start": 370.211,
+     "end": 370.591
+    },
+    {
+     "w": "Braam,",
+     "start": 370.591,
+     "end": 371.351
+    },
+    {
+     "w": "read",
+     "start": 371.351,
+     "end": 371.551
+    },
+    {
+     "w": "them",
+     "start": 371.551,
+     "end": 371.751
+    },
+    {
+     "w": "out",
+     "start": 371.751,
+     "end": 371.951
+    },
+    {
+     "w": "in",
+     "start": 371.951,
+     "end": 372.131
+    },
+    {
+     "w": "the",
+     "start": 372.131,
+     "end": 372.231
+    },
+    {
+     "w": "pouring",
+     "start": 372.231,
+     "end": 372.391
+    },
+    {
+     "w": "rain.",
+     "start": 372.391,
+     "end": 372.871
+    }
+   ]
+  },
+  {
+   "scene": 47,
+   "text": "Buried in the text was one word: the French for \"assassination.\" Washington had signed a document admitting that Jumonville had been assassinated.",
+   "start": 373.662,
+   "end": 382.483,
+   "words": [
+    {
+     "w": "Buried",
+     "start": 373.562,
+     "end": 373.942
+    },
+    {
+     "w": "in",
+     "start": 373.942,
+     "end": 374.062
+    },
+    {
+     "w": "the",
+     "start": 374.062,
+     "end": 374.142
+    },
+    {
+     "w": "text",
+     "start": 374.142,
+     "end": 374.382
+    },
+    {
+     "w": "was",
+     "start": 374.382,
+     "end": 374.642
+    },
+    {
+     "w": "one",
+     "start": 374.642,
+     "end": 374.942
+    },
+    {
+     "w": "word:",
+     "start": 374.942,
+     "end": 375.262
+    },
+    {
+     "w": "the",
+     "start": 375.742,
+     "end": 375.822
+    },
+    {
+     "w": "French",
+     "start": 375.822,
+     "end": 376.042
+    },
+    {
+     "w": "for",
+     "start": 376.042,
+     "end": 376.322
+    },
+    {
+     "w": "\"assassination.\"",
+     "start": 376.322,
+     "end": 376.722
+    },
+    {
+     "w": "Washington",
+     "start": 377.902,
+     "end": 378.262
+    },
+    {
+     "w": "had",
+     "start": 378.262,
+     "end": 378.702
+    },
+    {
+     "w": "signed",
+     "start": 378.702,
+     "end": 378.962
+    },
+    {
+     "w": "a",
+     "start": 378.962,
+     "end": 379.122
+    },
+    {
+     "w": "document",
+     "start": 379.122,
+     "end": 379.602
+    },
+    {
+     "w": "admitting",
+     "start": 379.602,
+     "end": 380.142
+    },
+    {
+     "w": "that",
+     "start": 380.142,
+     "end": 380.422
+    },
+    {
+     "w": "Jumonville",
+     "start": 380.422,
+     "end": 381.042
+    },
+    {
+     "w": "had",
+     "start": 381.042,
+     "end": 381.302
+    },
+    {
+     "w": "been",
+     "start": 381.302,
+     "end": 381.462
+    },
+    {
+     "w": "assassinated.",
+     "start": 381.462,
+     "end": 381.902
+    }
+   ]
+  },
+  {
+   "scene": 48,
+   "text": "The next morning, his men marched out, carrying their wounded. The date was July 4, 1754: exactly twenty-two years before the Declaration of Independence.",
+   "start": 383.033,
+   "end": 393.688,
+   "words": [
+    {
+     "w": "The",
+     "start": 382.933,
+     "end": 383.113
+    },
+    {
+     "w": "next",
+     "start": 383.113,
+     "end": 383.213
+    },
+    {
+     "w": "morning,",
+     "start": 383.213,
+     "end": 383.613
+    },
+    {
+     "w": "his",
+     "start": 383.773,
+     "end": 383.873
+    },
+    {
+     "w": "men",
+     "start": 383.873,
+     "end": 384.053
+    },
+    {
+     "w": "marched",
+     "start": 384.053,
+     "end": 384.313
+    },
+    {
+     "w": "out,",
+     "start": 384.313,
+     "end": 384.673
+    },
+    {
+     "w": "carrying",
+     "start": 384.953,
+     "end": 385.253
+    },
+    {
+     "w": "their",
+     "start": 385.253,
+     "end": 385.533
+    },
+    {
+     "w": "wounded.",
+     "start": 385.533,
+     "end": 385.813
+    },
+    {
+     "w": "The",
+     "start": 386.713,
+     "end": 386.773
+    },
+    {
+     "w": "date",
+     "start": 386.773,
+     "end": 386.993
+    },
+    {
+     "w": "was",
+     "start": 386.993,
+     "end": 387.233
+    },
+    {
+     "w": "July",
+     "start": 387.233,
+     "end": 387.473
+    },
+    {
+     "w": "4,",
+     "start": 387.473,
+     "end": 388.073
+    },
+    {
+     "w": "1754:",
+     "start": 388.393,
+     "end": 389.253
+    },
+    {
+     "w": "exactly",
+     "start": 389.853,
+     "end": 390.253
+    },
+    {
+     "w": "twenty-two",
+     "start": 390.253,
+     "end": 390.753
+    },
+    {
+     "w": "years",
+     "start": 390.753,
+     "end": 391.313
+    },
+    {
+     "w": "before",
+     "start": 391.313,
+     "end": 391.673
+    },
+    {
+     "w": "the",
+     "start": 391.673,
+     "end": 391.853
+    },
+    {
+     "w": "Declaration",
+     "start": 391.853,
+     "end": 392.213
+    },
+    {
+     "w": "of",
+     "start": 392.213,
+     "end": 392.673
+    },
+    {
+     "w": "Independence.",
+     "start": 392.673,
+     "end": 393.113
+    }
+   ]
+  },
+  {
+   "scene": 49,
+   "text": "The French printed it across Europe as proof of British treachery.",
+   "start": 394.238,
+   "end": 397.973,
+   "words": [
+    {
+     "w": "The",
+     "start": 394.138,
+     "end": 394.338
+    },
+    {
+     "w": "French",
+     "start": 394.338,
+     "end": 394.538
+    },
+    {
+     "w": "printed",
+     "start": 394.538,
+     "end": 394.938
+    },
+    {
+     "w": "it",
+     "start": 394.938,
+     "end": 395.098
+    },
+    {
+     "w": "across",
+     "start": 395.098,
+     "end": 395.298
+    },
+    {
+     "w": "Europe",
+     "start": 395.298,
+     "end": 395.678
+    },
+    {
+     "w": "as",
+     "start": 395.678,
+     "end": 396.358
+    },
+    {
+     "w": "proof",
+     "start": 396.358,
+     "end": 396.658
+    },
+    {
+     "w": "of",
+     "start": 396.658,
+     "end": 396.918
+    },
+    {
+     "w": "British",
+     "start": 396.918,
+     "end": 397.138
+    },
+    {
+     "w": "treachery.",
+     "start": 397.138,
+     "end": 397.858
+    }
+   ]
+  },
+  {
+   "scene": 50,
+   "text": "A year later, Britain sent two regiments under General Edward Braddock to take Fort Duquesne. Washington rode with him. It ended in one of the worst British defeats of the century.",
+   "start": 399.373,
+   "end": 410.195,
+   "words": [
+    {
+     "w": "A",
+     "start": 399.273,
+     "end": 399.453
+    },
+    {
+     "w": "year",
+     "start": 399.453,
+     "end": 399.593
+    },
+    {
+     "w": "later,",
+     "start": 399.593,
+     "end": 399.953
+    },
+    {
+     "w": "Britain",
+     "start": 400.193,
+     "end": 400.273
+    },
+    {
+     "w": "sent",
+     "start": 400.273,
+     "end": 400.673
+    },
+    {
+     "w": "two",
+     "start": 400.673,
+     "end": 400.993
+    },
+    {
+     "w": "regiments",
+     "start": 400.993,
+     "end": 401.453
+    },
+    {
+     "w": "under",
+     "start": 401.453,
+     "end": 401.693
+    },
+    {
+     "w": "General",
+     "start": 401.693,
+     "end": 402.053
+    },
+    {
+     "w": "Edward",
+     "start": 402.053,
+     "end": 402.373
+    },
+    {
+     "w": "Braddock",
+     "start": 402.373,
+     "end": 402.913
+    },
+    {
+     "w": "to",
+     "start": 402.913,
+     "end": 403.193
+    },
+    {
+     "w": "take",
+     "start": 403.193,
+     "end": 403.413
+    },
+    {
+     "w": "Fort",
+     "start": 403.413,
+     "end": 403.693
+    },
+    {
+     "w": "Duquesne.",
+     "start": 403.693,
+     "end": 405.593
+    },
+    {
+     "w": "Washington",
+     "start": 405.593,
+     "end": 405.593
+    },
+    {
+     "w": "rode",
+     "start": 405.593,
+     "end": 405.933
+    },
+    {
+     "w": "with",
+     "start": 405.933,
+     "end": 406.313
+    },
+    {
+     "w": "him.",
+     "start": 406.313,
+     "end": 406.493
+    },
+    {
+     "w": "It",
+     "start": 407.113,
+     "end": 407.173
+    },
+    {
+     "w": "ended",
+     "start": 407.173,
+     "end": 407.453
+    },
+    {
+     "w": "in",
+     "start": 407.453,
+     "end": 407.733
+    },
+    {
+     "w": "one",
+     "start": 407.733,
+     "end": 407.873
+    },
+    {
+     "w": "of",
+     "start": 407.873,
+     "end": 407.993
+    },
+    {
+     "w": "the",
+     "start": 407.993,
+     "end": 408.093
+    },
+    {
+     "w": "worst",
+     "start": 408.093,
+     "end": 408.413
+    },
+    {
+     "w": "British",
+     "start": 408.413,
+     "end": 408.773
+    },
+    {
+     "w": "defeats",
+     "start": 408.773,
+     "end": 408.993
+    },
+    {
+     "w": "of",
+     "start": 408.993,
+     "end": 409.433
+    },
+    {
+     "w": "the",
+     "start": 409.433,
+     "end": 409.553
+    },
+    {
+     "w": "century.",
+     "start": 409.553,
+     "end": 409.933
+    }
+   ]
+  },
+  {
+   "scene": 51,
+   "text": "In 1756, the fighting spread to Europe and became the Seven Years' War: Britain and Prussia against France, Austria and Russia, with battles in Europe, North America, the Caribbean, India, West Africa and the Philippines.",
+   "start": 410.745,
+   "end": 425.025,
+   "words": [
+    {
+     "w": "In",
+     "start": 410.645,
+     "end": 410.845
+    },
+    {
+     "w": "1756,",
+     "start": 410.845,
+     "end": 411.605
+    },
+    {
+     "w": "the",
+     "start": 411.865,
+     "end": 412.285
+    },
+    {
+     "w": "fighting",
+     "start": 412.285,
+     "end": 412.585
+    },
+    {
+     "w": "spread",
+     "start": 412.585,
+     "end": 412.985
+    },
+    {
+     "w": "to",
+     "start": 412.985,
+     "end": 413.225
+    },
+    {
+     "w": "Europe",
+     "start": 413.225,
+     "end": 413.525
+    },
+    {
+     "w": "and",
+     "start": 413.525,
+     "end": 413.785
+    },
+    {
+     "w": "became",
+     "start": 413.785,
+     "end": 414.025
+    },
+    {
+     "w": "the",
+     "start": 414.025,
+     "end": 414.285
+    },
+    {
+     "w": "Seven",
+     "start": 414.285,
+     "end": 414.565
+    },
+    {
+     "w": "Years'",
+     "start": 414.565,
+     "end": 414.865
+    },
+    {
+     "w": "War:",
+     "start": 415.125,
+     "end": 415.185
+    },
+    {
+     "w": "Britain",
+     "start": 416.105,
+     "end": 416.305
+    },
+    {
+     "w": "and",
+     "start": 416.305,
+     "end": 416.565
+    },
+    {
+     "w": "Prussia",
+     "start": 416.565,
+     "end": 416.945
+    },
+    {
+     "w": "against",
+     "start": 416.945,
+     "end": 417.285
+    },
+    {
+     "w": "France,",
+     "start": 417.285,
+     "end": 417.645
+    },
+    {
+     "w": "Austria",
+     "start": 417.945,
+     "end": 418.385
+    },
+    {
+     "w": "and",
+     "start": 418.645,
+     "end": 418.645
+    },
+    {
+     "w": "Russia,",
+     "start": 418.645,
+     "end": 418.885
+    },
+    {
+     "w": "with",
+     "start": 419.445,
+     "end": 419.565
+    },
+    {
+     "w": "battles",
+     "start": 419.565,
+     "end": 419.965
+    },
+    {
+     "w": "in",
+     "start": 419.965,
+     "end": 420.225
+    },
+    {
+     "w": "Europe,",
+     "start": 420.225,
+     "end": 420.565
+    },
+    {
+     "w": "North",
+     "start": 420.825,
+     "end": 420.885
+    },
+    {
+     "w": "America,",
+     "start": 420.885,
+     "end": 421.305
+    },
+    {
+     "w": "the",
+     "start": 421.845,
+     "end": 421.845
+    },
+    {
+     "w": "Caribbean,",
+     "start": 421.845,
+     "end": 422.145
+    },
+    {
+     "w": "India,",
+     "start": 422.645,
+     "end": 422.925
+    },
+    {
+     "w": "West",
+     "start": 423.245,
+     "end": 423.325
+    },
+    {
+     "w": "Africa",
+     "start": 423.325,
+     "end": 423.765
+    },
+    {
+     "w": "and",
+     "start": 424.085,
+     "end": 424.085
+    },
+    {
+     "w": "the",
+     "start": 424.085,
+     "end": 424.165
+    },
+    {
+     "w": "Philippines.",
+     "start": 424.165,
+     "end": 424.525
+    }
+   ]
+  },
+  {
+   "scene": 52,
+   "text": "As the British writer Horace Walpole later put it: \"The volley fired by a young Virginian in the backwoods of America set the world on fire.\"",
+   "start": 425.575,
+   "end": 434.276,
+   "words": [
+    {
+     "w": "As",
+     "start": 425.475,
+     "end": 425.675
+    },
+    {
+     "w": "the",
+     "start": 425.675,
+     "end": 425.795
+    },
+    {
+     "w": "British",
+     "start": 425.795,
+     "end": 426.015
+    },
+    {
+     "w": "writer",
+     "start": 426.015,
+     "end": 426.295
+    },
+    {
+     "w": "Horace",
+     "start": 426.295,
+     "end": 426.815
+    },
+    {
+     "w": "Walpole",
+     "start": 426.815,
+     "end": 427.255
+    },
+    {
+     "w": "later",
+     "start": 427.255,
+     "end": 427.655
+    },
+    {
+     "w": "put",
+     "start": 427.655,
+     "end": 427.935
+    },
+    {
+     "w": "it:",
+     "start": 427.935,
+     "end": 428.055
+    },
+    {
+     "w": "\"The",
+     "start": 428.655,
+     "end": 428.815
+    },
+    {
+     "w": "volley",
+     "start": 428.815,
+     "end": 429.015
+    },
+    {
+     "w": "fired",
+     "start": 429.015,
+     "end": 429.675
+    },
+    {
+     "w": "by",
+     "start": 429.675,
+     "end": 429.935
+    },
+    {
+     "w": "a",
+     "start": 429.935,
+     "end": 430.095
+    },
+    {
+     "w": "young",
+     "start": 430.095,
+     "end": 430.295
+    },
+    {
+     "w": "Virginian",
+     "start": 430.295,
+     "end": 431.015
+    },
+    {
+     "w": "in",
+     "start": 431.015,
+     "end": 431.195
+    },
+    {
+     "w": "the",
+     "start": 431.195,
+     "end": 431.295
+    },
+    {
+     "w": "backwoods",
+     "start": 431.295,
+     "end": 431.695
+    },
+    {
+     "w": "of",
+     "start": 431.695,
+     "end": 431.855
+    },
+    {
+     "w": "America",
+     "start": 431.855,
+     "end": 432.315
+    },
+    {
+     "w": "set",
+     "start": 432.315,
+     "end": 432.875
+    },
+    {
+     "w": "the",
+     "start": 432.875,
+     "end": 433.135
+    },
+    {
+     "w": "world",
+     "start": 433.135,
+     "end": 433.395
+    },
+    {
+     "w": "on",
+     "start": 433.395,
+     "end": 433.635
+    },
+    {
+     "w": "fire.\"",
+     "start": 433.635,
+     "end": 434.035
+    }
+   ]
+  },
+  {
+   "scene": 53,
+   "text": "When it ended in 1763, France had lost Canada and almost all of its empire in North America.",
+   "start": 434.826,
+   "end": 441.678,
+   "words": [
+    {
+     "w": "When",
+     "start": 434.726,
+     "end": 434.906
+    },
+    {
+     "w": "it",
+     "start": 434.906,
+     "end": 434.986
+    },
+    {
+     "w": "ended",
+     "start": 434.986,
+     "end": 435.226
+    },
+    {
+     "w": "in",
+     "start": 435.226,
+     "end": 435.446
+    },
+    {
+     "w": "1763,",
+     "start": 435.446,
+     "end": 436.646
+    },
+    {
+     "w": "France",
+     "start": 437.126,
+     "end": 437.466
+    },
+    {
+     "w": "had",
+     "start": 437.466,
+     "end": 437.726
+    },
+    {
+     "w": "lost",
+     "start": 437.726,
+     "end": 437.946
+    },
+    {
+     "w": "Canada",
+     "start": 437.946,
+     "end": 438.426
+    },
+    {
+     "w": "and",
+     "start": 438.426,
+     "end": 439.086
+    },
+    {
+     "w": "almost",
+     "start": 439.086,
+     "end": 439.286
+    },
+    {
+     "w": "all",
+     "start": 439.286,
+     "end": 439.726
+    },
+    {
+     "w": "of",
+     "start": 439.726,
+     "end": 439.886
+    },
+    {
+     "w": "its",
+     "start": 439.886,
+     "end": 440.026
+    },
+    {
+     "w": "empire",
+     "start": 440.026,
+     "end": 440.366
+    },
+    {
+     "w": "in",
+     "start": 440.366,
+     "end": 440.746
+    },
+    {
+     "w": "North",
+     "start": 440.746,
+     "end": 440.906
+    },
+    {
+     "w": "America.",
+     "start": 440.906,
+     "end": 441.486
+    }
+   ]
+  },
+  {
+   "scene": 54,
+   "text": "For the Native nations of the Ohio Country, the British victory brought settlers and broken promises. Within months, many of them rose against the British in Pontiac's War.",
+   "start": 442.228,
+   "end": 452.855,
+   "words": [
+    {
+     "w": "For",
+     "start": 442.128,
+     "end": 442.328
+    },
+    {
+     "w": "the",
+     "start": 442.328,
+     "end": 442.408
+    },
+    {
+     "w": "Native",
+     "start": 442.408,
+     "end": 442.688
+    },
+    {
+     "w": "nations",
+     "start": 442.688,
+     "end": 443.028
+    },
+    {
+     "w": "of",
+     "start": 443.028,
+     "end": 443.388
+    },
+    {
+     "w": "the",
+     "start": 443.388,
+     "end": 443.508
+    },
+    {
+     "w": "Ohio",
+     "start": 443.508,
+     "end": 443.688
+    },
+    {
+     "w": "Country,",
+     "start": 443.688,
+     "end": 444.428
+    },
+    {
+     "w": "the",
+     "start": 444.908,
+     "end": 444.988
+    },
+    {
+     "w": "British",
+     "start": 444.988,
+     "end": 445.208
+    },
+    {
+     "w": "victory",
+     "start": 445.208,
+     "end": 445.648
+    },
+    {
+     "w": "brought",
+     "start": 445.648,
+     "end": 445.988
+    },
+    {
+     "w": "settlers",
+     "start": 445.988,
+     "end": 446.288
+    },
+    {
+     "w": "and",
+     "start": 446.288,
+     "end": 446.868
+    },
+    {
+     "w": "broken",
+     "start": 446.868,
+     "end": 447.128
+    },
+    {
+     "w": "promises.",
+     "start": 447.128,
+     "end": 447.708
+    },
+    {
+     "w": "Within",
+     "start": 448.568,
+     "end": 448.688
+    },
+    {
+     "w": "months,",
+     "start": 448.688,
+     "end": 449.028
+    },
+    {
+     "w": "many",
+     "start": 449.468,
+     "end": 449.768
+    },
+    {
+     "w": "of",
+     "start": 449.768,
+     "end": 449.968
+    },
+    {
+     "w": "them",
+     "start": 449.968,
+     "end": 450.148
+    },
+    {
+     "w": "rose",
+     "start": 450.148,
+     "end": 450.408
+    },
+    {
+     "w": "against",
+     "start": 450.408,
+     "end": 450.928
+    },
+    {
+     "w": "the",
+     "start": 450.928,
+     "end": 451.128
+    },
+    {
+     "w": "British",
+     "start": 451.128,
+     "end": 451.368
+    },
+    {
+     "w": "in",
+     "start": 451.368,
+     "end": 451.628
+    },
+    {
+     "w": "Pontiac's",
+     "start": 451.628,
+     "end": 452.368
+    },
+    {
+     "w": "War.",
+     "start": 452.368,
+     "end": 452.588
+    }
+   ]
+  },
+  {
+   "scene": 55,
+   "text": "But victory left Britain deep in debt. To pay for it, Parliament began taxing its American colonies: the Sugar Act, the Stamp Act.",
+   "start": 453.405,
+   "end": 461.943,
+   "words": [
+    {
+     "w": "But",
+     "start": 453.305,
+     "end": 453.485
+    },
+    {
+     "w": "victory",
+     "start": 453.485,
+     "end": 453.745
+    },
+    {
+     "w": "left",
+     "start": 453.745,
+     "end": 454.125
+    },
+    {
+     "w": "Britain",
+     "start": 454.125,
+     "end": 454.385
+    },
+    {
+     "w": "deep",
+     "start": 454.385,
+     "end": 454.805
+    },
+    {
+     "w": "in",
+     "start": 454.805,
+     "end": 455.025
+    },
+    {
+     "w": "debt.",
+     "start": 455.025,
+     "end": 455.265
+    },
+    {
+     "w": "To",
+     "start": 455.945,
+     "end": 455.985
+    },
+    {
+     "w": "pay",
+     "start": 455.985,
+     "end": 456.165
+    },
+    {
+     "w": "for",
+     "start": 456.165,
+     "end": 456.445
+    },
+    {
+     "w": "it,",
+     "start": 456.445,
+     "end": 456.625
+    },
+    {
+     "w": "Parliament",
+     "start": 456.825,
+     "end": 456.905
+    },
+    {
+     "w": "began",
+     "start": 456.905,
+     "end": 457.465
+    },
+    {
+     "w": "taxing",
+     "start": 457.465,
+     "end": 457.945
+    },
+    {
+     "w": "its",
+     "start": 457.945,
+     "end": 458.205
+    },
+    {
+     "w": "American",
+     "start": 458.205,
+     "end": 458.405
+    },
+    {
+     "w": "colonies:",
+     "start": 458.405,
+     "end": 459.025
+    },
+    {
+     "w": "the",
+     "start": 459.825,
+     "end": 459.885
+    },
+    {
+     "w": "Sugar",
+     "start": 459.885,
+     "end": 460.065
+    },
+    {
+     "w": "Act,",
+     "start": 460.065,
+     "end": 460.505
+    },
+    {
+     "w": "the",
+     "start": 461.005,
+     "end": 461.025
+    },
+    {
+     "w": "Stamp",
+     "start": 461.025,
+     "end": 461.185
+    },
+    {
+     "w": "Act.",
+     "start": 461.185,
+     "end": 461.645
+    }
+   ]
+  },
+  {
+   "scene": 56,
+   "text": "The colonists' anger grew into a revolution. And in 1775, the man chosen to command the Continental Army against the British Empire was the same Virginian who had fired the first shots for it: George Washington.",
+   "start": 462.493,
+   "end": 477.091,
+   "words": [
+    {
+     "w": "The",
+     "start": 462.393,
+     "end": 462.573
+    },
+    {
+     "w": "colonists'",
+     "start": 462.573,
+     "end": 462.933
+    },
+    {
+     "w": "anger",
+     "start": 463.293,
+     "end": 463.553
+    },
+    {
+     "w": "grew",
+     "start": 463.553,
+     "end": 463.893
+    },
+    {
+     "w": "into",
+     "start": 463.893,
+     "end": 464.233
+    },
+    {
+     "w": "a",
+     "start": 464.233,
+     "end": 464.393
+    },
+    {
+     "w": "revolution.",
+     "start": 464.393,
+     "end": 464.793
+    },
+    {
+     "w": "And",
+     "start": 465.713,
+     "end": 465.773
+    },
+    {
+     "w": "in",
+     "start": 465.773,
+     "end": 465.873
+    },
+    {
+     "w": "1775,",
+     "start": 465.873,
+     "end": 467.093
+    },
+    {
+     "w": "the",
+     "start": 467.833,
+     "end": 467.873
+    },
+    {
+     "w": "man",
+     "start": 467.873,
+     "end": 468.093
+    },
+    {
+     "w": "chosen",
+     "start": 468.093,
+     "end": 468.453
+    },
+    {
+     "w": "to",
+     "start": 468.453,
+     "end": 468.793
+    },
+    {
+     "w": "command",
+     "start": 468.793,
+     "end": 469.073
+    },
+    {
+     "w": "the",
+     "start": 469.073,
+     "end": 469.333
+    },
+    {
+     "w": "Continental",
+     "start": 469.333,
+     "end": 469.673
+    },
+    {
+     "w": "Army",
+     "start": 469.673,
+     "end": 470.253
+    },
+    {
+     "w": "against",
+     "start": 470.253,
+     "end": 470.653
+    },
+    {
+     "w": "the",
+     "start": 470.653,
+     "end": 470.893
+    },
+    {
+     "w": "British",
+     "start": 470.893,
+     "end": 471.093
+    },
+    {
+     "w": "Empire",
+     "start": 471.093,
+     "end": 471.473
+    },
+    {
+     "w": "was",
+     "start": 471.473,
+     "end": 472.133
+    },
+    {
+     "w": "the",
+     "start": 472.133,
+     "end": 472.293
+    },
+    {
+     "w": "same",
+     "start": 472.293,
+     "end": 472.553
+    },
+    {
+     "w": "Virginian",
+     "start": 472.553,
+     "end": 473.253
+    },
+    {
+     "w": "who",
+     "start": 473.253,
+     "end": 473.453
+    },
+    {
+     "w": "had",
+     "start": 473.453,
+     "end": 473.553
+    },
+    {
+     "w": "fired",
+     "start": 473.553,
+     "end": 473.813
+    },
+    {
+     "w": "the",
+     "start": 473.813,
+     "end": 474.073
+    },
+    {
+     "w": "first",
+     "start": 474.073,
+     "end": 474.313
+    },
+    {
+     "w": "shots",
+     "start": 474.313,
+     "end": 474.633
+    },
+    {
+     "w": "for",
+     "start": 474.633,
+     "end": 474.993
+    },
+    {
+     "w": "it:",
+     "start": 474.993,
+     "end": 475.153
+    },
+    {
+     "w": "George",
+     "start": 476.113,
+     "end": 476.113
+    },
+    {
+     "w": "Washington.",
+     "start": 476.113,
+     "end": 476.653
+    }
+   ]
+  },
+  {
+   "scene": 57,
+   "text": "A fifteen-minute ambush in a rainy glen. A dead French officer. A signature on a document he couldn't read.",
+   "start": 478.491,
+   "end": 485.557,
+   "words": [
+    {
+     "w": "A",
+     "start": 478.391,
+     "end": 478.551
+    },
+    {
+     "w": "fifteen-minute",
+     "start": 478.551,
+     "end": 479.251
+    },
+    {
+     "w": "ambush",
+     "start": 479.251,
+     "end": 479.731
+    },
+    {
+     "w": "in",
+     "start": 479.731,
+     "end": 480.011
+    },
+    {
+     "w": "a",
+     "start": 480.011,
+     "end": 480.071
+    },
+    {
+     "w": "rainy",
+     "start": 480.071,
+     "end": 480.311
+    },
+    {
+     "w": "glen.",
+     "start": 480.311,
+     "end": 480.651
+    },
+    {
+     "w": "A",
+     "start": 481.271,
+     "end": 481.371
+    },
+    {
+     "w": "dead",
+     "start": 481.371,
+     "end": 481.571
+    },
+    {
+     "w": "French",
+     "start": 481.571,
+     "end": 481.871
+    },
+    {
+     "w": "officer.",
+     "start": 481.871,
+     "end": 482.351
+    },
+    {
+     "w": "A",
+     "start": 483.111,
+     "end": 483.171
+    },
+    {
+     "w": "signature",
+     "start": 483.171,
+     "end": 483.571
+    },
+    {
+     "w": "on",
+     "start": 483.571,
+     "end": 484.111
+    },
+    {
+     "w": "a",
+     "start": 484.111,
+     "end": 484.191
+    },
+    {
+     "w": "document",
+     "start": 484.191,
+     "end": 484.551
+    },
+    {
+     "w": "he",
+     "start": 484.551,
+     "end": 484.791
+    },
+    {
+     "w": "couldn't",
+     "start": 484.791,
+     "end": 485.051
+    },
+    {
+     "w": "read.",
+     "start": 485.051,
+     "end": 485.271
+    }
+   ]
+  },
+  {
+   "scene": 58,
+   "text": "From that small moment came a world war, the end of French America, and the road to American independence.",
+   "start": 486.107,
+   "end": 492.604,
+   "words": [
+    {
+     "w": "From",
+     "start": 486.007,
+     "end": 486.207
+    },
+    {
+     "w": "that",
+     "start": 486.207,
+     "end": 486.387
+    },
+    {
+     "w": "small",
+     "start": 486.387,
+     "end": 486.647
+    },
+    {
+     "w": "moment",
+     "start": 486.647,
+     "end": 487.107
+    },
+    {
+     "w": "came",
+     "start": 487.107,
+     "end": 487.347
+    },
+    {
+     "w": "a",
+     "start": 487.347,
+     "end": 487.487
+    },
+    {
+     "w": "world",
+     "start": 487.487,
+     "end": 487.747
+    },
+    {
+     "w": "war,",
+     "start": 487.747,
+     "end": 488.147
+    },
+    {
+     "w": "the",
+     "start": 488.687,
+     "end": 488.727
+    },
+    {
+     "w": "end",
+     "start": 488.727,
+     "end": 488.927
+    },
+    {
+     "w": "of",
+     "start": 488.927,
+     "end": 489.067
+    },
+    {
+     "w": "French",
+     "start": 489.067,
+     "end": 489.347
+    },
+    {
+     "w": "America,",
+     "start": 489.347,
+     "end": 489.627
+    },
+    {
+     "w": "and",
+     "start": 490.347,
+     "end": 490.407
+    },
+    {
+     "w": "the",
+     "start": 490.407,
+     "end": 490.507
+    },
+    {
+     "w": "road",
+     "start": 490.507,
+     "end": 490.747
+    },
+    {
+     "w": "to",
+     "start": 490.747,
+     "end": 491.127
+    },
+    {
+     "w": "American",
+     "start": 491.127,
+     "end": 491.547
+    },
+    {
+     "w": "independence.",
+     "start": 491.547,
+     "end": 491.947
+    }
+   ]
+  },
+  {
+   "scene": 59,
+   "text": "Next time: what happened when Washington marched back into the Ohio Country with General Braddock, and walked out of the disaster with four bullet holes in his coat.",
+   "start": 493.504,
+   "end": 502.527,
+   "words": [
+    {
+     "w": "Next",
+     "start": 493.404,
+     "end": 493.624
+    },
+    {
+     "w": "time:",
+     "start": 493.624,
+     "end": 494.004
+    },
+    {
+     "w": "what",
+     "start": 494.324,
+     "end": 494.444
+    },
+    {
+     "w": "happened",
+     "start": 494.444,
+     "end": 494.724
+    },
+    {
+     "w": "when",
+     "start": 494.724,
+     "end": 494.924
+    },
+    {
+     "w": "Washington",
+     "start": 494.924,
+     "end": 495.424
+    },
+    {
+     "w": "marched",
+     "start": 495.424,
+     "end": 495.824
+    },
+    {
+     "w": "back",
+     "start": 495.824,
+     "end": 496.204
+    },
+    {
+     "w": "into",
+     "start": 496.204,
+     "end": 496.444
+    },
+    {
+     "w": "the",
+     "start": 496.444,
+     "end": 496.564
+    },
+    {
+     "w": "Ohio",
+     "start": 496.564,
+     "end": 496.844
+    },
+    {
+     "w": "Country",
+     "start": 496.844,
+     "end": 497.504
+    },
+    {
+     "w": "with",
+     "start": 497.504,
+     "end": 497.804
+    },
+    {
+     "w": "General",
+     "start": 497.804,
+     "end": 498.084
+    },
+    {
+     "w": "Braddock,",
+     "start": 498.084,
+     "end": 498.624
+    },
+    {
+     "w": "and",
+     "start": 499.224,
+     "end": 499.284
+    },
+    {
+     "w": "walked",
+     "start": 499.284,
+     "end": 499.464
+    },
+    {
+     "w": "out",
+     "start": 499.464,
+     "end": 499.724
+    },
+    {
+     "w": "of",
+     "start": 499.724,
+     "end": 499.824
+    },
+    {
+     "w": "the",
+     "start": 499.824,
+     "end": 499.904
+    },
+    {
+     "w": "disaster",
+     "start": 499.904,
+     "end": 500.244
+    },
+    {
+     "w": "with",
+     "start": 500.244,
+     "end": 500.704
+    },
+    {
+     "w": "four",
+     "start": 500.704,
+     "end": 501.024
+    },
+    {
+     "w": "bullet",
+     "start": 501.024,
+     "end": 501.384
+    },
+    {
+     "w": "holes",
+     "start": 501.384,
+     "end": 501.624
+    },
+    {
+     "w": "in",
+     "start": 501.624,
+     "end": 501.984
+    },
+    {
+     "w": "his",
+     "start": 501.984,
+     "end": 502.104
+    },
+    {
+     "w": "coat.",
+     "start": 502.104,
+     "end": 502.364
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+[
+ {
+  "file": "paper.wav",
+  "at": 0.2,
+  "volume": 0.4
+ },
+ {
+  "file": "impact.wav",
+  "at": 5.99,
+  "volume": 0.45
+ },
+ {
+  "file": "wind.wav",
+  "at": 7.034,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 14.354,
+  "volume": 0.4
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 15.274,
+  "volume": 0.25
+ },
+ {
+  "file": "bugle.wav",
+  "at": 20.516,
+  "volume": 0.3
+ },
+ {
+  "file": "paper.wav",
+  "at": 26.116,
+  "volume": 0.4
+ },
+ {
+  "file": "gallop.wav",
+  "at": 27.37,
+  "volume": 0.6
+ },
+ {
+  "file": "paper.wav",
+  "at": 31.608,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 34.068,
+  "volume": 0.35
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 35.062,
+  "volume": 0.22
+ },
+ {
+  "file": "impact.wav",
+  "at": 44.253,
+  "volume": 0.45
+ },
+ {
+  "file": "clock.wav",
+  "at": 45.193,
+  "volume": 0.35
+ },
+ {
+  "file": "volley.wav",
+  "at": 46.994,
+  "volume": 0.25
+ },
+ {
+  "file": "impact.wav",
+  "at": 50.954,
+  "volume": 0.45
+ },
+ {
+  "file": "wind.wav",
+  "at": 52.464,
+  "volume": 0.3
+ },
+ {
+  "file": "paper.wav",
+  "at": 57.944,
+  "volume": 0.4
+ }
+]

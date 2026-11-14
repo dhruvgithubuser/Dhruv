@@ -1,0 +1,923 @@
+{
+ "fps": 30,
+ "duration": 60.043,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "In 1944, two French cyclists watched four American soldiers pick up a Sherman tank.",
+   "start": 0.35,
+   "end": 5.478,
+   "words": [
+    {
+     "w": "In",
+     "start": 0.25,
+     "end": 0.41
+    },
+    {
+     "w": "1944,",
+     "start": 0.41,
+     "end": 1.01
+    },
+    {
+     "w": "two",
+     "start": 1.61,
+     "end": 1.87
+    },
+    {
+     "w": "French",
+     "start": 1.87,
+     "end": 2.09
+    },
+    {
+     "w": "cyclists",
+     "start": 2.09,
+     "end": 2.45
+    },
+    {
+     "w": "watched",
+     "start": 2.45,
+     "end": 2.85
+    },
+    {
+     "w": "four",
+     "start": 2.85,
+     "end": 3.21
+    },
+    {
+     "w": "American",
+     "start": 3.21,
+     "end": 3.55
+    },
+    {
+     "w": "soldiers",
+     "start": 3.55,
+     "end": 4.13
+    },
+    {
+     "w": "pick",
+     "start": 4.13,
+     "end": 4.47
+    },
+    {
+     "w": "up",
+     "start": 4.47,
+     "end": 4.61
+    },
+    {
+     "w": "a",
+     "start": 4.61,
+     "end": 4.69
+    },
+    {
+     "w": "Sherman",
+     "start": 4.69,
+     "end": 4.83
+    },
+    {
+     "w": "tank.",
+     "start": 4.83,
+     "end": 5.25
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "One soldier reportedly shrugged: \"Americans are very strong.\"",
+   "start": 5.738,
+   "end": 9.05,
+   "words": [
+    {
+     "w": "One",
+     "start": 5.638,
+     "end": 5.858
+    },
+    {
+     "w": "soldier",
+     "start": 5.858,
+     "end": 6.298
+    },
+    {
+     "w": "reportedly",
+     "start": 6.298,
+     "end": 6.778
+    },
+    {
+     "w": "shrugged:",
+     "start": 6.778,
+     "end": 7.118
+    },
+    {
+     "w": "\"Americans",
+     "start": 7.598,
+     "end": 7.958
+    },
+    {
+     "w": "are",
+     "start": 7.958,
+     "end": 8.238
+    },
+    {
+     "w": "very",
+     "start": 8.238,
+     "end": 8.458
+    },
+    {
+     "w": "strong.\"",
+     "start": 8.458,
+     "end": 8.798
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "The tank was a balloon. It weighed 93 pounds.",
+   "start": 9.375,
+   "end": 12.122,
+   "words": [
+    {
+     "w": "The",
+     "start": 9.275,
+     "end": 9.435
+    },
+    {
+     "w": "tank",
+     "start": 9.435,
+     "end": 9.575
+    },
+    {
+     "w": "was",
+     "start": 9.575,
+     "end": 9.795
+    },
+    {
+     "w": "a",
+     "start": 9.795,
+     "end": 9.915
+    },
+    {
+     "w": "balloon.",
+     "start": 9.915,
+     "end": 10.155
+    },
+    {
+     "w": "It",
+     "start": 10.675,
+     "end": 10.715
+    },
+    {
+     "w": "weighed",
+     "start": 10.715,
+     "end": 10.875
+    },
+    {
+     "w": "93",
+     "start": 10.875,
+     "end": 11.295
+    },
+    {
+     "w": "pounds.",
+     "start": 11.295,
+     "end": 11.775
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "It belonged to the Ghost Army: 1,100 Americans whose job was to look like 30,000.",
+   "start": 12.447,
+   "end": 17.523,
+   "words": [
+    {
+     "w": "It",
+     "start": 12.347,
+     "end": 12.507
+    },
+    {
+     "w": "belonged",
+     "start": 12.507,
+     "end": 12.747
+    },
+    {
+     "w": "to",
+     "start": 12.747,
+     "end": 13.047
+    },
+    {
+     "w": "the",
+     "start": 13.047,
+     "end": 13.147
+    },
+    {
+     "w": "Ghost",
+     "start": 13.147,
+     "end": 13.307
+    },
+    {
+     "w": "Army:",
+     "start": 13.307,
+     "end": 13.727
+    },
+    {
+     "w": "1,100",
+     "start": 13.727,
+     "end": 14.827
+    },
+    {
+     "w": "Americans",
+     "start": 14.827,
+     "end": 15.127
+    },
+    {
+     "w": "whose",
+     "start": 15.127,
+     "end": 15.527
+    },
+    {
+     "w": "job",
+     "start": 15.527,
+     "end": 15.807
+    },
+    {
+     "w": "was",
+     "start": 15.807,
+     "end": 16.127
+    },
+    {
+     "w": "to",
+     "start": 16.127,
+     "end": 16.267
+    },
+    {
+     "w": "look",
+     "start": 16.267,
+     "end": 16.467
+    },
+    {
+     "w": "like",
+     "start": 16.467,
+     "end": 16.627
+    },
+    {
+     "w": "30,000.",
+     "start": 16.627,
+     "end": 17.523
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Many were artists, recruited from art schools and ad agencies.",
+   "start": 17.783,
+   "end": 20.998,
+   "words": [
+    {
+     "w": "Many",
+     "start": 17.683,
+     "end": 17.923
+    },
+    {
+     "w": "were",
+     "start": 17.923,
+     "end": 18.083
+    },
+    {
+     "w": "artists,",
+     "start": 18.083,
+     "end": 18.383
+    },
+    {
+     "w": "recruited",
+     "start": 18.383,
+     "end": 18.983
+    },
+    {
+     "w": "from",
+     "start": 18.983,
+     "end": 19.283
+    },
+    {
+     "w": "art",
+     "start": 19.283,
+     "end": 19.463
+    },
+    {
+     "w": "schools",
+     "start": 19.463,
+     "end": 19.783
+    },
+    {
+     "w": "and",
+     "start": 19.783,
+     "end": 20.063
+    },
+    {
+     "w": "ad",
+     "start": 20.063,
+     "end": 20.223
+    },
+    {
+     "w": "agencies.",
+     "start": 20.223,
+     "end": 20.643
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "They inflated fake tanks, trucks and cannons in a few hours.",
+   "start": 21.226,
+   "end": 24.185,
+   "words": [
+    {
+     "w": "They",
+     "start": 21.126,
+     "end": 21.286
+    },
+    {
+     "w": "inflated",
+     "start": 21.286,
+     "end": 21.526
+    },
+    {
+     "w": "fake",
+     "start": 21.526,
+     "end": 21.826
+    },
+    {
+     "w": "tanks,",
+     "start": 21.826,
+     "end": 22.186
+    },
+    {
+     "w": "trucks",
+     "start": 22.566,
+     "end": 22.666
+    },
+    {
+     "w": "and",
+     "start": 22.886,
+     "end": 22.906
+    },
+    {
+     "w": "cannons",
+     "start": 22.906,
+     "end": 23.146
+    },
+    {
+     "w": "in",
+     "start": 23.146,
+     "end": 23.446
+    },
+    {
+     "w": "a",
+     "start": 23.446,
+     "end": 23.466
+    },
+    {
+     "w": "few",
+     "start": 23.466,
+     "end": 23.626
+    },
+    {
+     "w": "hours.",
+     "start": 23.626,
+     "end": 23.926
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Sound trucks blasted recordings of tank columns that carried 15 miles. Radio operators faked the chatter of entire divisions.",
+   "start": 24.412,
+   "end": 31.653,
+   "words": [
+    {
+     "w": "Sound",
+     "start": 24.312,
+     "end": 24.632
+    },
+    {
+     "w": "trucks",
+     "start": 24.632,
+     "end": 24.872
+    },
+    {
+     "w": "blasted",
+     "start": 24.872,
+     "end": 25.212
+    },
+    {
+     "w": "recordings",
+     "start": 25.212,
+     "end": 25.652
+    },
+    {
+     "w": "of",
+     "start": 25.652,
+     "end": 26.072
+    },
+    {
+     "w": "tank",
+     "start": 26.072,
+     "end": 26.232
+    },
+    {
+     "w": "columns",
+     "start": 26.232,
+     "end": 26.632
+    },
+    {
+     "w": "that",
+     "start": 26.632,
+     "end": 27.052
+    },
+    {
+     "w": "carried",
+     "start": 27.052,
+     "end": 27.312
+    },
+    {
+     "w": "15",
+     "start": 27.312,
+     "end": 27.672
+    },
+    {
+     "w": "miles.",
+     "start": 27.672,
+     "end": 28.032
+    },
+    {
+     "w": "Radio",
+     "start": 29.012,
+     "end": 29.012
+    },
+    {
+     "w": "operators",
+     "start": 29.012,
+     "end": 29.492
+    },
+    {
+     "w": "faked",
+     "start": 29.492,
+     "end": 29.832
+    },
+    {
+     "w": "the",
+     "start": 29.832,
+     "end": 30.032
+    },
+    {
+     "w": "chatter",
+     "start": 30.032,
+     "end": 30.252
+    },
+    {
+     "w": "of",
+     "start": 30.252,
+     "end": 30.572
+    },
+    {
+     "w": "entire",
+     "start": 30.572,
+     "end": 30.692
+    },
+    {
+     "w": "divisions.",
+     "start": 30.692,
+     "end": 31.272
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "From Normandy to the Rhine, they staged more than twenty deceptions.",
+   "start": 31.913,
+   "end": 35.035,
+   "words": [
+    {
+     "w": "From",
+     "start": 31.813,
+     "end": 32.033
+    },
+    {
+     "w": "Normandy",
+     "start": 32.033,
+     "end": 32.333
+    },
+    {
+     "w": "to",
+     "start": 32.333,
+     "end": 32.573
+    },
+    {
+     "w": "the",
+     "start": 32.573,
+     "end": 32.653
+    },
+    {
+     "w": "Rhine,",
+     "start": 32.653,
+     "end": 32.993
+    },
+    {
+     "w": "they",
+     "start": 33.233,
+     "end": 33.273
+    },
+    {
+     "w": "staged",
+     "start": 33.273,
+     "end": 33.493
+    },
+    {
+     "w": "more",
+     "start": 33.493,
+     "end": 33.873
+    },
+    {
+     "w": "than",
+     "start": 33.873,
+     "end": 34.053
+    },
+    {
+     "w": "twenty",
+     "start": 34.053,
+     "end": 34.273
+    },
+    {
+     "w": "deceptions.",
+     "start": 34.273,
+     "end": 34.693
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "The biggest came in March 1945. Along the Rhine, they set up more than 600 dummies and impersonated two divisions.",
+   "start": 35.295,
+   "end": 42.43,
+   "words": [
+    {
+     "w": "The",
+     "start": 35.195,
+     "end": 35.355
+    },
+    {
+     "w": "biggest",
+     "start": 35.355,
+     "end": 35.515
+    },
+    {
+     "w": "came",
+     "start": 35.515,
+     "end": 35.795
+    },
+    {
+     "w": "in",
+     "start": 35.795,
+     "end": 35.955
+    },
+    {
+     "w": "March",
+     "start": 35.955,
+     "end": 36.155
+    },
+    {
+     "w": "1945.",
+     "start": 36.155,
+     "end": 37.075
+    },
+    {
+     "w": "Along",
+     "start": 38.295,
+     "end": 38.295
+    },
+    {
+     "w": "the",
+     "start": 38.295,
+     "end": 38.475
+    },
+    {
+     "w": "Rhine,",
+     "start": 38.475,
+     "end": 38.655
+    },
+    {
+     "w": "they",
+     "start": 38.655,
+     "end": 38.935
+    },
+    {
+     "w": "set",
+     "start": 38.935,
+     "end": 39.095
+    },
+    {
+     "w": "up",
+     "start": 39.095,
+     "end": 39.215
+    },
+    {
+     "w": "more",
+     "start": 39.215,
+     "end": 39.435
+    },
+    {
+     "w": "than",
+     "start": 39.435,
+     "end": 39.575
+    },
+    {
+     "w": "600",
+     "start": 39.575,
+     "end": 39.875
+    },
+    {
+     "w": "dummies",
+     "start": 39.875,
+     "end": 40.495
+    },
+    {
+     "w": "and",
+     "start": 40.495,
+     "end": 40.895
+    },
+    {
+     "w": "impersonated",
+     "start": 40.895,
+     "end": 41.575
+    },
+    {
+     "w": "two",
+     "start": 41.575,
+     "end": 41.775
+    },
+    {
+     "w": "divisions.",
+     "start": 41.775,
+     "end": 42.035
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "The Germans took the bait. To the north, the real Ninth Army crossed the river and met little resistance.",
+   "start": 42.69,
+   "end": 48.025,
+   "words": [
+    {
+     "w": "The",
+     "start": 42.59,
+     "end": 42.77
+    },
+    {
+     "w": "Germans",
+     "start": 42.77,
+     "end": 42.99
+    },
+    {
+     "w": "took",
+     "start": 42.99,
+     "end": 43.31
+    },
+    {
+     "w": "the",
+     "start": 43.31,
+     "end": 43.49
+    },
+    {
+     "w": "bait.",
+     "start": 43.49,
+     "end": 43.69
+    },
+    {
+     "w": "To",
+     "start": 43.69,
+     "end": 44.31
+    },
+    {
+     "w": "the",
+     "start": 44.31,
+     "end": 44.39
+    },
+    {
+     "w": "north,",
+     "start": 44.39,
+     "end": 44.61
+    },
+    {
+     "w": "the",
+     "start": 44.61,
+     "end": 44.87
+    },
+    {
+     "w": "real",
+     "start": 44.87,
+     "end": 45.07
+    },
+    {
+     "w": "Ninth",
+     "start": 45.07,
+     "end": 45.51
+    },
+    {
+     "w": "Army",
+     "start": 45.51,
+     "end": 45.65
+    },
+    {
+     "w": "crossed",
+     "start": 45.65,
+     "end": 45.97
+    },
+    {
+     "w": "the",
+     "start": 45.97,
+     "end": 46.19
+    },
+    {
+     "w": "river",
+     "start": 46.19,
+     "end": 46.39
+    },
+    {
+     "w": "and",
+     "start": 46.39,
+     "end": 46.75
+    },
+    {
+     "w": "met",
+     "start": 46.75,
+     "end": 46.93
+    },
+    {
+     "w": "little",
+     "start": 46.93,
+     "end": 47.19
+    },
+    {
+     "w": "resistance.",
+     "start": 47.19,
+     "end": 47.53
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "The unit stayed secret until 1996. In 2022, they were awarded the Congressional Gold Medal.",
+   "start": 48.35,
+   "end": 54.621,
+   "words": [
+    {
+     "w": "The",
+     "start": 48.25,
+     "end": 48.41
+    },
+    {
+     "w": "unit",
+     "start": 48.41,
+     "end": 48.59
+    },
+    {
+     "w": "stayed",
+     "start": 48.59,
+     "end": 48.87
+    },
+    {
+     "w": "secret",
+     "start": 48.87,
+     "end": 49.27
+    },
+    {
+     "w": "until",
+     "start": 49.27,
+     "end": 49.53
+    },
+    {
+     "w": "1996.",
+     "start": 49.53,
+     "end": 50.43
+    },
+    {
+     "w": "In",
+     "start": 51.45,
+     "end": 51.53
+    },
+    {
+     "w": "2022,",
+     "start": 51.53,
+     "end": 52.01
+    },
+    {
+     "w": "they",
+     "start": 52.01,
+     "end": 52.67
+    },
+    {
+     "w": "were",
+     "start": 52.67,
+     "end": 52.79
+    },
+    {
+     "w": "awarded",
+     "start": 52.79,
+     "end": 53.11
+    },
+    {
+     "w": "the",
+     "start": 53.11,
+     "end": 53.29
+    },
+    {
+     "w": "Congressional",
+     "start": 53.29,
+     "end": 53.65
+    },
+    {
+     "w": "Gold",
+     "start": 53.65,
+     "end": 54.03
+    },
+    {
+     "w": "Medal.",
+     "start": 54.03,
+     "end": 54.37
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "An army of artists, fighting with balloons. Would you have fallen for it?",
+   "start": 54.946,
+   "end": 58.443,
+   "words": [
+    {
+     "w": "An",
+     "start": 54.846,
+     "end": 55.026
+    },
+    {
+     "w": "army",
+     "start": 55.026,
+     "end": 55.326
+    },
+    {
+     "w": "of",
+     "start": 55.326,
+     "end": 55.466
+    },
+    {
+     "w": "artists,",
+     "start": 55.466,
+     "end": 55.846
+    },
+    {
+     "w": "fighting",
+     "start": 55.846,
+     "end": 56.186
+    },
+    {
+     "w": "with",
+     "start": 56.186,
+     "end": 56.506
+    },
+    {
+     "w": "balloons.",
+     "start": 56.506,
+     "end": 56.726
+    },
+    {
+     "w": "Would",
+     "start": 57.306,
+     "end": 57.466
+    },
+    {
+     "w": "you",
+     "start": 57.466,
+     "end": 57.566
+    },
+    {
+     "w": "have",
+     "start": 57.566,
+     "end": 57.646
+    },
+    {
+     "w": "fallen",
+     "start": 57.646,
+     "end": 57.926
+    },
+    {
+     "w": "for",
+     "start": 57.926,
+     "end": 58.246
+    },
+    {
+     "w": "it?",
+     "start": 58.246,
+     "end": 58.366
+    }
+   ]
+  }
+ ]
+}

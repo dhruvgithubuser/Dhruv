@@ -1,0 +1,8030 @@
+{
+ "fps": 30,
+ "duration": 601.91,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "Chicago. January 13, 1879.",
+   "start": 0.35,
+   "end": 3.725,
+   "words": [
+    {
+     "w": "Chicago.",
+     "start": 0.25,
+     "end": 0.71
+    },
+    {
+     "w": "January",
+     "start": 1.17,
+     "end": 1.45
+    },
+    {
+     "w": "13,",
+     "start": 1.45,
+     "end": 1.83
+    },
+    {
+     "w": "1879.",
+     "start": 2.41,
+     "end": 3.41
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Inside a hotel called the Palmer House, a United States Army court opens its doors.",
+   "start": 4.325,
+   "end": 9.884,
+   "words": [
+    {
+     "w": "Inside",
+     "start": 4.225,
+     "end": 4.605
+    },
+    {
+     "w": "a",
+     "start": 4.605,
+     "end": 4.825
+    },
+    {
+     "w": "hotel",
+     "start": 4.825,
+     "end": 5.145
+    },
+    {
+     "w": "called",
+     "start": 5.145,
+     "end": 5.565
+    },
+    {
+     "w": "the",
+     "start": 5.565,
+     "end": 5.745
+    },
+    {
+     "w": "Palmer",
+     "start": 5.745,
+     "end": 5.925
+    },
+    {
+     "w": "House,",
+     "start": 5.925,
+     "end": 6.385
+    },
+    {
+     "w": "a",
+     "start": 6.925,
+     "end": 7.005
+    },
+    {
+     "w": "United",
+     "start": 7.005,
+     "end": 7.245
+    },
+    {
+     "w": "States",
+     "start": 7.245,
+     "end": 7.745
+    },
+    {
+     "w": "Army",
+     "start": 7.745,
+     "end": 8.165
+    },
+    {
+     "w": "court",
+     "start": 8.165,
+     "end": 8.525
+    },
+    {
+     "w": "opens",
+     "start": 8.525,
+     "end": 8.925
+    },
+    {
+     "w": "its",
+     "start": 8.925,
+     "end": 9.165
+    },
+    {
+     "w": "doors.",
+     "start": 9.165,
+     "end": 9.465
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "And the man on trial asked to be here. Major Marcus Reno.",
+   "start": 10.364,
+   "end": 14.292,
+   "words": [
+    {
+     "w": "And",
+     "start": 10.264,
+     "end": 10.444
+    },
+    {
+     "w": "the",
+     "start": 10.444,
+     "end": 10.524
+    },
+    {
+     "w": "man",
+     "start": 10.524,
+     "end": 10.744
+    },
+    {
+     "w": "on",
+     "start": 10.744,
+     "end": 10.904
+    },
+    {
+     "w": "trial",
+     "start": 10.904,
+     "end": 11.344
+    },
+    {
+     "w": "asked",
+     "start": 11.344,
+     "end": 11.844
+    },
+    {
+     "w": "to",
+     "start": 11.844,
+     "end": 12.044
+    },
+    {
+     "w": "be",
+     "start": 12.044,
+     "end": 12.144
+    },
+    {
+     "w": "here.",
+     "start": 12.144,
+     "end": 12.464
+    },
+    {
+     "w": "Major",
+     "start": 13.144,
+     "end": 13.144
+    },
+    {
+     "w": "Marcus",
+     "start": 13.144,
+     "end": 13.624
+    },
+    {
+     "w": "Reno.",
+     "start": 13.624,
+     "end": 13.924
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "For two and a half years, America has called him a coward. A drunk. The officer who let George Armstrong Custer die.",
+   "start": 15.012,
+   "end": 22.342,
+   "words": [
+    {
+     "w": "For",
+     "start": 14.912,
+     "end": 15.112
+    },
+    {
+     "w": "two",
+     "start": 15.112,
+     "end": 15.292
+    },
+    {
+     "w": "and",
+     "start": 15.292,
+     "end": 15.432
+    },
+    {
+     "w": "a",
+     "start": 15.432,
+     "end": 15.492
+    },
+    {
+     "w": "half",
+     "start": 15.492,
+     "end": 15.692
+    },
+    {
+     "w": "years,",
+     "start": 15.692,
+     "end": 16.032
+    },
+    {
+     "w": "America",
+     "start": 16.212,
+     "end": 16.412
+    },
+    {
+     "w": "has",
+     "start": 16.412,
+     "end": 16.812
+    },
+    {
+     "w": "called",
+     "start": 16.812,
+     "end": 17.092
+    },
+    {
+     "w": "him",
+     "start": 17.092,
+     "end": 17.272
+    },
+    {
+     "w": "a",
+     "start": 17.272,
+     "end": 17.332
+    },
+    {
+     "w": "coward.",
+     "start": 17.332,
+     "end": 17.572
+    },
+    {
+     "w": "A",
+     "start": 18.412,
+     "end": 18.452
+    },
+    {
+     "w": "drunk.",
+     "start": 18.452,
+     "end": 18.692
+    },
+    {
+     "w": "The",
+     "start": 19.232,
+     "end": 19.492
+    },
+    {
+     "w": "officer",
+     "start": 19.492,
+     "end": 19.832
+    },
+    {
+     "w": "who",
+     "start": 19.832,
+     "end": 20.172
+    },
+    {
+     "w": "let",
+     "start": 20.172,
+     "end": 20.352
+    },
+    {
+     "w": "George",
+     "start": 20.352,
+     "end": 20.532
+    },
+    {
+     "w": "Armstrong",
+     "start": 20.532,
+     "end": 21.132
+    },
+    {
+     "w": "Custer",
+     "start": 21.132,
+     "end": 21.732
+    },
+    {
+     "w": "die.",
+     "start": 21.732,
+     "end": 22.152
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "The accusation began with a book. Months after the battle, a writer named Frederick Whittaker published a heroic biography of Custer. In it, he blamed Custer's death on two officers: Major Reno and Captain Frederick Benteen. Whittaker demanded an official investigation. Reno decided to face it.",
+   "start": 22.942,
+   "end": 42.081,
+   "words": [
+    {
+     "w": "The",
+     "start": 22.842,
+     "end": 23.022
+    },
+    {
+     "w": "accusation",
+     "start": 23.022,
+     "end": 23.302
+    },
+    {
+     "w": "began",
+     "start": 23.302,
+     "end": 23.942
+    },
+    {
+     "w": "with",
+     "start": 23.942,
+     "end": 24.282
+    },
+    {
+     "w": "a",
+     "start": 24.282,
+     "end": 24.382
+    },
+    {
+     "w": "book.",
+     "start": 24.382,
+     "end": 24.622
+    },
+    {
+     "w": "Months",
+     "start": 25.342,
+     "end": 25.362
+    },
+    {
+     "w": "after",
+     "start": 25.362,
+     "end": 25.682
+    },
+    {
+     "w": "the",
+     "start": 25.682,
+     "end": 25.942
+    },
+    {
+     "w": "battle,",
+     "start": 25.942,
+     "end": 26.262
+    },
+    {
+     "w": "a",
+     "start": 26.502,
+     "end": 26.562
+    },
+    {
+     "w": "writer",
+     "start": 26.562,
+     "end": 26.802
+    },
+    {
+     "w": "named",
+     "start": 26.802,
+     "end": 27.282
+    },
+    {
+     "w": "Frederick",
+     "start": 27.282,
+     "end": 27.562
+    },
+    {
+     "w": "Whittaker",
+     "start": 27.562,
+     "end": 28.162
+    },
+    {
+     "w": "published",
+     "start": 28.162,
+     "end": 28.582
+    },
+    {
+     "w": "a",
+     "start": 28.582,
+     "end": 28.802
+    },
+    {
+     "w": "heroic",
+     "start": 28.802,
+     "end": 29.102
+    },
+    {
+     "w": "biography",
+     "start": 29.102,
+     "end": 29.642
+    },
+    {
+     "w": "of",
+     "start": 29.642,
+     "end": 30.182
+    },
+    {
+     "w": "Custer.",
+     "start": 30.182,
+     "end": 30.502
+    },
+    {
+     "w": "In",
+     "start": 31.282,
+     "end": 31.342
+    },
+    {
+     "w": "it,",
+     "start": 31.342,
+     "end": 31.482
+    },
+    {
+     "w": "he",
+     "start": 31.702,
+     "end": 31.762
+    },
+    {
+     "w": "blamed",
+     "start": 31.762,
+     "end": 32.002
+    },
+    {
+     "w": "Custer's",
+     "start": 32.002,
+     "end": 32.702
+    },
+    {
+     "w": "death",
+     "start": 32.702,
+     "end": 32.922
+    },
+    {
+     "w": "on",
+     "start": 32.922,
+     "end": 33.162
+    },
+    {
+     "w": "two",
+     "start": 33.162,
+     "end": 33.382
+    },
+    {
+     "w": "officers:",
+     "start": 33.382,
+     "end": 33.862
+    },
+    {
+     "w": "Major",
+     "start": 34.542,
+     "end": 34.642
+    },
+    {
+     "w": "Reno",
+     "start": 34.642,
+     "end": 35.022
+    },
+    {
+     "w": "and",
+     "start": 35.022,
+     "end": 35.422
+    },
+    {
+     "w": "Captain",
+     "start": 35.422,
+     "end": 35.702
+    },
+    {
+     "w": "Frederick",
+     "start": 35.702,
+     "end": 36.202
+    },
+    {
+     "w": "Benteen.",
+     "start": 36.202,
+     "end": 37.402
+    },
+    {
+     "w": "Whittaker",
+     "start": 37.402,
+     "end": 37.822
+    },
+    {
+     "w": "demanded",
+     "start": 37.822,
+     "end": 38.182
+    },
+    {
+     "w": "an",
+     "start": 38.182,
+     "end": 38.562
+    },
+    {
+     "w": "official",
+     "start": 38.562,
+     "end": 38.822
+    },
+    {
+     "w": "investigation.",
+     "start": 38.822,
+     "end": 39.722
+    },
+    {
+     "w": "Reno",
+     "start": 39.722,
+     "end": 40.702
+    },
+    {
+     "w": "decided",
+     "start": 40.702,
+     "end": 41.222
+    },
+    {
+     "w": "to",
+     "start": 41.222,
+     "end": 41.502
+    },
+    {
+     "w": "face",
+     "start": 41.502,
+     "end": 41.722
+    },
+    {
+     "w": "it.",
+     "start": 41.722,
+     "end": 42.022
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Today, Reno wants a verdict. But to judge him, this court must answer a bigger question. Who really lost the Battle of the Little Bighorn?",
+   "start": 42.801,
+   "end": 51.097,
+   "words": [
+    {
+     "w": "Today,",
+     "start": 42.701,
+     "end": 43.041
+    },
+    {
+     "w": "Reno",
+     "start": 43.361,
+     "end": 43.421
+    },
+    {
+     "w": "wants",
+     "start": 43.421,
+     "end": 43.861
+    },
+    {
+     "w": "a",
+     "start": 43.861,
+     "end": 44.041
+    },
+    {
+     "w": "verdict.",
+     "start": 44.041,
+     "end": 44.281
+    },
+    {
+     "w": "But",
+     "start": 44.881,
+     "end": 45.101
+    },
+    {
+     "w": "to",
+     "start": 45.101,
+     "end": 45.221
+    },
+    {
+     "w": "judge",
+     "start": 45.221,
+     "end": 45.461
+    },
+    {
+     "w": "him,",
+     "start": 45.461,
+     "end": 45.801
+    },
+    {
+     "w": "this",
+     "start": 46.041,
+     "end": 46.141
+    },
+    {
+     "w": "court",
+     "start": 46.141,
+     "end": 46.441
+    },
+    {
+     "w": "must",
+     "start": 46.441,
+     "end": 46.681
+    },
+    {
+     "w": "answer",
+     "start": 46.681,
+     "end": 47.201
+    },
+    {
+     "w": "a",
+     "start": 47.201,
+     "end": 47.341
+    },
+    {
+     "w": "bigger",
+     "start": 47.341,
+     "end": 47.481
+    },
+    {
+     "w": "question.",
+     "start": 47.481,
+     "end": 47.941
+    },
+    {
+     "w": "Who",
+     "start": 48.401,
+     "end": 48.761
+    },
+    {
+     "w": "really",
+     "start": 48.761,
+     "end": 49.001
+    },
+    {
+     "w": "lost",
+     "start": 49.001,
+     "end": 49.381
+    },
+    {
+     "w": "the",
+     "start": 49.381,
+     "end": 49.621
+    },
+    {
+     "w": "Battle",
+     "start": 49.621,
+     "end": 49.881
+    },
+    {
+     "w": "of",
+     "start": 49.881,
+     "end": 50.141
+    },
+    {
+     "w": "the",
+     "start": 50.141,
+     "end": 50.221
+    },
+    {
+     "w": "Little",
+     "start": 50.221,
+     "end": 50.401
+    },
+    {
+     "w": "Bighorn?",
+     "start": 50.401,
+     "end": 50.921
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "You've heard the legend. Now hear the evidence. And this time, you are the jury.",
+   "start": 51.817,
+   "end": 55.971,
+   "words": [
+    {
+     "w": "You've",
+     "start": 51.717,
+     "end": 51.977
+    },
+    {
+     "w": "heard",
+     "start": 51.977,
+     "end": 52.117
+    },
+    {
+     "w": "the",
+     "start": 52.117,
+     "end": 52.277
+    },
+    {
+     "w": "legend.",
+     "start": 52.277,
+     "end": 52.617
+    },
+    {
+     "w": "Now",
+     "start": 52.917,
+     "end": 53.017
+    },
+    {
+     "w": "hear",
+     "start": 53.017,
+     "end": 53.217
+    },
+    {
+     "w": "the",
+     "start": 53.217,
+     "end": 53.397
+    },
+    {
+     "w": "evidence.",
+     "start": 53.397,
+     "end": 53.677
+    },
+    {
+     "w": "And",
+     "start": 53.677,
+     "end": 54.037
+    },
+    {
+     "w": "this",
+     "start": 54.037,
+     "end": 54.197
+    },
+    {
+     "w": "time,",
+     "start": 54.197,
+     "end": 54.557
+    },
+    {
+     "w": "you",
+     "start": 54.917,
+     "end": 55.017
+    },
+    {
+     "w": "are",
+     "start": 55.017,
+     "end": 55.217
+    },
+    {
+     "w": "the",
+     "start": 55.217,
+     "end": 55.337
+    },
+    {
+     "w": "jury.",
+     "start": 55.337,
+     "end": 55.657
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "The dead man at the center of this case is famous. George Armstrong Custer graduated last in his class at West Point. Two years later, at just 23, he was a general.",
+   "start": 57.171,
+   "end": 67.94,
+   "words": [
+    {
+     "w": "The",
+     "start": 57.071,
+     "end": 57.251
+    },
+    {
+     "w": "dead",
+     "start": 57.251,
+     "end": 57.411
+    },
+    {
+     "w": "man",
+     "start": 57.411,
+     "end": 57.691
+    },
+    {
+     "w": "at",
+     "start": 57.691,
+     "end": 57.911
+    },
+    {
+     "w": "the",
+     "start": 57.911,
+     "end": 58.011
+    },
+    {
+     "w": "center",
+     "start": 58.011,
+     "end": 58.251
+    },
+    {
+     "w": "of",
+     "start": 58.251,
+     "end": 58.471
+    },
+    {
+     "w": "this",
+     "start": 58.471,
+     "end": 58.611
+    },
+    {
+     "w": "case",
+     "start": 58.611,
+     "end": 58.891
+    },
+    {
+     "w": "is",
+     "start": 58.891,
+     "end": 59.131
+    },
+    {
+     "w": "famous.",
+     "start": 59.131,
+     "end": 59.531
+    },
+    {
+     "w": "George",
+     "start": 60.351,
+     "end": 60.511
+    },
+    {
+     "w": "Armstrong",
+     "start": 60.511,
+     "end": 60.911
+    },
+    {
+     "w": "Custer",
+     "start": 60.911,
+     "end": 61.631
+    },
+    {
+     "w": "graduated",
+     "start": 61.631,
+     "end": 62.191
+    },
+    {
+     "w": "last",
+     "start": 62.191,
+     "end": 62.631
+    },
+    {
+     "w": "in",
+     "start": 62.631,
+     "end": 62.871
+    },
+    {
+     "w": "his",
+     "start": 62.871,
+     "end": 62.991
+    },
+    {
+     "w": "class",
+     "start": 62.991,
+     "end": 63.251
+    },
+    {
+     "w": "at",
+     "start": 63.251,
+     "end": 63.571
+    },
+    {
+     "w": "West",
+     "start": 63.571,
+     "end": 63.711
+    },
+    {
+     "w": "Point.",
+     "start": 63.711,
+     "end": 64.011
+    },
+    {
+     "w": "Two",
+     "start": 64.811,
+     "end": 64.891
+    },
+    {
+     "w": "years",
+     "start": 64.891,
+     "end": 65.131
+    },
+    {
+     "w": "later,",
+     "start": 65.131,
+     "end": 65.431
+    },
+    {
+     "w": "at",
+     "start": 65.551,
+     "end": 65.791
+    },
+    {
+     "w": "just",
+     "start": 65.791,
+     "end": 65.971
+    },
+    {
+     "w": "23,",
+     "start": 65.971,
+     "end": 66.371
+    },
+    {
+     "w": "he",
+     "start": 67.011,
+     "end": 67.091
+    },
+    {
+     "w": "was",
+     "start": 67.091,
+     "end": 67.191
+    },
+    {
+     "w": "a",
+     "start": 67.191,
+     "end": 67.291
+    },
+    {
+     "w": "general.",
+     "start": 67.291,
+     "end": 67.571
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Brave, reckless, and loved by the newspapers, he became the boy general of the Union cavalry.",
+   "start": 68.42,
+   "end": 74.273,
+   "words": [
+    {
+     "w": "Brave,",
+     "start": 68.32,
+     "end": 68.64
+    },
+    {
+     "w": "reckless,",
+     "start": 68.72,
+     "end": 69.12
+    },
+    {
+     "w": "and",
+     "start": 69.62,
+     "end": 69.68
+    },
+    {
+     "w": "loved",
+     "start": 69.68,
+     "end": 69.92
+    },
+    {
+     "w": "by",
+     "start": 69.92,
+     "end": 70.22
+    },
+    {
+     "w": "the",
+     "start": 70.22,
+     "end": 70.34
+    },
+    {
+     "w": "newspapers,",
+     "start": 70.34,
+     "end": 70.6
+    },
+    {
+     "w": "he",
+     "start": 71.48,
+     "end": 71.58
+    },
+    {
+     "w": "became",
+     "start": 71.58,
+     "end": 71.86
+    },
+    {
+     "w": "the",
+     "start": 71.86,
+     "end": 72.04
+    },
+    {
+     "w": "boy",
+     "start": 72.04,
+     "end": 72.26
+    },
+    {
+     "w": "general",
+     "start": 72.26,
+     "end": 72.68
+    },
+    {
+     "w": "of",
+     "start": 72.68,
+     "end": 73.06
+    },
+    {
+     "w": "the",
+     "start": 73.06,
+     "end": 73.14
+    },
+    {
+     "w": "Union",
+     "start": 73.14,
+     "end": 73.36
+    },
+    {
+     "w": "cavalry.",
+     "start": 73.36,
+     "end": 73.82
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "At Gettysburg, his Michigan cavalry helped stop a Confederate cavalry attack. At Appomattox, he was there when the war ended.",
+   "start": 74.753,
+   "end": 82.536,
+   "words": [
+    {
+     "w": "At",
+     "start": 74.653,
+     "end": 74.853
+    },
+    {
+     "w": "Gettysburg,",
+     "start": 74.853,
+     "end": 75.413
+    },
+    {
+     "w": "his",
+     "start": 75.633,
+     "end": 75.713
+    },
+    {
+     "w": "Michigan",
+     "start": 75.713,
+     "end": 76.013
+    },
+    {
+     "w": "cavalry",
+     "start": 76.013,
+     "end": 76.433
+    },
+    {
+     "w": "helped",
+     "start": 76.433,
+     "end": 76.853
+    },
+    {
+     "w": "stop",
+     "start": 76.853,
+     "end": 77.253
+    },
+    {
+     "w": "a",
+     "start": 77.253,
+     "end": 77.413
+    },
+    {
+     "w": "Confederate",
+     "start": 77.413,
+     "end": 77.893
+    },
+    {
+     "w": "cavalry",
+     "start": 77.893,
+     "end": 78.173
+    },
+    {
+     "w": "attack.",
+     "start": 78.173,
+     "end": 78.853
+    },
+    {
+     "w": "At",
+     "start": 78.853,
+     "end": 79.883
+    },
+    {
+     "w": "Appomattox,",
+     "start": 79.883,
+     "end": 80.913
+    },
+    {
+     "w": "he",
+     "start": 80.913,
+     "end": 80.953
+    },
+    {
+     "w": "was",
+     "start": 80.953,
+     "end": 81.073
+    },
+    {
+     "w": "there",
+     "start": 81.073,
+     "end": 81.293
+    },
+    {
+     "w": "when",
+     "start": 81.293,
+     "end": 81.533
+    },
+    {
+     "w": "the",
+     "start": 81.533,
+     "end": 81.653
+    },
+    {
+     "w": "war",
+     "start": 81.653,
+     "end": 81.833
+    },
+    {
+     "w": "ended.",
+     "start": 81.833,
+     "end": 82.273
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "But his record had dark marks too. In 1867, he was court-martialed for leaving his post to see his wife, and suspended for a year.",
+   "start": 83.136,
+   "end": 92.278,
+   "words": [
+    {
+     "w": "But",
+     "start": 83.036,
+     "end": 83.216
+    },
+    {
+     "w": "his",
+     "start": 83.216,
+     "end": 83.316
+    },
+    {
+     "w": "record",
+     "start": 83.316,
+     "end": 83.696
+    },
+    {
+     "w": "had",
+     "start": 83.696,
+     "end": 83.956
+    },
+    {
+     "w": "dark",
+     "start": 83.956,
+     "end": 84.256
+    },
+    {
+     "w": "marks",
+     "start": 84.256,
+     "end": 84.556
+    },
+    {
+     "w": "too.",
+     "start": 84.556,
+     "end": 85.016
+    },
+    {
+     "w": "In",
+     "start": 85.876,
+     "end": 85.956
+    },
+    {
+     "w": "1867,",
+     "start": 85.956,
+     "end": 86.856
+    },
+    {
+     "w": "he",
+     "start": 87.456,
+     "end": 87.496
+    },
+    {
+     "w": "was",
+     "start": 87.496,
+     "end": 87.616
+    },
+    {
+     "w": "court-martialed",
+     "start": 87.616,
+     "end": 88.496
+    },
+    {
+     "w": "for",
+     "start": 88.496,
+     "end": 88.616
+    },
+    {
+     "w": "leaving",
+     "start": 88.616,
+     "end": 88.816
+    },
+    {
+     "w": "his",
+     "start": 88.816,
+     "end": 89.096
+    },
+    {
+     "w": "post",
+     "start": 89.096,
+     "end": 89.356
+    },
+    {
+     "w": "to",
+     "start": 89.356,
+     "end": 89.656
+    },
+    {
+     "w": "see",
+     "start": 89.656,
+     "end": 89.816
+    },
+    {
+     "w": "his",
+     "start": 89.816,
+     "end": 89.996
+    },
+    {
+     "w": "wife,",
+     "start": 89.996,
+     "end": 90.296
+    },
+    {
+     "w": "and",
+     "start": 90.296,
+     "end": 90.856
+    },
+    {
+     "w": "suspended",
+     "start": 90.856,
+     "end": 91.176
+    },
+    {
+     "w": "for",
+     "start": 91.176,
+     "end": 91.676
+    },
+    {
+     "w": "a",
+     "start": 91.676,
+     "end": 91.796
+    },
+    {
+     "w": "year.",
+     "start": 91.796,
+     "end": 92.036
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "And in 1868, he attacked a Cheyenne village on the Washita River. Women and children died. And Custer rode away without finding one of his own majors, Joel Elliott, and his men. They were later found dead.",
+   "start": 92.758,
+   "end": 106.046,
+   "words": [
+    {
+     "w": "And",
+     "start": 92.658,
+     "end": 92.838
+    },
+    {
+     "w": "in",
+     "start": 92.838,
+     "end": 92.918
+    },
+    {
+     "w": "1868,",
+     "start": 92.918,
+     "end": 93.698
+    },
+    {
+     "w": "he",
+     "start": 94.198,
+     "end": 94.218
+    },
+    {
+     "w": "attacked",
+     "start": 94.218,
+     "end": 94.538
+    },
+    {
+     "w": "a",
+     "start": 94.538,
+     "end": 94.718
+    },
+    {
+     "w": "Cheyenne",
+     "start": 94.718,
+     "end": 95.138
+    },
+    {
+     "w": "village",
+     "start": 95.138,
+     "end": 95.478
+    },
+    {
+     "w": "on",
+     "start": 95.478,
+     "end": 95.758
+    },
+    {
+     "w": "the",
+     "start": 95.758,
+     "end": 95.878
+    },
+    {
+     "w": "Washita",
+     "start": 95.878,
+     "end": 96.378
+    },
+    {
+     "w": "River.",
+     "start": 96.378,
+     "end": 96.738
+    },
+    {
+     "w": "Women",
+     "start": 97.538,
+     "end": 97.578
+    },
+    {
+     "w": "and",
+     "start": 97.578,
+     "end": 97.838
+    },
+    {
+     "w": "children",
+     "start": 97.838,
+     "end": 98.098
+    },
+    {
+     "w": "died.",
+     "start": 98.098,
+     "end": 98.658
+    },
+    {
+     "w": "And",
+     "start": 99.218,
+     "end": 99.278
+    },
+    {
+     "w": "Custer",
+     "start": 99.278,
+     "end": 99.618
+    },
+    {
+     "w": "rode",
+     "start": 99.618,
+     "end": 99.898
+    },
+    {
+     "w": "away",
+     "start": 99.898,
+     "end": 100.238
+    },
+    {
+     "w": "without",
+     "start": 100.238,
+     "end": 100.558
+    },
+    {
+     "w": "finding",
+     "start": 100.558,
+     "end": 101.078
+    },
+    {
+     "w": "one",
+     "start": 101.078,
+     "end": 101.338
+    },
+    {
+     "w": "of",
+     "start": 101.338,
+     "end": 101.438
+    },
+    {
+     "w": "his",
+     "start": 101.438,
+     "end": 101.578
+    },
+    {
+     "w": "own",
+     "start": 101.578,
+     "end": 101.738
+    },
+    {
+     "w": "majors,",
+     "start": 101.738,
+     "end": 102.118
+    },
+    {
+     "w": "Joel",
+     "start": 102.718,
+     "end": 102.818
+    },
+    {
+     "w": "Elliott,",
+     "start": 102.818,
+     "end": 103.158
+    },
+    {
+     "w": "and",
+     "start": 103.158,
+     "end": 103.578
+    },
+    {
+     "w": "his",
+     "start": 103.578,
+     "end": 103.698
+    },
+    {
+     "w": "men.",
+     "start": 103.698,
+     "end": 103.918
+    },
+    {
+     "w": "They",
+     "start": 104.598,
+     "end": 104.758
+    },
+    {
+     "w": "were",
+     "start": 104.758,
+     "end": 104.838
+    },
+    {
+     "w": "later",
+     "start": 104.838,
+     "end": 105.078
+    },
+    {
+     "w": "found",
+     "start": 105.078,
+     "end": 105.418
+    },
+    {
+     "w": "dead.",
+     "start": 105.418,
+     "end": 105.778
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "Elliott was a close friend of one of Custer's captains. His name was Frederick Benteen, and he never forgave Custer. Eight years later, at the Little Bighorn, Benteen would be the officer Custer called for help.",
+   "start": 106.646,
+   "end": 119.096,
+   "words": [
+    {
+     "w": "Elliott",
+     "start": 106.546,
+     "end": 106.846
+    },
+    {
+     "w": "was",
+     "start": 106.846,
+     "end": 107.126
+    },
+    {
+     "w": "a",
+     "start": 107.126,
+     "end": 107.226
+    },
+    {
+     "w": "close",
+     "start": 107.226,
+     "end": 107.446
+    },
+    {
+     "w": "friend",
+     "start": 107.446,
+     "end": 107.866
+    },
+    {
+     "w": "of",
+     "start": 107.866,
+     "end": 108.086
+    },
+    {
+     "w": "one",
+     "start": 108.086,
+     "end": 108.206
+    },
+    {
+     "w": "of",
+     "start": 108.206,
+     "end": 108.306
+    },
+    {
+     "w": "Custer's",
+     "start": 108.306,
+     "end": 108.786
+    },
+    {
+     "w": "captains.",
+     "start": 108.786,
+     "end": 108.946
+    },
+    {
+     "w": "His",
+     "start": 109.966,
+     "end": 110.046
+    },
+    {
+     "w": "name",
+     "start": 110.046,
+     "end": 110.326
+    },
+    {
+     "w": "was",
+     "start": 110.326,
+     "end": 110.566
+    },
+    {
+     "w": "Frederick",
+     "start": 110.566,
+     "end": 110.886
+    },
+    {
+     "w": "Benteen,",
+     "start": 110.886,
+     "end": 111.866
+    },
+    {
+     "w": "and",
+     "start": 111.866,
+     "end": 112.046
+    },
+    {
+     "w": "he",
+     "start": 112.046,
+     "end": 112.126
+    },
+    {
+     "w": "never",
+     "start": 112.126,
+     "end": 112.286
+    },
+    {
+     "w": "forgave",
+     "start": 112.286,
+     "end": 112.786
+    },
+    {
+     "w": "Custer.",
+     "start": 112.786,
+     "end": 113.266
+    },
+    {
+     "w": "Eight",
+     "start": 114.126,
+     "end": 114.186
+    },
+    {
+     "w": "years",
+     "start": 114.186,
+     "end": 114.446
+    },
+    {
+     "w": "later,",
+     "start": 114.446,
+     "end": 114.786
+    },
+    {
+     "w": "at",
+     "start": 114.906,
+     "end": 115.106
+    },
+    {
+     "w": "the",
+     "start": 115.106,
+     "end": 115.226
+    },
+    {
+     "w": "Little",
+     "start": 115.226,
+     "end": 115.406
+    },
+    {
+     "w": "Bighorn,",
+     "start": 115.406,
+     "end": 115.906
+    },
+    {
+     "w": "Benteen",
+     "start": 115.906,
+     "end": 116.746
+    },
+    {
+     "w": "would",
+     "start": 116.746,
+     "end": 116.966
+    },
+    {
+     "w": "be",
+     "start": 116.966,
+     "end": 117.106
+    },
+    {
+     "w": "the",
+     "start": 117.106,
+     "end": 117.206
+    },
+    {
+     "w": "officer",
+     "start": 117.206,
+     "end": 117.546
+    },
+    {
+     "w": "Custer",
+     "start": 117.546,
+     "end": 118.066
+    },
+    {
+     "w": "called",
+     "start": 118.066,
+     "end": 118.306
+    },
+    {
+     "w": "for",
+     "start": 118.306,
+     "end": 118.606
+    },
+    {
+     "w": "help.",
+     "start": 118.606,
+     "end": 118.866
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Marcus Reno was his opposite. A quiet career officer, injured in the Civil War, with almost no experience fighting Plains warriors. In June 1876, he was Custer's second in command in the 7th Cavalry.",
+   "start": 119.936,
+   "end": 134.392,
+   "words": [
+    {
+     "w": "Marcus",
+     "start": 119.836,
+     "end": 120.196
+    },
+    {
+     "w": "Reno",
+     "start": 120.196,
+     "end": 120.456
+    },
+    {
+     "w": "was",
+     "start": 120.456,
+     "end": 120.876
+    },
+    {
+     "w": "his",
+     "start": 120.876,
+     "end": 120.996
+    },
+    {
+     "w": "opposite.",
+     "start": 120.996,
+     "end": 121.356
+    },
+    {
+     "w": "A",
+     "start": 122.176,
+     "end": 122.196
+    },
+    {
+     "w": "quiet",
+     "start": 122.196,
+     "end": 122.476
+    },
+    {
+     "w": "career",
+     "start": 122.476,
+     "end": 122.756
+    },
+    {
+     "w": "officer,",
+     "start": 122.756,
+     "end": 123.336
+    },
+    {
+     "w": "injured",
+     "start": 123.336,
+     "end": 123.976
+    },
+    {
+     "w": "in",
+     "start": 123.976,
+     "end": 124.296
+    },
+    {
+     "w": "the",
+     "start": 124.296,
+     "end": 124.396
+    },
+    {
+     "w": "Civil",
+     "start": 124.396,
+     "end": 124.596
+    },
+    {
+     "w": "War,",
+     "start": 124.596,
+     "end": 125.056
+    },
+    {
+     "w": "with",
+     "start": 125.056,
+     "end": 125.376
+    },
+    {
+     "w": "almost",
+     "start": 125.376,
+     "end": 125.556
+    },
+    {
+     "w": "no",
+     "start": 125.556,
+     "end": 125.936
+    },
+    {
+     "w": "experience",
+     "start": 125.936,
+     "end": 126.496
+    },
+    {
+     "w": "fighting",
+     "start": 126.496,
+     "end": 127.116
+    },
+    {
+     "w": "Plains",
+     "start": 127.116,
+     "end": 127.396
+    },
+    {
+     "w": "warriors.",
+     "start": 127.396,
+     "end": 127.936
+    },
+    {
+     "w": "In",
+     "start": 128.936,
+     "end": 129.036
+    },
+    {
+     "w": "June",
+     "start": 129.036,
+     "end": 129.276
+    },
+    {
+     "w": "1876,",
+     "start": 129.276,
+     "end": 130.656
+    },
+    {
+     "w": "he",
+     "start": 131.276,
+     "end": 131.296
+    },
+    {
+     "w": "was",
+     "start": 131.296,
+     "end": 131.396
+    },
+    {
+     "w": "Custer's",
+     "start": 131.396,
+     "end": 131.956
+    },
+    {
+     "w": "second",
+     "start": 131.956,
+     "end": 132.216
+    },
+    {
+     "w": "in",
+     "start": 132.216,
+     "end": 132.496
+    },
+    {
+     "w": "command",
+     "start": 132.496,
+     "end": 132.756
+    },
+    {
+     "w": "in",
+     "start": 132.756,
+     "end": 133.176
+    },
+    {
+     "w": "the",
+     "start": 133.176,
+     "end": 133.296
+    },
+    {
+     "w": "7th",
+     "start": 133.296,
+     "end": 133.616
+    },
+    {
+     "w": "Cavalry.",
+     "start": 133.616,
+     "end": 133.956
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "To understand how they got to that river, go back two years. In 1874, Custer led an expedition into the Black Hills, land promised to the Lakota by treaty. And he reported gold.",
+   "start": 135.112,
+   "end": 147.457,
+   "words": [
+    {
+     "w": "To",
+     "start": 135.012,
+     "end": 135.192
+    },
+    {
+     "w": "understand",
+     "start": 135.192,
+     "end": 135.512
+    },
+    {
+     "w": "how",
+     "start": 135.512,
+     "end": 135.992
+    },
+    {
+     "w": "they",
+     "start": 135.992,
+     "end": 136.192
+    },
+    {
+     "w": "got",
+     "start": 136.192,
+     "end": 136.412
+    },
+    {
+     "w": "to",
+     "start": 136.412,
+     "end": 136.592
+    },
+    {
+     "w": "that",
+     "start": 136.592,
+     "end": 136.732
+    },
+    {
+     "w": "river,",
+     "start": 136.732,
+     "end": 137.052
+    },
+    {
+     "w": "go",
+     "start": 137.052,
+     "end": 137.332
+    },
+    {
+     "w": "back",
+     "start": 137.332,
+     "end": 137.632
+    },
+    {
+     "w": "two",
+     "start": 137.632,
+     "end": 137.892
+    },
+    {
+     "w": "years.",
+     "start": 137.892,
+     "end": 138.312
+    },
+    {
+     "w": "In",
+     "start": 139.112,
+     "end": 139.172
+    },
+    {
+     "w": "1874,",
+     "start": 139.172,
+     "end": 140.232
+    },
+    {
+     "w": "Custer",
+     "start": 140.632,
+     "end": 140.792
+    },
+    {
+     "w": "led",
+     "start": 140.792,
+     "end": 141.112
+    },
+    {
+     "w": "an",
+     "start": 141.112,
+     "end": 141.232
+    },
+    {
+     "w": "expedition",
+     "start": 141.232,
+     "end": 141.572
+    },
+    {
+     "w": "into",
+     "start": 141.572,
+     "end": 142.052
+    },
+    {
+     "w": "the",
+     "start": 142.052,
+     "end": 142.192
+    },
+    {
+     "w": "Black",
+     "start": 142.192,
+     "end": 142.412
+    },
+    {
+     "w": "Hills,",
+     "start": 142.412,
+     "end": 142.732
+    },
+    {
+     "w": "land",
+     "start": 143.412,
+     "end": 143.572
+    },
+    {
+     "w": "promised",
+     "start": 143.572,
+     "end": 144.092
+    },
+    {
+     "w": "to",
+     "start": 144.092,
+     "end": 144.352
+    },
+    {
+     "w": "the",
+     "start": 144.352,
+     "end": 144.432
+    },
+    {
+     "w": "Lakota",
+     "start": 144.432,
+     "end": 144.832
+    },
+    {
+     "w": "by",
+     "start": 144.832,
+     "end": 145.112
+    },
+    {
+     "w": "treaty.",
+     "start": 145.112,
+     "end": 145.432
+    },
+    {
+     "w": "And",
+     "start": 146.092,
+     "end": 146.192
+    },
+    {
+     "w": "he",
+     "start": 146.192,
+     "end": 146.272
+    },
+    {
+     "w": "reported",
+     "start": 146.272,
+     "end": 146.552
+    },
+    {
+     "w": "gold.",
+     "start": 146.552,
+     "end": 147.012
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "Miners poured in. When the Lakota and their allies refused to sell, the army was sent to force them onto reservations.",
+   "start": 147.937,
+   "end": 155.385,
+   "words": [
+    {
+     "w": "Miners",
+     "start": 147.837,
+     "end": 148.317
+    },
+    {
+     "w": "poured",
+     "start": 148.317,
+     "end": 148.537
+    },
+    {
+     "w": "in.",
+     "start": 148.537,
+     "end": 148.877
+    },
+    {
+     "w": "When",
+     "start": 149.597,
+     "end": 149.637
+    },
+    {
+     "w": "the",
+     "start": 149.637,
+     "end": 149.757
+    },
+    {
+     "w": "Lakota",
+     "start": 149.757,
+     "end": 150.157
+    },
+    {
+     "w": "and",
+     "start": 150.157,
+     "end": 150.477
+    },
+    {
+     "w": "their",
+     "start": 150.477,
+     "end": 150.577
+    },
+    {
+     "w": "allies",
+     "start": 150.577,
+     "end": 150.917
+    },
+    {
+     "w": "refused",
+     "start": 150.917,
+     "end": 151.377
+    },
+    {
+     "w": "to",
+     "start": 151.377,
+     "end": 151.757
+    },
+    {
+     "w": "sell,",
+     "start": 151.757,
+     "end": 152.017
+    },
+    {
+     "w": "the",
+     "start": 152.457,
+     "end": 152.557
+    },
+    {
+     "w": "army",
+     "start": 152.557,
+     "end": 152.857
+    },
+    {
+     "w": "was",
+     "start": 152.857,
+     "end": 153.117
+    },
+    {
+     "w": "sent",
+     "start": 153.117,
+     "end": 153.317
+    },
+    {
+     "w": "to",
+     "start": 153.317,
+     "end": 153.497
+    },
+    {
+     "w": "force",
+     "start": 153.497,
+     "end": 153.757
+    },
+    {
+     "w": "them",
+     "start": 153.757,
+     "end": 153.997
+    },
+    {
+     "w": "onto",
+     "start": 153.997,
+     "end": 154.197
+    },
+    {
+     "w": "reservations.",
+     "start": 154.197,
+     "end": 154.597
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "In the summer of 1876, three army columns closed in. The fastest was the 7th Cavalry. About 600 soldiers, plus scouts and civilians, under Custer.",
+   "start": 155.985,
+   "end": 167.101,
+   "words": [
+    {
+     "w": "In",
+     "start": 155.885,
+     "end": 156.085
+    },
+    {
+     "w": "the",
+     "start": 156.085,
+     "end": 156.145
+    },
+    {
+     "w": "summer",
+     "start": 156.145,
+     "end": 156.385
+    },
+    {
+     "w": "of",
+     "start": 156.385,
+     "end": 156.625
+    },
+    {
+     "w": "1876,",
+     "start": 156.625,
+     "end": 157.565
+    },
+    {
+     "w": "three",
+     "start": 158.045,
+     "end": 158.205
+    },
+    {
+     "w": "army",
+     "start": 158.205,
+     "end": 158.545
+    },
+    {
+     "w": "columns",
+     "start": 158.545,
+     "end": 159.025
+    },
+    {
+     "w": "closed",
+     "start": 159.025,
+     "end": 159.425
+    },
+    {
+     "w": "in.",
+     "start": 159.425,
+     "end": 159.785
+    },
+    {
+     "w": "The",
+     "start": 160.545,
+     "end": 160.645
+    },
+    {
+     "w": "fastest",
+     "start": 160.645,
+     "end": 161.025
+    },
+    {
+     "w": "was",
+     "start": 161.025,
+     "end": 161.385
+    },
+    {
+     "w": "the",
+     "start": 161.385,
+     "end": 161.545
+    },
+    {
+     "w": "7th",
+     "start": 161.545,
+     "end": 161.885
+    },
+    {
+     "w": "Cavalry.",
+     "start": 161.885,
+     "end": 162.225
+    },
+    {
+     "w": "About",
+     "start": 163.045,
+     "end": 163.165
+    },
+    {
+     "w": "600",
+     "start": 163.165,
+     "end": 163.505
+    },
+    {
+     "w": "soldiers,",
+     "start": 163.505,
+     "end": 164.385
+    },
+    {
+     "w": "plus",
+     "start": 164.785,
+     "end": 164.945
+    },
+    {
+     "w": "scouts",
+     "start": 164.945,
+     "end": 165.245
+    },
+    {
+     "w": "and",
+     "start": 165.245,
+     "end": 165.585
+    },
+    {
+     "w": "civilians,",
+     "start": 165.585,
+     "end": 165.885
+    },
+    {
+     "w": "under",
+     "start": 165.885,
+     "end": 166.425
+    },
+    {
+     "w": "Custer.",
+     "start": 166.425,
+     "end": 166.885
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "text": "Eight days before Custer's attack, General George Crook's column ran into the same warriors at Rosebud Creek, and pulled back. Custer never got the news.",
+   "start": 167.941,
+   "end": 177.517,
+   "words": [
+    {
+     "w": "Eight",
+     "start": 167.841,
+     "end": 168.081
+    },
+    {
+     "w": "days",
+     "start": 168.081,
+     "end": 168.301
+    },
+    {
+     "w": "before",
+     "start": 168.301,
+     "end": 168.721
+    },
+    {
+     "w": "Custer's",
+     "start": 168.721,
+     "end": 169.241
+    },
+    {
+     "w": "attack,",
+     "start": 169.241,
+     "end": 169.561
+    },
+    {
+     "w": "General",
+     "start": 170.141,
+     "end": 170.361
+    },
+    {
+     "w": "George",
+     "start": 170.361,
+     "end": 170.721
+    },
+    {
+     "w": "Crook's",
+     "start": 170.721,
+     "end": 171.241
+    },
+    {
+     "w": "column",
+     "start": 171.241,
+     "end": 171.481
+    },
+    {
+     "w": "ran",
+     "start": 171.481,
+     "end": 171.981
+    },
+    {
+     "w": "into",
+     "start": 171.981,
+     "end": 172.241
+    },
+    {
+     "w": "the",
+     "start": 172.241,
+     "end": 172.381
+    },
+    {
+     "w": "same",
+     "start": 172.381,
+     "end": 172.601
+    },
+    {
+     "w": "warriors",
+     "start": 172.601,
+     "end": 173.001
+    },
+    {
+     "w": "at",
+     "start": 173.001,
+     "end": 173.381
+    },
+    {
+     "w": "Rosebud",
+     "start": 173.381,
+     "end": 173.881
+    },
+    {
+     "w": "Creek,",
+     "start": 173.881,
+     "end": 174.061
+    },
+    {
+     "w": "and",
+     "start": 174.061,
+     "end": 174.501
+    },
+    {
+     "w": "pulled",
+     "start": 174.501,
+     "end": 174.701
+    },
+    {
+     "w": "back.",
+     "start": 174.701,
+     "end": 175.041
+    },
+    {
+     "w": "Custer",
+     "start": 175.781,
+     "end": 176.121
+    },
+    {
+     "w": "never",
+     "start": 176.121,
+     "end": 176.381
+    },
+    {
+     "w": "got",
+     "start": 176.381,
+     "end": 176.681
+    },
+    {
+     "w": "the",
+     "start": 176.681,
+     "end": 176.841
+    },
+    {
+     "w": "news.",
+     "start": 176.841,
+     "end": 177.041
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "text": "Exhibit A. General Alfred Terry offered Custer a battery of Gatling guns and an extra battalion of cavalry. Custer turned both down.",
+   "start": 178.237,
+   "end": 187.486,
+   "words": [
+    {
+     "w": "Exhibit",
+     "start": 178.137,
+     "end": 178.517
+    },
+    {
+     "w": "A.",
+     "start": 178.517,
+     "end": 178.837
+    },
+    {
+     "w": "General",
+     "start": 179.357,
+     "end": 179.537
+    },
+    {
+     "w": "Alfred",
+     "start": 179.537,
+     "end": 179.997
+    },
+    {
+     "w": "Terry",
+     "start": 179.997,
+     "end": 180.337
+    },
+    {
+     "w": "offered",
+     "start": 180.337,
+     "end": 180.917
+    },
+    {
+     "w": "Custer",
+     "start": 180.917,
+     "end": 181.277
+    },
+    {
+     "w": "a",
+     "start": 181.277,
+     "end": 181.437
+    },
+    {
+     "w": "battery",
+     "start": 181.437,
+     "end": 181.797
+    },
+    {
+     "w": "of",
+     "start": 181.797,
+     "end": 181.977
+    },
+    {
+     "w": "Gatling",
+     "start": 181.977,
+     "end": 182.437
+    },
+    {
+     "w": "guns",
+     "start": 182.437,
+     "end": 182.677
+    },
+    {
+     "w": "and",
+     "start": 182.677,
+     "end": 183.357
+    },
+    {
+     "w": "an",
+     "start": 183.357,
+     "end": 183.457
+    },
+    {
+     "w": "extra",
+     "start": 183.457,
+     "end": 183.797
+    },
+    {
+     "w": "battalion",
+     "start": 183.797,
+     "end": 184.177
+    },
+    {
+     "w": "of",
+     "start": 184.177,
+     "end": 184.597
+    },
+    {
+     "w": "cavalry.",
+     "start": 184.597,
+     "end": 184.817
+    },
+    {
+     "w": "Custer",
+     "start": 185.777,
+     "end": 186.137
+    },
+    {
+     "w": "turned",
+     "start": 186.137,
+     "end": 186.517
+    },
+    {
+     "w": "both",
+     "start": 186.517,
+     "end": 186.777
+    },
+    {
+     "w": "down.",
+     "start": 186.777,
+     "end": 187.177
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "text": "The prosecution says he threw away firepower. The defense says the guns were heavy, jammed often, and would have slowed a march of nearly 30 miles a day. Custer chose speed.",
+   "start": 188.086,
+   "end": 199.001,
+   "words": [
+    {
+     "w": "The",
+     "start": 187.986,
+     "end": 188.146
+    },
+    {
+     "w": "prosecution",
+     "start": 188.146,
+     "end": 188.566
+    },
+    {
+     "w": "says",
+     "start": 188.566,
+     "end": 189.026
+    },
+    {
+     "w": "he",
+     "start": 189.026,
+     "end": 189.206
+    },
+    {
+     "w": "threw",
+     "start": 189.206,
+     "end": 189.366
+    },
+    {
+     "w": "away",
+     "start": 189.366,
+     "end": 189.666
+    },
+    {
+     "w": "firepower.",
+     "start": 189.666,
+     "end": 190.106
+    },
+    {
+     "w": "The",
+     "start": 191.106,
+     "end": 191.146
+    },
+    {
+     "w": "defense",
+     "start": 191.146,
+     "end": 191.386
+    },
+    {
+     "w": "says",
+     "start": 191.386,
+     "end": 191.766
+    },
+    {
+     "w": "the",
+     "start": 191.766,
+     "end": 191.946
+    },
+    {
+     "w": "guns",
+     "start": 191.946,
+     "end": 192.166
+    },
+    {
+     "w": "were",
+     "start": 192.166,
+     "end": 192.486
+    },
+    {
+     "w": "heavy,",
+     "start": 192.486,
+     "end": 192.906
+    },
+    {
+     "w": "jammed",
+     "start": 193.086,
+     "end": 193.226
+    },
+    {
+     "w": "often,",
+     "start": 193.226,
+     "end": 193.706
+    },
+    {
+     "w": "and",
+     "start": 194.306,
+     "end": 194.366
+    },
+    {
+     "w": "would",
+     "start": 194.366,
+     "end": 194.466
+    },
+    {
+     "w": "have",
+     "start": 194.466,
+     "end": 194.546
+    },
+    {
+     "w": "slowed",
+     "start": 194.546,
+     "end": 194.806
+    },
+    {
+     "w": "a",
+     "start": 194.806,
+     "end": 195.026
+    },
+    {
+     "w": "march",
+     "start": 195.026,
+     "end": 195.286
+    },
+    {
+     "w": "of",
+     "start": 195.286,
+     "end": 195.506
+    },
+    {
+     "w": "nearly",
+     "start": 195.506,
+     "end": 195.726
+    },
+    {
+     "w": "30",
+     "start": 195.726,
+     "end": 196.206
+    },
+    {
+     "w": "miles",
+     "start": 196.206,
+     "end": 196.546
+    },
+    {
+     "w": "a",
+     "start": 196.546,
+     "end": 196.826
+    },
+    {
+     "w": "day.",
+     "start": 196.826,
+     "end": 197.046
+    },
+    {
+     "w": "Custer",
+     "start": 197.806,
+     "end": 198.026
+    },
+    {
+     "w": "chose",
+     "start": 198.026,
+     "end": 198.306
+    },
+    {
+     "w": "speed.",
+     "start": 198.306,
+     "end": 198.606
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "text": "Exhibit B. The army expected to face no more than 800 warriors, a number taken from reservation agents.",
+   "start": 199.721,
+   "end": 207.416,
+   "words": [
+    {
+     "w": "Exhibit",
+     "start": 199.621,
+     "end": 200.021
+    },
+    {
+     "w": "B.",
+     "start": 200.021,
+     "end": 200.401
+    },
+    {
+     "w": "The",
+     "start": 201.261,
+     "end": 201.261
+    },
+    {
+     "w": "army",
+     "start": 201.261,
+     "end": 201.561
+    },
+    {
+     "w": "expected",
+     "start": 201.561,
+     "end": 202.101
+    },
+    {
+     "w": "to",
+     "start": 202.101,
+     "end": 202.361
+    },
+    {
+     "w": "face",
+     "start": 202.361,
+     "end": 202.601
+    },
+    {
+     "w": "no",
+     "start": 202.601,
+     "end": 202.921
+    },
+    {
+     "w": "more",
+     "start": 202.921,
+     "end": 203.201
+    },
+    {
+     "w": "than",
+     "start": 203.201,
+     "end": 203.321
+    },
+    {
+     "w": "800",
+     "start": 203.321,
+     "end": 203.661
+    },
+    {
+     "w": "warriors,",
+     "start": 203.661,
+     "end": 204.481
+    },
+    {
+     "w": "a",
+     "start": 204.921,
+     "end": 205.121
+    },
+    {
+     "w": "number",
+     "start": 205.121,
+     "end": 205.281
+    },
+    {
+     "w": "taken",
+     "start": 205.281,
+     "end": 205.601
+    },
+    {
+     "w": "from",
+     "start": 205.601,
+     "end": 205.941
+    },
+    {
+     "w": "reservation",
+     "start": 205.941,
+     "end": 206.321
+    },
+    {
+     "w": "agents.",
+     "start": 206.321,
+     "end": 206.981
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "text": "In reality, the village on the Little Bighorn was one of the largest ever gathered on the northern plains. Thousands of people. Between 1,100 and 2,500 warriors.",
+   "start": 207.896,
+   "end": 218.536,
+   "words": [
+    {
+     "w": "In",
+     "start": 207.796,
+     "end": 207.976
+    },
+    {
+     "w": "reality,",
+     "start": 207.976,
+     "end": 208.316
+    },
+    {
+     "w": "the",
+     "start": 208.796,
+     "end": 208.836
+    },
+    {
+     "w": "village",
+     "start": 208.836,
+     "end": 209.096
+    },
+    {
+     "w": "on",
+     "start": 209.096,
+     "end": 209.376
+    },
+    {
+     "w": "the",
+     "start": 209.376,
+     "end": 209.496
+    },
+    {
+     "w": "Little",
+     "start": 209.496,
+     "end": 209.656
+    },
+    {
+     "w": "Bighorn",
+     "start": 209.656,
+     "end": 210.176
+    },
+    {
+     "w": "was",
+     "start": 210.176,
+     "end": 210.396
+    },
+    {
+     "w": "one",
+     "start": 210.396,
+     "end": 210.636
+    },
+    {
+     "w": "of",
+     "start": 210.636,
+     "end": 210.716
+    },
+    {
+     "w": "the",
+     "start": 210.716,
+     "end": 210.836
+    },
+    {
+     "w": "largest",
+     "start": 210.836,
+     "end": 211.256
+    },
+    {
+     "w": "ever",
+     "start": 211.256,
+     "end": 211.656
+    },
+    {
+     "w": "gathered",
+     "start": 211.656,
+     "end": 211.916
+    },
+    {
+     "w": "on",
+     "start": 211.916,
+     "end": 212.336
+    },
+    {
+     "w": "the",
+     "start": 212.336,
+     "end": 212.456
+    },
+    {
+     "w": "northern",
+     "start": 212.456,
+     "end": 212.696
+    },
+    {
+     "w": "plains.",
+     "start": 212.696,
+     "end": 213.056
+    },
+    {
+     "w": "Thousands",
+     "start": 214.036,
+     "end": 214.336
+    },
+    {
+     "w": "of",
+     "start": 214.336,
+     "end": 214.636
+    },
+    {
+     "w": "people.",
+     "start": 214.636,
+     "end": 214.956
+    },
+    {
+     "w": "Between",
+     "start": 215.496,
+     "end": 215.576
+    },
+    {
+     "w": "1,100",
+     "start": 215.576,
+     "end": 216.096
+    },
+    {
+     "w": "and",
+     "start": 216.096,
+     "end": 217.676
+    },
+    {
+     "w": "2,500",
+     "start": 217.676,
+     "end": 217.676
+    },
+    {
+     "w": "warriors.",
+     "start": 217.676,
+     "end": 218.016
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "text": "Exhibit C. Dawn, June 25. From a hilltop called the Crow's Nest, Custer's scouts spotted a massive pony herd, 14 miles away.",
+   "start": 219.376,
+   "end": 228.462,
+   "words": [
+    {
+     "w": "Exhibit",
+     "start": 219.276,
+     "end": 219.656
+    },
+    {
+     "w": "C.",
+     "start": 219.656,
+     "end": 220.016
+    },
+    {
+     "w": "Dawn,",
+     "start": 220.696,
+     "end": 220.696
+    },
+    {
+     "w": "June",
+     "start": 220.816,
+     "end": 221.156
+    },
+    {
+     "w": "25.",
+     "start": 221.156,
+     "end": 221.636
+    },
+    {
+     "w": "From",
+     "start": 222.376,
+     "end": 222.576
+    },
+    {
+     "w": "a",
+     "start": 222.576,
+     "end": 222.676
+    },
+    {
+     "w": "hilltop",
+     "start": 222.676,
+     "end": 223.076
+    },
+    {
+     "w": "called",
+     "start": 223.076,
+     "end": 223.296
+    },
+    {
+     "w": "the",
+     "start": 223.296,
+     "end": 223.456
+    },
+    {
+     "w": "Crow's",
+     "start": 223.456,
+     "end": 223.816
+    },
+    {
+     "w": "Nest,",
+     "start": 223.816,
+     "end": 224.016
+    },
+    {
+     "w": "Custer's",
+     "start": 224.476,
+     "end": 224.836
+    },
+    {
+     "w": "scouts",
+     "start": 224.836,
+     "end": 225.016
+    },
+    {
+     "w": "spotted",
+     "start": 225.016,
+     "end": 225.616
+    },
+    {
+     "w": "a",
+     "start": 225.616,
+     "end": 225.716
+    },
+    {
+     "w": "massive",
+     "start": 225.716,
+     "end": 226.076
+    },
+    {
+     "w": "pony",
+     "start": 226.076,
+     "end": 226.376
+    },
+    {
+     "w": "herd,",
+     "start": 226.376,
+     "end": 226.776
+    },
+    {
+     "w": "14",
+     "start": 226.776,
+     "end": 227.396
+    },
+    {
+     "w": "miles",
+     "start": 227.396,
+     "end": 227.736
+    },
+    {
+     "w": "away.",
+     "start": 227.736,
+     "end": 228.176
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "text": "The scouts urged Custer to look for himself. Through the morning haze, he said he could see nothing.",
+   "start": 228.942,
+   "end": 234.401,
+   "words": [
+    {
+     "w": "The",
+     "start": 228.842,
+     "end": 229.022
+    },
+    {
+     "w": "scouts",
+     "start": 229.022,
+     "end": 229.262
+    },
+    {
+     "w": "urged",
+     "start": 229.262,
+     "end": 229.742
+    },
+    {
+     "w": "Custer",
+     "start": 229.742,
+     "end": 230.302
+    },
+    {
+     "w": "to",
+     "start": 230.302,
+     "end": 230.482
+    },
+    {
+     "w": "look",
+     "start": 230.482,
+     "end": 230.662
+    },
+    {
+     "w": "for",
+     "start": 230.662,
+     "end": 230.862
+    },
+    {
+     "w": "himself.",
+     "start": 230.862,
+     "end": 231.282
+    },
+    {
+     "w": "Through",
+     "start": 231.962,
+     "end": 232.082
+    },
+    {
+     "w": "the",
+     "start": 232.082,
+     "end": 232.202
+    },
+    {
+     "w": "morning",
+     "start": 232.202,
+     "end": 232.402
+    },
+    {
+     "w": "haze,",
+     "start": 232.402,
+     "end": 232.762
+    },
+    {
+     "w": "he",
+     "start": 233.102,
+     "end": 233.122
+    },
+    {
+     "w": "said",
+     "start": 233.122,
+     "end": 233.342
+    },
+    {
+     "w": "he",
+     "start": 233.342,
+     "end": 233.482
+    },
+    {
+     "w": "could",
+     "start": 233.482,
+     "end": 233.622
+    },
+    {
+     "w": "see",
+     "start": 233.622,
+     "end": 233.822
+    },
+    {
+     "w": "nothing.",
+     "start": 233.822,
+     "end": 234.182
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "text": "Custer wanted a day to scout before attacking. Then he learned his column had already been seen. Afraid the village would scatter, he decided to attack at once.",
+   "start": 235.121,
+   "end": 244.595,
+   "words": [
+    {
+     "w": "Custer",
+     "start": 235.021,
+     "end": 235.401
+    },
+    {
+     "w": "wanted",
+     "start": 235.401,
+     "end": 235.681
+    },
+    {
+     "w": "a",
+     "start": 235.681,
+     "end": 235.801
+    },
+    {
+     "w": "day",
+     "start": 235.801,
+     "end": 235.981
+    },
+    {
+     "w": "to",
+     "start": 235.981,
+     "end": 236.161
+    },
+    {
+     "w": "scout",
+     "start": 236.161,
+     "end": 236.421
+    },
+    {
+     "w": "before",
+     "start": 236.421,
+     "end": 236.761
+    },
+    {
+     "w": "attacking.",
+     "start": 236.761,
+     "end": 237.361
+    },
+    {
+     "w": "Then",
+     "start": 238.121,
+     "end": 238.161
+    },
+    {
+     "w": "he",
+     "start": 238.161,
+     "end": 238.301
+    },
+    {
+     "w": "learned",
+     "start": 238.301,
+     "end": 238.521
+    },
+    {
+     "w": "his",
+     "start": 238.521,
+     "end": 238.741
+    },
+    {
+     "w": "column",
+     "start": 238.741,
+     "end": 239.121
+    },
+    {
+     "w": "had",
+     "start": 239.121,
+     "end": 239.401
+    },
+    {
+     "w": "already",
+     "start": 239.401,
+     "end": 239.661
+    },
+    {
+     "w": "been",
+     "start": 239.661,
+     "end": 239.921
+    },
+    {
+     "w": "seen.",
+     "start": 239.921,
+     "end": 240.221
+    },
+    {
+     "w": "Afraid",
+     "start": 241.021,
+     "end": 241.201
+    },
+    {
+     "w": "the",
+     "start": 241.201,
+     "end": 241.421
+    },
+    {
+     "w": "village",
+     "start": 241.421,
+     "end": 241.601
+    },
+    {
+     "w": "would",
+     "start": 241.601,
+     "end": 241.941
+    },
+    {
+     "w": "scatter,",
+     "start": 241.941,
+     "end": 242.281
+    },
+    {
+     "w": "he",
+     "start": 242.761,
+     "end": 242.861
+    },
+    {
+     "w": "decided",
+     "start": 242.861,
+     "end": 243.161
+    },
+    {
+     "w": "to",
+     "start": 243.161,
+     "end": 243.481
+    },
+    {
+     "w": "attack",
+     "start": 243.481,
+     "end": 243.741
+    },
+    {
+     "w": "at",
+     "start": 243.741,
+     "end": 243.981
+    },
+    {
+     "w": "once.",
+     "start": 243.981,
+     "end": 244.201
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "text": "Exhibit D. Custer split the regiment. Captain Frederick Benteen took three companies to scout the hills to the left. Reno took three companies, about 140 men, to charge the village from the south. Custer kept five companies, about 210 men, and rode north.",
+   "start": 245.315,
+   "end": 262.623,
+   "words": [
+    {
+     "w": "Exhibit",
+     "start": 245.215,
+     "end": 245.595
+    },
+    {
+     "w": "D.",
+     "start": 245.595,
+     "end": 245.955
+    },
+    {
+     "w": "Custer",
+     "start": 246.415,
+     "end": 246.735
+    },
+    {
+     "w": "split",
+     "start": 246.735,
+     "end": 247.035
+    },
+    {
+     "w": "the",
+     "start": 247.035,
+     "end": 247.275
+    },
+    {
+     "w": "regiment.",
+     "start": 247.275,
+     "end": 247.455
+    },
+    {
+     "w": "Captain",
+     "start": 248.495,
+     "end": 248.495
+    },
+    {
+     "w": "Frederick",
+     "start": 248.495,
+     "end": 248.775
+    },
+    {
+     "w": "Benteen",
+     "start": 248.775,
+     "end": 249.415
+    },
+    {
+     "w": "took",
+     "start": 249.415,
+     "end": 249.655
+    },
+    {
+     "w": "three",
+     "start": 249.655,
+     "end": 249.895
+    },
+    {
+     "w": "companies",
+     "start": 249.895,
+     "end": 250.315
+    },
+    {
+     "w": "to",
+     "start": 250.315,
+     "end": 250.635
+    },
+    {
+     "w": "scout",
+     "start": 250.635,
+     "end": 250.835
+    },
+    {
+     "w": "the",
+     "start": 250.835,
+     "end": 251.155
+    },
+    {
+     "w": "hills",
+     "start": 251.155,
+     "end": 251.335
+    },
+    {
+     "w": "to",
+     "start": 251.335,
+     "end": 251.595
+    },
+    {
+     "w": "the",
+     "start": 251.595,
+     "end": 251.675
+    },
+    {
+     "w": "left.",
+     "start": 251.675,
+     "end": 251.935
+    },
+    {
+     "w": "Reno",
+     "start": 252.875,
+     "end": 252.875
+    },
+    {
+     "w": "took",
+     "start": 252.875,
+     "end": 253.275
+    },
+    {
+     "w": "three",
+     "start": 253.275,
+     "end": 253.535
+    },
+    {
+     "w": "companies,",
+     "start": 253.535,
+     "end": 253.975
+    },
+    {
+     "w": "about",
+     "start": 254.315,
+     "end": 254.435
+    },
+    {
+     "w": "140",
+     "start": 254.435,
+     "end": 254.695
+    },
+    {
+     "w": "men,",
+     "start": 254.695,
+     "end": 255.635
+    },
+    {
+     "w": "to",
+     "start": 255.635,
+     "end": 255.955
+    },
+    {
+     "w": "charge",
+     "start": 255.955,
+     "end": 256.175
+    },
+    {
+     "w": "the",
+     "start": 256.175,
+     "end": 256.515
+    },
+    {
+     "w": "village",
+     "start": 256.515,
+     "end": 256.775
+    },
+    {
+     "w": "from",
+     "start": 256.775,
+     "end": 257.055
+    },
+    {
+     "w": "the",
+     "start": 257.055,
+     "end": 257.195
+    },
+    {
+     "w": "south.",
+     "start": 257.195,
+     "end": 257.415
+    },
+    {
+     "w": "Custer",
+     "start": 258.235,
+     "end": 258.495
+    },
+    {
+     "w": "kept",
+     "start": 258.495,
+     "end": 258.715
+    },
+    {
+     "w": "five",
+     "start": 258.715,
+     "end": 259.115
+    },
+    {
+     "w": "companies,",
+     "start": 259.115,
+     "end": 259.575
+    },
+    {
+     "w": "about",
+     "start": 259.915,
+     "end": 260.075
+    },
+    {
+     "w": "210",
+     "start": 260.075,
+     "end": 260.435
+    },
+    {
+     "w": "men,",
+     "start": 260.435,
+     "end": 261.515
+    },
+    {
+     "w": "and",
+     "start": 261.515,
+     "end": 261.755
+    },
+    {
+     "w": "rode",
+     "start": 261.755,
+     "end": 261.915
+    },
+    {
+     "w": "north.",
+     "start": 261.915,
+     "end": 262.295
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "text": "The prosecution calls it a fatal mistake. He divided about 600 men in front of an enemy he had never counted. The defense says it was standard cavalry tactics. Custer had divided his command at the Washita too, and there it had worked.",
+   "start": 263.463,
+   "end": 278.58,
+   "words": [
+    {
+     "w": "The",
+     "start": 263.363,
+     "end": 263.523
+    },
+    {
+     "w": "prosecution",
+     "start": 263.523,
+     "end": 263.963
+    },
+    {
+     "w": "calls",
+     "start": 263.963,
+     "end": 264.443
+    },
+    {
+     "w": "it",
+     "start": 264.443,
+     "end": 264.703
+    },
+    {
+     "w": "a",
+     "start": 264.703,
+     "end": 264.783
+    },
+    {
+     "w": "fatal",
+     "start": 264.783,
+     "end": 265.063
+    },
+    {
+     "w": "mistake.",
+     "start": 265.063,
+     "end": 265.543
+    },
+    {
+     "w": "He",
+     "start": 266.403,
+     "end": 266.403
+    },
+    {
+     "w": "divided",
+     "start": 266.403,
+     "end": 266.663
+    },
+    {
+     "w": "about",
+     "start": 266.663,
+     "end": 267.143
+    },
+    {
+     "w": "600",
+     "start": 267.143,
+     "end": 267.503
+    },
+    {
+     "w": "men",
+     "start": 267.503,
+     "end": 268.223
+    },
+    {
+     "w": "in",
+     "start": 268.223,
+     "end": 268.443
+    },
+    {
+     "w": "front",
+     "start": 268.443,
+     "end": 268.643
+    },
+    {
+     "w": "of",
+     "start": 268.643,
+     "end": 268.783
+    },
+    {
+     "w": "an",
+     "start": 268.783,
+     "end": 268.883
+    },
+    {
+     "w": "enemy",
+     "start": 268.883,
+     "end": 269.203
+    },
+    {
+     "w": "he",
+     "start": 269.203,
+     "end": 269.463
+    },
+    {
+     "w": "had",
+     "start": 269.463,
+     "end": 269.563
+    },
+    {
+     "w": "never",
+     "start": 269.563,
+     "end": 269.803
+    },
+    {
+     "w": "counted.",
+     "start": 269.803,
+     "end": 270.123
+    },
+    {
+     "w": "The",
+     "start": 271.043,
+     "end": 271.063
+    },
+    {
+     "w": "defense",
+     "start": 271.063,
+     "end": 271.303
+    },
+    {
+     "w": "says",
+     "start": 271.303,
+     "end": 271.723
+    },
+    {
+     "w": "it",
+     "start": 271.723,
+     "end": 271.883
+    },
+    {
+     "w": "was",
+     "start": 271.883,
+     "end": 271.963
+    },
+    {
+     "w": "standard",
+     "start": 271.963,
+     "end": 272.303
+    },
+    {
+     "w": "cavalry",
+     "start": 272.303,
+     "end": 272.703
+    },
+    {
+     "w": "tactics.",
+     "start": 272.703,
+     "end": 273.403
+    },
+    {
+     "w": "Custer",
+     "start": 274.123,
+     "end": 274.443
+    },
+    {
+     "w": "had",
+     "start": 274.443,
+     "end": 274.663
+    },
+    {
+     "w": "divided",
+     "start": 274.663,
+     "end": 274.963
+    },
+    {
+     "w": "his",
+     "start": 274.963,
+     "end": 275.303
+    },
+    {
+     "w": "command",
+     "start": 275.303,
+     "end": 275.603
+    },
+    {
+     "w": "at",
+     "start": 275.603,
+     "end": 275.943
+    },
+    {
+     "w": "the",
+     "start": 275.943,
+     "end": 276.023
+    },
+    {
+     "w": "Washita",
+     "start": 276.023,
+     "end": 276.503
+    },
+    {
+     "w": "too,",
+     "start": 276.503,
+     "end": 277.283
+    },
+    {
+     "w": "and",
+     "start": 277.283,
+     "end": 277.363
+    },
+    {
+     "w": "there",
+     "start": 277.363,
+     "end": 277.603
+    },
+    {
+     "w": "it",
+     "start": 277.603,
+     "end": 277.923
+    },
+    {
+     "w": "had",
+     "start": 277.923,
+     "end": 278.023
+    },
+    {
+     "w": "worked.",
+     "start": 278.023,
+     "end": 278.283
+    }
+   ]
+  },
+  {
+   "scene": 25,
+   "text": "Reno crossed the river and charged. Then the warriors came out to meet him.",
+   "start": 279.3,
+   "end": 283.816,
+   "words": [
+    {
+     "w": "Reno",
+     "start": 279.2,
+     "end": 279.5
+    },
+    {
+     "w": "crossed",
+     "start": 279.5,
+     "end": 279.92
+    },
+    {
+     "w": "the",
+     "start": 279.92,
+     "end": 280.22
+    },
+    {
+     "w": "river",
+     "start": 280.22,
+     "end": 280.44
+    },
+    {
+     "w": "and",
+     "start": 280.44,
+     "end": 280.66
+    },
+    {
+     "w": "charged.",
+     "start": 280.66,
+     "end": 281.06
+    },
+    {
+     "w": "Then",
+     "start": 281.92,
+     "end": 281.92
+    },
+    {
+     "w": "the",
+     "start": 281.92,
+     "end": 282.08
+    },
+    {
+     "w": "warriors",
+     "start": 282.08,
+     "end": 282.44
+    },
+    {
+     "w": "came",
+     "start": 282.44,
+     "end": 282.82
+    },
+    {
+     "w": "out",
+     "start": 282.82,
+     "end": 283.08
+    },
+    {
+     "w": "to",
+     "start": 283.08,
+     "end": 283.26
+    },
+    {
+     "w": "meet",
+     "start": 283.26,
+     "end": 283.46
+    },
+    {
+     "w": "him.",
+     "start": 283.46,
+     "end": 283.64
+    }
+   ]
+  },
+  {
+   "scene": 26,
+   "text": "He dismounted his men into a skirmish line. Outflanked, they fell back into the trees along the river.",
+   "start": 284.296,
+   "end": 290.527,
+   "words": [
+    {
+     "w": "He",
+     "start": 284.196,
+     "end": 284.376
+    },
+    {
+     "w": "dismounted",
+     "start": 284.376,
+     "end": 284.796
+    },
+    {
+     "w": "his",
+     "start": 284.796,
+     "end": 285.136
+    },
+    {
+     "w": "men",
+     "start": 285.136,
+     "end": 285.356
+    },
+    {
+     "w": "into",
+     "start": 285.356,
+     "end": 285.656
+    },
+    {
+     "w": "a",
+     "start": 285.656,
+     "end": 285.796
+    },
+    {
+     "w": "skirmish",
+     "start": 285.796,
+     "end": 286.276
+    },
+    {
+     "w": "line.",
+     "start": 286.276,
+     "end": 286.556
+    },
+    {
+     "w": "Outflanked,",
+     "start": 287.416,
+     "end": 287.856
+    },
+    {
+     "w": "they",
+     "start": 288.196,
+     "end": 288.256
+    },
+    {
+     "w": "fell",
+     "start": 288.256,
+     "end": 288.436
+    },
+    {
+     "w": "back",
+     "start": 288.436,
+     "end": 288.736
+    },
+    {
+     "w": "into",
+     "start": 288.736,
+     "end": 288.936
+    },
+    {
+     "w": "the",
+     "start": 288.936,
+     "end": 289.096
+    },
+    {
+     "w": "trees",
+     "start": 289.096,
+     "end": 289.396
+    },
+    {
+     "w": "along",
+     "start": 289.396,
+     "end": 289.756
+    },
+    {
+     "w": "the",
+     "start": 289.756,
+     "end": 290.076
+    },
+    {
+     "w": "river.",
+     "start": 290.076,
+     "end": 290.296
+    }
+   ]
+  },
+  {
+   "scene": 27,
+   "text": "Beside Reno, his scout Bloody Knife was shot in the head. Reno ordered his men to mount, dismount, and mount again. Then he led a retreat that became a rout, back across the river and up the bluffs.",
+   "start": 291.007,
+   "end": 302.937,
+   "words": [
+    {
+     "w": "Beside",
+     "start": 290.907,
+     "end": 291.307
+    },
+    {
+     "w": "Reno,",
+     "start": 291.307,
+     "end": 291.507
+    },
+    {
+     "w": "his",
+     "start": 291.907,
+     "end": 291.987
+    },
+    {
+     "w": "scout",
+     "start": 291.987,
+     "end": 292.207
+    },
+    {
+     "w": "Bloody",
+     "start": 292.207,
+     "end": 292.587
+    },
+    {
+     "w": "Knife",
+     "start": 292.587,
+     "end": 292.987
+    },
+    {
+     "w": "was",
+     "start": 292.987,
+     "end": 293.267
+    },
+    {
+     "w": "shot",
+     "start": 293.267,
+     "end": 293.547
+    },
+    {
+     "w": "in",
+     "start": 293.547,
+     "end": 293.747
+    },
+    {
+     "w": "the",
+     "start": 293.747,
+     "end": 293.847
+    },
+    {
+     "w": "head.",
+     "start": 293.847,
+     "end": 294.087
+    },
+    {
+     "w": "Reno",
+     "start": 294.947,
+     "end": 294.947
+    },
+    {
+     "w": "ordered",
+     "start": 294.947,
+     "end": 295.387
+    },
+    {
+     "w": "his",
+     "start": 295.387,
+     "end": 295.607
+    },
+    {
+     "w": "men",
+     "start": 295.607,
+     "end": 295.807
+    },
+    {
+     "w": "to",
+     "start": 295.807,
+     "end": 296.027
+    },
+    {
+     "w": "mount,",
+     "start": 296.027,
+     "end": 296.307
+    },
+    {
+     "w": "dismount,",
+     "start": 296.607,
+     "end": 296.927
+    },
+    {
+     "w": "and",
+     "start": 297.227,
+     "end": 297.267
+    },
+    {
+     "w": "mount",
+     "start": 297.267,
+     "end": 297.487
+    },
+    {
+     "w": "again.",
+     "start": 297.487,
+     "end": 297.747
+    },
+    {
+     "w": "Then",
+     "start": 298.567,
+     "end": 298.647
+    },
+    {
+     "w": "he",
+     "start": 298.647,
+     "end": 298.787
+    },
+    {
+     "w": "led",
+     "start": 298.787,
+     "end": 298.987
+    },
+    {
+     "w": "a",
+     "start": 298.987,
+     "end": 299.067
+    },
+    {
+     "w": "retreat",
+     "start": 299.067,
+     "end": 299.347
+    },
+    {
+     "w": "that",
+     "start": 299.347,
+     "end": 299.667
+    },
+    {
+     "w": "became",
+     "start": 299.667,
+     "end": 299.967
+    },
+    {
+     "w": "a",
+     "start": 299.967,
+     "end": 300.167
+    },
+    {
+     "w": "rout,",
+     "start": 300.167,
+     "end": 300.407
+    },
+    {
+     "w": "back",
+     "start": 300.407,
+     "end": 300.907
+    },
+    {
+     "w": "across",
+     "start": 300.907,
+     "end": 301.307
+    },
+    {
+     "w": "the",
+     "start": 301.307,
+     "end": 301.527
+    },
+    {
+     "w": "river",
+     "start": 301.527,
+     "end": 301.747
+    },
+    {
+     "w": "and",
+     "start": 301.747,
+     "end": 302.047
+    },
+    {
+     "w": "up",
+     "start": 302.047,
+     "end": 302.147
+    },
+    {
+     "w": "the",
+     "start": 302.147,
+     "end": 302.307
+    },
+    {
+     "w": "bluffs.",
+     "start": 302.307,
+     "end": 302.687
+    }
+   ]
+  },
+  {
+   "scene": 28,
+   "text": "At the inquiry, a civilian mule packer testified that Reno had been drinking that night on the hill. Other witnesses said they saw nothing wrong. The court had to decide who to believe.",
+   "start": 303.657,
+   "end": 314.786,
+   "words": [
+    {
+     "w": "At",
+     "start": 303.557,
+     "end": 303.757
+    },
+    {
+     "w": "the",
+     "start": 303.757,
+     "end": 303.857
+    },
+    {
+     "w": "inquiry,",
+     "start": 303.857,
+     "end": 304.157
+    },
+    {
+     "w": "a",
+     "start": 304.517,
+     "end": 304.617
+    },
+    {
+     "w": "civilian",
+     "start": 304.617,
+     "end": 304.957
+    },
+    {
+     "w": "mule",
+     "start": 304.957,
+     "end": 305.397
+    },
+    {
+     "w": "packer",
+     "start": 305.397,
+     "end": 305.917
+    },
+    {
+     "w": "testified",
+     "start": 305.917,
+     "end": 306.257
+    },
+    {
+     "w": "that",
+     "start": 306.257,
+     "end": 306.817
+    },
+    {
+     "w": "Reno",
+     "start": 306.817,
+     "end": 307.017
+    },
+    {
+     "w": "had",
+     "start": 307.017,
+     "end": 307.437
+    },
+    {
+     "w": "been",
+     "start": 307.437,
+     "end": 307.577
+    },
+    {
+     "w": "drinking",
+     "start": 307.577,
+     "end": 307.837
+    },
+    {
+     "w": "that",
+     "start": 307.837,
+     "end": 308.197
+    },
+    {
+     "w": "night",
+     "start": 308.197,
+     "end": 308.457
+    },
+    {
+     "w": "on",
+     "start": 308.457,
+     "end": 308.677
+    },
+    {
+     "w": "the",
+     "start": 308.677,
+     "end": 308.797
+    },
+    {
+     "w": "hill.",
+     "start": 308.797,
+     "end": 309.017
+    },
+    {
+     "w": "Other",
+     "start": 309.877,
+     "end": 309.937
+    },
+    {
+     "w": "witnesses",
+     "start": 309.937,
+     "end": 310.197
+    },
+    {
+     "w": "said",
+     "start": 310.197,
+     "end": 310.737
+    },
+    {
+     "w": "they",
+     "start": 310.737,
+     "end": 310.897
+    },
+    {
+     "w": "saw",
+     "start": 310.897,
+     "end": 311.137
+    },
+    {
+     "w": "nothing",
+     "start": 311.137,
+     "end": 311.377
+    },
+    {
+     "w": "wrong.",
+     "start": 311.377,
+     "end": 311.857
+    },
+    {
+     "w": "The",
+     "start": 312.517,
+     "end": 312.597
+    },
+    {
+     "w": "court",
+     "start": 312.597,
+     "end": 312.837
+    },
+    {
+     "w": "had",
+     "start": 312.837,
+     "end": 313.117
+    },
+    {
+     "w": "to",
+     "start": 313.117,
+     "end": 313.257
+    },
+    {
+     "w": "decide",
+     "start": 313.257,
+     "end": 313.637
+    },
+    {
+     "w": "who",
+     "start": 313.637,
+     "end": 313.977
+    },
+    {
+     "w": "to",
+     "start": 313.977,
+     "end": 314.097
+    },
+    {
+     "w": "believe.",
+     "start": 314.097,
+     "end": 314.377
+    }
+   ]
+  },
+  {
+   "scene": 29,
+   "text": "That retreat is the heart of the case against him. Did Reno panic? Or did he save his men from being wiped out?",
+   "start": 315.506,
+   "end": 322.189,
+   "words": [
+    {
+     "w": "That",
+     "start": 315.406,
+     "end": 315.646
+    },
+    {
+     "w": "retreat",
+     "start": 315.646,
+     "end": 315.986
+    },
+    {
+     "w": "is",
+     "start": 315.986,
+     "end": 316.346
+    },
+    {
+     "w": "the",
+     "start": 316.346,
+     "end": 316.506
+    },
+    {
+     "w": "heart",
+     "start": 316.506,
+     "end": 316.766
+    },
+    {
+     "w": "of",
+     "start": 316.766,
+     "end": 316.946
+    },
+    {
+     "w": "the",
+     "start": 316.946,
+     "end": 317.046
+    },
+    {
+     "w": "case",
+     "start": 317.046,
+     "end": 317.266
+    },
+    {
+     "w": "against",
+     "start": 317.266,
+     "end": 317.606
+    },
+    {
+     "w": "him.",
+     "start": 317.606,
+     "end": 317.926
+    },
+    {
+     "w": "Did",
+     "start": 318.606,
+     "end": 318.606
+    },
+    {
+     "w": "Reno",
+     "start": 318.606,
+     "end": 318.826
+    },
+    {
+     "w": "panic?",
+     "start": 318.826,
+     "end": 319.326
+    },
+    {
+     "w": "Or",
+     "start": 319.326,
+     "end": 320.026
+    },
+    {
+     "w": "did",
+     "start": 320.026,
+     "end": 320.146
+    },
+    {
+     "w": "he",
+     "start": 320.146,
+     "end": 320.226
+    },
+    {
+     "w": "save",
+     "start": 320.226,
+     "end": 320.526
+    },
+    {
+     "w": "his",
+     "start": 320.526,
+     "end": 320.706
+    },
+    {
+     "w": "men",
+     "start": 320.706,
+     "end": 320.926
+    },
+    {
+     "w": "from",
+     "start": 320.926,
+     "end": 321.206
+    },
+    {
+     "w": "being",
+     "start": 321.206,
+     "end": 321.446
+    },
+    {
+     "w": "wiped",
+     "start": 321.446,
+     "end": 321.646
+    },
+    {
+     "w": "out?",
+     "start": 321.646,
+     "end": 322.066
+    }
+   ]
+  },
+  {
+   "scene": 30,
+   "text": "Exhibit E. As Custer neared the village, he finally saw how big it was. His adjutant scrawled a note, and trumpeter John Martin galloped off with it.",
+   "start": 323.029,
+   "end": 332.142,
+   "words": [
+    {
+     "w": "Exhibit",
+     "start": 322.929,
+     "end": 323.349
+    },
+    {
+     "w": "E.",
+     "start": 323.349,
+     "end": 323.689
+    },
+    {
+     "w": "As",
+     "start": 324.429,
+     "end": 324.449
+    },
+    {
+     "w": "Custer",
+     "start": 324.449,
+     "end": 324.829
+    },
+    {
+     "w": "neared",
+     "start": 324.829,
+     "end": 325.149
+    },
+    {
+     "w": "the",
+     "start": 325.149,
+     "end": 325.269
+    },
+    {
+     "w": "village,",
+     "start": 325.269,
+     "end": 325.489
+    },
+    {
+     "w": "he",
+     "start": 325.729,
+     "end": 325.769
+    },
+    {
+     "w": "finally",
+     "start": 325.769,
+     "end": 326.109
+    },
+    {
+     "w": "saw",
+     "start": 326.109,
+     "end": 326.509
+    },
+    {
+     "w": "how",
+     "start": 326.509,
+     "end": 326.769
+    },
+    {
+     "w": "big",
+     "start": 326.769,
+     "end": 326.989
+    },
+    {
+     "w": "it",
+     "start": 326.989,
+     "end": 327.129
+    },
+    {
+     "w": "was.",
+     "start": 327.129,
+     "end": 327.389
+    },
+    {
+     "w": "His",
+     "start": 328.149,
+     "end": 328.189
+    },
+    {
+     "w": "adjutant",
+     "start": 328.189,
+     "end": 328.749
+    },
+    {
+     "w": "scrawled",
+     "start": 328.749,
+     "end": 329.109
+    },
+    {
+     "w": "a",
+     "start": 329.109,
+     "end": 329.269
+    },
+    {
+     "w": "note,",
+     "start": 329.269,
+     "end": 329.529
+    },
+    {
+     "w": "and",
+     "start": 329.529,
+     "end": 329.909
+    },
+    {
+     "w": "trumpeter",
+     "start": 329.909,
+     "end": 330.309
+    },
+    {
+     "w": "John",
+     "start": 330.309,
+     "end": 330.609
+    },
+    {
+     "w": "Martin",
+     "start": 330.609,
+     "end": 331.069
+    },
+    {
+     "w": "galloped",
+     "start": 331.069,
+     "end": 331.549
+    },
+    {
+     "w": "off",
+     "start": 331.549,
+     "end": 331.749
+    },
+    {
+     "w": "with",
+     "start": 331.749,
+     "end": 331.929
+    },
+    {
+     "w": "it.",
+     "start": 331.929,
+     "end": 332.069
+    }
+   ]
+  },
+  {
+   "scene": 31,
+   "text": "\u201cBenteen. Come on. Big village. Be quick. Bring packs.\u201d",
+   "start": 332.622,
+   "end": 335.886,
+   "words": [
+    {
+     "w": "\u201cBenteen.",
+     "start": 332.622,
+     "end": 333.022
+    },
+    {
+     "w": "Come",
+     "start": 333.022,
+     "end": 333.282
+    },
+    {
+     "w": "on.",
+     "start": 333.282,
+     "end": 333.542
+    },
+    {
+     "w": "Big",
+     "start": 333.902,
+     "end": 334.022
+    },
+    {
+     "w": "village.",
+     "start": 334.022,
+     "end": 334.322
+    },
+    {
+     "w": "Be",
+     "start": 334.562,
+     "end": 334.622
+    },
+    {
+     "w": "quick.",
+     "start": 334.622,
+     "end": 334.842
+    },
+    {
+     "w": "Bring",
+     "start": 335.042,
+     "end": 335.142
+    },
+    {
+     "w": "packs.\u201d",
+     "start": 335.142,
+     "end": 335.462
+    }
+   ]
+  },
+  {
+   "scene": 32,
+   "text": "It was the last message anyone ever received from Custer. Benteen did come. But he joined Reno on the hill.",
+   "start": 336.486,
+   "end": 343.386,
+   "words": [
+    {
+     "w": "It",
+     "start": 336.386,
+     "end": 336.546
+    },
+    {
+     "w": "was",
+     "start": 336.546,
+     "end": 336.666
+    },
+    {
+     "w": "the",
+     "start": 336.666,
+     "end": 336.806
+    },
+    {
+     "w": "last",
+     "start": 336.806,
+     "end": 337.046
+    },
+    {
+     "w": "message",
+     "start": 337.046,
+     "end": 337.526
+    },
+    {
+     "w": "anyone",
+     "start": 337.526,
+     "end": 337.906
+    },
+    {
+     "w": "ever",
+     "start": 337.906,
+     "end": 338.306
+    },
+    {
+     "w": "received",
+     "start": 338.306,
+     "end": 338.706
+    },
+    {
+     "w": "from",
+     "start": 338.706,
+     "end": 339.046
+    },
+    {
+     "w": "Custer.",
+     "start": 339.046,
+     "end": 339.406
+    },
+    {
+     "w": "Benteen",
+     "start": 340.266,
+     "end": 340.506
+    },
+    {
+     "w": "did",
+     "start": 340.506,
+     "end": 340.766
+    },
+    {
+     "w": "come.",
+     "start": 340.766,
+     "end": 341.106
+    },
+    {
+     "w": "But",
+     "start": 341.586,
+     "end": 341.726
+    },
+    {
+     "w": "he",
+     "start": 341.726,
+     "end": 341.806
+    },
+    {
+     "w": "joined",
+     "start": 341.806,
+     "end": 342.126
+    },
+    {
+     "w": "Reno",
+     "start": 342.126,
+     "end": 342.426
+    },
+    {
+     "w": "on",
+     "start": 342.426,
+     "end": 342.806
+    },
+    {
+     "w": "the",
+     "start": 342.806,
+     "end": 342.926
+    },
+    {
+     "w": "hill.",
+     "start": 342.926,
+     "end": 343.146
+    }
+   ]
+  },
+  {
+   "scene": 33,
+   "text": "Why didn't Benteen ride to Custer? He later said Reno's men were shattered, and he could not leave them. They also waited for the pack train, the mules carrying the reserve ammunition. More than an hour passed.",
+   "start": 344.226,
+   "end": 356.512,
+   "words": [
+    {
+     "w": "Why",
+     "start": 344.126,
+     "end": 344.326
+    },
+    {
+     "w": "didn't",
+     "start": 344.326,
+     "end": 344.626
+    },
+    {
+     "w": "Benteen",
+     "start": 344.626,
+     "end": 345.026
+    },
+    {
+     "w": "ride",
+     "start": 345.026,
+     "end": 345.306
+    },
+    {
+     "w": "to",
+     "start": 345.306,
+     "end": 345.526
+    },
+    {
+     "w": "Custer?",
+     "start": 345.526,
+     "end": 345.826
+    },
+    {
+     "w": "He",
+     "start": 346.466,
+     "end": 346.486
+    },
+    {
+     "w": "later",
+     "start": 346.486,
+     "end": 346.646
+    },
+    {
+     "w": "said",
+     "start": 346.646,
+     "end": 347.026
+    },
+    {
+     "w": "Reno's",
+     "start": 347.026,
+     "end": 347.466
+    },
+    {
+     "w": "men",
+     "start": 347.466,
+     "end": 347.646
+    },
+    {
+     "w": "were",
+     "start": 347.646,
+     "end": 347.826
+    },
+    {
+     "w": "shattered,",
+     "start": 347.826,
+     "end": 348.206
+    },
+    {
+     "w": "and",
+     "start": 348.206,
+     "end": 348.506
+    },
+    {
+     "w": "he",
+     "start": 348.506,
+     "end": 348.606
+    },
+    {
+     "w": "could",
+     "start": 348.606,
+     "end": 348.766
+    },
+    {
+     "w": "not",
+     "start": 348.766,
+     "end": 348.986
+    },
+    {
+     "w": "leave",
+     "start": 348.986,
+     "end": 349.266
+    },
+    {
+     "w": "them.",
+     "start": 349.266,
+     "end": 349.506
+    },
+    {
+     "w": "They",
+     "start": 350.186,
+     "end": 350.286
+    },
+    {
+     "w": "also",
+     "start": 350.286,
+     "end": 350.466
+    },
+    {
+     "w": "waited",
+     "start": 350.466,
+     "end": 350.906
+    },
+    {
+     "w": "for",
+     "start": 350.906,
+     "end": 351.226
+    },
+    {
+     "w": "the",
+     "start": 351.226,
+     "end": 351.306
+    },
+    {
+     "w": "pack",
+     "start": 351.306,
+     "end": 351.506
+    },
+    {
+     "w": "train,",
+     "start": 351.506,
+     "end": 351.866
+    },
+    {
+     "w": "the",
+     "start": 352.286,
+     "end": 352.346
+    },
+    {
+     "w": "mules",
+     "start": 352.346,
+     "end": 352.626
+    },
+    {
+     "w": "carrying",
+     "start": 352.626,
+     "end": 352.966
+    },
+    {
+     "w": "the",
+     "start": 352.966,
+     "end": 353.346
+    },
+    {
+     "w": "reserve",
+     "start": 353.346,
+     "end": 353.586
+    },
+    {
+     "w": "ammunition.",
+     "start": 353.586,
+     "end": 354.146
+    },
+    {
+     "w": "More",
+     "start": 354.986,
+     "end": 355.146
+    },
+    {
+     "w": "than",
+     "start": 355.146,
+     "end": 355.406
+    },
+    {
+     "w": "an",
+     "start": 355.406,
+     "end": 355.486
+    },
+    {
+     "w": "hour",
+     "start": 355.486,
+     "end": 355.766
+    },
+    {
+     "w": "passed.",
+     "start": 355.766,
+     "end": 356.066
+    }
+   ]
+  },
+  {
+   "scene": 34,
+   "text": "Now, the witnesses this court never called. The Lakota, Cheyenne and Arapaho who were in that village.",
+   "start": 357.352,
+   "end": 363.546,
+   "words": [
+    {
+     "w": "Now,",
+     "start": 357.252,
+     "end": 357.532
+    },
+    {
+     "w": "the",
+     "start": 357.532,
+     "end": 357.732
+    },
+    {
+     "w": "witnesses",
+     "start": 357.732,
+     "end": 358.032
+    },
+    {
+     "w": "this",
+     "start": 358.032,
+     "end": 358.432
+    },
+    {
+     "w": "court",
+     "start": 358.432,
+     "end": 358.712
+    },
+    {
+     "w": "never",
+     "start": 358.712,
+     "end": 359.012
+    },
+    {
+     "w": "called.",
+     "start": 359.012,
+     "end": 359.332
+    },
+    {
+     "w": "The",
+     "start": 360.132,
+     "end": 360.152
+    },
+    {
+     "w": "Lakota,",
+     "start": 360.152,
+     "end": 360.592
+    },
+    {
+     "w": "Cheyenne",
+     "start": 361.152,
+     "end": 361.552
+    },
+    {
+     "w": "and",
+     "start": 361.552,
+     "end": 361.712
+    },
+    {
+     "w": "Arapaho",
+     "start": 361.712,
+     "end": 362.172
+    },
+    {
+     "w": "who",
+     "start": 362.172,
+     "end": 362.512
+    },
+    {
+     "w": "were",
+     "start": 362.512,
+     "end": 362.632
+    },
+    {
+     "w": "in",
+     "start": 362.632,
+     "end": 362.752
+    },
+    {
+     "w": "that",
+     "start": 362.752,
+     "end": 362.872
+    },
+    {
+     "w": "village.",
+     "start": 362.872,
+     "end": 363.272
+    }
+   ]
+  },
+  {
+   "scene": 34,
+   "text": "Decades later, many of them told their stories to interviewers and historians. And their accounts changed how the battle is understood.",
+   "start": 364.026,
+   "end": 371.893,
+   "words": [
+    {
+     "w": "Decades",
+     "start": 363.926,
+     "end": 364.426
+    },
+    {
+     "w": "later,",
+     "start": 364.426,
+     "end": 364.646
+    },
+    {
+     "w": "many",
+     "start": 365.026,
+     "end": 365.186
+    },
+    {
+     "w": "of",
+     "start": 365.186,
+     "end": 365.366
+    },
+    {
+     "w": "them",
+     "start": 365.366,
+     "end": 365.546
+    },
+    {
+     "w": "told",
+     "start": 365.546,
+     "end": 365.806
+    },
+    {
+     "w": "their",
+     "start": 365.806,
+     "end": 366.046
+    },
+    {
+     "w": "stories",
+     "start": 366.046,
+     "end": 366.346
+    },
+    {
+     "w": "to",
+     "start": 366.346,
+     "end": 366.746
+    },
+    {
+     "w": "interviewers",
+     "start": 366.746,
+     "end": 367.526
+    },
+    {
+     "w": "and",
+     "start": 367.526,
+     "end": 367.626
+    },
+    {
+     "w": "historians.",
+     "start": 367.626,
+     "end": 368.046
+    },
+    {
+     "w": "And",
+     "start": 368.946,
+     "end": 369.106
+    },
+    {
+     "w": "their",
+     "start": 369.106,
+     "end": 369.226
+    },
+    {
+     "w": "accounts",
+     "start": 369.226,
+     "end": 369.486
+    },
+    {
+     "w": "changed",
+     "start": 369.486,
+     "end": 369.966
+    },
+    {
+     "w": "how",
+     "start": 369.966,
+     "end": 370.466
+    },
+    {
+     "w": "the",
+     "start": 370.466,
+     "end": 370.606
+    },
+    {
+     "w": "battle",
+     "start": 370.606,
+     "end": 370.866
+    },
+    {
+     "w": "is",
+     "start": 370.866,
+     "end": 371.106
+    },
+    {
+     "w": "understood.",
+     "start": 371.106,
+     "end": 371.526
+    }
+   ]
+  },
+  {
+   "scene": 35,
+   "text": "Weeks earlier, at a Sun Dance, the Lakota leader Sitting Bull had seen a vision: soldiers falling into their camp.",
+   "start": 372.613,
+   "end": 379.551,
+   "words": [
+    {
+     "w": "Weeks",
+     "start": 372.513,
+     "end": 372.733
+    },
+    {
+     "w": "earlier,",
+     "start": 372.733,
+     "end": 373.093
+    },
+    {
+     "w": "at",
+     "start": 373.093,
+     "end": 373.373
+    },
+    {
+     "w": "a",
+     "start": 373.373,
+     "end": 373.453
+    },
+    {
+     "w": "Sun",
+     "start": 373.453,
+     "end": 373.993
+    },
+    {
+     "w": "Dance,",
+     "start": 373.993,
+     "end": 374.533
+    },
+    {
+     "w": "the",
+     "start": 374.533,
+     "end": 374.613
+    },
+    {
+     "w": "Lakota",
+     "start": 374.613,
+     "end": 375.013
+    },
+    {
+     "w": "leader",
+     "start": 375.013,
+     "end": 375.353
+    },
+    {
+     "w": "Sitting",
+     "start": 375.353,
+     "end": 375.673
+    },
+    {
+     "w": "Bull",
+     "start": 375.673,
+     "end": 375.953
+    },
+    {
+     "w": "had",
+     "start": 375.953,
+     "end": 376.253
+    },
+    {
+     "w": "seen",
+     "start": 376.253,
+     "end": 376.493
+    },
+    {
+     "w": "a",
+     "start": 376.493,
+     "end": 376.493
+    },
+    {
+     "w": "vision:",
+     "start": 376.493,
+     "end": 376.893
+    },
+    {
+     "w": "soldiers",
+     "start": 377.893,
+     "end": 377.893
+    },
+    {
+     "w": "falling",
+     "start": 377.893,
+     "end": 378.373
+    },
+    {
+     "w": "into",
+     "start": 378.373,
+     "end": 378.773
+    },
+    {
+     "w": "their",
+     "start": 378.773,
+     "end": 378.933
+    },
+    {
+     "w": "camp.",
+     "start": 378.933,
+     "end": 379.193
+    }
+   ]
+  },
+  {
+   "scene": 36,
+   "text": "On June 25, war leaders like Gall and Crazy Horse led the defense. No confirmed photograph of Crazy Horse exists.",
+   "start": 380.031,
+   "end": 388.224,
+   "words": [
+    {
+     "w": "On",
+     "start": 379.931,
+     "end": 380.151
+    },
+    {
+     "w": "June",
+     "start": 380.151,
+     "end": 380.371
+    },
+    {
+     "w": "25,",
+     "start": 380.371,
+     "end": 381.571
+    },
+    {
+     "w": "war",
+     "start": 381.571,
+     "end": 381.591
+    },
+    {
+     "w": "leaders",
+     "start": 381.591,
+     "end": 381.911
+    },
+    {
+     "w": "like",
+     "start": 381.911,
+     "end": 382.271
+    },
+    {
+     "w": "Gall",
+     "start": 382.271,
+     "end": 382.551
+    },
+    {
+     "w": "and",
+     "start": 382.551,
+     "end": 382.891
+    },
+    {
+     "w": "Crazy",
+     "start": 382.891,
+     "end": 383.071
+    },
+    {
+     "w": "Horse",
+     "start": 383.071,
+     "end": 383.531
+    },
+    {
+     "w": "led",
+     "start": 383.531,
+     "end": 383.911
+    },
+    {
+     "w": "the",
+     "start": 383.911,
+     "end": 384.091
+    },
+    {
+     "w": "defense.",
+     "start": 384.091,
+     "end": 384.311
+    },
+    {
+     "w": "No",
+     "start": 385.351,
+     "end": 385.351
+    },
+    {
+     "w": "confirmed",
+     "start": 385.351,
+     "end": 385.611
+    },
+    {
+     "w": "photograph",
+     "start": 385.611,
+     "end": 386.351
+    },
+    {
+     "w": "of",
+     "start": 386.351,
+     "end": 386.671
+    },
+    {
+     "w": "Crazy",
+     "start": 386.671,
+     "end": 386.831
+    },
+    {
+     "w": "Horse",
+     "start": 386.831,
+     "end": 387.371
+    },
+    {
+     "w": "exists.",
+     "start": 387.371,
+     "end": 387.671
+    }
+   ]
+  },
+  {
+   "scene": 37,
+   "text": "To them, this wasn't a last stand. It was the defense of their families.",
+   "start": 388.704,
+   "end": 393.036,
+   "words": [
+    {
+     "w": "To",
+     "start": 388.604,
+     "end": 388.804
+    },
+    {
+     "w": "them,",
+     "start": 388.804,
+     "end": 389.004
+    },
+    {
+     "w": "this",
+     "start": 389.124,
+     "end": 389.304
+    },
+    {
+     "w": "wasn't",
+     "start": 389.304,
+     "end": 389.684
+    },
+    {
+     "w": "a",
+     "start": 389.684,
+     "end": 389.764
+    },
+    {
+     "w": "last",
+     "start": 389.764,
+     "end": 389.964
+    },
+    {
+     "w": "stand.",
+     "start": 389.964,
+     "end": 390.484
+    },
+    {
+     "w": "It",
+     "start": 391.164,
+     "end": 391.204
+    },
+    {
+     "w": "was",
+     "start": 391.204,
+     "end": 391.344
+    },
+    {
+     "w": "the",
+     "start": 391.344,
+     "end": 391.504
+    },
+    {
+     "w": "defense",
+     "start": 391.504,
+     "end": 391.804
+    },
+    {
+     "w": "of",
+     "start": 391.804,
+     "end": 392.064
+    },
+    {
+     "w": "their",
+     "start": 392.064,
+     "end": 392.184
+    },
+    {
+     "w": "families.",
+     "start": 392.184,
+     "end": 392.604
+    }
+   ]
+  },
+  {
+   "scene": 38,
+   "text": "Lakota and Cheyenne accounts describe Custer's battalion breaking apart on the ridges, and a fight that was over fast.",
+   "start": 393.756,
+   "end": 401.132,
+   "words": [
+    {
+     "w": "Lakota",
+     "start": 393.656,
+     "end": 394.176
+    },
+    {
+     "w": "and",
+     "start": 394.176,
+     "end": 394.496
+    },
+    {
+     "w": "Cheyenne",
+     "start": 394.496,
+     "end": 394.956
+    },
+    {
+     "w": "accounts",
+     "start": 394.956,
+     "end": 395.256
+    },
+    {
+     "w": "describe",
+     "start": 395.256,
+     "end": 395.916
+    },
+    {
+     "w": "Custer's",
+     "start": 395.916,
+     "end": 396.676
+    },
+    {
+     "w": "battalion",
+     "start": 396.676,
+     "end": 396.836
+    },
+    {
+     "w": "breaking",
+     "start": 396.836,
+     "end": 397.536
+    },
+    {
+     "w": "apart",
+     "start": 397.536,
+     "end": 397.956
+    },
+    {
+     "w": "on",
+     "start": 397.956,
+     "end": 398.316
+    },
+    {
+     "w": "the",
+     "start": 398.316,
+     "end": 398.436
+    },
+    {
+     "w": "ridges,",
+     "start": 398.436,
+     "end": 398.776
+    },
+    {
+     "w": "and",
+     "start": 398.776,
+     "end": 399.456
+    },
+    {
+     "w": "a",
+     "start": 399.456,
+     "end": 399.536
+    },
+    {
+     "w": "fight",
+     "start": 399.536,
+     "end": 399.856
+    },
+    {
+     "w": "that",
+     "start": 399.856,
+     "end": 400.096
+    },
+    {
+     "w": "was",
+     "start": 400.096,
+     "end": 400.216
+    },
+    {
+     "w": "over",
+     "start": 400.216,
+     "end": 400.436
+    },
+    {
+     "w": "fast.",
+     "start": 400.436,
+     "end": 400.736
+    }
+   ]
+  },
+  {
+   "scene": 39,
+   "text": "In 1983, a grass fire burned across the battlefield. Archaeologists walked the bare ground and mapped thousands of bullets and cartridge cases. They showed that many warriors carried repeating rifles, and that Custer's companies collapsed one after another, not in one heroic last circle.",
+   "start": 401.612,
+   "end": 419.961,
+   "words": [
+    {
+     "w": "In",
+     "start": 401.512,
+     "end": 401.692
+    },
+    {
+     "w": "1983,",
+     "start": 401.692,
+     "end": 402.312
+    },
+    {
+     "w": "a",
+     "start": 402.872,
+     "end": 403.072
+    },
+    {
+     "w": "grass",
+     "start": 403.072,
+     "end": 403.312
+    },
+    {
+     "w": "fire",
+     "start": 403.312,
+     "end": 403.752
+    },
+    {
+     "w": "burned",
+     "start": 403.752,
+     "end": 404.072
+    },
+    {
+     "w": "across",
+     "start": 404.072,
+     "end": 404.432
+    },
+    {
+     "w": "the",
+     "start": 404.432,
+     "end": 404.732
+    },
+    {
+     "w": "battlefield.",
+     "start": 404.732,
+     "end": 405.152
+    },
+    {
+     "w": "Archaeologists",
+     "start": 406.192,
+     "end": 406.812
+    },
+    {
+     "w": "walked",
+     "start": 406.812,
+     "end": 407.172
+    },
+    {
+     "w": "the",
+     "start": 407.172,
+     "end": 407.412
+    },
+    {
+     "w": "bare",
+     "start": 407.412,
+     "end": 407.552
+    },
+    {
+     "w": "ground",
+     "start": 407.552,
+     "end": 407.852
+    },
+    {
+     "w": "and",
+     "start": 407.852,
+     "end": 408.172
+    },
+    {
+     "w": "mapped",
+     "start": 408.172,
+     "end": 408.372
+    },
+    {
+     "w": "thousands",
+     "start": 408.372,
+     "end": 408.932
+    },
+    {
+     "w": "of",
+     "start": 408.932,
+     "end": 409.172
+    },
+    {
+     "w": "bullets",
+     "start": 409.172,
+     "end": 409.412
+    },
+    {
+     "w": "and",
+     "start": 409.412,
+     "end": 409.712
+    },
+    {
+     "w": "cartridge",
+     "start": 409.712,
+     "end": 409.972
+    },
+    {
+     "w": "cases.",
+     "start": 409.972,
+     "end": 410.512
+    },
+    {
+     "w": "They",
+     "start": 411.352,
+     "end": 411.472
+    },
+    {
+     "w": "showed",
+     "start": 411.472,
+     "end": 411.752
+    },
+    {
+     "w": "that",
+     "start": 411.752,
+     "end": 411.992
+    },
+    {
+     "w": "many",
+     "start": 411.992,
+     "end": 412.192
+    },
+    {
+     "w": "warriors",
+     "start": 412.192,
+     "end": 412.612
+    },
+    {
+     "w": "carried",
+     "start": 412.612,
+     "end": 413.112
+    },
+    {
+     "w": "repeating",
+     "start": 413.112,
+     "end": 413.532
+    },
+    {
+     "w": "rifles,",
+     "start": 413.532,
+     "end": 413.912
+    },
+    {
+     "w": "and",
+     "start": 414.672,
+     "end": 414.792
+    },
+    {
+     "w": "that",
+     "start": 414.792,
+     "end": 414.892
+    },
+    {
+     "w": "Custer's",
+     "start": 414.892,
+     "end": 415.432
+    },
+    {
+     "w": "companies",
+     "start": 415.432,
+     "end": 415.692
+    },
+    {
+     "w": "collapsed",
+     "start": 415.692,
+     "end": 416.172
+    },
+    {
+     "w": "one",
+     "start": 416.172,
+     "end": 416.732
+    },
+    {
+     "w": "after",
+     "start": 416.732,
+     "end": 417.012
+    },
+    {
+     "w": "another,",
+     "start": 417.012,
+     "end": 417.552
+    },
+    {
+     "w": "not",
+     "start": 417.772,
+     "end": 418.072
+    },
+    {
+     "w": "in",
+     "start": 418.072,
+     "end": 418.252
+    },
+    {
+     "w": "one",
+     "start": 418.252,
+     "end": 418.492
+    },
+    {
+     "w": "heroic",
+     "start": 418.492,
+     "end": 418.892
+    },
+    {
+     "w": "last",
+     "start": 418.892,
+     "end": 419.192
+    },
+    {
+     "w": "circle.",
+     "start": 419.192,
+     "end": 419.712
+    }
+   ]
+  },
+  {
+   "scene": 40,
+   "text": "Every one of the roughly 210 men with Custer was killed. In all, 268 men of his command died.",
+   "start": 420.681,
+   "end": 428.684,
+   "words": [
+    {
+     "w": "Every",
+     "start": 420.581,
+     "end": 420.881
+    },
+    {
+     "w": "one",
+     "start": 420.881,
+     "end": 421.101
+    },
+    {
+     "w": "of",
+     "start": 421.101,
+     "end": 421.181
+    },
+    {
+     "w": "the",
+     "start": 421.181,
+     "end": 421.281
+    },
+    {
+     "w": "roughly",
+     "start": 421.281,
+     "end": 421.681
+    },
+    {
+     "w": "210",
+     "start": 421.681,
+     "end": 421.941
+    },
+    {
+     "w": "men",
+     "start": 421.941,
+     "end": 423.001
+    },
+    {
+     "w": "with",
+     "start": 423.001,
+     "end": 423.241
+    },
+    {
+     "w": "Custer",
+     "start": 423.241,
+     "end": 423.641
+    },
+    {
+     "w": "was",
+     "start": 423.641,
+     "end": 423.861
+    },
+    {
+     "w": "killed.",
+     "start": 423.861,
+     "end": 424.181
+    },
+    {
+     "w": "In",
+     "start": 425.061,
+     "end": 425.061
+    },
+    {
+     "w": "all,",
+     "start": 425.061,
+     "end": 425.241
+    },
+    {
+     "w": "268",
+     "start": 425.721,
+     "end": 425.881
+    },
+    {
+     "w": "men",
+     "start": 425.881,
+     "end": 427.261
+    },
+    {
+     "w": "of",
+     "start": 427.261,
+     "end": 427.441
+    },
+    {
+     "w": "his",
+     "start": 427.441,
+     "end": 427.561
+    },
+    {
+     "w": "command",
+     "start": 427.561,
+     "end": 427.741
+    },
+    {
+     "w": "died.",
+     "start": 427.741,
+     "end": 428.421
+    }
+   ]
+  },
+  {
+   "scene": 40,
+   "text": "Among the dead were two of Custer's brothers, his nephew, and his brother-in-law.",
+   "start": 429.164,
+   "end": 433.593,
+   "words": [
+    {
+     "w": "Among",
+     "start": 429.064,
+     "end": 429.304
+    },
+    {
+     "w": "the",
+     "start": 429.304,
+     "end": 429.524
+    },
+    {
+     "w": "dead",
+     "start": 429.524,
+     "end": 429.724
+    },
+    {
+     "w": "were",
+     "start": 429.724,
+     "end": 429.984
+    },
+    {
+     "w": "two",
+     "start": 429.984,
+     "end": 430.204
+    },
+    {
+     "w": "of",
+     "start": 430.204,
+     "end": 430.344
+    },
+    {
+     "w": "Custer's",
+     "start": 430.344,
+     "end": 430.824
+    },
+    {
+     "w": "brothers,",
+     "start": 430.824,
+     "end": 431.004
+    },
+    {
+     "w": "his",
+     "start": 431.584,
+     "end": 431.724
+    },
+    {
+     "w": "nephew,",
+     "start": 431.724,
+     "end": 431.964
+    },
+    {
+     "w": "and",
+     "start": 431.964,
+     "end": 432.524
+    },
+    {
+     "w": "his",
+     "start": 432.524,
+     "end": 432.664
+    },
+    {
+     "w": "brother-in-law.",
+     "start": 432.664,
+     "end": 433.593
+    }
+   ]
+  },
+  {
+   "scene": 41,
+   "text": "Two days after the battle, soldiers on Custer's field found a badly wounded horse named Comanche. He became a symbol of the disaster. The 7th Cavalry ordered that he never be ridden again.",
+   "start": 434.553,
+   "end": 446.519,
+   "words": [
+    {
+     "w": "Two",
+     "start": 434.453,
+     "end": 434.673
+    },
+    {
+     "w": "days",
+     "start": 434.673,
+     "end": 434.873
+    },
+    {
+     "w": "after",
+     "start": 434.873,
+     "end": 435.153
+    },
+    {
+     "w": "the",
+     "start": 435.153,
+     "end": 435.333
+    },
+    {
+     "w": "battle,",
+     "start": 435.333,
+     "end": 435.653
+    },
+    {
+     "w": "soldiers",
+     "start": 436.153,
+     "end": 436.413
+    },
+    {
+     "w": "on",
+     "start": 436.413,
+     "end": 436.753
+    },
+    {
+     "w": "Custer's",
+     "start": 436.753,
+     "end": 437.313
+    },
+    {
+     "w": "field",
+     "start": 437.313,
+     "end": 437.553
+    },
+    {
+     "w": "found",
+     "start": 437.553,
+     "end": 437.993
+    },
+    {
+     "w": "a",
+     "start": 437.993,
+     "end": 438.193
+    },
+    {
+     "w": "badly",
+     "start": 438.193,
+     "end": 438.473
+    },
+    {
+     "w": "wounded",
+     "start": 438.473,
+     "end": 438.893
+    },
+    {
+     "w": "horse",
+     "start": 438.893,
+     "end": 439.353
+    },
+    {
+     "w": "named",
+     "start": 439.353,
+     "end": 439.713
+    },
+    {
+     "w": "Comanche.",
+     "start": 439.713,
+     "end": 440.273
+    },
+    {
+     "w": "He",
+     "start": 440.713,
+     "end": 441.053
+    },
+    {
+     "w": "became",
+     "start": 441.053,
+     "end": 441.293
+    },
+    {
+     "w": "a",
+     "start": 441.293,
+     "end": 441.513
+    },
+    {
+     "w": "symbol",
+     "start": 441.513,
+     "end": 441.813
+    },
+    {
+     "w": "of",
+     "start": 441.813,
+     "end": 442.093
+    },
+    {
+     "w": "the",
+     "start": 442.093,
+     "end": 442.193
+    },
+    {
+     "w": "disaster.",
+     "start": 442.193,
+     "end": 442.533
+    },
+    {
+     "w": "The",
+     "start": 443.513,
+     "end": 443.533
+    },
+    {
+     "w": "7th",
+     "start": 443.533,
+     "end": 443.813
+    },
+    {
+     "w": "Cavalry",
+     "start": 443.813,
+     "end": 444.133
+    },
+    {
+     "w": "ordered",
+     "start": 444.133,
+     "end": 444.833
+    },
+    {
+     "w": "that",
+     "start": 444.833,
+     "end": 445.113
+    },
+    {
+     "w": "he",
+     "start": 445.113,
+     "end": 445.253
+    },
+    {
+     "w": "never",
+     "start": 445.253,
+     "end": 445.533
+    },
+    {
+     "w": "be",
+     "start": 445.533,
+     "end": 445.693
+    },
+    {
+     "w": "ridden",
+     "start": 445.693,
+     "end": 445.913
+    },
+    {
+     "w": "again.",
+     "start": 445.913,
+     "end": 446.233
+    }
+   ]
+  },
+  {
+   "scene": 42,
+   "text": "On Reno's hill, officers heard firing to the north. Captain Thomas Weir rode toward it without orders. From a high point, they saw dust and smoke, and warriors turning toward them.",
+   "start": 447.359,
+   "end": 458.56,
+   "words": [
+    {
+     "w": "On",
+     "start": 447.259,
+     "end": 447.479
+    },
+    {
+     "w": "Reno's",
+     "start": 447.479,
+     "end": 447.879
+    },
+    {
+     "w": "hill,",
+     "start": 447.879,
+     "end": 448.059
+    },
+    {
+     "w": "officers",
+     "start": 448.359,
+     "end": 448.659
+    },
+    {
+     "w": "heard",
+     "start": 448.659,
+     "end": 449.059
+    },
+    {
+     "w": "firing",
+     "start": 449.059,
+     "end": 449.559
+    },
+    {
+     "w": "to",
+     "start": 449.559,
+     "end": 449.859
+    },
+    {
+     "w": "the",
+     "start": 449.859,
+     "end": 449.939
+    },
+    {
+     "w": "north.",
+     "start": 449.939,
+     "end": 450.199
+    },
+    {
+     "w": "Captain",
+     "start": 451.219,
+     "end": 451.219
+    },
+    {
+     "w": "Thomas",
+     "start": 451.219,
+     "end": 451.599
+    },
+    {
+     "w": "Weir",
+     "start": 451.599,
+     "end": 451.919
+    },
+    {
+     "w": "rode",
+     "start": 451.919,
+     "end": 452.299
+    },
+    {
+     "w": "toward",
+     "start": 452.299,
+     "end": 452.619
+    },
+    {
+     "w": "it",
+     "start": 452.619,
+     "end": 452.899
+    },
+    {
+     "w": "without",
+     "start": 452.899,
+     "end": 453.059
+    },
+    {
+     "w": "orders.",
+     "start": 453.059,
+     "end": 453.619
+    },
+    {
+     "w": "From",
+     "start": 454.279,
+     "end": 454.319
+    },
+    {
+     "w": "a",
+     "start": 454.319,
+     "end": 454.419
+    },
+    {
+     "w": "high",
+     "start": 454.419,
+     "end": 454.579
+    },
+    {
+     "w": "point,",
+     "start": 454.579,
+     "end": 454.999
+    },
+    {
+     "w": "they",
+     "start": 455.219,
+     "end": 455.279
+    },
+    {
+     "w": "saw",
+     "start": 455.279,
+     "end": 455.499
+    },
+    {
+     "w": "dust",
+     "start": 455.499,
+     "end": 455.739
+    },
+    {
+     "w": "and",
+     "start": 455.739,
+     "end": 456.099
+    },
+    {
+     "w": "smoke,",
+     "start": 456.099,
+     "end": 456.439
+    },
+    {
+     "w": "and",
+     "start": 456.439,
+     "end": 456.899
+    },
+    {
+     "w": "warriors",
+     "start": 456.899,
+     "end": 457.279
+    },
+    {
+     "w": "turning",
+     "start": 457.279,
+     "end": 457.659
+    },
+    {
+     "w": "toward",
+     "start": 457.659,
+     "end": 458.099
+    },
+    {
+     "w": "them.",
+     "start": 458.099,
+     "end": 458.379
+    }
+   ]
+  },
+  {
+   "scene": 43,
+   "text": "They fell back, dug in, and held on through another day, until relief arrived on June 27.",
+   "start": 459.04,
+   "end": 465.213,
+   "words": [
+    {
+     "w": "They",
+     "start": 458.94,
+     "end": 459.12
+    },
+    {
+     "w": "fell",
+     "start": 459.12,
+     "end": 459.26
+    },
+    {
+     "w": "back,",
+     "start": 459.26,
+     "end": 459.7
+    },
+    {
+     "w": "dug",
+     "start": 459.76,
+     "end": 459.88
+    },
+    {
+     "w": "in,",
+     "start": 459.88,
+     "end": 460.26
+    },
+    {
+     "w": "and",
+     "start": 460.48,
+     "end": 460.72
+    },
+    {
+     "w": "held",
+     "start": 460.72,
+     "end": 460.9
+    },
+    {
+     "w": "on",
+     "start": 460.9,
+     "end": 461.16
+    },
+    {
+     "w": "through",
+     "start": 461.16,
+     "end": 461.44
+    },
+    {
+     "w": "another",
+     "start": 461.44,
+     "end": 461.68
+    },
+    {
+     "w": "day,",
+     "start": 461.68,
+     "end": 462.08
+    },
+    {
+     "w": "until",
+     "start": 462.38,
+     "end": 462.74
+    },
+    {
+     "w": "relief",
+     "start": 462.74,
+     "end": 463.12
+    },
+    {
+     "w": "arrived",
+     "start": 463.12,
+     "end": 463.54
+    },
+    {
+     "w": "on",
+     "start": 463.54,
+     "end": 463.86
+    },
+    {
+     "w": "June",
+     "start": 463.86,
+     "end": 464.08
+    },
+    {
+     "w": "27.",
+     "start": 464.08,
+     "end": 465.213
+    }
+   ]
+  },
+  {
+   "scene": 43,
+   "text": "Without water, the wounded begged for a drink. Volunteers crawled down to the river under fire to bring it back. Several of them later received the Medal of Honor.",
+   "start": 465.693,
+   "end": 475.569,
+   "words": [
+    {
+     "w": "Without",
+     "start": 465.593,
+     "end": 465.853
+    },
+    {
+     "w": "water,",
+     "start": 465.853,
+     "end": 466.373
+    },
+    {
+     "w": "the",
+     "start": 466.733,
+     "end": 466.813
+    },
+    {
+     "w": "wounded",
+     "start": 466.813,
+     "end": 467.033
+    },
+    {
+     "w": "begged",
+     "start": 467.033,
+     "end": 467.453
+    },
+    {
+     "w": "for",
+     "start": 467.453,
+     "end": 467.833
+    },
+    {
+     "w": "a",
+     "start": 467.833,
+     "end": 467.933
+    },
+    {
+     "w": "drink.",
+     "start": 467.933,
+     "end": 468.133
+    },
+    {
+     "w": "Volunteers",
+     "start": 469.393,
+     "end": 469.393
+    },
+    {
+     "w": "crawled",
+     "start": 469.393,
+     "end": 469.933
+    },
+    {
+     "w": "down",
+     "start": 469.933,
+     "end": 470.293
+    },
+    {
+     "w": "to",
+     "start": 470.293,
+     "end": 470.493
+    },
+    {
+     "w": "the",
+     "start": 470.493,
+     "end": 470.573
+    },
+    {
+     "w": "river",
+     "start": 470.573,
+     "end": 470.793
+    },
+    {
+     "w": "under",
+     "start": 470.793,
+     "end": 471.033
+    },
+    {
+     "w": "fire",
+     "start": 471.033,
+     "end": 471.413
+    },
+    {
+     "w": "to",
+     "start": 471.413,
+     "end": 471.673
+    },
+    {
+     "w": "bring",
+     "start": 471.673,
+     "end": 471.893
+    },
+    {
+     "w": "it",
+     "start": 471.893,
+     "end": 472.013
+    },
+    {
+     "w": "back.",
+     "start": 472.013,
+     "end": 472.273
+    },
+    {
+     "w": "Several",
+     "start": 473.133,
+     "end": 473.133
+    },
+    {
+     "w": "of",
+     "start": 473.133,
+     "end": 473.373
+    },
+    {
+     "w": "them",
+     "start": 473.373,
+     "end": 473.513
+    },
+    {
+     "w": "later",
+     "start": 473.513,
+     "end": 473.873
+    },
+    {
+     "w": "received",
+     "start": 473.873,
+     "end": 474.253
+    },
+    {
+     "w": "the",
+     "start": 474.253,
+     "end": 474.573
+    },
+    {
+     "w": "Medal",
+     "start": 474.573,
+     "end": 474.793
+    },
+    {
+     "w": "of",
+     "start": 474.793,
+     "end": 475.033
+    },
+    {
+     "w": "Honor.",
+     "start": 475.033,
+     "end": 475.313
+    }
+   ]
+  },
+  {
+   "scene": 44,
+   "text": "The verdict. After 26 days of testimony, the court found that Reno's conduct did not deserve its censure.",
+   "start": 476.529,
+   "end": 483.448,
+   "words": [
+    {
+     "w": "The",
+     "start": 476.429,
+     "end": 476.609
+    },
+    {
+     "w": "verdict.",
+     "start": 476.609,
+     "end": 476.909
+    },
+    {
+     "w": "After",
+     "start": 477.489,
+     "end": 477.749
+    },
+    {
+     "w": "26",
+     "start": 477.749,
+     "end": 478.149
+    },
+    {
+     "w": "days",
+     "start": 478.149,
+     "end": 478.669
+    },
+    {
+     "w": "of",
+     "start": 478.669,
+     "end": 478.869
+    },
+    {
+     "w": "testimony,",
+     "start": 478.869,
+     "end": 479.389
+    },
+    {
+     "w": "the",
+     "start": 479.889,
+     "end": 479.969
+    },
+    {
+     "w": "court",
+     "start": 479.969,
+     "end": 480.169
+    },
+    {
+     "w": "found",
+     "start": 480.169,
+     "end": 480.629
+    },
+    {
+     "w": "that",
+     "start": 480.629,
+     "end": 480.769
+    },
+    {
+     "w": "Reno's",
+     "start": 480.769,
+     "end": 481.229
+    },
+    {
+     "w": "conduct",
+     "start": 481.229,
+     "end": 481.549
+    },
+    {
+     "w": "did",
+     "start": 481.549,
+     "end": 481.969
+    },
+    {
+     "w": "not",
+     "start": 481.969,
+     "end": 482.189
+    },
+    {
+     "w": "deserve",
+     "start": 482.189,
+     "end": 482.529
+    },
+    {
+     "w": "its",
+     "start": 482.529,
+     "end": 482.769
+    },
+    {
+     "w": "censure.",
+     "start": 482.769,
+     "end": 483.309
+    }
+   ]
+  },
+  {
+   "scene": 45,
+   "text": "Its words were faint praise. Some of Reno's officers, the court said, had shown more courage than he did. But there was nothing in his conduct that required the court's censure.",
+   "start": 483.928,
+   "end": 494.034,
+   "words": [
+    {
+     "w": "Its",
+     "start": 483.828,
+     "end": 484.048
+    },
+    {
+     "w": "words",
+     "start": 484.048,
+     "end": 484.288
+    },
+    {
+     "w": "were",
+     "start": 484.288,
+     "end": 484.588
+    },
+    {
+     "w": "faint",
+     "start": 484.588,
+     "end": 484.868
+    },
+    {
+     "w": "praise.",
+     "start": 484.868,
+     "end": 485.148
+    },
+    {
+     "w": "Some",
+     "start": 486.108,
+     "end": 486.128
+    },
+    {
+     "w": "of",
+     "start": 486.128,
+     "end": 486.248
+    },
+    {
+     "w": "Reno's",
+     "start": 486.248,
+     "end": 486.688
+    },
+    {
+     "w": "officers,",
+     "start": 486.688,
+     "end": 487.108
+    },
+    {
+     "w": "the",
+     "start": 487.248,
+     "end": 487.488
+    },
+    {
+     "w": "court",
+     "start": 487.488,
+     "end": 487.668
+    },
+    {
+     "w": "said,",
+     "start": 487.668,
+     "end": 488.028
+    },
+    {
+     "w": "had",
+     "start": 488.308,
+     "end": 488.468
+    },
+    {
+     "w": "shown",
+     "start": 488.468,
+     "end": 488.748
+    },
+    {
+     "w": "more",
+     "start": 488.748,
+     "end": 489.008
+    },
+    {
+     "w": "courage",
+     "start": 489.008,
+     "end": 489.308
+    },
+    {
+     "w": "than",
+     "start": 489.308,
+     "end": 489.708
+    },
+    {
+     "w": "he",
+     "start": 489.708,
+     "end": 489.828
+    },
+    {
+     "w": "did.",
+     "start": 489.828,
+     "end": 490.048
+    },
+    {
+     "w": "But",
+     "start": 490.608,
+     "end": 490.768
+    },
+    {
+     "w": "there",
+     "start": 490.768,
+     "end": 490.908
+    },
+    {
+     "w": "was",
+     "start": 490.908,
+     "end": 491.028
+    },
+    {
+     "w": "nothing",
+     "start": 491.028,
+     "end": 491.388
+    },
+    {
+     "w": "in",
+     "start": 491.388,
+     "end": 491.528
+    },
+    {
+     "w": "his",
+     "start": 491.528,
+     "end": 491.648
+    },
+    {
+     "w": "conduct",
+     "start": 491.648,
+     "end": 492.008
+    },
+    {
+     "w": "that",
+     "start": 492.008,
+     "end": 492.388
+    },
+    {
+     "w": "required",
+     "start": 492.388,
+     "end": 492.708
+    },
+    {
+     "w": "the",
+     "start": 492.708,
+     "end": 493.068
+    },
+    {
+     "w": "court's",
+     "start": 493.068,
+     "end": 493.428
+    },
+    {
+     "w": "censure.",
+     "start": 493.428,
+     "end": 493.888
+    }
+   ]
+  },
+  {
+   "scene": 46,
+   "text": "The Army's top legal officer wrote that the accusation that Custer died because of Reno's cowardice was, quote, \u201cset to rest.\u201d",
+   "start": 494.754,
+   "end": 502.983,
+   "words": [
+    {
+     "w": "The",
+     "start": 494.654,
+     "end": 494.834
+    },
+    {
+     "w": "Army's",
+     "start": 494.834,
+     "end": 495.274
+    },
+    {
+     "w": "top",
+     "start": 495.274,
+     "end": 495.454
+    },
+    {
+     "w": "legal",
+     "start": 495.454,
+     "end": 495.734
+    },
+    {
+     "w": "officer",
+     "start": 495.734,
+     "end": 496.314
+    },
+    {
+     "w": "wrote",
+     "start": 496.314,
+     "end": 496.734
+    },
+    {
+     "w": "that",
+     "start": 496.734,
+     "end": 497.014
+    },
+    {
+     "w": "the",
+     "start": 497.014,
+     "end": 497.154
+    },
+    {
+     "w": "accusation",
+     "start": 497.154,
+     "end": 497.654
+    },
+    {
+     "w": "that",
+     "start": 497.654,
+     "end": 498.054
+    },
+    {
+     "w": "Custer",
+     "start": 498.054,
+     "end": 498.374
+    },
+    {
+     "w": "died",
+     "start": 498.374,
+     "end": 498.914
+    },
+    {
+     "w": "because",
+     "start": 498.914,
+     "end": 499.614
+    },
+    {
+     "w": "of",
+     "start": 499.614,
+     "end": 499.734
+    },
+    {
+     "w": "Reno's",
+     "start": 499.734,
+     "end": 500.174
+    },
+    {
+     "w": "cowardice",
+     "start": 500.174,
+     "end": 500.754
+    },
+    {
+     "w": "was,",
+     "start": 500.754,
+     "end": 500.954
+    },
+    {
+     "w": "quote,",
+     "start": 501.534,
+     "end": 501.654
+    },
+    {
+     "w": "\u201cset",
+     "start": 501.974,
+     "end": 502.214
+    },
+    {
+     "w": "to",
+     "start": 502.214,
+     "end": 502.434
+    },
+    {
+     "w": "rest.\u201d",
+     "start": 502.434,
+     "end": 502.634
+    }
+   ]
+  },
+  {
+   "scene": 47,
+   "text": "It wasn't. Years later, enlisted men said they had been pressured to protect Reno. One officer admitted there was a private understanding to save him.",
+   "start": 503.823,
+   "end": 513.04,
+   "words": [
+    {
+     "w": "It",
+     "start": 503.723,
+     "end": 503.903
+    },
+    {
+     "w": "wasn't.",
+     "start": 503.903,
+     "end": 504.403
+    },
+    {
+     "w": "Years",
+     "start": 504.863,
+     "end": 504.903
+    },
+    {
+     "w": "later,",
+     "start": 504.903,
+     "end": 505.383
+    },
+    {
+     "w": "enlisted",
+     "start": 505.703,
+     "end": 505.883
+    },
+    {
+     "w": "men",
+     "start": 505.883,
+     "end": 506.303
+    },
+    {
+     "w": "said",
+     "start": 506.303,
+     "end": 506.703
+    },
+    {
+     "w": "they",
+     "start": 506.703,
+     "end": 506.883
+    },
+    {
+     "w": "had",
+     "start": 506.883,
+     "end": 507.043
+    },
+    {
+     "w": "been",
+     "start": 507.043,
+     "end": 507.203
+    },
+    {
+     "w": "pressured",
+     "start": 507.203,
+     "end": 507.503
+    },
+    {
+     "w": "to",
+     "start": 507.503,
+     "end": 507.783
+    },
+    {
+     "w": "protect",
+     "start": 507.783,
+     "end": 508.103
+    },
+    {
+     "w": "Reno.",
+     "start": 508.103,
+     "end": 508.403
+    },
+    {
+     "w": "One",
+     "start": 509.383,
+     "end": 509.443
+    },
+    {
+     "w": "officer",
+     "start": 509.443,
+     "end": 509.903
+    },
+    {
+     "w": "admitted",
+     "start": 509.903,
+     "end": 510.343
+    },
+    {
+     "w": "there",
+     "start": 510.343,
+     "end": 510.723
+    },
+    {
+     "w": "was",
+     "start": 510.723,
+     "end": 510.883
+    },
+    {
+     "w": "a",
+     "start": 510.883,
+     "end": 510.983
+    },
+    {
+     "w": "private",
+     "start": 510.983,
+     "end": 511.263
+    },
+    {
+     "w": "understanding",
+     "start": 511.263,
+     "end": 512.003
+    },
+    {
+     "w": "to",
+     "start": 512.003,
+     "end": 512.323
+    },
+    {
+     "w": "save",
+     "start": 512.323,
+     "end": 512.583
+    },
+    {
+     "w": "him.",
+     "start": 512.583,
+     "end": 512.863
+    }
+   ]
+  },
+  {
+   "scene": 48,
+   "text": "Soon after, Reno was court-martialed for unrelated misconduct and thrown out of the army. He died in 1889, still in disgrace.",
+   "start": 513.64,
+   "end": 522.916,
+   "words": [
+    {
+     "w": "Soon",
+     "start": 513.54,
+     "end": 513.8
+    },
+    {
+     "w": "after,",
+     "start": 513.8,
+     "end": 514.22
+    },
+    {
+     "w": "Reno",
+     "start": 514.44,
+     "end": 514.5
+    },
+    {
+     "w": "was",
+     "start": 514.5,
+     "end": 514.86
+    },
+    {
+     "w": "court-martialed",
+     "start": 514.86,
+     "end": 515.7
+    },
+    {
+     "w": "for",
+     "start": 515.7,
+     "end": 515.82
+    },
+    {
+     "w": "unrelated",
+     "start": 515.82,
+     "end": 516.3
+    },
+    {
+     "w": "misconduct",
+     "start": 516.3,
+     "end": 516.94
+    },
+    {
+     "w": "and",
+     "start": 516.94,
+     "end": 517.74
+    },
+    {
+     "w": "thrown",
+     "start": 517.74,
+     "end": 518.02
+    },
+    {
+     "w": "out",
+     "start": 518.02,
+     "end": 518.44
+    },
+    {
+     "w": "of",
+     "start": 518.44,
+     "end": 518.54
+    },
+    {
+     "w": "the",
+     "start": 518.54,
+     "end": 518.66
+    },
+    {
+     "w": "army.",
+     "start": 518.66,
+     "end": 518.94
+    },
+    {
+     "w": "He",
+     "start": 519.78,
+     "end": 519.84
+    },
+    {
+     "w": "died",
+     "start": 519.84,
+     "end": 520.08
+    },
+    {
+     "w": "in",
+     "start": 520.08,
+     "end": 520.3
+    },
+    {
+     "w": "1889,",
+     "start": 520.3,
+     "end": 520.88
+    },
+    {
+     "w": "still",
+     "start": 521.68,
+     "end": 521.9
+    },
+    {
+     "w": "in",
+     "start": 521.9,
+     "end": 522.08
+    },
+    {
+     "w": "disgrace.",
+     "start": 522.08,
+     "end": 522.42
+    }
+   ]
+  },
+  {
+   "scene": 49,
+   "text": "And one person never stopped defending Custer. His widow, Elizabeth, spent the next 57 years protecting his name. She wrote three books, gave lectures, and outlived almost every officer who could have criticized him.",
+   "start": 523.636,
+   "end": 536.915,
+   "words": [
+    {
+     "w": "And",
+     "start": 523.536,
+     "end": 523.716
+    },
+    {
+     "w": "one",
+     "start": 523.716,
+     "end": 523.876
+    },
+    {
+     "w": "person",
+     "start": 523.876,
+     "end": 524.256
+    },
+    {
+     "w": "never",
+     "start": 524.256,
+     "end": 524.516
+    },
+    {
+     "w": "stopped",
+     "start": 524.516,
+     "end": 524.936
+    },
+    {
+     "w": "defending",
+     "start": 524.936,
+     "end": 525.436
+    },
+    {
+     "w": "Custer.",
+     "start": 525.436,
+     "end": 525.936
+    },
+    {
+     "w": "His",
+     "start": 526.796,
+     "end": 526.816
+    },
+    {
+     "w": "widow,",
+     "start": 526.816,
+     "end": 527.056
+    },
+    {
+     "w": "Elizabeth,",
+     "start": 527.056,
+     "end": 527.636
+    },
+    {
+     "w": "spent",
+     "start": 527.636,
+     "end": 528.156
+    },
+    {
+     "w": "the",
+     "start": 528.156,
+     "end": 528.356
+    },
+    {
+     "w": "next",
+     "start": 528.356,
+     "end": 528.516
+    },
+    {
+     "w": "57",
+     "start": 528.516,
+     "end": 529.016
+    },
+    {
+     "w": "years",
+     "start": 529.016,
+     "end": 529.596
+    },
+    {
+     "w": "protecting",
+     "start": 529.596,
+     "end": 529.996
+    },
+    {
+     "w": "his",
+     "start": 529.996,
+     "end": 530.336
+    },
+    {
+     "w": "name.",
+     "start": 530.336,
+     "end": 530.616
+    },
+    {
+     "w": "She",
+     "start": 531.336,
+     "end": 531.416
+    },
+    {
+     "w": "wrote",
+     "start": 531.416,
+     "end": 531.616
+    },
+    {
+     "w": "three",
+     "start": 531.616,
+     "end": 531.876
+    },
+    {
+     "w": "books,",
+     "start": 531.876,
+     "end": 532.296
+    },
+    {
+     "w": "gave",
+     "start": 532.336,
+     "end": 532.696
+    },
+    {
+     "w": "lectures,",
+     "start": 532.696,
+     "end": 533.116
+    },
+    {
+     "w": "and",
+     "start": 533.716,
+     "end": 533.736
+    },
+    {
+     "w": "outlived",
+     "start": 533.736,
+     "end": 534.056
+    },
+    {
+     "w": "almost",
+     "start": 534.056,
+     "end": 534.516
+    },
+    {
+     "w": "every",
+     "start": 534.516,
+     "end": 534.856
+    },
+    {
+     "w": "officer",
+     "start": 534.856,
+     "end": 535.396
+    },
+    {
+     "w": "who",
+     "start": 535.396,
+     "end": 535.696
+    },
+    {
+     "w": "could",
+     "start": 535.696,
+     "end": 535.836
+    },
+    {
+     "w": "have",
+     "start": 535.836,
+     "end": 535.916
+    },
+    {
+     "w": "criticized",
+     "start": 535.916,
+     "end": 536.236
+    },
+    {
+     "w": "him.",
+     "start": 536.236,
+     "end": 536.736
+    }
+   ]
+  },
+  {
+   "scene": 50,
+   "text": "Then, in 1967, a military review board reversed his dismissal. Marcus Reno was reburied with honors, on the battlefield, in the cemetery named after Custer.",
+   "start": 537.755,
+   "end": 549.424,
+   "words": [
+    {
+     "w": "Then,",
+     "start": 537.655,
+     "end": 537.935
+    },
+    {
+     "w": "in",
+     "start": 538.095,
+     "end": 538.135
+    },
+    {
+     "w": "1967,",
+     "start": 538.135,
+     "end": 538.955
+    },
+    {
+     "w": "a",
+     "start": 539.675,
+     "end": 539.975
+    },
+    {
+     "w": "military",
+     "start": 539.975,
+     "end": 540.235
+    },
+    {
+     "w": "review",
+     "start": 540.235,
+     "end": 540.835
+    },
+    {
+     "w": "board",
+     "start": 540.835,
+     "end": 541.275
+    },
+    {
+     "w": "reversed",
+     "start": 541.275,
+     "end": 541.635
+    },
+    {
+     "w": "his",
+     "start": 541.635,
+     "end": 541.935
+    },
+    {
+     "w": "dismissal.",
+     "start": 541.935,
+     "end": 542.375
+    },
+    {
+     "w": "Marcus",
+     "start": 543.315,
+     "end": 543.595
+    },
+    {
+     "w": "Reno",
+     "start": 543.595,
+     "end": 543.935
+    },
+    {
+     "w": "was",
+     "start": 543.935,
+     "end": 544.315
+    },
+    {
+     "w": "reburied",
+     "start": 544.315,
+     "end": 544.955
+    },
+    {
+     "w": "with",
+     "start": 544.955,
+     "end": 545.115
+    },
+    {
+     "w": "honors,",
+     "start": 545.115,
+     "end": 545.495
+    },
+    {
+     "w": "on",
+     "start": 545.495,
+     "end": 546.115
+    },
+    {
+     "w": "the",
+     "start": 546.115,
+     "end": 546.215
+    },
+    {
+     "w": "battlefield,",
+     "start": 546.215,
+     "end": 546.735
+    },
+    {
+     "w": "in",
+     "start": 546.735,
+     "end": 547.435
+    },
+    {
+     "w": "the",
+     "start": 547.435,
+     "end": 547.555
+    },
+    {
+     "w": "cemetery",
+     "start": 547.555,
+     "end": 547.915
+    },
+    {
+     "w": "named",
+     "start": 547.915,
+     "end": 548.495
+    },
+    {
+     "w": "after",
+     "start": 548.495,
+     "end": 548.815
+    },
+    {
+     "w": "Custer.",
+     "start": 548.815,
+     "end": 549.195
+    }
+   ]
+  },
+  {
+   "scene": 51,
+   "text": "So who lost the Little Bighorn?",
+   "start": 550.384,
+   "end": 552.325,
+   "words": [
+    {
+     "w": "So",
+     "start": 550.284,
+     "end": 550.624
+    },
+    {
+     "w": "who",
+     "start": 550.884,
+     "end": 550.984
+    },
+    {
+     "w": "lost",
+     "start": 550.984,
+     "end": 551.204
+    },
+    {
+     "w": "the",
+     "start": 551.204,
+     "end": 551.444
+    },
+    {
+     "w": "Little",
+     "start": 551.444,
+     "end": 551.584
+    },
+    {
+     "w": "Bighorn?",
+     "start": 551.584,
+     "end": 552.104
+    }
+   ]
+  },
+  {
+   "scene": 52,
+   "text": "Custer, who split his command against an enemy he never counted? Reno, who retreated? Benteen, who didn't come quick? Or the men who sent soldiers into land promised by treaty?",
+   "start": 552.925,
+   "end": 564.068,
+   "words": [
+    {
+     "w": "Custer,",
+     "start": 552.825,
+     "end": 553.245
+    },
+    {
+     "w": "who",
+     "start": 553.405,
+     "end": 553.505
+    },
+    {
+     "w": "split",
+     "start": 553.505,
+     "end": 553.705
+    },
+    {
+     "w": "his",
+     "start": 553.705,
+     "end": 553.925
+    },
+    {
+     "w": "command",
+     "start": 553.925,
+     "end": 554.225
+    },
+    {
+     "w": "against",
+     "start": 554.225,
+     "end": 554.625
+    },
+    {
+     "w": "an",
+     "start": 554.625,
+     "end": 554.805
+    },
+    {
+     "w": "enemy",
+     "start": 554.805,
+     "end": 555.165
+    },
+    {
+     "w": "he",
+     "start": 555.165,
+     "end": 555.365
+    },
+    {
+     "w": "never",
+     "start": 555.365,
+     "end": 555.585
+    },
+    {
+     "w": "counted?",
+     "start": 555.585,
+     "end": 555.965
+    },
+    {
+     "w": "Reno,",
+     "start": 556.825,
+     "end": 556.845
+    },
+    {
+     "w": "who",
+     "start": 557.325,
+     "end": 557.405
+    },
+    {
+     "w": "retreated?",
+     "start": 557.405,
+     "end": 557.725
+    },
+    {
+     "w": "Benteen,",
+     "start": 557.725,
+     "end": 559.305
+    },
+    {
+     "w": "who",
+     "start": 559.305,
+     "end": 559.385
+    },
+    {
+     "w": "didn't",
+     "start": 559.385,
+     "end": 559.645
+    },
+    {
+     "w": "come",
+     "start": 559.645,
+     "end": 559.785
+    },
+    {
+     "w": "quick?",
+     "start": 559.785,
+     "end": 560.125
+    },
+    {
+     "w": "Or",
+     "start": 560.665,
+     "end": 560.765
+    },
+    {
+     "w": "the",
+     "start": 560.765,
+     "end": 560.885
+    },
+    {
+     "w": "men",
+     "start": 560.885,
+     "end": 561.065
+    },
+    {
+     "w": "who",
+     "start": 561.065,
+     "end": 561.245
+    },
+    {
+     "w": "sent",
+     "start": 561.245,
+     "end": 561.465
+    },
+    {
+     "w": "soldiers",
+     "start": 561.465,
+     "end": 561.945
+    },
+    {
+     "w": "into",
+     "start": 561.945,
+     "end": 562.285
+    },
+    {
+     "w": "land",
+     "start": 562.285,
+     "end": 562.625
+    },
+    {
+     "w": "promised",
+     "start": 562.625,
+     "end": 563.005
+    },
+    {
+     "w": "by",
+     "start": 563.005,
+     "end": 563.405
+    },
+    {
+     "w": "treaty?",
+     "start": 563.405,
+     "end": 563.665
+    }
+   ]
+  },
+  {
+   "scene": 53,
+   "text": "Or maybe no one lost it at all. Maybe the Lakota and Cheyenne simply won. Within a year, the army returned in force, and the Black Hills were taken anyway.",
+   "start": 564.788,
+   "end": 574.269,
+   "words": [
+    {
+     "w": "Or",
+     "start": 564.688,
+     "end": 564.888
+    },
+    {
+     "w": "maybe",
+     "start": 564.888,
+     "end": 565.088
+    },
+    {
+     "w": "no",
+     "start": 565.088,
+     "end": 565.388
+    },
+    {
+     "w": "one",
+     "start": 565.388,
+     "end": 565.648
+    },
+    {
+     "w": "lost",
+     "start": 565.648,
+     "end": 565.888
+    },
+    {
+     "w": "it",
+     "start": 565.888,
+     "end": 566.128
+    },
+    {
+     "w": "at",
+     "start": 566.128,
+     "end": 566.228
+    },
+    {
+     "w": "all.",
+     "start": 566.228,
+     "end": 566.408
+    },
+    {
+     "w": "Maybe",
+     "start": 566.948,
+     "end": 567.148
+    },
+    {
+     "w": "the",
+     "start": 567.148,
+     "end": 567.308
+    },
+    {
+     "w": "Lakota",
+     "start": 567.308,
+     "end": 567.768
+    },
+    {
+     "w": "and",
+     "start": 567.768,
+     "end": 568.088
+    },
+    {
+     "w": "Cheyenne",
+     "start": 568.088,
+     "end": 568.548
+    },
+    {
+     "w": "simply",
+     "start": 568.548,
+     "end": 568.928
+    },
+    {
+     "w": "won.",
+     "start": 568.928,
+     "end": 569.248
+    },
+    {
+     "w": "Within",
+     "start": 570.168,
+     "end": 570.168
+    },
+    {
+     "w": "a",
+     "start": 570.168,
+     "end": 570.288
+    },
+    {
+     "w": "year,",
+     "start": 570.288,
+     "end": 570.588
+    },
+    {
+     "w": "the",
+     "start": 570.788,
+     "end": 570.828
+    },
+    {
+     "w": "army",
+     "start": 570.828,
+     "end": 571.108
+    },
+    {
+     "w": "returned",
+     "start": 571.108,
+     "end": 571.568
+    },
+    {
+     "w": "in",
+     "start": 571.568,
+     "end": 571.788
+    },
+    {
+     "w": "force,",
+     "start": 571.788,
+     "end": 572.088
+    },
+    {
+     "w": "and",
+     "start": 572.088,
+     "end": 572.468
+    },
+    {
+     "w": "the",
+     "start": 572.468,
+     "end": 572.568
+    },
+    {
+     "w": "Black",
+     "start": 572.568,
+     "end": 572.748
+    },
+    {
+     "w": "Hills",
+     "start": 572.748,
+     "end": 573.048
+    },
+    {
+     "w": "were",
+     "start": 573.048,
+     "end": 573.328
+    },
+    {
+     "w": "taken",
+     "start": 573.328,
+     "end": 573.568
+    },
+    {
+     "w": "anyway.",
+     "start": 573.568,
+     "end": 573.968
+    }
+   ]
+  },
+  {
+   "scene": 54,
+   "text": "In 1991, the battlefield's name was changed, from Custer Battlefield to Little Bighorn Battlefield National Monument. Today, a memorial to the Native warriors stands near the soldiers' monument.",
+   "start": 575.109,
+   "end": 588.466,
+   "words": [
+    {
+     "w": "In",
+     "start": 575.009,
+     "end": 575.189
+    },
+    {
+     "w": "1991,",
+     "start": 575.189,
+     "end": 575.909
+    },
+    {
+     "w": "the",
+     "start": 576.449,
+     "end": 576.529
+    },
+    {
+     "w": "battlefield's",
+     "start": 576.529,
+     "end": 577.249
+    },
+    {
+     "w": "name",
+     "start": 577.249,
+     "end": 577.449
+    },
+    {
+     "w": "was",
+     "start": 577.449,
+     "end": 577.669
+    },
+    {
+     "w": "changed,",
+     "start": 577.669,
+     "end": 577.989
+    },
+    {
+     "w": "from",
+     "start": 577.989,
+     "end": 578.749
+    },
+    {
+     "w": "Custer",
+     "start": 578.749,
+     "end": 579.129
+    },
+    {
+     "w": "Battlefield",
+     "start": 579.129,
+     "end": 579.509
+    },
+    {
+     "w": "to",
+     "start": 579.509,
+     "end": 580.469
+    },
+    {
+     "w": "Little",
+     "start": 580.469,
+     "end": 580.609
+    },
+    {
+     "w": "Bighorn",
+     "start": 580.609,
+     "end": 581.229
+    },
+    {
+     "w": "Battlefield",
+     "start": 581.229,
+     "end": 581.809
+    },
+    {
+     "w": "National",
+     "start": 581.809,
+     "end": 582.229
+    },
+    {
+     "w": "Monument.",
+     "start": 582.229,
+     "end": 582.769
+    },
+    {
+     "w": "Today,",
+     "start": 583.909,
+     "end": 584.129
+    },
+    {
+     "w": "a",
+     "start": 584.549,
+     "end": 584.749
+    },
+    {
+     "w": "memorial",
+     "start": 584.749,
+     "end": 585.089
+    },
+    {
+     "w": "to",
+     "start": 585.089,
+     "end": 585.449
+    },
+    {
+     "w": "the",
+     "start": 585.449,
+     "end": 585.529
+    },
+    {
+     "w": "Native",
+     "start": 585.529,
+     "end": 585.789
+    },
+    {
+     "w": "warriors",
+     "start": 585.789,
+     "end": 586.149
+    },
+    {
+     "w": "stands",
+     "start": 586.149,
+     "end": 586.649
+    },
+    {
+     "w": "near",
+     "start": 586.649,
+     "end": 587.029
+    },
+    {
+     "w": "the",
+     "start": 587.029,
+     "end": 587.189
+    },
+    {
+     "w": "soldiers'",
+     "start": 587.189,
+     "end": 587.769
+    },
+    {
+     "w": "monument.",
+     "start": 587.769,
+     "end": 588.029
+    }
+   ]
+  },
+  {
+   "scene": 55,
+   "text": "You've heard the evidence. You are the jury. Who's guilty? Tell us in the comments, and subscribe to Buried Chronicles for more of history's hidden turning points.",
+   "start": 589.306,
+   "end": 598.55,
+   "words": [
+    {
+     "w": "You've",
+     "start": 589.206,
+     "end": 589.486
+    },
+    {
+     "w": "heard",
+     "start": 589.486,
+     "end": 589.646
+    },
+    {
+     "w": "the",
+     "start": 589.646,
+     "end": 589.826
+    },
+    {
+     "w": "evidence.",
+     "start": 589.826,
+     "end": 590.106
+    },
+    {
+     "w": "You",
+     "start": 590.906,
+     "end": 590.926
+    },
+    {
+     "w": "are",
+     "start": 590.926,
+     "end": 591.066
+    },
+    {
+     "w": "the",
+     "start": 591.066,
+     "end": 591.206
+    },
+    {
+     "w": "jury.",
+     "start": 591.206,
+     "end": 591.466
+    },
+    {
+     "w": "Who's",
+     "start": 592.206,
+     "end": 592.346
+    },
+    {
+     "w": "guilty?",
+     "start": 592.346,
+     "end": 592.486
+    },
+    {
+     "w": "Tell",
+     "start": 593.306,
+     "end": 593.346
+    },
+    {
+     "w": "us",
+     "start": 593.346,
+     "end": 593.526
+    },
+    {
+     "w": "in",
+     "start": 593.526,
+     "end": 593.646
+    },
+    {
+     "w": "the",
+     "start": 593.646,
+     "end": 593.766
+    },
+    {
+     "w": "comments,",
+     "start": 593.766,
+     "end": 594.106
+    },
+    {
+     "w": "and",
+     "start": 594.106,
+     "end": 594.486
+    },
+    {
+     "w": "subscribe",
+     "start": 594.486,
+     "end": 594.846
+    },
+    {
+     "w": "to",
+     "start": 594.846,
+     "end": 595.226
+    },
+    {
+     "w": "Buried",
+     "start": 595.226,
+     "end": 595.646
+    },
+    {
+     "w": "Chronicles",
+     "start": 595.646,
+     "end": 595.846
+    },
+    {
+     "w": "for",
+     "start": 595.846,
+     "end": 596.406
+    },
+    {
+     "w": "more",
+     "start": 596.406,
+     "end": 596.606
+    },
+    {
+     "w": "of",
+     "start": 596.606,
+     "end": 596.746
+    },
+    {
+     "w": "history's",
+     "start": 596.746,
+     "end": 597.286
+    },
+    {
+     "w": "hidden",
+     "start": 597.286,
+     "end": 597.486
+    },
+    {
+     "w": "turning",
+     "start": 597.486,
+     "end": 597.786
+    },
+    {
+     "w": "points.",
+     "start": 597.786,
+     "end": 598.206
+    }
+   ]
+  }
+ ]
+}

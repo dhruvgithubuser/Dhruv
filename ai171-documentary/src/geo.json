@@ -1,0 +1,28 @@
+{
+ "airport": {
+  "name": "Sardar Vallabhbhai Patel International Airport (AMD)",
+  "lat": 23.07722,
+  "lon": 72.63472
+ },
+ "rwy23_threshold": [
+  23.089759,
+  72.645721
+ ],
+ "rwy23_end": [
+  23.066703,
+  72.622375
+ ],
+ "crash": [
+  23.054944,
+  72.612111
+ ],
+ "lgw": [
+  51.148,
+  -0.19
+ ],
+ "amd": [
+  23.0772,
+  72.6347
+ ],
+ "note": "Runway ends picked from the Sentinel-2 mosaic (z14); crash site from Wikipedia (Air India Flight 171) coordinates."
+}
