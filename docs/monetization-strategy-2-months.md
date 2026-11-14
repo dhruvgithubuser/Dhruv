@@ -64,9 +64,22 @@
 - **Playlists:** *Fatal Mistakes* · *Last Stands* · *Saved the World* · *History Myths*. Add an end screen pointing to the next video in the playlist.
 - **Compilations, the cheapest source of watch hours:** every 3–4 weeks, combine 15–20 related Shorts into one 15–20 minute long video, such as *"20 Soldiers Who Refused to Die"*. It costs almost nothing and can bring in a lot of watch time.
 
-### C. Repurpose everywhere (more reach, more chances of a breakout)
-- **Instagram Reels:** every Short, the day after it goes up on YouTube (already running through vidIQ).
-- **Facebook Reels and TikTok:** post the same Shorts. Check each platform's creator-monetization rules in its app, because they change often (TikTok's program rewards videos longer than 1 minute).
+### C. Other platforms: which ones to use
+| Platform | Use it? | How | Why |
+|---|---|---|---|
+| **Instagram** | ✅ **Yes** (already running) | Every Short, the day after YouTube. Use **Trial Reels** to test a second hook on non-followers. Put the YouTube link in your bio. | Discovery and brand deals later. Trial Reels let you A/B-test hooks for free. |
+| **Facebook** | ✅ **Yes, priority** | Connect your Facebook Page to Instagram in Accounts Center so every Reel auto-shares. Also upload the **long videos** to the Page. | History and war content is one of Facebook's strongest niches, with an older US audience. Facebook's creator monetization is by eligibility, so check Professional Dashboard → Monetization once you qualify. |
+| **TikTok** | ✅ Yes | The same Shorts. Versions over 1 minute help with its creator rewards later. | Huge reach. Any one video can break out regardless of follower count. |
+| **Pinterest** | ⏸ **Not now** | Later: maps and "on this day" image pins that link to your videos. | Low video reach. Time is better spent on the three above. |
+
+### C2. How to reach 1 lakh (100,000) views on a video
+You won't get 1 lakh on every video, and nobody your size does. The goal is **a breakout every 2–3 weeks**. Each breakout raises the baseline for the next videos. What decides it:
+1. **Topic proven at 100k+:** only make topics or formulas that already beat 100k on other channels (enemy's verdict, one man vs an army, the opened grave, the myth). I check each idea against outliers before making it.
+2. **The first 2 seconds:** the person plus the stakes, as the first frame and the first spoken words, with text on screen. YouTube widens a Short's audience in rounds. A Short only reaches the next, bigger round if most people **don't swipe away** (aim for 70–80%+) and most watch to the end. Check "Viewed vs swiped away" and "Average percentage viewed" in Studio.
+3. **Loop ending:** the last line leads back into the first. Replays raise the percentage viewed above 100%, which is a strong push signal.
+4. **Volume and consistency:** 1 a day on 3 platforms gives about 90 chances a month. Breakouts in this niche usually come after a few dozen consistent uploads.
+5. **Second chances:** when a strong topic flops (under 300 views), remake it a few weeks later with a new hook and new opening visuals. Don't re-upload the identical file.
+6. **For long videos, 1 lakh comes from search plus a breakout Short:** a timely topic (Pearl Harbor week, Christmas Truce), a clean search title, a clickable thumbnail, and a Short linked to it with "Related video".
 
 ### D. Earn before YPP
 1. **Affiliate links:** in each description, add 1–2 books on the topic (e.g. Amazon Associates).
