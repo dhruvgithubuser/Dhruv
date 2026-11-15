@@ -18,11 +18,11 @@ const CX = W / 2, TAU = Math.PI * 2;
 // ---------------------------------------------------------------- shots: image, waterline, relief, grade
 // water: fraction of the image height (from the bottom) that is sea; amp: relief depth (world units)
 const IMGS = {
-  s01_hook: { water: 0.36, amp: 0.30 }, s02_deck: { water: 0.0, amp: 0.34 }, s03_intact: { water: 0.33, amp: 0.26 },
-  s05_newyork: { water: 0.25, amp: 0.30 }, s05_cabin: { water: 0, amp: 0.30 }, s06_found: { water: 0.5, amp: 0.26 },
-  s06_davits: { water: 0.3, amp: 0.30 }, s07_hold: { water: 0, amp: 0.34 }, s08_fog: { water: 0.25, amp: 0.30 },
-  s09_lifeboat: { water: 0.45, amp: 0.28 }, s10_hatch: { water: 0, amp: 0.32 }, s11_storm: { water: 0.45, amp: 0.30, storm: 1 },
-  s12_emptyboat: { water: 0.7, amp: 0.22 }, s14_unsolved: { water: 0.35, amp: 0.26 }, s15_cta: { water: 0.55, amp: 0.20 },
+  s01_hook: { water: 0.14, amp: 0.30 }, s02_deck: { water: 0.0, amp: 0.34 }, s03_intact: { water: 0.13, amp: 0.26 },
+  s05_newyork: { water: 0.33, amp: 0.30 }, s05_cabin: { water: 0, amp: 0.30 }, s06_found: { water: 0.2, amp: 0.26 },
+  s06_davits: { water: 0, amp: 0.30 }, s07_hold: { water: 0, amp: 0.34 }, s08_fog: { water: 0, amp: 0.30 },
+  s09_lifeboat: { water: 0.2, amp: 0.26 }, s10_hatch: { water: 0, amp: 0.32 }, s11_storm: { water: 0.2, amp: 0.30, storm: 1 },
+  s12_emptyboat: { water: 0.55, amp: 0.22 }, s14_unsolved: { water: 0.12, amp: 0.26 }, s15_cta: { water: 0.38, amp: 0.20 },
 };
 
 // camera moves: [from xyz, to xyz] in front of a 2 x 1.143 relief; z ~2.0-2.45, |x| <= .57-.205z
@@ -61,7 +61,7 @@ const CUTS = [
   [93, 999, 'relief', { img: 's15_cta', move: 'drift' }],
 ];
 // dissolves (beats where the two shots overlap for `d` beats); other cuts are hard, on the beat
-const DISSOLVE = { 17: 0.75, 23: 0.75, 26.5: 0.6, 31.5: 0.6, 54.5: 0.75, 87.5: 1.0, 93: 1.0 };
+const DISSOLVE = { 17: 0.75, 23: 0.75, 26.5: 0.6, 31.5: 0.6, 54.5: 0.75, 87.5: 0.5, 93: 1.0 };
 
 // ---------------------------------------------------------------- hits (sfx.mjs)
 const HITS = [
@@ -176,6 +176,11 @@ function mapSet() {
   const geo = new THREE.PlaneGeometry(4.4, 4.4 * TH / TW);
   const mat = new THREE.MeshBasicMaterial({ map: tex, toneMapped: false });
   const mesh = new THREE.Mesh(geo, mat); mesh.rotation.x = -1.05; scene.add(mesh);
+  // the table under the chart: the same paper, darker, so the frame never shows a void
+  const ptex = new THREE.Texture(IMG2D.parchment); ptex.needsUpdate = true; ptex.colorSpace = THREE.SRGBColorSpace;
+  ptex.wrapS = ptex.wrapT = THREE.RepeatWrapping; ptex.repeat.set(3, 3);
+  const table = new THREE.Mesh(new THREE.PlaneGeometry(18, 18), new THREE.MeshBasicMaterial({ map: ptex, color: 0x5e5044, toneMapped: false }));
+  table.rotation.x = -1.05; table.position.set(0, -0.02 * Math.cos(1.05), -0.02 * Math.sin(1.05)); scene.add(table);
   const toWorld = ([x, y]) => [(x / TW - 0.5) * 4.4, ((y + OY) / TH - 0.5) * -4.4 * TH / TW];
   return {
     scene, camera: cam,
@@ -187,33 +192,34 @@ function mapSet() {
         c.strokeStyle = 'rgba(59,46,34,0.18)'; c.lineWidth = 2;
         for (let lon = -80; lon <= 20; lon += 10) { c.beginPath(); c.moveTo(LON(lon), LAT(60)); c.lineTo(LON(lon), LAT(15)); c.stroke(); }
         for (let lat = 20; lat <= 55; lat += 10) { c.beginPath(); c.moveTo(LON(-90), LAT(lat)); c.lineTo(LON(25), LAT(lat)); c.stroke(); }
-        c.fillStyle = 'rgba(120,92,58,0.35)'; c.strokeStyle = 'rgba(59,46,34,0.85)'; c.lineWidth = 2.5; c.lineJoin = 'round';
+        c.fillStyle = 'rgba(105,78,48,0.55)'; c.strokeStyle = 'rgba(50,38,26,0.95)'; c.lineWidth = 4; c.lineJoin = 'round';
         for (const r of MAP.rings) { c.beginPath(); c.moveTo(r[0][0], r[0][1]); for (let i = 1; i < r.length; i++) c.lineTo(r[i][0], r[i][1]); c.closePath(); c.fill(); c.stroke(); }
         // planned route
-        c.setLineDash([22, 14]); c.strokeStyle = 'rgba(120,40,20,0.9)'; c.lineWidth = 7;
+        c.setLineDash([34, 20]); c.strokeStyle = 'rgba(120,40,20,0.95)'; c.lineWidth = 12;
         c.beginPath(); c.moveTo(...ROUTE[0]);
         for (let i = 1; i < ROUTE.length && RL[i - 1] < dPlan; i++) c.lineTo(...(RL[i] <= dPlan ? ROUTE[i] : routeAt(dPlan)));
         c.stroke(); c.setLineDash([]);
         const pin = (p, label, sub, a, right = true) => {
           if (a <= 0) return;
           c.globalAlpha = a;
-          c.fillStyle = 'rgb(120,40,20)'; c.beginPath(); c.arc(p[0], p[1], 15, 0, TAU); c.fill();
-          c.font = font(54, 700, UI); c.textAlign = right ? 'left' : 'right'; c.fillStyle = C.paperInk;
-          c.fillText(label, p[0] + (right ? 30 : -30), p[1] + 18);
-          if (sub) { c.font = font(40, 600, UI); c.fillStyle = 'rgba(59,46,34,0.75)'; c.fillText(sub, p[0] + (right ? 30 : -30), p[1] + 66); }
+          c.fillStyle = 'rgb(120,40,20)'; c.beginPath(); c.arc(p[0], p[1], 24, 0, TAU); c.fill();
+          c.font = font(84, 700, UI); c.textAlign = right ? 'left' : 'right'; c.fillStyle = C.paperInk;
+          c.fillText(label, p[0] + (right ? 36 : -36), p[1] + 28);
+          if (sub) { c.font = font(60, 600, UI); c.fillStyle = 'rgba(59,46,34,0.8)'; c.fillText(sub, p[0] + (right ? 36 : -36), p[1] + 100); }
           c.globalAlpha = 1;
         };
         pin(ROUTE[0], 'New York', '7 नवंबर 1872', prog(u, 26.6, 27.2));
         pin(PT(8.93, 44.41), 'Genoa', 'मंज़िल', prog(u, 30.6, 31.2), false);
-        if (u > 27) { const [px, py] = routeAt(dPlan); c.fillStyle = C.ink; c.beginPath(); c.arc(px, py, 18, 0, TAU); c.fill(); }
+        if (dPlan > 140 && dPlan < RL[RL.length - 1] - 80) { const [px, py] = routeAt(dPlan); c.fillStyle = C.ink; c.beginPath(); c.arc(px, py, 28, 0, TAU); c.fill(); c.strokeStyle = C.paper; c.lineWidth = 6; c.stroke(); }
         c.restore();
       });
       // camera glides east along the route, low over the tilted chart
       const head = routeAt(RL[RL.length - 1] * E.inOutSine(prog(u, 26.5, 31.5)));
       const [hx, hz] = toWorld(head);
       const yW = Math.sin(-1.05), zW = Math.cos(-1.05);
-      const tx = lerp(hx, 0.3, 0.25), ty = hz * yW * -1, tz = hz * zW;
-      cam.position.set(tx - 0.2, ty + 2.1, tz + 1.6);
+      const tx = lerp(hx, 0.0, 0.2), ty = hz * yW * -1, tz = hz * zW;
+      const lift = lerp(3.4, 4.2, E.inOutSine(prog(u, 26.5, 31.5)));
+      cam.position.set(tx - 0.15, ty + lift, tz + lift * 0.62);
       cam.lookAt(tx, ty, tz);
       cam.updateProjectionMatrix();
     },
@@ -323,9 +329,9 @@ function captions(ctx, u) {
     const kin = E.outCubic(prog(u, c.u0 - 0.15, c.u0 + 0.15)), a = Math.min(kin, 1 - prog(u, end, end + 0.2));
     const lh = 66, base = SAFE.y + SAFE.h - 26 - (c.lines.length - 1) * lh;
     ctx.save(); ctx.globalAlpha = a;
-    const g = ctx.createLinearGradient(0, base - 140, 0, base + (c.lines.length - 1) * lh + 70);
-    g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(0.4, 'rgba(0,0,0,0.5)'); g.addColorStop(1, 'rgba(0,0,0,0)');
-    ctx.fillStyle = g; ctx.fillRect(0, base - 140, W, (c.lines.length - 1) * lh + 210);
+    const g = ctx.createLinearGradient(0, base - 260, 0, H);
+    g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(0.45, 'rgba(0,0,0,0.42)'); g.addColorStop(1, 'rgba(0,0,0,0.55)');
+    ctx.fillStyle = g; ctx.fillRect(0, base - 260, W, H - base + 260);
     c.lines.forEach((ln, j) => {
       ctx.font = CAP_F; ctx.textAlign = 'center'; ctx.lineJoin = 'round';
       const y = base + j * lh + (1 - kin) * 12;
@@ -360,7 +366,7 @@ function overlays(ctx, u, t, cut) {
   if (data.img === 's09_lifeboat') fogBank(ctx, u, 0.8 + prog(u, 54.5, 61.5), 1050, 51);
   if (data.img === 's11_storm') rain(ctx, u);
   if (data.fumes) fumes(ctx, u, prog(u, u0, u0 + 1));
-  scrimTop(ctx, 0.55, 820);
+  scrimTop(ctx, 0.72, 950);
 
   // S1 hook
   if (u < 7) {
@@ -496,7 +502,7 @@ function archival(ctx, u) {
   const w = im.width * s, h = im.height * s;
   const x = lerp(-w * 0.18, -w * 0.32, E.inOutSine(p)) + W * 0.15, y = 760 - h / 2 + 140;
   ctx.save(); ctx.filter = 'sepia(0.25) contrast(1.05) brightness(0.92)'; ctx.drawImage(im, x, y, w, h); ctx.filter = 'none'; ctx.restore();
-  const g = ctx.createLinearGradient(0, y, 0, y + h); g.addColorStop(0, 'rgba(11,11,12,0.9)'); g.addColorStop(0.18, 'rgba(11,11,12,0)'); g.addColorStop(0.8, 'rgba(11,11,12,0)'); g.addColorStop(1, 'rgba(11,11,12,0.95)');
+  const g = ctx.createLinearGradient(0, y, 0, y + h); g.addColorStop(0, 'rgba(11,11,12,0.95)'); g.addColorStop(0.3, 'rgba(11,11,12,0)'); g.addColorStop(0.8, 'rgba(11,11,12,0)'); g.addColorStop(1, 'rgba(11,11,12,0.95)');
   ctx.fillStyle = g; ctx.fillRect(0, y, W, h);
   const k = springU(u, 17.1, SPRING.gentle);
   withAlpha(ctx, clamp(k), () => {
