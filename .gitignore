@@ -22,3 +22,16 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+
+# regenerable reel intermediates (audio/score.py, sfx.mjs, mix.mjs and render.mjs rebuild these)
+mary-celeste/audio/*.wav
+out/*/contact*
+out/*/phone*
+out/*/stills/
+out/*/range_*
+out/*/*strip*
+out/*/whip*
+out/*/push*
+out/*/sync.png
+out/*/hits.json
+out/*/video_*.mp4
