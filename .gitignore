@@ -35,3 +35,4 @@ out/*/push*
 out/*/sync.png
 out/*/hits.json
 out/*/video_*.mp4
+node_modules/
