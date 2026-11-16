@@ -1,0 +1,62 @@
+[
+ {
+  "file": "paper.wav",
+  "at": 0.2,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 3.49,
+  "volume": 0.45
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 11.689,
+  "volume": 0.22
+ },
+ {
+  "file": "impact.wav",
+  "at": 20.656,
+  "volume": 0.5
+ },
+ {
+  "file": "clock.wav",
+  "at": 23.456,
+  "volume": 0.25
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 28.207,
+  "volume": 0.22
+ },
+ {
+  "file": "paper.wav",
+  "at": 36.834,
+  "volume": 0.4
+ },
+ {
+  "file": "paper.wav",
+  "at": 44.832,
+  "volume": 0.3
+ },
+ {
+  "file": "paper.wav",
+  "at": 50.368,
+  "volume": 0.5
+ },
+ {
+  "file": "impact.wav",
+  "at": 53.488,
+  "volume": 0.4
+ },
+ {
+  "file": "impact.wav",
+  "at": 54.528,
+  "volume": 0.45
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 55.465,
+  "volume": 0.22
+ }
+]

@@ -1,0 +1,969 @@
+{
+ "fps": 30,
+ "duration": 62.864,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You know the most famous quote about Pearl Harbor. Nobody can find it before 1970.",
+   "start": 0.35,
+   "end": 5.558,
+   "words": [
+    {
+     "w": "You",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "know",
+     "start": 0.43,
+     "end": 0.55
+    },
+    {
+     "w": "the",
+     "start": 0.55,
+     "end": 0.69
+    },
+    {
+     "w": "most",
+     "start": 0.69,
+     "end": 0.83
+    },
+    {
+     "w": "famous",
+     "start": 0.83,
+     "end": 1.21
+    },
+    {
+     "w": "quote",
+     "start": 1.21,
+     "end": 1.61
+    },
+    {
+     "w": "about",
+     "start": 1.61,
+     "end": 1.91
+    },
+    {
+     "w": "Pearl",
+     "start": 1.91,
+     "end": 2.19
+    },
+    {
+     "w": "Harbor.",
+     "start": 2.19,
+     "end": 2.53
+    },
+    {
+     "w": "Nobody",
+     "start": 3.49,
+     "end": 3.49
+    },
+    {
+     "w": "can",
+     "start": 3.49,
+     "end": 3.71
+    },
+    {
+     "w": "find",
+     "start": 3.71,
+     "end": 4.01
+    },
+    {
+     "w": "it",
+     "start": 4.01,
+     "end": 4.21
+    },
+    {
+     "w": "before",
+     "start": 4.21,
+     "end": 4.45
+    },
+    {
+     "w": "1970.",
+     "start": 4.45,
+     "end": 5.23
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "\u201cI fear all we have done is to awaken a sleeping giant and fill him with a terrible resolve.\u201d",
+   "start": 6.058,
+   "end": 11.489,
+   "words": [
+    {
+     "w": "\u201cI",
+     "start": 5.958,
+     "end": 6.138
+    },
+    {
+     "w": "fear",
+     "start": 6.138,
+     "end": 6.338
+    },
+    {
+     "w": "all",
+     "start": 6.338,
+     "end": 6.558
+    },
+    {
+     "w": "we",
+     "start": 6.558,
+     "end": 6.718
+    },
+    {
+     "w": "have",
+     "start": 6.718,
+     "end": 6.818
+    },
+    {
+     "w": "done",
+     "start": 6.818,
+     "end": 7.058
+    },
+    {
+     "w": "is",
+     "start": 7.058,
+     "end": 7.338
+    },
+    {
+     "w": "to",
+     "start": 7.338,
+     "end": 7.478
+    },
+    {
+     "w": "awaken",
+     "start": 7.478,
+     "end": 7.978
+    },
+    {
+     "w": "a",
+     "start": 7.978,
+     "end": 8.058
+    },
+    {
+     "w": "sleeping",
+     "start": 8.058,
+     "end": 8.318
+    },
+    {
+     "w": "giant",
+     "start": 8.318,
+     "end": 8.778
+    },
+    {
+     "w": "and",
+     "start": 8.778,
+     "end": 9.458
+    },
+    {
+     "w": "fill",
+     "start": 9.458,
+     "end": 9.698
+    },
+    {
+     "w": "him",
+     "start": 9.698,
+     "end": 9.978
+    },
+    {
+     "w": "with",
+     "start": 9.978,
+     "end": 10.138
+    },
+    {
+     "w": "a",
+     "start": 10.138,
+     "end": 10.238
+    },
+    {
+     "w": "terrible",
+     "start": 10.238,
+     "end": 10.558
+    },
+    {
+     "w": "resolve.\u201d",
+     "start": 10.558,
+     "end": 11.038
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "It's credited to Admiral Isoroku Yamamoto, the man who planned the attack. It's on posters, in documentaries, in classrooms.",
+   "start": 11.989,
+   "end": 19.936,
+   "words": [
+    {
+     "w": "It's",
+     "start": 11.889,
+     "end": 12.129
+    },
+    {
+     "w": "credited",
+     "start": 12.129,
+     "end": 12.389
+    },
+    {
+     "w": "to",
+     "start": 12.389,
+     "end": 12.629
+    },
+    {
+     "w": "Admiral",
+     "start": 12.629,
+     "end": 12.969
+    },
+    {
+     "w": "Isoroku",
+     "start": 12.969,
+     "end": 13.829
+    },
+    {
+     "w": "Yamamoto,",
+     "start": 13.829,
+     "end": 14.249
+    },
+    {
+     "w": "the",
+     "start": 14.989,
+     "end": 15.089
+    },
+    {
+     "w": "man",
+     "start": 15.089,
+     "end": 15.289
+    },
+    {
+     "w": "who",
+     "start": 15.289,
+     "end": 15.469
+    },
+    {
+     "w": "planned",
+     "start": 15.469,
+     "end": 15.749
+    },
+    {
+     "w": "the",
+     "start": 15.749,
+     "end": 15.929
+    },
+    {
+     "w": "attack.",
+     "start": 15.929,
+     "end": 16.269
+    },
+    {
+     "w": "It's",
+     "start": 16.929,
+     "end": 17.049
+    },
+    {
+     "w": "on",
+     "start": 17.049,
+     "end": 17.149
+    },
+    {
+     "w": "posters,",
+     "start": 17.149,
+     "end": 17.549
+    },
+    {
+     "w": "in",
+     "start": 17.549,
+     "end": 17.949
+    },
+    {
+     "w": "documentaries,",
+     "start": 17.949,
+     "end": 18.389
+    },
+    {
+     "w": "in",
+     "start": 18.389,
+     "end": 18.989
+    },
+    {
+     "w": "classrooms.",
+     "start": 18.989,
+     "end": 19.329
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "But there is no evidence he ever said it. The line comes from a Hollywood movie: Tora! Tora! Tora!, released in 1970.",
+   "start": 20.336,
+   "end": 28.007,
+   "words": [
+    {
+     "w": "But",
+     "start": 20.236,
+     "end": 20.416
+    },
+    {
+     "w": "there",
+     "start": 20.416,
+     "end": 20.516
+    },
+    {
+     "w": "is",
+     "start": 20.516,
+     "end": 20.656
+    },
+    {
+     "w": "no",
+     "start": 20.656,
+     "end": 20.856
+    },
+    {
+     "w": "evidence",
+     "start": 20.856,
+     "end": 21.136
+    },
+    {
+     "w": "he",
+     "start": 21.136,
+     "end": 21.456
+    },
+    {
+     "w": "ever",
+     "start": 21.456,
+     "end": 21.616
+    },
+    {
+     "w": "said",
+     "start": 21.616,
+     "end": 21.936
+    },
+    {
+     "w": "it.",
+     "start": 21.936,
+     "end": 22.056
+    },
+    {
+     "w": "The",
+     "start": 22.576,
+     "end": 22.576
+    },
+    {
+     "w": "line",
+     "start": 22.576,
+     "end": 22.776
+    },
+    {
+     "w": "comes",
+     "start": 22.776,
+     "end": 23.096
+    },
+    {
+     "w": "from",
+     "start": 23.096,
+     "end": 23.356
+    },
+    {
+     "w": "a",
+     "start": 23.356,
+     "end": 23.456
+    },
+    {
+     "w": "Hollywood",
+     "start": 23.456,
+     "end": 23.676
+    },
+    {
+     "w": "movie:",
+     "start": 23.676,
+     "end": 24.296
+    },
+    {
+     "w": "Tora!",
+     "start": 24.296,
+     "end": 25.016
+    },
+    {
+     "w": "Tora!",
+     "start": 25.016,
+     "end": 25.736
+    },
+    {
+     "w": "Tora!,",
+     "start": 25.736,
+     "end": 26.456
+    },
+    {
+     "w": "released",
+     "start": 26.456,
+     "end": 26.676
+    },
+    {
+     "w": "in",
+     "start": 26.676,
+     "end": 26.956
+    },
+    {
+     "w": "1970.",
+     "start": 26.956,
+     "end": 27.596
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "The real Yamamoto had studied at Harvard and served as a naval attach\u00e9 in Washington. He had seen what American factories could build.",
+   "start": 28.507,
+   "end": 36.734,
+   "words": [
+    {
+     "w": "The",
+     "start": 28.407,
+     "end": 28.587
+    },
+    {
+     "w": "real",
+     "start": 28.587,
+     "end": 28.787
+    },
+    {
+     "w": "Yamamoto",
+     "start": 28.787,
+     "end": 29.227
+    },
+    {
+     "w": "had",
+     "start": 29.227,
+     "end": 29.747
+    },
+    {
+     "w": "studied",
+     "start": 29.747,
+     "end": 30.087
+    },
+    {
+     "w": "at",
+     "start": 30.087,
+     "end": 30.287
+    },
+    {
+     "w": "Harvard",
+     "start": 30.287,
+     "end": 30.527
+    },
+    {
+     "w": "and",
+     "start": 30.527,
+     "end": 31.167
+    },
+    {
+     "w": "served",
+     "start": 31.167,
+     "end": 31.447
+    },
+    {
+     "w": "as",
+     "start": 31.447,
+     "end": 31.687
+    },
+    {
+     "w": "a",
+     "start": 31.687,
+     "end": 31.767
+    },
+    {
+     "w": "naval",
+     "start": 31.767,
+     "end": 32.047
+    },
+    {
+     "w": "attach\u00e9",
+     "start": 32.047,
+     "end": 32.527
+    },
+    {
+     "w": "in",
+     "start": 32.527,
+     "end": 32.967
+    },
+    {
+     "w": "Washington.",
+     "start": 32.967,
+     "end": 33.487
+    },
+    {
+     "w": "He",
+     "start": 34.287,
+     "end": 34.347
+    },
+    {
+     "w": "had",
+     "start": 34.347,
+     "end": 34.407
+    },
+    {
+     "w": "seen",
+     "start": 34.407,
+     "end": 34.627
+    },
+    {
+     "w": "what",
+     "start": 34.627,
+     "end": 34.947
+    },
+    {
+     "w": "American",
+     "start": 34.947,
+     "end": 35.327
+    },
+    {
+     "w": "factories",
+     "start": 35.327,
+     "end": 35.747
+    },
+    {
+     "w": "could",
+     "start": 35.747,
+     "end": 36.187
+    },
+    {
+     "w": "build.",
+     "start": 36.187,
+     "end": 36.487
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Before the war, he wrote a private letter. To win, he said, Japan would have to march into Washington and dictate peace in the White House.",
+   "start": 37.134,
+   "end": 44.832,
+   "words": [
+    {
+     "w": "Before",
+     "start": 37.034,
+     "end": 37.294
+    },
+    {
+     "w": "the",
+     "start": 37.294,
+     "end": 37.454
+    },
+    {
+     "w": "war,",
+     "start": 37.454,
+     "end": 37.694
+    },
+    {
+     "w": "he",
+     "start": 37.874,
+     "end": 37.894
+    },
+    {
+     "w": "wrote",
+     "start": 37.894,
+     "end": 38.074
+    },
+    {
+     "w": "a",
+     "start": 38.074,
+     "end": 38.174
+    },
+    {
+     "w": "private",
+     "start": 38.174,
+     "end": 38.374
+    },
+    {
+     "w": "letter.",
+     "start": 38.374,
+     "end": 38.774
+    },
+    {
+     "w": "To",
+     "start": 39.474,
+     "end": 39.494
+    },
+    {
+     "w": "win,",
+     "start": 39.494,
+     "end": 39.674
+    },
+    {
+     "w": "he",
+     "start": 39.834,
+     "end": 39.894
+    },
+    {
+     "w": "said,",
+     "start": 39.894,
+     "end": 40.214
+    },
+    {
+     "w": "Japan",
+     "start": 40.554,
+     "end": 40.734
+    },
+    {
+     "w": "would",
+     "start": 40.734,
+     "end": 41.114
+    },
+    {
+     "w": "have",
+     "start": 41.114,
+     "end": 41.254
+    },
+    {
+     "w": "to",
+     "start": 41.254,
+     "end": 41.414
+    },
+    {
+     "w": "march",
+     "start": 41.414,
+     "end": 41.654
+    },
+    {
+     "w": "into",
+     "start": 41.654,
+     "end": 41.914
+    },
+    {
+     "w": "Washington",
+     "start": 41.914,
+     "end": 42.474
+    },
+    {
+     "w": "and",
+     "start": 42.474,
+     "end": 43.034
+    },
+    {
+     "w": "dictate",
+     "start": 43.034,
+     "end": 43.254
+    },
+    {
+     "w": "peace",
+     "start": 43.254,
+     "end": 43.674
+    },
+    {
+     "w": "in",
+     "start": 43.674,
+     "end": 43.954
+    },
+    {
+     "w": "the",
+     "start": 43.954,
+     "end": 44.054
+    },
+    {
+     "w": "White",
+     "start": 44.054,
+     "end": 44.214
+    },
+    {
+     "w": "House.",
+     "start": 44.214,
+     "end": 44.534
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Then he asked if Japan's politicians were ready for that kind of sacrifice.",
+   "start": 45.132,
+   "end": 49.268,
+   "words": [
+    {
+     "w": "Then",
+     "start": 45.032,
+     "end": 45.252
+    },
+    {
+     "w": "he",
+     "start": 45.252,
+     "end": 45.392
+    },
+    {
+     "w": "asked",
+     "start": 45.392,
+     "end": 45.712
+    },
+    {
+     "w": "if",
+     "start": 45.712,
+     "end": 45.972
+    },
+    {
+     "w": "Japan's",
+     "start": 45.972,
+     "end": 46.532
+    },
+    {
+     "w": "politicians",
+     "start": 46.532,
+     "end": 46.952
+    },
+    {
+     "w": "were",
+     "start": 46.952,
+     "end": 47.432
+    },
+    {
+     "w": "ready",
+     "start": 47.432,
+     "end": 47.652
+    },
+    {
+     "w": "for",
+     "start": 47.652,
+     "end": 47.932
+    },
+    {
+     "w": "that",
+     "start": 47.932,
+     "end": 48.092
+    },
+    {
+     "w": "kind",
+     "start": 48.092,
+     "end": 48.292
+    },
+    {
+     "w": "of",
+     "start": 48.292,
+     "end": 48.412
+    },
+    {
+     "w": "sacrifice.",
+     "start": 48.412,
+     "end": 48.652
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "The letter spread without that last line. In America, it read like a boast. It was a warning.",
+   "start": 49.768,
+   "end": 55.165,
+   "words": [
+    {
+     "w": "The",
+     "start": 49.668,
+     "end": 49.848
+    },
+    {
+     "w": "letter",
+     "start": 49.848,
+     "end": 50.048
+    },
+    {
+     "w": "spread",
+     "start": 50.048,
+     "end": 50.368
+    },
+    {
+     "w": "without",
+     "start": 50.368,
+     "end": 50.648
+    },
+    {
+     "w": "that",
+     "start": 50.648,
+     "end": 50.908
+    },
+    {
+     "w": "last",
+     "start": 50.908,
+     "end": 51.128
+    },
+    {
+     "w": "line.",
+     "start": 51.128,
+     "end": 51.548
+    },
+    {
+     "w": "In",
+     "start": 52.168,
+     "end": 52.188
+    },
+    {
+     "w": "America,",
+     "start": 52.188,
+     "end": 52.528
+    },
+    {
+     "w": "it",
+     "start": 52.808,
+     "end": 52.908
+    },
+    {
+     "w": "read",
+     "start": 52.908,
+     "end": 53.088
+    },
+    {
+     "w": "like",
+     "start": 53.088,
+     "end": 53.408
+    },
+    {
+     "w": "a",
+     "start": 53.408,
+     "end": 53.488
+    },
+    {
+     "w": "boast.",
+     "start": 53.488,
+     "end": 53.748
+    },
+    {
+     "w": "It",
+     "start": 54.308,
+     "end": 54.328
+    },
+    {
+     "w": "was",
+     "start": 54.328,
+     "end": 54.428
+    },
+    {
+     "w": "a",
+     "start": 54.428,
+     "end": 54.528
+    },
+    {
+     "w": "warning.",
+     "start": 54.528,
+     "end": 54.868
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "The words he never said made him a prophet. The words he did write made him a villain. Which version did you learn?",
+   "start": 55.765,
+   "end": 61.664,
+   "words": [
+    {
+     "w": "The",
+     "start": 55.665,
+     "end": 55.845
+    },
+    {
+     "w": "words",
+     "start": 55.845,
+     "end": 56.045
+    },
+    {
+     "w": "he",
+     "start": 56.045,
+     "end": 56.245
+    },
+    {
+     "w": "never",
+     "start": 56.245,
+     "end": 56.405
+    },
+    {
+     "w": "said",
+     "start": 56.405,
+     "end": 56.725
+    },
+    {
+     "w": "made",
+     "start": 56.725,
+     "end": 57.005
+    },
+    {
+     "w": "him",
+     "start": 57.005,
+     "end": 57.145
+    },
+    {
+     "w": "a",
+     "start": 57.145,
+     "end": 57.205
+    },
+    {
+     "w": "prophet.",
+     "start": 57.205,
+     "end": 57.445
+    },
+    {
+     "w": "The",
+     "start": 58.185,
+     "end": 58.205
+    },
+    {
+     "w": "words",
+     "start": 58.205,
+     "end": 58.405
+    },
+    {
+     "w": "he",
+     "start": 58.405,
+     "end": 58.605
+    },
+    {
+     "w": "did",
+     "start": 58.605,
+     "end": 58.725
+    },
+    {
+     "w": "write",
+     "start": 58.725,
+     "end": 59.005
+    },
+    {
+     "w": "made",
+     "start": 59.005,
+     "end": 59.285
+    },
+    {
+     "w": "him",
+     "start": 59.285,
+     "end": 59.425
+    },
+    {
+     "w": "a",
+     "start": 59.425,
+     "end": 59.505
+    },
+    {
+     "w": "villain.",
+     "start": 59.505,
+     "end": 59.705
+    },
+    {
+     "w": "Which",
+     "start": 60.305,
+     "end": 60.345
+    },
+    {
+     "w": "version",
+     "start": 60.345,
+     "end": 60.585
+    },
+    {
+     "w": "did",
+     "start": 60.585,
+     "end": 61.005
+    },
+    {
+     "w": "you",
+     "start": 61.005,
+     "end": 61.145
+    },
+    {
+     "w": "learn?",
+     "start": 61.145,
+     "end": 61.465
+    }
+   ]
+  }
+ ]
+}
