@@ -1,6 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { BigCaption, Finish, Fonts } from './kit';
+import { Flicker, LightLeak } from './vfx';
 import cues from './data/sfx-cues.json';
 import { SCENE_COMPS } from './Scenes';
 import { DURATION_FRAMES, FPS, PHRASES, SCENES, sec } from './theme';
@@ -39,17 +40,18 @@ export const YamamotoQuote: React.FC = () => (
       const S = SCENES[i];
       return (
         <Sequence key={S.n} from={S.from} durationInFrames={S.frames + (i < SCENE_COMPS.length - 1 ? OVERLAP : 0)} name={`Scene ${S.n}`}>
-          <Fade first={i === 0}><Comp /></Fade>
+          <Fade first={i === 0}><Comp /><LightLeak /></Fade>
         </Sequence>
       );
     })}
     <Finish />
+    <Flicker />
     <Captions />
     <Audio src={staticFile('assets/sound/voiceover.mp3')} />
-    <Audio src={staticFile('assets/music/score.mp3')} volume={(fr) => interpolate(fr, [0, 20], [0, 1], { extrapolateRight: 'clamp' }) * (0.85 - 0.5 * duckAt(fr / FPS))} />
+    <Audio src={staticFile('assets/music/score.mp3')} volume={(fr) => interpolate(fr, [0, 20], [0, 1], { extrapolateRight: 'clamp' }) * (0.62 - 0.42 * duckAt(fr / FPS))} />
     {(cues as { file: string; at: number; volume: number }[]).map((c, i) => (
       <Sequence key={i} from={Math.max(0, Math.round(c.at * FPS))} durationInFrames={Math.min(DURATION_FRAMES, 30 * 20)} name={`sfx ${c.file}`}>
-        <Audio src={staticFile(`assets/sound/${c.file}`)} volume={(fr) => c.volume * (1 - 0.3 * duckAt(c.at + fr / FPS))} />
+        <Audio src={staticFile(`assets/sound/${c.file}`)} volume={(fr) => c.volume * (1 - 0.35 * duckAt(c.at + fr / FPS))} />
       </Sequence>
     ))}
   </AbsoluteFill>

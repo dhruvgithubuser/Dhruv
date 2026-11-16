@@ -1,7 +1,8 @@
 import React from 'react';
 import { AbsoluteFill, Img, staticFile, useCurrentFrame } from 'remotion';
 import { CutoutDefs, Person } from './Characters';
-import { Cam, Note, Photo, Stamp } from './kit';
+import { Cam, Note, Particles, Photo, Stamp } from './kit';
+import { Explosion, Fire, Shake, Tracers, Trail, VfxDefs } from './vfx';
 import { C, HEAD, SERIF, TYPE, ease, lin, wf } from './theme';
 
 /* "Pacific 1941" variant of the Vox stage: dark navy chart paper, chalk lines, red accents. */
@@ -43,8 +44,8 @@ const Board: React.FC<{ text: string; from: number; to: number; x: number; y: nu
     </div>
   );
 };
-const Plane: React.FC<{ x: number; y: number; s?: number; rot?: number }> = ({ x, y, s = 1, rot = 0 }) => (
-  <g transform={`translate(${x},${y}) rotate(${rot}) scale(${s})`} filter="url(#cutout)">
+const Plane: React.FC<{ x: number; y: number; s?: number; rot?: number; flip?: boolean }> = ({ x, y, s = 1, rot = 0, flip }) => (
+  <g transform={`translate(${x},${y}) rotate(${rot}) scale(${flip ? -s : s},${s})`} filter="url(#cutout)">
     <path d="M-60,0 L50,0 Q66,0 66,-6 Q66,-12 50,-12 L-60,-12 Z" fill="#c9cfd6" stroke="#111" strokeWidth={3} />
     <path d="M-6,-6 L-34,-60 L-18,-60 L20,-6 Z M-6,-6 L-34,48 L-18,48 L20,-6 Z" fill="#aab3bd" stroke="#111" strokeWidth={3} />
     <path d="M-60,-6 L-74,-30 L-64,-30 L-48,-6 Z" fill="#aab3bd" stroke="#111" strokeWidth={3} />
@@ -84,25 +85,48 @@ export const S02: React.FC = () => {
   );
 };
 
+const Battleship: React.FC<{ x: number; y: number; s?: number }> = ({ x, y, s = 1 }) => (
+  <g transform={`translate(${x},${y}) scale(${s})`} filter="url(#cutout)">
+    <path d="M-170,0 L170,0 L150,34 L-150,34 Z" fill="#5d6670" stroke="#111" strokeWidth={3} />
+    <rect x={-60} y={-40} width={90} height={40} fill="#6e7781" stroke="#111" strokeWidth={3} />
+    <rect x={-20} y={-90} width={14} height={50} fill="#6e7781" stroke="#111" strokeWidth={3} />
+    <rect x={40} y={-80} width={10} height={40} fill="#6e7781" stroke="#111" strokeWidth={3} />
+    {[-120, 90].map((tx) => <g key={tx}><rect x={tx - 22} y={-18} width={44} height={18} fill="#6e7781" stroke="#111" strokeWidth={3} /><line x1={tx} y1={-10} x2={tx + 46} y2={-14} stroke="#111" strokeWidth={6} /></g>)}
+  </g>
+);
 export const S03: React.FC = () => {
   const f = useCurrentFrame(); const cr = wf(3, 'credited'), pl = wf(3, 'planned'), po = wf(3, 'posters'), doc = wf(3, 'documentaries'), cl = wf(3, 'classrooms');
+  const booms = [pl + 2, pl + 26, pl + 52, pl + 80, pl + 110];
+  const bx = [190, 470, 300, 620, 120];
+  const plane = (k: number): [number, number] => { const t = ((f - pl + k * 40) % 120) / 120; return [1160 - 1300 * t, 560 + 330 * t]; };
   return (
-    <Cam>
-      <Chart />
-      <Photo src="assets/archival/yamamoto_bust.jpg" at={cr - 4} x={60} y={150} w={430} h={520} rot={-3} pos="50% 15%" caption="Isoroku Yamamoto" credit="photograph · public domain" grade="bw" />
-      <Svg><Person x={760} y={1100} s={1.05} coat="#1c2433" head="assets/archival/head_yamamoto.png" armR={lin(f, cr + 6, cr + 14, 8, 150)} armL={10} breathe={f / 8} nod={2 * Math.sin(f / 14)} flip /></Svg>
-      <Note text="ADMIRAL · COMBINED FLEET" at={cr + 4} x={540} y={170} size={28} />
-      <Note text="PLANNED THE PEARL HARBOR ATTACK" at={pl - 2} x={540} y={232} size={22} />
-      {[['POSTERS', po, 'envelope'], ['DOCUMENTARIES', doc, 'clock'], ['CLASSROOMS', cl, 'key']].map(([t, a, ic], i) => (
-        <React.Fragment key={t as string}><Note text={t as string} at={(a as number) - 2} x={60} y={790 + i * 80} size={34} /></React.Fragment>
-      ))}
-    </Cam>
+    <Shake hits={booms}>
+      <Cam>
+        <Chart />
+        <Svg>
+          <VfxDefs />
+          <rect x={0} y={1000} width={1080} height={220} fill="#1d3550" />
+          {[[190, 1040, 0.85], [470, 1070, 0.95], [760, 1040, 0.8]].map(([x, y, sc], i) => <Battleship key={i} x={x} y={y} s={sc} />)}
+          {f > pl && <><Fire x={190} y={1036} s={0.9} seed={3} /><Fire x={470} y={1066} s={1.1} seed={5} /></>}
+          {f > pl && <><Tracers x={760} y={1000} n={5} seed={2} /><Tracers x={900} y={1010} n={4} seed={6} /></>}
+          {booms.map((b, i) => <Explosion key={i} at={b} x={bx[i]} y={1020} s={0.9} seed={i + 1} />)}
+          {f > pl - 10 && [0, 1, 2].map((k) => { const [x, y] = plane(k); const tr: [number, number][] = Array.from({ length: 10 }, (_, j) => { const t = ((f - j * 2 - pl + k * 40) % 120) / 120; return [1160 - 1300 * t + 40, 560 + 330 * t - 14]; });
+            return <g key={k}><Trail pts={tr} /><Plane x={x} y={y} s={0.85} rot={-14} flip /></g>; })}
+          <Person x={860} y={1240} s={1.0} coat="#1c2433" head="assets/archival/head_yamamoto.png" armR={lin(f, cr + 6, cr + 14, 8, 150)} armL={10} breathe={f / 8} nod={2 * Math.sin(f / 14)} flip />
+        </Svg>
+        <Photo src="assets/archival/yamamoto_bust.jpg" at={cr - 4} x={60} y={140} w={380} h={440} rot={-3} pos="50% 15%" caption="Isoroku Yamamoto" credit="photograph · public domain" grade="bw" />
+        <Note text="ADMIRAL · COMBINED FLEET" at={cr + 4} x={500} y={160} size={28} />
+        <Note text="PLANNED THE PEARL HARBOR ATTACK" at={pl - 2} x={500} y={222} size={22} />
+        {[['POSTERS', po], ['DOCUMENTARIES', doc], ['CLASSROOMS', cl]].map(([t, a], i) => <Note key={t as string} text={t as string} at={(a as number) - 2} x={500} y={300 + i * 66} size={30} />)}
+        <Particles kind="embers" n={40} o={lin(f, pl, pl + 20)} />
+      </Cam>
+    </Shake>
   );
 };
 
 export const S04: React.FC = () => {
   const f = useCurrentFrame(); const no = wf(4, 'no'), hol = wf(4, 'hollywood'), tora = wf(4, 'tora');
-  const beam = lin(f, hol - 4, hol + 8);
+  const beam = lin(f, hol - 4, hol + 8) * (0.85 + 0.15 * Math.sin(f * 1.7) * Math.sin(f * 0.53));
   return (
     <Cam>
       <Chart />
@@ -137,7 +161,7 @@ export const S05: React.FC = () => {
         <text x={960} y={480} fontFamily={HEAD} fontWeight={700} fontSize={40} fill={CHALK} textAnchor="middle">USA</text>
         <Person x={160 + 640 * walk} y={1000} s={0.9} coat="#1c2433" head="assets/archival/head_yamamoto.png" walk={walk > 0 && walk < 1 ? f / 18 : 0} armR={walk >= 1 ? 40 : 10} breathe={f / 8} />
         {f > fac - 6 && [0, 1, 2, 3].map((i) => <Factory key={i} x={60 + i * 140} y={1180} s={0.95} f={f + i * 10} />)}
-        {f > fac + 6 && [0, 1, 2].map((i) => <Plane key={i} x={((f - fac) * 6 + i * 260) % 1300 - 120} y={640 + i * 70} s={0.9} rot={-6} />)}
+        {f > fac + 6 && [0, 1, 2].map((i) => { const px = ((f - fac) * 6 + i * 260) % 1300 - 120; return <g key={i}><Trail pts={Array.from({ length: 10 }, (_, j) => [px - 70 - j * 16, 646 + i * 70 + j * 1.7] as [number, number])} /><Plane x={px} y={640 + i * 70} s={0.9} rot={-6} /></g>; })}
       </Svg>
       <Note text="HARVARD UNIVERSITY · 1919–21" at={hv - 2} x={560} y={150} size={26} />
       <Note text="NAVAL ATTACHÉ · WASHINGTON" at={at - 2} x={560} y={210} size={26} />
@@ -194,7 +218,7 @@ export const S08: React.FC = () => {
   return (
     <Cam>
       <Chart />
-      <Letter show1={1} show2={1} tear={ease(f, wi, wi + 30)} boast={bo} warn={wa} />
+      <Shake hits={[bo, wa, wi]} amp={16}><Letter show1={1} show2={1} tear={ease(f, wi, wi + 30)} boast={bo} warn={wa} /></Shake>
       <Note text="THE LAST LINE WAS DROPPED" at={wi} x={60} y={160} size={30} />
     </Cam>
   );

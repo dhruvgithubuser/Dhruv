@@ -47,15 +47,22 @@ TAIL = 1.0  # title card after the last word
 def voice_style():
     m = np.fromfile(KDIR / "am_michael.bin", dtype=np.float32).reshape(-1, 1, 256)
     o = np.fromfile(KDIR / "am_onyx.bin", dtype=np.float32).reshape(-1, 1, 256)
-    return (0.6 * m + 0.4 * o).astype(np.float32)  # deep American documentary male
+    return (0.8 * m + 0.2 * o).astype(np.float32)  # clear American documentary male, a touch of depth
 
 
 def warm(x):
-    """Gentle broadcast EQ: low-shelf-ish lift + a little air cut, then normalise."""
-    lows = sosfilt(butter(2, 180, "lowpass", fs=SR, output="sos"), x)
-    x = x + 0.25 * lows
-    x = sosfilt(butter(2, 9500, "lowpass", fs=SR, output="sos"), x)
-    return x
+    """Broadcast clarity chain: high-pass, de-mud, presence and air lift, gentle compression, peak-safe."""
+    x = sosfilt(butter(2, 75, "highpass", fs=SR, output="sos"), x)
+    mud = sosfilt(butter(2, [180, 420], "bandpass", fs=SR, output="sos"), x)
+    pres = sosfilt(butter(2, [2200, 5500], "bandpass", fs=SR, output="sos"), x)
+    air = sosfilt(butter(2, 9000, "highpass", fs=SR, output="sos"), x)
+    x = x - 0.30 * mud + 0.55 * pres + 0.20 * air
+    # soft-knee compression on a smoothed envelope (about 3:1 above -18 dBFS)
+    env = np.sqrt(sosfilt(butter(1, 12, "lowpass", fs=SR, output="sos"), x * x) + 1e-9)
+    thr = 10 ** (-18 / 20) * np.abs(x).max()
+    gain = np.where(env > thr, (thr / env) ** (2 / 3), 1.0)
+    x = x * gain
+    return x / (np.abs(x).max() + 1e-9) * 0.89
 
 
 def main():

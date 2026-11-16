@@ -186,27 +186,56 @@ def ostinato(start, end, roots, g=0.5):
 X = None
 
 
+def war_drum(g=1.0):
+    """Big cinematic war drum: pitched body + skin slap + room."""
+    n = int(1.6 * SR); tm = t_(n)
+    body = np.sin(2 * np.pi * (48 + 50 * np.exp(-tm / 0.06)) * tm) * np.exp(-tm / 0.45)
+    slap = bp(rng.standard_normal(n), 300, 2500) * np.exp(-tm / 0.03) * 0.5
+    return (body + slap) * g
+
+
 def score():
+    """War score: war drums + snare march + low string ostinato + brass, building with the story."""
     global X
     n = int(DUR * SR); X = np.zeros(n)
     def pads(start, end, chords, g=0.16, cutoff=900, step=8 * BEAT):
         tt, k = start, 0
         while tt < end - 0.5:
             place(X, strings(chords[k % len(chords)], min(step + 1.5, end - tt + 1), cutoff), tt, g); tt += step; k += 1
-    def drums(start, end, every, m=38, g=0.5):
-        tt = start
-        while tt < end - 0.3: place(X, timpani(m, g), tt); tt += every
-    pads(0, S[4], [[26, 33, 38, 41], [22, 29, 34, 38], [24, 31, 36, 40], [21, 28, 33, 37]], 0.22, 700)
-    k = 0
-    while 1 + k * 3.0 < S[4]: place(X, piano([69, 72, 76, 74, 71, 69][k % 6], 4.5), 1 + k * 3.0, 0.08); k += 1
-    place(X, timpani(33, 0.9), S[4] + 0.1)
-    ostinato(S[5], S[8] - 0.2, [33, 29, 31, 28], 0.38)
-    pads(S[5], S[8], [[33, 40, 45, 48], [29, 36, 41, 45]], 0.18, 900)
-    drums(S[6], S[8] - 0.3, 2 * BEAT, 33, 0.35)
-    pads(S[8], DUR, [[26, 33, 38, 42], [24, 31, 36, 40], [22, 29, 34, 38], [21, 28, 33, 37]], 0.24, 800)
-    place(X, timpani(33, 1.0), S[8]); place(X, brass([57, 64, 69], 3.0, 1200), S[9] + 0.2, 0.18)
-    x = reverb(X, 3.0, 1.4, 0.32)
-    fade = int(1.5 * SR); x[-fade:] *= np.linspace(1, 0, fade) ** 1.5
+    def drums(start, end, pattern, g=0.6):
+        tt = start; k = 0
+        while tt < end - 0.3:
+            for off, acc in pattern: place(X, war_drum(g * acc), tt + off * BEAT)
+            tt += 4 * BEAT; k += 1
+    def brassline(start, end, chords, g=0.2, step=4 * BEAT, cutoff=1000):
+        tt, k = start, 0
+        while tt < end - 0.5:
+            place(X, brass(chords[k % len(chords)], min(step + 1.0, end - tt + 1), cutoff), tt, g); tt += step; k += 1
+    Dm = [[38, 45, 50, 53], [34, 41, 46, 50], [36, 43, 48, 52], [33, 40, 45, 49]]
+    # 1-2: tension: low strings, heartbeat war drum
+    pads(0, S[3], [[26, 33, 38, 41], [22, 29, 34, 38]], 0.22, 750)
+    drums(0.4, S[3], [(0, 1.0), (2, 0.6)], 0.5)
+    # 3-4: the attack / the reveal: full march
+    march(S[3], S[5] - 0.2, 0.75)
+    ostinato(S[3], S[5] - 0.2, [38, 34, 36, 33], 0.45)
+    drums(S[3], S[5] - 0.2, [(0, 1.0), (1.5, 0.6), (2, 0.9), (3, 0.6)], 0.6)
+    brassline(S[3] + 2 * BEAT, S[5], [[50, 53, 57], [46, 50, 53], [48, 52, 55], [45, 49, 52]], 0.2)
+    place(X, snare_roll(1.6, 0.1, 0.9), S[4] - 1.6)
+    # 5: America's power: driving ostinato
+    ostinato(S[5], S[6] - 0.2, [38, 41, 43, 41], 0.45)
+    drums(S[5], S[6] - 0.2, [(0, 1.0), (2, 0.8)], 0.5)
+    pads(S[5], S[6], Dm, 0.16, 900)
+    # 6-8: the letter: tension builds to the tear
+    pads(S[6], S[9], [[26, 33, 38, 41], [27, 34, 39, 42], [26, 33, 38, 41], [24, 31, 36, 40]], 0.24, 750)
+    drums(S[6], S[8], [(0, 0.8), (2, 0.5)], 0.45)
+    march(S[8], S[9] - 0.2, 0.6); drums(S[8], S[9] - 0.2, [(0, 1.0), (1, 0.6), (2, 1.0), (3, 0.6)], 0.65)
+    place(X, war_drum(1.3), word_t(8, "without"))
+    # 9: verdict: brass chorale + final hits
+    brassline(S[9], DUR - 0.3, [[50, 54, 57], [46, 50, 53], [48, 52, 55, 60], [50, 53, 57, 62]], 0.24, 4 * BEAT, 1200)
+    pads(S[9], DUR, Dm, 0.2, 1000)
+    place(X, war_drum(1.4), S[9]); place(X, war_drum(1.4), DUR - 2.2)
+    x = reverb(X, 2.8, 1.3, 0.3)
+    fade = int(1.2 * SR); x[-fade:] *= np.linspace(1, 0, fade) ** 1.5
     return x
 
 
@@ -437,12 +466,29 @@ def bugle():
     return reverb(out, 2.5, 1.4, 0.5)
 
 
+def explosion():
+    n = int(3.5 * SR); tm = t_(n)
+    boom = np.sin(2 * np.pi * (30 + 70 * np.exp(-tm / 0.05)) * tm) * np.exp(-tm / 0.9)
+    crack = bp(rng.standard_normal(n), 300, 6000) * np.exp(-tm / 0.08)
+    rumble = lp(rng.standard_normal(n), 140) * np.exp(-tm / 1.4) * 1.5
+    return reverb(boom + crack * 0.9 + rumble, 3.0, 1.6, 0.45)
+
+
+def plane_flyby(length=4.0):
+    n = int(length * SR); tm = t_(n)
+    f0 = 90 + 30 * np.tanh((tm - length / 2) * 1.5) * -1
+    eng = np.sin(2 * np.pi * np.cumsum(f0) / SR) + 0.5 * np.sin(4 * np.pi * np.cumsum(f0) / SR)
+    noise = bp(rng.standard_normal(n), 200, 2000) * 0.6
+    amp = np.exp(-((tm - length / 2) ** 2) / 0.9)
+    return (eng * 0.6 + noise) * amp
+
+
 def main():
-    files = {"wind.wav": wind(8.0), "gallop.wav": gallop(6.0), "paper.wav": paper(), "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000), "bugle.wav": bugle(), "clock.wav": clock(4.0), "volley.wav": volley(6, 0.6)}
+    files = {"wind.wav": wind(8.0), "gallop.wav": gallop(6.0), "paper.wav": paper(), "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000), "bugle.wav": bugle(), "clock.wav": clock(4.0), "volley.wav": volley(6, 0.6), "explosion.wav": explosion(), "plane.wav": plane_flyby()}
     for k, v in files.items():
         save(k, v)
     w = word_t
-    cues = [("paper.wav", 0.2, 0.35), ("impact.wav", w(1, "nobody"), 0.45), ("whoosh.wav", S[3], 0.22), ("impact.wav", w(4, "no"), 0.5), ("clock.wav", w(4, "hollywood"), 0.25),
+    cues = [("paper.wav", 0.2, 0.35), ("impact.wav", w(1, "nobody"), 0.45), ("whoosh.wav", S[3], 0.22), ("impact.wav", w(4, "no"), 0.5), ("explosion.wav", S[3] + 1.0, 0.45), ("explosion.wav", S[3] + 3.4, 0.4), ("plane.wav", S[3] + 0.2, 0.35), ("plane.wav", S[5] + 2.0, 0.3), ("clock.wav", w(4, "hollywood"), 0.25),
             ("whoosh.wav", S[5], 0.22), ("paper.wav", S[6], 0.4), ("paper.wav", S[7], 0.3), ("paper.wav", w(8, "without"), 0.5), ("impact.wav", w(8, "boast"), 0.4), ("impact.wav", w(8, "warning"), 0.45),
             ("whoosh.wav", S[9], 0.22)]
     (ROOT / "src" / "data" / "sfx-cues.json").write_text(json.dumps([{"file": f, "at": round(a, 3), "volume": v} for f, a, v in cues], indent=1))

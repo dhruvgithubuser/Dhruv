@@ -40,3 +40,34 @@ The same narrator voice, war score and sound-design set every time. Narration fo
 - mixing styles inside one video.
 
 Real archival photos stay, always as polaroid cards inside the Vox stage.
+
+## Production standard (from 16 Nov 2026, every video)
+**Base style:** Vox with moving cut-out characters. Each video gets its own flavour so videos don't look copy-pasted:
+- Frontier 1876 (dusty prairie parchment, for Custer);
+- Pacific 1941 naval chart (dark navy, for Yamamoto);
+- more flavours to come.
+
+1. **Character motion in every scene:** walking, riding, pointing, writing, saluting, nodding, breathing. Famous people get their real archival face on an animated body.
+2. **Visual effects (`src/vfx.tsx`):**
+   - explosions (flash, fireball, smoke columns, debris);
+   - burning targets;
+   - anti-aircraft tracers;
+   - smoke trails behind planes;
+   - embers and dust;
+   - screen shake on impacts and stamps;
+   - a warm light-leak flash on every scene change;
+   - a subtle film flicker.
+3. **Narrator voice, clear:**
+   - Kokoro blend: 80% am_michael, 20% am_onyx.
+   - Broadcast chain: high-pass at 75 Hz, a cut in the 180–420 Hz mud range, a presence lift at 2.2–5.5 kHz, a little air above 9 kHz, gentle 3:1 compression, peaks at −1 dB.
+4. **War music under the voice, every time:** a war score of big war drums, snare march, low-string ostinato and a brass chorale, which builds with the story.
+   - **Ducking:** about 0.62 of full level in gaps, dropping to about 0.20 under the voice, so the narrator always stays clear.
+   - **Sound effects:** explosion, plane fly-by, gallop, volley, bugle, paper and stamp hits.
+5. **Thumbnails:** the editorial poster style:
+   - a headline in white and gold;
+   - the hero's real portrait blended into the scene;
+   - the key document;
+   - a stat box;
+   - a badge;
+   - two icon captions;
+   - a dark vignette.
