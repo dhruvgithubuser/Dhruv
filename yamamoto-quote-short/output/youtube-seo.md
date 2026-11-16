@@ -27,16 +27,16 @@
 - "Spread… minus the last sentence… interpreted in America as a boast."
 - Harvard, 1919–21. Naval attaché in Washington.
 
-## Titles (linted)
-| # | Title | Score |
-|---|---|---|
-| **1 ★** | **The 1941 Pearl Harbor Quote Yamamoto Never Said** | 98 |
-| 2 | Yamamoto's "Sleeping Giant" Quote Came From a 1970 Movie | 98 (answers the question; use it for search) |
-| 3 | The Pearl Harbor Quote Everyone Knows Is From a Movie (1970) | 98 |
+## Titles: best 5 (linted with the 3-word cover "HOLLYWOOD WROTE IT")
+| # | Title | Score | Angle |
+|---|---|---|---|
+| **1 ★** | **Yamamoto's "Sleeping Giant" Quote Is From a 1970 Movie** | 98 | Search: matches "yamamoto sleeping giant", a top autocomplete term |
+| 2 | The 1941 Pearl Harbor Quote Yamamoto Never Said | 98 | Curiosity (the original title) |
+| 3 | The "Sleeping Giant" Quote Nobody Can Find Before 1970 | 98 | Mystery: matches the hook line |
+| 4 | Admiral Yamamoto Never Said "Sleeping Giant" (1941) | 98 | Myth-bust, short |
+| 5 | Yamamoto's Real 1941 Warning Was Twisted Into a Boast | 98 | Twist (the second reveal) |
 
-**Thumbnails (poster style):**
-- **Shorts cover:** `thumbnail-poster-1080x1920.jpg`. Headline **"HE NEVER SAID IT. HOLLYWOOD DID."**, the real portrait, the chalkboard quote stamped NO EVIDENCE, a "1970: the year Hollywood wrote it" stat box, and icon captions.
-- **16:9:** `thumbnail-poster-1280x720.jpg`.
+**Cover:** `thumbnail-poster-1080x1920.jpg`, now with the 3-word headline **"HOLLYWOOD WROTE IT."** The earlier 6-word "HE NEVER SAID IT. HOLLYWOOD DID." was too long to read at feed size and repeated the title's words.
 
 ## Description
 ```

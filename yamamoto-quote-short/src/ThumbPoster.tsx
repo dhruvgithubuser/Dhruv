@@ -36,7 +36,7 @@ const Quote: React.FC<{ w: number; size: number; rot: number }> = ({ w, size, ro
 const Stat: React.FC<{ s: number }> = ({ s }) => (
   <div style={{ background: 'rgba(12,18,28,0.9)', border: `3px solid ${GOLD}`, padding: `${s * 0.12}px ${s * 0.22}px`, boxShadow: '0 12px 30px rgba(0,0,0,0.7)' }}>
     <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: s, lineHeight: 1, color: '#fff' }}>1970</div>
-    <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: s * 0.34, color: CREAM, marginTop: 4 }}>THE YEAR <span style={{ color: GOLD }}>HOLLYWOOD</span> WROTE IT</div>
+    <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: s * 0.34, color: CREAM, marginTop: 4 }}>FIRST SEEN <span style={{ color: GOLD }}>IN A MOVIE</span></div>
   </div>
 );
 const Bg: React.FC = () => (
@@ -53,7 +53,7 @@ export const PosterShort: React.FC = () => (
   <AbsoluteFill style={{ background: INK }}>
     <Fonts /><Bg />
     <Bust style={{ left: -140, top: 330, width: 1000 }} />
-    <div style={{ position: 'absolute', left: 50, right: 40, top: 60 }}><Headline a="He never said it." b="Hollywood did." size={128} /></div>
+    <div style={{ position: 'absolute', left: 50, right: 40, top: 60 }}><Headline a="Hollywood" b="wrote it." size={170} /></div>
     <div style={{ position: 'absolute', right: 40, top: 480 }}><Badge s={96} /></div>
     <div style={{ position: 'absolute', left: 430, top: 1000 }}><Quote w={600} size={50} rot={3} /></div>
     <div style={{ position: 'absolute', left: 50, top: 1360 }}><Stat s={130} /></div>
@@ -69,7 +69,7 @@ export const PosterWide: React.FC = () => (
   <AbsoluteFill style={{ background: INK }}>
     <Fonts /><Bg />
     <Bust style={{ left: -60, top: 20, height: 760 }} />
-    <div style={{ position: 'absolute', left: 560, right: 30, top: 30 }}><Headline a="He never said it." b="Hollywood did." size={80} /></div>
+    <div style={{ position: 'absolute', left: 560, right: 30, top: 30 }}><Headline a="Hollywood" b="wrote it." size={104} /></div>
     <div style={{ position: 'absolute', left: 580, top: 240 }}><Quote w={420} size={34} rot={-2} /></div>
     <div style={{ position: 'absolute', right: 30, top: 270 }}><Badge s={60} /></div>
     <div style={{ position: 'absolute', left: 580, top: 480 }}><Stat s={84} /></div>
