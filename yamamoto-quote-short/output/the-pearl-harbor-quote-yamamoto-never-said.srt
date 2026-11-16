@@ -1,112 +1,112 @@
 1
-00:00:00,250 --> 00:00:02,190
+00:00:00,250 --> 00:00:02,270
 You know the most famous quote about Pearl
 
 2
-00:00:02,190 --> 00:00:05,380
+00:00:02,270 --> 00:00:05,520
 Harbor. Nobody can find it before 1970.
 
 3
-00:00:05,958 --> 00:00:08,058
+00:00:06,114 --> 00:00:08,374
 “I fear all we have done is to awaken a
 
 4
-00:00:08,058 --> 00:00:10,558
+00:00:08,374 --> 00:00:10,914
 sleeping giant and fill him with a terrible
 
 5
-00:00:10,558 --> 00:00:11,188
+00:00:10,914 --> 00:00:11,564
 resolve.”
 
 6
-00:00:11,889 --> 00:00:14,399
+00:00:12,285 --> 00:00:14,955
 It's credited to Admiral Isoroku Yamamoto,
 
 7
-00:00:14,989 --> 00:00:16,419
+00:00:15,565 --> 00:00:17,015
 the man who planned the attack.
 
 8
-00:00:16,929 --> 00:00:18,389
+00:00:17,525 --> 00:00:18,965
 It's on posters, in documentaries,
 
 9
-00:00:18,389 --> 00:00:19,479
+00:00:18,965 --> 00:00:20,155
 in classrooms.
 
 10
-00:00:20,236 --> 00:00:22,206
+00:00:20,931 --> 00:00:22,921
 But there is no evidence he ever said it.
 
 11
-00:00:22,576 --> 00:00:25,016
+00:00:23,311 --> 00:00:25,978
 The line comes from a Hollywood movie: Tora!
 
 12
-00:00:25,016 --> 00:00:27,746
+00:00:25,978 --> 00:00:28,801
 Tora! Tora!, released in 1970.
 
 13
-00:00:28,407 --> 00:00:30,527
+00:00:29,450 --> 00:00:31,690
 The real Yamamoto had studied at Harvard
 
 14
-00:00:30,527 --> 00:00:33,637
+00:00:31,690 --> 00:00:34,860
 and served as a naval attaché in Washington.
 
 15
-00:00:34,287 --> 00:00:36,187
+00:00:35,490 --> 00:00:37,410
 He had seen what American factories could
 
 16
-00:00:36,187 --> 00:00:36,637
+00:00:37,410 --> 00:00:37,880
 build.
 
 17
-00:00:37,034 --> 00:00:38,924
+00:00:38,293 --> 00:00:40,243
 Before the war, he wrote a private letter.
 
 18
-00:00:39,474 --> 00:00:40,364
+00:00:40,813 --> 00:00:41,763
 To win, he said,
 
 19
-00:00:40,554 --> 00:00:42,474
+00:00:42,013 --> 00:00:44,013
 Japan would have to march into Washington
 
 20
-00:00:42,474 --> 00:00:44,684
+00:00:44,013 --> 00:00:46,283
 and dictate peace in the White House.
 
 21
-00:00:45,032 --> 00:00:47,432
+00:00:46,660 --> 00:00:49,120
 Then he asked if Japan's politicians were
 
 22
-00:00:47,432 --> 00:00:48,802
+00:00:49,120 --> 00:00:50,530
 ready for that kind of sacrifice.
 
 23
-00:00:49,668 --> 00:00:51,698
+00:00:51,398 --> 00:00:53,508
 The letter spread without that last line.
 
 24
-00:00:52,168 --> 00:00:53,898
+00:00:53,978 --> 00:00:55,708
 In America, it read like a boast.
 
 25
-00:00:54,308 --> 00:00:55,018
+00:00:56,158 --> 00:00:56,868
 It was a warning.
 
 26
-00:00:55,665 --> 00:00:57,595
+00:00:57,513 --> 00:00:59,503
 The words he never said made him a prophet.
 
 27
-00:00:58,185 --> 00:00:59,855
+00:01:00,073 --> 00:01:01,843
 The words he did write made him a villain.
 
 28
-00:01:00,305 --> 00:01:01,615
+00:01:02,273 --> 00:01:03,603
 Which version did you learn?
 
