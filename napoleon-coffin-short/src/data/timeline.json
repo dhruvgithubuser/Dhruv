@@ -1,0 +1,1072 @@
+{
+ "fps": 30,
+ "duration": 78.753,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're watching them open Napoleon's coffin, 19 years after he died. What did they find?",
+   "start": 0.35,
+   "end": 6.163,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.47
+    },
+    {
+     "w": "watching",
+     "start": 0.47,
+     "end": 0.81
+    },
+    {
+     "w": "them",
+     "start": 0.81,
+     "end": 1.07
+    },
+    {
+     "w": "open",
+     "start": 1.07,
+     "end": 1.47
+    },
+    {
+     "w": "Napoleon's",
+     "start": 1.47,
+     "end": 2.27
+    },
+    {
+     "w": "coffin,",
+     "start": 2.27,
+     "end": 2.47
+    },
+    {
+     "w": "19",
+     "start": 2.47,
+     "end": 3.25
+    },
+    {
+     "w": "years",
+     "start": 3.25,
+     "end": 3.73
+    },
+    {
+     "w": "after",
+     "start": 3.73,
+     "end": 4.11
+    },
+    {
+     "w": "he",
+     "start": 4.11,
+     "end": 4.23
+    },
+    {
+     "w": "died.",
+     "start": 4.23,
+     "end": 4.57
+    },
+    {
+     "w": "What",
+     "start": 5.17,
+     "end": 5.25
+    },
+    {
+     "w": "did",
+     "start": 5.25,
+     "end": 5.37
+    },
+    {
+     "w": "they",
+     "start": 5.37,
+     "end": 5.51
+    },
+    {
+     "w": "find?",
+     "start": 5.51,
+     "end": 5.81
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "May 1821. Napoleon Bonaparte, once the master of Europe, dies in exile on Saint Helena, a rock in the South Atlantic.",
+   "start": 6.663,
+   "end": 15.489,
+   "words": [
+    {
+     "w": "May",
+     "start": 6.563,
+     "end": 6.763
+    },
+    {
+     "w": "1821.",
+     "start": 6.763,
+     "end": 7.603
+    },
+    {
+     "w": "Napoleon",
+     "start": 8.243,
+     "end": 8.803
+    },
+    {
+     "w": "Bonaparte,",
+     "start": 8.803,
+     "end": 9.523
+    },
+    {
+     "w": "once",
+     "start": 9.523,
+     "end": 9.823
+    },
+    {
+     "w": "the",
+     "start": 9.823,
+     "end": 10.023
+    },
+    {
+     "w": "master",
+     "start": 10.023,
+     "end": 10.283
+    },
+    {
+     "w": "of",
+     "start": 10.283,
+     "end": 10.583
+    },
+    {
+     "w": "Europe,",
+     "start": 10.583,
+     "end": 10.863
+    },
+    {
+     "w": "dies",
+     "start": 11.263,
+     "end": 11.563
+    },
+    {
+     "w": "in",
+     "start": 11.563,
+     "end": 11.863
+    },
+    {
+     "w": "exile",
+     "start": 11.863,
+     "end": 12.203
+    },
+    {
+     "w": "on",
+     "start": 12.203,
+     "end": 12.623
+    },
+    {
+     "w": "Saint",
+     "start": 12.623,
+     "end": 12.943
+    },
+    {
+     "w": "Helena,",
+     "start": 12.943,
+     "end": 13.123
+    },
+    {
+     "w": "a",
+     "start": 13.543,
+     "end": 13.763
+    },
+    {
+     "w": "rock",
+     "start": 13.763,
+     "end": 14.003
+    },
+    {
+     "w": "in",
+     "start": 14.003,
+     "end": 14.303
+    },
+    {
+     "w": "the",
+     "start": 14.303,
+     "end": 14.403
+    },
+    {
+     "w": "South",
+     "start": 14.403,
+     "end": 14.643
+    },
+    {
+     "w": "Atlantic.",
+     "start": 14.643,
+     "end": 15.123
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "He is buried in a quiet valley, under heavy stone slabs, in four coffins, one inside another.",
+   "start": 15.889,
+   "end": 21.646,
+   "words": [
+    {
+     "w": "He",
+     "start": 15.789,
+     "end": 15.969
+    },
+    {
+     "w": "is",
+     "start": 15.969,
+     "end": 16.049
+    },
+    {
+     "w": "buried",
+     "start": 16.049,
+     "end": 16.349
+    },
+    {
+     "w": "in",
+     "start": 16.349,
+     "end": 16.549
+    },
+    {
+     "w": "a",
+     "start": 16.549,
+     "end": 16.589
+    },
+    {
+     "w": "quiet",
+     "start": 16.589,
+     "end": 16.849
+    },
+    {
+     "w": "valley,",
+     "start": 16.849,
+     "end": 17.249
+    },
+    {
+     "w": "under",
+     "start": 17.249,
+     "end": 17.749
+    },
+    {
+     "w": "heavy",
+     "start": 17.749,
+     "end": 18.049
+    },
+    {
+     "w": "stone",
+     "start": 18.049,
+     "end": 18.389
+    },
+    {
+     "w": "slabs,",
+     "start": 18.389,
+     "end": 18.949
+    },
+    {
+     "w": "in",
+     "start": 18.949,
+     "end": 19.089
+    },
+    {
+     "w": "four",
+     "start": 19.089,
+     "end": 19.309
+    },
+    {
+     "w": "coffins,",
+     "start": 19.309,
+     "end": 20.049
+    },
+    {
+     "w": "one",
+     "start": 20.309,
+     "end": 20.589
+    },
+    {
+     "w": "inside",
+     "start": 20.589,
+     "end": 20.969
+    },
+    {
+     "w": "another.",
+     "start": 20.969,
+     "end": 21.509
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Nineteen years later, France wants its emperor back. At midnight in October 1840, by torchlight, British soldiers begin to dig.",
+   "start": 22.146,
+   "end": 30.977,
+   "words": [
+    {
+     "w": "Nineteen",
+     "start": 22.146,
+     "end": 22.446
+    },
+    {
+     "w": "years",
+     "start": 22.446,
+     "end": 22.766
+    },
+    {
+     "w": "later,",
+     "start": 22.766,
+     "end": 23.206
+    },
+    {
+     "w": "France",
+     "start": 23.546,
+     "end": 23.726
+    },
+    {
+     "w": "wants",
+     "start": 23.726,
+     "end": 24.026
+    },
+    {
+     "w": "its",
+     "start": 24.026,
+     "end": 24.226
+    },
+    {
+     "w": "emperor",
+     "start": 24.226,
+     "end": 24.446
+    },
+    {
+     "w": "back.",
+     "start": 24.446,
+     "end": 24.826
+    },
+    {
+     "w": "At",
+     "start": 25.566,
+     "end": 25.626
+    },
+    {
+     "w": "midnight",
+     "start": 25.626,
+     "end": 25.906
+    },
+    {
+     "w": "in",
+     "start": 25.906,
+     "end": 26.286
+    },
+    {
+     "w": "October",
+     "start": 26.286,
+     "end": 26.466
+    },
+    {
+     "w": "1840,",
+     "start": 26.466,
+     "end": 27.146
+    },
+    {
+     "w": "by",
+     "start": 27.966,
+     "end": 28.066
+    },
+    {
+     "w": "torchlight,",
+     "start": 28.066,
+     "end": 28.686
+    },
+    {
+     "w": "British",
+     "start": 29.006,
+     "end": 29.286
+    },
+    {
+     "w": "soldiers",
+     "start": 29.286,
+     "end": 29.786
+    },
+    {
+     "w": "begin",
+     "start": 29.786,
+     "end": 30.266
+    },
+    {
+     "w": "to",
+     "start": 30.266,
+     "end": 30.486
+    },
+    {
+     "w": "dig.",
+     "start": 30.486,
+     "end": 30.726
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "It takes them hours to break through the stone. Coffin after coffin is opened. When the last lid lifts, the witnesses see only a white shape. They fear the worst.",
+   "start": 31.377,
+   "end": 41.118,
+   "words": [
+    {
+     "w": "It",
+     "start": 31.277,
+     "end": 31.457
+    },
+    {
+     "w": "takes",
+     "start": 31.457,
+     "end": 31.717
+    },
+    {
+     "w": "them",
+     "start": 31.717,
+     "end": 31.877
+    },
+    {
+     "w": "hours",
+     "start": 31.877,
+     "end": 32.217
+    },
+    {
+     "w": "to",
+     "start": 32.217,
+     "end": 32.517
+    },
+    {
+     "w": "break",
+     "start": 32.517,
+     "end": 32.677
+    },
+    {
+     "w": "through",
+     "start": 32.677,
+     "end": 32.937
+    },
+    {
+     "w": "the",
+     "start": 32.937,
+     "end": 33.037
+    },
+    {
+     "w": "stone.",
+     "start": 33.037,
+     "end": 33.337
+    },
+    {
+     "w": "Coffin",
+     "start": 34.077,
+     "end": 34.137
+    },
+    {
+     "w": "after",
+     "start": 34.137,
+     "end": 34.617
+    },
+    {
+     "w": "coffin",
+     "start": 34.617,
+     "end": 34.937
+    },
+    {
+     "w": "is",
+     "start": 34.937,
+     "end": 35.217
+    },
+    {
+     "w": "opened.",
+     "start": 35.217,
+     "end": 35.537
+    },
+    {
+     "w": "When",
+     "start": 36.217,
+     "end": 36.257
+    },
+    {
+     "w": "the",
+     "start": 36.257,
+     "end": 36.377
+    },
+    {
+     "w": "last",
+     "start": 36.377,
+     "end": 36.597
+    },
+    {
+     "w": "lid",
+     "start": 36.597,
+     "end": 36.897
+    },
+    {
+     "w": "lifts,",
+     "start": 36.897,
+     "end": 37.197
+    },
+    {
+     "w": "the",
+     "start": 37.497,
+     "end": 37.557
+    },
+    {
+     "w": "witnesses",
+     "start": 37.557,
+     "end": 37.857
+    },
+    {
+     "w": "see",
+     "start": 37.857,
+     "end": 38.297
+    },
+    {
+     "w": "only",
+     "start": 38.297,
+     "end": 38.677
+    },
+    {
+     "w": "a",
+     "start": 38.677,
+     "end": 38.857
+    },
+    {
+     "w": "white",
+     "start": 38.857,
+     "end": 39.057
+    },
+    {
+     "w": "shape.",
+     "start": 39.057,
+     "end": 39.417
+    },
+    {
+     "w": "They",
+     "start": 39.897,
+     "end": 40.017
+    },
+    {
+     "w": "fear",
+     "start": 40.017,
+     "end": 40.297
+    },
+    {
+     "w": "the",
+     "start": 40.297,
+     "end": 40.517
+    },
+    {
+     "w": "worst.",
+     "start": 40.517,
+     "end": 40.777
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Then the ship's surgeon slowly rolls back a sheet of white satin that had fallen from the lid.",
+   "start": 41.618,
+   "end": 46.781,
+   "words": [
+    {
+     "w": "Then",
+     "start": 41.518,
+     "end": 41.718
+    },
+    {
+     "w": "the",
+     "start": 41.718,
+     "end": 41.798
+    },
+    {
+     "w": "ship's",
+     "start": 41.798,
+     "end": 42.138
+    },
+    {
+     "w": "surgeon",
+     "start": 42.138,
+     "end": 42.458
+    },
+    {
+     "w": "slowly",
+     "start": 42.458,
+     "end": 42.898
+    },
+    {
+     "w": "rolls",
+     "start": 42.898,
+     "end": 43.258
+    },
+    {
+     "w": "back",
+     "start": 43.258,
+     "end": 43.638
+    },
+    {
+     "w": "a",
+     "start": 43.638,
+     "end": 43.818
+    },
+    {
+     "w": "sheet",
+     "start": 43.818,
+     "end": 44.058
+    },
+    {
+     "w": "of",
+     "start": 44.058,
+     "end": 44.198
+    },
+    {
+     "w": "white",
+     "start": 44.198,
+     "end": 44.418
+    },
+    {
+     "w": "satin",
+     "start": 44.418,
+     "end": 44.978
+    },
+    {
+     "w": "that",
+     "start": 44.978,
+     "end": 45.458
+    },
+    {
+     "w": "had",
+     "start": 45.458,
+     "end": 45.558
+    },
+    {
+     "w": "fallen",
+     "start": 45.558,
+     "end": 45.838
+    },
+    {
+     "w": "from",
+     "start": 45.838,
+     "end": 46.198
+    },
+    {
+     "w": "the",
+     "start": 46.198,
+     "end": 46.318
+    },
+    {
+     "w": "lid.",
+     "start": 46.318,
+     "end": 46.558
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Napoleon's face is instantly recognizable. Eyes closed. Eyelashes still there. His green uniform, almost perfect. The red ribbon of the Legion of Honor, still across his chest.",
+   "start": 47.181,
+   "end": 58.948,
+   "words": [
+    {
+     "w": "Napoleon's",
+     "start": 47.081,
+     "end": 47.801
+    },
+    {
+     "w": "face",
+     "start": 47.801,
+     "end": 48.041
+    },
+    {
+     "w": "is",
+     "start": 48.041,
+     "end": 48.301
+    },
+    {
+     "w": "instantly",
+     "start": 48.301,
+     "end": 48.761
+    },
+    {
+     "w": "recognizable.",
+     "start": 48.761,
+     "end": 49.201
+    },
+    {
+     "w": "Eyes",
+     "start": 50.241,
+     "end": 50.421
+    },
+    {
+     "w": "closed.",
+     "start": 50.421,
+     "end": 50.741
+    },
+    {
+     "w": "Eyelashes",
+     "start": 51.681,
+     "end": 52.001
+    },
+    {
+     "w": "still",
+     "start": 52.001,
+     "end": 52.281
+    },
+    {
+     "w": "there.",
+     "start": 52.281,
+     "end": 52.561
+    },
+    {
+     "w": "His",
+     "start": 53.101,
+     "end": 53.181
+    },
+    {
+     "w": "green",
+     "start": 53.181,
+     "end": 53.441
+    },
+    {
+     "w": "uniform,",
+     "start": 53.441,
+     "end": 53.841
+    },
+    {
+     "w": "almost",
+     "start": 53.841,
+     "end": 54.501
+    },
+    {
+     "w": "perfect.",
+     "start": 54.501,
+     "end": 54.921
+    },
+    {
+     "w": "The",
+     "start": 55.501,
+     "end": 55.761
+    },
+    {
+     "w": "red",
+     "start": 55.761,
+     "end": 55.961
+    },
+    {
+     "w": "ribbon",
+     "start": 55.961,
+     "end": 56.281
+    },
+    {
+     "w": "of",
+     "start": 56.281,
+     "end": 56.541
+    },
+    {
+     "w": "the",
+     "start": 56.541,
+     "end": 56.661
+    },
+    {
+     "w": "Legion",
+     "start": 56.661,
+     "end": 56.921
+    },
+    {
+     "w": "of",
+     "start": 56.921,
+     "end": 57.161
+    },
+    {
+     "w": "Honor,",
+     "start": 57.161,
+     "end": 57.401
+    },
+    {
+     "w": "still",
+     "start": 57.401,
+     "end": 57.741
+    },
+    {
+     "w": "across",
+     "start": 57.741,
+     "end": 58.001
+    },
+    {
+     "w": "his",
+     "start": 58.001,
+     "end": 58.361
+    },
+    {
+     "w": "chest.",
+     "start": 58.361,
+     "end": 58.621
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Nineteen years after his death, the Emperor looked like he was asleep.",
+   "start": 59.448,
+   "end": 63.339,
+   "words": [
+    {
+     "w": "Nineteen",
+     "start": 59.448,
+     "end": 59.768
+    },
+    {
+     "w": "years",
+     "start": 59.768,
+     "end": 60.168
+    },
+    {
+     "w": "after",
+     "start": 60.168,
+     "end": 60.568
+    },
+    {
+     "w": "his",
+     "start": 60.568,
+     "end": 60.728
+    },
+    {
+     "w": "death,",
+     "start": 60.728,
+     "end": 61.008
+    },
+    {
+     "w": "the",
+     "start": 61.488,
+     "end": 61.548
+    },
+    {
+     "w": "Emperor",
+     "start": 61.548,
+     "end": 61.908
+    },
+    {
+     "w": "looked",
+     "start": 61.908,
+     "end": 62.208
+    },
+    {
+     "w": "like",
+     "start": 62.208,
+     "end": 62.428
+    },
+    {
+     "w": "he",
+     "start": 62.428,
+     "end": 62.568
+    },
+    {
+     "w": "was",
+     "start": 62.568,
+     "end": 62.688
+    },
+    {
+     "w": "asleep.",
+     "start": 62.688,
+     "end": 63.088
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "That December, Paris carried him through its freezing streets to Les Invalides, where he lies today.",
+   "start": 63.939,
+   "end": 69.551,
+   "words": [
+    {
+     "w": "That",
+     "start": 63.839,
+     "end": 64.039
+    },
+    {
+     "w": "December,",
+     "start": 64.039,
+     "end": 64.339
+    },
+    {
+     "w": "Paris",
+     "start": 64.799,
+     "end": 64.959
+    },
+    {
+     "w": "carried",
+     "start": 64.959,
+     "end": 65.319
+    },
+    {
+     "w": "him",
+     "start": 65.319,
+     "end": 65.539
+    },
+    {
+     "w": "through",
+     "start": 65.539,
+     "end": 65.779
+    },
+    {
+     "w": "its",
+     "start": 65.779,
+     "end": 65.999
+    },
+    {
+     "w": "freezing",
+     "start": 65.999,
+     "end": 66.219
+    },
+    {
+     "w": "streets",
+     "start": 66.219,
+     "end": 66.779
+    },
+    {
+     "w": "to",
+     "start": 66.779,
+     "end": 67.059
+    },
+    {
+     "w": "Les",
+     "start": 67.059,
+     "end": 67.429
+    },
+    {
+     "w": "Invalides,",
+     "start": 67.429,
+     "end": 67.799
+    },
+    {
+     "w": "where",
+     "start": 67.799,
+     "end": 68.499
+    },
+    {
+     "w": "he",
+     "start": 68.499,
+     "end": 68.599
+    },
+    {
+     "w": "lies",
+     "start": 68.599,
+     "end": 68.859
+    },
+    {
+     "w": "today.",
+     "start": 68.859,
+     "end": 69.199
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "How did his body survive? Arsenic, some say. Others point to four sealed coffins. What do you think? Follow Buried Chronicles.",
+   "start": 69.951,
+   "end": 77.553,
+   "words": [
+    {
+     "w": "How",
+     "start": 69.851,
+     "end": 70.071
+    },
+    {
+     "w": "did",
+     "start": 70.071,
+     "end": 70.171
+    },
+    {
+     "w": "his",
+     "start": 70.171,
+     "end": 70.291
+    },
+    {
+     "w": "body",
+     "start": 70.291,
+     "end": 70.531
+    },
+    {
+     "w": "survive?",
+     "start": 70.531,
+     "end": 70.931
+    },
+    {
+     "w": "Arsenic,",
+     "start": 70.931,
+     "end": 71.871
+    },
+    {
+     "w": "some",
+     "start": 71.871,
+     "end": 72.111
+    },
+    {
+     "w": "say.",
+     "start": 72.111,
+     "end": 72.391
+    },
+    {
+     "w": "Others",
+     "start": 73.131,
+     "end": 73.131
+    },
+    {
+     "w": "point",
+     "start": 73.131,
+     "end": 73.391
+    },
+    {
+     "w": "to",
+     "start": 73.391,
+     "end": 73.591
+    },
+    {
+     "w": "four",
+     "start": 73.591,
+     "end": 73.791
+    },
+    {
+     "w": "sealed",
+     "start": 73.791,
+     "end": 74.151
+    },
+    {
+     "w": "coffins.",
+     "start": 74.151,
+     "end": 74.771
+    },
+    {
+     "w": "What",
+     "start": 75.251,
+     "end": 75.271
+    },
+    {
+     "w": "do",
+     "start": 75.271,
+     "end": 75.371
+    },
+    {
+     "w": "you",
+     "start": 75.371,
+     "end": 75.471
+    },
+    {
+     "w": "think?",
+     "start": 75.471,
+     "end": 75.751
+    },
+    {
+     "w": "Follow",
+     "start": 76.071,
+     "end": 76.291
+    },
+    {
+     "w": "Buried",
+     "start": 76.291,
+     "end": 76.671
+    },
+    {
+     "w": "Chronicles.",
+     "start": 76.671,
+     "end": 77.271
+    }
+   ]
+  }
+ ]
+}

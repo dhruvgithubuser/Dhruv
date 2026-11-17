@@ -1,0 +1,107 @@
+[
+ {
+  "file": "fire.wav",
+  "at": 0.0,
+  "volume": 0.4
+ },
+ {
+  "file": "wind.wav",
+  "at": 0.0,
+  "volume": 0.25
+ },
+ {
+  "file": "wind.wav",
+  "at": 6.363,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 2.47,
+  "volume": 0.4
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 15.589,
+  "volume": 0.22
+ },
+ {
+  "file": "impact.wav",
+  "at": 19.089,
+  "volume": 0.35
+ },
+ {
+  "file": "dig.wav",
+  "at": 18.389,
+  "volume": 0.5
+ },
+ {
+  "file": "fire.wav",
+  "at": 21.846,
+  "volume": 0.45
+ },
+ {
+  "file": "dig.wav",
+  "at": 30.486,
+  "volume": 0.6
+ },
+ {
+  "file": "dig.wav",
+  "at": 33.486,
+  "volume": 0.5
+ },
+ {
+  "file": "creak.wav",
+  "at": 34.077,
+  "volume": 0.55
+ },
+ {
+  "file": "creak.wav",
+  "at": 34.81,
+  "volume": 0.5
+ },
+ {
+  "file": "creak.wav",
+  "at": 35.544,
+  "volume": 0.5
+ },
+ {
+  "file": "creak.wav",
+  "at": 36.377,
+  "volume": 0.6
+ },
+ {
+  "file": "fire.wav",
+  "at": 31.077,
+  "volume": 0.35
+ },
+ {
+  "file": "paper.wav",
+  "at": 42.898,
+  "volume": 0.5
+ },
+ {
+  "file": "impact.wav",
+  "at": 46.981,
+  "volume": 0.4
+ },
+ {
+  "file": "bell.wav",
+  "at": 63.939,
+  "volume": 0.35
+ },
+ {
+  "file": "bell.wav",
+  "at": 66.939,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 63.639,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 69.651,
+  "volume": 0.22
+ }
+]
