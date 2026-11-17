@@ -41,3 +41,41 @@ If you want the tool to render text itself (Ideogram does this best), append:
 ```
 Bold headline text at the top in white and gold condensed capitals: "HE LOOKED ASLEEP."
 ```
+
+---
+
+# Prompts WITH text on the thumbnail
+
+Best tools for spelling: **Ideogram 2/3**, **ChatGPT image (GPT-4o)**, **Google Flow / Imagen 4**, **Midjourney v7**. Keep the quoted words exactly as written. If a word comes out misspelled, regenerate or fix just that word with the tool's edit/inpaint brush.
+
+## Prompt A: Shorts cover, 9:16, with text
+```
+Vertical 9:16 YouTube Shorts cover, editorial history poster design, realistic cinematic oil-painting style, dark brown and black background with warm gold torchlight.
+
+TOP of the image: a huge bold condensed sans-serif headline in two lines, all capitals, perfectly spelled: first line "HE LOOKED" in white, second line "ASLEEP." in rich gold, with a strong black drop shadow.
+
+CENTER: Napoleon Bonaparte lying in an open coffin at night, perfectly preserved, eyes closed as if peacefully asleep, pale calm face matching the reference portrait, green uniform with gold epaulettes and the red sash of the Legion of Honour, white satin sheet folded back, four nested coffin rims (tin, mahogany, lead) around him, flaming torches at the edges of the grave, British redcoat soldiers with shovels in shadow, drifting embers.
+
+RIGHT SIDE, below the headline: a round gold medallion badge with the small text "ST HELENA 1840".
+
+BOTTOM LEFT: a black rectangle with a thin gold border containing large white text "19 YEARS" and below it smaller gold text "AFTER HIS DEATH".
+
+BOTTOM RIGHT: two small gold circle icons, a padlock and a flame, with short white captions "4 SEALED COFFINS" and "OPENED BY TORCHLIGHT".
+
+High contrast, sharp clean typography, plenty of breathing space around the text, film grain, dignified not gruesome. No other text, no watermark, no logo.
+```
+
+## Prompt B: Shorts cover, 9:16, minimal text (most reliable spelling)
+```
+Vertical 9:16 YouTube Shorts cover, realistic cinematic oil painting. Close-up of Napoleon Bonaparte's preserved face inside an open coffin, eyes closed as if asleep, matching the reference portrait, white satin around his head, warm torchlight from the right, deep black shadows, gold embers. At the top, huge bold condensed capital letters with black shadow: "HE LOOKED" in white and "ASLEEP." in gold. At the bottom, a gold-bordered black box with white text "19 YEARS LATER". Only these words, spelled exactly. No watermark, no logo, not gruesome.
+```
+
+## Prompt C: Long-video / 16:9 thumbnail, with text
+```
+Horizontal 16:9 YouTube thumbnail, editorial history poster design, realistic cinematic oil painting, dark brown background with gold light. LEFT 45%: half-length portrait of Napoleon Bonaparte alive in 1812, matching the reference portrait, serious expression, gold rim light. RIGHT side, top: huge bold condensed capital headline with black shadow, "HE LOOKED" in white on the first line and "ASLEEP." in gold on the second line. RIGHT side, middle: an aged sepia drawing of Napoleon lying in an open coffin under torchlight, framed like an old print, with a small gold caption "OPENED 1840". BOTTOM RIGHT: gold-bordered black box with large white text "19 YEARS" and small gold text "AFTER HIS DEATH". Only these words, spelled exactly, sharp clean typography. No watermark, no logo, not gruesome.
+```
+
+## Negative prompt (if supported)
+```
+misspelled text, extra words, gibberish letters, watermark, logo, gore, decay, skull, skeleton, horror, blood, distorted face, extra fingers, cartoon
+```
