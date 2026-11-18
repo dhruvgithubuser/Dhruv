@@ -121,14 +121,14 @@ const VCMedal: React.FC = () => {
           <linearGradient id="ribbon" x1="0" x2="1"><stop offset="0" stopColor="#4a0c12" /><stop offset="0.25" stopColor="#9b1b26" /><stop offset="0.5" stopColor="#7d1520" /><stop offset="0.8" stopColor="#a52330" /><stop offset="1" stopColor="#4a0c12" /></linearGradient>
           <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#c99a62" /><stop offset="0.45" stopColor="#8a5f34" /><stop offset="0.7" stopColor="#a8784a" /><stop offset="1" stopColor="#4d3219" /></linearGradient>
           <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stopColor="#fff" stopOpacity="0" /><stop offset="0.5" stopColor="#ffe9c0" stopOpacity="0.55" /><stop offset="1" stopColor="#fff" stopOpacity="0" /></linearGradient>
-          <clipPath id="vcclip"><g transform="translate(540 1180)">{[0, 90, 180, 270].map((r) => <path key={r} d={arm} transform={`rotate(${r})`} />)}<circle r={92} /></g></clipPath>
+          <clipPath id="vcclip"><g transform="translate(540 990)">{[0, 90, 180, 270].map((r) => <path key={r} d={arm} transform={`rotate(${r})`} />)}<circle r={92} /></g></clipPath>
         </defs>
-        <rect x={400} y={-20} width={280} height={880} fill="url(#ribbon)" />
-        {Array.from({ length: 40 }, (_, i) => <line key={i} x1={400} x2={680} y1={i * 22} y2={i * 22 + 4} stroke="rgba(0,0,0,0.12)" strokeWidth={2} />)}
-        <rect x={390} y={850} width={300} height={46} rx={10} fill="url(#bronze)" stroke="#3a2412" strokeWidth={4} />
-        <path d="M505 896 L540 935 L575 896 Z" fill="url(#bronze)" stroke="#3a2412" strokeWidth={4} />
-        <circle cx={540} cy={938} r={16} fill="none" stroke="#7a542c" strokeWidth={10} />
-        <g transform="translate(540 1180)" style={{ filter: 'drop-shadow(0 18px 30px rgba(0,0,0,0.8))' }}>
+        <rect x={400} y={-20} width={280} height={690} fill="url(#ribbon)" />
+        {Array.from({ length: 31 }, (_, i) => <line key={i} x1={400} x2={680} y1={i * 22} y2={i * 22 + 4} stroke="rgba(0,0,0,0.12)" strokeWidth={2} />)}
+        <rect x={390} y={660} width={300} height={46} rx={10} fill="url(#bronze)" stroke="#3a2412" strokeWidth={4} />
+        <path d="M505 706 L540 745 L575 706 Z" fill="url(#bronze)" stroke="#3a2412" strokeWidth={4} />
+        <circle cx={540} cy={748} r={16} fill="none" stroke="#7a542c" strokeWidth={10} />
+        <g transform="translate(540 990)" style={{ filter: 'drop-shadow(0 18px 30px rgba(0,0,0,0.8))' }}>
           {[0, 90, 180, 270].map((r) => <path key={r} d={arm} transform={`rotate(${r})`} fill="url(#bronze)" stroke="#3a2412" strokeWidth={6} />)}
           <circle r={96} fill="url(#bronze)" stroke="#3a2412" strokeWidth={6} />
           <path d="M-62 -18 L-62 -62 L-34 -40 L0 -74 L34 -40 L62 -62 L62 -18 Z" fill="#6e4a26" stroke="#3a2412" strokeWidth={4} />
@@ -136,7 +136,7 @@ const VCMedal: React.FC = () => {
           <rect x={-150} y={110} width={300} height={56} rx={8} fill="#6e4a26" stroke="#3a2412" strokeWidth={4} />
           <text x={0} y={150} textAnchor="middle" fontFamily="Playfair" fontWeight={900} fontSize={38} fill="#d9b27a" letterSpacing={3}>FOR VALOUR</text>
         </g>
-        <rect x={sweep} y={850} width={260} height={700} fill="url(#shine)" clipPath="url(#vcclip)" transform="skewX(-20)" />
+        <rect x={sweep} y={660} width={260} height={700} fill="url(#shine)" clipPath="url(#vcclip)" transform="skewX(-20)" />
       </svg>
     </AbsoluteFill>
   );
@@ -154,7 +154,7 @@ const S01: React.FC = () => {
       <Dim />
       <Particles kind="ash" n={40} o={0.5} />
       {f >= nine && (
-        <div style={{ position: 'absolute', left: 0, right: 0, top: 200, textAlign: 'center', transform: `scale(${1.25 - 0.25 * ease(f, nine, nine + 8)})`, opacity: lin(f, nine, nine + 5) }}>
+        <div style={{ position: 'absolute', right: 60, top: 640, textAlign: 'center', transform: `scale(${1.25 - 0.25 * ease(f, nine, nine + 8)})`, transformOrigin: 'right center', opacity: lin(f, nine, nine + 5) }}>
           <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 210, lineHeight: 1, color: '#fff', textShadow: '0 10px 30px #000' }}>9</div>
           <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 64, letterSpacing: 8, color: C.redHi, textShadow: '0 4px 14px #000' }}>WOUNDS</div>
         </div>
