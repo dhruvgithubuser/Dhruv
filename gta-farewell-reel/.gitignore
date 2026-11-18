@@ -1,0 +1,6 @@
+clips/*
+!clips/.gitkeep
+audio/*
+!audio/.gitkeep
+out/
+refs/
