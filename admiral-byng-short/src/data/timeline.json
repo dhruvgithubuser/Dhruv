@@ -1,0 +1,1137 @@
+{
+ "fps": 30,
+ "duration": 78.668,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're looking at a British admiral his own country shot in 1757. The judges begged for mercy. So why did he die?",
+   "start": 0.35,
+   "end": 7.937,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.45
+    },
+    {
+     "w": "looking",
+     "start": 0.45,
+     "end": 0.65
+    },
+    {
+     "w": "at",
+     "start": 0.65,
+     "end": 0.81
+    },
+    {
+     "w": "a",
+     "start": 0.81,
+     "end": 0.85
+    },
+    {
+     "w": "British",
+     "start": 0.85,
+     "end": 1.11
+    },
+    {
+     "w": "admiral",
+     "start": 1.11,
+     "end": 1.65
+    },
+    {
+     "w": "his",
+     "start": 1.65,
+     "end": 1.87
+    },
+    {
+     "w": "own",
+     "start": 1.87,
+     "end": 2.09
+    },
+    {
+     "w": "country",
+     "start": 2.09,
+     "end": 2.45
+    },
+    {
+     "w": "shot",
+     "start": 2.45,
+     "end": 2.79
+    },
+    {
+     "w": "in",
+     "start": 2.79,
+     "end": 3.11
+    },
+    {
+     "w": "1757.",
+     "start": 3.11,
+     "end": 3.87
+    },
+    {
+     "w": "The",
+     "start": 4.93,
+     "end": 4.97
+    },
+    {
+     "w": "judges",
+     "start": 4.97,
+     "end": 5.19
+    },
+    {
+     "w": "begged",
+     "start": 5.19,
+     "end": 5.63
+    },
+    {
+     "w": "for",
+     "start": 5.63,
+     "end": 5.95
+    },
+    {
+     "w": "mercy.",
+     "start": 5.95,
+     "end": 6.27
+    },
+    {
+     "w": "So",
+     "start": 6.75,
+     "end": 6.91
+    },
+    {
+     "w": "why",
+     "start": 6.91,
+     "end": 7.15
+    },
+    {
+     "w": "did",
+     "start": 7.15,
+     "end": 7.35
+    },
+    {
+     "w": "he",
+     "start": 7.35,
+     "end": 7.45
+    },
+    {
+     "w": "die?",
+     "start": 7.45,
+     "end": 7.73
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Admiral John Byng. In 1756, Britain sends him to save the island of Minorca from the French, with ships in poor repair, and hundreds of sailors short.",
+   "start": 8.297,
+   "end": 18.426,
+   "words": [
+    {
+     "w": "Admiral",
+     "start": 8.197,
+     "end": 8.577
+    },
+    {
+     "w": "John",
+     "start": 8.577,
+     "end": 8.917
+    },
+    {
+     "w": "Byng.",
+     "start": 8.917,
+     "end": 10.057
+    },
+    {
+     "w": "In",
+     "start": 10.057,
+     "end": 10.097
+    },
+    {
+     "w": "1756,",
+     "start": 10.097,
+     "end": 10.937
+    },
+    {
+     "w": "Britain",
+     "start": 11.517,
+     "end": 11.757
+    },
+    {
+     "w": "sends",
+     "start": 11.757,
+     "end": 12.057
+    },
+    {
+     "w": "him",
+     "start": 12.057,
+     "end": 12.357
+    },
+    {
+     "w": "to",
+     "start": 12.357,
+     "end": 12.497
+    },
+    {
+     "w": "save",
+     "start": 12.497,
+     "end": 12.717
+    },
+    {
+     "w": "the",
+     "start": 12.717,
+     "end": 12.977
+    },
+    {
+     "w": "island",
+     "start": 12.977,
+     "end": 13.257
+    },
+    {
+     "w": "of",
+     "start": 13.257,
+     "end": 13.497
+    },
+    {
+     "w": "Minorca",
+     "start": 13.497,
+     "end": 14.077
+    },
+    {
+     "w": "from",
+     "start": 14.077,
+     "end": 14.297
+    },
+    {
+     "w": "the",
+     "start": 14.297,
+     "end": 14.377
+    },
+    {
+     "w": "French,",
+     "start": 14.377,
+     "end": 14.617
+    },
+    {
+     "w": "with",
+     "start": 15.197,
+     "end": 15.237
+    },
+    {
+     "w": "ships",
+     "start": 15.237,
+     "end": 15.457
+    },
+    {
+     "w": "in",
+     "start": 15.457,
+     "end": 15.697
+    },
+    {
+     "w": "poor",
+     "start": 15.697,
+     "end": 15.917
+    },
+    {
+     "w": "repair,",
+     "start": 15.917,
+     "end": 16.357
+    },
+    {
+     "w": "and",
+     "start": 16.357,
+     "end": 16.917
+    },
+    {
+     "w": "hundreds",
+     "start": 16.917,
+     "end": 17.217
+    },
+    {
+     "w": "of",
+     "start": 17.217,
+     "end": 17.477
+    },
+    {
+     "w": "sailors",
+     "start": 17.477,
+     "end": 17.837
+    },
+    {
+     "w": "short.",
+     "start": 17.837,
+     "end": 18.217
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Off the island, the fleets clash. His line falls apart, and his ships take heavy damage. He sails back to Gibraltar for repairs. Minorca falls.",
+   "start": 18.746,
+   "end": 27.607,
+   "words": [
+    {
+     "w": "Off",
+     "start": 18.646,
+     "end": 18.866
+    },
+    {
+     "w": "the",
+     "start": 18.866,
+     "end": 19.026
+    },
+    {
+     "w": "island,",
+     "start": 19.026,
+     "end": 19.366
+    },
+    {
+     "w": "the",
+     "start": 19.566,
+     "end": 19.606
+    },
+    {
+     "w": "fleets",
+     "start": 19.606,
+     "end": 19.966
+    },
+    {
+     "w": "clash.",
+     "start": 19.966,
+     "end": 20.106
+    },
+    {
+     "w": "His",
+     "start": 20.846,
+     "end": 20.906
+    },
+    {
+     "w": "line",
+     "start": 20.906,
+     "end": 21.186
+    },
+    {
+     "w": "falls",
+     "start": 21.186,
+     "end": 21.506
+    },
+    {
+     "w": "apart,",
+     "start": 21.506,
+     "end": 21.926
+    },
+    {
+     "w": "and",
+     "start": 21.926,
+     "end": 22.226
+    },
+    {
+     "w": "his",
+     "start": 22.226,
+     "end": 22.326
+    },
+    {
+     "w": "ships",
+     "start": 22.326,
+     "end": 22.526
+    },
+    {
+     "w": "take",
+     "start": 22.526,
+     "end": 22.806
+    },
+    {
+     "w": "heavy",
+     "start": 22.806,
+     "end": 23.086
+    },
+    {
+     "w": "damage.",
+     "start": 23.086,
+     "end": 23.546
+    },
+    {
+     "w": "He",
+     "start": 24.026,
+     "end": 24.066
+    },
+    {
+     "w": "sails",
+     "start": 24.066,
+     "end": 24.246
+    },
+    {
+     "w": "back",
+     "start": 24.246,
+     "end": 24.626
+    },
+    {
+     "w": "to",
+     "start": 24.626,
+     "end": 24.806
+    },
+    {
+     "w": "Gibraltar",
+     "start": 24.806,
+     "end": 25.026
+    },
+    {
+     "w": "for",
+     "start": 25.026,
+     "end": 25.506
+    },
+    {
+     "w": "repairs.",
+     "start": 25.506,
+     "end": 25.746
+    },
+    {
+     "w": "Minorca",
+     "start": 26.626,
+     "end": 26.946
+    },
+    {
+     "w": "falls.",
+     "start": 26.946,
+     "end": 27.166
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "In London, the government prints an edited version of his report that makes him look like a coward. Crowds burn him in effigy.",
+   "start": 27.967,
+   "end": 35.244,
+   "words": [
+    {
+     "w": "In",
+     "start": 27.867,
+     "end": 28.047
+    },
+    {
+     "w": "London,",
+     "start": 28.047,
+     "end": 28.367
+    },
+    {
+     "w": "the",
+     "start": 28.587,
+     "end": 28.607
+    },
+    {
+     "w": "government",
+     "start": 28.607,
+     "end": 28.867
+    },
+    {
+     "w": "prints",
+     "start": 28.867,
+     "end": 29.247
+    },
+    {
+     "w": "an",
+     "start": 29.247,
+     "end": 29.447
+    },
+    {
+     "w": "edited",
+     "start": 29.447,
+     "end": 29.667
+    },
+    {
+     "w": "version",
+     "start": 29.667,
+     "end": 30.187
+    },
+    {
+     "w": "of",
+     "start": 30.187,
+     "end": 30.487
+    },
+    {
+     "w": "his",
+     "start": 30.487,
+     "end": 30.607
+    },
+    {
+     "w": "report",
+     "start": 30.607,
+     "end": 30.947
+    },
+    {
+     "w": "that",
+     "start": 30.947,
+     "end": 31.607
+    },
+    {
+     "w": "makes",
+     "start": 31.607,
+     "end": 31.787
+    },
+    {
+     "w": "him",
+     "start": 31.787,
+     "end": 32.007
+    },
+    {
+     "w": "look",
+     "start": 32.007,
+     "end": 32.187
+    },
+    {
+     "w": "like",
+     "start": 32.187,
+     "end": 32.387
+    },
+    {
+     "w": "a",
+     "start": 32.387,
+     "end": 32.487
+    },
+    {
+     "w": "coward.",
+     "start": 32.487,
+     "end": 32.847
+    },
+    {
+     "w": "Crowds",
+     "start": 33.787,
+     "end": 33.987
+    },
+    {
+     "w": "burn",
+     "start": 33.987,
+     "end": 34.187
+    },
+    {
+     "w": "him",
+     "start": 34.187,
+     "end": 34.487
+    },
+    {
+     "w": "in",
+     "start": 34.487,
+     "end": 34.607
+    },
+    {
+     "w": "effigy.",
+     "start": 34.607,
+     "end": 35.127
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "His court martial clears him of cowardice. But it rules he did not \"do his utmost\". Under the law, that carries one sentence: death.",
+   "start": 35.564,
+   "end": 43.204,
+   "words": [
+    {
+     "w": "His",
+     "start": 35.464,
+     "end": 35.644
+    },
+    {
+     "w": "court",
+     "start": 35.644,
+     "end": 35.864
+    },
+    {
+     "w": "martial",
+     "start": 35.864,
+     "end": 36.344
+    },
+    {
+     "w": "clears",
+     "start": 36.344,
+     "end": 36.584
+    },
+    {
+     "w": "him",
+     "start": 36.584,
+     "end": 36.844
+    },
+    {
+     "w": "of",
+     "start": 36.844,
+     "end": 36.944
+    },
+    {
+     "w": "cowardice.",
+     "start": 36.944,
+     "end": 37.504
+    },
+    {
+     "w": "But",
+     "start": 37.964,
+     "end": 38.064
+    },
+    {
+     "w": "it",
+     "start": 38.064,
+     "end": 38.144
+    },
+    {
+     "w": "rules",
+     "start": 38.144,
+     "end": 38.404
+    },
+    {
+     "w": "he",
+     "start": 38.404,
+     "end": 38.704
+    },
+    {
+     "w": "did",
+     "start": 38.704,
+     "end": 38.824
+    },
+    {
+     "w": "not",
+     "start": 38.824,
+     "end": 39.024
+    },
+    {
+     "w": "\"do",
+     "start": 39.024,
+     "end": 39.244
+    },
+    {
+     "w": "his",
+     "start": 39.244,
+     "end": 39.384
+    },
+    {
+     "w": "utmost\".",
+     "start": 39.384,
+     "end": 39.644
+    },
+    {
+     "w": "Under",
+     "start": 40.304,
+     "end": 40.484
+    },
+    {
+     "w": "the",
+     "start": 40.484,
+     "end": 40.684
+    },
+    {
+     "w": "law,",
+     "start": 40.684,
+     "end": 40.924
+    },
+    {
+     "w": "that",
+     "start": 40.924,
+     "end": 41.184
+    },
+    {
+     "w": "carries",
+     "start": 41.184,
+     "end": 41.584
+    },
+    {
+     "w": "one",
+     "start": 41.584,
+     "end": 41.804
+    },
+    {
+     "w": "sentence:",
+     "start": 41.804,
+     "end": 42.224
+    },
+    {
+     "w": "death.",
+     "start": 42.764,
+     "end": 42.924
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "The judges ask the King for mercy. The King says no.",
+   "start": 43.564,
+   "end": 46.692,
+   "words": [
+    {
+     "w": "The",
+     "start": 43.464,
+     "end": 43.644
+    },
+    {
+     "w": "judges",
+     "start": 43.644,
+     "end": 43.904
+    },
+    {
+     "w": "ask",
+     "start": 43.904,
+     "end": 44.244
+    },
+    {
+     "w": "the",
+     "start": 44.244,
+     "end": 44.444
+    },
+    {
+     "w": "King",
+     "start": 44.444,
+     "end": 44.604
+    },
+    {
+     "w": "for",
+     "start": 44.604,
+     "end": 44.804
+    },
+    {
+     "w": "mercy.",
+     "start": 44.804,
+     "end": 45.124
+    },
+    {
+     "w": "The",
+     "start": 45.644,
+     "end": 45.664
+    },
+    {
+     "w": "King",
+     "start": 45.664,
+     "end": 45.804
+    },
+    {
+     "w": "says",
+     "start": 45.804,
+     "end": 46.144
+    },
+    {
+     "w": "no.",
+     "start": 46.144,
+     "end": 46.444
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "March 14, 1757. On the deck of HMS Monarch, with the fleet watching, Byng kneels on a cushion. He drops his handkerchief. The Marines fire.",
+   "start": 47.092,
+   "end": 57.503,
+   "words": [
+    {
+     "w": "March",
+     "start": 46.992,
+     "end": 47.232
+    },
+    {
+     "w": "14,",
+     "start": 47.232,
+     "end": 47.732
+    },
+    {
+     "w": "1757.",
+     "start": 48.032,
+     "end": 48.812
+    },
+    {
+     "w": "On",
+     "start": 49.872,
+     "end": 49.912
+    },
+    {
+     "w": "the",
+     "start": 49.912,
+     "end": 50.032
+    },
+    {
+     "w": "deck",
+     "start": 50.032,
+     "end": 50.212
+    },
+    {
+     "w": "of",
+     "start": 50.212,
+     "end": 50.372
+    },
+    {
+     "w": "HMS",
+     "start": 50.372,
+     "end": 50.712
+    },
+    {
+     "w": "Monarch,",
+     "start": 50.712,
+     "end": 51.632
+    },
+    {
+     "w": "with",
+     "start": 51.632,
+     "end": 51.892
+    },
+    {
+     "w": "the",
+     "start": 51.892,
+     "end": 52.012
+    },
+    {
+     "w": "fleet",
+     "start": 52.012,
+     "end": 52.172
+    },
+    {
+     "w": "watching,",
+     "start": 52.172,
+     "end": 52.732
+    },
+    {
+     "w": "Byng",
+     "start": 52.732,
+     "end": 53.132
+    },
+    {
+     "w": "kneels",
+     "start": 53.132,
+     "end": 53.532
+    },
+    {
+     "w": "on",
+     "start": 53.532,
+     "end": 53.852
+    },
+    {
+     "w": "a",
+     "start": 53.852,
+     "end": 53.912
+    },
+    {
+     "w": "cushion.",
+     "start": 53.912,
+     "end": 54.172
+    },
+    {
+     "w": "He",
+     "start": 54.732,
+     "end": 54.812
+    },
+    {
+     "w": "drops",
+     "start": 54.812,
+     "end": 55.032
+    },
+    {
+     "w": "his",
+     "start": 55.032,
+     "end": 55.272
+    },
+    {
+     "w": "handkerchief.",
+     "start": 55.272,
+     "end": 55.852
+    },
+    {
+     "w": "The",
+     "start": 56.352,
+     "end": 56.432
+    },
+    {
+     "w": "Marines",
+     "start": 56.432,
+     "end": 56.632
+    },
+    {
+     "w": "fire.",
+     "start": 56.632,
+     "end": 57.132
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Voltaire mocked it: \"In this country, it is good to kill an admiral from time to time, to encourage the others.\"",
+   "start": 57.983,
+   "end": 64.41,
+   "words": [
+    {
+     "w": "Voltaire",
+     "start": 57.883,
+     "end": 58.383
+    },
+    {
+     "w": "mocked",
+     "start": 58.383,
+     "end": 58.603
+    },
+    {
+     "w": "it:",
+     "start": 58.603,
+     "end": 58.983
+    },
+    {
+     "w": "\"In",
+     "start": 59.423,
+     "end": 59.483
+    },
+    {
+     "w": "this",
+     "start": 59.483,
+     "end": 59.623
+    },
+    {
+     "w": "country,",
+     "start": 59.623,
+     "end": 60.043
+    },
+    {
+     "w": "it",
+     "start": 60.143,
+     "end": 60.363
+    },
+    {
+     "w": "is",
+     "start": 60.363,
+     "end": 60.443
+    },
+    {
+     "w": "good",
+     "start": 60.443,
+     "end": 60.683
+    },
+    {
+     "w": "to",
+     "start": 60.683,
+     "end": 60.823
+    },
+    {
+     "w": "kill",
+     "start": 60.823,
+     "end": 61.063
+    },
+    {
+     "w": "an",
+     "start": 61.063,
+     "end": 61.183
+    },
+    {
+     "w": "admiral",
+     "start": 61.183,
+     "end": 61.663
+    },
+    {
+     "w": "from",
+     "start": 61.663,
+     "end": 61.883
+    },
+    {
+     "w": "time",
+     "start": 61.883,
+     "end": 62.103
+    },
+    {
+     "w": "to",
+     "start": 62.103,
+     "end": 62.323
+    },
+    {
+     "w": "time,",
+     "start": 62.323,
+     "end": 62.723
+    },
+    {
+     "w": "to",
+     "start": 62.723,
+     "end": 63.163
+    },
+    {
+     "w": "encourage",
+     "start": 63.163,
+     "end": 63.483
+    },
+    {
+     "w": "the",
+     "start": 63.483,
+     "end": 63.863
+    },
+    {
+     "w": "others.\"",
+     "start": 63.863,
+     "end": 64.103
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "In 2007, his family asked for a pardon. The government refused. His tomb still says he fell \"a martyr to political persecution\".",
+   "start": 64.77,
+   "end": 73.086,
+   "words": [
+    {
+     "w": "In",
+     "start": 64.67,
+     "end": 64.85
+    },
+    {
+     "w": "2007,",
+     "start": 64.85,
+     "end": 65.53
+    },
+    {
+     "w": "his",
+     "start": 65.99,
+     "end": 66.17
+    },
+    {
+     "w": "family",
+     "start": 66.17,
+     "end": 66.53
+    },
+    {
+     "w": "asked",
+     "start": 66.53,
+     "end": 66.85
+    },
+    {
+     "w": "for",
+     "start": 66.85,
+     "end": 67.17
+    },
+    {
+     "w": "a",
+     "start": 67.17,
+     "end": 67.25
+    },
+    {
+     "w": "pardon.",
+     "start": 67.25,
+     "end": 67.57
+    },
+    {
+     "w": "The",
+     "start": 68.27,
+     "end": 68.29
+    },
+    {
+     "w": "government",
+     "start": 68.29,
+     "end": 68.55
+    },
+    {
+     "w": "refused.",
+     "start": 68.55,
+     "end": 69.09
+    },
+    {
+     "w": "His",
+     "start": 69.91,
+     "end": 69.97
+    },
+    {
+     "w": "tomb",
+     "start": 69.97,
+     "end": 70.19
+    },
+    {
+     "w": "still",
+     "start": 70.19,
+     "end": 70.53
+    },
+    {
+     "w": "says",
+     "start": 70.53,
+     "end": 70.93
+    },
+    {
+     "w": "he",
+     "start": 70.93,
+     "end": 71.03
+    },
+    {
+     "w": "fell",
+     "start": 71.03,
+     "end": 71.21
+    },
+    {
+     "w": "\"a",
+     "start": 71.21,
+     "end": 71.33
+    },
+    {
+     "w": "martyr",
+     "start": 71.33,
+     "end": 71.55
+    },
+    {
+     "w": "to",
+     "start": 71.55,
+     "end": 71.81
+    },
+    {
+     "w": "political",
+     "start": 71.81,
+     "end": 72.07
+    },
+    {
+     "w": "persecution\".",
+     "start": 72.07,
+     "end": 72.63
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Scapegoat, or justice? Tell me below, and follow Buried Chronicles.",
+   "start": 73.446,
+   "end": 77.508,
+   "words": [
+    {
+     "w": "Scapegoat,",
+     "start": 73.346,
+     "end": 74.066
+    },
+    {
+     "w": "or",
+     "start": 74.066,
+     "end": 74.166
+    },
+    {
+     "w": "justice?",
+     "start": 74.166,
+     "end": 74.546
+    },
+    {
+     "w": "Tell",
+     "start": 75.026,
+     "end": 75.266
+    },
+    {
+     "w": "me",
+     "start": 75.266,
+     "end": 75.386
+    },
+    {
+     "w": "below,",
+     "start": 75.386,
+     "end": 75.666
+    },
+    {
+     "w": "and",
+     "start": 75.666,
+     "end": 75.926
+    },
+    {
+     "w": "follow",
+     "start": 75.926,
+     "end": 76.306
+    },
+    {
+     "w": "Buried",
+     "start": 76.306,
+     "end": 76.626
+    },
+    {
+     "w": "Chronicles.",
+     "start": 76.626,
+     "end": 77.266
+    }
+   ]
+  }
+ ]
+}
