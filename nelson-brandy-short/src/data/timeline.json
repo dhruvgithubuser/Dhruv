@@ -1,0 +1,1167 @@
+{
+ "fps": 30,
+ "duration": 78.451,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're looking at the hero of Trafalgar. He won Britain's greatest sea battle in 1805, then came home in a barrel of brandy. Why?",
+   "start": 0.35,
+   "end": 8.239,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "looking",
+     "start": 0.43,
+     "end": 0.63
+    },
+    {
+     "w": "at",
+     "start": 0.63,
+     "end": 0.79
+    },
+    {
+     "w": "the",
+     "start": 0.79,
+     "end": 0.85
+    },
+    {
+     "w": "hero",
+     "start": 0.85,
+     "end": 1.19
+    },
+    {
+     "w": "of",
+     "start": 1.19,
+     "end": 1.43
+    },
+    {
+     "w": "Trafalgar.",
+     "start": 1.43,
+     "end": 2.01
+    },
+    {
+     "w": "He",
+     "start": 2.53,
+     "end": 2.53
+    },
+    {
+     "w": "won",
+     "start": 2.53,
+     "end": 2.67
+    },
+    {
+     "w": "Britain's",
+     "start": 2.67,
+     "end": 3.17
+    },
+    {
+     "w": "greatest",
+     "start": 3.17,
+     "end": 3.43
+    },
+    {
+     "w": "sea",
+     "start": 3.43,
+     "end": 3.75
+    },
+    {
+     "w": "battle",
+     "start": 3.75,
+     "end": 4.03
+    },
+    {
+     "w": "in",
+     "start": 4.03,
+     "end": 4.23
+    },
+    {
+     "w": "1805,",
+     "start": 4.23,
+     "end": 4.83
+    },
+    {
+     "w": "then",
+     "start": 5.41,
+     "end": 5.49
+    },
+    {
+     "w": "came",
+     "start": 5.49,
+     "end": 5.67
+    },
+    {
+     "w": "home",
+     "start": 5.67,
+     "end": 5.97
+    },
+    {
+     "w": "in",
+     "start": 5.97,
+     "end": 6.23
+    },
+    {
+     "w": "a",
+     "start": 6.23,
+     "end": 6.29
+    },
+    {
+     "w": "barrel",
+     "start": 6.29,
+     "end": 6.57
+    },
+    {
+     "w": "of",
+     "start": 6.57,
+     "end": 6.79
+    },
+    {
+     "w": "brandy.",
+     "start": 6.79,
+     "end": 7.29
+    },
+    {
+     "w": "Why?",
+     "start": 7.29,
+     "end": 8.239
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "October 21, 1805. Admiral Horatio Nelson walks the deck of HMS Victory, in his admiral's coat, his medals catching the light.",
+   "start": 8.599,
+   "end": 18.19,
+   "words": [
+    {
+     "w": "October",
+     "start": 8.499,
+     "end": 8.859
+    },
+    {
+     "w": "21,",
+     "start": 8.859,
+     "end": 9.219
+    },
+    {
+     "w": "1805.",
+     "start": 9.719,
+     "end": 10.439
+    },
+    {
+     "w": "Admiral",
+     "start": 11.239,
+     "end": 11.479
+    },
+    {
+     "w": "Horatio",
+     "start": 11.479,
+     "end": 12.119
+    },
+    {
+     "w": "Nelson",
+     "start": 12.119,
+     "end": 12.439
+    },
+    {
+     "w": "walks",
+     "start": 12.439,
+     "end": 12.919
+    },
+    {
+     "w": "the",
+     "start": 12.919,
+     "end": 13.199
+    },
+    {
+     "w": "deck",
+     "start": 13.199,
+     "end": 13.419
+    },
+    {
+     "w": "of",
+     "start": 13.419,
+     "end": 13.579
+    },
+    {
+     "w": "HMS",
+     "start": 13.579,
+     "end": 13.859
+    },
+    {
+     "w": "Victory,",
+     "start": 13.859,
+     "end": 14.799
+    },
+    {
+     "w": "in",
+     "start": 14.799,
+     "end": 15.319
+    },
+    {
+     "w": "his",
+     "start": 15.319,
+     "end": 15.439
+    },
+    {
+     "w": "admiral's",
+     "start": 15.439,
+     "end": 15.959
+    },
+    {
+     "w": "coat,",
+     "start": 15.959,
+     "end": 16.199
+    },
+    {
+     "w": "his",
+     "start": 16.659,
+     "end": 16.779
+    },
+    {
+     "w": "medals",
+     "start": 16.779,
+     "end": 17.079
+    },
+    {
+     "w": "catching",
+     "start": 17.079,
+     "end": 17.419
+    },
+    {
+     "w": "the",
+     "start": 17.419,
+     "end": 17.819
+    },
+    {
+     "w": "light.",
+     "start": 17.819,
+     "end": 18.019
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "High in the rigging of a French ship, a marksman takes aim, from 50 feet away. The ball goes through his shoulder, his lung, and his spine.",
+   "start": 18.51,
+   "end": 26.488,
+   "words": [
+    {
+     "w": "High",
+     "start": 18.41,
+     "end": 18.71
+    },
+    {
+     "w": "in",
+     "start": 18.71,
+     "end": 18.91
+    },
+    {
+     "w": "the",
+     "start": 18.91,
+     "end": 18.99
+    },
+    {
+     "w": "rigging",
+     "start": 18.99,
+     "end": 19.23
+    },
+    {
+     "w": "of",
+     "start": 19.23,
+     "end": 19.43
+    },
+    {
+     "w": "a",
+     "start": 19.43,
+     "end": 19.51
+    },
+    {
+     "w": "French",
+     "start": 19.51,
+     "end": 19.73
+    },
+    {
+     "w": "ship,",
+     "start": 19.73,
+     "end": 20.13
+    },
+    {
+     "w": "a",
+     "start": 20.53,
+     "end": 20.55
+    },
+    {
+     "w": "marksman",
+     "start": 20.55,
+     "end": 20.97
+    },
+    {
+     "w": "takes",
+     "start": 20.97,
+     "end": 21.25
+    },
+    {
+     "w": "aim,",
+     "start": 21.25,
+     "end": 21.47
+    },
+    {
+     "w": "from",
+     "start": 21.47,
+     "end": 21.79
+    },
+    {
+     "w": "50",
+     "start": 21.79,
+     "end": 22.03
+    },
+    {
+     "w": "feet",
+     "start": 22.03,
+     "end": 22.37
+    },
+    {
+     "w": "away.",
+     "start": 22.37,
+     "end": 22.63
+    },
+    {
+     "w": "The",
+     "start": 23.37,
+     "end": 23.45
+    },
+    {
+     "w": "ball",
+     "start": 23.45,
+     "end": 23.61
+    },
+    {
+     "w": "goes",
+     "start": 23.61,
+     "end": 23.91
+    },
+    {
+     "w": "through",
+     "start": 23.91,
+     "end": 24.23
+    },
+    {
+     "w": "his",
+     "start": 24.23,
+     "end": 24.41
+    },
+    {
+     "w": "shoulder,",
+     "start": 24.41,
+     "end": 24.79
+    },
+    {
+     "w": "his",
+     "start": 25.09,
+     "end": 25.15
+    },
+    {
+     "w": "lung,",
+     "start": 25.15,
+     "end": 25.45
+    },
+    {
+     "w": "and",
+     "start": 25.71,
+     "end": 25.75
+    },
+    {
+     "w": "his",
+     "start": 25.75,
+     "end": 25.89
+    },
+    {
+     "w": "spine.",
+     "start": 25.89,
+     "end": 26.15
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Three hours later, below deck, Nelson dies. The battle is won.",
+   "start": 26.848,
+   "end": 30.615,
+   "words": [
+    {
+     "w": "Three",
+     "start": 26.748,
+     "end": 27.028
+    },
+    {
+     "w": "hours",
+     "start": 27.028,
+     "end": 27.308
+    },
+    {
+     "w": "later,",
+     "start": 27.308,
+     "end": 27.648
+    },
+    {
+     "w": "below",
+     "start": 27.648,
+     "end": 27.928
+    },
+    {
+     "w": "deck,",
+     "start": 27.928,
+     "end": 28.248
+    },
+    {
+     "w": "Nelson",
+     "start": 28.248,
+     "end": 28.488
+    },
+    {
+     "w": "dies.",
+     "start": 28.488,
+     "end": 29.088
+    },
+    {
+     "w": "The",
+     "start": 29.568,
+     "end": 29.708
+    },
+    {
+     "w": "battle",
+     "start": 29.708,
+     "end": 29.928
+    },
+    {
+     "w": "is",
+     "start": 29.928,
+     "end": 30.168
+    },
+    {
+     "w": "won.",
+     "start": 30.168,
+     "end": 30.428
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "But England is weeks away. So the surgeon puts his body in a cask of brandy, mixed with camphor and myrrh. It's lashed to the mainmast, under armed guard.",
+   "start": 31.015,
+   "end": 39.926,
+   "words": [
+    {
+     "w": "But",
+     "start": 30.915,
+     "end": 31.095
+    },
+    {
+     "w": "England",
+     "start": 31.095,
+     "end": 31.295
+    },
+    {
+     "w": "is",
+     "start": 31.295,
+     "end": 31.655
+    },
+    {
+     "w": "weeks",
+     "start": 31.655,
+     "end": 31.815
+    },
+    {
+     "w": "away.",
+     "start": 31.815,
+     "end": 32.195
+    },
+    {
+     "w": "So",
+     "start": 32.775,
+     "end": 32.975
+    },
+    {
+     "w": "the",
+     "start": 32.975,
+     "end": 33.095
+    },
+    {
+     "w": "surgeon",
+     "start": 33.095,
+     "end": 33.335
+    },
+    {
+     "w": "puts",
+     "start": 33.335,
+     "end": 33.695
+    },
+    {
+     "w": "his",
+     "start": 33.695,
+     "end": 33.875
+    },
+    {
+     "w": "body",
+     "start": 33.875,
+     "end": 34.195
+    },
+    {
+     "w": "in",
+     "start": 34.195,
+     "end": 34.395
+    },
+    {
+     "w": "a",
+     "start": 34.395,
+     "end": 34.435
+    },
+    {
+     "w": "cask",
+     "start": 34.435,
+     "end": 34.655
+    },
+    {
+     "w": "of",
+     "start": 34.655,
+     "end": 34.835
+    },
+    {
+     "w": "brandy,",
+     "start": 34.835,
+     "end": 35.355
+    },
+    {
+     "w": "mixed",
+     "start": 35.555,
+     "end": 35.755
+    },
+    {
+     "w": "with",
+     "start": 35.755,
+     "end": 35.995
+    },
+    {
+     "w": "camphor",
+     "start": 35.995,
+     "end": 36.515
+    },
+    {
+     "w": "and",
+     "start": 36.515,
+     "end": 36.655
+    },
+    {
+     "w": "myrrh.",
+     "start": 36.655,
+     "end": 37.395
+    },
+    {
+     "w": "It's",
+     "start": 37.395,
+     "end": 37.635
+    },
+    {
+     "w": "lashed",
+     "start": 37.635,
+     "end": 37.815
+    },
+    {
+     "w": "to",
+     "start": 37.815,
+     "end": 38.115
+    },
+    {
+     "w": "the",
+     "start": 38.115,
+     "end": 38.195
+    },
+    {
+     "w": "mainmast,",
+     "start": 38.195,
+     "end": 38.655
+    },
+    {
+     "w": "under",
+     "start": 38.655,
+     "end": 38.975
+    },
+    {
+     "w": "armed",
+     "start": 38.975,
+     "end": 39.295
+    },
+    {
+     "w": "guard.",
+     "start": 39.295,
+     "end": 39.615
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "At Gibraltar, he's moved to a lead coffin, filled with spirits of wine.",
+   "start": 40.286,
+   "end": 44.366,
+   "words": [
+    {
+     "w": "At",
+     "start": 40.186,
+     "end": 40.406
+    },
+    {
+     "w": "Gibraltar,",
+     "start": 40.406,
+     "end": 40.646
+    },
+    {
+     "w": "he's",
+     "start": 41.186,
+     "end": 41.266
+    },
+    {
+     "w": "moved",
+     "start": 41.266,
+     "end": 41.446
+    },
+    {
+     "w": "to",
+     "start": 41.446,
+     "end": 41.686
+    },
+    {
+     "w": "a",
+     "start": 41.686,
+     "end": 41.766
+    },
+    {
+     "w": "lead",
+     "start": 41.766,
+     "end": 41.926
+    },
+    {
+     "w": "coffin,",
+     "start": 41.926,
+     "end": 42.206
+    },
+    {
+     "w": "filled",
+     "start": 42.786,
+     "end": 42.986
+    },
+    {
+     "w": "with",
+     "start": 42.986,
+     "end": 43.226
+    },
+    {
+     "w": "spirits",
+     "start": 43.226,
+     "end": 43.466
+    },
+    {
+     "w": "of",
+     "start": 43.466,
+     "end": 43.826
+    },
+    {
+     "w": "wine.",
+     "start": 43.826,
+     "end": 44.066
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Legend says sailors secretly drank from the cask, \"tapping the admiral\", and that's why rum is called \"Nelson's Blood\". There's no proof. And it wasn't even rum.",
+   "start": 44.686,
+   "end": 53.73,
+   "words": [
+    {
+     "w": "Legend",
+     "start": 44.586,
+     "end": 44.826
+    },
+    {
+     "w": "says",
+     "start": 44.826,
+     "end": 45.226
+    },
+    {
+     "w": "sailors",
+     "start": 45.226,
+     "end": 45.466
+    },
+    {
+     "w": "secretly",
+     "start": 45.466,
+     "end": 46.126
+    },
+    {
+     "w": "drank",
+     "start": 46.126,
+     "end": 46.426
+    },
+    {
+     "w": "from",
+     "start": 46.426,
+     "end": 46.746
+    },
+    {
+     "w": "the",
+     "start": 46.746,
+     "end": 46.846
+    },
+    {
+     "w": "cask,",
+     "start": 46.846,
+     "end": 47.106
+    },
+    {
+     "w": "\"tapping",
+     "start": 47.606,
+     "end": 47.826
+    },
+    {
+     "w": "the",
+     "start": 47.826,
+     "end": 48.006
+    },
+    {
+     "w": "admiral\",",
+     "start": 48.006,
+     "end": 48.486
+    },
+    {
+     "w": "and",
+     "start": 48.486,
+     "end": 48.706
+    },
+    {
+     "w": "that's",
+     "start": 48.706,
+     "end": 48.986
+    },
+    {
+     "w": "why",
+     "start": 48.986,
+     "end": 49.166
+    },
+    {
+     "w": "rum",
+     "start": 49.166,
+     "end": 49.466
+    },
+    {
+     "w": "is",
+     "start": 49.466,
+     "end": 49.686
+    },
+    {
+     "w": "called",
+     "start": 49.686,
+     "end": 49.926
+    },
+    {
+     "w": "\"Nelson's",
+     "start": 49.926,
+     "end": 50.526
+    },
+    {
+     "w": "Blood\".",
+     "start": 50.526,
+     "end": 50.706
+    },
+    {
+     "w": "There's",
+     "start": 51.506,
+     "end": 51.606
+    },
+    {
+     "w": "no",
+     "start": 51.606,
+     "end": 51.786
+    },
+    {
+     "w": "proof.",
+     "start": 51.786,
+     "end": 52.046
+    },
+    {
+     "w": "And",
+     "start": 52.526,
+     "end": 52.666
+    },
+    {
+     "w": "it",
+     "start": 52.666,
+     "end": 52.746
+    },
+    {
+     "w": "wasn't",
+     "start": 52.746,
+     "end": 52.986
+    },
+    {
+     "w": "even",
+     "start": 52.986,
+     "end": 53.186
+    },
+    {
+     "w": "rum.",
+     "start": 53.186,
+     "end": 53.466
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "His outer coffin? Made from the mast of a French flagship he had destroyed, a gift from one of his captains, years before.",
+   "start": 54.09,
+   "end": 61.076,
+   "words": [
+    {
+     "w": "His",
+     "start": 53.99,
+     "end": 54.21
+    },
+    {
+     "w": "outer",
+     "start": 54.21,
+     "end": 54.41
+    },
+    {
+     "w": "coffin?",
+     "start": 54.41,
+     "end": 54.89
+    },
+    {
+     "w": "Made",
+     "start": 55.31,
+     "end": 55.63
+    },
+    {
+     "w": "from",
+     "start": 55.63,
+     "end": 55.87
+    },
+    {
+     "w": "the",
+     "start": 55.87,
+     "end": 55.99
+    },
+    {
+     "w": "mast",
+     "start": 55.99,
+     "end": 56.29
+    },
+    {
+     "w": "of",
+     "start": 56.29,
+     "end": 56.47
+    },
+    {
+     "w": "a",
+     "start": 56.47,
+     "end": 56.55
+    },
+    {
+     "w": "French",
+     "start": 56.55,
+     "end": 56.77
+    },
+    {
+     "w": "flagship",
+     "start": 56.77,
+     "end": 57.33
+    },
+    {
+     "w": "he",
+     "start": 57.33,
+     "end": 57.53
+    },
+    {
+     "w": "had",
+     "start": 57.53,
+     "end": 57.61
+    },
+    {
+     "w": "destroyed,",
+     "start": 57.61,
+     "end": 57.95
+    },
+    {
+     "w": "a",
+     "start": 58.57,
+     "end": 58.65
+    },
+    {
+     "w": "gift",
+     "start": 58.65,
+     "end": 58.83
+    },
+    {
+     "w": "from",
+     "start": 58.83,
+     "end": 59.11
+    },
+    {
+     "w": "one",
+     "start": 59.11,
+     "end": 59.25
+    },
+    {
+     "w": "of",
+     "start": 59.25,
+     "end": 59.33
+    },
+    {
+     "w": "his",
+     "start": 59.33,
+     "end": 59.45
+    },
+    {
+     "w": "captains,",
+     "start": 59.45,
+     "end": 59.79
+    },
+    {
+     "w": "years",
+     "start": 59.79,
+     "end": 60.25
+    },
+    {
+     "w": "before.",
+     "start": 60.25,
+     "end": 60.75
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "January 9, 1806. 32 admirals, over 100 captains and 10,000 soldiers escort him to St Paul's, where he lies in a tomb first carved for a cardinal.",
+   "start": 61.396,
+   "end": 72.752,
+   "words": [
+    {
+     "w": "January",
+     "start": 61.296,
+     "end": 61.676
+    },
+    {
+     "w": "9,",
+     "start": 61.676,
+     "end": 62.516
+    },
+    {
+     "w": "1806.",
+     "start": 62.516,
+     "end": 63.116
+    },
+    {
+     "w": "32",
+     "start": 63.916,
+     "end": 64.216
+    },
+    {
+     "w": "admirals,",
+     "start": 64.216,
+     "end": 65.116
+    },
+    {
+     "w": "over",
+     "start": 65.396,
+     "end": 65.476
+    },
+    {
+     "w": "100",
+     "start": 65.476,
+     "end": 65.856
+    },
+    {
+     "w": "captains",
+     "start": 65.856,
+     "end": 66.216
+    },
+    {
+     "w": "and",
+     "start": 66.216,
+     "end": 66.676
+    },
+    {
+     "w": "10,000",
+     "start": 66.676,
+     "end": 67.356
+    },
+    {
+     "w": "soldiers",
+     "start": 67.356,
+     "end": 67.896
+    },
+    {
+     "w": "escort",
+     "start": 67.896,
+     "end": 68.336
+    },
+    {
+     "w": "him",
+     "start": 68.336,
+     "end": 68.696
+    },
+    {
+     "w": "to",
+     "start": 68.696,
+     "end": 68.856
+    },
+    {
+     "w": "St",
+     "start": 68.856,
+     "end": 69.016
+    },
+    {
+     "w": "Paul's,",
+     "start": 69.196,
+     "end": 69.556
+    },
+    {
+     "w": "where",
+     "start": 69.696,
+     "end": 70.016
+    },
+    {
+     "w": "he",
+     "start": 70.016,
+     "end": 70.136
+    },
+    {
+     "w": "lies",
+     "start": 70.136,
+     "end": 70.336
+    },
+    {
+     "w": "in",
+     "start": 70.336,
+     "end": 70.676
+    },
+    {
+     "w": "a",
+     "start": 70.676,
+     "end": 70.736
+    },
+    {
+     "w": "tomb",
+     "start": 70.736,
+     "end": 70.936
+    },
+    {
+     "w": "first",
+     "start": 70.936,
+     "end": 71.336
+    },
+    {
+     "w": "carved",
+     "start": 71.336,
+     "end": 71.696
+    },
+    {
+     "w": "for",
+     "start": 71.696,
+     "end": 72.056
+    },
+    {
+     "w": "a",
+     "start": 72.056,
+     "end": 72.096
+    },
+    {
+     "w": "cardinal.",
+     "start": 72.096,
+     "end": 72.456
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Would you have drunk from the barrel? Tell me below, and follow Buried Chronicles.",
+   "start": 73.112,
+   "end": 77.291,
+   "words": [
+    {
+     "w": "Would",
+     "start": 73.012,
+     "end": 73.192
+    },
+    {
+     "w": "you",
+     "start": 73.192,
+     "end": 73.332
+    },
+    {
+     "w": "have",
+     "start": 73.332,
+     "end": 73.432
+    },
+    {
+     "w": "drunk",
+     "start": 73.432,
+     "end": 73.612
+    },
+    {
+     "w": "from",
+     "start": 73.612,
+     "end": 73.872
+    },
+    {
+     "w": "the",
+     "start": 73.872,
+     "end": 73.992
+    },
+    {
+     "w": "barrel?",
+     "start": 73.992,
+     "end": 74.252
+    },
+    {
+     "w": "Tell",
+     "start": 74.772,
+     "end": 74.872
+    },
+    {
+     "w": "me",
+     "start": 74.872,
+     "end": 75.012
+    },
+    {
+     "w": "below,",
+     "start": 75.012,
+     "end": 75.312
+    },
+    {
+     "w": "and",
+     "start": 75.312,
+     "end": 75.692
+    },
+    {
+     "w": "follow",
+     "start": 75.692,
+     "end": 75.932
+    },
+    {
+     "w": "Buried",
+     "start": 75.932,
+     "end": 76.392
+    },
+    {
+     "w": "Chronicles.",
+     "start": 76.392,
+     "end": 76.972
+    }
+   ]
+  }
+ ]
+}
