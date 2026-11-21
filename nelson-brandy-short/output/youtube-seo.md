@@ -58,14 +58,31 @@
 - **The coffin:** made from the mast of *L'Orient* (blown up at the Nile, 1798), an ironic gift from Captain Hallowell.
 - **The funeral (9 January 1806):** 32 admirals, over 100 captains and 10,000 soldiers. He lies in a sarcophagus originally carved for Cardinal Wolsey.
 
-## Titles (hashtags in the title, linted with yt-package; cover "DON'T DRINK IT")
-| # | Title | Chars | Score | Angle |
+## Titles: SEO version (YouTube search data, 21 Nov 2026; linted with yt-package; cover "DON'T DRINK IT")
+
+**What the search data shows:**
+- **The exact-topic phrasing is crowded with tiny videos.** Titles like "…Came Home in a Barrel of Brandy" get **18–59 views**, and the best one on the topic has 12.5K.
+- **The real search demand sits on related terms:**
+  - **"Nelson's Blood":** the sea shanty *A Drop of Nelson's Blood* gets 757K, 477K and 345K views, and it's a busy autocomplete term.
+  - **"admiral nelson death"** and **"horatio nelson death"**;
+  - **"admiral nelson rum"**;
+  - **"admiral nelson battle of trafalgar"**.
+- **So the best titles put a searched term first and the twist second.**
+
+| # | Title | Chars | Score | Search term it targets |
 |---|---|---|---|---|
-| **1 ★** | **Nelson Came Home in a Barrel of Brandy (1805) #shorts** | 53 | 98 | Your calendar title plus the year |
-| 2 | Trafalgar's Hero Came Home in a Barrel (1805) #shorts | 53 | 98 | Curiosity; name hidden |
-| 3 | Why Nelson Was Pickled in Brandy After Trafalgar #shorts | 56 | 80 | Search "why" (no number) |
-| 4 | "Nelson's Blood": The Brandy Barrel Legend #history #shorts | 59 | 80 | Myth-check angle |
-| 5 | Admiral Nelson's Body Sailed Home in Brandy (1805) #shorts | ~58 | n/a | Literal / search |
+| **1 ★** | **Nelson's Blood Wasn't Rum: The True Story (1805) #shorts** | 56 | 98 | "nelson's blood" (the shanty audience) plus the myth-check twist |
+| 2 | Admiral Nelson's Death: Sent Home in Brandy (1805) #shorts | 58 | 98 | "admiral nelson death" |
+| 3 | Admiral Nelson's Rum? It Was Brandy (Trafalgar 1805) #shorts | 60 | 98 | "admiral nelson rum" + "trafalgar" |
+| 4 | Why Admiral Nelson Was Put in Brandy (1805) #shorts | 51 | 98 | question search ("why…") |
+| 5 | Horatio Nelson's Body Sailed Home in Brandy (1805) #shorts | 58 | 98 | "horatio nelson" / "horatio nelson death" |
+| 6 | A Drop of Nelson's Blood: The True Story (1805) #shorts | 55 | 98 | exact shanty title "a drop of nelson's blood" |
+| 7 | After Trafalgar, Nelson Came Home in Brandy (1805) #shorts | 58 | 98 | "trafalgar" + the story |
+| 8 | Nelson Came Home in a Barrel of Brandy (1805) #shorts | 53 | 98 | the calendar title (lowest search value) |
+
+**How to use them:**
+- Publish with **#1**.
+- If it has under ~1,000 views after 48 hours, switch to **#2**. Changing the title can give a Short a second push.
 
 ## Thumbnails (poster style)
 - **Shorts cover:** `thumbnail-poster-1080x1920.jpg`.
@@ -96,7 +113,7 @@ Sources: Horatio Nelson, 1st Viscount Nelson (Wikipedia and cited works: Hibbert
 
 ## Tags
 ```
-admiral nelson, horatio nelson, nelson brandy barrel, nelson's blood, tapping the admiral, battle of trafalgar, trafalgar 1805, hms victory, nelson death, nelson coffin, royal navy history, naval history, history myths, history shorts, buried chronicles
+nelson's blood, a drop of nelson's blood, admiral nelson rum, admiral nelson death, horatio nelson death, admiral nelson, horatio nelson, nelson brandy barrel, tapping the admiral, battle of trafalgar, trafalgar 1805, hms victory, nelson death, nelson coffin, royal navy history, naval history, history myths, history shorts, buried chronicles
 ```
 
 ## Hashtags
