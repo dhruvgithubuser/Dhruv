@@ -1,0 +1,953 @@
+{
+ "fps": 30,
+ "duration": 67.793,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "January 22, 1879. At a tiny British outpost called Rorke's Drift, about 150 soldiers got terrible news.",
+   "start": 0.35,
+   "end": 9.398,
+   "words": [
+    {
+     "w": "January",
+     "start": 0.25,
+     "end": 0.59
+    },
+    {
+     "w": "22,",
+     "start": 0.59,
+     "end": 1.79
+    },
+    {
+     "w": "1879.",
+     "start": 1.79,
+     "end": 2.55
+    },
+    {
+     "w": "At",
+     "start": 3.45,
+     "end": 3.57
+    },
+    {
+     "w": "a",
+     "start": 3.57,
+     "end": 3.65
+    },
+    {
+     "w": "tiny",
+     "start": 3.65,
+     "end": 3.89
+    },
+    {
+     "w": "British",
+     "start": 3.89,
+     "end": 4.19
+    },
+    {
+     "w": "outpost",
+     "start": 4.19,
+     "end": 4.55
+    },
+    {
+     "w": "called",
+     "start": 4.55,
+     "end": 5.15
+    },
+    {
+     "w": "Rorke's",
+     "start": 5.15,
+     "end": 5.61
+    },
+    {
+     "w": "Drift,",
+     "start": 5.61,
+     "end": 5.81
+    },
+    {
+     "w": "about",
+     "start": 6.29,
+     "end": 6.45
+    },
+    {
+     "w": "150",
+     "start": 6.45,
+     "end": 6.93
+    },
+    {
+     "w": "soldiers",
+     "start": 6.93,
+     "end": 7.95
+    },
+    {
+     "w": "got",
+     "start": 7.95,
+     "end": 8.27
+    },
+    {
+     "w": "terrible",
+     "start": 8.27,
+     "end": 8.63
+    },
+    {
+     "w": "news.",
+     "start": 8.63,
+     "end": 9.05
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Just six miles away, the Zulu army had wiped out a British force at Isandlwana. More than 1,300 men were dead.",
+   "start": 9.898,
+   "end": 17.048,
+   "words": [
+    {
+     "w": "Just",
+     "start": 9.798,
+     "end": 10.038
+    },
+    {
+     "w": "six",
+     "start": 10.038,
+     "end": 10.298
+    },
+    {
+     "w": "miles",
+     "start": 10.298,
+     "end": 10.618
+    },
+    {
+     "w": "away,",
+     "start": 10.618,
+     "end": 11.038
+    },
+    {
+     "w": "the",
+     "start": 11.418,
+     "end": 11.478
+    },
+    {
+     "w": "Zulu",
+     "start": 11.478,
+     "end": 11.718
+    },
+    {
+     "w": "army",
+     "start": 11.718,
+     "end": 12.138
+    },
+    {
+     "w": "had",
+     "start": 12.138,
+     "end": 12.378
+    },
+    {
+     "w": "wiped",
+     "start": 12.378,
+     "end": 12.578
+    },
+    {
+     "w": "out",
+     "start": 12.578,
+     "end": 12.838
+    },
+    {
+     "w": "a",
+     "start": 12.838,
+     "end": 12.918
+    },
+    {
+     "w": "British",
+     "start": 12.918,
+     "end": 13.118
+    },
+    {
+     "w": "force",
+     "start": 13.118,
+     "end": 13.538
+    },
+    {
+     "w": "at",
+     "start": 13.538,
+     "end": 13.838
+    },
+    {
+     "w": "Isandlwana.",
+     "start": 13.838,
+     "end": 15.158
+    },
+    {
+     "w": "More",
+     "start": 15.158,
+     "end": 15.278
+    },
+    {
+     "w": "than",
+     "start": 15.278,
+     "end": 15.438
+    },
+    {
+     "w": "1,300",
+     "start": 15.438,
+     "end": 15.818
+    },
+    {
+     "w": "men",
+     "start": 15.818,
+     "end": 16.418
+    },
+    {
+     "w": "were",
+     "start": 16.418,
+     "end": 16.578
+    },
+    {
+     "w": "dead.",
+     "start": 16.578,
+     "end": 16.818
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "And now, up to 4,000 Zulu warriors were heading straight for them.",
+   "start": 17.548,
+   "end": 21.195,
+   "words": [
+    {
+     "w": "And",
+     "start": 17.448,
+     "end": 17.628
+    },
+    {
+     "w": "now,",
+     "start": 17.628,
+     "end": 17.868
+    },
+    {
+     "w": "up",
+     "start": 18.108,
+     "end": 18.208
+    },
+    {
+     "w": "to",
+     "start": 18.208,
+     "end": 18.328
+    },
+    {
+     "w": "4,000",
+     "start": 18.328,
+     "end": 19.048
+    },
+    {
+     "w": "Zulu",
+     "start": 19.048,
+     "end": 19.368
+    },
+    {
+     "w": "warriors",
+     "start": 19.368,
+     "end": 19.748
+    },
+    {
+     "w": "were",
+     "start": 19.748,
+     "end": 20.068
+    },
+    {
+     "w": "heading",
+     "start": 20.068,
+     "end": 20.228
+    },
+    {
+     "w": "straight",
+     "start": 20.228,
+     "end": 20.568
+    },
+    {
+     "w": "for",
+     "start": 20.568,
+     "end": 20.868
+    },
+    {
+     "w": "them.",
+     "start": 20.868,
+     "end": 21.048
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Dozens of the defenders were sick in the hospital. They could have run. They stayed.",
+   "start": 21.795,
+   "end": 26.06,
+   "words": [
+    {
+     "w": "Dozens",
+     "start": 21.695,
+     "end": 21.975
+    },
+    {
+     "w": "of",
+     "start": 21.975,
+     "end": 22.255
+    },
+    {
+     "w": "the",
+     "start": 22.255,
+     "end": 22.355
+    },
+    {
+     "w": "defenders",
+     "start": 22.355,
+     "end": 22.675
+    },
+    {
+     "w": "were",
+     "start": 22.675,
+     "end": 23.035
+    },
+    {
+     "w": "sick",
+     "start": 23.035,
+     "end": 23.275
+    },
+    {
+     "w": "in",
+     "start": 23.275,
+     "end": 23.435
+    },
+    {
+     "w": "the",
+     "start": 23.435,
+     "end": 23.535
+    },
+    {
+     "w": "hospital.",
+     "start": 23.535,
+     "end": 24.075
+    },
+    {
+     "w": "They",
+     "start": 24.395,
+     "end": 24.435
+    },
+    {
+     "w": "could",
+     "start": 24.435,
+     "end": 24.555
+    },
+    {
+     "w": "have",
+     "start": 24.555,
+     "end": 24.655
+    },
+    {
+     "w": "run.",
+     "start": 24.655,
+     "end": 24.895
+    },
+    {
+     "w": "They",
+     "start": 25.375,
+     "end": 25.415
+    },
+    {
+     "w": "stayed.",
+     "start": 25.415,
+     "end": 25.695
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "In about an hour, they built walls out of maize sacks and biscuit boxes.",
+   "start": 26.56,
+   "end": 30.509,
+   "words": [
+    {
+     "w": "In",
+     "start": 26.46,
+     "end": 26.62
+    },
+    {
+     "w": "about",
+     "start": 26.62,
+     "end": 26.8
+    },
+    {
+     "w": "an",
+     "start": 26.8,
+     "end": 26.96
+    },
+    {
+     "w": "hour,",
+     "start": 26.96,
+     "end": 27.26
+    },
+    {
+     "w": "they",
+     "start": 27.58,
+     "end": 27.64
+    },
+    {
+     "w": "built",
+     "start": 27.64,
+     "end": 27.84
+    },
+    {
+     "w": "walls",
+     "start": 27.84,
+     "end": 28.16
+    },
+    {
+     "w": "out",
+     "start": 28.16,
+     "end": 28.28
+    },
+    {
+     "w": "of",
+     "start": 28.16,
+     "end": 28.44
+    },
+    {
+     "w": "maize",
+     "start": 28.44,
+     "end": 28.7
+    },
+    {
+     "w": "sacks",
+     "start": 28.7,
+     "end": 29.14
+    },
+    {
+     "w": "and",
+     "start": 29.14,
+     "end": 29.42
+    },
+    {
+     "w": "biscuit",
+     "start": 29.42,
+     "end": 29.78
+    },
+    {
+     "w": "boxes.",
+     "start": 29.78,
+     "end": 30.04
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Then the attack began.",
+   "start": 30.909,
+   "end": 32.282,
+   "words": [
+    {
+     "w": "Then",
+     "start": 30.809,
+     "end": 31.069
+    },
+    {
+     "w": "the",
+     "start": 31.069,
+     "end": 31.229
+    },
+    {
+     "w": "attack",
+     "start": 31.229,
+     "end": 31.489
+    },
+    {
+     "w": "began.",
+     "start": 31.489,
+     "end": 31.969
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Wave after wave charged the barricades. When the hospital was set on fire, soldiers hacked holes through its walls and dragged the patients out, room by room.",
+   "start": 32.682,
+   "end": 41.92,
+   "words": [
+    {
+     "w": "Wave",
+     "start": 32.582,
+     "end": 32.842
+    },
+    {
+     "w": "after",
+     "start": 32.842,
+     "end": 33.242
+    },
+    {
+     "w": "wave",
+     "start": 33.242,
+     "end": 33.482
+    },
+    {
+     "w": "charged",
+     "start": 33.482,
+     "end": 33.782
+    },
+    {
+     "w": "the",
+     "start": 33.782,
+     "end": 34.102
+    },
+    {
+     "w": "barricades.",
+     "start": 34.102,
+     "end": 34.662
+    },
+    {
+     "w": "When",
+     "start": 35.382,
+     "end": 35.422
+    },
+    {
+     "w": "the",
+     "start": 35.422,
+     "end": 35.522
+    },
+    {
+     "w": "hospital",
+     "start": 35.522,
+     "end": 35.862
+    },
+    {
+     "w": "was",
+     "start": 35.862,
+     "end": 36.122
+    },
+    {
+     "w": "set",
+     "start": 36.122,
+     "end": 36.302
+    },
+    {
+     "w": "on",
+     "start": 36.302,
+     "end": 36.442
+    },
+    {
+     "w": "fire,",
+     "start": 36.442,
+     "end": 36.842
+    },
+    {
+     "w": "soldiers",
+     "start": 37.162,
+     "end": 37.582
+    },
+    {
+     "w": "hacked",
+     "start": 37.582,
+     "end": 37.902
+    },
+    {
+     "w": "holes",
+     "start": 37.902,
+     "end": 38.182
+    },
+    {
+     "w": "through",
+     "start": 38.182,
+     "end": 38.582
+    },
+    {
+     "w": "its",
+     "start": 38.582,
+     "end": 38.742
+    },
+    {
+     "w": "walls",
+     "start": 38.742,
+     "end": 39.002
+    },
+    {
+     "w": "and",
+     "start": 39.002,
+     "end": 39.342
+    },
+    {
+     "w": "dragged",
+     "start": 39.342,
+     "end": 39.542
+    },
+    {
+     "w": "the",
+     "start": 39.542,
+     "end": 39.822
+    },
+    {
+     "w": "patients",
+     "start": 39.822,
+     "end": 40.162
+    },
+    {
+     "w": "out,",
+     "start": 40.162,
+     "end": 40.502
+    },
+    {
+     "w": "room",
+     "start": 40.922,
+     "end": 41.022
+    },
+    {
+     "w": "by",
+     "start": 41.022,
+     "end": 41.362
+    },
+    {
+     "w": "room.",
+     "start": 41.362,
+     "end": 41.702
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "They fought through the night, by the light of the flames. Of 20,000 rounds, only 900 were left.",
+   "start": 42.42,
+   "end": 48.15,
+   "words": [
+    {
+     "w": "They",
+     "start": 42.32,
+     "end": 42.5
+    },
+    {
+     "w": "fought",
+     "start": 42.5,
+     "end": 42.66
+    },
+    {
+     "w": "through",
+     "start": 42.66,
+     "end": 42.94
+    },
+    {
+     "w": "the",
+     "start": 42.94,
+     "end": 43.1
+    },
+    {
+     "w": "night,",
+     "start": 43.1,
+     "end": 43.36
+    },
+    {
+     "w": "by",
+     "start": 43.36,
+     "end": 43.7
+    },
+    {
+     "w": "the",
+     "start": 43.7,
+     "end": 43.82
+    },
+    {
+     "w": "light",
+     "start": 43.82,
+     "end": 44.02
+    },
+    {
+     "w": "of",
+     "start": 44.02,
+     "end": 44.16
+    },
+    {
+     "w": "the",
+     "start": 44.16,
+     "end": 44.26
+    },
+    {
+     "w": "flames.",
+     "start": 44.26,
+     "end": 44.48
+    },
+    {
+     "w": "Of",
+     "start": 45.38,
+     "end": 45.38
+    },
+    {
+     "w": "20,000",
+     "start": 45.38,
+     "end": 46.08
+    },
+    {
+     "w": "rounds,",
+     "start": 46.08,
+     "end": 46.38
+    },
+    {
+     "w": "only",
+     "start": 46.72,
+     "end": 46.9
+    },
+    {
+     "w": "900",
+     "start": 46.9,
+     "end": 47.26
+    },
+    {
+     "w": "were",
+     "start": 47.26,
+     "end": 47.66
+    },
+    {
+     "w": "left.",
+     "start": 47.66,
+     "end": 47.88
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "At dawn, the Zulu army withdrew.",
+   "start": 48.65,
+   "end": 50.597,
+   "words": [
+    {
+     "w": "At",
+     "start": 48.55,
+     "end": 48.71
+    },
+    {
+     "w": "dawn,",
+     "start": 48.71,
+     "end": 49.01
+    },
+    {
+     "w": "the",
+     "start": 49.23,
+     "end": 49.27
+    },
+    {
+     "w": "Zulu",
+     "start": 49.27,
+     "end": 49.53
+    },
+    {
+     "w": "army",
+     "start": 49.53,
+     "end": 49.85
+    },
+    {
+     "w": "withdrew.",
+     "start": 49.85,
+     "end": 50.35
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "17 defenders were dead. Around the walls lay 350 Zulu warriors.",
+   "start": 51.097,
+   "end": 56.534,
+   "words": [
+    {
+     "w": "17",
+     "start": 50.997,
+     "end": 51.377
+    },
+    {
+     "w": "defenders",
+     "start": 51.377,
+     "end": 51.837
+    },
+    {
+     "w": "were",
+     "start": 51.837,
+     "end": 52.397
+    },
+    {
+     "w": "dead.",
+     "start": 52.397,
+     "end": 52.657
+    },
+    {
+     "w": "Around",
+     "start": 53.417,
+     "end": 53.417
+    },
+    {
+     "w": "the",
+     "start": 53.417,
+     "end": 53.597
+    },
+    {
+     "w": "walls",
+     "start": 53.597,
+     "end": 53.837
+    },
+    {
+     "w": "lay",
+     "start": 53.837,
+     "end": 54.177
+    },
+    {
+     "w": "350",
+     "start": 54.177,
+     "end": 54.697
+    },
+    {
+     "w": "Zulu",
+     "start": 54.697,
+     "end": 55.717
+    },
+    {
+     "w": "warriors.",
+     "start": 55.717,
+     "end": 56.117
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "Eleven men received the Victoria Cross. The most ever awarded for a single battle.",
+   "start": 57.034,
+   "end": 61.904,
+   "words": [
+    {
+     "w": "Eleven",
+     "start": 57.034,
+     "end": 57.254
+    },
+    {
+     "w": "men",
+     "start": 57.254,
+     "end": 57.614
+    },
+    {
+     "w": "received",
+     "start": 57.614,
+     "end": 58.034
+    },
+    {
+     "w": "the",
+     "start": 58.034,
+     "end": 58.294
+    },
+    {
+     "w": "Victoria",
+     "start": 58.294,
+     "end": 58.534
+    },
+    {
+     "w": "Cross.",
+     "start": 58.534,
+     "end": 59.074
+    },
+    {
+     "w": "The",
+     "start": 59.674,
+     "end": 59.754
+    },
+    {
+     "w": "most",
+     "start": 59.754,
+     "end": 59.954
+    },
+    {
+     "w": "ever",
+     "start": 59.954,
+     "end": 60.334
+    },
+    {
+     "w": "awarded",
+     "start": 60.334,
+     "end": 60.674
+    },
+    {
+     "w": "for",
+     "start": 60.674,
+     "end": 60.934
+    },
+    {
+     "w": "a",
+     "start": 60.934,
+     "end": 61.074
+    },
+    {
+     "w": "single",
+     "start": 61.074,
+     "end": 61.254
+    },
+    {
+     "w": "battle.",
+     "start": 61.254,
+     "end": 61.654
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Would you have stayed? Follow Buried Chronicles for more forgotten history.",
+   "start": 62.504,
+   "end": 66.293,
+   "words": [
+    {
+     "w": "Would",
+     "start": 62.404,
+     "end": 62.584
+    },
+    {
+     "w": "you",
+     "start": 62.584,
+     "end": 62.704
+    },
+    {
+     "w": "have",
+     "start": 62.704,
+     "end": 62.844
+    },
+    {
+     "w": "stayed?",
+     "start": 62.844,
+     "end": 63.164
+    },
+    {
+     "w": "Follow",
+     "start": 63.164,
+     "end": 63.844
+    },
+    {
+     "w": "Buried",
+     "start": 63.844,
+     "end": 64.184
+    },
+    {
+     "w": "Chronicles",
+     "start": 64.184,
+     "end": 64.784
+    },
+    {
+     "w": "for",
+     "start": 64.784,
+     "end": 65.004
+    },
+    {
+     "w": "more",
+     "start": 65.004,
+     "end": 65.164
+    },
+    {
+     "w": "forgotten",
+     "start": 65.164,
+     "end": 65.524
+    },
+    {
+     "w": "history.",
+     "start": 65.524,
+     "end": 65.904
+    }
+   ]
+  }
+ ]
+}

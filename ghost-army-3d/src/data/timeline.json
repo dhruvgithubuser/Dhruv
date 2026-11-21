@@ -1,0 +1,1555 @@
+{
+ "fps": 30,
+ "duration": 103.595,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "In the summer of 1944, two Frenchmen on bicycles stopped in shock. Four American soldiers had just picked up a Sherman tank.",
+   "start": 0.35,
+   "end": 7.853,
+   "words": [
+    {
+     "w": "In",
+     "start": 0.25,
+     "end": 0.41
+    },
+    {
+     "w": "the",
+     "start": 0.41,
+     "end": 0.49
+    },
+    {
+     "w": "summer",
+     "start": 0.49,
+     "end": 0.73
+    },
+    {
+     "w": "of",
+     "start": 0.73,
+     "end": 0.91
+    },
+    {
+     "w": "1944,",
+     "start": 0.91,
+     "end": 1.57
+    },
+    {
+     "w": "two",
+     "start": 2.15,
+     "end": 2.33
+    },
+    {
+     "w": "Frenchmen",
+     "start": 2.33,
+     "end": 2.83
+    },
+    {
+     "w": "on",
+     "start": 2.83,
+     "end": 2.97
+    },
+    {
+     "w": "bicycles",
+     "start": 2.97,
+     "end": 3.27
+    },
+    {
+     "w": "stopped",
+     "start": 3.27,
+     "end": 3.77
+    },
+    {
+     "w": "in",
+     "start": 3.77,
+     "end": 3.99
+    },
+    {
+     "w": "shock.",
+     "start": 3.99,
+     "end": 4.19
+    },
+    {
+     "w": "Four",
+     "start": 5.13,
+     "end": 5.13
+    },
+    {
+     "w": "American",
+     "start": 5.13,
+     "end": 5.57
+    },
+    {
+     "w": "soldiers",
+     "start": 5.57,
+     "end": 6.11
+    },
+    {
+     "w": "had",
+     "start": 6.11,
+     "end": 6.39
+    },
+    {
+     "w": "just",
+     "start": 6.39,
+     "end": 6.53
+    },
+    {
+     "w": "picked",
+     "start": 6.53,
+     "end": 6.73
+    },
+    {
+     "w": "up",
+     "start": 6.73,
+     "end": 6.89
+    },
+    {
+     "w": "a",
+     "start": 6.89,
+     "end": 6.99
+    },
+    {
+     "w": "Sherman",
+     "start": 6.99,
+     "end": 7.21
+    },
+    {
+     "w": "tank.",
+     "start": 7.21,
+     "end": 7.59
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "The Sherman was America's main battle tank: 33 tons of steel.",
+   "start": 8.168,
+   "end": 11.837,
+   "words": [
+    {
+     "w": "The",
+     "start": 8.068,
+     "end": 8.228
+    },
+    {
+     "w": "Sherman",
+     "start": 8.228,
+     "end": 8.448
+    },
+    {
+     "w": "was",
+     "start": 8.448,
+     "end": 8.748
+    },
+    {
+     "w": "America's",
+     "start": 8.748,
+     "end": 9.328
+    },
+    {
+     "w": "main",
+     "start": 9.328,
+     "end": 9.508
+    },
+    {
+     "w": "battle",
+     "start": 9.508,
+     "end": 9.808
+    },
+    {
+     "w": "tank:",
+     "start": 9.808,
+     "end": 10.088
+    },
+    {
+     "w": "33",
+     "start": 10.748,
+     "end": 10.748
+    },
+    {
+     "w": "tons",
+     "start": 10.748,
+     "end": 11.168
+    },
+    {
+     "w": "of",
+     "start": 11.168,
+     "end": 11.348
+    },
+    {
+     "w": "steel.",
+     "start": 11.348,
+     "end": 11.588
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "One soldier reportedly shrugged: \"Americans are very strong.\"",
+   "start": 12.117,
+   "end": 15.488,
+   "words": [
+    {
+     "w": "One",
+     "start": 12.017,
+     "end": 12.237
+    },
+    {
+     "w": "soldier",
+     "start": 12.237,
+     "end": 12.697
+    },
+    {
+     "w": "reportedly",
+     "start": 12.697,
+     "end": 13.177
+    },
+    {
+     "w": "shrugged:",
+     "start": 13.177,
+     "end": 13.497
+    },
+    {
+     "w": "\"Americans",
+     "start": 13.977,
+     "end": 14.377
+    },
+    {
+     "w": "are",
+     "start": 14.377,
+     "end": 14.657
+    },
+    {
+     "w": "very",
+     "start": 14.657,
+     "end": 14.857
+    },
+    {
+     "w": "strong.\"",
+     "start": 14.857,
+     "end": 15.217
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "The truth? The tank was rubber. And it weighed 93 pounds.",
+   "start": 15.873,
+   "end": 19.085,
+   "words": [
+    {
+     "w": "The",
+     "start": 15.773,
+     "end": 15.953
+    },
+    {
+     "w": "truth?",
+     "start": 15.953,
+     "end": 16.173
+    },
+    {
+     "w": "The",
+     "start": 16.293,
+     "end": 16.413
+    },
+    {
+     "w": "tank",
+     "start": 16.413,
+     "end": 16.613
+    },
+    {
+     "w": "was",
+     "start": 16.613,
+     "end": 16.853
+    },
+    {
+     "w": "rubber.",
+     "start": 16.853,
+     "end": 17.133
+    },
+    {
+     "w": "And",
+     "start": 17.533,
+     "end": 17.613
+    },
+    {
+     "w": "it",
+     "start": 17.613,
+     "end": 17.693
+    },
+    {
+     "w": "weighed",
+     "start": 17.693,
+     "end": 17.833
+    },
+    {
+     "w": "93",
+     "start": 17.833,
+     "end": 18.273
+    },
+    {
+     "w": "pounds.",
+     "start": 18.273,
+     "end": 18.753
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "It belonged to one of the most secret units of World War II: the 23rd Headquarters Special Troops. The Ghost Army.",
+   "start": 19.435,
+   "end": 25.943,
+   "words": [
+    {
+     "w": "It",
+     "start": 19.335,
+     "end": 19.515
+    },
+    {
+     "w": "belonged",
+     "start": 19.515,
+     "end": 19.755
+    },
+    {
+     "w": "to",
+     "start": 19.755,
+     "end": 20.055
+    },
+    {
+     "w": "one",
+     "start": 20.055,
+     "end": 20.195
+    },
+    {
+     "w": "of",
+     "start": 20.195,
+     "end": 20.275
+    },
+    {
+     "w": "the",
+     "start": 20.275,
+     "end": 20.355
+    },
+    {
+     "w": "most",
+     "start": 20.355,
+     "end": 20.495
+    },
+    {
+     "w": "secret",
+     "start": 20.495,
+     "end": 20.875
+    },
+    {
+     "w": "units",
+     "start": 20.875,
+     "end": 21.295
+    },
+    {
+     "w": "of",
+     "start": 21.295,
+     "end": 21.515
+    },
+    {
+     "w": "World",
+     "start": 21.515,
+     "end": 21.655
+    },
+    {
+     "w": "War",
+     "start": 21.655,
+     "end": 21.895
+    },
+    {
+     "w": "II:",
+     "start": 21.895,
+     "end": 22.215
+    },
+    {
+     "w": "the",
+     "start": 22.635,
+     "end": 22.755
+    },
+    {
+     "w": "23rd",
+     "start": 22.755,
+     "end": 23.835
+    },
+    {
+     "w": "Headquarters",
+     "start": 23.835,
+     "end": 23.835
+    },
+    {
+     "w": "Special",
+     "start": 23.835,
+     "end": 24.115
+    },
+    {
+     "w": "Troops.",
+     "start": 24.115,
+     "end": 24.475
+    },
+    {
+     "w": "The",
+     "start": 24.975,
+     "end": 25.115
+    },
+    {
+     "w": "Ghost",
+     "start": 25.115,
+     "end": 25.255
+    },
+    {
+     "w": "Army.",
+     "start": 25.255,
+     "end": 25.715
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "1,100 men, many of them artists, designers and ad men from New York and Philadelphia. Their mission: make the Germans believe they were 30,000.",
+   "start": 26.258,
+   "end": 34.892,
+   "words": [
+    {
+     "w": "1,100",
+     "start": 26.158,
+     "end": 26.518
+    },
+    {
+     "w": "men,",
+     "start": 26.518,
+     "end": 27.118
+    },
+    {
+     "w": "many",
+     "start": 27.118,
+     "end": 27.538
+    },
+    {
+     "w": "of",
+     "start": 27.538,
+     "end": 27.638
+    },
+    {
+     "w": "them",
+     "start": 27.638,
+     "end": 27.758
+    },
+    {
+     "w": "artists,",
+     "start": 27.758,
+     "end": 28.078
+    },
+    {
+     "w": "designers",
+     "start": 28.538,
+     "end": 28.798
+    },
+    {
+     "w": "and",
+     "start": 28.798,
+     "end": 29.238
+    },
+    {
+     "w": "ad",
+     "start": 29.238,
+     "end": 29.418
+    },
+    {
+     "w": "men",
+     "start": 29.418,
+     "end": 29.638
+    },
+    {
+     "w": "from",
+     "start": 29.638,
+     "end": 29.878
+    },
+    {
+     "w": "New",
+     "start": 29.878,
+     "end": 30.018
+    },
+    {
+     "w": "York",
+     "start": 30.018,
+     "end": 30.278
+    },
+    {
+     "w": "and",
+     "start": 30.278,
+     "end": 30.458
+    },
+    {
+     "w": "Philadelphia.",
+     "start": 30.458,
+     "end": 30.878
+    },
+    {
+     "w": "Their",
+     "start": 31.738,
+     "end": 31.778
+    },
+    {
+     "w": "mission:",
+     "start": 31.778,
+     "end": 32.018
+    },
+    {
+     "w": "make",
+     "start": 32.438,
+     "end": 32.618
+    },
+    {
+     "w": "the",
+     "start": 32.618,
+     "end": 32.798
+    },
+    {
+     "w": "Germans",
+     "start": 32.798,
+     "end": 32.998
+    },
+    {
+     "w": "believe",
+     "start": 32.998,
+     "end": 33.538
+    },
+    {
+     "w": "they",
+     "start": 33.538,
+     "end": 33.818
+    },
+    {
+     "w": "were",
+     "start": 33.818,
+     "end": 33.918
+    },
+    {
+     "w": "30,000.",
+     "start": 33.918,
+     "end": 34.892
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "German intelligence watched the front three ways: from the air, over the radio, and through spies. The Ghost Army faked all three.",
+   "start": 35.207,
+   "end": 42.013,
+   "words": [
+    {
+     "w": "German",
+     "start": 35.107,
+     "end": 35.367
+    },
+    {
+     "w": "intelligence",
+     "start": 35.367,
+     "end": 35.707
+    },
+    {
+     "w": "watched",
+     "start": 35.707,
+     "end": 36.187
+    },
+    {
+     "w": "the",
+     "start": 36.187,
+     "end": 36.427
+    },
+    {
+     "w": "front",
+     "start": 36.427,
+     "end": 36.607
+    },
+    {
+     "w": "three",
+     "start": 36.607,
+     "end": 36.827
+    },
+    {
+     "w": "ways:",
+     "start": 36.827,
+     "end": 37.087
+    },
+    {
+     "w": "from",
+     "start": 37.527,
+     "end": 37.667
+    },
+    {
+     "w": "the",
+     "start": 37.667,
+     "end": 37.787
+    },
+    {
+     "w": "air,",
+     "start": 37.787,
+     "end": 38.007
+    },
+    {
+     "w": "over",
+     "start": 38.007,
+     "end": 38.367
+    },
+    {
+     "w": "the",
+     "start": 38.367,
+     "end": 38.467
+    },
+    {
+     "w": "radio,",
+     "start": 38.467,
+     "end": 38.847
+    },
+    {
+     "w": "and",
+     "start": 38.847,
+     "end": 39.047
+    },
+    {
+     "w": "through",
+     "start": 39.047,
+     "end": 39.227
+    },
+    {
+     "w": "spies.",
+     "start": 39.227,
+     "end": 39.527
+    },
+    {
+     "w": "The",
+     "start": 40.367,
+     "end": 40.387
+    },
+    {
+     "w": "Ghost",
+     "start": 40.387,
+     "end": 40.527
+    },
+    {
+     "w": "Army",
+     "start": 40.527,
+     "end": 40.867
+    },
+    {
+     "w": "faked",
+     "start": 40.867,
+     "end": 41.207
+    },
+    {
+     "w": "all",
+     "start": 41.207,
+     "end": 41.487
+    },
+    {
+     "w": "three.",
+     "start": 41.487,
+     "end": 41.787
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "From the air: inflatable tanks, trucks and artillery, set up overnight. A bulldozer cut fake tank tracks, so the scene looked real in reconnaissance photos.",
+   "start": 42.328,
+   "end": 50.853,
+   "words": [
+    {
+     "w": "From",
+     "start": 42.228,
+     "end": 42.428
+    },
+    {
+     "w": "the",
+     "start": 42.428,
+     "end": 42.568
+    },
+    {
+     "w": "air:",
+     "start": 42.568,
+     "end": 42.768
+    },
+    {
+     "w": "inflatable",
+     "start": 43.088,
+     "end": 43.368
+    },
+    {
+     "w": "tanks,",
+     "start": 43.368,
+     "end": 43.768
+    },
+    {
+     "w": "trucks",
+     "start": 44.068,
+     "end": 44.128
+    },
+    {
+     "w": "and",
+     "start": 44.128,
+     "end": 44.408
+    },
+    {
+     "w": "artillery,",
+     "start": 44.408,
+     "end": 44.728
+    },
+    {
+     "w": "set",
+     "start": 44.728,
+     "end": 45.248
+    },
+    {
+     "w": "up",
+     "start": 45.248,
+     "end": 45.428
+    },
+    {
+     "w": "overnight.",
+     "start": 45.428,
+     "end": 45.728
+    },
+    {
+     "w": "A",
+     "start": 46.588,
+     "end": 46.588
+    },
+    {
+     "w": "bulldozer",
+     "start": 46.588,
+     "end": 47.068
+    },
+    {
+     "w": "cut",
+     "start": 47.068,
+     "end": 47.208
+    },
+    {
+     "w": "fake",
+     "start": 47.208,
+     "end": 47.468
+    },
+    {
+     "w": "tank",
+     "start": 47.468,
+     "end": 47.748
+    },
+    {
+     "w": "tracks,",
+     "start": 47.748,
+     "end": 48.028
+    },
+    {
+     "w": "so",
+     "start": 48.028,
+     "end": 48.488
+    },
+    {
+     "w": "the",
+     "start": 48.488,
+     "end": 48.588
+    },
+    {
+     "w": "scene",
+     "start": 48.588,
+     "end": 48.788
+    },
+    {
+     "w": "looked",
+     "start": 48.788,
+     "end": 49.028
+    },
+    {
+     "w": "real",
+     "start": 49.028,
+     "end": 49.388
+    },
+    {
+     "w": "in",
+     "start": 49.388,
+     "end": 50.088
+    },
+    {
+     "w": "reconnaissance",
+     "start": 50.088,
+     "end": 50.088
+    },
+    {
+     "w": "photos.",
+     "start": 50.088,
+     "end": 50.428
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Over the radio: operators copied the traffic of real divisions, down to each operator's style in Morse code.",
+   "start": 51.133,
+   "end": 57.292,
+   "words": [
+    {
+     "w": "Over",
+     "start": 51.033,
+     "end": 51.273
+    },
+    {
+     "w": "the",
+     "start": 51.273,
+     "end": 51.413
+    },
+    {
+     "w": "radio:",
+     "start": 51.413,
+     "end": 51.753
+    },
+    {
+     "w": "operators",
+     "start": 52.713,
+     "end": 52.713
+    },
+    {
+     "w": "copied",
+     "start": 52.713,
+     "end": 52.953
+    },
+    {
+     "w": "the",
+     "start": 52.953,
+     "end": 53.193
+    },
+    {
+     "w": "traffic",
+     "start": 53.193,
+     "end": 53.413
+    },
+    {
+     "w": "of",
+     "start": 53.413,
+     "end": 53.713
+    },
+    {
+     "w": "real",
+     "start": 53.713,
+     "end": 53.873
+    },
+    {
+     "w": "divisions,",
+     "start": 53.873,
+     "end": 54.273
+    },
+    {
+     "w": "down",
+     "start": 54.273,
+     "end": 54.953
+    },
+    {
+     "w": "to",
+     "start": 54.953,
+     "end": 55.173
+    },
+    {
+     "w": "each",
+     "start": 55.173,
+     "end": 55.373
+    },
+    {
+     "w": "operator's",
+     "start": 55.373,
+     "end": 55.753
+    },
+    {
+     "w": "style",
+     "start": 55.753,
+     "end": 56.233
+    },
+    {
+     "w": "in",
+     "start": 56.233,
+     "end": 56.493
+    },
+    {
+     "w": "Morse",
+     "start": 56.493,
+     "end": 56.673
+    },
+    {
+     "w": "code.",
+     "start": 56.673,
+     "end": 57.053
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "And on the ground: speakers on half-tracks played recordings of tank columns, heard up to 15 miles away. Soldiers wore fake unit patches and talked loosely in caf\u00e9s where spies might be listening.",
+   "start": 57.572,
+   "end": 68.672,
+   "words": [
+    {
+     "w": "And",
+     "start": 57.472,
+     "end": 57.652
+    },
+    {
+     "w": "on",
+     "start": 57.652,
+     "end": 57.712
+    },
+    {
+     "w": "the",
+     "start": 57.712,
+     "end": 57.832
+    },
+    {
+     "w": "ground:",
+     "start": 57.832,
+     "end": 58.072
+    },
+    {
+     "w": "speakers",
+     "start": 58.512,
+     "end": 58.892
+    },
+    {
+     "w": "on",
+     "start": 58.892,
+     "end": 59.112
+    },
+    {
+     "w": "half-tracks",
+     "start": 59.112,
+     "end": 59.532
+    },
+    {
+     "w": "played",
+     "start": 59.532,
+     "end": 59.892
+    },
+    {
+     "w": "recordings",
+     "start": 59.892,
+     "end": 60.192
+    },
+    {
+     "w": "of",
+     "start": 60.192,
+     "end": 60.532
+    },
+    {
+     "w": "tank",
+     "start": 60.532,
+     "end": 60.712
+    },
+    {
+     "w": "columns,",
+     "start": 60.712,
+     "end": 61.172
+    },
+    {
+     "w": "heard",
+     "start": 61.172,
+     "end": 61.732
+    },
+    {
+     "w": "up",
+     "start": 61.732,
+     "end": 61.932
+    },
+    {
+     "w": "to",
+     "start": 61.932,
+     "end": 62.052
+    },
+    {
+     "w": "15",
+     "start": 62.052,
+     "end": 62.372
+    },
+    {
+     "w": "miles",
+     "start": 62.372,
+     "end": 62.572
+    },
+    {
+     "w": "away.",
+     "start": 62.572,
+     "end": 62.952
+    },
+    {
+     "w": "Soldiers",
+     "start": 64.092,
+     "end": 64.092
+    },
+    {
+     "w": "wore",
+     "start": 64.092,
+     "end": 64.372
+    },
+    {
+     "w": "fake",
+     "start": 64.372,
+     "end": 64.692
+    },
+    {
+     "w": "unit",
+     "start": 64.692,
+     "end": 64.972
+    },
+    {
+     "w": "patches",
+     "start": 64.972,
+     "end": 65.352
+    },
+    {
+     "w": "and",
+     "start": 65.352,
+     "end": 65.832
+    },
+    {
+     "w": "talked",
+     "start": 65.832,
+     "end": 66.012
+    },
+    {
+     "w": "loosely",
+     "start": 66.012,
+     "end": 66.352
+    },
+    {
+     "w": "in",
+     "start": 66.352,
+     "end": 66.672
+    },
+    {
+     "w": "caf\u00e9s",
+     "start": 66.672,
+     "end": 66.952
+    },
+    {
+     "w": "where",
+     "start": 66.952,
+     "end": 67.352
+    },
+    {
+     "w": "spies",
+     "start": 67.352,
+     "end": 67.592
+    },
+    {
+     "w": "might",
+     "start": 67.592,
+     "end": 68.032
+    },
+    {
+     "w": "be",
+     "start": 68.032,
+     "end": 68.172
+    },
+    {
+     "w": "listening.",
+     "start": 68.172,
+     "end": 68.412
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "From Normandy to the Rhine, they staged more than twenty deceptions.",
+   "start": 68.987,
+   "end": 72.271,
+   "words": [
+    {
+     "w": "From",
+     "start": 68.887,
+     "end": 69.127
+    },
+    {
+     "w": "Normandy",
+     "start": 69.127,
+     "end": 69.447
+    },
+    {
+     "w": "to",
+     "start": 69.447,
+     "end": 69.687
+    },
+    {
+     "w": "the",
+     "start": 69.687,
+     "end": 69.767
+    },
+    {
+     "w": "Rhine,",
+     "start": 69.767,
+     "end": 70.127
+    },
+    {
+     "w": "they",
+     "start": 70.367,
+     "end": 70.427
+    },
+    {
+     "w": "staged",
+     "start": 70.427,
+     "end": 70.627
+    },
+    {
+     "w": "more",
+     "start": 70.627,
+     "end": 71.027
+    },
+    {
+     "w": "than",
+     "start": 71.027,
+     "end": 71.187
+    },
+    {
+     "w": "twenty",
+     "start": 71.187,
+     "end": 71.407
+    },
+    {
+     "w": "deceptions.",
+     "start": 71.407,
+     "end": 71.887
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Their biggest came in March 1945. To cover the Ninth Army's crossing of the Rhine, they faked two entire infantry divisions with more than 600 inflatable dummies.",
+   "start": 72.551,
+   "end": 82.716,
+   "words": [
+    {
+     "w": "Their",
+     "start": 72.451,
+     "end": 72.651
+    },
+    {
+     "w": "biggest",
+     "start": 72.651,
+     "end": 72.871
+    },
+    {
+     "w": "came",
+     "start": 72.871,
+     "end": 73.171
+    },
+    {
+     "w": "in",
+     "start": 73.171,
+     "end": 73.351
+    },
+    {
+     "w": "March",
+     "start": 73.351,
+     "end": 73.591
+    },
+    {
+     "w": "1945.",
+     "start": 73.971,
+     "end": 74.571
+    },
+    {
+     "w": "To",
+     "start": 75.631,
+     "end": 75.731
+    },
+    {
+     "w": "cover",
+     "start": 75.731,
+     "end": 75.931
+    },
+    {
+     "w": "the",
+     "start": 75.931,
+     "end": 76.111
+    },
+    {
+     "w": "Ninth",
+     "start": 76.111,
+     "end": 76.431
+    },
+    {
+     "w": "Army's",
+     "start": 76.431,
+     "end": 76.811
+    },
+    {
+     "w": "crossing",
+     "start": 76.811,
+     "end": 76.991
+    },
+    {
+     "w": "of",
+     "start": 76.991,
+     "end": 77.291
+    },
+    {
+     "w": "the",
+     "start": 77.291,
+     "end": 77.371
+    },
+    {
+     "w": "Rhine,",
+     "start": 77.371,
+     "end": 77.691
+    },
+    {
+     "w": "they",
+     "start": 78.051,
+     "end": 78.071
+    },
+    {
+     "w": "faked",
+     "start": 78.071,
+     "end": 78.291
+    },
+    {
+     "w": "two",
+     "start": 78.291,
+     "end": 78.631
+    },
+    {
+     "w": "entire",
+     "start": 78.631,
+     "end": 78.911
+    },
+    {
+     "w": "infantry",
+     "start": 78.911,
+     "end": 79.471
+    },
+    {
+     "w": "divisions",
+     "start": 79.471,
+     "end": 79.951
+    },
+    {
+     "w": "with",
+     "start": 79.951,
+     "end": 80.591
+    },
+    {
+     "w": "more",
+     "start": 80.591,
+     "end": 80.811
+    },
+    {
+     "w": "than",
+     "start": 80.811,
+     "end": 80.951
+    },
+    {
+     "w": "600",
+     "start": 80.951,
+     "end": 81.231
+    },
+    {
+     "w": "inflatable",
+     "start": 81.231,
+     "end": 81.911
+    },
+    {
+     "w": "dummies.",
+     "start": 81.911,
+     "end": 82.451
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "The Germans took the bait. The real crossing, to the north, met little resistance.",
+   "start": 83.031,
+   "end": 87.218,
+   "words": [
+    {
+     "w": "The",
+     "start": 82.931,
+     "end": 83.091
+    },
+    {
+     "w": "Germans",
+     "start": 83.091,
+     "end": 83.331
+    },
+    {
+     "w": "took",
+     "start": 83.331,
+     "end": 83.671
+    },
+    {
+     "w": "the",
+     "start": 83.671,
+     "end": 83.831
+    },
+    {
+     "w": "bait.",
+     "start": 83.831,
+     "end": 84.051
+    },
+    {
+     "w": "The",
+     "start": 84.511,
+     "end": 84.591
+    },
+    {
+     "w": "real",
+     "start": 84.591,
+     "end": 84.771
+    },
+    {
+     "w": "crossing,",
+     "start": 84.771,
+     "end": 85.131
+    },
+    {
+     "w": "to",
+     "start": 85.131,
+     "end": 85.431
+    },
+    {
+     "w": "the",
+     "start": 85.431,
+     "end": 85.511
+    },
+    {
+     "w": "north,",
+     "start": 85.511,
+     "end": 85.751
+    },
+    {
+     "w": "met",
+     "start": 85.751,
+     "end": 86.091
+    },
+    {
+     "w": "little",
+     "start": 86.091,
+     "end": 86.371
+    },
+    {
+     "w": "resistance.",
+     "start": 86.371,
+     "end": 86.691
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "The Army kept it all classified for more than fifty years, until 1996.",
+   "start": 87.568,
+   "end": 92.248,
+   "words": [
+    {
+     "w": "The",
+     "start": 87.468,
+     "end": 87.648
+    },
+    {
+     "w": "Army",
+     "start": 87.648,
+     "end": 87.828
+    },
+    {
+     "w": "kept",
+     "start": 87.828,
+     "end": 88.128
+    },
+    {
+     "w": "it",
+     "start": 88.128,
+     "end": 88.328
+    },
+    {
+     "w": "all",
+     "start": 88.328,
+     "end": 88.488
+    },
+    {
+     "w": "classified",
+     "start": 88.488,
+     "end": 88.828
+    },
+    {
+     "w": "for",
+     "start": 88.828,
+     "end": 89.368
+    },
+    {
+     "w": "more",
+     "start": 89.368,
+     "end": 89.548
+    },
+    {
+     "w": "than",
+     "start": 89.548,
+     "end": 89.688
+    },
+    {
+     "w": "fifty",
+     "start": 89.688,
+     "end": 89.928
+    },
+    {
+     "w": "years,",
+     "start": 89.928,
+     "end": 90.308
+    },
+    {
+     "w": "until",
+     "start": 90.768,
+     "end": 90.928
+    },
+    {
+     "w": "1996.",
+     "start": 90.928,
+     "end": 91.568
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "In 2022, Congress awarded the Ghost Army the Congressional Gold Medal, for fighting with rubber, sound and imagination.",
+   "start": 92.563,
+   "end": 99.787,
+   "words": [
+    {
+     "w": "In",
+     "start": 92.463,
+     "end": 92.623
+    },
+    {
+     "w": "2022,",
+     "start": 92.623,
+     "end": 93.363
+    },
+    {
+     "w": "Congress",
+     "start": 93.643,
+     "end": 94.083
+    },
+    {
+     "w": "awarded",
+     "start": 94.083,
+     "end": 94.483
+    },
+    {
+     "w": "the",
+     "start": 94.483,
+     "end": 94.643
+    },
+    {
+     "w": "Ghost",
+     "start": 94.643,
+     "end": 94.843
+    },
+    {
+     "w": "Army",
+     "start": 94.843,
+     "end": 95.223
+    },
+    {
+     "w": "the",
+     "start": 95.223,
+     "end": 95.423
+    },
+    {
+     "w": "Congressional",
+     "start": 95.423,
+     "end": 95.683
+    },
+    {
+     "w": "Gold",
+     "start": 95.683,
+     "end": 96.143
+    },
+    {
+     "w": "Medal,",
+     "start": 96.143,
+     "end": 96.543
+    },
+    {
+     "w": "for",
+     "start": 96.543,
+     "end": 97.143
+    },
+    {
+     "w": "fighting",
+     "start": 97.143,
+     "end": 97.523
+    },
+    {
+     "w": "with",
+     "start": 97.523,
+     "end": 97.723
+    },
+    {
+     "w": "rubber,",
+     "start": 97.723,
+     "end": 97.963
+    },
+    {
+     "w": "sound",
+     "start": 98.343,
+     "end": 98.523
+    },
+    {
+     "w": "and",
+     "start": 98.883,
+     "end": 98.903
+    },
+    {
+     "w": "imagination.",
+     "start": 98.903,
+     "end": 99.383
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "text": "Would you have fallen for it?",
+   "start": 100.137,
+   "end": 101.395,
+   "words": [
+    {
+     "w": "Would",
+     "start": 100.037,
+     "end": 100.237
+    },
+    {
+     "w": "you",
+     "start": 100.237,
+     "end": 100.377
+    },
+    {
+     "w": "have",
+     "start": 100.377,
+     "end": 100.477
+    },
+    {
+     "w": "fallen",
+     "start": 100.477,
+     "end": 100.757
+    },
+    {
+     "w": "for",
+     "start": 100.757,
+     "end": 101.137
+    },
+    {
+     "w": "it?",
+     "start": 101.137,
+     "end": 101.317
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,895 @@
+{
+ "fps": 30,
+ "duration": 61.638,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "America's biggest victory of the War of 1812 came after the peace treaty was signed.",
+   "start": 0.35,
+   "end": 5.24,
+   "words": [
+    {
+     "w": "America's",
+     "start": 0.25,
+     "end": 0.81
+    },
+    {
+     "w": "biggest",
+     "start": 0.81,
+     "end": 1.01
+    },
+    {
+     "w": "victory",
+     "start": 1.01,
+     "end": 1.57
+    },
+    {
+     "w": "of",
+     "start": 1.57,
+     "end": 1.79
+    },
+    {
+     "w": "the",
+     "start": 1.79,
+     "end": 1.91
+    },
+    {
+     "w": "War",
+     "start": 1.91,
+     "end": 2.11
+    },
+    {
+     "w": "of",
+     "start": 2.11,
+     "end": 2.29
+    },
+    {
+     "w": "1812",
+     "start": 2.29,
+     "end": 2.85
+    },
+    {
+     "w": "came",
+     "start": 2.85,
+     "end": 3.49
+    },
+    {
+     "w": "after",
+     "start": 3.49,
+     "end": 3.83
+    },
+    {
+     "w": "the",
+     "start": 3.83,
+     "end": 3.97
+    },
+    {
+     "w": "peace",
+     "start": 3.97,
+     "end": 4.11
+    },
+    {
+     "w": "treaty",
+     "start": 4.11,
+     "end": 4.47
+    },
+    {
+     "w": "was",
+     "start": 4.47,
+     "end": 4.69
+    },
+    {
+     "w": "signed.",
+     "start": 4.69,
+     "end": 5.03
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "On December 24, 1814, diplomats in Ghent, in today's Belgium, signed a treaty to end the war.",
+   "start": 5.59,
+   "end": 11.766,
+   "words": [
+    {
+     "w": "On",
+     "start": 5.49,
+     "end": 5.67
+    },
+    {
+     "w": "December",
+     "start": 5.67,
+     "end": 5.83
+    },
+    {
+     "w": "24,",
+     "start": 5.83,
+     "end": 6.47
+    },
+    {
+     "w": "1814,",
+     "start": 6.83,
+     "end": 7.39
+    },
+    {
+     "w": "diplomats",
+     "start": 8.25,
+     "end": 8.29
+    },
+    {
+     "w": "in",
+     "start": 8.29,
+     "end": 8.69
+    },
+    {
+     "w": "Ghent,",
+     "start": 8.69,
+     "end": 8.97
+    },
+    {
+     "w": "in",
+     "start": 8.97,
+     "end": 9.21
+    },
+    {
+     "w": "today's",
+     "start": 9.21,
+     "end": 9.57
+    },
+    {
+     "w": "Belgium,",
+     "start": 9.57,
+     "end": 10.01
+    },
+    {
+     "w": "signed",
+     "start": 10.01,
+     "end": 10.41
+    },
+    {
+     "w": "a",
+     "start": 10.41,
+     "end": 10.53
+    },
+    {
+     "w": "treaty",
+     "start": 10.53,
+     "end": 10.75
+    },
+    {
+     "w": "to",
+     "start": 10.75,
+     "end": 11.03
+    },
+    {
+     "w": "end",
+     "start": 11.03,
+     "end": 11.19
+    },
+    {
+     "w": "the",
+     "start": 11.19,
+     "end": 11.35
+    },
+    {
+     "w": "war.",
+     "start": 11.35,
+     "end": 11.57
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "But news crossed the Atlantic by sailing ship. In America, no one knew.",
+   "start": 12.046,
+   "end": 16.28,
+   "words": [
+    {
+     "w": "But",
+     "start": 11.946,
+     "end": 12.126
+    },
+    {
+     "w": "news",
+     "start": 12.126,
+     "end": 12.246
+    },
+    {
+     "w": "crossed",
+     "start": 12.246,
+     "end": 12.606
+    },
+    {
+     "w": "the",
+     "start": 12.606,
+     "end": 12.846
+    },
+    {
+     "w": "Atlantic",
+     "start": 12.846,
+     "end": 13.006
+    },
+    {
+     "w": "by",
+     "start": 13.006,
+     "end": 13.466
+    },
+    {
+     "w": "sailing",
+     "start": 13.466,
+     "end": 13.826
+    },
+    {
+     "w": "ship.",
+     "start": 13.826,
+     "end": 14.186
+    },
+    {
+     "w": "In",
+     "start": 14.766,
+     "end": 14.786
+    },
+    {
+     "w": "America,",
+     "start": 14.786,
+     "end": 15.146
+    },
+    {
+     "w": "no",
+     "start": 15.486,
+     "end": 15.566
+    },
+    {
+     "w": "one",
+     "start": 15.566,
+     "end": 15.846
+    },
+    {
+     "w": "knew.",
+     "start": 15.846,
+     "end": 16.026
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "So a British army of about eight thousand veterans landed near New Orleans.",
+   "start": 16.63,
+   "end": 20.729,
+   "words": [
+    {
+     "w": "So",
+     "start": 16.53,
+     "end": 16.75
+    },
+    {
+     "w": "a",
+     "start": 16.75,
+     "end": 16.83
+    },
+    {
+     "w": "British",
+     "start": 16.83,
+     "end": 17.03
+    },
+    {
+     "w": "army",
+     "start": 17.03,
+     "end": 17.39
+    },
+    {
+     "w": "of",
+     "start": 17.39,
+     "end": 17.65
+    },
+    {
+     "w": "about",
+     "start": 17.65,
+     "end": 17.81
+    },
+    {
+     "w": "eight",
+     "start": 17.81,
+     "end": 18.21
+    },
+    {
+     "w": "thousand",
+     "start": 18.21,
+     "end": 18.61
+    },
+    {
+     "w": "veterans",
+     "start": 18.61,
+     "end": 18.95
+    },
+    {
+     "w": "landed",
+     "start": 18.95,
+     "end": 19.51
+    },
+    {
+     "w": "near",
+     "start": 19.51,
+     "end": 19.85
+    },
+    {
+     "w": "New",
+     "start": 19.85,
+     "end": 20.01
+    },
+    {
+     "w": "Orleans.",
+     "start": 20.01,
+     "end": 20.29
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Andrew Jackson had fewer men: regulars, militia, free Black volunteers, Choctaw warriors, and Jean Lafitte's pirates.",
+   "start": 21.009,
+   "end": 27.742,
+   "words": [
+    {
+     "w": "Andrew",
+     "start": 20.909,
+     "end": 21.209
+    },
+    {
+     "w": "Jackson",
+     "start": 21.209,
+     "end": 21.489
+    },
+    {
+     "w": "had",
+     "start": 21.489,
+     "end": 21.849
+    },
+    {
+     "w": "fewer",
+     "start": 21.849,
+     "end": 22.049
+    },
+    {
+     "w": "men:",
+     "start": 22.049,
+     "end": 22.449
+    },
+    {
+     "w": "regulars,",
+     "start": 23.169,
+     "end": 23.169
+    },
+    {
+     "w": "militia,",
+     "start": 23.369,
+     "end": 23.689
+    },
+    {
+     "w": "free",
+     "start": 24.049,
+     "end": 24.229
+    },
+    {
+     "w": "Black",
+     "start": 24.229,
+     "end": 24.449
+    },
+    {
+     "w": "volunteers,",
+     "start": 24.449,
+     "end": 25.069
+    },
+    {
+     "w": "Choctaw",
+     "start": 25.069,
+     "end": 25.769
+    },
+    {
+     "w": "warriors,",
+     "start": 25.769,
+     "end": 26.069
+    },
+    {
+     "w": "and",
+     "start": 26.189,
+     "end": 26.349
+    },
+    {
+     "w": "Jean",
+     "start": 26.349,
+     "end": 26.549
+    },
+    {
+     "w": "Lafitte's",
+     "start": 26.549,
+     "end": 27.129
+    },
+    {
+     "w": "pirates.",
+     "start": 27.129,
+     "end": 27.309
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "They dug in behind an old canal, five miles from the city, and waited.",
+   "start": 28.022,
+   "end": 32.106,
+   "words": [
+    {
+     "w": "They",
+     "start": 27.922,
+     "end": 28.102
+    },
+    {
+     "w": "dug",
+     "start": 28.102,
+     "end": 28.282
+    },
+    {
+     "w": "in",
+     "start": 28.282,
+     "end": 28.482
+    },
+    {
+     "w": "behind",
+     "start": 28.482,
+     "end": 28.762
+    },
+    {
+     "w": "an",
+     "start": 28.762,
+     "end": 28.982
+    },
+    {
+     "w": "old",
+     "start": 28.982,
+     "end": 29.102
+    },
+    {
+     "w": "canal,",
+     "start": 29.102,
+     "end": 29.322
+    },
+    {
+     "w": "five",
+     "start": 29.322,
+     "end": 29.982
+    },
+    {
+     "w": "miles",
+     "start": 29.982,
+     "end": 30.282
+    },
+    {
+     "w": "from",
+     "start": 30.282,
+     "end": 30.602
+    },
+    {
+     "w": "the",
+     "start": 30.602,
+     "end": 30.722
+    },
+    {
+     "w": "city,",
+     "start": 30.722,
+     "end": 31.022
+    },
+    {
+     "w": "and",
+     "start": 31.022,
+     "end": 31.522
+    },
+    {
+     "w": "waited.",
+     "start": 31.522,
+     "end": 31.802
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "At dawn on January 8, 1815, the British marched across open fields, straight into the guns.",
+   "start": 32.456,
+   "end": 38.231,
+   "words": [
+    {
+     "w": "At",
+     "start": 32.356,
+     "end": 32.556
+    },
+    {
+     "w": "dawn",
+     "start": 32.556,
+     "end": 32.756
+    },
+    {
+     "w": "on",
+     "start": 32.756,
+     "end": 32.936
+    },
+    {
+     "w": "January",
+     "start": 32.936,
+     "end": 33.096
+    },
+    {
+     "w": "8,",
+     "start": 33.096,
+     "end": 33.936
+    },
+    {
+     "w": "1815,",
+     "start": 33.936,
+     "end": 34.416
+    },
+    {
+     "w": "the",
+     "start": 34.916,
+     "end": 35.016
+    },
+    {
+     "w": "British",
+     "start": 35.016,
+     "end": 35.236
+    },
+    {
+     "w": "marched",
+     "start": 35.236,
+     "end": 35.476
+    },
+    {
+     "w": "across",
+     "start": 35.476,
+     "end": 35.816
+    },
+    {
+     "w": "open",
+     "start": 35.816,
+     "end": 36.116
+    },
+    {
+     "w": "fields,",
+     "start": 36.116,
+     "end": 36.636
+    },
+    {
+     "w": "straight",
+     "start": 36.636,
+     "end": 37.276
+    },
+    {
+     "w": "into",
+     "start": 37.276,
+     "end": 37.516
+    },
+    {
+     "w": "the",
+     "start": 37.516,
+     "end": 37.676
+    },
+    {
+     "w": "guns.",
+     "start": 37.676,
+     "end": 37.876
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "In just over thirty minutes, more than two thousand British soldiers were killed, wounded or captured. Their commander, General Pakenham, was dead.",
+   "start": 38.581,
+   "end": 46.141,
+   "words": [
+    {
+     "w": "In",
+     "start": 38.481,
+     "end": 38.641
+    },
+    {
+     "w": "just",
+     "start": 38.641,
+     "end": 38.741
+    },
+    {
+     "w": "over",
+     "start": 38.741,
+     "end": 38.961
+    },
+    {
+     "w": "thirty",
+     "start": 38.961,
+     "end": 39.241
+    },
+    {
+     "w": "minutes,",
+     "start": 39.241,
+     "end": 39.521
+    },
+    {
+     "w": "more",
+     "start": 39.801,
+     "end": 39.941
+    },
+    {
+     "w": "than",
+     "start": 39.941,
+     "end": 40.081
+    },
+    {
+     "w": "two",
+     "start": 40.081,
+     "end": 40.411
+    },
+    {
+     "w": "thousand",
+     "start": 40.411,
+     "end": 40.741
+    },
+    {
+     "w": "British",
+     "start": 40.741,
+     "end": 41.001
+    },
+    {
+     "w": "soldiers",
+     "start": 41.001,
+     "end": 41.341
+    },
+    {
+     "w": "were",
+     "start": 41.341,
+     "end": 41.761
+    },
+    {
+     "w": "killed,",
+     "start": 41.761,
+     "end": 42.041
+    },
+    {
+     "w": "wounded",
+     "start": 42.281,
+     "end": 42.441
+    },
+    {
+     "w": "or",
+     "start": 42.741,
+     "end": 42.821
+    },
+    {
+     "w": "captured.",
+     "start": 42.821,
+     "end": 43.041
+    },
+    {
+     "w": "Their",
+     "start": 43.941,
+     "end": 43.961
+    },
+    {
+     "w": "commander,",
+     "start": 43.961,
+     "end": 44.241
+    },
+    {
+     "w": "General",
+     "start": 44.641,
+     "end": 44.801
+    },
+    {
+     "w": "Pakenham,",
+     "start": 44.801,
+     "end": 45.601
+    },
+    {
+     "w": "was",
+     "start": 45.601,
+     "end": 45.641
+    },
+    {
+     "w": "dead.",
+     "start": 45.641,
+     "end": 45.901
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "American casualties: seventy-one.",
+   "start": 46.421,
+   "end": 48.586,
+   "words": [
+    {
+     "w": "American",
+     "start": 46.321,
+     "end": 46.761
+    },
+    {
+     "w": "casualties:",
+     "start": 46.761,
+     "end": 47.481
+    },
+    {
+     "w": "seventy-one.",
+     "start": 47.481,
+     "end": 48.586
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "The treaty didn't take effect until February.",
+   "start": 49.006,
+   "end": 51.311,
+   "words": [
+    {
+     "w": "The",
+     "start": 48.906,
+     "end": 49.066
+    },
+    {
+     "w": "treaty",
+     "start": 49.066,
+     "end": 49.266
+    },
+    {
+     "w": "didn't",
+     "start": 49.266,
+     "end": 49.646
+    },
+    {
+     "w": "take",
+     "start": 49.646,
+     "end": 49.806
+    },
+    {
+     "w": "effect",
+     "start": 49.806,
+     "end": 50.086
+    },
+    {
+     "w": "until",
+     "start": 50.086,
+     "end": 50.486
+    },
+    {
+     "w": "February.",
+     "start": 50.486,
+     "end": 50.986
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "The battle changed nothing about the peace, but it made Andrew Jackson a national hero. And fourteen years later, President of the United States.",
+   "start": 51.591,
+   "end": 59.638,
+   "words": [
+    {
+     "w": "The",
+     "start": 51.491,
+     "end": 51.651
+    },
+    {
+     "w": "battle",
+     "start": 51.651,
+     "end": 51.911
+    },
+    {
+     "w": "changed",
+     "start": 51.911,
+     "end": 52.191
+    },
+    {
+     "w": "nothing",
+     "start": 52.191,
+     "end": 52.651
+    },
+    {
+     "w": "about",
+     "start": 52.651,
+     "end": 53.031
+    },
+    {
+     "w": "the",
+     "start": 53.031,
+     "end": 53.171
+    },
+    {
+     "w": "peace,",
+     "start": 53.171,
+     "end": 53.371
+    },
+    {
+     "w": "but",
+     "start": 53.971,
+     "end": 54.091
+    },
+    {
+     "w": "it",
+     "start": 54.091,
+     "end": 54.151
+    },
+    {
+     "w": "made",
+     "start": 54.151,
+     "end": 54.291
+    },
+    {
+     "w": "Andrew",
+     "start": 54.291,
+     "end": 54.651
+    },
+    {
+     "w": "Jackson",
+     "start": 54.651,
+     "end": 55.071
+    },
+    {
+     "w": "a",
+     "start": 55.071,
+     "end": 55.391
+    },
+    {
+     "w": "national",
+     "start": 55.391,
+     "end": 55.551
+    },
+    {
+     "w": "hero.",
+     "start": 55.551,
+     "end": 56.071
+    },
+    {
+     "w": "And",
+     "start": 56.551,
+     "end": 56.751
+    },
+    {
+     "w": "fourteen",
+     "start": 56.751,
+     "end": 57.051
+    },
+    {
+     "w": "years",
+     "start": 57.051,
+     "end": 57.391
+    },
+    {
+     "w": "later,",
+     "start": 57.391,
+     "end": 57.791
+    },
+    {
+     "w": "President",
+     "start": 58.031,
+     "end": 58.311
+    },
+    {
+     "w": "of",
+     "start": 58.311,
+     "end": 58.551
+    },
+    {
+     "w": "the",
+     "start": 58.551,
+     "end": 58.631
+    },
+    {
+     "w": "United",
+     "start": 58.631,
+     "end": 58.751
+    },
+    {
+     "w": "States.",
+     "start": 58.751,
+     "end": 59.311
+    }
+   ]
+  }
+ ]
+}

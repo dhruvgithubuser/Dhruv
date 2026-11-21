@@ -1,0 +1,1268 @@
+{
+ "fps": 30,
+ "duration": 81.924,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're looking at the man who brought a longbow to World War 2. One arrow made him a legend. But did it happen?",
+   "start": 0.35,
+   "end": 6.301,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "looking",
+     "start": 0.43,
+     "end": 0.61
+    },
+    {
+     "w": "at",
+     "start": 0.61,
+     "end": 0.77
+    },
+    {
+     "w": "the",
+     "start": 0.77,
+     "end": 0.85
+    },
+    {
+     "w": "man",
+     "start": 0.85,
+     "end": 1.07
+    },
+    {
+     "w": "who",
+     "start": 1.07,
+     "end": 1.29
+    },
+    {
+     "w": "brought",
+     "start": 1.29,
+     "end": 1.51
+    },
+    {
+     "w": "a",
+     "start": 1.51,
+     "end": 1.63
+    },
+    {
+     "w": "longbow",
+     "start": 1.63,
+     "end": 2.13
+    },
+    {
+     "w": "to",
+     "start": 2.13,
+     "end": 2.31
+    },
+    {
+     "w": "World",
+     "start": 2.31,
+     "end": 2.47
+    },
+    {
+     "w": "War",
+     "start": 2.47,
+     "end": 2.75
+    },
+    {
+     "w": "2.",
+     "start": 2.75,
+     "end": 3.75
+    },
+    {
+     "w": "One",
+     "start": 3.75,
+     "end": 3.81
+    },
+    {
+     "w": "arrow",
+     "start": 3.81,
+     "end": 4.11
+    },
+    {
+     "w": "made",
+     "start": 4.11,
+     "end": 4.47
+    },
+    {
+     "w": "him",
+     "start": 4.47,
+     "end": 4.59
+    },
+    {
+     "w": "a",
+     "start": 4.59,
+     "end": 4.65
+    },
+    {
+     "w": "legend.",
+     "start": 4.65,
+     "end": 4.95
+    },
+    {
+     "w": "But",
+     "start": 5.45,
+     "end": 5.59
+    },
+    {
+     "w": "did",
+     "start": 5.59,
+     "end": 5.71
+    },
+    {
+     "w": "it",
+     "start": 5.71,
+     "end": 5.79
+    },
+    {
+     "w": "happen?",
+     "start": 5.79,
+     "end": 6.09
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Jack Churchill. Before the war, he shot for Britain at the World Archery Championships, and played an archer in a movie.",
+   "start": 6.661,
+   "end": 13.298,
+   "words": [
+    {
+     "w": "Jack",
+     "start": 6.561,
+     "end": 6.861
+    },
+    {
+     "w": "Churchill.",
+     "start": 6.861,
+     "end": 7.161
+    },
+    {
+     "w": "Before",
+     "start": 8.121,
+     "end": 8.121
+    },
+    {
+     "w": "the",
+     "start": 8.121,
+     "end": 8.281
+    },
+    {
+     "w": "war,",
+     "start": 8.281,
+     "end": 8.521
+    },
+    {
+     "w": "he",
+     "start": 8.821,
+     "end": 8.861
+    },
+    {
+     "w": "shot",
+     "start": 8.861,
+     "end": 9.121
+    },
+    {
+     "w": "for",
+     "start": 9.121,
+     "end": 9.341
+    },
+    {
+     "w": "Britain",
+     "start": 9.341,
+     "end": 9.581
+    },
+    {
+     "w": "at",
+     "start": 9.581,
+     "end": 9.841
+    },
+    {
+     "w": "the",
+     "start": 9.841,
+     "end": 9.941
+    },
+    {
+     "w": "World",
+     "start": 9.941,
+     "end": 10.161
+    },
+    {
+     "w": "Archery",
+     "start": 10.161,
+     "end": 10.781
+    },
+    {
+     "w": "Championships,",
+     "start": 10.781,
+     "end": 11.081
+    },
+    {
+     "w": "and",
+     "start": 11.621,
+     "end": 11.881
+    },
+    {
+     "w": "played",
+     "start": 11.881,
+     "end": 12.101
+    },
+    {
+     "w": "an",
+     "start": 12.101,
+     "end": 12.241
+    },
+    {
+     "w": "archer",
+     "start": 12.241,
+     "end": 12.601
+    },
+    {
+     "w": "in",
+     "start": 12.601,
+     "end": 12.801
+    },
+    {
+     "w": "a",
+     "start": 12.801,
+     "end": 12.841
+    },
+    {
+     "w": "movie.",
+     "start": 12.841,
+     "end": 13.101
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "France, 1940. The story goes: from behind a wall, he draws his bow, and drops a German with a single arrow. The only longbow kill of the war.",
+   "start": 13.618,
+   "end": 22.992,
+   "words": [
+    {
+     "w": "France,",
+     "start": 13.518,
+     "end": 13.798
+    },
+    {
+     "w": "1940.",
+     "start": 13.798,
+     "end": 14.378
+    },
+    {
+     "w": "The",
+     "start": 15.378,
+     "end": 15.398
+    },
+    {
+     "w": "story",
+     "start": 15.398,
+     "end": 15.658
+    },
+    {
+     "w": "goes:",
+     "start": 15.658,
+     "end": 15.958
+    },
+    {
+     "w": "from",
+     "start": 16.618,
+     "end": 16.658
+    },
+    {
+     "w": "behind",
+     "start": 16.658,
+     "end": 16.918
+    },
+    {
+     "w": "a",
+     "start": 16.918,
+     "end": 17.078
+    },
+    {
+     "w": "wall,",
+     "start": 17.078,
+     "end": 17.358
+    },
+    {
+     "w": "he",
+     "start": 17.358,
+     "end": 17.618
+    },
+    {
+     "w": "draws",
+     "start": 17.618,
+     "end": 17.838
+    },
+    {
+     "w": "his",
+     "start": 17.838,
+     "end": 18.058
+    },
+    {
+     "w": "bow,",
+     "start": 18.058,
+     "end": 18.298
+    },
+    {
+     "w": "and",
+     "start": 18.298,
+     "end": 18.578
+    },
+    {
+     "w": "drops",
+     "start": 18.578,
+     "end": 18.818
+    },
+    {
+     "w": "a",
+     "start": 18.818,
+     "end": 19.038
+    },
+    {
+     "w": "German",
+     "start": 19.038,
+     "end": 19.258
+    },
+    {
+     "w": "with",
+     "start": 19.258,
+     "end": 19.618
+    },
+    {
+     "w": "a",
+     "start": 19.618,
+     "end": 19.738
+    },
+    {
+     "w": "single",
+     "start": 19.738,
+     "end": 19.938
+    },
+    {
+     "w": "arrow.",
+     "start": 19.938,
+     "end": 20.338
+    },
+    {
+     "w": "The",
+     "start": 21.058,
+     "end": 21.098
+    },
+    {
+     "w": "only",
+     "start": 21.098,
+     "end": 21.358
+    },
+    {
+     "w": "longbow",
+     "start": 21.358,
+     "end": 21.958
+    },
+    {
+     "w": "kill",
+     "start": 21.958,
+     "end": 22.198
+    },
+    {
+     "w": "of",
+     "start": 22.198,
+     "end": 22.398
+    },
+    {
+     "w": "the",
+     "start": 22.398,
+     "end": 22.518
+    },
+    {
+     "w": "war.",
+     "start": 22.518,
+     "end": 22.738
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "But Churchill himself later said his bows had been crushed by a truck earlier in that campaign.",
+   "start": 23.392,
+   "end": 28.109,
+   "words": [
+    {
+     "w": "But",
+     "start": 23.292,
+     "end": 23.472
+    },
+    {
+     "w": "Churchill",
+     "start": 23.472,
+     "end": 23.692
+    },
+    {
+     "w": "himself",
+     "start": 23.692,
+     "end": 24.172
+    },
+    {
+     "w": "later",
+     "start": 24.172,
+     "end": 24.572
+    },
+    {
+     "w": "said",
+     "start": 24.572,
+     "end": 24.852
+    },
+    {
+     "w": "his",
+     "start": 24.852,
+     "end": 24.972
+    },
+    {
+     "w": "bows",
+     "start": 24.972,
+     "end": 25.212
+    },
+    {
+     "w": "had",
+     "start": 25.212,
+     "end": 25.512
+    },
+    {
+     "w": "been",
+     "start": 25.512,
+     "end": 25.632
+    },
+    {
+     "w": "crushed",
+     "start": 25.632,
+     "end": 25.892
+    },
+    {
+     "w": "by",
+     "start": 25.892,
+     "end": 26.192
+    },
+    {
+     "w": "a",
+     "start": 26.192,
+     "end": 26.292
+    },
+    {
+     "w": "truck",
+     "start": 26.292,
+     "end": 26.492
+    },
+    {
+     "w": "earlier",
+     "start": 26.492,
+     "end": 26.912
+    },
+    {
+     "w": "in",
+     "start": 26.912,
+     "end": 27.212
+    },
+    {
+     "w": "that",
+     "start": 27.212,
+     "end": 27.352
+    },
+    {
+     "w": "campaign.",
+     "start": 27.352,
+     "end": 27.752
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "The rest of his war? That part is true.",
+   "start": 28.469,
+   "end": 30.546,
+   "words": [
+    {
+     "w": "The",
+     "start": 28.369,
+     "end": 28.529
+    },
+    {
+     "w": "rest",
+     "start": 28.529,
+     "end": 28.669
+    },
+    {
+     "w": "of",
+     "start": 28.669,
+     "end": 28.869
+    },
+    {
+     "w": "his",
+     "start": 28.869,
+     "end": 28.969
+    },
+    {
+     "w": "war?",
+     "start": 28.969,
+     "end": 29.269
+    },
+    {
+     "w": "That",
+     "start": 29.549,
+     "end": 29.649
+    },
+    {
+     "w": "part",
+     "start": 29.649,
+     "end": 29.829
+    },
+    {
+     "w": "is",
+     "start": 29.829,
+     "end": 30.029
+    },
+    {
+     "w": "true.",
+     "start": 30.029,
+     "end": 30.289
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Norway, 1941. As the ramps drop, he leaps ashore playing the bagpipes. The garrison falls in under ten minutes.",
+   "start": 30.866,
+   "end": 38.353,
+   "words": [
+    {
+     "w": "Norway,",
+     "start": 30.766,
+     "end": 31.166
+    },
+    {
+     "w": "1941.",
+     "start": 31.166,
+     "end": 32.086
+    },
+    {
+     "w": "As",
+     "start": 32.766,
+     "end": 32.986
+    },
+    {
+     "w": "the",
+     "start": 32.986,
+     "end": 33.086
+    },
+    {
+     "w": "ramps",
+     "start": 33.086,
+     "end": 33.266
+    },
+    {
+     "w": "drop,",
+     "start": 33.266,
+     "end": 33.686
+    },
+    {
+     "w": "he",
+     "start": 33.686,
+     "end": 33.966
+    },
+    {
+     "w": "leaps",
+     "start": 33.966,
+     "end": 34.146
+    },
+    {
+     "w": "ashore",
+     "start": 34.146,
+     "end": 34.446
+    },
+    {
+     "w": "playing",
+     "start": 34.446,
+     "end": 34.926
+    },
+    {
+     "w": "the",
+     "start": 34.926,
+     "end": 35.126
+    },
+    {
+     "w": "bagpipes.",
+     "start": 35.126,
+     "end": 35.606
+    },
+    {
+     "w": "The",
+     "start": 36.226,
+     "end": 36.266
+    },
+    {
+     "w": "garrison",
+     "start": 36.266,
+     "end": 36.486
+    },
+    {
+     "w": "falls",
+     "start": 36.486,
+     "end": 36.986
+    },
+    {
+     "w": "in",
+     "start": 36.986,
+     "end": 37.326
+    },
+    {
+     "w": "under",
+     "start": 37.326,
+     "end": 37.426
+    },
+    {
+     "w": "ten",
+     "start": 37.426,
+     "end": 37.746
+    },
+    {
+     "w": "minutes.",
+     "start": 37.746,
+     "end": 38.006
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Sicily, 1943. He lands with a broadsword at his waist, a longbow around his neck, and his bagpipes under his arm.",
+   "start": 38.673,
+   "end": 46.371,
+   "words": [
+    {
+     "w": "Sicily,",
+     "start": 38.573,
+     "end": 38.853
+    },
+    {
+     "w": "1943.",
+     "start": 39.153,
+     "end": 39.793
+    },
+    {
+     "w": "He",
+     "start": 40.813,
+     "end": 40.853
+    },
+    {
+     "w": "lands",
+     "start": 40.853,
+     "end": 41.073
+    },
+    {
+     "w": "with",
+     "start": 41.073,
+     "end": 41.353
+    },
+    {
+     "w": "a",
+     "start": 41.353,
+     "end": 41.453
+    },
+    {
+     "w": "broadsword",
+     "start": 41.453,
+     "end": 41.973
+    },
+    {
+     "w": "at",
+     "start": 41.973,
+     "end": 42.193
+    },
+    {
+     "w": "his",
+     "start": 42.193,
+     "end": 42.313
+    },
+    {
+     "w": "waist,",
+     "start": 42.313,
+     "end": 42.573
+    },
+    {
+     "w": "a",
+     "start": 43.133,
+     "end": 43.133
+    },
+    {
+     "w": "longbow",
+     "start": 43.133,
+     "end": 43.633
+    },
+    {
+     "w": "around",
+     "start": 43.633,
+     "end": 43.913
+    },
+    {
+     "w": "his",
+     "start": 43.913,
+     "end": 44.093
+    },
+    {
+     "w": "neck,",
+     "start": 44.093,
+     "end": 44.373
+    },
+    {
+     "w": "and",
+     "start": 44.753,
+     "end": 44.793
+    },
+    {
+     "w": "his",
+     "start": 44.793,
+     "end": 44.913
+    },
+    {
+     "w": "bagpipes",
+     "start": 44.913,
+     "end": 45.473
+    },
+    {
+     "w": "under",
+     "start": 45.473,
+     "end": 45.713
+    },
+    {
+     "w": "his",
+     "start": 45.713,
+     "end": 45.953
+    },
+    {
+     "w": "arm.",
+     "start": 45.953,
+     "end": 46.153
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "At Salerno, with one corporal, he slips into a German-held town, and comes back with 42 prisoners.",
+   "start": 46.691,
+   "end": 52.877,
+   "words": [
+    {
+     "w": "At",
+     "start": 46.591,
+     "end": 46.791
+    },
+    {
+     "w": "Salerno,",
+     "start": 46.791,
+     "end": 47.211
+    },
+    {
+     "w": "with",
+     "start": 47.211,
+     "end": 47.531
+    },
+    {
+     "w": "one",
+     "start": 47.531,
+     "end": 47.691
+    },
+    {
+     "w": "corporal,",
+     "start": 47.691,
+     "end": 48.271
+    },
+    {
+     "w": "he",
+     "start": 48.671,
+     "end": 48.731
+    },
+    {
+     "w": "slips",
+     "start": 48.731,
+     "end": 48.911
+    },
+    {
+     "w": "into",
+     "start": 48.911,
+     "end": 49.251
+    },
+    {
+     "w": "a",
+     "start": 49.251,
+     "end": 49.371
+    },
+    {
+     "w": "German-held",
+     "start": 49.371,
+     "end": 49.991
+    },
+    {
+     "w": "town,",
+     "start": 49.991,
+     "end": 50.391
+    },
+    {
+     "w": "and",
+     "start": 50.391,
+     "end": 50.871
+    },
+    {
+     "w": "comes",
+     "start": 50.871,
+     "end": 51.051
+    },
+    {
+     "w": "back",
+     "start": 51.051,
+     "end": 51.411
+    },
+    {
+     "w": "with",
+     "start": 51.411,
+     "end": 51.611
+    },
+    {
+     "w": "42",
+     "start": 51.611,
+     "end": 51.931
+    },
+    {
+     "w": "prisoners.",
+     "start": 51.931,
+     "end": 52.451
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Then he walks back alone, to fetch the sword he lost in the fight.",
+   "start": 53.157,
+   "end": 56.603,
+   "words": [
+    {
+     "w": "Then",
+     "start": 53.057,
+     "end": 53.257
+    },
+    {
+     "w": "he",
+     "start": 53.257,
+     "end": 53.317
+    },
+    {
+     "w": "walks",
+     "start": 53.317,
+     "end": 53.517
+    },
+    {
+     "w": "back",
+     "start": 53.517,
+     "end": 53.777
+    },
+    {
+     "w": "alone,",
+     "start": 53.777,
+     "end": 54.137
+    },
+    {
+     "w": "to",
+     "start": 54.137,
+     "end": 54.697
+    },
+    {
+     "w": "fetch",
+     "start": 54.697,
+     "end": 54.857
+    },
+    {
+     "w": "the",
+     "start": 54.857,
+     "end": 55.097
+    },
+    {
+     "w": "sword",
+     "start": 55.097,
+     "end": 55.397
+    },
+    {
+     "w": "he",
+     "start": 55.397,
+     "end": 55.557
+    },
+    {
+     "w": "lost",
+     "start": 55.557,
+     "end": 55.797
+    },
+    {
+     "w": "in",
+     "start": 55.797,
+     "end": 56.077
+    },
+    {
+     "w": "the",
+     "start": 56.077,
+     "end": 56.177
+    },
+    {
+     "w": "fight.",
+     "start": 56.177,
+     "end": 56.437
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Yugoslavia, 1944. A mortar shell kills or wounds every man around him. So he plays his pipes as the Germans close in, until grenades knock him out.",
+   "start": 56.963,
+   "end": 67.198,
+   "words": [
+    {
+     "w": "Yugoslavia,",
+     "start": 56.863,
+     "end": 57.203
+    },
+    {
+     "w": "1944.",
+     "start": 57.843,
+     "end": 58.583
+    },
+    {
+     "w": "A",
+     "start": 59.583,
+     "end": 59.603
+    },
+    {
+     "w": "mortar",
+     "start": 59.603,
+     "end": 59.803
+    },
+    {
+     "w": "shell",
+     "start": 59.803,
+     "end": 60.103
+    },
+    {
+     "w": "kills",
+     "start": 60.103,
+     "end": 60.503
+    },
+    {
+     "w": "or",
+     "start": 60.503,
+     "end": 60.883
+    },
+    {
+     "w": "wounds",
+     "start": 60.883,
+     "end": 61.103
+    },
+    {
+     "w": "every",
+     "start": 61.103,
+     "end": 61.463
+    },
+    {
+     "w": "man",
+     "start": 61.463,
+     "end": 61.863
+    },
+    {
+     "w": "around",
+     "start": 61.863,
+     "end": 62.143
+    },
+    {
+     "w": "him.",
+     "start": 62.143,
+     "end": 62.443
+    },
+    {
+     "w": "So",
+     "start": 62.763,
+     "end": 62.983
+    },
+    {
+     "w": "he",
+     "start": 62.983,
+     "end": 63.083
+    },
+    {
+     "w": "plays",
+     "start": 63.083,
+     "end": 63.253
+    },
+    {
+     "w": "his",
+     "start": 63.253,
+     "end": 63.423
+    },
+    {
+     "w": "pipes",
+     "start": 63.423,
+     "end": 63.763
+    },
+    {
+     "w": "as",
+     "start": 63.763,
+     "end": 64.083
+    },
+    {
+     "w": "the",
+     "start": 64.083,
+     "end": 64.243
+    },
+    {
+     "w": "Germans",
+     "start": 64.243,
+     "end": 64.523
+    },
+    {
+     "w": "close",
+     "start": 64.523,
+     "end": 64.903
+    },
+    {
+     "w": "in,",
+     "start": 64.903,
+     "end": 65.283
+    },
+    {
+     "w": "until",
+     "start": 65.283,
+     "end": 65.843
+    },
+    {
+     "w": "grenades",
+     "start": 65.843,
+     "end": 66.063
+    },
+    {
+     "w": "knock",
+     "start": 66.063,
+     "end": 66.643
+    },
+    {
+     "w": "him",
+     "start": 66.643,
+     "end": 66.843
+    },
+    {
+     "w": "out.",
+     "start": 66.843,
+     "end": 67.063
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "The Germans think he's related to Winston Churchill, and fly him to Berlin. He wasn't. He survived the war, and lived to 89.",
+   "start": 67.558,
+   "end": 75.166,
+   "words": [
+    {
+     "w": "The",
+     "start": 67.458,
+     "end": 67.638
+    },
+    {
+     "w": "Germans",
+     "start": 67.638,
+     "end": 67.838
+    },
+    {
+     "w": "think",
+     "start": 67.838,
+     "end": 68.198
+    },
+    {
+     "w": "he's",
+     "start": 68.198,
+     "end": 68.438
+    },
+    {
+     "w": "related",
+     "start": 68.438,
+     "end": 68.798
+    },
+    {
+     "w": "to",
+     "start": 68.798,
+     "end": 69.038
+    },
+    {
+     "w": "Winston",
+     "start": 69.038,
+     "end": 69.198
+    },
+    {
+     "w": "Churchill,",
+     "start": 69.198,
+     "end": 69.638
+    },
+    {
+     "w": "and",
+     "start": 69.638,
+     "end": 70.258
+    },
+    {
+     "w": "fly",
+     "start": 70.258,
+     "end": 70.478
+    },
+    {
+     "w": "him",
+     "start": 70.478,
+     "end": 70.798
+    },
+    {
+     "w": "to",
+     "start": 70.798,
+     "end": 70.938
+    },
+    {
+     "w": "Berlin.",
+     "start": 70.938,
+     "end": 71.158
+    },
+    {
+     "w": "He",
+     "start": 72.018,
+     "end": 72.038
+    },
+    {
+     "w": "wasn't.",
+     "start": 72.038,
+     "end": 72.418
+    },
+    {
+     "w": "He",
+     "start": 72.818,
+     "end": 72.918
+    },
+    {
+     "w": "survived",
+     "start": 72.918,
+     "end": 73.158
+    },
+    {
+     "w": "the",
+     "start": 73.158,
+     "end": 73.498
+    },
+    {
+     "w": "war,",
+     "start": 73.498,
+     "end": 73.738
+    },
+    {
+     "w": "and",
+     "start": 73.738,
+     "end": 73.998
+    },
+    {
+     "w": "lived",
+     "start": 73.998,
+     "end": 74.158
+    },
+    {
+     "w": "to",
+     "start": 74.158,
+     "end": 74.378
+    },
+    {
+     "w": "89.",
+     "start": 74.378,
+     "end": 74.618
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "So, the longbow kill. Legend, or truth? Tell me below, and follow Buried Chronicles.",
+   "start": 75.526,
+   "end": 80.764,
+   "words": [
+    {
+     "w": "So,",
+     "start": 75.426,
+     "end": 75.686
+    },
+    {
+     "w": "the",
+     "start": 75.686,
+     "end": 75.846
+    },
+    {
+     "w": "longbow",
+     "start": 75.846,
+     "end": 76.226
+    },
+    {
+     "w": "kill.",
+     "start": 76.226,
+     "end": 76.466
+    },
+    {
+     "w": "Legend,",
+     "start": 77.206,
+     "end": 77.206
+    },
+    {
+     "w": "or",
+     "start": 77.206,
+     "end": 77.626
+    },
+    {
+     "w": "truth?",
+     "start": 77.626,
+     "end": 77.946
+    },
+    {
+     "w": "Tell",
+     "start": 78.306,
+     "end": 78.546
+    },
+    {
+     "w": "me",
+     "start": 78.546,
+     "end": 78.666
+    },
+    {
+     "w": "below,",
+     "start": 78.666,
+     "end": 78.946
+    },
+    {
+     "w": "and",
+     "start": 78.946,
+     "end": 79.206
+    },
+    {
+     "w": "follow",
+     "start": 79.206,
+     "end": 79.526
+    },
+    {
+     "w": "Buried",
+     "start": 79.526,
+     "end": 79.926
+    },
+    {
+     "w": "Chronicles.",
+     "start": 79.926,
+     "end": 80.506
+    }
+   ]
+  }
+ ]
+}

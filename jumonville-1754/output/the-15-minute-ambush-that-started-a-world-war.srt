@@ -1,0 +1,844 @@
+1
+00:00:00,900 --> 00:00:03,970
+May 28, 1754. Dawn,
+
+2
+00:00:04,300 --> 00:00:06,340
+in a rocky glen in the forests of western
+
+3
+00:00:06,340 --> 00:00:07,270
+Pennsylvania.
+
+4
+00:00:08,051 --> 00:00:10,991
+Forty Virginian soldiers and a dozen Native
+
+5
+00:00:10,991 --> 00:00:13,331
+warriors creep into position around a French
+
+6
+00:00:13,331 --> 00:00:13,921
+camp.
+
+7
+00:00:14,481 --> 00:00:16,551
+Their commander is 22 years old.
+
+8
+00:00:16,801 --> 00:00:18,791
+His name is George Washington.
+
+9
+00:00:19,647 --> 00:00:21,907
+The fight that follows lasts about fifteen
+
+10
+00:00:21,907 --> 00:00:22,477
+minutes.
+
+11
+00:00:23,098 --> 00:00:24,958
+But it lights the fuse of a war that will
+
+12
+00:00:24,958 --> 00:00:26,568
+spread across five continents,
+
+13
+00:00:27,218 --> 00:00:28,568
+redraw the map of the world,
+
+14
+00:00:28,918 --> 00:00:30,208
+and, twenty years later,
+
+15
+00:00:30,358 --> 00:00:32,228
+help give birth to the United States.
+
+16
+00:00:32,939 --> 00:00:35,519
+This is the story of the ambush at Jumonville
+
+17
+00:00:35,519 --> 00:00:35,909
+Glen.
+
+18
+00:00:37,626 --> 00:00:41,006
+In the 1750s, North America was split between
+
+19
+00:00:41,006 --> 00:00:42,176
+two rival empires.
+
+20
+00:00:43,065 --> 00:00:45,145
+Britain's thirteen colonies hugged the Atlantic
+
+21
+00:00:45,145 --> 00:00:48,085
+coast: crowded, growing, and hungry for
+
+22
+00:00:48,085 --> 00:00:48,515
+land.
+
+23
+00:00:49,110 --> 00:00:51,090
+France held a vast arc of territory,
+
+24
+00:00:51,090 --> 00:00:53,360
+from Quebec, along the Great Lakes,
+
+25
+00:00:53,850 --> 00:00:54,780
+down to New Orleans,
+
+26
+00:00:55,070 --> 00:00:57,720
+linked by rivers and a thin chain of forts.
+
+27
+00:00:58,147 --> 00:01:00,987
+Between them lay the Ohio Country: a rich
+
+28
+00:01:00,987 --> 00:01:02,977
+wilderness of forests and rivers,
+
+29
+00:01:03,367 --> 00:01:04,617
+home to the Shawnee,
+
+30
+00:01:04,667 --> 00:01:06,647
+the Delaware, the Mingo and other nations,
+
+31
+00:01:06,647 --> 00:01:09,657
+who traded with both sides and trusted neither.
+
+32
+00:01:10,264 --> 00:01:12,114
+The powerful Iroquois Confederacy,
+
+33
+00:01:12,664 --> 00:01:15,164
+the Six Nations, claimed authority over
+
+34
+00:01:15,164 --> 00:01:17,984
+the region, and sent leaders like Tanacharison
+
+35
+00:01:17,984 --> 00:01:18,974
+to speak for them.
+
+36
+00:01:19,442 --> 00:01:21,322
+Whoever controlled its rivers controlled
+
+37
+00:01:21,322 --> 00:01:23,012
+the heart of the continent.
+
+38
+00:01:23,696 --> 00:01:25,536
+And the key to those rivers was a single
+
+39
+00:01:25,536 --> 00:01:27,996
+point of land: the Forks of the Ohio,
+
+40
+00:01:27,996 --> 00:01:30,576
+where the Allegheny and the Monongahela
+
+41
+00:01:30,576 --> 00:01:33,346
+meet. Today, it is the city of Pittsburgh.
+
+42
+00:01:35,080 --> 00:01:38,440
+In 1753, the French began building forts
+
+43
+00:01:38,440 --> 00:01:39,730
+south from Lake Erie,
+
+44
+00:01:40,100 --> 00:01:42,290
+pushing into land that Virginia claimed.
+
+45
+00:01:42,891 --> 00:01:45,391
+Virginia's governor, Robert Dinwiddie,
+
+46
+00:01:45,391 --> 00:01:47,151
+needed someone to carry a warning to the
+
+47
+00:01:47,151 --> 00:01:50,161
+French commander: leave, or be removed.
+
+48
+00:01:50,835 --> 00:01:53,495
+He chose a 21-year-old surveyor and militia
+
+49
+00:01:53,495 --> 00:01:56,855
+major with no combat experience: George
+
+50
+00:01:56,855 --> 00:01:57,545
+Washington.
+
+51
+00:01:58,270 --> 00:02:00,410
+That winter, Washington traveled hundreds
+
+52
+00:02:00,410 --> 00:02:02,930
+of miles through snow and forest to Fort
+
+53
+00:02:02,930 --> 00:02:04,760
+Le Boeuf, near Lake Erie,
+
+54
+00:02:05,270 --> 00:02:06,400
+and handed over the letter.
+
+55
+00:02:06,944 --> 00:02:09,584
+His journal of the trip was printed in Williamsburg
+
+56
+00:02:09,584 --> 00:02:12,154
+and in London. Almost overnight,
+
+57
+00:02:12,544 --> 00:02:14,604
+the young major's name was known on both
+
+58
+00:02:14,604 --> 00:02:15,894
+sides of the Atlantic.
+
+59
+00:02:16,625 --> 00:02:19,325
+The French reply was polite and absolutely
+
+60
+00:02:19,325 --> 00:02:22,205
+clear: "As to the summons you send me to
+
+61
+00:02:22,205 --> 00:02:24,845
+retire, I do not think myself obliged to
+
+62
+00:02:24,845 --> 00:02:25,535
+obey it."
+
+63
+00:02:26,853 --> 00:02:28,933
+Dinwiddie made Washington a lieutenant colonel
+
+64
+00:02:28,933 --> 00:02:31,573
+and ordered a fort built at the Forks of
+
+65
+00:02:31,573 --> 00:02:32,043
+the Ohio.
+
+66
+00:02:32,958 --> 00:02:36,538
+In February 1754, a small Virginian party
+
+67
+00:02:36,538 --> 00:02:39,188
+began the work. Two months later,
+
+68
+00:02:39,398 --> 00:02:41,408
+about five hundred French soldiers,
+
+69
+00:02:41,778 --> 00:02:44,018
+militia and Native allies came down the
+
+70
+00:02:44,018 --> 00:02:44,988
+Allegheny River.
+
+71
+00:02:45,481 --> 00:02:47,991
+The thirty-six Virginians had no choice.
+
+72
+00:02:48,761 --> 00:02:49,741
+They handed over the site,
+
+73
+00:02:49,741 --> 00:02:51,601
+and the French began building their own
+
+74
+00:02:51,601 --> 00:02:53,892
+stronghold: Fort Duquesne.
+
+75
+00:02:54,192 --> 00:02:56,532
+Their commander, Captain Contrecœur,
+
+76
+00:02:56,532 --> 00:02:59,002
+was under orders not to attack unless provoked.
+
+77
+00:02:59,812 --> 00:03:02,292
+Instead, he sent a small party to find the
+
+78
+00:03:02,292 --> 00:03:04,612
+Virginians and deliver a formal summons
+
+79
+00:03:04,612 --> 00:03:05,362
+to leave.
+
+80
+00:03:06,044 --> 00:03:08,064
+By then, Washington was already marching
+
+81
+00:03:08,064 --> 00:03:10,954
+west with fewer than 160 men,
+
+82
+00:03:11,384 --> 00:03:13,664
+under orders that one historian later called
+
+83
+00:03:13,664 --> 00:03:15,934
+"an invitation to start a war."
+
+84
+00:03:16,470 --> 00:03:18,130
+He camped at a clearing called the Great
+
+85
+00:03:18,130 --> 00:03:20,840
+Meadows. And there, he received a message.
+
+86
+00:03:22,374 --> 00:03:24,854
+On May 27, the frontiersman Christopher
+
+87
+00:03:24,854 --> 00:03:28,474
+Gist rode in with news: a French party was
+
+88
+00:03:28,474 --> 00:03:29,744
+moving through the area.
+
+89
+00:03:30,278 --> 00:03:32,118
+It came from Tanacharison,
+
+90
+00:03:32,118 --> 00:03:33,938
+a Mingo leader the British called the Half
+
+91
+00:03:33,938 --> 00:03:36,158
+King. He had found a French camp,
+
+92
+00:03:36,158 --> 00:03:38,528
+hidden in a ravine a few miles away.
+
+93
+00:03:39,052 --> 00:03:41,732
+Its commander was Ensign Joseph Coulon de
+
+94
+00:03:41,732 --> 00:03:44,192
+Villiers de Jumonville, with about thirty-five
+
+95
+00:03:44,192 --> 00:03:47,312
+men. He carried a written summons ordering
+
+96
+00:03:47,312 --> 00:03:48,662
+the Virginians to leave,
+
+97
+00:03:49,192 --> 00:03:51,172
+the same kind of message Washington had
+
+98
+00:03:51,172 --> 00:03:52,382
+delivered months earlier.
+
+99
+00:03:53,069 --> 00:03:54,579
+Through a night of pouring rain,
+
+100
+00:03:54,889 --> 00:03:57,789
+Washington and forty men followed Tanacharison's
+
+101
+00:03:57,789 --> 00:03:59,659
+warriors through the dark forest.
+
+102
+00:04:00,369 --> 00:04:02,449
+At dawn on May 28,
+
+103
+00:04:02,449 --> 00:04:04,429
+they took positions behind the rocks above
+
+104
+00:04:04,429 --> 00:04:05,379
+the French camp.
+
+105
+00:04:05,949 --> 00:04:08,159
+Someone saw them. A shot rang out.
+
+106
+00:04:08,969 --> 00:04:10,419
+Washington gave the order to fire.
+
+107
+00:04:11,007 --> 00:04:12,917
+The Virginians fired from the rocks.
+
+108
+00:04:13,707 --> 00:04:15,457
+Some of the French grabbed their muskets.
+
+109
+00:04:15,947 --> 00:04:17,107
+Others ran for the woods,
+
+110
+00:04:17,107 --> 00:04:19,067
+straight into Tanacharison's warriors,
+
+111
+00:04:19,067 --> 00:04:20,637
+and turned back to surrender.
+
+112
+00:04:21,368 --> 00:04:22,428
+In about fifteen minutes,
+
+113
+00:04:22,428 --> 00:04:24,828
+it was over. Jumonville and nine of his
+
+114
+00:04:24,828 --> 00:04:27,438
+men were dead. Twenty-one were taken prisoner.
+
+115
+00:04:28,488 --> 00:04:29,658
+Washington lost one man.
+
+116
+00:04:30,196 --> 00:04:32,656
+Afterward, he wrote to his brother: "I heard
+
+117
+00:04:32,656 --> 00:04:34,456
+the bullets whistle, and believe me,
+
+118
+00:04:34,456 --> 00:04:36,606
+there was something charming in the sound."
+
+119
+00:04:38,034 --> 00:04:40,214
+But how Jumonville died became one of the
+
+120
+00:04:40,214 --> 00:04:42,574
+most disputed moments in early American
+
+121
+00:04:42,574 --> 00:04:43,104
+history.
+
+122
+00:04:43,750 --> 00:04:45,910
+French reports said he was shot in the head
+
+123
+00:04:45,910 --> 00:04:48,400
+while his summons was being read aloud.
+
+124
+00:04:49,006 --> 00:04:50,986
+Other accounts said Tanacharison himself
+
+125
+00:04:50,986 --> 00:04:53,686
+stepped up to the wounded officer and killed
+
+126
+00:04:53,686 --> 00:04:54,856
+him with a hatchet.
+
+127
+00:04:55,302 --> 00:04:57,392
+Washington's own accounts are brief.
+
+128
+00:04:58,162 --> 00:04:59,862
+One historian believes they were written
+
+129
+00:04:59,862 --> 00:05:01,702
+to hide what happened after the shooting
+
+130
+00:05:01,702 --> 00:05:02,432
+stopped.
+
+131
+00:05:03,010 --> 00:05:05,000
+To the French, Jumonville was a diplomat,
+
+132
+00:05:05,630 --> 00:05:06,940
+murdered on a peaceful mission.
+
+133
+00:05:07,570 --> 00:05:09,050
+To the Virginians, he was a spy,
+
+134
+00:05:09,050 --> 00:05:11,440
+whose men had been shadowing their camp.
+
+135
+00:05:12,086 --> 00:05:13,676
+The truth may never be known.
+
+136
+00:05:14,066 --> 00:05:15,896
+But the consequences arrived quickly.
+
+137
+00:05:17,507 --> 00:05:19,477
+Washington knew the French would come.
+
+138
+00:05:20,047 --> 00:05:20,837
+At the Great Meadows,
+
+139
+00:05:21,067 --> 00:05:22,347
+his men threw up a small,
+
+140
+00:05:22,347 --> 00:05:25,617
+round stockade. He called it Fort Necessity.
+
+141
+00:05:26,078 --> 00:05:27,938
+It was a poor position: a low,
+
+142
+00:05:27,938 --> 00:05:30,338
+wet meadow, with wooded high ground inside
+
+143
+00:05:30,338 --> 00:05:33,458
+musket range. A company of British regulars
+
+144
+00:05:33,458 --> 00:05:35,768
+from South Carolina joined him,
+
+145
+00:05:35,998 --> 00:05:38,348
+bringing his force to about four hundred.
+
+146
+00:05:38,648 --> 00:05:41,248
+On July 3, about six hundred French and
+
+147
+00:05:41,248 --> 00:05:44,068
+Canadian soldiers and a hundred Native warriors
+
+148
+00:05:44,068 --> 00:05:47,148
+arrived. Their commander was Louis Coulon
+
+149
+00:05:47,148 --> 00:05:49,618
+de Villiers: Jumonville's older brother.
+
+150
+00:05:50,178 --> 00:05:52,298
+Heavy rain flooded the trenches and soaked
+
+151
+00:05:52,298 --> 00:05:54,588
+the gunpowder. By nightfall,
+
+152
+00:05:54,798 --> 00:05:57,038
+about one in four of Washington's men had
+
+153
+00:05:57,038 --> 00:05:58,368
+been killed or wounded.
+
+154
+00:05:59,025 --> 00:06:01,465
+Washington surrendered. It was the only
+
+155
+00:06:01,465 --> 00:06:04,075
+time in his military career he ever would.
+
+156
+00:06:04,611 --> 00:06:06,121
+The terms were written in French,
+
+157
+00:06:06,391 --> 00:06:07,921
+a language he could not read.
+
+158
+00:06:08,791 --> 00:06:11,351
+His Dutch translator, Jacob Van Braam,
+
+159
+00:06:11,351 --> 00:06:13,021
+read them out in the pouring rain.
+
+160
+00:06:13,562 --> 00:06:16,042
+Buried in the text was one word: the French
+
+161
+00:06:16,042 --> 00:06:18,962
+for "assassination." Washington had signed
+
+162
+00:06:18,962 --> 00:06:21,302
+a document admitting that Jumonville had
+
+163
+00:06:21,302 --> 00:06:22,052
+been assassinated.
+
+164
+00:06:22,933 --> 00:06:24,823
+The next morning, his men marched out,
+
+165
+00:06:24,953 --> 00:06:27,473
+carrying their wounded. The date was July
+
+166
+00:06:27,473 --> 00:06:31,673
+4, 1754: exactly twenty-two years before
+
+167
+00:06:31,673 --> 00:06:33,263
+the Declaration of Independence.
+
+168
+00:06:34,138 --> 00:06:36,658
+The French printed it across Europe as proof
+
+169
+00:06:36,658 --> 00:06:38,008
+of British treachery.
+
+170
+00:06:39,273 --> 00:06:41,453
+A year later, Britain sent two regiments
+
+171
+00:06:41,453 --> 00:06:43,693
+under General Edward Braddock to take Fort
+
+172
+00:06:43,693 --> 00:06:46,643
+Duquesne. Washington rode with him.
+
+173
+00:06:47,113 --> 00:06:48,993
+It ended in one of the worst British defeats
+
+174
+00:06:48,993 --> 00:06:50,083
+of the century.
+
+175
+00:06:50,645 --> 00:06:53,785
+In 1756, the fighting spread to Europe and
+
+176
+00:06:53,785 --> 00:06:56,565
+became the Seven Years' War: Britain and
+
+177
+00:06:56,565 --> 00:06:59,035
+Prussia against France, Austria and Russia,
+
+178
+00:06:59,445 --> 00:07:00,715
+with battles in Europe,
+
+179
+00:07:00,825 --> 00:07:02,295
+North America, the Caribbean,
+
+180
+00:07:02,645 --> 00:07:04,675
+India, West Africa and the Philippines.
+
+181
+00:07:05,475 --> 00:07:07,655
+As the British writer Horace Walpole later
+
+182
+00:07:07,655 --> 00:07:11,015
+put it: "The volley fired by a young Virginian
+
+183
+00:07:11,015 --> 00:07:13,395
+in the backwoods of America set the world
+
+184
+00:07:13,395 --> 00:07:14,185
+on fire."
+
+185
+00:07:14,726 --> 00:07:16,796
+When it ended in 1763,
+
+186
+00:07:17,126 --> 00:07:19,886
+France had lost Canada and almost all of
+
+187
+00:07:19,886 --> 00:07:21,636
+its empire in North America.
+
+188
+00:07:22,128 --> 00:07:24,578
+For the Native nations of the Ohio Country,
+
+189
+00:07:24,908 --> 00:07:26,868
+the British victory brought settlers and
+
+190
+00:07:26,868 --> 00:07:29,178
+broken promises. Within months,
+
+191
+00:07:29,468 --> 00:07:31,628
+many of them rose against the British in
+
+192
+00:07:31,628 --> 00:07:32,738
+Pontiac's War.
+
+193
+00:07:33,305 --> 00:07:35,415
+But victory left Britain deep in debt.
+
+194
+00:07:35,945 --> 00:07:36,775
+To pay for it,
+
+195
+00:07:36,825 --> 00:07:39,175
+Parliament began taxing its American colonies:
+
+196
+00:07:39,825 --> 00:07:41,795
+the Sugar Act, the Stamp Act.
+
+197
+00:07:42,393 --> 00:07:44,943
+The colonists' anger grew into a revolution.
+
+198
+00:07:45,713 --> 00:07:49,333
+And in 1775, the man chosen to command the
+
+199
+00:07:49,333 --> 00:07:51,473
+Continental Army against the British Empire
+
+200
+00:07:51,473 --> 00:07:54,073
+was the same Virginian who had fired the
+
+201
+00:07:54,073 --> 00:07:56,803
+first shots for it: George Washington.
+
+202
+00:07:58,391 --> 00:08:00,801
+A fifteen-minute ambush in a rainy glen.
+
+203
+00:08:01,271 --> 00:08:02,501
+A dead French officer.
+
+204
+00:08:03,111 --> 00:08:05,421
+A signature on a document he couldn't read.
+
+205
+00:08:06,007 --> 00:08:08,297
+From that small moment came a world war,
+
+206
+00:08:08,687 --> 00:08:09,777
+the end of French America,
+
+207
+00:08:10,347 --> 00:08:12,097
+and the road to American independence.
+
+208
+00:08:13,404 --> 00:08:15,424
+Next time: what happened when Washington
+
+209
+00:08:15,424 --> 00:08:17,804
+marched back into the Ohio Country with
+
+210
+00:08:17,804 --> 00:08:19,904
+General Braddock, and walked out of the
+
+211
+00:08:19,904 --> 00:08:22,514
+disaster with four bullet holes in his coat.
+

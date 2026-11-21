@@ -1,0 +1,1039 @@
+{
+ "fps": 30,
+ "duration": 70.1,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "July 20, 1944.",
+   "start": 0.35,
+   "end": 2.468,
+   "words": [
+    {
+     "w": "July",
+     "start": 0.25,
+     "end": 0.59
+    },
+    {
+     "w": "20,",
+     "start": 0.59,
+     "end": 0.89
+    },
+    {
+     "w": "1944.",
+     "start": 1.29,
+     "end": 2.01
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "text": "Deep inside Nazi Germany, a group of German officers prepared to do the unthinkable: assassinate Adolf Hitler.",
+   "start": 2.648,
+   "end": 9.011,
+   "words": [
+    {
+     "w": "Deep",
+     "start": 2.548,
+     "end": 2.748
+    },
+    {
+     "w": "inside",
+     "start": 2.748,
+     "end": 3.088
+    },
+    {
+     "w": "Nazi",
+     "start": 3.088,
+     "end": 3.508
+    },
+    {
+     "w": "Germany,",
+     "start": 3.508,
+     "end": 3.968
+    },
+    {
+     "w": "a",
+     "start": 4.388,
+     "end": 4.448
+    },
+    {
+     "w": "group",
+     "start": 4.448,
+     "end": 4.648
+    },
+    {
+     "w": "of",
+     "start": 4.648,
+     "end": 4.808
+    },
+    {
+     "w": "German",
+     "start": 4.808,
+     "end": 5.048
+    },
+    {
+     "w": "officers",
+     "start": 5.048,
+     "end": 5.488
+    },
+    {
+     "w": "prepared",
+     "start": 5.488,
+     "end": 5.948
+    },
+    {
+     "w": "to",
+     "start": 5.948,
+     "end": 6.188
+    },
+    {
+     "w": "do",
+     "start": 6.188,
+     "end": 6.348
+    },
+    {
+     "w": "the",
+     "start": 6.348,
+     "end": 6.428
+    },
+    {
+     "w": "unthinkable:",
+     "start": 6.428,
+     "end": 6.788
+    },
+    {
+     "w": "assassinate",
+     "start": 7.568,
+     "end": 8.028
+    },
+    {
+     "w": "Adolf",
+     "start": 8.028,
+     "end": 8.288
+    },
+    {
+     "w": "Hitler.",
+     "start": 8.288,
+     "end": 8.728
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "At the center of the plot was Colonel Claus von Stauffenberg.",
+   "start": 9.341,
+   "end": 12.473,
+   "words": [
+    {
+     "w": "At",
+     "start": 9.241,
+     "end": 9.421
+    },
+    {
+     "w": "the",
+     "start": 9.421,
+     "end": 9.501
+    },
+    {
+     "w": "center",
+     "start": 9.501,
+     "end": 9.721
+    },
+    {
+     "w": "of",
+     "start": 9.721,
+     "end": 9.901
+    },
+    {
+     "w": "the",
+     "start": 9.901,
+     "end": 9.981
+    },
+    {
+     "w": "plot",
+     "start": 9.981,
+     "end": 10.221
+    },
+    {
+     "w": "was",
+     "start": 10.221,
+     "end": 10.521
+    },
+    {
+     "w": "Colonel",
+     "start": 10.521,
+     "end": 10.781
+    },
+    {
+     "w": "Claus",
+     "start": 10.781,
+     "end": 11.141
+    },
+    {
+     "w": "von",
+     "start": 11.141,
+     "end": 11.621
+    },
+    {
+     "w": "Stauffenberg.",
+     "start": 11.621,
+     "end": 12.181
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Carrying a bomb inside his briefcase, he entered Hitler's heavily guarded headquarters: the Wolf's Lair.",
+   "start": 12.653,
+   "end": 17.9,
+   "words": [
+    {
+     "w": "Carrying",
+     "start": 12.553,
+     "end": 12.893
+    },
+    {
+     "w": "a",
+     "start": 12.893,
+     "end": 12.993
+    },
+    {
+     "w": "bomb",
+     "start": 12.993,
+     "end": 13.153
+    },
+    {
+     "w": "inside",
+     "start": 13.153,
+     "end": 13.473
+    },
+    {
+     "w": "his",
+     "start": 13.473,
+     "end": 13.793
+    },
+    {
+     "w": "briefcase,",
+     "start": 13.793,
+     "end": 14.293
+    },
+    {
+     "w": "he",
+     "start": 14.633,
+     "end": 14.713
+    },
+    {
+     "w": "entered",
+     "start": 14.713,
+     "end": 14.993
+    },
+    {
+     "w": "Hitler's",
+     "start": 14.993,
+     "end": 15.413
+    },
+    {
+     "w": "heavily",
+     "start": 15.413,
+     "end": 15.693
+    },
+    {
+     "w": "guarded",
+     "start": 15.693,
+     "end": 15.973
+    },
+    {
+     "w": "headquarters:",
+     "start": 15.973,
+     "end": 16.373
+    },
+    {
+     "w": "the",
+     "start": 17.033,
+     "end": 17.153
+    },
+    {
+     "w": "Wolf's",
+     "start": 17.153,
+     "end": 17.453
+    },
+    {
+     "w": "Lair.",
+     "start": 17.453,
+     "end": 17.633
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "During a military briefing, he placed the briefcase beneath the conference table, excused himself, and walked out.",
+   "start": 18.23,
+   "end": 23.963,
+   "words": [
+    {
+     "w": "During",
+     "start": 18.13,
+     "end": 18.39
+    },
+    {
+     "w": "a",
+     "start": 18.39,
+     "end": 18.53
+    },
+    {
+     "w": "military",
+     "start": 18.53,
+     "end": 18.79
+    },
+    {
+     "w": "briefing,",
+     "start": 18.79,
+     "end": 19.31
+    },
+    {
+     "w": "he",
+     "start": 19.53,
+     "end": 19.53
+    },
+    {
+     "w": "placed",
+     "start": 19.53,
+     "end": 19.73
+    },
+    {
+     "w": "the",
+     "start": 19.73,
+     "end": 19.93
+    },
+    {
+     "w": "briefcase",
+     "start": 19.93,
+     "end": 20.37
+    },
+    {
+     "w": "beneath",
+     "start": 20.37,
+     "end": 20.69
+    },
+    {
+     "w": "the",
+     "start": 20.69,
+     "end": 20.87
+    },
+    {
+     "w": "conference",
+     "start": 20.87,
+     "end": 21.11
+    },
+    {
+     "w": "table,",
+     "start": 21.11,
+     "end": 21.59
+    },
+    {
+     "w": "excused",
+     "start": 21.93,
+     "end": 22.39
+    },
+    {
+     "w": "himself,",
+     "start": 22.39,
+     "end": 22.67
+    },
+    {
+     "w": "and",
+     "start": 23.13,
+     "end": 23.35
+    },
+    {
+     "w": "walked",
+     "start": 23.35,
+     "end": 23.53
+    },
+    {
+     "w": "out.",
+     "start": 23.53,
+     "end": 23.81
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Minutes later, an explosion tore through the room.",
+   "start": 24.323,
+   "end": 26.813,
+   "words": [
+    {
+     "w": "Minutes",
+     "start": 24.223,
+     "end": 24.483
+    },
+    {
+     "w": "later,",
+     "start": 24.483,
+     "end": 24.823
+    },
+    {
+     "w": "an",
+     "start": 24.823,
+     "end": 25.123
+    },
+    {
+     "w": "explosion",
+     "start": 25.123,
+     "end": 25.463
+    },
+    {
+     "w": "tore",
+     "start": 25.463,
+     "end": 25.883
+    },
+    {
+     "w": "through",
+     "start": 25.883,
+     "end": 26.243
+    },
+    {
+     "w": "the",
+     "start": 26.243,
+     "end": 26.363
+    },
+    {
+     "w": "room.",
+     "start": 26.363,
+     "end": 26.583
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "But Hitler survived. The briefcase had apparently been moved behind a massive table support, shielding him from the blast.",
+   "start": 27.083,
+   "end": 33.227,
+   "words": [
+    {
+     "w": "But",
+     "start": 26.983,
+     "end": 27.183
+    },
+    {
+     "w": "Hitler",
+     "start": 27.183,
+     "end": 27.283
+    },
+    {
+     "w": "survived.",
+     "start": 27.283,
+     "end": 27.743
+    },
+    {
+     "w": "The",
+     "start": 28.483,
+     "end": 28.503
+    },
+    {
+     "w": "briefcase",
+     "start": 28.503,
+     "end": 28.903
+    },
+    {
+     "w": "had",
+     "start": 28.903,
+     "end": 29.083
+    },
+    {
+     "w": "apparently",
+     "start": 29.083,
+     "end": 29.383
+    },
+    {
+     "w": "been",
+     "start": 29.383,
+     "end": 29.663
+    },
+    {
+     "w": "moved",
+     "start": 29.663,
+     "end": 29.943
+    },
+    {
+     "w": "behind",
+     "start": 29.943,
+     "end": 30.223
+    },
+    {
+     "w": "a",
+     "start": 30.223,
+     "end": 30.383
+    },
+    {
+     "w": "massive",
+     "start": 30.383,
+     "end": 30.743
+    },
+    {
+     "w": "table",
+     "start": 30.743,
+     "end": 31.003
+    },
+    {
+     "w": "support,",
+     "start": 31.003,
+     "end": 31.523
+    },
+    {
+     "w": "shielding",
+     "start": 31.863,
+     "end": 32.063
+    },
+    {
+     "w": "him",
+     "start": 32.063,
+     "end": 32.323
+    },
+    {
+     "w": "from",
+     "start": 32.323,
+     "end": 32.523
+    },
+    {
+     "w": "the",
+     "start": 32.523,
+     "end": 32.663
+    },
+    {
+     "w": "blast.",
+     "start": 32.663,
+     "end": 32.823
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Believing Hitler was dead, Stauffenberg rushed back to Berlin to launch Operation Valkyrie.",
+   "start": 33.587,
+   "end": 38.24,
+   "words": [
+    {
+     "w": "Believing",
+     "start": 33.487,
+     "end": 33.827
+    },
+    {
+     "w": "Hitler",
+     "start": 33.827,
+     "end": 34.087
+    },
+    {
+     "w": "was",
+     "start": 34.087,
+     "end": 34.407
+    },
+    {
+     "w": "dead,",
+     "start": 34.407,
+     "end": 34.647
+    },
+    {
+     "w": "Stauffenberg",
+     "start": 35.167,
+     "end": 35.447
+    },
+    {
+     "w": "rushed",
+     "start": 35.447,
+     "end": 35.827
+    },
+    {
+     "w": "back",
+     "start": 35.827,
+     "end": 36.147
+    },
+    {
+     "w": "to",
+     "start": 36.147,
+     "end": 36.367
+    },
+    {
+     "w": "Berlin",
+     "start": 36.367,
+     "end": 36.527
+    },
+    {
+     "w": "to",
+     "start": 36.527,
+     "end": 36.867
+    },
+    {
+     "w": "launch",
+     "start": 36.867,
+     "end": 37.047
+    },
+    {
+     "w": "Operation",
+     "start": 37.047,
+     "end": 37.467
+    },
+    {
+     "w": "Valkyrie.",
+     "start": 37.467,
+     "end": 37.847
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "It was originally an emergency military plan. The conspirators had secretly turned it into a blueprint for a coup.",
+   "start": 38.42,
+   "end": 44.528,
+   "words": [
+    {
+     "w": "It",
+     "start": 38.32,
+     "end": 38.48
+    },
+    {
+     "w": "was",
+     "start": 38.48,
+     "end": 38.58
+    },
+    {
+     "w": "originally",
+     "start": 38.58,
+     "end": 38.98
+    },
+    {
+     "w": "an",
+     "start": 38.98,
+     "end": 39.3
+    },
+    {
+     "w": "emergency",
+     "start": 39.3,
+     "end": 39.54
+    },
+    {
+     "w": "military",
+     "start": 39.54,
+     "end": 40.1
+    },
+    {
+     "w": "plan.",
+     "start": 40.1,
+     "end": 40.8
+    },
+    {
+     "w": "The",
+     "start": 41.4,
+     "end": 41.42
+    },
+    {
+     "w": "conspirators",
+     "start": 41.42,
+     "end": 42.08
+    },
+    {
+     "w": "had",
+     "start": 42.08,
+     "end": 42.18
+    },
+    {
+     "w": "secretly",
+     "start": 42.18,
+     "end": 42.52
+    },
+    {
+     "w": "turned",
+     "start": 42.52,
+     "end": 42.94
+    },
+    {
+     "w": "it",
+     "start": 42.94,
+     "end": 43.1
+    },
+    {
+     "w": "into",
+     "start": 43.1,
+     "end": 43.3
+    },
+    {
+     "w": "a",
+     "start": 43.3,
+     "end": 43.4
+    },
+    {
+     "w": "blueprint",
+     "start": 43.4,
+     "end": 43.62
+    },
+    {
+     "w": "for",
+     "start": 43.62,
+     "end": 44.0
+    },
+    {
+     "w": "a",
+     "start": 44.0,
+     "end": 44.08
+    },
+    {
+     "w": "coup.",
+     "start": 44.08,
+     "end": 44.28
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Troops began receiving orders. Government buildings were targeted. The takeover had begun.",
+   "start": 44.858,
+   "end": 49.639,
+   "words": [
+    {
+     "w": "Troops",
+     "start": 44.758,
+     "end": 45.118
+    },
+    {
+     "w": "began",
+     "start": 45.118,
+     "end": 45.418
+    },
+    {
+     "w": "receiving",
+     "start": 45.418,
+     "end": 45.798
+    },
+    {
+     "w": "orders.",
+     "start": 45.798,
+     "end": 46.258
+    },
+    {
+     "w": "Government",
+     "start": 46.978,
+     "end": 46.978
+    },
+    {
+     "w": "buildings",
+     "start": 46.978,
+     "end": 47.418
+    },
+    {
+     "w": "were",
+     "start": 47.418,
+     "end": 47.638
+    },
+    {
+     "w": "targeted.",
+     "start": 47.638,
+     "end": 48.038
+    },
+    {
+     "w": "The",
+     "start": 48.498,
+     "end": 48.498
+    },
+    {
+     "w": "takeover",
+     "start": 48.498,
+     "end": 48.738
+    },
+    {
+     "w": "had",
+     "start": 48.738,
+     "end": 49.118
+    },
+    {
+     "w": "begun.",
+     "start": 49.118,
+     "end": 49.398
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Then came the devastating news: Hitler was alive. The operation collapsed.",
+   "start": 49.909,
+   "end": 53.818,
+   "words": [
+    {
+     "w": "Then",
+     "start": 49.809,
+     "end": 50.029
+    },
+    {
+     "w": "came",
+     "start": 50.029,
+     "end": 50.189
+    },
+    {
+     "w": "the",
+     "start": 50.189,
+     "end": 50.369
+    },
+    {
+     "w": "devastating",
+     "start": 50.369,
+     "end": 50.729
+    },
+    {
+     "w": "news:",
+     "start": 50.729,
+     "end": 51.069
+    },
+    {
+     "w": "Hitler",
+     "start": 51.749,
+     "end": 51.749
+    },
+    {
+     "w": "was",
+     "start": 51.749,
+     "end": 52.009
+    },
+    {
+     "w": "alive.",
+     "start": 52.009,
+     "end": 52.329
+    },
+    {
+     "w": "The",
+     "start": 52.589,
+     "end": 52.669
+    },
+    {
+     "w": "operation",
+     "start": 52.669,
+     "end": 52.969
+    },
+    {
+     "w": "collapsed.",
+     "start": 52.969,
+     "end": 53.429
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "That same night, Stauffenberg and several conspirators were executed.",
+   "start": 54.178,
+   "end": 57.578,
+   "words": [
+    {
+     "w": "That",
+     "start": 54.078,
+     "end": 54.278
+    },
+    {
+     "w": "same",
+     "start": 54.278,
+     "end": 54.478
+    },
+    {
+     "w": "night,",
+     "start": 54.478,
+     "end": 54.758
+    },
+    {
+     "w": "Stauffenberg",
+     "start": 55.018,
+     "end": 55.418
+    },
+    {
+     "w": "and",
+     "start": 55.418,
+     "end": 55.718
+    },
+    {
+     "w": "several",
+     "start": 55.718,
+     "end": 55.958
+    },
+    {
+     "w": "conspirators",
+     "start": 55.958,
+     "end": 56.718
+    },
+    {
+     "w": "were",
+     "start": 56.718,
+     "end": 56.898
+    },
+    {
+     "w": "executed.",
+     "start": 56.898,
+     "end": 57.178
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Their attempt to overthrow the Nazi regime had failed.",
+   "start": 57.998,
+   "end": 60.719,
+   "words": [
+    {
+     "w": "Their",
+     "start": 57.898,
+     "end": 58.078
+    },
+    {
+     "w": "attempt",
+     "start": 58.078,
+     "end": 58.258
+    },
+    {
+     "w": "to",
+     "start": 58.258,
+     "end": 58.458
+    },
+    {
+     "w": "overthrow",
+     "start": 58.458,
+     "end": 58.878
+    },
+    {
+     "w": "the",
+     "start": 58.878,
+     "end": 59.158
+    },
+    {
+     "w": "Nazi",
+     "start": 59.158,
+     "end": 59.398
+    },
+    {
+     "w": "regime",
+     "start": 59.398,
+     "end": 59.818
+    },
+    {
+     "w": "had",
+     "start": 59.818,
+     "end": 60.118
+    },
+    {
+     "w": "failed.",
+     "start": 60.118,
+     "end": 60.418
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "But July 20, 1944, proved that even inside Hitler's own military, there were men willing to risk everything to stop him.",
+   "start": 60.959,
+   "end": 68.5,
+   "words": [
+    {
+     "w": "But",
+     "start": 60.859,
+     "end": 61.039
+    },
+    {
+     "w": "July",
+     "start": 61.039,
+     "end": 61.219
+    },
+    {
+     "w": "20,",
+     "start": 61.219,
+     "end": 61.579
+    },
+    {
+     "w": "1944,",
+     "start": 62.039,
+     "end": 62.699
+    },
+    {
+     "w": "proved",
+     "start": 62.699,
+     "end": 63.559
+    },
+    {
+     "w": "that",
+     "start": 63.559,
+     "end": 63.779
+    },
+    {
+     "w": "even",
+     "start": 63.779,
+     "end": 64.019
+    },
+    {
+     "w": "inside",
+     "start": 64.019,
+     "end": 64.479
+    },
+    {
+     "w": "Hitler's",
+     "start": 64.479,
+     "end": 65.019
+    },
+    {
+     "w": "own",
+     "start": 65.019,
+     "end": 65.179
+    },
+    {
+     "w": "military,",
+     "start": 65.179,
+     "end": 65.499
+    },
+    {
+     "w": "there",
+     "start": 66.139,
+     "end": 66.259
+    },
+    {
+     "w": "were",
+     "start": 66.259,
+     "end": 66.379
+    },
+    {
+     "w": "men",
+     "start": 66.379,
+     "end": 66.579
+    },
+    {
+     "w": "willing",
+     "start": 66.579,
+     "end": 66.799
+    },
+    {
+     "w": "to",
+     "start": 66.799,
+     "end": 67.039
+    },
+    {
+     "w": "risk",
+     "start": 67.039,
+     "end": 67.219
+    },
+    {
+     "w": "everything",
+     "start": 67.219,
+     "end": 67.599
+    },
+    {
+     "w": "to",
+     "start": 67.599,
+     "end": 67.919
+    },
+    {
+     "w": "stop",
+     "start": 67.919,
+     "end": 68.139
+    },
+    {
+     "w": "him.",
+     "start": 68.139,
+     "end": 68.379
+    }
+   ]
+  }
+ ]
+}

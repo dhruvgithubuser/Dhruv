@@ -1,0 +1,192 @@
+[
+ {
+  "file": "bunker-hum.wav",
+  "at": 0.0,
+  "volume": 0.35
+ },
+ {
+  "file": "impact-deep.wav",
+  "at": 0.0,
+  "volume": 0.55
+ },
+ {
+  "file": "radar-sweep.wav",
+  "at": 1.2,
+  "volume": 0.25
+ },
+ {
+  "file": "typewriter.wav",
+  "at": 4.776,
+  "volume": 0.4
+ },
+ {
+  "file": "clock-tick.wav",
+  "at": 4.526,
+  "volume": 0.35
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 6.881,
+  "volume": 0.35
+ },
+ {
+  "file": "relay-clicks.wav",
+  "at": 9.957,
+  "volume": 0.35
+ },
+ {
+  "file": "computer-beeps.wav",
+  "at": 11.857,
+  "volume": 0.12
+ },
+ {
+  "file": "siren.wav",
+  "at": 16.024,
+  "volume": 0.16
+ },
+ {
+  "file": "alert-beeps.wav",
+  "at": 16.074,
+  "volume": 0.2
+ },
+ {
+  "file": "impact-deep.wav",
+  "at": 16.074,
+  "volume": 0.7
+ },
+ {
+  "file": "radar-sweep.wav",
+  "at": 17.494,
+  "volume": 0.35
+ },
+ {
+  "file": "warning-tone.wav",
+  "at": 18.294,
+  "volume": 0.18
+ },
+ {
+  "file": "warning-tone.wav",
+  "at": 19.027,
+  "volume": 0.18
+ },
+ {
+  "file": "warning-tone.wav",
+  "at": 19.761,
+  "volume": 0.18
+ },
+ {
+  "file": "warning-tone.wav",
+  "at": 20.494,
+  "volume": 0.18
+ },
+ {
+  "file": "warning-tone.wav",
+  "at": 21.227,
+  "volume": 0.18
+ },
+ {
+  "file": "relay-clicks.wav",
+  "at": 24.454,
+  "volume": 0.3
+ },
+ {
+  "file": "pulse.wav",
+  "at": 25.454,
+  "volume": 0.25
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 28.139,
+  "volume": 0.4
+ },
+ {
+  "file": "impact-deep.wav",
+  "at": 28.539,
+  "volume": 0.75
+ },
+ {
+  "file": "heartbeat.wav",
+  "at": 32.638,
+  "volume": 0.35
+ },
+ {
+  "file": "pulse.wav",
+  "at": 36.638,
+  "volume": 0.35
+ },
+ {
+  "file": "pulse.wav",
+  "at": 38.258,
+  "volume": 0.3
+ },
+ {
+  "file": "pulse.wav",
+  "at": 38.491,
+  "volume": 0.3
+ },
+ {
+  "file": "pulse.wav",
+  "at": 38.725,
+  "volume": 0.3
+ },
+ {
+  "file": "pulse.wav",
+  "at": 38.958,
+  "volume": 0.3
+ },
+ {
+  "file": "warning-tone.wav",
+  "at": 44.632,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 40.672,
+  "volume": 0.3
+ },
+ {
+  "file": "relay-clicks.wav",
+  "at": 46.57,
+  "volume": 0.35
+ },
+ {
+  "file": "typewriter.wav",
+  "at": 48.47,
+  "volume": 0.35
+ },
+ {
+  "file": "heartbeat.wav",
+  "at": 51.101,
+  "volume": 0.4
+ },
+ {
+  "file": "clock-tick.wav",
+  "at": 51.301,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 53.596,
+  "volume": 0.45
+ },
+ {
+  "file": "space-ambience.wav",
+  "at": 54.196,
+  "volume": 0.32
+ },
+ {
+  "file": "shimmer.wav",
+  "at": 58.696,
+  "volume": 0.4
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 61.064,
+  "volume": 0.3
+ },
+ {
+  "file": "impact-deep.wav",
+  "at": 75.722,
+  "volume": 0.45
+ }
+]
