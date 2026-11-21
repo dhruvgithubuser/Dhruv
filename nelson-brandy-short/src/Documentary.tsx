@@ -9,7 +9,7 @@ import { DURATION_FRAMES, FPS, PHRASES, SCENES, sec } from './theme';
 const OVERLAP = 10;
 const duckAt = (t: number) => { let d = 0; for (const p of PHRASES) d = Math.max(d, Math.max(0, Math.min(1, Math.min(t - (p.start - 0.3), p.end + 0.4 - t) / 0.3 + 1))); return d; };
 const Fade: React.FC<{ first: boolean; children: React.ReactNode }> = ({ first, children }) => {
-  const f = useCurrentFrame(); const o = interpolate(f, [0, first ? 20 : OVERLAP], [0, 1], { extrapolateRight: 'clamp' });
+  const f = useCurrentFrame(); const o = first ? 1 : interpolate(f, [0, OVERLAP], [0, 1], { extrapolateRight: "clamp" });
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
 

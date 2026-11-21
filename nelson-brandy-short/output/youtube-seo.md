@@ -58,6 +58,25 @@
 - **The coffin:** made from the mast of *L'Orient* (blown up at the Nile, 1798), an ironic gift from Captain Hallowell.
 - **The funeral (9 January 1806):** 32 admirals, over 100 captains and 10,000 soldiers. He lies in a sarcophagus originally carved for Cardinal Wolsey.
 
+## Title decision: vidIQ score_title (short-form, our channel), 21 Nov 2026
+| Title | vidIQ score |
+|---|---|
+| *Competitor:* Why was the body of Admiral Nelson stored in the barrel of brandy? #trafalgar #admiralnelson | 95 (but the video has **48 views**) |
+| **Why Was Admiral Nelson's Body Put in Brandy? (1805) #shorts** ★ USE THIS | **94** |
+| Admiral Nelson's Rum? It Was Brandy (Trafalgar 1805) #shorts | 92 |
+| Admiral Nelson's Death: Sent Home in Brandy (1805) #shorts | 91 |
+| Nelson's Blood Wasn't Rum: The True Story (1805) #shorts | 88 |
+| Why Admiral Nelson Was Put in Brandy (1805) #shorts | 87 |
+| *Competitor:* Bringing Horatio Nelson back from the dead (10K views) | 82 |
+| Nelson Came Home in a Barrel of Brandy (1805) #shorts | 81 |
+| Horatio Nelson's Body Sailed Home in Brandy (1805) #shorts | 81 |
+
+**Reading:** a **question** naming **"Admiral Nelson" + "body" + "brandy"** scores highest. The competitor's question title scores 95 yet got 48 views, because its *video* lost people in the opening seconds. A title alone doesn't carry a Short, which is why the black opening frame was also fixed (the first frame is now Nelson's portrait).
+
+**Plan:**
+1. Publish with **"Why Was Admiral Nelson's Body Put in Brandy? (1805) #shorts"** (94).
+2. If it has under ~1,000 views after 48 h, switch to **"Admiral Nelson's Rum? It Was Brandy (Trafalgar 1805) #shorts"** (92). It targets the "admiral nelson rum" search.
+
 ## Titles: SEO version (YouTube search data, 21 Nov 2026; linted with yt-package; cover "DON'T DRINK IT")
 
 **What the search data shows:**
