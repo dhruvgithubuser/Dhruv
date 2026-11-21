@@ -12,7 +12,7 @@ import { C, H, HEAD, SANS, SCENES, SERIF, TYPE, W, ease, hash01, lin, pf, wf } f
 
 // length (s) of each parallax clip, as rendered by scripts/parallax.py
 const CLIP_S: Record<string, number> = {
-  a01_portrait: 8, a02_turner: 10, g03_marksman: 5, a03_fall: 4, a04_maclise: 4, g05_surgeon: 6, g05_cask: 4, g06_gibraltar: 5,
+  a01_portrait: 8, g04_death: 4, a02_turner: 10, g03_marksman: 5, a03_fall: 4, a04_maclise: 4, g05_surgeon: 6, g05_cask: 4, g06_gibraltar: 5,
   g07_sailors: 9, g08_coffin: 7, g09_thames: 5, a09_funeral: 4, g09_crypt: 4, a10_portrait: 5, g02_victory: 10,
 };
 const GRADE = 'saturate(0.62) sepia(0.22) contrast(1.1) brightness(0.95)';
@@ -20,7 +20,7 @@ const GRADE = 'saturate(0.62) sepia(0.22) contrast(1.1) brightness(0.95)';
 /** One moving shot, from scene-local frame `from` to `to`; stretched to fit, with a short dissolve in. */
 const Shot: React.FC<{ name: string; from: number; to: number; fadeIn?: number }> = ({ name, from, to, fadeIn = 8 }) => {
   const dur = Math.max(1, to - from);
-  const rate = Math.min(1.6, Math.max(0.45, (CLIP_S[name] * 30) / dur));
+  const rate = Math.min(1.6, Math.max(0.45, ((CLIP_S[name] ?? 5) * 30) / dur));
   return (
     <Sequence from={from} durationInFrames={dur} layout="none">
       <ShotInner name={name} rate={rate} fadeIn={fadeIn} />
@@ -128,9 +128,9 @@ const Arrow: React.FC<{ at: number; dur?: number; x0: number; y0: number; x1: nu
 };
 
 /** Rubber stamp verdict (LEGEND / DISPUTED / TRUE). */
-const Verdict: React.FC<{ at: number; text: string; color?: string; x?: number; y?: number; rot?: number }> = ({ at, text, color = C.redHi, x = 540, y = 330, rot = -8 }) => {
+const Verdict: React.FC<{ at: number; text: string; color?: string; x?: number; y?: number; rot?: number; out?: number }> = ({ at, text, color = C.redHi, x = 540, y = 330, rot = -8, out }) => {
   const f = useCurrentFrame();
-  if (f < at) return null;
+  if (f < at || (out !== undefined && f >= out)) return null;
   const k = ease(f, at, at + 7);
   return (
     <div style={{ position: 'absolute', left: x, top: y, transform: `translate(-50%,-50%) rotate(${rot}deg) scale(${1.6 - 0.6 * k})`, opacity: Math.min(1, k * 1.6), border: `9px solid ${color}`, padding: '6px 34px', fontFamily: HEAD, fontWeight: 700, fontSize: 92, letterSpacing: 6, color, background: 'rgba(14,10,6,0.55)', boxShadow: '0 10px 30px rgba(0,0,0,0.6)', whiteSpace: 'nowrap' }}>{text}</div>
@@ -196,15 +196,15 @@ const Doc: React.FC<{ at: number; title: string; lines: string[]; stamp?: { at: 
 /** A wide period painting shown as a museum shot: blurred backdrop, framed canvas, slow pan across it. */
 const PaintingPan: React.FC<{ src: string; caption: string }> = ({ src, caption }) => {
   const f = useCurrentFrame();
-  const h = 560, w = Math.round(h * 960 / 249);
+  const h = 440, w = Math.round(h * 960 / 249);
   const x = -((w - (W - 80)) * ease(f, 0, 150));
   return (
     <AbsoluteFill style={{ background: '#0b0805', opacity: lin(f, 0, 8) }}>
       <Img src={staticFile(src)} style={{ position: 'absolute', inset: -60, width: W + 120, height: H + 120, objectFit: 'cover', filter: 'blur(28px) brightness(0.45) saturate(0.8)' }} />
-      <div style={{ position: 'absolute', left: 40, top: 560, width: W - 80, height: h, overflow: 'hidden', border: '10px solid #6b4f2a', boxShadow: '0 30px 60px rgba(0,0,0,0.8), inset 0 0 0 3px #c9a45c' }}>
+      <div style={{ position: 'absolute', left: 40, top: 700, width: W - 80, height: h, overflow: 'hidden', border: '10px solid #6b4f2a', boxShadow: '0 30px 60px rgba(0,0,0,0.8), inset 0 0 0 3px #c9a45c' }}>
         <Img src={staticFile(src)} style={{ position: 'absolute', left: x, top: 0, width: w, height: h, transform: `scale(${1 + 0.06 * lin(f, 0, 150)})`, transformOrigin: 'left center' }} />
       </div>
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 1150, textAlign: 'center', fontFamily: TYPE, fontWeight: 700, fontSize: 24, letterSpacing: 3, color: C.gold, opacity: lin(f, 10, 20) }}>{caption}</div>
+      <div style={{ position: 'absolute', left: 0, right: 0, top: 1170, textAlign: 'center', fontFamily: TYPE, fontWeight: 700, fontSize: 24, letterSpacing: 3, color: C.gold, opacity: lin(f, 10, 20) }}>{caption}</div>
       <div style={{ position: 'absolute', left: 40, bottom: 330, fontFamily: TYPE, fontWeight: 700, fontSize: 20, letterSpacing: 3, color: 'rgba(246,236,212,0.55)' }}>PERIOD PAINTING</div>
     </AbsoluteFill>
   );
@@ -293,10 +293,10 @@ const S07: React.FC = () => (
     <Shot name="g07_sailors" from={0} to={end(7)} />
     <AbsoluteFill style={{ background: `rgba(255,170,80,${0.05 + 0.05 * hash01(useCurrentFrame(), 9)})`, mixBlendMode: 'screen' }} />
     <Dim />
-    <Verdict at={wf(7, 'legend')} text="THE LEGEND" color={C.gold} y={330} rot={-6} />
+    <Verdict at={wf(7, 'legend')} text="THE LEGEND" color={C.gold} y={330} rot={-6} out={wf(7, 'proof')} />
+    <Verdict at={wf(7, 'proof')} text="NO PROOF" y={330} out={wf(7, 'rum', 1)} />
+    <Verdict at={wf(7, 'rum', 1)} text="IT WAS BRANDY" color={C.gold} y={330} rot={4} />
     <Chips top={520} items={[{ at: wf(7, 'tapping'), t: '"TAPPING THE ADMIRAL"' }, { at: wf(7, 'blood'), t: '"NELSON\'S BLOOD"' }]} />
-    <Verdict at={wf(7, 'proof')} text="NO PROOF" y={860} />
-    <Verdict at={wf(7, 'rum', 1)} text="IT WAS BRANDY" color={C.gold} y={1060} rot={4} />
   </AbsoluteFill>
 );
 
