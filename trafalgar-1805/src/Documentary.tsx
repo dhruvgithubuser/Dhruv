@@ -1,10 +1,10 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { BigCaption, Finish, Fonts } from './kit';
+import { Finish, Fonts } from './kit';
 import { Flicker, LightLeak } from './vfx';
 import cues from './data/sfx-cues.json';
 import { SCENE_COMPS } from './Scenes';
-import { DURATION_FRAMES, FPS, PHRASES, SCENES, sec } from './theme';
+import { C, DURATION_FRAMES, FPS, PHRASES, SANS, SCENES, sec } from './theme';
 
 const OVERLAP = 10;
 const duckAt = (t: number) => { let d = 0; for (const p of PHRASES) d = Math.max(d, Math.max(0, Math.min(1, Math.min(t - (p.start - 0.3), p.end + 0.4 - t) / 0.3 + 1))); return d; };
@@ -13,14 +13,14 @@ const Fade: React.FC<{ first: boolean; children: React.ReactNode }> = ({ first, 
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
 
-const KEY = new Set(['trafalgar', '1805', 'brandy', 'why', 'nelson', 'victory', 'medals', 'marksman', '50', 'shoulder', 'lung', 'spine', 'dies', 'won', 'cask', 'camphor', 'myrrh', 'mainmast', 'guard', 'gibraltar', 'lead', 'wine', 'legend', 'tapping', 'blood', 'proof', 'rum', 'coffin', 'mast', 'flagship', 'destroyed', '1806', '32', '100', '10000', 'cardinal', 'barrel', 'buried', 'chronicles']);
+const KEY = new Set(['27', '33', '1805', 'none', 'nelson', 'trafalgar', 'napoleon', 'navy', 'boulogne', 'channel', 'toulon', 'brest', 'caribbean', 'villeneuve', 'nile', 'atlantic', 'cadiz', 'invasion', 'off', 'cancelled', 'bigger', '50', '2000', 'naples', 'replace', 'disgraced', 'columns', 'right', 'three', 'targets', 'victory', 'collingwood', 'england', 'expects', 'duty', 'noon', 'belleisle', '45', '40', 'wheel', 'bucentaure', 'redoutable', 'marksman', 'spine', 'backbone', 'temeraire', '643', '99', 'prisoner', '130', 'achille', 'explodes', 'dies', 'storm', 'gale', 'rocks', 'single', '450', '4400', '18', '11', 'ulm', 'secret', 'suicide', 'austerlitz', 'sea', 'brandy', 'genius', 'fear', 'buried', 'chronicles']);
 const CHUNKS = (() => {
   const out: { words: { w: string; start: number; end: number }[]; start: number; end: number }[] = [];
   for (const p of PHRASES) {
     let cur: { w: string; start: number; end: number }[] = [];
     (p.words ?? []).forEach((w, i, all) => {
       cur.push(w);
-      if (cur.length >= 4 || (cur.length >= 2 && /[,.?!:]["”]?$/.test(w.w)) || i === all.length - 1) { out.push({ words: cur, start: cur[0].start, end: cur[cur.length - 1].end }); cur = []; }
+      if (cur.length >= 6 || (cur.length >= 2 && /[,.?!:]["”]?$/.test(w.w)) || i === all.length - 1) { out.push({ words: cur, start: cur[0].start, end: cur[cur.length - 1].end }); cur = []; }
     });
   }
   return out.map((c, i) => ({ ...c, end: Math.min(out[i + 1]?.start ?? c.end + 0.6, c.end + 0.45) }));
@@ -30,10 +30,18 @@ const Captions: React.FC = () => {
   const ch = CHUNKS.find((c) => t >= c.start - 0.05 && t < c.end);
   if (!ch) return null;
   const k = spring({ frame: f - sec(ch.start - 0.05), fps, config: { damping: 15, stiffness: 240 } });
-  return <BigCaption words={ch.words} t={t} keys={KEY} k={k} />;
+  return (
+    <div style={{ position: 'absolute', left: 160, right: 160, bottom: 70, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0 16px', transform: `scale(${0.94 + 0.06 * k})`, opacity: Math.min(1, k * 1.6) }}>
+      {ch.words.map((w, i) => {
+        const on = t >= w.start - 0.03;
+        const key = KEY.has(w.w.toLowerCase().replace(/[^a-z0-9]/g, ''));
+        return <span key={i} style={{ fontFamily: SANS, fontWeight: 800, fontSize: key ? 66 : 60, lineHeight: 1.15, textTransform: 'uppercase', color: on ? (key ? C.gold : '#fff') : 'rgba(255,255,255,0.5)', WebkitTextStroke: '9px #111', paintOrder: 'stroke fill', textShadow: '0 6px 18px rgba(0,0,0,0.7)' }}>{w.w}</span>;
+      })}
+    </div>
+  );
 };
 
-export const NelsonBrandy: React.FC = () => (
+export const Trafalgar: React.FC = () => (
   <AbsoluteFill style={{ background: '#1d1b19' }}>
     <Fonts />
     {SCENE_COMPS.map((Comp, i) => {
@@ -47,11 +55,11 @@ export const NelsonBrandy: React.FC = () => (
     <Finish />
     <Flicker />
     <Captions />
-    <Audio src={staticFile('assets/sound/voiceover.mp3')} />
-    <Audio src={staticFile('assets/music/score.mp3')} volume={(fr) => interpolate(fr, [0, 20], [0, 1], { extrapolateRight: 'clamp' }) * (0.62 - 0.42 * duckAt(fr / FPS))} />
+    <Audio src={staticFile('assets/sound/voiceover.mp3')} volume={1.0} />
+    <Audio src={staticFile('assets/music/score.mp3')} volume={(fr) => interpolate(fr, [0, 20], [0, 1], { extrapolateRight: 'clamp' }) * (0.55 - 0.4 * duckAt(fr / FPS))} />
     {(cues as { file: string; at: number; volume: number }[]).map((c, i) => (
       <Sequence key={i} from={Math.max(0, Math.round(c.at * FPS))} durationInFrames={Math.min(DURATION_FRAMES, 30 * 20)} name={`sfx ${c.file}`}>
-        <Audio src={staticFile(`assets/sound/${c.file}`)} volume={(fr) => c.volume * (1 - 0.35 * duckAt(c.at + fr / FPS))} />
+        <Audio src={staticFile(`assets/sound/${c.file}`)} volume={(fr) => c.volume * (1 - 0.45 * duckAt(c.at + fr / FPS))} />
       </Sequence>
     ))}
   </AbsoluteFill>

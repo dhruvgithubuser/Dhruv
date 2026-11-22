@@ -18,16 +18,48 @@ from transformers import AutoImageProcessor, AutoModelForDepthEstimation
 W, H, FPS, SECS = 1920, 1080, 30, 10
 # motion per shot: (kind, strength). kinds: push (dolly in), pull (dolly out), left/right (truck with parallax), rise, drift
 MOTION = {
-    "c01_chicago": ("push", 1.0), "c02_court": ("push", 0.8), "c03_reno": ("push", 1.0), "c04_papers": ("right", 0.8), "c05_markers": ("left", 1.0),
-    "c06_jury": ("push", 0.8), "c07_general": ("push", 1.0), "c10_expedition": ("left", 1.0), "c11_gold": ("push", 0.7), "c12_council": ("push", 0.8),
-    "c13_column": ("right", 1.0), "c14_gatling": ("left", 0.9), "c15_ravine": ("push", 0.9), "c16_agency": ("push", 0.8), "c17_village": ("right", 1.0),
-    "c18_scouts": ("push", 1.0), "c19_custer_back": ("push", 1.2), "c20_charge": ("push", 1.2), "c21_skirmish": ("left", 1.0), "c22_timber": ("right", 1.0),
-    "c23_bluffs": ("rise", 1.0), "c24_witness": ("push", 0.9), "c25_trumpeter": ("left", 1.2), "c26_hill": ("push", 0.9), "c27_riders": ("right", 1.0),
-    "c28_dawn_tipi": ("push", 0.8), "c29_horseman": ("drift", 1.0), "c31_dust": ("push", 1.1), "c33_weir": ("push", 1.0), "c34_relief": ("left", 0.9),
-    "c36_testimony": ("push", 0.8), "c37_verdict": ("push", 0.9), "c38_barracks": ("right", 0.8), "c39_alone": ("push", 0.8), "c40_honors": ("left", 0.9),
-    "c42_hills": ("pull", 1.0), "c45_writer": ("push", 0.8), "c46_washita": ("right", 1.0), "c48_rosebud": ("left", 1.0), "c49_packer": ("push", 0.9),
-    "c50_packtrain": ("right", 1.0), "c51_archaeology": ("left", 0.9), "c52_comanche": ("push", 0.9), "c53_widow": ("push", 0.8), "c54_memorial": ("rise", 0.9),
-    "c55_water": ("push", 1.0), "c56_elder": ("push", 0.8), "c03b_reno": ("push", 1.0),
+    "t01_fleet_dawn": ("right", 1.0),
+    "t02_headland": ("push", 0.9),
+    "t03_napoleon": ("push", 1.2),
+    "t04_boulogne": ("left", 1.0),
+    "t05_blockade": ("right", 1.0),
+    "t06_chart_room": ("push", 1.0),
+    "t07_villeneuve": ("push", 1.2),
+    "t08_atlantic": ("left", 1.0),
+    "t09_caribbean": ("right", 0.9),
+    "t10_cadiz": ("push", 0.9),
+    "t11_army_march": ("push", 1.0),
+    "t12_frigate": ("left", 1.0),
+    "t13_gun_deck_crew": ("push", 1.1),
+    "t14_letter": ("push", 1.3),
+    "t15_leave_harbour": ("right", 1.0),
+    "t16_line_battle": ("left", 1.1),
+    "t17_dinner": ("push", 1.0),
+    "t18_bow_on": ("push", 1.4),
+    "t19_lookout": ("rise", 1.0),
+    "t20_signal_flags": ("rise", 1.0),
+    "t21_gun_crew": ("push", 1.2),
+    "t22_breakthrough": ("push", 1.3),
+    "t23_dismasted": ("right", 1.0),
+    "t24_wheel": ("push", 1.3),
+    "t25_raking": ("left", 1.1),
+    "t26_locked": ("right", 1.1),
+    "t27_marksman": ("push", 1.3),
+    "t28_admiral_falls": ("push", 1.2),
+    "t29_cockpit": ("push", 1.0),
+    "t30_boarders": ("left", 1.1),
+    "t31_surrender": ("push", 1.0),
+    "t32_giant_ship": ("right", 1.0),
+    "t33_sail_away": ("pull", 1.0),
+    "t34_explosion": ("push", 1.3),
+    "t35_storm": ("drift", 1.2),
+    "t36_wreck": ("push", 1.0),
+    "t37_after_storm": ("pull", 1.0),
+    "t38_ulm": ("push", 1.0),
+    "t39_inn": ("push", 1.2),
+    "t40_austerlitz": ("left", 1.0),
+    "t41_ship_home": ("push", 0.9),
+    "t42_fleet_glory": ("right", 1.0),
 }
 
 
@@ -53,7 +85,7 @@ def render(name, src, dst, proc, model):
     ys, xs = torch.meshgrid(torch.linspace(-1, 1, H), torch.linspace(-1, 1, W), indexing="ij")
     base = 1.09  # overscan so edges never show
     ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                           "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", str(dst)], stdin=subprocess.PIPE)
+                           "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", str(dst)], stdin=subprocess.PIPE)
     n = FPS * SECS
     for i in range(n):
         t = ease(i / (n - 1))

@@ -1,10 +1,4 @@
-"""Score + sound design for "Nelson Came Home in a Barrel of Brandy" (Short) (synthesized, seeded, reproducible).
-
-    python3 scripts/build-audio.py
-
-Tone: playful spy caper. Muted plucks in D minor (light and sneaky) for the reveal, a driving explainer pulse for
-the Ghost Army's toolkit, low tension for Operation Viersen, then a warm D-major lift for the medal and the ending.
-SFX: bicycle bell, air hiss (inflation), Morse beeps, a loudspeaker tank rumble, stamps, counters.
+"""Sound effects for "Trafalgar 1805" (long video). The music is the creator's own track, not generated.
 """
 import json
 import subprocess
@@ -30,7 +24,7 @@ def ph(n):
 
 
 S = {1: 0.0}
-for n in range(2, 11):
+for n in range(2, 53):
     S[n] = ph(n)[0]["start"] - 0.3
 
 
@@ -553,29 +547,31 @@ def bowstring():
 
 
 def main():
+    """Sound effects only. The music bed is the creator's own track (public/assets/music/score.mp3): never generated or overwritten here."""
     files = {"wind.wav": wind(8.0), "paper.wav": paper(), "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000),
-             "volley.wav": musket(), "explosion.wav": explosion(), "fire.wav": fire(10.0), "waves.wav": waves(8.0),
-             "creak.wav": creak(), "bell.wav": bell(), "murmur.wav": murmur(7.0), "cannon.wav": cannon()}
+             "volley.wav": volley(6, 0.6), "musket.wav": musket(), "explosion.wav": explosion(), "fire.wav": fire(10.0), "waves.wav": waves(8.0),
+             "creak.wav": creak(), "bell.wav": bell(), "cannon.wav": cannon(), "splash.wav": splash()}
     for k, v in files.items():
         save(k, v)
     w = word_t
-    sh = w(3, "aim") + 0.66
-    cues = [("waves.wav", 0.0, 0.3), ("wind.wav", 0.0, 0.25), ("impact.wav", w(1, "brandy"), 0.45),
-            ("cannon.wav", S[2] + 1.3, 0.55), ("cannon.wav", S[2] + 4.3, 0.5), ("cannon.wav", S[2] + 7.0, 0.45), ("bell.wav", w(2, "victory"), 0.3),
-            ("creak.wav", S[3] + 0.3, 0.4), ("wind.wav", S[3], 0.35), ("volley.wav", sh, 0.8), ("impact.wav", w(3, "spine"), 0.45),
-            ("creak.wav", S[4] + 0.4, 0.35),
-            ("paper.wav", S[5] + 0.3, 0.3), ("creak.wav", w(5, "cask"), 0.45), ("waves.wav", w(5, "lashed"), 0.35), ("creak.wav", w(5, "guard"), 0.35),
-            ("waves.wav", S[6], 0.4), ("bell.wav", S[6] + 0.3, 0.3),
-            ("creak.wav", S[7] + 0.5, 0.35), ("impact.wav", w(7, "proof"), 0.45), ("impact.wav", w(7, "rum", 1), 0.4),
-            ("paper.wav", w(8, "mast"), 0.4), ("creak.wav", S[8] + 0.4, 0.3),
-            ("bell.wav", S[9] + 0.2, 0.4), ("murmur.wav", w(9, "escort") - 0.3, 0.4), ("cannon.wav", w(9, "escort") + 0.5, 0.25), ("wind.wav", w(9, "tomb"), 0.3),
-            ("whoosh.wav", S[10], 0.22), ("impact.wav", w(10, "drunk"), 0.35), ("impact.wav", w(10, "barrel"), 0.35)]
+    cues = [("waves.wav", 0.0, 0.25), ("cannon.wav", 0.7, 0.45), ("cannon.wav", 2.3, 0.4), ("impact.wav", w(1, "none"), 0.4),
+            ("waves.wav", S[2], 0.3), ("impact.wav", w(3, "battle"), 0.4), ("wind.wav", S[4], 0.25),
+            ("whoosh.wav", S[6], 0.2), ("paper.wav", S[7] + 0.3, 0.25), ("waves.wav", S[9], 0.25), ("cannon.wav", S[10] + 0.5, 0.35), ("cannon.wav", S[10] + 2.0, 0.3),
+            ("impact.wav", w(12, "off"), 0.4), ("impact.wav", w(13, "cancelled"), 0.35), ("waves.wav", S[14], 0.25), ("creak.wav", S[15] + 0.4, 0.3),
+            ("paper.wav", w(16, "18"), 0.3), ("bell.wav", S[17] + 0.3, 0.3), ("waves.wav", S[17], 0.25), ("cannon.wav", S[18] + 0.5, 0.3),
+            ("creak.wav", S[19] + 0.3, 0.25), ("whoosh.wav", S[20], 0.2), ("waves.wav", S[21], 0.25), ("bell.wav", S[23] + 0.4, 0.3), ("wind.wav", S[23], 0.25),
+            ("creak.wav", S[26] + 0.5, 0.3), ("impact.wav", w(26, "expects"), 0.35), ("cannon.wav", w(28, "first"), 0.5),
+            ("cannon.wav", w(29, "smashes"), 0.55), ("explosion.wav", w(29, "broadside"), 0.5), ("cannon.wav", S[30] + 0.6, 0.45), ("cannon.wav", S[30] + 2.2, 0.4),
+            ("cannon.wav", S[31] + 0.5, 0.45), ("cannon.wav", S[31] + 1.8, 0.4), ("impact.wav", w(31, "wheel"), 0.45), ("explosion.wav", w(32, "broadside"), 0.6),
+            ("creak.wav", S[33] + 0.3, 0.4), ("volley.wav", S[33] + 1.0, 0.3), ("musket.wav", w(34, "musket") + 0.2, 0.75), ("impact.wav", w(34, "spine"), 0.35),
+            ("explosion.wav", w(36, "fires"), 0.6), ("volley.wav", S[36] + 0.5, 0.3), ("impact.wav", w(37, "surrenders"), 0.4), ("cannon.wav", S[38] + 0.5, 0.35),
+            ("impact.wav", w(38, "prisoner"), 0.35), ("cannon.wav", S[39] + 0.5, 0.45), ("cannon.wav", S[39] + 2.0, 0.4), ("waves.wav", w(40, "front"), 0.25),
+            ("explosion.wav", w(41, "explodes"), 0.85), ("fire.wav", w(41, "explodes"), 0.35), ("creak.wav", S[42] + 0.3, 0.3), ("bell.wav", w(42, "half"), 0.3),
+            ("wind.wav", S[43], 0.5), ("waves.wav", S[43], 0.45), ("explosion.wav", w(43, "hit"), 0.35), ("wind.wav", S[44], 0.45), ("waves.wav", S[44], 0.45), ("splash.wav", w(44, "rocks"), 0.4),
+            ("waves.wav", S[45], 0.25), ("paper.wav", S[46] + 0.3, 0.3), ("impact.wav", w(46, "single"), 0.35), ("paper.wav", w(48, "found"), 0.25), ("impact.wav", w(48, "suicide"), 0.35),
+            ("cannon.wav", S[49] + 0.5, 0.25), ("waves.wav", S[50], 0.25), ("bell.wav", S[51] + 0.3, 0.35), ("whoosh.wav", S[52], 0.2), ("impact.wav", w(52, "genius"), 0.35), ("impact.wav", w(52, "fear"), 0.35)]
     (ROOT / "src" / "data" / "sfx-cues.json").write_text(json.dumps([{"file": f, "at": round(a, 3), "volume": v} for f, a, v in cues], indent=1))
-    m = score()
-    m = m / (np.abs(m).max() + 1e-9) * 10 ** (-3 / 20)
-    sf.write(MUS / "score.wav", np.stack([m, m], 1).astype(np.float32), SR, subtype="PCM_16")
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(MUS / "score.wav"), "-b:a", "192k", str(MUS / "score.mp3")], check=True)
-    print("score", DUR, "s; cues", len(cues))
+    print("sfx", len(files), "cues", len(cues), "(music: creator's own track, untouched)")
 
 
 if __name__ == "__main__":
