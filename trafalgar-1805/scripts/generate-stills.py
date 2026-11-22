@@ -54,7 +54,7 @@ SHOTS = {
     "t36_wreck": ("wrecked wooden warship broken on rocks near a coast in a storm, survivors clinging to the rocks", 7036),
     "t37_after_storm": ("calm sea at dawn after a storm with floating debris and a battered warship, quiet, mist", 7037),
     "t38_ulm": ("Napoleon on horseback receiving surrendering Austrian officers in white uniforms, autumn, army behind", 7038),
-    "t39_inn": ("rustic 1806 French country inn bedroom at night, rough stone walls, wooden beams, a simple wooden bed, a single tallow candle on a wooden table, deep shadows, sinister, no electric lamps", 7139),
+    "t39_inn": ("dark rustic 1806 French country inn room lit only by one candle flame, rough stone wall, heavy wooden beams, a plain wooden bed with a wool blanket, a wooden chair, deep black shadows, sinister, eighteenth century", 7239),
     "t40_austerlitz": ("Napoleonic battlefield in winter fog at sunrise, columns of soldiers advancing, frost", 7040),
     "t41_ship_home": ("single great wooden warship with damaged rigging sailing home into an English harbour under grey sky, flags at half mast", 7041),
     "t42_fleet_glory": ("fleet of British wooden warships sailing on a sunny sea with Union flags flying, proud, wide view", 7042),
