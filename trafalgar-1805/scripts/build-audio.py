@@ -1,4 +1,4 @@
-"""Score + sound design for "The Trial After Little Bighorn" (long documentary) (synthesized, seeded, reproducible).
+"""Score + sound design for "Nelson Came Home in a Barrel of Brandy" (Short) (synthesized, seeded, reproducible).
 
     python3 scripts/build-audio.py
 
@@ -30,7 +30,7 @@ def ph(n):
 
 
 S = {1: 0.0}
-for n in range(2, 56):
+for n in range(2, 11):
     S[n] = ph(n)[0]["start"] - 0.3
 
 
@@ -186,57 +186,85 @@ def ostinato(start, end, roots, g=0.5):
 X = None
 
 
+def war_drum(g=1.0):
+    """Big cinematic war drum: pitched body + skin slap + room."""
+    n = int(1.6 * SR); tm = t_(n)
+    body = np.sin(2 * np.pi * (48 + 50 * np.exp(-tm / 0.06)) * tm) * np.exp(-tm / 0.45)
+    slap = bp(rng.standard_normal(n), 300, 2500) * np.exp(-tm / 0.03) * 0.5
+    return (body + slap) * g
+
+
+def pipes(start, tune, g=0.2, drone=45, step=0.36):
+    """Synth Highland pipes: two drones (A) under a nasal chanter line. `tune` is a list of (midi, beats)."""
+    total = sum(b for _, b in tune) * step + 0.6
+    n = int(total * SR); tm = t_(n)
+    d = sum(np.sign(np.sin(2 * np.pi * hz(drone + o) * tm)) * w for o, w in ((0, 0.5), (12, 0.35)))
+    d = lp(d, 1200) * 0.35
+    ch = np.zeros(n); tt = 0.0
+    for m, beats in tune:
+        k0 = int(tt * SR); k1 = min(n, int((tt + beats * step) * SR)); tk = t_(k1 - k0)
+        saw = 2 * ((hz(m) * tk) % 1) - 1
+        ch[k0:k1] += saw * env(k1 - k0, 0.008, 0.02)
+        tt += beats * step
+    ch = bp(ch, 600, 4200) * 0.8
+    sig = (d + ch) * env(n, 0.2, 0.5)
+    place(X, sig, start, g)
+
+
 def score():
+    """Score for Nelson's brandy barrel: a heroic naval hook, Trafalgar battle drums and brass, a single shot then a
+    lament, a creaking night-voyage under low strings, a sly plucked tune for the legend, and a funeral march."""
     global X
     n = int(DUR * SR); X = np.zeros(n)
     def pads(start, end, chords, g=0.16, cutoff=900, step=8 * BEAT):
         tt, k = start, 0
         while tt < end - 0.5:
             place(X, strings(chords[k % len(chords)], min(step + 1.5, end - tt + 1), cutoff), tt, g); tt += step; k += 1
-    def drums(start, end, every, m=38, g=0.5):
+    def drums(start, end, pattern, g=0.6):
         tt = start
-        while tt < end - 0.3: place(X, timpani(m, g), tt); tt += every
-    def brassline(start, end, chords, g=0.22, step=4 * BEAT, cutoff=900):
+        while tt < end - 0.3:
+            for off, acc in pattern: place(X, war_drum(g * acc), tt + off * BEAT)
+            tt += 4 * BEAT
+    def brassline(start, end, chords, g=0.2, step=4 * BEAT, cutoff=1000):
         tt, k = start, 0
         while tt < end - 0.5:
             place(X, brass(chords[k % len(chords)], min(step + 1.0, end - tt + 1), cutoff), tt, g); tt += step; k += 1
-    def pianoline(start, end, notes, every=3.2, g=0.09):
-        k = 0
-        while start + 1 + k * every < end - 1: place(X, piano(notes[k % len(notes)], 4.5), start + 1 + k * every, g); k += 1
-    Am = [[33, 40, 45, 48], [29, 36, 41, 45], [31, 38, 43, 47], [28, 35, 40, 44]]
-    # cold open (1-6): the court. low strings, piano motif, timpani on the title
-    pads(0, S[8], [[21, 33, 40, 45], [17, 29, 36, 41], [19, 31, 38, 43], [16, 28, 35, 40]], 0.22, 700)
-    pianoline(0, S[8], [69, 72, 76, 74, 71, 69], 3.2, 0.08)
-    place(X, timpani(33, 1.0), word_t(7, 'jury') - 0.1); place(X, brass([57, 64, 69], 4.0, 1300), word_t(7, 'jury'), 0.2)
-    # backstory (7-12): restrained march
-    march(S[8], S[17] - 0.2, 0.35)
-    ostinato(S[8], S[17] - 0.2, [33, 29, 31, 28], 0.3)
-    pads(S[8], S[17], Am, 0.14, 900)
-    # the evidence (13-19): tension pulse
-    ostinato(S[17], S[25] - 0.2, [33, 34, 33, 31], 0.42)
-    pads(S[17], S[25], [[21, 28, 33], [22, 29, 34], [21, 28, 33], [19, 26, 31]], 0.22, 700)
-    drums(S[17], S[25] - 0.3, 4 * BEAT, 28, 0.35)
-    place(X, snare_roll(3.0, 0.1, 0.8), S[25] - 3.0)
-    # the battle (20-26)
-    march(S[25], S[34] - 0.3, 0.8)
-    ostinato(S[25], S[34] - 0.3, [33, 34, 36, 33], 0.5)
-    brassline(S[25], S[34], [[33, 40, 45, 48], [34, 41, 46, 50], [36, 43, 48, 52], [33, 40, 45, 48]], 0.24, 4 * BEAT, 1000)
-    drums(S[25], S[34] - 0.3, BEAT, 33, 0.5)
-    # the witnesses (27-34): wide, sparse, heartbeat drum
-    pads(S[34], S[44], [[26, 33, 38, 42], [24, 31, 36, 40], [22, 29, 34, 38], [21, 28, 33, 37]], 0.24, 800)
-    drums(S[34], S[42] - 0.3, 2 * BEAT, 26, 0.3)
-    march(S[42], S[44] - 0.3, 0.45); drums(S[42], S[44] - 0.3, BEAT, 33, 0.35)
-    # the verdict (35-39): the court again
-    pads(S[44], S[51], Am, 0.18, 750)
-    pianoline(S[44], S[51], [69, 72, 76, 74, 71, 69, 67], 3.0, 0.09)
-    place(X, timpani(33, 0.9), S[50])
-    # finale (40-43): rising chorale to the question
-    pads(S[51], DUR, [[33, 40, 45, 48], [29, 36, 41, 45], [36, 43, 48, 52], [31, 38, 43, 47]], 0.2, 1000)
-    brassline(S[52], DUR - 0.5, [[45, 48, 52], [41, 45, 48], [48, 52, 55], [43, 47, 50], [45, 49, 52, 57]], 0.22, 4 * BEAT, 1200)
-    drums(S[52], S[55] - 0.3, 2 * BEAT, 33, 0.45)
-    place(X, timpani(33, 1.0), word_t(55, 'guilty')); place(X, timpani(33, 0.8), DUR - 3)
-    x = reverb(X, 3.2, 1.5, 0.34)
-    fade = int(3 * SR); x[-fade:] *= np.linspace(1, 0, fade) ** 1.5
+    Dm = [[38, 45, 50, 53], [34, 41, 46, 50], [36, 43, 48, 52], [33, 40, 45, 49]]
+    low = [[26, 33, 38, 41], [22, 29, 34, 38], [24, 31, 36, 40], [21, 28, 33, 37]]
+    Dmaj = [[38, 45, 50, 54], [43, 47, 50, 55], [45, 49, 52, 57], [38, 45, 50, 54]]
+    w = word_t
+    # S1 hook: heroic but grave
+    pads(0, S[2], Dmaj, 0.2, 1100); drums(0.3, S[2], [(0, 1.0), (0.5, 0.5)], 0.45)
+    place(X, war_drum(1.4), w(1, "brandy")); place(X, timpani(26, 0.9), w(1, "why"))
+    # S2 + S3 Trafalgar: battle drums and brass until the shot
+    sh = w(3, "aim") + 0.66
+    drums(S[2], sh, [(0, 1.0), (1, 0.6), (2, 0.9), (3, 0.6)], 0.55); march(S[2], sh, 0.6)
+    brassline(S[2], sh, [[50, 54, 57], [55, 59, 62], [57, 61, 64], [50, 54, 57, 62]], 0.22, 4 * BEAT, 1200)
+    place(X, war_drum(1.6), sh); place(X, timpani(26, 1.0), sh)
+    pads(sh, S[4], low, 0.22, 650)
+    # S4 death: lament, brass swell on "won"
+    pads(S[4], S[5], [[38, 45, 50, 53, 57], [34, 41, 46, 50, 53]], 0.24, 1000, 4 * BEAT)
+    place(X, brass([50, 53, 57, 62], S[5] - w(4, "won") + 1, 1200), w(4, "won"), 0.22)
+    # S5 + S6 the cask, night voyage: low strings, slow timpani heartbeat
+    pads(S[5], S[7], low, 0.22, 700)
+    tt = S[5]
+    while tt < S[7] - 0.5: place(X, timpani(26, 0.4), tt); tt += 2 * BEAT
+    # S7 legend: sly plucks
+    k = 0
+    while S[7] + 0.4 + k * 0.45 < S[8] - 0.3: place(X, pluck([62, 65, 69, 67, 65, 64, 62, 57][k % 8], 0.4, 0.5), S[7] + 0.4 + k * 0.45, 0.42); k += 1
+    pads(S[7], S[8], Dm, 0.12, 1000); place(X, war_drum(1.2), w(7, "proof"))
+    # S8 coffin: held chord
+    pads(S[8], S[9], [[36, 43, 48, 52], [34, 41, 46, 50]], 0.2, 900, 4 * BEAT)
+    # S9 funeral march
+    tt = S[9]
+    while tt < S[10] - 0.5: place(X, snare(0.3), tt); place(X, snare_roll(0.6, 0.05, 0.25), tt + 1.6); place(X, timpani(26, 0.55), tt); tt += 4 * BEAT
+    brassline(S[9], S[10], [[38, 45, 50, 53], [34, 41, 46, 50], [36, 43, 48, 52], [33, 40, 45, 49]], 0.2, 4 * BEAT, 900)
+    pads(S[9], S[10], Dm, 0.18, 900)
+    # S10 ending
+    drums(S[10], DUR - 1.0, [(0, 1.0), (1, 0.5), (2, 0.9), (3, 0.5)], 0.5); pads(S[10], DUR, Dmaj, 0.2, 1100)
+    place(X, war_drum(1.6), DUR - 2.0); place(X, timpani(26, 1.0), DUR - 2.0)
+    x = reverb(X, 3.0, 1.4, 0.3)
+    fade = int(1.4 * SR); x[-fade:] *= np.linspace(1, 0, fade) ** 1.5
     return x
 
 
@@ -443,22 +471,105 @@ def bugle():
     return reverb(out, 2.5, 1.4, 0.5)
 
 
+def gavel():
+    out = np.zeros(int(1.2 * SR))
+    for k, g in ((0, 1.0), (0.32, 0.8)):
+        m = int(0.25 * SR); tm = t_(m)
+        hit = (np.sin(2 * np.pi * 180 * tm) * 0.8 + np.sin(2 * np.pi * 410 * tm) * 0.4) * np.exp(-tm / 0.05) + bp(rng.standard_normal(m), 600, 3500) * np.exp(-tm / 0.012)
+        place(out, hit * g, k)
+    return reverb(out, 1.6, 1.0, 0.4)
+
+
+def murmur(length=8.0):
+    n = int(length * SR); x = np.zeros(n)
+    for v in range(10):
+        s = bp(rng.standard_normal(n), 250 + 40 * v, 900 + 60 * v) * (0.6 + 0.4 * np.sin(2 * np.pi * (0.4 + 0.13 * v) * t_(n) + v))
+        x += s
+    return x * 0.25 * env(n, 1.0, 1.5)
+
+
+def bugle():
+    out = np.zeros(int(2.6 * SR))
+    for k, (m, d) in enumerate([(67, 0.18), (72, 0.18), (76, 0.18), (79, 0.7)]):
+        place(out, brass([m], d + 0.15, 2400), sum(x[1] for x in [(67, 0.18), (72, 0.18), (76, 0.18), (79, 0.7)][:k]) * 1.1, 0.9)
+    return reverb(out, 2.5, 1.4, 0.5)
+
+
+def dig(length=3.0):
+    x = np.zeros(int(length * SR))
+    for k in range(int(length * 1.6)):
+        m = int(0.18 * SR); tm = t_(m)
+        hit = lp(rng.standard_normal(m), 900) * np.exp(-tm / 0.04) + bp(rng.standard_normal(m), 1500, 5000) * np.exp(-tm / 0.015) * 0.4
+        place(x, hit * (0.7 + 0.3 * rng.random()), k / 1.6 + 0.05 * rng.random())
+    return reverb(x, 1.5, 1.0, 0.3)
+
+
+def creak(length=1.2):
+    n = int(length * SR); tm = t_(n)
+    f0 = 140 + 60 * np.sin(2 * np.pi * 0.8 * tm)
+    saw = (np.cumsum(f0) / SR) % 1.0 - 0.5
+    grit = (rng.random(n) < 0.004) * 1.0
+    return bp(saw + grit * 2, 300, 3000) * env(n, 0.05, 0.4) * 0.7
+
+
+def explosion():
+    n = int(3.5 * SR); tm = t_(n)
+    boom = np.sin(2 * np.pi * (30 + 70 * np.exp(-tm / 0.05)) * tm) * np.exp(-tm / 0.9)
+    crack = bp(rng.standard_normal(n), 300, 6000) * np.exp(-tm / 0.08)
+    rumble = lp(rng.standard_normal(n), 140) * np.exp(-tm / 1.4) * 1.5
+    return reverb(boom + crack * 0.9 + rumble, 3.0, 1.6, 0.45)
+
+
+def plane_flyby(length=4.0):
+    n = int(length * SR); tm = t_(n)
+    f0 = 90 + 30 * np.tanh((tm - length / 2) * 1.5) * -1
+    eng = np.sin(2 * np.pi * np.cumsum(f0) / SR) + 0.5 * np.sin(4 * np.pi * np.cumsum(f0) / SR)
+    noise = bp(rng.standard_normal(n), 200, 2000) * 0.6
+    amp = np.exp(-((tm - length / 2) ** 2) / 0.9)
+    return (eng * 0.6 + noise) * amp
+
+
+def waves(length=8.0):
+    n = int(length * SR); tm = t_(n)
+    sw = lp(rng.standard_normal(n), 900) * (0.55 + 0.45 * np.sin(2 * np.pi * tm / 3.1) ** 2)
+    return sw * np.minimum(1, tm / 0.8) * np.minimum(1, (length - tm) / 1.0)
+
+
+def splash():
+    n = int(2.5 * SR); tm = t_(n)
+    return (bp(rng.standard_normal(n), 300, 5000) * np.exp(-tm / 0.35) + lp(rng.standard_normal(n), 300) * np.exp(-tm / 0.8)) * 0.9
+
+
+def arrow_sfx():
+    n = int(0.9 * SR); tm = t_(n)
+    swish = bp(rng.standard_normal(n), 1500, 7000) * np.exp(-((tm - 0.3) ** 2) / 0.01) * 0.8
+    thud = lp(rng.standard_normal(n), 300) * np.exp(-np.maximum(0, tm - 0.55) / 0.05) * (tm > 0.55) * 1.4
+    return swish + thud
+
+
+def bowstring():
+    n = int(0.6 * SR); tm = t_(n)
+    return np.sin(2 * np.pi * 95 * tm) * np.exp(-tm / 0.12) * 0.8 + bp(rng.standard_normal(n), 800, 3000) * np.exp(-tm / 0.03) * 0.5
+
+
 def main():
-    files = {"wind.wav": wind(10.0), "volley.wav": volley(8, 0.8), "musket.wav": musket(), "gallop.wav": gallop(6.0), "clock.wav": clock(6.0), "paper.wav": paper(),
-             "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000), "gavel.wav": gavel(), "murmur.wav": murmur(8.0), "bugle.wav": bugle(), "fire.wav": fire(8.0)}
+    files = {"wind.wav": wind(8.0), "paper.wav": paper(), "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000),
+             "volley.wav": musket(), "explosion.wav": explosion(), "fire.wav": fire(10.0), "waves.wav": waves(8.0),
+             "creak.wav": creak(), "bell.wav": bell(), "murmur.wav": murmur(7.0), "cannon.wav": cannon()}
     for k, v in files.items():
         save(k, v)
     w = word_t
-    cues = [("wind.wav", 0.0, 0.35), ("murmur.wav", S[2], 0.28), ("gavel.wav", S[2] + 1.2, 0.55), ("clock.wav", S[3], 0.3), ("paper.wav", S[4] + 0.2, 0.35),
-            ("wind.wav", S[6], 0.35), ("impact.wav", w(7, "jury"), 0.45), ("whoosh.wav", S[8], 0.22), ("gallop.wav", S[9], 0.3), ("wind.wav", S[13], 0.25),
-            ("paper.wav", w(17, "exhibit"), 0.4), ("gallop.wav", S[17] + 4, 0.25), ("paper.wav", w(19, "exhibit"), 0.4), ("wind.wav", S[20], 0.3),
-            ("paper.wav", w(21, "exhibit"), 0.4), ("wind.wav", S[21], 0.3), ("paper.wav", w(23, "exhibit"), 0.4),
-            ("gallop.wav", S[25], 0.55), ("volley.wav", S[25] + 2.5, 0.4), ("volley.wav", S[26] + 0.5, 0.5), ("musket.wav", S[26] + 2.5, 0.4), ("musket.wav", w(27, "shot"), 0.5),
-            ("gallop.wav", w(27, "retreat"), 0.5), ("murmur.wav", S[29], 0.25), ("bugle.wav", S[30] + 1.0, 0.35), ("gallop.wav", w(30, "galloped"), 0.5), ("paper.wav", S[31], 0.4),
-            ("wind.wav", S[34], 0.4), ("wind.wav", S[36], 0.3), ("volley.wav", S[38] + 0.5, 0.35), ("musket.wav", S[38] + 2.5, 0.3), ("wind.wav", S[40], 0.35),
-            ("volley.wav", S[42] + 3, 0.25), ("musket.wav", S[43] + 1, 0.3), ("murmur.wav", S[44], 0.25), ("clock.wav", S[44] + 0.5, 0.3), ("paper.wav", S[44] + 0.3, 0.35),
-            ("gavel.wav", w(44, "censure"), 0.5), ("clock.wav", S[48], 0.25), ("volley.wav", w(50, "honors"), 0.35), ("impact.wav", S[51] + 0.2, 0.4),
-            ("whoosh.wav", S[52], 0.22), ("wind.wav", S[53], 0.3), ("gavel.wav", w(55, "guilty"), 0.6)]
+    sh = w(3, "aim") + 0.66
+    cues = [("waves.wav", 0.0, 0.3), ("wind.wav", 0.0, 0.25), ("impact.wav", w(1, "brandy"), 0.45),
+            ("cannon.wav", S[2] + 1.3, 0.55), ("cannon.wav", S[2] + 4.3, 0.5), ("cannon.wav", S[2] + 7.0, 0.45), ("bell.wav", w(2, "victory"), 0.3),
+            ("creak.wav", S[3] + 0.3, 0.4), ("wind.wav", S[3], 0.35), ("volley.wav", sh, 0.8), ("impact.wav", w(3, "spine"), 0.45),
+            ("creak.wav", S[4] + 0.4, 0.35),
+            ("paper.wav", S[5] + 0.3, 0.3), ("creak.wav", w(5, "cask"), 0.45), ("waves.wav", w(5, "lashed"), 0.35), ("creak.wav", w(5, "guard"), 0.35),
+            ("waves.wav", S[6], 0.4), ("bell.wav", S[6] + 0.3, 0.3),
+            ("creak.wav", S[7] + 0.5, 0.35), ("impact.wav", w(7, "proof"), 0.45), ("impact.wav", w(7, "rum", 1), 0.4),
+            ("paper.wav", w(8, "mast"), 0.4), ("creak.wav", S[8] + 0.4, 0.3),
+            ("bell.wav", S[9] + 0.2, 0.4), ("murmur.wav", w(9, "escort") - 0.3, 0.4), ("cannon.wav", w(9, "escort") + 0.5, 0.25), ("wind.wav", w(9, "tomb"), 0.3),
+            ("whoosh.wav", S[10], 0.22), ("impact.wav", w(10, "drunk"), 0.35), ("impact.wav", w(10, "barrel"), 0.35)]
     (ROOT / "src" / "data" / "sfx-cues.json").write_text(json.dumps([{"file": f, "at": round(a, 3), "volume": v} for f, a, v in cues], indent=1))
     m = score()
     m = m / (np.abs(m).max() + 1e-9) * 10 ** (-3 / 20)

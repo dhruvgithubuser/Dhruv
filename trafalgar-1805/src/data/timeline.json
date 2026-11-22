@@ -1,6376 +1,6751 @@
 {
  "fps": 30,
- "duration": 479.849,
+ "duration": 530.512,
  "voice": "kokoro am_michael/am_onyx blend (en-us)",
  "phrases": [
   {
    "scene": 1,
    "text": "You're looking at 27 British ships charging 33 French and Spanish warships, in 1805. By sunset, Britain had lost none. What did Nelson know?",
    "start": 0.35,
-   "end": 11.14,
+   "end": 11.58,
    "words": [
     {
      "w": "You're",
      "start": 0.25,
-     "end": 0.45
+     "end": 0.49
     },
     {
      "w": "looking",
-     "start": 0.45,
-     "end": 0.67
+     "start": 0.49,
+     "end": 0.71
     },
     {
      "w": "at",
-     "start": 0.67,
-     "end": 0.85
+     "start": 0.71,
+     "end": 0.91
     },
     {
      "w": "27",
-     "start": 0.85,
-     "end": 1.23
+     "start": 0.91,
+     "end": 1.31
     },
     {
      "w": "British",
-     "start": 1.23,
-     "end": 1.75
+     "start": 1.31,
+     "end": 1.85
     },
     {
      "w": "ships",
-     "start": 1.75,
-     "end": 2.15
+     "start": 1.85,
+     "end": 2.25
     },
     {
      "w": "charging",
-     "start": 2.15,
-     "end": 2.63
+     "start": 2.25,
+     "end": 2.75
     },
     {
      "w": "33",
-     "start": 2.63,
-     "end": 3.21
+     "start": 2.75,
+     "end": 3.31
     },
     {
      "w": "French",
-     "start": 3.21,
-     "end": 3.83
+     "start": 3.31,
+     "end": 4.01
     },
     {
      "w": "and",
-     "start": 3.83,
-     "end": 4.05
+     "start": 4.01,
+     "end": 4.21
     },
     {
      "w": "Spanish",
-     "start": 4.05,
-     "end": 4.47
+     "start": 4.21,
+     "end": 4.67
     },
     {
      "w": "warships,",
-     "start": 4.47,
-     "end": 4.83
+     "start": 4.67,
+     "end": 5.01
     },
     {
      "w": "in",
-     "start": 4.83,
-     "end": 5.41
+     "start": 5.01,
+     "end": 5.61
     },
     {
      "w": "1805.",
-     "start": 5.41,
-     "end": 6.05
+     "start": 5.61,
+     "end": 6.29
     },
     {
      "w": "By",
-     "start": 7.13,
-     "end": 7.15
-    },
-    {
-     "w": "sunset,",
-     "start": 7.15,
+     "start": 7.43,
      "end": 7.45
     },
     {
-     "w": "Britain",
-     "start": 8.07,
-     "end": 8.31
+     "w": "sunset,",
+     "start": 7.45,
+     "end": 7.77
     },
     {
-     "w": "had",
-     "start": 8.31,
+     "w": "Britain",
+     "start": 8.43,
      "end": 8.63
     },
     {
-     "w": "lost",
+     "w": "had",
      "start": 8.63,
-     "end": 8.91
+     "end": 8.97
+    },
+    {
+     "w": "lost",
+     "start": 8.97,
+     "end": 9.25
     },
     {
      "w": "none.",
-     "start": 8.91,
-     "end": 9.27
+     "start": 9.25,
+     "end": 9.65
     },
     {
      "w": "What",
-     "start": 10.01,
-     "end": 10.07
+     "start": 10.37,
+     "end": 10.49
     },
     {
      "w": "did",
-     "start": 10.07,
-     "end": 10.21
+     "start": 10.49,
+     "end": 10.63
     },
     {
      "w": "Nelson",
-     "start": 10.21,
-     "end": 10.35
+     "start": 10.63,
+     "end": 10.75
     },
     {
      "w": "know?",
-     "start": 10.35,
-     "end": 10.91
+     "start": 10.75,
+     "end": 11.35
     }
    ]
   },
   {
    "scene": 2,
    "text": "October 21, 1805. Off Cape Trafalgar, on the southern coast of Spain.",
-   "start": 11.715,
-   "end": 17.449,
+   "start": 12.23,
+   "end": 18.196,
    "words": [
     {
      "w": "October",
-     "start": 11.615,
-     "end": 11.995
+     "start": 12.13,
+     "end": 12.55
     },
     {
      "w": "21,",
-     "start": 11.995,
-     "end": 12.355
+     "start": 12.55,
+     "end": 12.91
     },
     {
      "w": "1805.",
-     "start": 12.915,
-     "end": 13.555
+     "start": 13.45,
+     "end": 14.21
     },
     {
      "w": "Off",
-     "start": 14.515,
-     "end": 14.555
+     "start": 14.91,
+     "end": 15.19
     },
     {
      "w": "Cape",
-     "start": 14.555,
-     "end": 14.755
+     "start": 15.19,
+     "end": 15.43
     },
     {
      "w": "Trafalgar,",
-     "start": 14.755,
-     "end": 15.555
+     "start": 15.43,
+     "end": 16.23
     },
     {
      "w": "on",
-     "start": 15.555,
-     "end": 15.835
+     "start": 16.23,
+     "end": 16.55
     },
     {
      "w": "the",
-     "start": 15.835,
-     "end": 15.955
+     "start": 16.55,
+     "end": 16.67
     },
     {
      "w": "southern",
-     "start": 15.955,
-     "end": 16.175
+     "start": 16.67,
+     "end": 16.93
     },
     {
      "w": "coast",
-     "start": 16.175,
-     "end": 16.595
+     "start": 16.93,
+     "end": 17.29
     },
     {
      "w": "of",
-     "start": 16.595,
-     "end": 16.815
+     "start": 17.29,
+     "end": 17.55
     },
     {
      "w": "Spain.",
-     "start": 16.815,
-     "end": 17.155
+     "start": 17.55,
+     "end": 17.81
     }
    ]
   },
   {
    "scene": 3,
    "text": "This is the Battle of Trafalgar. What happened, and why it happened at all.",
-   "start": 17.909,
-   "end": 22.316,
+   "start": 18.716,
+   "end": 23.231,
    "words": [
     {
      "w": "This",
-     "start": 17.809,
-     "end": 18.069
+     "start": 18.616,
+     "end": 18.896
     },
     {
      "w": "is",
-     "start": 18.069,
-     "end": 18.229
+     "start": 18.896,
+     "end": 19.036
     },
     {
      "w": "the",
-     "start": 18.229,
-     "end": 18.389
+     "start": 19.036,
+     "end": 19.196
     },
     {
      "w": "Battle",
-     "start": 18.389,
-     "end": 18.689
+     "start": 19.196,
+     "end": 19.536
     },
     {
      "w": "of",
-     "start": 18.689,
-     "end": 18.929
+     "start": 19.536,
+     "end": 19.756
     },
     {
      "w": "Trafalgar.",
-     "start": 18.929,
-     "end": 19.589
+     "start": 19.756,
+     "end": 20.936
     },
     {
      "w": "What",
-     "start": 20.069,
-     "end": 20.229
+     "start": 20.936,
+     "end": 21.116
     },
     {
      "w": "happened,",
-     "start": 20.229,
-     "end": 20.629
+     "start": 21.116,
+     "end": 21.516
     },
     {
      "w": "and",
-     "start": 20.629,
-     "end": 20.969
+     "start": 21.516,
+     "end": 21.836
     },
     {
      "w": "why",
-     "start": 20.969,
-     "end": 21.189
+     "start": 21.836,
+     "end": 22.076
     },
     {
      "w": "it",
-     "start": 21.189,
-     "end": 21.349
+     "start": 22.076,
+     "end": 22.216
     },
     {
      "w": "happened",
-     "start": 21.349,
-     "end": 21.649
+     "start": 22.216,
+     "end": 22.536
     },
     {
      "w": "at",
-     "start": 21.649,
-     "end": 21.849
+     "start": 22.536,
+     "end": 22.736
     },
     {
      "w": "all.",
-     "start": 21.849,
-     "end": 22.089
+     "start": 22.736,
+     "end": 22.976
     }
    ]
   },
   {
    "scene": 4,
    "text": "Two years earlier, Europe is at war again. Napoleon Bonaparte commands the strongest army on the continent. Only one thing stands between him and Britain: the Royal Navy.",
-   "start": 23.121,
-   "end": 34.554,
+   "start": 24.141,
+   "end": 35.828,
    "words": [
     {
      "w": "Two",
-     "start": 23.021,
-     "end": 23.241
-    },
-    {
-     "w": "years",
-     "start": 23.241,
-     "end": 23.441
-    },
-    {
-     "w": "earlier,",
-     "start": 23.441,
-     "end": 23.821
-    },
-    {
-     "w": "Europe",
-     "start": 24.161,
+     "start": 24.041,
      "end": 24.261
     },
     {
-     "w": "is",
+     "w": "years",
      "start": 24.261,
-     "end": 24.561
+     "end": 24.461
+    },
+    {
+     "w": "earlier,",
+     "start": 24.461,
+     "end": 24.841
+    },
+    {
+     "w": "Europe",
+     "start": 25.141,
+     "end": 25.281
+    },
+    {
+     "w": "is",
+     "start": 25.281,
+     "end": 25.581
     },
     {
      "w": "at",
-     "start": 24.561,
-     "end": 24.681
+     "start": 25.581,
+     "end": 25.701
     },
     {
      "w": "war",
-     "start": 24.681,
-     "end": 24.921
+     "start": 25.701,
+     "end": 25.941
     },
     {
      "w": "again.",
-     "start": 24.921,
-     "end": 25.241
+     "start": 25.941,
+     "end": 26.281
     },
     {
      "w": "Napoleon",
-     "start": 26.501,
-     "end": 26.501
+     "start": 27.581,
+     "end": 27.581
     },
     {
      "w": "Bonaparte",
-     "start": 26.501,
-     "end": 27.201
+     "start": 27.581,
+     "end": 28.281
     },
     {
      "w": "commands",
-     "start": 27.201,
-     "end": 27.461
+     "start": 28.281,
+     "end": 28.541
     },
     {
      "w": "the",
-     "start": 27.461,
-     "end": 27.901
+     "start": 28.541,
+     "end": 28.981
     },
     {
      "w": "strongest",
-     "start": 27.901,
-     "end": 28.261
+     "start": 28.981,
+     "end": 29.361
     },
     {
      "w": "army",
-     "start": 28.261,
-     "end": 28.761
+     "start": 29.361,
+     "end": 29.901
     },
     {
      "w": "on",
-     "start": 28.761,
-     "end": 29.121
+     "start": 29.901,
+     "end": 30.261
     },
     {
      "w": "the",
-     "start": 29.121,
-     "end": 29.221
+     "start": 30.261,
+     "end": 30.381
     },
     {
      "w": "continent.",
-     "start": 29.221,
-     "end": 29.541
+     "start": 30.381,
+     "end": 30.741
     },
     {
      "w": "Only",
-     "start": 30.621,
-     "end": 30.641
+     "start": 31.621,
+     "end": 31.841
     },
     {
      "w": "one",
-     "start": 30.641,
-     "end": 30.881
+     "start": 31.841,
+     "end": 32.121
     },
     {
      "w": "thing",
-     "start": 30.881,
-     "end": 31.161
+     "start": 32.121,
+     "end": 32.401
     },
     {
      "w": "stands",
-     "start": 31.161,
-     "end": 31.461
+     "start": 32.401,
+     "end": 32.721
     },
     {
      "w": "between",
-     "start": 31.461,
-     "end": 31.961
+     "start": 32.721,
+     "end": 33.221
     },
     {
      "w": "him",
-     "start": 31.961,
-     "end": 32.321
-    },
-    {
-     "w": "and",
-     "start": 32.321,
-     "end": 32.581
-    },
-    {
-     "w": "Britain:",
-     "start": 32.581,
-     "end": 32.821
-    },
-    {
-     "w": "the",
-     "start": 33.441,
+     "start": 33.221,
      "end": 33.561
     },
     {
-     "w": "Royal",
+     "w": "and",
      "start": 33.561,
-     "end": 33.781
+     "end": 33.841
+    },
+    {
+     "w": "Britain:",
+     "start": 33.841,
+     "end": 34.081
+    },
+    {
+     "w": "the",
+     "start": 34.661,
+     "end": 34.821
+    },
+    {
+     "w": "Royal",
+     "start": 34.821,
+     "end": 35.041
     },
     {
      "w": "Navy.",
-     "start": 33.781,
-     "end": 34.181
+     "start": 35.041,
+     "end": 35.461
     }
    ]
   },
   {
    "scene": 5,
    "text": "At Boulogne, on the French coast, Napoleon gathers an invasion army and a fleet of flat-bottomed barges. All he needs is control of the English Channel.",
-   "start": 35.072,
-   "end": 45.276,
+   "start": 36.413,
+   "end": 46.947,
    "words": [
     {
      "w": "At",
-     "start": 34.972,
-     "end": 35.192
+     "start": 36.313,
+     "end": 36.533
     },
     {
      "w": "Boulogne,",
-     "start": 35.192,
-     "end": 35.592
+     "start": 36.533,
+     "end": 36.933
     },
     {
      "w": "on",
-     "start": 35.592,
-     "end": 35.972
+     "start": 36.933,
+     "end": 37.313
     },
     {
      "w": "the",
-     "start": 35.972,
-     "end": 36.092
+     "start": 37.313,
+     "end": 37.433
     },
     {
      "w": "French",
-     "start": 36.092,
-     "end": 36.312
+     "start": 37.433,
+     "end": 37.653
     },
     {
      "w": "coast,",
-     "start": 36.312,
-     "end": 36.692
+     "start": 37.653,
+     "end": 38.033
     },
     {
      "w": "Napoleon",
-     "start": 37.272,
-     "end": 37.692
+     "start": 38.613,
+     "end": 39.073
     },
     {
      "w": "gathers",
-     "start": 37.692,
-     "end": 38.272
+     "start": 39.073,
+     "end": 39.633
     },
     {
      "w": "an",
-     "start": 38.272,
-     "end": 38.492
+     "start": 39.633,
+     "end": 39.853
     },
     {
      "w": "invasion",
-     "start": 38.492,
-     "end": 38.712
+     "start": 39.853,
+     "end": 40.093
     },
     {
      "w": "army",
-     "start": 38.712,
-     "end": 39.312
+     "start": 40.093,
+     "end": 40.713
     },
     {
      "w": "and",
-     "start": 39.312,
-     "end": 39.892
+     "start": 40.713,
+     "end": 41.333
     },
     {
      "w": "a",
-     "start": 39.892,
-     "end": 39.972
+     "start": 41.333,
+     "end": 41.393
     },
     {
      "w": "fleet",
-     "start": 39.972,
-     "end": 40.252
+     "start": 41.393,
+     "end": 41.693
     },
     {
      "w": "of",
-     "start": 40.252,
-     "end": 40.472
+     "start": 41.693,
+     "end": 41.933
     },
     {
      "w": "flat-bottomed",
-     "start": 40.472,
-     "end": 41.292
+     "start": 41.933,
+     "end": 42.753
     },
     {
      "w": "barges.",
-     "start": 41.292,
-     "end": 41.952
+     "start": 42.753,
+     "end": 43.413
     },
     {
      "w": "All",
-     "start": 42.672,
-     "end": 42.812
+     "start": 44.193,
+     "end": 44.373
     },
     {
      "w": "he",
-     "start": 42.812,
-     "end": 42.992
+     "start": 44.373,
+     "end": 44.553
     },
     {
      "w": "needs",
-     "start": 42.992,
-     "end": 43.212
+     "start": 44.553,
+     "end": 44.793
     },
     {
      "w": "is",
-     "start": 43.212,
-     "end": 43.472
+     "start": 44.793,
+     "end": 45.053
     },
     {
      "w": "control",
-     "start": 43.472,
-     "end": 43.832
+     "start": 45.053,
+     "end": 45.453
     },
     {
      "w": "of",
-     "start": 43.832,
-     "end": 44.212
+     "start": 45.453,
+     "end": 45.853
     },
     {
      "w": "the",
-     "start": 44.212,
-     "end": 44.332
+     "start": 45.853,
+     "end": 45.973
     },
     {
      "w": "English",
-     "start": 44.332,
-     "end": 44.492
+     "start": 45.973,
+     "end": 46.153
     },
     {
      "w": "Channel.",
-     "start": 44.492,
-     "end": 44.992
+     "start": 46.153,
+     "end": 46.653
     }
    ]
   },
   {
    "scene": 6,
    "text": "But British warships blockade the French ports. The French fleets are trapped, at Toulon and at Brest.",
-   "start": 45.736,
-   "end": 51.996,
+   "start": 47.467,
+   "end": 53.881,
    "words": [
     {
      "w": "But",
-     "start": 45.636,
-     "end": 45.816
+     "start": 47.367,
+     "end": 47.567
     },
     {
      "w": "British",
-     "start": 45.816,
-     "end": 46.076
+     "start": 47.567,
+     "end": 47.827
     },
     {
      "w": "warships",
-     "start": 46.076,
-     "end": 46.456
+     "start": 47.827,
+     "end": 48.167
     },
     {
      "w": "blockade",
-     "start": 46.456,
-     "end": 47.016
+     "start": 48.167,
+     "end": 48.767
     },
     {
      "w": "the",
-     "start": 47.016,
-     "end": 47.376
+     "start": 48.767,
+     "end": 49.127
     },
     {
      "w": "French",
-     "start": 47.376,
-     "end": 47.596
+     "start": 49.127,
+     "end": 49.347
     },
     {
      "w": "ports.",
-     "start": 47.596,
-     "end": 47.876
+     "start": 49.347,
+     "end": 49.647
     },
     {
      "w": "The",
-     "start": 48.776,
-     "end": 48.816
+     "start": 50.547,
+     "end": 50.627
     },
     {
      "w": "French",
-     "start": 48.816,
-     "end": 49.056
+     "start": 50.627,
+     "end": 50.867
     },
     {
      "w": "fleets",
-     "start": 49.056,
-     "end": 49.336
+     "start": 50.867,
+     "end": 51.167
     },
     {
      "w": "are",
-     "start": 49.336,
-     "end": 49.636
+     "start": 51.167,
+     "end": 51.467
     },
     {
      "w": "trapped,",
-     "start": 49.636,
-     "end": 49.976
+     "start": 51.467,
+     "end": 51.807
     },
     {
      "w": "at",
-     "start": 49.976,
-     "end": 50.376
+     "start": 51.807,
+     "end": 52.227
     },
     {
      "w": "Toulon",
-     "start": 50.376,
-     "end": 50.936
+     "start": 52.227,
+     "end": 52.787
     },
     {
      "w": "and",
-     "start": 50.936,
-     "end": 51.176
+     "start": 52.787,
+     "end": 53.027
     },
     {
      "w": "at",
-     "start": 51.176,
-     "end": 51.316
+     "start": 53.027,
+     "end": 53.167
     },
     {
      "w": "Brest.",
-     "start": 51.316,
-     "end": 51.616
+     "start": 53.167,
+     "end": 53.487
     }
    ]
   },
   {
    "scene": 7,
    "text": "So Napoleon makes a plan. His fleets will slip out, cross the Atlantic to the Caribbean, lure the British away, then race back together and sweep the Channel clear.",
-   "start": 52.456,
-   "end": 62.862,
+   "start": 54.401,
+   "end": 65.033,
    "words": [
     {
      "w": "So",
-     "start": 52.356,
-     "end": 52.596
+     "start": 54.301,
+     "end": 54.561
     },
     {
      "w": "Napoleon",
-     "start": 52.596,
-     "end": 52.756
+     "start": 54.561,
+     "end": 54.721
     },
     {
      "w": "makes",
-     "start": 52.756,
-     "end": 53.416
+     "start": 54.721,
+     "end": 55.401
     },
     {
      "w": "a",
-     "start": 53.416,
-     "end": 53.596
+     "start": 55.401,
+     "end": 55.581
     },
     {
      "w": "plan.",
-     "start": 53.596,
-     "end": 53.956
+     "start": 55.581,
+     "end": 55.941
     },
     {
      "w": "His",
-     "start": 54.796,
-     "end": 54.836
+     "start": 56.821,
+     "end": 56.861
     },
     {
      "w": "fleets",
-     "start": 54.836,
-     "end": 55.056
+     "start": 56.861,
+     "end": 57.081
     },
     {
      "w": "will",
-     "start": 55.056,
-     "end": 55.376
+     "start": 57.081,
+     "end": 57.401
     },
     {
      "w": "slip",
-     "start": 55.376,
-     "end": 55.696
+     "start": 57.401,
+     "end": 57.701
     },
     {
      "w": "out,",
-     "start": 55.696,
-     "end": 55.996
+     "start": 57.701,
+     "end": 58.021
     },
     {
      "w": "cross",
-     "start": 56.276,
-     "end": 56.476
+     "start": 58.301,
+     "end": 58.501
     },
     {
      "w": "the",
-     "start": 56.476,
-     "end": 56.776
+     "start": 58.501,
+     "end": 58.801
     },
     {
      "w": "Atlantic",
-     "start": 56.776,
-     "end": 57.116
+     "start": 58.801,
+     "end": 59.161
     },
     {
      "w": "to",
-     "start": 57.116,
-     "end": 57.456
+     "start": 59.161,
+     "end": 59.481
     },
     {
      "w": "the",
-     "start": 57.456,
-     "end": 57.536
+     "start": 59.481,
+     "end": 59.561
     },
     {
      "w": "Caribbean,",
-     "start": 57.536,
-     "end": 57.816
+     "start": 59.561,
+     "end": 59.821
     },
     {
      "w": "lure",
-     "start": 58.736,
-     "end": 58.776
+     "start": 60.721,
+     "end": 60.821
     },
     {
      "w": "the",
-     "start": 58.776,
-     "end": 58.956
+     "start": 60.821,
+     "end": 61.021
     },
     {
      "w": "British",
-     "start": 58.956,
-     "end": 59.216
+     "start": 61.021,
+     "end": 61.261
     },
     {
      "w": "away,",
-     "start": 59.216,
-     "end": 59.516
+     "start": 61.261,
+     "end": 61.581
     },
     {
      "w": "then",
-     "start": 60.116,
-     "end": 60.216
+     "start": 62.241,
+     "end": 62.341
     },
     {
      "w": "race",
-     "start": 60.216,
-     "end": 60.396
+     "start": 62.341,
+     "end": 62.521
     },
     {
      "w": "back",
-     "start": 60.396,
-     "end": 60.716
+     "start": 62.521,
+     "end": 62.861
     },
     {
      "w": "together",
-     "start": 60.716,
-     "end": 60.976
+     "start": 62.861,
+     "end": 63.141
     },
     {
      "w": "and",
-     "start": 60.976,
-     "end": 61.376
+     "start": 63.141,
+     "end": 63.541
     },
     {
      "w": "sweep",
-     "start": 61.376,
-     "end": 61.636
+     "start": 63.541,
+     "end": 63.781
     },
     {
      "w": "the",
-     "start": 61.636,
-     "end": 61.876
+     "start": 63.781,
+     "end": 64.041
     },
     {
      "w": "Channel",
-     "start": 61.876,
-     "end": 62.196
+     "start": 64.041,
+     "end": 64.361
     },
     {
      "w": "clear.",
-     "start": 62.196,
-     "end": 62.536
+     "start": 64.361,
+     "end": 64.701
     }
    ]
   },
   {
    "scene": 8,
    "text": "The man given that job is Vice-Admiral Pierre-Charles Villeneuve. Seven years earlier, he escaped when Nelson destroyed a French fleet at the Nile. He has no wish to face him again.",
-   "start": 63.322,
-   "end": 74.864,
+   "start": 65.553,
+   "end": 77.407,
    "words": [
     {
      "w": "The",
-     "start": 63.222,
-     "end": 63.402
+     "start": 65.453,
+     "end": 65.633
     },
     {
      "w": "man",
-     "start": 63.402,
-     "end": 63.602
+     "start": 65.633,
+     "end": 65.853
     },
     {
      "w": "given",
-     "start": 63.602,
-     "end": 63.882
+     "start": 65.853,
+     "end": 66.113
     },
     {
      "w": "that",
-     "start": 63.882,
-     "end": 64.182
+     "start": 66.113,
+     "end": 66.413
     },
     {
      "w": "job",
-     "start": 64.182,
-     "end": 64.482
+     "start": 66.413,
+     "end": 66.733
     },
     {
      "w": "is",
-     "start": 64.482,
-     "end": 64.962
+     "start": 66.733,
+     "end": 67.233
     },
     {
      "w": "Vice-Admiral",
-     "start": 64.962,
-     "end": 65.872
+     "start": 67.233,
+     "end": 68.186
     },
     {
      "w": "Pierre-Charles",
-     "start": 65.872,
-     "end": 66.782
+     "start": 68.186,
+     "end": 69.14
     },
     {
      "w": "Villeneuve.",
-     "start": 66.782,
-     "end": 67.382
+     "start": 69.14,
+     "end": 70.093
     },
     {
      "w": "Seven",
-     "start": 67.982,
-     "end": 68.262
+     "start": 70.093,
+     "end": 70.593
     },
     {
      "w": "years",
-     "start": 68.262,
-     "end": 68.582
+     "start": 70.593,
+     "end": 70.893
     },
     {
      "w": "earlier,",
-     "start": 68.582,
-     "end": 69.022
+     "start": 70.893,
+     "end": 71.333
     },
     {
      "w": "he",
-     "start": 69.422,
-     "end": 69.442
+     "start": 71.733,
+     "end": 71.753
     },
     {
      "w": "escaped",
-     "start": 69.442,
-     "end": 69.782
+     "start": 71.753,
+     "end": 72.093
     },
     {
      "w": "when",
-     "start": 69.782,
-     "end": 70.182
+     "start": 72.093,
+     "end": 72.513
     },
     {
      "w": "Nelson",
-     "start": 70.182,
-     "end": 70.382
+     "start": 72.513,
+     "end": 72.713
     },
     {
      "w": "destroyed",
-     "start": 70.382,
-     "end": 71.002
+     "start": 72.713,
+     "end": 73.333
     },
     {
      "w": "a",
-     "start": 71.002,
-     "end": 71.262
+     "start": 73.333,
+     "end": 73.613
     },
     {
      "w": "French",
-     "start": 71.262,
-     "end": 71.502
+     "start": 73.613,
+     "end": 73.853
     },
     {
      "w": "fleet",
-     "start": 71.502,
-     "end": 71.862
+     "start": 73.853,
+     "end": 74.213
     },
     {
      "w": "at",
-     "start": 71.862,
-     "end": 72.062
+     "start": 74.213,
+     "end": 74.453
     },
     {
      "w": "the",
-     "start": 72.062,
-     "end": 72.142
+     "start": 74.453,
+     "end": 74.553
     },
     {
      "w": "Nile.",
-     "start": 72.142,
-     "end": 72.402
+     "start": 74.553,
+     "end": 74.813
     },
     {
      "w": "He",
-     "start": 73.162,
-     "end": 73.222
+     "start": 75.633,
+     "end": 75.713
     },
     {
      "w": "has",
-     "start": 73.222,
-     "end": 73.322
+     "start": 75.713,
+     "end": 75.813
     },
     {
      "w": "no",
-     "start": 73.322,
-     "end": 73.542
+     "start": 75.813,
+     "end": 76.033
     },
     {
      "w": "wish",
-     "start": 73.542,
-     "end": 73.762
+     "start": 76.033,
+     "end": 76.273
     },
     {
      "w": "to",
-     "start": 73.762,
-     "end": 73.962
+     "start": 76.273,
+     "end": 76.493
     },
     {
      "w": "face",
-     "start": 73.962,
-     "end": 74.182
+     "start": 76.493,
+     "end": 76.713
     },
     {
      "w": "him",
-     "start": 74.182,
-     "end": 74.382
+     "start": 76.713,
+     "end": 76.913
     },
     {
      "w": "again.",
-     "start": 74.382,
-     "end": 74.542
+     "start": 76.913,
+     "end": 77.093
     }
    ]
   },
   {
    "scene": 9,
    "text": "In the spring of 1805, Villeneuve slips out of Toulon and crosses the Atlantic. Nelson chases him to the West Indies, and back.",
-   "start": 75.439,
-   "end": 84.259,
+   "start": 78.057,
+   "end": 87.289,
    "words": [
     {
      "w": "In",
-     "start": 75.339,
-     "end": 75.519
+     "start": 77.957,
+     "end": 78.157
     },
     {
      "w": "the",
-     "start": 75.519,
-     "end": 75.599
+     "start": 78.157,
+     "end": 78.237
     },
     {
      "w": "spring",
-     "start": 75.599,
-     "end": 75.819
+     "start": 78.237,
+     "end": 78.477
     },
     {
      "w": "of",
-     "start": 75.819,
-     "end": 76.059
+     "start": 78.477,
+     "end": 78.717
     },
     {
      "w": "1805,",
-     "start": 76.059,
-     "end": 76.779
+     "start": 78.717,
+     "end": 79.517
     },
     {
      "w": "Villeneuve",
-     "start": 76.779,
-     "end": 77.859
+     "start": 79.517,
+     "end": 80.637
     },
     {
      "w": "slips",
-     "start": 77.859,
-     "end": 78.099
+     "start": 80.637,
+     "end": 80.917
     },
     {
      "w": "out",
-     "start": 78.099,
-     "end": 78.399
+     "start": 80.917,
+     "end": 81.257
     },
     {
      "w": "of",
-     "start": 78.399,
-     "end": 78.499
+     "start": 81.257,
+     "end": 81.357
     },
     {
      "w": "Toulon",
-     "start": 78.499,
-     "end": 78.979
+     "start": 81.357,
+     "end": 81.837
     },
     {
      "w": "and",
-     "start": 78.979,
-     "end": 79.199
+     "start": 81.837,
+     "end": 82.077
     },
     {
      "w": "crosses",
-     "start": 79.199,
-     "end": 79.559
+     "start": 82.077,
+     "end": 82.437
     },
     {
      "w": "the",
-     "start": 79.559,
-     "end": 79.919
+     "start": 82.437,
+     "end": 82.817
     },
     {
      "w": "Atlantic.",
-     "start": 79.919,
-     "end": 80.319
+     "start": 82.817,
+     "end": 83.237
     },
     {
      "w": "Nelson",
-     "start": 81.379,
-     "end": 81.379
+     "start": 84.497,
+     "end": 84.497
     },
     {
      "w": "chases",
-     "start": 81.379,
-     "end": 82.139
+     "start": 84.497,
+     "end": 85.077
     },
     {
      "w": "him",
-     "start": 82.139,
-     "end": 82.319
+     "start": 85.077,
+     "end": 85.297
     },
     {
      "w": "to",
-     "start": 82.319,
-     "end": 82.499
+     "start": 85.297,
+     "end": 85.477
     },
     {
      "w": "the",
-     "start": 82.499,
-     "end": 82.619
+     "start": 85.477,
+     "end": 85.597
     },
     {
      "w": "West",
-     "start": 82.619,
-     "end": 82.839
+     "start": 85.597,
+     "end": 85.797
     },
     {
      "w": "Indies,",
-     "start": 82.839,
-     "end": 83.139
+     "start": 85.797,
+     "end": 86.157
     },
     {
      "w": "and",
-     "start": 83.139,
-     "end": 83.719
+     "start": 86.157,
+     "end": 86.717
     },
     {
      "w": "back.",
-     "start": 83.719,
-     "end": 83.939
+     "start": 86.717,
+     "end": 86.977
     }
    ]
   },
   {
    "scene": 10,
    "text": "Off northern Spain, a British squadron catches the combined fleet. The fight is inconclusive.",
-   "start": 84.719,
-   "end": 90.751,
+   "start": 87.809,
+   "end": 94.07,
    "words": [
     {
      "w": "Off",
-     "start": 84.619,
-     "end": 84.899
+     "start": 87.709,
+     "end": 88.009
     },
     {
      "w": "northern",
-     "start": 84.899,
-     "end": 85.159
+     "start": 88.009,
+     "end": 88.209
     },
     {
      "w": "Spain,",
-     "start": 85.159,
-     "end": 85.659
+     "start": 88.209,
+     "end": 88.809
     },
     {
      "w": "a",
-     "start": 85.999,
-     "end": 86.059
+     "start": 89.169,
+     "end": 89.209
     },
     {
      "w": "British",
-     "start": 86.059,
-     "end": 86.299
+     "start": 89.209,
+     "end": 89.449
     },
     {
      "w": "squadron",
-     "start": 86.299,
-     "end": 86.679
+     "start": 89.449,
+     "end": 89.829
     },
     {
      "w": "catches",
-     "start": 86.679,
-     "end": 87.219
+     "start": 89.829,
+     "end": 90.389
     },
     {
      "w": "the",
-     "start": 87.219,
-     "end": 87.499
+     "start": 90.389,
+     "end": 90.649
     },
     {
      "w": "combined",
-     "start": 87.499,
-     "end": 87.799
+     "start": 90.649,
+     "end": 90.969
     },
     {
      "w": "fleet.",
-     "start": 87.799,
-     "end": 88.239
+     "start": 90.969,
+     "end": 91.429
     },
     {
      "w": "The",
-     "start": 89.059,
-     "end": 89.079
+     "start": 92.289,
+     "end": 92.309
     },
     {
      "w": "fight",
-     "start": 89.079,
-     "end": 89.379
+     "start": 92.309,
+     "end": 92.629
     },
     {
      "w": "is",
-     "start": 89.379,
-     "end": 89.659
+     "start": 92.629,
+     "end": 92.929
     },
     {
      "w": "inconclusive.",
-     "start": 89.659,
-     "end": 90.339
+     "start": 92.929,
+     "end": 93.629
     }
    ]
   },
   {
    "scene": 11,
    "text": "Napoleon orders Villeneuve north, to Brest. Instead, afraid the British are watching, he turns south, to the Spanish port of C\u00e1diz.",
-   "start": 91.154,
-   "end": 99.601,
+   "start": 94.525,
+   "end": 103.217,
    "words": [
     {
      "w": "Napoleon",
-     "start": 91.054,
-     "end": 91.594
+     "start": 94.425,
+     "end": 95.005
     },
     {
      "w": "orders",
-     "start": 91.594,
-     "end": 92.014
+     "start": 95.005,
+     "end": 95.365
     },
     {
      "w": "Villeneuve",
-     "start": 92.014,
-     "end": 92.654
+     "start": 95.365,
+     "end": 96.165
     },
     {
      "w": "north,",
-     "start": 92.654,
-     "end": 93.034
+     "start": 96.165,
+     "end": 96.365
     },
     {
      "w": "to",
-     "start": 93.034,
-     "end": 93.334
+     "start": 96.365,
+     "end": 96.745
     },
     {
      "w": "Brest.",
-     "start": 93.334,
-     "end": 94.834
+     "start": 96.745,
+     "end": 98.305
     },
     {
      "w": "Instead,",
-     "start": 94.834,
-     "end": 94.834
+     "start": 98.305,
+     "end": 98.305
     },
     {
      "w": "afraid",
-     "start": 94.834,
-     "end": 95.214
+     "start": 98.305,
+     "end": 98.685
     },
     {
      "w": "the",
-     "start": 95.214,
-     "end": 95.494
+     "start": 98.685,
+     "end": 98.985
     },
     {
      "w": "British",
-     "start": 95.494,
-     "end": 95.754
+     "start": 98.985,
+     "end": 99.225
     },
     {
      "w": "are",
-     "start": 95.754,
-     "end": 95.974
+     "start": 99.225,
+     "end": 99.465
     },
     {
      "w": "watching,",
-     "start": 95.974,
-     "end": 96.354
+     "start": 99.465,
+     "end": 99.885
     },
     {
      "w": "he",
-     "start": 96.794,
-     "end": 96.934
+     "start": 100.325,
+     "end": 100.465
     },
     {
      "w": "turns",
-     "start": 96.934,
-     "end": 97.154
+     "start": 100.465,
+     "end": 100.685
     },
     {
      "w": "south,",
-     "start": 97.154,
-     "end": 97.534
+     "start": 100.685,
+     "end": 101.105
     },
     {
      "w": "to",
-     "start": 97.534,
-     "end": 97.994
+     "start": 101.105,
+     "end": 101.585
     },
     {
      "w": "the",
-     "start": 97.994,
-     "end": 98.094
+     "start": 101.585,
+     "end": 101.665
     },
     {
      "w": "Spanish",
-     "start": 98.094,
-     "end": 98.374
+     "start": 101.665,
+     "end": 101.985
     },
     {
      "w": "port",
-     "start": 98.374,
-     "end": 98.734
+     "start": 101.985,
+     "end": 102.325
     },
     {
      "w": "of",
-     "start": 98.734,
-     "end": 98.874
+     "start": 102.325,
+     "end": 102.465
     },
     {
      "w": "C\u00e1diz.",
-     "start": 98.874,
-     "end": 99.601
+     "start": 102.465,
+     "end": 103.217
     }
    ]
   },
   {
    "scene": 12,
    "text": "At Boulogne, Napoleon's army waits for a fleet that never comes. On August 25, it marches away, east, to fight Austria. The invasion of Britain is off.",
-   "start": 100.061,
-   "end": 110.814,
+   "start": 103.737,
+   "end": 114.874,
    "words": [
     {
      "w": "At",
-     "start": 99.961,
-     "end": 100.181
+     "start": 103.637,
+     "end": 103.857
     },
     {
      "w": "Boulogne,",
-     "start": 100.181,
-     "end": 100.961
+     "start": 103.857,
+     "end": 104.677
     },
     {
      "w": "Napoleon's",
-     "start": 100.961,
-     "end": 101.621
+     "start": 104.677,
+     "end": 105.357
     },
     {
      "w": "army",
-     "start": 101.621,
-     "end": 101.921
+     "start": 105.357,
+     "end": 105.657
     },
     {
      "w": "waits",
-     "start": 101.921,
-     "end": 102.221
+     "start": 105.657,
+     "end": 105.957
     },
     {
      "w": "for",
-     "start": 102.221,
-     "end": 102.541
+     "start": 105.957,
+     "end": 106.277
     },
     {
      "w": "a",
-     "start": 102.541,
-     "end": 102.641
+     "start": 106.277,
+     "end": 106.377
     },
     {
      "w": "fleet",
-     "start": 102.641,
-     "end": 102.861
+     "start": 106.377,
+     "end": 106.617
     },
     {
      "w": "that",
-     "start": 102.861,
-     "end": 103.121
+     "start": 106.617,
+     "end": 106.897
     },
     {
      "w": "never",
-     "start": 103.121,
-     "end": 103.401
+     "start": 106.897,
+     "end": 107.117
     },
     {
      "w": "comes.",
-     "start": 103.401,
-     "end": 103.701
+     "start": 107.117,
+     "end": 107.497
     },
     {
      "w": "On",
-     "start": 104.681,
-     "end": 104.701
+     "start": 108.497,
+     "end": 108.537
     },
     {
      "w": "August",
-     "start": 104.701,
-     "end": 105.001
+     "start": 108.537,
+     "end": 108.837
     },
     {
      "w": "25,",
-     "start": 105.001,
-     "end": 105.941
+     "start": 108.837,
+     "end": 109.837
     },
     {
      "w": "it",
-     "start": 105.941,
-     "end": 105.961
+     "start": 109.837,
+     "end": 109.857
     },
     {
      "w": "marches",
-     "start": 105.961,
-     "end": 106.121
+     "start": 109.857,
+     "end": 110.017
     },
     {
      "w": "away,",
-     "start": 106.121,
-     "end": 106.621
+     "start": 110.017,
+     "end": 110.537
     },
     {
      "w": "east,",
-     "start": 106.621,
-     "end": 107.081
+     "start": 110.537,
+     "end": 111.077
     },
     {
      "w": "to",
-     "start": 107.081,
-     "end": 107.521
+     "start": 111.077,
+     "end": 111.497
     },
     {
      "w": "fight",
-     "start": 107.521,
-     "end": 107.721
+     "start": 111.497,
+     "end": 111.717
     },
     {
      "w": "Austria.",
-     "start": 107.721,
-     "end": 108.041
+     "start": 111.717,
+     "end": 112.037
     },
     {
      "w": "The",
-     "start": 108.921,
-     "end": 108.961
+     "start": 112.937,
+     "end": 112.997
     },
     {
      "w": "invasion",
-     "start": 108.961,
-     "end": 109.241
+     "start": 112.997,
+     "end": 113.357
     },
     {
      "w": "of",
-     "start": 109.241,
-     "end": 109.701
+     "start": 113.357,
+     "end": 113.757
     },
     {
      "w": "Britain",
-     "start": 109.701,
-     "end": 109.921
+     "start": 113.757,
+     "end": 113.957
     },
     {
      "w": "is",
-     "start": 109.921,
-     "end": 110.241
+     "start": 113.957,
+     "end": 114.297
     },
     {
      "w": "off.",
-     "start": 110.241,
-     "end": 110.481
+     "start": 114.297,
+     "end": 114.537
     }
    ]
   },
   {
    "scene": 13,
    "text": "Remember that. Trafalgar did not stop the invasion. It was already cancelled. What Trafalgar decided was something bigger.",
-   "start": 111.332,
-   "end": 119.48,
+   "start": 115.459,
+   "end": 123.712,
    "words": [
     {
      "w": "Remember",
-     "start": 111.232,
-     "end": 111.532
+     "start": 115.359,
+     "end": 115.679
     },
     {
      "w": "that.",
-     "start": 111.532,
-     "end": 112.032
+     "start": 115.679,
+     "end": 116.179
     },
     {
      "w": "Trafalgar",
-     "start": 112.472,
-     "end": 113.092
+     "start": 116.559,
+     "end": 117.239
     },
     {
      "w": "did",
-     "start": 113.092,
-     "end": 113.272
+     "start": 117.239,
+     "end": 117.419
     },
     {
      "w": "not",
-     "start": 113.272,
-     "end": 113.492
+     "start": 117.419,
+     "end": 117.619
     },
     {
      "w": "stop",
-     "start": 113.492,
-     "end": 113.912
+     "start": 117.619,
+     "end": 118.099
     },
     {
      "w": "the",
-     "start": 113.912,
-     "end": 114.152
+     "start": 118.099,
+     "end": 118.299
     },
     {
      "w": "invasion.",
-     "start": 114.152,
-     "end": 114.552
+     "start": 118.299,
+     "end": 118.579
     },
     {
      "w": "It",
-     "start": 115.232,
-     "end": 115.272
+     "start": 119.399,
+     "end": 119.459
     },
     {
      "w": "was",
-     "start": 115.272,
-     "end": 115.372
+     "start": 119.459,
+     "end": 119.559
     },
     {
      "w": "already",
-     "start": 115.372,
-     "end": 115.712
+     "start": 119.559,
+     "end": 119.879
     },
     {
      "w": "cancelled.",
-     "start": 115.712,
-     "end": 116.192
+     "start": 119.879,
+     "end": 120.379
     },
     {
      "w": "What",
-     "start": 116.972,
-     "end": 117.032
+     "start": 121.159,
+     "end": 121.219
     },
     {
      "w": "Trafalgar",
-     "start": 117.032,
-     "end": 117.712
+     "start": 121.219,
+     "end": 121.919
     },
     {
      "w": "decided",
-     "start": 117.712,
-     "end": 117.932
+     "start": 121.919,
+     "end": 122.119
     },
     {
      "w": "was",
-     "start": 117.932,
-     "end": 118.472
+     "start": 122.119,
+     "end": 122.679
     },
     {
      "w": "something",
-     "start": 118.472,
-     "end": 118.772
+     "start": 122.679,
+     "end": 122.979
     },
     {
      "w": "bigger.",
-     "start": 118.772,
-     "end": 119.172
+     "start": 122.979,
+     "end": 123.379
     }
    ]
   },
   {
    "scene": 14,
    "text": "Nelson takes command off C\u00e1diz at the end of September. He keeps his main fleet about 50 miles out to sea, out of sight, with fast frigates watching the harbour.",
-   "start": 120.17,
-   "end": 130.176,
+   "start": 124.492,
+   "end": 134.787,
    "words": [
     {
      "w": "Nelson",
-     "start": 120.07,
-     "end": 120.29
+     "start": 124.392,
+     "end": 124.632
     },
     {
      "w": "takes",
-     "start": 120.29,
-     "end": 120.79
+     "start": 124.632,
+     "end": 125.132
     },
     {
      "w": "command",
-     "start": 120.79,
-     "end": 121.11
+     "start": 125.132,
+     "end": 125.472
     },
     {
      "w": "off",
-     "start": 121.11,
-     "end": 121.51
+     "start": 125.472,
+     "end": 125.872
     },
     {
      "w": "C\u00e1diz",
-     "start": 121.51,
-     "end": 122.11
+     "start": 125.872,
+     "end": 126.472
     },
     {
      "w": "at",
-     "start": 122.11,
-     "end": 122.23
+     "start": 126.472,
+     "end": 126.592
     },
     {
      "w": "the",
-     "start": 122.23,
-     "end": 122.31
+     "start": 126.592,
+     "end": 126.672
     },
     {
      "w": "end",
-     "start": 122.31,
-     "end": 122.47
+     "start": 126.672,
+     "end": 126.852
     },
     {
      "w": "of",
-     "start": 122.47,
-     "end": 122.57
+     "start": 126.852,
+     "end": 126.972
     },
     {
      "w": "September.",
-     "start": 122.57,
-     "end": 122.91
+     "start": 126.972,
+     "end": 127.392
     },
     {
      "w": "He",
-     "start": 123.81,
-     "end": 123.87
+     "start": 128.292,
+     "end": 128.332
     },
     {
      "w": "keeps",
-     "start": 123.87,
-     "end": 124.07
+     "start": 128.332,
+     "end": 128.532
     },
     {
      "w": "his",
-     "start": 124.07,
-     "end": 124.27
+     "start": 128.532,
+     "end": 128.732
     },
     {
      "w": "main",
-     "start": 124.27,
-     "end": 124.51
+     "start": 128.732,
+     "end": 128.972
     },
     {
      "w": "fleet",
-     "start": 124.51,
-     "end": 124.91
+     "start": 128.972,
+     "end": 129.372
     },
     {
      "w": "about",
-     "start": 124.91,
-     "end": 125.25
+     "start": 129.372,
+     "end": 129.712
     },
     {
      "w": "50",
-     "start": 125.25,
-     "end": 125.63
+     "start": 129.712,
+     "end": 130.072
     },
     {
      "w": "miles",
-     "start": 125.63,
-     "end": 126.01
+     "start": 130.072,
+     "end": 130.452
     },
     {
      "w": "out",
-     "start": 126.01,
-     "end": 126.31
+     "start": 130.452,
+     "end": 130.792
     },
     {
      "w": "to",
-     "start": 126.31,
-     "end": 126.51
+     "start": 130.792,
+     "end": 131.012
     },
     {
      "w": "sea,",
-     "start": 126.51,
-     "end": 126.73
+     "start": 131.012,
+     "end": 131.232
     },
     {
      "w": "out",
-     "start": 126.73,
-     "end": 127.09
+     "start": 131.232,
+     "end": 131.612
     },
     {
      "w": "of",
-     "start": 127.09,
-     "end": 127.21
+     "start": 131.612,
+     "end": 131.752
     },
     {
      "w": "sight,",
-     "start": 127.21,
-     "end": 127.53
+     "start": 131.752,
+     "end": 132.072
     },
     {
      "w": "with",
-     "start": 127.53,
-     "end": 128.15
+     "start": 132.072,
+     "end": 132.692
     },
     {
      "w": "fast",
-     "start": 128.15,
-     "end": 128.43
+     "start": 132.692,
+     "end": 132.992
     },
     {
      "w": "frigates",
-     "start": 128.43,
-     "end": 129.07
+     "start": 132.992,
+     "end": 133.632
     },
     {
      "w": "watching",
-     "start": 129.07,
-     "end": 129.39
+     "start": 133.632,
+     "end": 133.912
     },
     {
      "w": "the",
-     "start": 129.39,
-     "end": 129.63
+     "start": 133.912,
+     "end": 134.212
     },
     {
      "w": "harbour.",
-     "start": 129.63,
-     "end": 130.176
+     "start": 134.212,
+     "end": 134.787
     }
    ]
   },
   {
    "scene": 15,
    "text": "Inside, the combined fleet is struggling. Supplies are short. The ships are more than 2,000 men short of full crews, and many sailors have barely been to sea.",
-   "start": 130.636,
-   "end": 141.198,
+   "start": 135.307,
+   "end": 146.251,
    "words": [
     {
      "w": "Inside,",
-     "start": 130.536,
-     "end": 130.956
+     "start": 135.207,
+     "end": 135.647
     },
     {
      "w": "the",
-     "start": 131.276,
-     "end": 131.356
+     "start": 135.647,
+     "end": 136.047
     },
     {
      "w": "combined",
-     "start": 131.356,
-     "end": 131.636
+     "start": 136.047,
+     "end": 136.347
     },
     {
      "w": "fleet",
-     "start": 131.636,
-     "end": 132.116
+     "start": 136.347,
+     "end": 136.847
     },
     {
      "w": "is",
-     "start": 132.116,
-     "end": 132.416
+     "start": 136.847,
+     "end": 137.147
     },
     {
      "w": "struggling.",
-     "start": 132.416,
-     "end": 132.816
+     "start": 137.147,
+     "end": 137.547
     },
     {
      "w": "Supplies",
-     "start": 133.636,
-     "end": 133.976
+     "start": 138.027,
+     "end": 138.547
     },
     {
      "w": "are",
-     "start": 133.976,
-     "end": 134.316
+     "start": 138.547,
+     "end": 139.087
     },
     {
      "w": "short.",
-     "start": 134.316,
-     "end": 134.656
+     "start": 139.087,
+     "end": 139.407
     },
     {
      "w": "The",
-     "start": 135.436,
-     "end": 135.456
+     "start": 140.167,
+     "end": 140.287
     },
     {
      "w": "ships",
-     "start": 135.456,
-     "end": 135.636
+     "start": 140.287,
+     "end": 140.467
     },
     {
      "w": "are",
-     "start": 135.636,
-     "end": 135.916
+     "start": 140.467,
+     "end": 140.767
     },
     {
      "w": "more",
-     "start": 135.916,
-     "end": 136.116
+     "start": 140.767,
+     "end": 140.987
     },
     {
      "w": "than",
-     "start": 136.116,
-     "end": 136.336
+     "start": 140.987,
+     "end": 141.227
     },
     {
      "w": "2,000",
-     "start": 136.336,
-     "end": 137.136
+     "start": 141.227,
+     "end": 142.047
     },
     {
      "w": "men",
-     "start": 137.136,
-     "end": 137.396
+     "start": 142.047,
+     "end": 142.307
     },
     {
      "w": "short",
-     "start": 137.396,
-     "end": 137.676
+     "start": 142.307,
+     "end": 142.627
     },
     {
      "w": "of",
-     "start": 137.676,
-     "end": 137.816
+     "start": 142.627,
+     "end": 142.767
     },
     {
      "w": "full",
-     "start": 137.816,
-     "end": 138.036
+     "start": 142.767,
+     "end": 142.987
     },
     {
      "w": "crews,",
-     "start": 138.036,
-     "end": 138.416
+     "start": 142.987,
+     "end": 143.367
     },
     {
      "w": "and",
-     "start": 138.416,
-     "end": 139.016
+     "start": 143.367,
+     "end": 143.987
     },
     {
      "w": "many",
-     "start": 139.016,
-     "end": 139.156
+     "start": 143.987,
+     "end": 144.147
     },
     {
      "w": "sailors",
-     "start": 139.156,
-     "end": 139.556
+     "start": 144.147,
+     "end": 144.507
     },
     {
      "w": "have",
-     "start": 139.556,
-     "end": 139.936
+     "start": 144.507,
+     "end": 144.947
     },
     {
      "w": "barely",
-     "start": 139.936,
-     "end": 140.236
+     "start": 144.947,
+     "end": 145.227
     },
     {
      "w": "been",
-     "start": 140.236,
-     "end": 140.536
+     "start": 145.227,
+     "end": 145.547
     },
     {
      "w": "to",
-     "start": 140.536,
-     "end": 140.696
+     "start": 145.547,
+     "end": 145.727
     },
     {
      "w": "sea.",
-     "start": 140.696,
-     "end": 140.916
+     "start": 145.727,
+     "end": 146.251
     }
    ]
   },
   {
    "scene": 16,
    "text": "Then Napoleon orders Villeneuve to sail for Naples. And on October 18, Villeneuve learns something worse: another admiral is on his way to replace him.",
-   "start": 141.658,
-   "end": 151.93,
+   "start": 146.771,
+   "end": 157.379,
    "words": [
     {
      "w": "Then",
-     "start": 141.558,
-     "end": 141.798
+     "start": 146.671,
+     "end": 146.931
     },
     {
      "w": "Napoleon",
-     "start": 141.798,
-     "end": 142.298
+     "start": 146.931,
+     "end": 147.411
     },
     {
      "w": "orders",
-     "start": 142.298,
-     "end": 142.778
+     "start": 147.411,
+     "end": 147.911
     },
     {
      "w": "Villeneuve",
-     "start": 142.778,
-     "end": 143.518
+     "start": 147.911,
+     "end": 148.631
     },
     {
      "w": "to",
-     "start": 143.518,
-     "end": 143.638
+     "start": 148.631,
+     "end": 148.751
     },
     {
      "w": "sail",
-     "start": 143.638,
-     "end": 143.818
+     "start": 148.751,
+     "end": 148.951
     },
     {
      "w": "for",
-     "start": 143.818,
-     "end": 144.118
+     "start": 148.951,
+     "end": 149.251
     },
     {
      "w": "Naples.",
-     "start": 144.118,
-     "end": 144.298
+     "start": 149.251,
+     "end": 149.431
     },
     {
      "w": "And",
-     "start": 145.318,
-     "end": 145.338
+     "start": 150.511,
+     "end": 150.531
     },
     {
      "w": "on",
-     "start": 145.338,
-     "end": 145.458
+     "start": 150.531,
+     "end": 150.651
     },
     {
      "w": "October",
-     "start": 145.458,
-     "end": 145.738
+     "start": 150.651,
+     "end": 150.911
     },
     {
      "w": "18,",
-     "start": 145.738,
-     "end": 146.371
+     "start": 150.911,
+     "end": 151.584
     },
     {
      "w": "Villeneuve",
-     "start": 146.371,
-     "end": 147.005
+     "start": 151.584,
+     "end": 152.258
     },
     {
      "w": "learns",
-     "start": 147.005,
-     "end": 147.638
+     "start": 152.258,
+     "end": 152.931
     },
     {
      "w": "something",
-     "start": 147.638,
-     "end": 148.038
+     "start": 152.931,
+     "end": 153.351
     },
     {
      "w": "worse:",
-     "start": 148.038,
-     "end": 148.418
+     "start": 153.351,
+     "end": 153.751
     },
     {
      "w": "another",
-     "start": 149.198,
-     "end": 149.378
+     "start": 154.611,
+     "end": 154.771
     },
     {
      "w": "admiral",
-     "start": 149.378,
-     "end": 150.038
+     "start": 154.771,
+     "end": 155.451
     },
     {
      "w": "is",
-     "start": 150.038,
-     "end": 150.258
+     "start": 155.451,
+     "end": 155.671
     },
     {
      "w": "on",
-     "start": 150.258,
-     "end": 150.418
+     "start": 155.671,
+     "end": 155.851
     },
     {
      "w": "his",
-     "start": 150.418,
-     "end": 150.598
+     "start": 155.851,
+     "end": 156.031
     },
     {
      "w": "way",
-     "start": 150.598,
-     "end": 150.838
+     "start": 156.031,
+     "end": 156.291
     },
     {
      "w": "to",
-     "start": 150.838,
-     "end": 151.078
+     "start": 156.291,
+     "end": 156.531
     },
     {
      "w": "replace",
-     "start": 151.078,
-     "end": 151.398
+     "start": 156.531,
+     "end": 156.851
     },
     {
      "w": "him.",
-     "start": 151.398,
-     "end": 151.738
+     "start": 156.851,
+     "end": 157.191
     }
    ]
   },
   {
    "scene": 17,
-   "text": "Rather than be disgraced, he puts to sea. On October 20, 33 ships of the line leave C\u00e1diz.",
-   "start": 152.39,
-   "end": 158.989,
+   "text": "Rather than be disgraced, he puts to sea. On October 20, 33 ships of the line leave C\u00e1diz. Only days earlier, his own captains had voted to stay in port.",
+   "start": 157.899,
+   "end": 168.992,
    "words": [
     {
      "w": "Rather",
-     "start": 152.29,
-     "end": 152.55
+     "start": 157.799,
+     "end": 158.059
     },
     {
      "w": "than",
-     "start": 152.55,
-     "end": 152.83
+     "start": 158.059,
+     "end": 158.359
     },
     {
      "w": "be",
-     "start": 152.83,
-     "end": 152.95
+     "start": 158.359,
+     "end": 158.459
     },
     {
      "w": "disgraced,",
-     "start": 152.95,
-     "end": 153.57
+     "start": 158.459,
+     "end": 159.119
     },
     {
      "w": "he",
-     "start": 153.77,
-     "end": 153.79
+     "start": 159.319,
+     "end": 159.359
     },
     {
      "w": "puts",
-     "start": 153.79,
-     "end": 153.97
+     "start": 159.359,
+     "end": 159.539
     },
     {
      "w": "to",
-     "start": 153.97,
-     "end": 154.19
+     "start": 159.539,
+     "end": 159.759
     },
     {
      "w": "sea.",
-     "start": 154.19,
-     "end": 154.41
+     "start": 159.759,
+     "end": 159.979
     },
     {
      "w": "On",
-     "start": 155.27,
-     "end": 155.29
+     "start": 160.899,
+     "end": 160.919
     },
     {
      "w": "October",
-     "start": 155.29,
-     "end": 155.59
+     "start": 160.919,
+     "end": 161.199
     },
     {
      "w": "20,",
-     "start": 155.59,
-     "end": 156.15
+     "start": 161.199,
+     "end": 161.779
     },
     {
      "w": "33",
-     "start": 156.45,
-     "end": 156.75
+     "start": 162.079,
+     "end": 162.479
     },
     {
      "w": "ships",
-     "start": 156.75,
-     "end": 157.35
+     "start": 162.479,
+     "end": 163.079
     },
     {
      "w": "of",
-     "start": 157.35,
-     "end": 157.51
+     "start": 163.079,
+     "end": 163.279
     },
     {
      "w": "the",
-     "start": 157.51,
-     "end": 157.61
+     "start": 163.279,
+     "end": 163.379
     },
     {
      "w": "line",
-     "start": 157.61,
-     "end": 157.85
+     "start": 163.379,
+     "end": 163.599
     },
     {
      "w": "leave",
-     "start": 157.85,
-     "end": 158.25
+     "start": 163.599,
+     "end": 164.039
     },
     {
      "w": "C\u00e1diz.",
-     "start": 158.25,
-     "end": 158.989
+     "start": 164.039,
+     "end": 165.199
+    },
+    {
+     "w": "Only",
+     "start": 165.199,
+     "end": 165.379
+    },
+    {
+     "w": "days",
+     "start": 165.379,
+     "end": 165.639
+    },
+    {
+     "w": "earlier,",
+     "start": 165.639,
+     "end": 165.999
+    },
+    {
+     "w": "his",
+     "start": 166.399,
+     "end": 166.499
+    },
+    {
+     "w": "own",
+     "start": 166.499,
+     "end": 166.699
+    },
+    {
+     "w": "captains",
+     "start": 166.699,
+     "end": 167.059
+    },
+    {
+     "w": "had",
+     "start": 167.059,
+     "end": 167.479
+    },
+    {
+     "w": "voted",
+     "start": 167.479,
+     "end": 167.739
+    },
+    {
+     "w": "to",
+     "start": 167.739,
+     "end": 167.999
+    },
+    {
+     "w": "stay",
+     "start": 167.999,
+     "end": 168.239
+    },
+    {
+     "w": "in",
+     "start": 168.239,
+     "end": 168.419
+    },
+    {
+     "w": "port.",
+     "start": 168.419,
+     "end": 168.659
     }
    ]
   },
   {
    "scene": 18,
    "text": "In those days, fleets fought in two long lines, side by side, trading broadsides until one gave up. It was orderly. It was safe. And it rarely destroyed anyone.",
-   "start": 159.679,
-   "end": 170.828,
+   "start": 169.772,
+   "end": 181.257,
    "words": [
     {
      "w": "In",
-     "start": 159.579,
-     "end": 159.779
+     "start": 169.672,
+     "end": 169.872
     },
     {
      "w": "those",
-     "start": 159.779,
-     "end": 159.939
+     "start": 169.872,
+     "end": 170.052
     },
     {
      "w": "days,",
-     "start": 159.939,
-     "end": 160.339
+     "start": 170.052,
+     "end": 170.432
     },
     {
      "w": "fleets",
-     "start": 160.559,
-     "end": 160.699
+     "start": 170.712,
+     "end": 170.832
     },
     {
      "w": "fought",
-     "start": 160.699,
-     "end": 161.039
+     "start": 170.832,
+     "end": 171.172
     },
     {
      "w": "in",
-     "start": 161.039,
-     "end": 161.239
+     "start": 171.172,
+     "end": 171.372
     },
     {
      "w": "two",
-     "start": 161.239,
-     "end": 161.419
+     "start": 171.372,
+     "end": 171.552
     },
     {
      "w": "long",
-     "start": 161.419,
-     "end": 161.679
+     "start": 171.552,
+     "end": 171.812
     },
     {
      "w": "lines,",
-     "start": 161.679,
-     "end": 162.239
+     "start": 171.812,
+     "end": 172.352
     },
     {
      "w": "side",
-     "start": 162.679,
-     "end": 162.939
+     "start": 172.872,
+     "end": 173.132
     },
     {
      "w": "by",
-     "start": 162.939,
-     "end": 163.279
+     "start": 173.132,
+     "end": 173.472
     },
     {
      "w": "side,",
-     "start": 163.279,
-     "end": 163.719
+     "start": 173.472,
+     "end": 173.972
     },
     {
      "w": "trading",
-     "start": 163.719,
-     "end": 164.199
+     "start": 174.152,
+     "end": 174.512
     },
     {
      "w": "broadsides",
-     "start": 164.199,
-     "end": 164.939
+     "start": 174.512,
+     "end": 175.232
     },
     {
      "w": "until",
-     "start": 164.939,
-     "end": 165.279
+     "start": 175.232,
+     "end": 175.592
     },
     {
      "w": "one",
-     "start": 165.279,
-     "end": 165.519
+     "start": 175.592,
+     "end": 175.812
     },
     {
      "w": "gave",
-     "start": 165.519,
-     "end": 165.739
+     "start": 175.812,
+     "end": 176.052
     },
     {
      "w": "up.",
-     "start": 165.739,
-     "end": 166.019
+     "start": 176.052,
+     "end": 176.332
     },
     {
      "w": "It",
-     "start": 166.659,
-     "end": 166.719
+     "start": 176.952,
+     "end": 177.032
     },
     {
      "w": "was",
-     "start": 166.719,
-     "end": 166.839
+     "start": 177.032,
+     "end": 177.152
     },
     {
      "w": "orderly.",
-     "start": 166.839,
-     "end": 167.179
+     "start": 177.152,
+     "end": 177.452
     },
     {
      "w": "It",
-     "start": 167.879,
-     "end": 167.939
+     "start": 178.212,
+     "end": 178.272
     },
     {
      "w": "was",
-     "start": 167.939,
-     "end": 168.039
+     "start": 178.272,
+     "end": 178.412
     },
     {
      "w": "safe.",
-     "start": 168.039,
-     "end": 168.359
+     "start": 178.412,
+     "end": 178.732
     },
     {
      "w": "And",
-     "start": 168.879,
-     "end": 169.019
+     "start": 179.372,
+     "end": 179.412
     },
     {
      "w": "it",
-     "start": 169.019,
-     "end": 169.099
+     "start": 179.412,
+     "end": 179.492
     },
     {
      "w": "rarely",
-     "start": 169.099,
-     "end": 169.339
+     "start": 179.492,
+     "end": 179.772
     },
     {
      "w": "destroyed",
-     "start": 169.339,
-     "end": 169.899
+     "start": 179.772,
+     "end": 180.332
     },
     {
      "w": "anyone.",
-     "start": 169.899,
-     "end": 170.579
+     "start": 180.332,
+     "end": 181.012
     }
    ]
   },
   {
    "scene": 19,
    "text": "Nelson had a different idea. Over dinners aboard his flagship, HMS Victory, he explained it to his captains.",
-   "start": 171.345,
-   "end": 178.785,
+   "start": 181.842,
+   "end": 189.606,
    "words": [
     {
      "w": "Nelson",
-     "start": 171.245,
-     "end": 171.525
+     "start": 181.742,
+     "end": 182.042
     },
     {
      "w": "had",
-     "start": 171.525,
-     "end": 171.905
+     "start": 182.042,
+     "end": 182.442
     },
     {
      "w": "a",
-     "start": 171.905,
-     "end": 172.005
+     "start": 182.442,
+     "end": 182.542
     },
     {
      "w": "different",
-     "start": 172.005,
-     "end": 172.205
+     "start": 182.542,
+     "end": 182.762
     },
     {
      "w": "idea.",
-     "start": 172.205,
-     "end": 172.705
+     "start": 182.762,
+     "end": 183.342
     },
     {
      "w": "Over",
-     "start": 173.605,
-     "end": 173.605
+     "start": 184.182,
+     "end": 184.202
     },
     {
      "w": "dinners",
-     "start": 173.605,
-     "end": 173.885
+     "start": 184.202,
+     "end": 184.482
     },
     {
      "w": "aboard",
-     "start": 173.885,
-     "end": 174.245
+     "start": 184.482,
+     "end": 184.882
     },
     {
      "w": "his",
-     "start": 174.245,
-     "end": 174.585
+     "start": 184.882,
+     "end": 185.262
     },
     {
      "w": "flagship,",
-     "start": 174.585,
-     "end": 174.925
+     "start": 185.262,
+     "end": 185.582
     },
     {
      "w": "HMS",
-     "start": 174.925,
-     "end": 175.845
+     "start": 185.582,
+     "end": 186.562
     },
     {
      "w": "Victory,",
-     "start": 175.845,
-     "end": 176.445
+     "start": 186.562,
+     "end": 187.162
     },
     {
      "w": "he",
-     "start": 176.985,
-     "end": 177.065
+     "start": 187.702,
+     "end": 187.802
     },
     {
      "w": "explained",
-     "start": 177.065,
-     "end": 177.385
+     "start": 187.802,
+     "end": 188.162
     },
     {
      "w": "it",
-     "start": 177.385,
-     "end": 177.705
+     "start": 188.162,
+     "end": 188.482
     },
     {
      "w": "to",
-     "start": 177.705,
-     "end": 177.845
+     "start": 188.482,
+     "end": 188.642
     },
     {
      "w": "his",
-     "start": 177.845,
-     "end": 177.965
+     "start": 188.642,
+     "end": 189.002
     },
     {
      "w": "captains.",
-     "start": 177.965,
-     "end": 178.225
+     "start": 189.002,
+     "end": 189.242
     }
    ]
   },
   {
    "scene": 20,
    "text": "His fleet would form two columns and sail straight at the enemy line, at a right angle. They would break through it in two places, cut it into three pieces, and crush the centre and rear before the front could turn back to help.",
-   "start": 179.245,
-   "end": 192.5,
+   "start": 190.126,
+   "end": 203.94,
    "words": [
     {
      "w": "His",
-     "start": 179.145,
-     "end": 179.345
+     "start": 190.026,
+     "end": 190.246
     },
     {
      "w": "fleet",
-     "start": 179.345,
-     "end": 179.605
+     "start": 190.246,
+     "end": 190.486
     },
     {
      "w": "would",
-     "start": 179.605,
-     "end": 179.845
+     "start": 190.486,
+     "end": 190.746
     },
     {
      "w": "form",
-     "start": 179.845,
-     "end": 180.165
+     "start": 190.746,
+     "end": 191.086
     },
     {
      "w": "two",
-     "start": 180.165,
-     "end": 180.465
+     "start": 191.086,
+     "end": 191.366
     },
     {
      "w": "columns",
-     "start": 180.465,
-     "end": 180.905
+     "start": 191.366,
+     "end": 191.786
     },
     {
      "w": "and",
-     "start": 180.905,
-     "end": 181.365
+     "start": 191.786,
+     "end": 192.326
     },
     {
      "w": "sail",
-     "start": 181.365,
-     "end": 181.565
+     "start": 192.326,
+     "end": 192.546
     },
     {
      "w": "straight",
-     "start": 181.565,
-     "end": 182.005
+     "start": 192.546,
+     "end": 192.986
     },
     {
      "w": "at",
-     "start": 182.005,
-     "end": 182.245
+     "start": 192.986,
+     "end": 193.206
     },
     {
      "w": "the",
-     "start": 182.245,
-     "end": 182.345
+     "start": 193.206,
+     "end": 193.306
     },
     {
      "w": "enemy",
-     "start": 182.345,
-     "end": 182.565
+     "start": 193.306,
+     "end": 193.546
     },
     {
      "w": "line,",
-     "start": 182.565,
-     "end": 183.005
+     "start": 193.546,
+     "end": 193.986
     },
     {
      "w": "at",
-     "start": 183.005,
-     "end": 183.625
+     "start": 193.986,
+     "end": 194.666
     },
     {
      "w": "a",
-     "start": 183.625,
-     "end": 183.705
+     "start": 194.666,
+     "end": 194.746
     },
     {
      "w": "right",
-     "start": 183.705,
-     "end": 183.885
+     "start": 194.746,
+     "end": 194.946
     },
     {
      "w": "angle.",
-     "start": 183.885,
-     "end": 184.385
+     "start": 194.946,
+     "end": 195.486
     },
     {
      "w": "They",
-     "start": 185.085,
-     "end": 185.225
+     "start": 196.166,
+     "end": 196.346
     },
     {
      "w": "would",
-     "start": 185.225,
-     "end": 185.325
+     "start": 196.346,
+     "end": 196.466
     },
     {
      "w": "break",
-     "start": 185.325,
-     "end": 185.545
+     "start": 196.466,
+     "end": 196.686
     },
     {
      "w": "through",
-     "start": 185.545,
-     "end": 185.825
+     "start": 196.686,
+     "end": 196.986
     },
     {
      "w": "it",
-     "start": 185.825,
-     "end": 186.025
+     "start": 196.986,
+     "end": 197.186
     },
     {
      "w": "in",
-     "start": 186.025,
-     "end": 186.145
+     "start": 197.186,
+     "end": 197.306
     },
     {
      "w": "two",
-     "start": 186.145,
-     "end": 186.325
+     "start": 197.306,
+     "end": 197.506
     },
     {
      "w": "places,",
-     "start": 186.325,
-     "end": 186.885
+     "start": 197.506,
+     "end": 198.046
     },
     {
      "w": "cut",
-     "start": 187.325,
-     "end": 187.525
+     "start": 198.566,
+     "end": 198.766
     },
     {
      "w": "it",
-     "start": 187.525,
-     "end": 187.645
+     "start": 198.766,
+     "end": 198.906
     },
     {
      "w": "into",
-     "start": 187.645,
-     "end": 187.785
+     "start": 198.906,
+     "end": 199.026
     },
     {
      "w": "three",
-     "start": 187.785,
-     "end": 188.105
+     "start": 199.026,
+     "end": 199.366
     },
     {
      "w": "pieces,",
-     "start": 188.105,
-     "end": 188.545
+     "start": 199.366,
+     "end": 199.826
     },
     {
      "w": "and",
-     "start": 188.545,
-     "end": 188.925
+     "start": 200.206,
+     "end": 200.226
     },
     {
      "w": "crush",
-     "start": 188.925,
-     "end": 189.105
+     "start": 200.226,
+     "end": 200.426
     },
     {
      "w": "the",
-     "start": 189.105,
-     "end": 189.405
+     "start": 200.426,
+     "end": 200.706
     },
     {
      "w": "centre",
-     "start": 189.405,
-     "end": 189.745
+     "start": 200.706,
+     "end": 201.106
     },
     {
      "w": "and",
-     "start": 189.745,
-     "end": 190.025
+     "start": 201.106,
+     "end": 201.406
     },
     {
      "w": "rear",
-     "start": 190.025,
-     "end": 190.245
+     "start": 201.406,
+     "end": 201.646
     },
     {
      "w": "before",
-     "start": 190.245,
-     "end": 190.585
+     "start": 201.646,
+     "end": 201.966
     },
     {
      "w": "the",
-     "start": 190.585,
-     "end": 190.825
+     "start": 201.966,
+     "end": 202.246
     },
     {
      "w": "front",
-     "start": 190.825,
-     "end": 191.065
+     "start": 202.246,
+     "end": 202.466
     },
     {
      "w": "could",
-     "start": 191.065,
-     "end": 191.265
+     "start": 202.466,
+     "end": 202.686
     },
     {
      "w": "turn",
-     "start": 191.265,
-     "end": 191.545
+     "start": 202.686,
+     "end": 202.966
     },
     {
      "w": "back",
-     "start": 191.545,
-     "end": 191.825
+     "start": 202.966,
+     "end": 203.246
     },
     {
      "w": "to",
-     "start": 191.825,
-     "end": 192.045
+     "start": 203.246,
+     "end": 203.466
     },
     {
      "w": "help.",
-     "start": 192.045,
-     "end": 192.245
+     "start": 203.466,
+     "end": 203.686
     }
    ]
   },
   {
    "scene": 21,
    "text": "The risk was huge. Sailing head-on, the leading British ships could not fire back. For a long time, they would just be targets.",
-   "start": 193.017,
-   "end": 200.858,
+   "start": 204.525,
+   "end": 212.628,
    "words": [
     {
      "w": "The",
-     "start": 192.917,
-     "end": 193.097
+     "start": 204.425,
+     "end": 204.605
     },
     {
      "w": "risk",
-     "start": 193.097,
-     "end": 193.297
+     "start": 204.605,
+     "end": 204.785
     },
     {
      "w": "was",
-     "start": 193.297,
-     "end": 193.557
+     "start": 204.785,
+     "end": 205.065
     },
     {
      "w": "huge.",
-     "start": 193.557,
-     "end": 193.897
+     "start": 205.065,
+     "end": 205.425
     },
     {
      "w": "Sailing",
-     "start": 194.857,
-     "end": 195.037
+     "start": 206.445,
+     "end": 206.645
     },
     {
      "w": "head-on,",
-     "start": 195.037,
-     "end": 195.757
+     "start": 206.645,
+     "end": 207.385
     },
     {
      "w": "the",
-     "start": 195.757,
-     "end": 195.817
+     "start": 207.385,
+     "end": 207.465
     },
     {
      "w": "leading",
-     "start": 195.817,
-     "end": 196.037
+     "start": 207.465,
+     "end": 207.665
     },
     {
      "w": "British",
-     "start": 196.037,
-     "end": 196.377
+     "start": 207.665,
+     "end": 208.025
     },
     {
      "w": "ships",
-     "start": 196.377,
-     "end": 196.737
+     "start": 208.025,
+     "end": 208.425
     },
     {
      "w": "could",
-     "start": 196.737,
-     "end": 196.977
+     "start": 208.425,
+     "end": 208.665
     },
     {
      "w": "not",
-     "start": 196.977,
-     "end": 197.177
+     "start": 208.665,
+     "end": 208.865
     },
     {
      "w": "fire",
-     "start": 197.177,
-     "end": 197.557
+     "start": 208.865,
+     "end": 209.265
     },
     {
      "w": "back.",
-     "start": 197.557,
-     "end": 197.877
+     "start": 209.265,
+     "end": 209.565
     },
     {
      "w": "For",
-     "start": 198.457,
-     "end": 198.557
+     "start": 210.165,
+     "end": 210.265
     },
     {
      "w": "a",
-     "start": 198.557,
-     "end": 198.657
+     "start": 210.265,
+     "end": 210.385
     },
     {
      "w": "long",
-     "start": 198.657,
-     "end": 198.877
+     "start": 210.385,
+     "end": 210.585
     },
     {
      "w": "time,",
-     "start": 198.877,
-     "end": 199.317
+     "start": 210.585,
+     "end": 211.025
     },
     {
      "w": "they",
-     "start": 199.457,
-     "end": 199.517
+     "start": 211.205,
+     "end": 211.265
     },
     {
      "w": "would",
-     "start": 199.517,
-     "end": 199.657
+     "start": 211.265,
+     "end": 211.385
     },
     {
      "w": "just",
-     "start": 199.657,
-     "end": 199.897
+     "start": 211.385,
+     "end": 211.645
     },
     {
      "w": "be",
-     "start": 199.897,
-     "end": 200.077
+     "start": 211.645,
+     "end": 211.825
     },
     {
      "w": "targets.",
-     "start": 200.077,
-     "end": 200.337
+     "start": 211.825,
+     "end": 212.105
     }
    ]
   },
   {
    "scene": 22,
    "text": "Villeneuve guessed Nelson might try exactly this. But his crews were too inexperienced for anything clever. He kept the single line.",
-   "start": 201.318,
-   "end": 209.76,
+   "start": 213.148,
+   "end": 221.832,
    "words": [
     {
      "w": "Villeneuve",
-     "start": 201.318,
-     "end": 201.668
+     "start": 213.148,
+     "end": 213.538
     },
     {
      "w": "guessed",
-     "start": 201.668,
-     "end": 202.018
+     "start": 213.538,
+     "end": 213.928
     },
     {
      "w": "Nelson",
-     "start": 202.018,
-     "end": 202.318
+     "start": 213.928,
+     "end": 214.188
     },
     {
      "w": "might",
-     "start": 202.318,
-     "end": 202.838
+     "start": 214.188,
+     "end": 214.688
     },
     {
      "w": "try",
-     "start": 202.838,
-     "end": 203.098
+     "start": 214.688,
+     "end": 214.968
     },
     {
      "w": "exactly",
-     "start": 203.098,
-     "end": 203.438
+     "start": 214.968,
+     "end": 215.308
     },
     {
      "w": "this.",
-     "start": 203.438,
-     "end": 204.098
+     "start": 215.308,
+     "end": 215.988
     },
     {
      "w": "But",
-     "start": 204.498,
-     "end": 204.758
+     "start": 216.468,
+     "end": 216.688
     },
     {
      "w": "his",
-     "start": 204.758,
-     "end": 204.878
+     "start": 216.688,
+     "end": 216.788
     },
     {
      "w": "crews",
-     "start": 204.878,
-     "end": 205.178
+     "start": 216.788,
+     "end": 217.088
     },
     {
      "w": "were",
-     "start": 205.178,
-     "end": 205.538
+     "start": 217.088,
+     "end": 217.508
     },
     {
      "w": "too",
-     "start": 205.538,
-     "end": 205.738
+     "start": 217.508,
+     "end": 217.708
     },
     {
      "w": "inexperienced",
-     "start": 205.738,
-     "end": 206.138
+     "start": 217.708,
+     "end": 218.148
     },
     {
      "w": "for",
-     "start": 206.138,
-     "end": 206.918
+     "start": 218.148,
+     "end": 218.928
     },
     {
      "w": "anything",
-     "start": 206.918,
-     "end": 207.198
+     "start": 218.928,
+     "end": 219.188
     },
     {
      "w": "clever.",
-     "start": 207.198,
-     "end": 207.678
+     "start": 219.188,
+     "end": 219.708
     },
     {
      "w": "He",
-     "start": 208.338,
-     "end": 208.398
+     "start": 220.368,
+     "end": 220.428
     },
     {
      "w": "kept",
-     "start": 208.398,
-     "end": 208.558
+     "start": 220.428,
+     "end": 220.608
     },
     {
      "w": "the",
-     "start": 208.558,
-     "end": 208.778
+     "start": 220.608,
+     "end": 220.828
     },
     {
      "w": "single",
-     "start": 208.778,
-     "end": 208.978
+     "start": 220.828,
+     "end": 221.028
     },
     {
      "w": "line.",
-     "start": 208.978,
-     "end": 209.478
+     "start": 221.028,
+     "end": 221.548
     }
    ]
   },
   {
    "scene": 23,
    "text": "Dawn, October 21. The wind is light. From Victory, the British can see the enemy: a long line of sails, stretching for miles.",
-   "start": 210.45,
-   "end": 219.283,
+   "start": 222.612,
+   "end": 231.643,
    "words": [
     {
      "w": "Dawn,",
-     "start": 210.35,
-     "end": 210.67
+     "start": 222.512,
+     "end": 222.872
     },
     {
      "w": "October",
-     "start": 210.93,
-     "end": 211.23
+     "start": 223.092,
+     "end": 223.412
     },
     {
      "w": "21.",
-     "start": 211.23,
-     "end": 212.69
+     "start": 223.412,
+     "end": 224.892
     },
     {
      "w": "The",
-     "start": 212.69,
-     "end": 212.69
+     "start": 224.892,
+     "end": 224.892
     },
     {
      "w": "wind",
-     "start": 212.69,
-     "end": 212.91
+     "start": 224.892,
+     "end": 225.112
     },
     {
      "w": "is",
-     "start": 212.91,
-     "end": 213.19
+     "start": 225.112,
+     "end": 225.412
     },
     {
      "w": "light.",
-     "start": 213.19,
-     "end": 213.45
+     "start": 225.412,
+     "end": 225.692
     },
     {
      "w": "From",
-     "start": 214.21,
-     "end": 214.23
+     "start": 226.472,
+     "end": 226.472
     },
     {
      "w": "Victory,",
-     "start": 214.23,
-     "end": 214.55
+     "start": 226.472,
+     "end": 226.852
     },
     {
      "w": "the",
-     "start": 214.77,
-     "end": 214.85
+     "start": 227.092,
+     "end": 227.152
     },
     {
      "w": "British",
-     "start": 214.85,
-     "end": 215.09
+     "start": 227.152,
+     "end": 227.392
     },
     {
      "w": "can",
-     "start": 215.09,
-     "end": 215.33
+     "start": 227.392,
+     "end": 227.652
     },
     {
      "w": "see",
-     "start": 215.33,
-     "end": 215.55
+     "start": 227.652,
+     "end": 227.872
     },
     {
      "w": "the",
-     "start": 215.55,
-     "end": 215.69
+     "start": 227.872,
+     "end": 228.012
     },
     {
      "w": "enemy:",
-     "start": 215.69,
-     "end": 216.03
+     "start": 228.012,
+     "end": 228.352
     },
     {
      "w": "a",
-     "start": 216.47,
-     "end": 216.57
+     "start": 228.772,
+     "end": 228.892
     },
     {
      "w": "long",
-     "start": 216.57,
-     "end": 216.81
+     "start": 228.892,
+     "end": 229.112
     },
     {
      "w": "line",
-     "start": 216.81,
-     "end": 217.15
+     "start": 229.112,
+     "end": 229.492
     },
     {
      "w": "of",
-     "start": 217.15,
-     "end": 217.29
+     "start": 229.492,
+     "end": 229.652
     },
     {
      "w": "sails,",
-     "start": 217.29,
-     "end": 217.67
+     "start": 229.652,
+     "end": 229.992
     },
     {
      "w": "stretching",
-     "start": 217.67,
-     "end": 218.17
+     "start": 229.992,
+     "end": 230.512
     },
     {
      "w": "for",
-     "start": 218.17,
-     "end": 218.53
+     "start": 230.512,
+     "end": 230.872
     },
     {
      "w": "miles.",
-     "start": 218.53,
-     "end": 218.77
+     "start": 230.872,
+     "end": 231.132
     }
    ]
   },
   {
    "scene": 24,
    "text": "At eight o'clock, Villeneuve orders his whole fleet to turn back toward C\u00e1diz. In the light wind, the turn takes hours, and his line bends into a ragged curve.",
-   "start": 219.743,
-   "end": 230.282,
+   "start": 232.163,
+   "end": 243.04,
    "words": [
     {
      "w": "At",
-     "start": 219.643,
-     "end": 219.843
+     "start": 232.063,
+     "end": 232.263
     },
     {
      "w": "eight",
-     "start": 219.843,
-     "end": 220.39
+     "start": 232.263,
+     "end": 232.823
     },
     {
      "w": "o'clock,",
-     "start": 220.39,
-     "end": 220.936
+     "start": 232.823,
+     "end": 233.383
     },
     {
      "w": "Villeneuve",
-     "start": 220.936,
-     "end": 221.483
+     "start": 233.383,
+     "end": 233.943
     },
     {
      "w": "orders",
-     "start": 221.483,
-     "end": 221.703
+     "start": 233.943,
+     "end": 234.183
     },
     {
      "w": "his",
-     "start": 221.703,
-     "end": 221.923
+     "start": 234.183,
+     "end": 234.403
     },
     {
      "w": "whole",
-     "start": 221.923,
-     "end": 222.123
+     "start": 234.403,
+     "end": 234.623
     },
     {
      "w": "fleet",
-     "start": 222.123,
-     "end": 222.503
+     "start": 234.623,
+     "end": 234.983
     },
     {
      "w": "to",
-     "start": 222.503,
-     "end": 222.723
+     "start": 234.983,
+     "end": 235.223
     },
     {
      "w": "turn",
-     "start": 222.723,
-     "end": 222.963
+     "start": 235.223,
+     "end": 235.463
     },
     {
      "w": "back",
-     "start": 222.963,
-     "end": 223.223
+     "start": 235.463,
+     "end": 235.743
     },
     {
      "w": "toward",
-     "start": 223.223,
-     "end": 223.563
+     "start": 235.743,
+     "end": 236.103
     },
     {
      "w": "C\u00e1diz.",
-     "start": 223.563,
-     "end": 224.863
+     "start": 236.103,
+     "end": 237.423
     },
     {
      "w": "In",
-     "start": 224.863,
-     "end": 224.943
+     "start": 237.423,
+     "end": 237.523
     },
     {
      "w": "the",
-     "start": 224.943,
-     "end": 225.043
+     "start": 237.523,
+     "end": 237.603
     },
     {
      "w": "light",
-     "start": 225.043,
-     "end": 225.243
+     "start": 237.603,
+     "end": 237.803
     },
     {
      "w": "wind,",
-     "start": 225.243,
-     "end": 225.543
+     "start": 237.803,
+     "end": 238.123
     },
     {
      "w": "the",
-     "start": 225.963,
-     "end": 226.023
+     "start": 238.543,
+     "end": 238.623
     },
     {
      "w": "turn",
-     "start": 226.023,
-     "end": 226.243
+     "start": 238.623,
+     "end": 238.863
     },
     {
      "w": "takes",
-     "start": 226.243,
-     "end": 226.663
+     "start": 238.863,
+     "end": 239.303
     },
     {
      "w": "hours,",
-     "start": 226.663,
-     "end": 226.923
+     "start": 239.303,
+     "end": 239.563
     },
     {
      "w": "and",
-     "start": 227.763,
-     "end": 227.783
+     "start": 240.463,
+     "end": 240.483
     },
     {
      "w": "his",
-     "start": 227.783,
-     "end": 227.883
+     "start": 240.483,
+     "end": 240.603
     },
     {
      "w": "line",
-     "start": 227.883,
-     "end": 228.223
+     "start": 240.603,
+     "end": 240.903
     },
     {
      "w": "bends",
-     "start": 228.223,
-     "end": 228.603
+     "start": 240.903,
+     "end": 241.363
     },
     {
      "w": "into",
-     "start": 228.603,
-     "end": 229.023
+     "start": 241.363,
+     "end": 241.743
     },
     {
      "w": "a",
-     "start": 229.023,
-     "end": 229.163
+     "start": 241.743,
+     "end": 241.883
     },
     {
      "w": "ragged",
-     "start": 229.163,
-     "end": 229.483
+     "start": 241.883,
+     "end": 242.223
     },
     {
      "w": "curve.",
-     "start": 229.483,
-     "end": 229.903
+     "start": 242.223,
+     "end": 242.643
     }
    ]
   },
   {
    "scene": 25,
-   "text": "The British form two columns. Nelson leads one, in Victory. His second in command, Cuthbert Collingwood, leads the other, in the Royal Sovereign.",
-   "start": 230.742,
-   "end": 240.094,
+   "text": "The British form two columns. Nelson leads one, in Victory. His second in command, Cuthbert Collingwood, leads the other, in the Royal Sovereign. Nelson has 27 ships of the line, more than 2,000 cannon, and 17,000 men.",
+   "start": 243.56,
+   "end": 260.117,
    "words": [
     {
      "w": "The",
-     "start": 230.642,
-     "end": 230.802
+     "start": 243.46,
+     "end": 243.62
     },
     {
      "w": "British",
-     "start": 230.802,
-     "end": 231.022
+     "start": 243.62,
+     "end": 243.84
     },
     {
      "w": "form",
-     "start": 231.022,
-     "end": 231.302
+     "start": 243.84,
+     "end": 244.16
     },
     {
      "w": "two",
-     "start": 231.302,
-     "end": 231.602
+     "start": 244.16,
+     "end": 244.52
     },
     {
      "w": "columns.",
-     "start": 231.602,
-     "end": 231.922
+     "start": 244.52,
+     "end": 244.88
     },
     {
      "w": "Nelson",
-     "start": 233.022,
-     "end": 233.022
+     "start": 246.04,
+     "end": 246.04
     },
     {
      "w": "leads",
-     "start": 233.022,
-     "end": 233.462
+     "start": 246.04,
+     "end": 246.48
     },
     {
      "w": "one,",
-     "start": 233.462,
-     "end": 233.822
+     "start": 246.48,
+     "end": 246.84
     },
     {
      "w": "in",
-     "start": 233.822,
-     "end": 234.022
+     "start": 246.84,
+     "end": 247.12
     },
     {
      "w": "Victory.",
-     "start": 234.022,
-     "end": 234.342
+     "start": 247.12,
+     "end": 247.48
     },
     {
      "w": "His",
-     "start": 235.202,
-     "end": 235.262
+     "start": 248.34,
+     "end": 248.38
     },
     {
      "w": "second",
-     "start": 235.262,
-     "end": 235.542
+     "start": 248.38,
+     "end": 248.72
     },
     {
      "w": "in",
-     "start": 235.542,
-     "end": 235.782
+     "start": 248.72,
+     "end": 248.96
     },
     {
      "w": "command,",
-     "start": 235.782,
-     "end": 236.182
+     "start": 248.96,
+     "end": 249.34
     },
     {
      "w": "Cuthbert",
-     "start": 236.562,
-     "end": 236.902
+     "start": 249.78,
+     "end": 250.12
     },
     {
      "w": "Collingwood,",
-     "start": 236.902,
-     "end": 237.562
+     "start": 250.12,
+     "end": 250.8
     },
     {
      "w": "leads",
-     "start": 237.562,
-     "end": 237.862
+     "start": 251.0,
+     "end": 251.22
     },
     {
      "w": "the",
-     "start": 237.862,
-     "end": 238.202
+     "start": 251.22,
+     "end": 251.56
     },
     {
      "w": "other,",
-     "start": 238.202,
-     "end": 238.462
+     "start": 251.56,
+     "end": 251.82
     },
     {
      "w": "in",
-     "start": 238.462,
-     "end": 238.822
+     "start": 251.82,
+     "end": 252.12
     },
     {
      "w": "the",
-     "start": 238.822,
-     "end": 238.942
+     "start": 252.12,
+     "end": 252.22
     },
     {
      "w": "Royal",
-     "start": 238.942,
-     "end": 239.142
+     "start": 252.22,
+     "end": 252.42
     },
     {
      "w": "Sovereign.",
-     "start": 239.142,
-     "end": 239.642
+     "start": 252.42,
+     "end": 252.94
+    },
+    {
+     "w": "Nelson",
+     "start": 253.94,
+     "end": 254.14
+    },
+    {
+     "w": "has",
+     "start": 254.14,
+     "end": 254.54
+    },
+    {
+     "w": "27",
+     "start": 254.54,
+     "end": 254.88
+    },
+    {
+     "w": "ships",
+     "start": 254.88,
+     "end": 255.54
+    },
+    {
+     "w": "of",
+     "start": 255.54,
+     "end": 255.76
+    },
+    {
+     "w": "the",
+     "start": 255.76,
+     "end": 255.88
+    },
+    {
+     "w": "line,",
+     "start": 255.88,
+     "end": 256.16
+    },
+    {
+     "w": "more",
+     "start": 256.6,
+     "end": 256.78
+    },
+    {
+     "w": "than",
+     "start": 256.78,
+     "end": 256.98
+    },
+    {
+     "w": "2,000",
+     "start": 256.98,
+     "end": 257.78
+    },
+    {
+     "w": "cannon,",
+     "start": 257.78,
+     "end": 258.12
+    },
+    {
+     "w": "and",
+     "start": 258.12,
+     "end": 258.5
+    },
+    {
+     "w": "17,000",
+     "start": 258.5,
+     "end": 259.6
+    },
+    {
+     "w": "men.",
+     "start": 259.6,
+     "end": 259.84
     }
    ]
   },
   {
    "scene": 26,
    "text": "At a quarter to noon, Nelson asks his signal officer to send a message: \"England confides that every man will do his duty.\" The officer suggests one change. \"Expects.\" It's quicker to signal. Nelson agrees.",
-   "start": 240.554,
-   "end": 254.712,
+   "start": 260.637,
+   "end": 275.17,
    "words": [
     {
      "w": "At",
-     "start": 240.454,
-     "end": 240.654
+     "start": 260.537,
+     "end": 260.737
     },
     {
      "w": "a",
-     "start": 240.654,
-     "end": 240.674
+     "start": 260.737,
+     "end": 260.777
     },
     {
      "w": "quarter",
-     "start": 240.674,
-     "end": 240.914
+     "start": 260.777,
+     "end": 260.997
     },
     {
      "w": "to",
-     "start": 240.914,
-     "end": 241.154
+     "start": 260.997,
+     "end": 261.237
     },
     {
      "w": "noon,",
-     "start": 241.154,
-     "end": 241.394
+     "start": 261.237,
+     "end": 261.497
     },
     {
      "w": "Nelson",
-     "start": 241.834,
-     "end": 241.834
+     "start": 261.937,
+     "end": 261.937
     },
     {
      "w": "asks",
-     "start": 241.834,
-     "end": 242.354
+     "start": 261.937,
+     "end": 262.457
     },
     {
      "w": "his",
-     "start": 242.354,
-     "end": 242.614
+     "start": 262.457,
+     "end": 262.717
     },
     {
      "w": "signal",
-     "start": 242.614,
-     "end": 242.974
+     "start": 262.717,
+     "end": 263.077
     },
     {
      "w": "officer",
-     "start": 242.974,
-     "end": 243.374
+     "start": 263.077,
+     "end": 263.497
     },
     {
      "w": "to",
-     "start": 243.374,
-     "end": 243.694
+     "start": 263.497,
+     "end": 263.877
     },
     {
      "w": "send",
-     "start": 243.694,
-     "end": 243.894
+     "start": 263.877,
+     "end": 264.097
     },
     {
      "w": "a",
-     "start": 243.894,
-     "end": 244.014
+     "start": 264.097,
+     "end": 264.217
     },
     {
      "w": "message:",
-     "start": 244.014,
-     "end": 244.314
+     "start": 264.217,
+     "end": 264.537
     },
     {
      "w": "\"England",
-     "start": 245.314,
-     "end": 245.314
+     "start": 265.537,
+     "end": 265.537
     },
     {
      "w": "confides",
-     "start": 245.314,
-     "end": 246.034
+     "start": 265.537,
+     "end": 266.297
     },
     {
      "w": "that",
-     "start": 246.034,
-     "end": 246.294
+     "start": 266.297,
+     "end": 266.577
     },
     {
      "w": "every",
-     "start": 246.294,
-     "end": 246.514
+     "start": 266.577,
+     "end": 266.777
     },
     {
      "w": "man",
-     "start": 246.514,
-     "end": 246.954
+     "start": 266.777,
+     "end": 267.217
     },
     {
      "w": "will",
-     "start": 246.954,
-     "end": 247.154
+     "start": 267.217,
+     "end": 267.457
     },
     {
      "w": "do",
-     "start": 247.154,
-     "end": 247.314
+     "start": 267.457,
+     "end": 267.637
     },
     {
      "w": "his",
-     "start": 247.314,
-     "end": 247.494
+     "start": 267.637,
+     "end": 267.817
     },
     {
      "w": "duty.\"",
-     "start": 247.494,
-     "end": 247.874
+     "start": 267.817,
+     "end": 268.197
     },
     {
      "w": "The",
-     "start": 248.614,
-     "end": 248.634
+     "start": 268.957,
+     "end": 268.977
     },
     {
      "w": "officer",
-     "start": 248.634,
-     "end": 248.934
+     "start": 268.977,
+     "end": 269.297
     },
     {
      "w": "suggests",
-     "start": 248.934,
-     "end": 249.494
+     "start": 269.297,
+     "end": 269.857
     },
     {
      "w": "one",
-     "start": 249.494,
-     "end": 249.914
+     "start": 269.857,
+     "end": 270.297
     },
     {
      "w": "change.",
-     "start": 249.914,
-     "end": 250.394
+     "start": 270.297,
+     "end": 270.757
     },
     {
      "w": "\"Expects.\"",
-     "start": 250.394,
-     "end": 251.174
+     "start": 270.757,
+     "end": 271.557
     },
     {
      "w": "It's",
-     "start": 251.174,
-     "end": 251.994
+     "start": 271.557,
+     "end": 272.377
     },
     {
      "w": "quicker",
-     "start": 251.994,
-     "end": 252.234
+     "start": 272.377,
+     "end": 272.637
     },
     {
      "w": "to",
-     "start": 252.234,
-     "end": 252.514
+     "start": 272.637,
+     "end": 272.897
     },
     {
      "w": "signal.",
-     "start": 252.514,
-     "end": 252.794
+     "start": 272.897,
+     "end": 273.197
     },
     {
      "w": "Nelson",
-     "start": 253.554,
-     "end": 253.694
+     "start": 273.977,
+     "end": 274.157
     },
     {
      "w": "agrees.",
-     "start": 253.694,
-     "end": 254.174
+     "start": 274.157,
+     "end": 274.597
     }
    ]
   },
   {
    "scene": 27,
    "text": "\"England expects that every man will do his duty.\" Then one more signal: \"Engage the enemy more closely.\"",
-   "start": 255.172,
-   "end": 261.991,
+   "start": 275.69,
+   "end": 282.676,
    "words": [
     {
      "w": "\"England",
-     "start": 255.072,
-     "end": 255.432
+     "start": 275.59,
+     "end": 275.95
     },
     {
      "w": "expects",
-     "start": 255.432,
-     "end": 255.832
+     "start": 275.95,
+     "end": 276.37
     },
     {
      "w": "that",
-     "start": 255.832,
-     "end": 256.232
+     "start": 276.37,
+     "end": 276.77
     },
     {
      "w": "every",
-     "start": 256.232,
-     "end": 256.452
+     "start": 276.77,
+     "end": 276.99
     },
     {
      "w": "man",
-     "start": 256.452,
-     "end": 256.892
+     "start": 276.99,
+     "end": 277.43
     },
     {
      "w": "will",
-     "start": 256.892,
-     "end": 257.092
+     "start": 277.43,
+     "end": 277.65
     },
     {
      "w": "do",
-     "start": 257.092,
-     "end": 257.252
+     "start": 277.65,
+     "end": 277.83
     },
     {
      "w": "his",
-     "start": 257.252,
-     "end": 257.412
+     "start": 277.83,
+     "end": 277.99
     },
     {
      "w": "duty.\"",
-     "start": 257.412,
-     "end": 257.772
+     "start": 277.99,
+     "end": 278.41
     },
     {
      "w": "Then",
-     "start": 258.552,
-     "end": 258.552
+     "start": 279.19,
+     "end": 279.19
     },
     {
      "w": "one",
-     "start": 258.552,
-     "end": 258.732
+     "start": 279.19,
+     "end": 279.39
     },
     {
      "w": "more",
-     "start": 258.732,
-     "end": 258.952
+     "start": 279.39,
+     "end": 279.61
     },
     {
      "w": "signal:",
-     "start": 258.952,
-     "end": 259.372
+     "start": 279.61,
+     "end": 280.01
     },
     {
      "w": "\"Engage",
-     "start": 259.832,
-     "end": 260.212
+     "start": 280.51,
+     "end": 280.89
     },
     {
      "w": "the",
-     "start": 260.212,
-     "end": 260.612
+     "start": 280.89,
+     "end": 281.29
     },
     {
      "w": "enemy",
-     "start": 260.612,
-     "end": 260.892
+     "start": 281.29,
+     "end": 281.55
     },
     {
      "w": "more",
-     "start": 260.892,
-     "end": 261.272
+     "start": 281.55,
+     "end": 281.95
     },
     {
      "w": "closely.\"",
-     "start": 261.272,
-     "end": 261.632
+     "start": 281.95,
+     "end": 282.27
     }
    ]
   },
   {
    "scene": 28,
    "text": "At noon, the first shot is fired at the Royal Sovereign. Collingwood turns to his officers. \"Now, gentlemen, let us do something today which the world may talk of hereafter.\"",
-   "start": 262.681,
-   "end": 273.858,
+   "start": 283.456,
+   "end": 294.997,
    "words": [
     {
      "w": "At",
-     "start": 262.581,
-     "end": 262.801
+     "start": 283.356,
+     "end": 283.596
     },
     {
      "w": "noon,",
-     "start": 262.801,
-     "end": 263.001
+     "start": 283.596,
+     "end": 283.796
     },
     {
      "w": "the",
-     "start": 263.321,
-     "end": 263.401
+     "start": 284.116,
+     "end": 284.196
     },
     {
      "w": "first",
-     "start": 263.401,
-     "end": 263.621
+     "start": 284.196,
+     "end": 284.416
     },
     {
      "w": "shot",
-     "start": 263.621,
-     "end": 263.901
+     "start": 284.416,
+     "end": 284.736
     },
     {
      "w": "is",
-     "start": 263.901,
-     "end": 264.141
+     "start": 284.736,
+     "end": 284.956
     },
     {
      "w": "fired",
-     "start": 264.141,
-     "end": 264.401
+     "start": 284.956,
+     "end": 285.236
     },
     {
      "w": "at",
-     "start": 264.401,
-     "end": 264.701
+     "start": 285.236,
+     "end": 285.556
     },
     {
      "w": "the",
-     "start": 264.701,
-     "end": 264.821
+     "start": 285.556,
+     "end": 285.676
     },
     {
      "w": "Royal",
-     "start": 264.821,
-     "end": 265.061
+     "start": 285.676,
+     "end": 285.936
     },
     {
      "w": "Sovereign.",
-     "start": 265.061,
-     "end": 265.541
+     "start": 285.936,
+     "end": 286.396
     },
     {
      "w": "Collingwood",
-     "start": 266.561,
-     "end": 266.981
+     "start": 287.436,
+     "end": 287.916
     },
     {
      "w": "turns",
-     "start": 266.981,
-     "end": 267.301
+     "start": 287.916,
+     "end": 288.236
     },
     {
      "w": "to",
-     "start": 267.301,
-     "end": 267.641
+     "start": 288.236,
+     "end": 288.576
     },
     {
      "w": "his",
-     "start": 267.641,
-     "end": 267.781
+     "start": 288.576,
+     "end": 288.696
     },
     {
      "w": "officers.",
-     "start": 267.781,
-     "end": 268.021
+     "start": 288.696,
+     "end": 288.956
     },
     {
      "w": "\"Now,",
-     "start": 269.241,
-     "end": 269.301
+     "start": 290.196,
+     "end": 290.256
     },
     {
      "w": "gentlemen,",
-     "start": 269.541,
-     "end": 269.861
+     "start": 290.516,
+     "end": 290.836
     },
     {
      "w": "let",
-     "start": 270.361,
-     "end": 270.641
+     "start": 291.396,
+     "end": 291.696
     },
     {
      "w": "us",
-     "start": 270.641,
-     "end": 270.741
+     "start": 291.696,
+     "end": 291.796
     },
     {
      "w": "do",
-     "start": 270.741,
-     "end": 270.921
+     "start": 291.796,
+     "end": 291.976
     },
     {
      "w": "something",
-     "start": 270.921,
-     "end": 271.161
+     "start": 291.976,
+     "end": 292.216
     },
     {
      "w": "today",
-     "start": 271.161,
-     "end": 271.601
+     "start": 292.216,
+     "end": 292.656
     },
     {
      "w": "which",
-     "start": 271.601,
-     "end": 271.921
+     "start": 292.656,
+     "end": 292.996
     },
     {
      "w": "the",
-     "start": 271.921,
-     "end": 272.141
+     "start": 292.996,
+     "end": 293.216
     },
     {
      "w": "world",
-     "start": 272.141,
-     "end": 272.321
+     "start": 293.216,
+     "end": 293.396
     },
     {
      "w": "may",
-     "start": 272.321,
-     "end": 272.621
+     "start": 293.396,
+     "end": 293.736
     },
     {
      "w": "talk",
-     "start": 272.621,
-     "end": 272.921
+     "start": 293.736,
+     "end": 294.016
     },
     {
      "w": "of",
-     "start": 272.921,
-     "end": 273.101
+     "start": 294.016,
+     "end": 294.216
     },
     {
      "w": "hereafter.\"",
-     "start": 273.101,
-     "end": 273.301
+     "start": 294.216,
+     "end": 294.396
     }
    ]
   },
   {
    "scene": 29,
    "text": "Royal Sovereign, faster than the rest, smashes into the enemy line alone, and fires a broadside straight through the stern of a Spanish flagship.",
-   "start": 274.318,
-   "end": 283.547,
+   "start": 295.517,
+   "end": 304.963,
    "words": [
     {
      "w": "Royal",
-     "start": 274.218,
-     "end": 274.538
+     "start": 295.417,
+     "end": 295.777
     },
     {
      "w": "Sovereign,",
-     "start": 274.538,
-     "end": 275.038
+     "start": 295.777,
+     "end": 296.257
     },
     {
      "w": "faster",
-     "start": 275.498,
-     "end": 275.718
+     "start": 296.697,
+     "end": 296.917
     },
     {
      "w": "than",
-     "start": 275.718,
-     "end": 276.038
+     "start": 296.917,
+     "end": 297.257
     },
     {
      "w": "the",
-     "start": 276.038,
-     "end": 276.138
+     "start": 297.257,
+     "end": 297.337
     },
     {
      "w": "rest,",
-     "start": 276.138,
-     "end": 276.338
+     "start": 297.337,
+     "end": 297.537
     },
     {
      "w": "smashes",
-     "start": 276.898,
-     "end": 277.358
+     "start": 298.157,
+     "end": 298.657
     },
     {
      "w": "into",
-     "start": 277.358,
-     "end": 277.658
+     "start": 298.657,
+     "end": 298.937
     },
     {
      "w": "the",
-     "start": 277.658,
-     "end": 277.798
+     "start": 298.937,
+     "end": 299.077
     },
     {
      "w": "enemy",
-     "start": 277.798,
-     "end": 278.058
+     "start": 299.077,
+     "end": 299.317
     },
     {
      "w": "line",
-     "start": 278.058,
-     "end": 278.438
+     "start": 299.317,
+     "end": 299.737
     },
     {
      "w": "alone,",
-     "start": 278.438,
-     "end": 278.758
+     "start": 299.737,
+     "end": 300.057
     },
     {
      "w": "and",
-     "start": 279.518,
-     "end": 279.598
+     "start": 300.797,
+     "end": 300.917
     },
     {
      "w": "fires",
-     "start": 279.598,
-     "end": 279.898
+     "start": 300.917,
+     "end": 301.237
     },
     {
      "w": "a",
-     "start": 279.898,
-     "end": 280.178
+     "start": 301.237,
+     "end": 301.497
     },
     {
      "w": "broadside",
-     "start": 280.178,
-     "end": 280.778
+     "start": 301.497,
+     "end": 302.137
     },
     {
      "w": "straight",
-     "start": 280.778,
-     "end": 281.098
+     "start": 302.137,
+     "end": 302.477
     },
     {
      "w": "through",
-     "start": 281.098,
-     "end": 281.498
+     "start": 302.477,
+     "end": 302.897
     },
     {
      "w": "the",
-     "start": 281.498,
-     "end": 281.618
+     "start": 302.897,
+     "end": 302.997
     },
     {
      "w": "stern",
-     "start": 281.618,
-     "end": 281.858
+     "start": 302.997,
+     "end": 303.257
     },
     {
      "w": "of",
-     "start": 281.858,
-     "end": 282.238
+     "start": 303.257,
+     "end": 303.637
     },
     {
      "w": "a",
-     "start": 282.238,
-     "end": 282.318
+     "start": 303.637,
+     "end": 303.717
     },
     {
      "w": "Spanish",
-     "start": 282.318,
-     "end": 282.558
+     "start": 303.717,
+     "end": 303.977
     },
     {
      "w": "flagship.",
-     "start": 282.558,
-     "end": 283.098
+     "start": 303.977,
+     "end": 304.517
     }
    ]
   },
   {
    "scene": 30,
    "text": "Behind her, HMS Belleisle is shot to pieces. Every mast is gone. She cannot steer. But she keeps her flag flying, for 45 minutes, until help arrives.",
-   "start": 284.007,
-   "end": 295.254,
+   "start": 305.483,
+   "end": 316.99,
    "words": [
     {
      "w": "Behind",
-     "start": 283.907,
-     "end": 284.247
+     "start": 305.383,
+     "end": 305.723
     },
     {
      "w": "her,",
-     "start": 284.247,
-     "end": 284.507
+     "start": 305.723,
+     "end": 305.983
     },
     {
      "w": "HMS",
-     "start": 284.507,
-     "end": 284.967
+     "start": 305.983,
+     "end": 306.483
     },
     {
      "w": "Belleisle",
-     "start": 284.967,
-     "end": 285.807
+     "start": 306.483,
+     "end": 307.323
     },
     {
      "w": "is",
-     "start": 285.807,
-     "end": 285.987
+     "start": 307.323,
+     "end": 307.503
     },
     {
      "w": "shot",
-     "start": 285.987,
-     "end": 286.247
+     "start": 307.503,
+     "end": 307.763
     },
     {
      "w": "to",
-     "start": 286.247,
-     "end": 286.467
+     "start": 307.763,
+     "end": 307.983
     },
     {
      "w": "pieces.",
-     "start": 286.467,
-     "end": 286.707
+     "start": 307.983,
+     "end": 308.243
     },
     {
      "w": "Every",
-     "start": 287.607,
-     "end": 287.607
+     "start": 309.163,
+     "end": 309.163
     },
     {
      "w": "mast",
-     "start": 287.607,
-     "end": 288.007
+     "start": 309.163,
+     "end": 309.563
     },
     {
      "w": "is",
-     "start": 288.007,
-     "end": 288.327
+     "start": 309.563,
+     "end": 309.883
     },
     {
      "w": "gone.",
-     "start": 288.327,
-     "end": 288.587
+     "start": 309.883,
+     "end": 310.123
     },
     {
      "w": "She",
-     "start": 289.307,
-     "end": 289.347
+     "start": 310.863,
+     "end": 310.923
     },
     {
      "w": "cannot",
-     "start": 289.347,
-     "end": 289.527
+     "start": 310.923,
+     "end": 311.123
     },
     {
      "w": "steer.",
-     "start": 289.527,
-     "end": 290.047
+     "start": 311.123,
+     "end": 311.623
     },
     {
      "w": "But",
-     "start": 290.867,
-     "end": 290.987
+     "start": 312.483,
+     "end": 312.603
     },
     {
      "w": "she",
-     "start": 290.987,
-     "end": 291.107
+     "start": 312.603,
+     "end": 312.723
     },
     {
      "w": "keeps",
-     "start": 291.107,
-     "end": 291.307
+     "start": 312.723,
+     "end": 312.943
     },
     {
      "w": "her",
-     "start": 291.307,
-     "end": 291.527
+     "start": 312.943,
+     "end": 313.163
     },
     {
      "w": "flag",
-     "start": 291.527,
-     "end": 291.767
+     "start": 313.163,
+     "end": 313.403
     },
     {
      "w": "flying,",
-     "start": 291.767,
-     "end": 292.447
+     "start": 313.403,
+     "end": 314.083
     },
     {
      "w": "for",
-     "start": 292.447,
-     "end": 292.687
+     "start": 314.083,
+     "end": 314.323
     },
     {
      "w": "45",
-     "start": 292.687,
-     "end": 293.087
+     "start": 314.323,
+     "end": 314.763
     },
     {
      "w": "minutes,",
-     "start": 293.087,
-     "end": 293.727
+     "start": 314.763,
+     "end": 315.423
     },
     {
      "w": "until",
-     "start": 293.727,
-     "end": 294.107
+     "start": 315.423,
+     "end": 315.863
     },
     {
      "w": "help",
-     "start": 294.107,
-     "end": 294.387
+     "start": 315.863,
+     "end": 316.123
     },
     {
      "w": "arrives.",
-     "start": 294.387,
-     "end": 294.667
+     "start": 316.123,
+     "end": 316.383
     }
    ]
   },
   {
    "scene": 31,
    "text": "To the north, Victory sails into the fire of four ships at once. For 40 minutes, she cannot fire back. Her wheel is shot away. Sailors steer her from below.",
-   "start": 295.772,
-   "end": 306.03,
+   "start": 317.575,
+   "end": 328.164,
    "words": [
     {
      "w": "To",
-     "start": 295.672,
-     "end": 295.872
+     "start": 317.475,
+     "end": 317.675
     },
     {
      "w": "the",
-     "start": 295.872,
-     "end": 295.972
+     "start": 317.675,
+     "end": 317.775
     },
     {
      "w": "north,",
-     "start": 295.972,
-     "end": 296.192
+     "start": 317.775,
+     "end": 318.015
     },
     {
      "w": "Victory",
-     "start": 296.452,
-     "end": 296.632
+     "start": 318.295,
+     "end": 318.495
     },
     {
      "w": "sails",
-     "start": 296.632,
-     "end": 296.972
+     "start": 318.495,
+     "end": 318.875
     },
     {
      "w": "into",
-     "start": 296.972,
-     "end": 297.312
+     "start": 318.875,
+     "end": 319.215
     },
     {
      "w": "the",
-     "start": 297.312,
-     "end": 297.472
+     "start": 319.215,
+     "end": 319.395
     },
     {
      "w": "fire",
-     "start": 297.472,
-     "end": 297.812
+     "start": 319.395,
+     "end": 319.755
     },
     {
      "w": "of",
-     "start": 297.812,
-     "end": 298.032
+     "start": 319.755,
+     "end": 319.995
     },
     {
      "w": "four",
-     "start": 298.032,
-     "end": 298.292
+     "start": 319.995,
+     "end": 320.255
     },
     {
      "w": "ships",
-     "start": 298.292,
-     "end": 298.552
+     "start": 320.255,
+     "end": 320.515
     },
     {
      "w": "at",
-     "start": 298.552,
-     "end": 298.812
+     "start": 320.515,
+     "end": 320.755
     },
     {
      "w": "once.",
-     "start": 298.812,
-     "end": 299.032
+     "start": 320.755,
+     "end": 320.975
     },
     {
      "w": "For",
-     "start": 299.812,
-     "end": 299.832
+     "start": 321.795,
+     "end": 321.815
     },
     {
      "w": "40",
-     "start": 299.832,
-     "end": 300.132
+     "start": 321.815,
+     "end": 322.115
     },
     {
      "w": "minutes,",
-     "start": 300.132,
-     "end": 300.432
+     "start": 322.115,
+     "end": 322.415
     },
     {
      "w": "she",
-     "start": 300.572,
-     "end": 300.752
+     "start": 322.515,
+     "end": 322.715
     },
     {
      "w": "cannot",
-     "start": 300.752,
-     "end": 300.912
+     "start": 322.715,
+     "end": 322.895
     },
     {
      "w": "fire",
-     "start": 300.912,
-     "end": 301.352
+     "start": 322.895,
+     "end": 323.335
     },
     {
      "w": "back.",
-     "start": 301.352,
-     "end": 301.712
+     "start": 323.335,
+     "end": 323.675
     },
     {
      "w": "Her",
-     "start": 302.352,
-     "end": 302.412
+     "start": 324.355,
+     "end": 324.395
     },
     {
      "w": "wheel",
-     "start": 302.412,
-     "end": 302.632
+     "start": 324.395,
+     "end": 324.595
     },
     {
      "w": "is",
-     "start": 302.632,
-     "end": 302.912
+     "start": 324.595,
+     "end": 324.915
     },
     {
      "w": "shot",
-     "start": 302.912,
-     "end": 303.152
+     "start": 324.915,
+     "end": 325.135
     },
     {
      "w": "away.",
-     "start": 303.152,
-     "end": 303.512
+     "start": 325.135,
+     "end": 325.535
     },
     {
      "w": "Sailors",
-     "start": 304.312,
-     "end": 304.592
+     "start": 326.395,
+     "end": 326.675
     },
     {
      "w": "steer",
-     "start": 304.592,
-     "end": 304.892
+     "start": 326.675,
+     "end": 326.995
     },
     {
      "w": "her",
-     "start": 304.892,
-     "end": 305.132
+     "start": 326.995,
+     "end": 327.255
     },
     {
      "w": "from",
-     "start": 305.132,
-     "end": 305.372
+     "start": 327.255,
+     "end": 327.495
     },
     {
      "w": "below.",
-     "start": 305.372,
-     "end": 305.612
+     "start": 327.495,
+     "end": 327.735
     }
    ]
   },
   {
    "scene": 32,
    "text": "Then she passes behind the French flagship, Bucentaure, and fires a broadside down the length of her decks.",
-   "start": 306.49,
-   "end": 313.024,
+   "start": 328.684,
+   "end": 335.586,
    "words": [
     {
      "w": "Then",
-     "start": 306.39,
-     "end": 306.61
+     "start": 328.584,
+     "end": 328.844
     },
     {
      "w": "she",
-     "start": 306.61,
-     "end": 306.75
+     "start": 328.844,
+     "end": 329.004
     },
     {
      "w": "passes",
-     "start": 306.75,
-     "end": 307.09
+     "start": 329.004,
+     "end": 329.344
     },
     {
      "w": "behind",
-     "start": 307.09,
-     "end": 307.59
+     "start": 329.344,
+     "end": 329.844
     },
     {
      "w": "the",
-     "start": 307.59,
-     "end": 307.75
+     "start": 329.844,
+     "end": 330.064
     },
     {
      "w": "French",
-     "start": 307.75,
-     "end": 307.99
+     "start": 330.064,
+     "end": 330.284
     },
     {
      "w": "flagship,",
-     "start": 307.99,
-     "end": 308.65
+     "start": 330.284,
+     "end": 330.924
     },
     {
      "w": "Bucentaure,",
-     "start": 308.65,
-     "end": 310.05
+     "start": 330.924,
+     "end": 332.404
     },
     {
      "w": "and",
-     "start": 310.05,
-     "end": 310.27
+     "start": 332.404,
+     "end": 332.684
     },
     {
      "w": "fires",
-     "start": 310.27,
-     "end": 310.55
+     "start": 332.684,
+     "end": 332.984
     },
     {
      "w": "a",
-     "start": 310.55,
-     "end": 310.81
+     "start": 332.984,
+     "end": 333.224
     },
     {
      "w": "broadside",
-     "start": 310.81,
-     "end": 311.45
+     "start": 333.224,
+     "end": 333.924
     },
     {
      "w": "down",
-     "start": 311.45,
-     "end": 311.71
+     "start": 333.924,
+     "end": 334.224
     },
     {
      "w": "the",
-     "start": 311.71,
-     "end": 311.89
+     "start": 334.224,
+     "end": 334.424
     },
     {
      "w": "length",
-     "start": 311.89,
-     "end": 312.11
+     "start": 334.424,
+     "end": 334.624
     },
     {
      "w": "of",
-     "start": 312.11,
-     "end": 312.29
+     "start": 334.624,
+     "end": 334.824
     },
     {
      "w": "her",
-     "start": 312.29,
-     "end": 312.39
+     "start": 334.824,
+     "end": 334.924
     },
     {
      "w": "decks.",
-     "start": 312.39,
-     "end": 312.65
+     "start": 334.924,
+     "end": 335.184
     }
    ]
   },
   {
    "scene": 33,
    "text": "Victory locks together with another French ship, the Redoutable. Its crew gathers to board.",
-   "start": 313.484,
-   "end": 318.951,
+   "start": 336.106,
+   "end": 341.87,
    "words": [
     {
      "w": "Victory",
-     "start": 313.384,
-     "end": 313.744
+     "start": 336.006,
+     "end": 336.446
     },
     {
      "w": "locks",
-     "start": 313.744,
-     "end": 314.064
+     "start": 336.446,
+     "end": 336.806
     },
     {
      "w": "together",
-     "start": 314.064,
-     "end": 314.544
+     "start": 336.806,
+     "end": 337.266
     },
     {
      "w": "with",
-     "start": 314.544,
-     "end": 314.804
+     "start": 337.266,
+     "end": 337.546
     },
     {
      "w": "another",
-     "start": 314.804,
-     "end": 315.044
+     "start": 337.546,
+     "end": 337.806
     },
     {
      "w": "French",
-     "start": 315.044,
-     "end": 315.554
+     "start": 337.806,
+     "end": 338.066
     },
     {
      "w": "ship,",
-     "start": 315.554,
-     "end": 316.064
+     "start": 338.066,
+     "end": 338.526
     },
     {
      "w": "the",
-     "start": 316.064,
-     "end": 316.124
+     "start": 338.846,
+     "end": 338.926
     },
     {
      "w": "Redoutable.",
-     "start": 316.124,
-     "end": 317.364
+     "start": 338.926,
+     "end": 340.146
     },
     {
      "w": "Its",
-     "start": 317.364,
-     "end": 317.424
+     "start": 340.146,
+     "end": 340.246
     },
     {
      "w": "crew",
-     "start": 317.424,
-     "end": 317.684
+     "start": 340.246,
+     "end": 340.546
     },
     {
      "w": "gathers",
-     "start": 317.684,
-     "end": 318.024
+     "start": 340.546,
+     "end": 340.886
     },
     {
      "w": "to",
-     "start": 318.024,
-     "end": 318.364
+     "start": 340.886,
+     "end": 341.246
     },
     {
      "w": "board.",
-     "start": 318.364,
-     "end": 318.564
+     "start": 341.246,
+     "end": 341.466
     }
    ]
   },
   {
    "scene": 34,
    "text": "High in the Redoutable's rigging, a French marksman is firing down onto Victory's deck. At about a quarter past one, a musket ball hits Nelson in the shoulder, passes through his lung, and lodges in his spine.",
-   "start": 319.526,
-   "end": 333.246,
+   "start": 342.52,
+   "end": 356.823,
    "words": [
     {
      "w": "High",
-     "start": 319.426,
-     "end": 319.806
+     "start": 342.42,
+     "end": 342.8
     },
     {
      "w": "in",
-     "start": 319.806,
-     "end": 320.066
+     "start": 342.8,
+     "end": 343.06
     },
     {
      "w": "the",
-     "start": 320.066,
-     "end": 320.166
+     "start": 343.06,
+     "end": 343.16
     },
     {
      "w": "Redoutable's",
-     "start": 320.166,
-     "end": 320.846
+     "start": 343.16,
+     "end": 343.88
     },
     {
      "w": "rigging,",
-     "start": 320.846,
-     "end": 321.066
+     "start": 343.88,
+     "end": 344.08
     },
     {
      "w": "a",
-     "start": 321.546,
-     "end": 321.606
+     "start": 344.64,
+     "end": 344.7
     },
     {
      "w": "French",
-     "start": 321.606,
-     "end": 321.826
+     "start": 344.7,
+     "end": 344.92
     },
     {
      "w": "marksman",
-     "start": 321.826,
-     "end": 322.506
+     "start": 344.92,
+     "end": 345.62
     },
     {
      "w": "is",
-     "start": 322.506,
-     "end": 322.666
+     "start": 345.62,
+     "end": 345.78
     },
     {
      "w": "firing",
-     "start": 322.666,
-     "end": 323.006
+     "start": 345.78,
+     "end": 346.16
     },
     {
      "w": "down",
-     "start": 323.006,
-     "end": 323.406
+     "start": 346.16,
+     "end": 346.58
     },
     {
      "w": "onto",
-     "start": 323.406,
-     "end": 323.686
+     "start": 346.58,
+     "end": 346.9
     },
     {
      "w": "Victory's",
-     "start": 323.686,
-     "end": 324.266
+     "start": 346.9,
+     "end": 347.5
     },
     {
      "w": "deck.",
-     "start": 324.266,
-     "end": 324.506
+     "start": 347.5,
+     "end": 347.74
     },
     {
      "w": "At",
-     "start": 325.346,
-     "end": 325.526
+     "start": 348.64,
+     "end": 348.82
     },
     {
      "w": "about",
-     "start": 325.526,
-     "end": 325.706
+     "start": 348.82,
+     "end": 349.0
     },
     {
      "w": "a",
-     "start": 325.706,
-     "end": 325.786
+     "start": 349.0,
+     "end": 349.1
     },
     {
      "w": "quarter",
-     "start": 325.786,
-     "end": 326.106
+     "start": 349.1,
+     "end": 349.4
     },
     {
      "w": "past",
-     "start": 326.106,
-     "end": 326.446
+     "start": 349.4,
+     "end": 349.78
     },
     {
      "w": "one,",
-     "start": 326.446,
-     "end": 326.826
+     "start": 349.78,
+     "end": 350.14
     },
     {
      "w": "a",
-     "start": 327.186,
-     "end": 327.326
+     "start": 350.56,
+     "end": 350.7
     },
     {
      "w": "musket",
-     "start": 327.326,
-     "end": 327.706
+     "start": 350.7,
+     "end": 351.1
     },
     {
      "w": "ball",
-     "start": 327.706,
-     "end": 328.006
+     "start": 351.1,
+     "end": 351.38
     },
     {
      "w": "hits",
-     "start": 328.006,
-     "end": 328.406
+     "start": 351.38,
+     "end": 351.8
     },
     {
      "w": "Nelson",
-     "start": 328.406,
-     "end": 328.626
+     "start": 351.8,
+     "end": 352.02
     },
     {
      "w": "in",
-     "start": 328.626,
-     "end": 329.006
+     "start": 352.02,
+     "end": 352.42
     },
     {
      "w": "the",
-     "start": 329.006,
-     "end": 329.106
+     "start": 352.42,
+     "end": 352.54
     },
     {
      "w": "shoulder,",
-     "start": 329.106,
-     "end": 329.446
+     "start": 352.54,
+     "end": 352.84
     },
     {
      "w": "passes",
-     "start": 329.966,
-     "end": 330.266
+     "start": 353.46,
+     "end": 353.72
     },
     {
      "w": "through",
-     "start": 330.266,
-     "end": 330.686
+     "start": 353.72,
+     "end": 354.14
     },
     {
      "w": "his",
-     "start": 330.686,
-     "end": 330.826
+     "start": 354.14,
+     "end": 354.3
     },
     {
      "w": "lung,",
-     "start": 330.826,
-     "end": 331.126
+     "start": 354.3,
+     "end": 354.6
     },
     {
      "w": "and",
-     "start": 331.666,
-     "end": 331.726
+     "start": 355.16,
+     "end": 355.22
     },
     {
      "w": "lodges",
-     "start": 331.726,
-     "end": 332.226
+     "start": 355.22,
+     "end": 355.78
     },
     {
      "w": "in",
-     "start": 332.226,
-     "end": 332.426
+     "start": 355.78,
+     "end": 355.98
     },
     {
      "w": "his",
-     "start": 332.426,
-     "end": 332.546
+     "start": 355.98,
+     "end": 356.08
     },
     {
      "w": "spine.",
-     "start": 332.546,
-     "end": 332.826
+     "start": 356.08,
+     "end": 356.38
     }
    ]
   },
   {
    "scene": 35,
    "text": "\"They have done it at last, Hardy,\" he says. \"My backbone is shot through.\" He is carried below.",
-   "start": 333.706,
-   "end": 339.246,
+   "start": 357.343,
+   "end": 363.107,
    "words": [
     {
      "w": "\"They",
-     "start": 333.606,
-     "end": 333.806
+     "start": 357.243,
+     "end": 357.443
     },
     {
      "w": "have",
-     "start": 333.806,
-     "end": 333.906
+     "start": 357.443,
+     "end": 357.543
     },
     {
      "w": "done",
-     "start": 333.906,
-     "end": 334.086
+     "start": 357.543,
+     "end": 357.723
     },
     {
      "w": "it",
-     "start": 334.086,
-     "end": 334.206
+     "start": 357.723,
+     "end": 357.843
     },
     {
      "w": "at",
-     "start": 334.206,
-     "end": 334.286
+     "start": 357.843,
+     "end": 357.923
     },
     {
      "w": "last,",
-     "start": 334.286,
-     "end": 334.466
+     "start": 357.923,
+     "end": 358.123
     },
     {
      "w": "Hardy,\"",
-     "start": 334.846,
-     "end": 334.966
+     "start": 358.123,
+     "end": 358.783
     },
     {
      "w": "he",
-     "start": 335.186,
-     "end": 335.246
+     "start": 358.883,
+     "end": 358.943
     },
     {
      "w": "says.",
-     "start": 335.246,
-     "end": 335.486
+     "start": 358.943,
+     "end": 359.183
     },
     {
      "w": "\"My",
-     "start": 336.106,
-     "end": 336.206
+     "start": 359.863,
+     "end": 359.963
     },
     {
      "w": "backbone",
-     "start": 336.206,
-     "end": 336.606
+     "start": 359.963,
+     "end": 360.383
     },
     {
      "w": "is",
-     "start": 336.606,
-     "end": 336.886
+     "start": 360.383,
+     "end": 360.703
     },
     {
      "w": "shot",
-     "start": 336.886,
-     "end": 337.106
+     "start": 360.703,
+     "end": 360.923
     },
     {
      "w": "through.\"",
-     "start": 337.106,
-     "end": 337.486
+     "start": 360.923,
+     "end": 361.323
     },
     {
      "w": "He",
-     "start": 337.926,
-     "end": 338.006
+     "start": 361.803,
+     "end": 361.863
     },
     {
      "w": "is",
-     "start": 338.006,
-     "end": 338.126
+     "start": 361.863,
+     "end": 361.983
     },
     {
      "w": "carried",
-     "start": 338.126,
-     "end": 338.426
+     "start": 361.983,
+     "end": 362.303
     },
     {
      "w": "below.",
-     "start": 338.426,
-     "end": 338.826
+     "start": 362.303,
+     "end": 362.683
     }
    ]
   },
   {
    "scene": 36,
    "text": "On deck, the French are about to board. Then HMS Temeraire comes alongside the Redoutable, and fires straight into the crowd of boarders.",
-   "start": 339.764,
-   "end": 348.819,
+   "start": 363.692,
+   "end": 373.144,
    "words": [
     {
      "w": "On",
-     "start": 339.764,
-     "end": 340.004
+     "start": 363.692,
+     "end": 363.942
     },
     {
      "w": "deck,",
-     "start": 340.004,
-     "end": 340.244
+     "start": 363.942,
+     "end": 364.192
     },
     {
      "w": "the",
-     "start": 340.244,
-     "end": 340.384
+     "start": 364.192,
+     "end": 364.372
     },
     {
      "w": "French",
-     "start": 340.384,
-     "end": 340.584
+     "start": 364.372,
+     "end": 364.572
     },
     {
      "w": "are",
-     "start": 340.584,
-     "end": 340.784
+     "start": 364.572,
+     "end": 364.772
     },
     {
      "w": "about",
-     "start": 340.784,
-     "end": 341.004
+     "start": 364.772,
+     "end": 364.992
     },
     {
      "w": "to",
-     "start": 341.004,
-     "end": 341.224
+     "start": 364.992,
+     "end": 365.232
     },
     {
      "w": "board.",
-     "start": 341.224,
-     "end": 341.524
+     "start": 365.232,
+     "end": 365.532
     },
     {
      "w": "Then",
-     "start": 342.404,
-     "end": 342.404
+     "start": 366.452,
+     "end": 366.452
     },
     {
      "w": "HMS",
-     "start": 342.404,
-     "end": 342.844
+     "start": 366.452,
+     "end": 366.872
     },
     {
      "w": "Temeraire",
-     "start": 342.844,
-     "end": 343.924
+     "start": 366.872,
+     "end": 368.032
     },
     {
      "w": "comes",
-     "start": 343.924,
-     "end": 344.264
+     "start": 368.032,
+     "end": 368.372
     },
     {
      "w": "alongside",
-     "start": 344.264,
-     "end": 344.984
+     "start": 368.372,
+     "end": 369.092
     },
     {
      "w": "the",
-     "start": 344.984,
-     "end": 345.164
+     "start": 369.092,
+     "end": 369.292
     },
     {
      "w": "Redoutable,",
-     "start": 345.164,
-     "end": 345.844
+     "start": 369.292,
+     "end": 369.952
     },
     {
      "w": "and",
-     "start": 345.844,
-     "end": 346.324
+     "start": 369.952,
+     "end": 370.472
     },
     {
      "w": "fires",
-     "start": 346.324,
-     "end": 346.664
+     "start": 370.472,
+     "end": 370.872
     },
     {
      "w": "straight",
-     "start": 346.664,
-     "end": 347.144
+     "start": 370.872,
+     "end": 371.372
     },
     {
      "w": "into",
-     "start": 347.144,
-     "end": 347.424
+     "start": 371.372,
+     "end": 371.632
     },
     {
      "w": "the",
-     "start": 347.424,
-     "end": 347.544
+     "start": 371.632,
+     "end": 371.812
     },
     {
      "w": "crowd",
-     "start": 347.544,
-     "end": 347.764
+     "start": 371.812,
+     "end": 372.052
     },
     {
      "w": "of",
-     "start": 347.764,
-     "end": 348.064
+     "start": 372.052,
+     "end": 372.352
     },
     {
      "w": "boarders.",
-     "start": 348.064,
-     "end": 348.819
+     "start": 372.352,
+     "end": 373.144
     }
    ]
   },
   {
    "scene": 37,
    "text": "At five to two, the Redoutable surrenders. Of 643 men, 99 can still fight.",
-   "start": 349.279,
-   "end": 356.121,
+   "start": 373.664,
+   "end": 380.736,
    "words": [
     {
      "w": "At",
-     "start": 349.179,
-     "end": 349.379
+     "start": 373.564,
+     "end": 373.784
     },
     {
      "w": "five",
-     "start": 349.379,
-     "end": 349.639
+     "start": 373.784,
+     "end": 374.024
     },
     {
      "w": "to",
-     "start": 349.639,
-     "end": 349.819
+     "start": 374.024,
+     "end": 374.204
     },
     {
      "w": "two,",
-     "start": 349.819,
-     "end": 350.079
+     "start": 374.204,
+     "end": 374.524
     },
     {
      "w": "the",
-     "start": 350.079,
-     "end": 350.299
+     "start": 374.524,
+     "end": 374.704
     },
     {
      "w": "Redoutable",
-     "start": 350.299,
-     "end": 350.879
+     "start": 374.704,
+     "end": 375.364
     },
     {
      "w": "surrenders.",
-     "start": 350.879,
-     "end": 351.659
+     "start": 375.364,
+     "end": 376.124
     },
     {
      "w": "Of",
-     "start": 351.659,
-     "end": 352.259
+     "start": 376.124,
+     "end": 376.744
     },
     {
      "w": "643",
-     "start": 352.259,
-     "end": 353.379
+     "start": 376.744,
+     "end": 377.864
     },
     {
      "w": "men,",
-     "start": 353.379,
-     "end": 354.019
+     "start": 377.864,
+     "end": 378.524
     },
     {
      "w": "99",
-     "start": 354.019,
-     "end": 354.839
+     "start": 378.524,
+     "end": 379.264
     },
     {
      "w": "can",
-     "start": 354.839,
-     "end": 355.339
+     "start": 379.264,
+     "end": 379.944
     },
     {
      "w": "still",
-     "start": 355.339,
-     "end": 355.619
+     "start": 379.944,
+     "end": 380.224
     },
     {
      "w": "fight.",
-     "start": 355.619,
-     "end": 355.919
+     "start": 380.224,
+     "end": 380.524
     }
    ]
   },
   {
    "scene": 38,
    "text": "One by one, the enemy centre and rear are surrounded. The French flagship Bucentaure surrenders. Villeneuve is taken prisoner.",
-   "start": 356.811,
-   "end": 365.066,
+   "start": 381.516,
+   "end": 390.01,
    "words": [
     {
      "w": "One",
-     "start": 356.711,
-     "end": 356.951
+     "start": 381.416,
+     "end": 381.656
     },
     {
      "w": "by",
-     "start": 356.951,
-     "end": 357.171
+     "start": 381.656,
+     "end": 381.896
     },
     {
      "w": "one,",
-     "start": 357.171,
-     "end": 357.451
+     "start": 381.896,
+     "end": 382.176
     },
     {
      "w": "the",
-     "start": 357.631,
-     "end": 357.691
+     "start": 382.336,
+     "end": 382.416
     },
     {
      "w": "enemy",
-     "start": 357.691,
-     "end": 357.871
+     "start": 382.416,
+     "end": 382.636
     },
     {
      "w": "centre",
-     "start": 357.871,
-     "end": 358.271
+     "start": 382.636,
+     "end": 383.016
     },
     {
      "w": "and",
-     "start": 358.271,
-     "end": 358.651
+     "start": 383.016,
+     "end": 383.416
     },
     {
      "w": "rear",
-     "start": 358.651,
-     "end": 358.851
+     "start": 383.416,
+     "end": 383.656
     },
     {
      "w": "are",
-     "start": 358.851,
-     "end": 359.171
+     "start": 383.656,
+     "end": 383.956
     },
     {
      "w": "surrounded.",
-     "start": 359.171,
-     "end": 359.551
+     "start": 383.956,
+     "end": 384.416
     },
     {
      "w": "The",
-     "start": 360.431,
-     "end": 360.451
+     "start": 385.296,
+     "end": 385.316
     },
     {
      "w": "French",
-     "start": 360.451,
-     "end": 360.671
+     "start": 385.316,
+     "end": 385.556
     },
     {
      "w": "flagship",
-     "start": 360.671,
-     "end": 361.351
+     "start": 385.556,
+     "end": 386.216
     },
     {
      "w": "Bucentaure",
-     "start": 361.351,
-     "end": 362.051
+     "start": 386.216,
+     "end": 386.848
     },
     {
      "w": "surrenders.",
-     "start": 362.051,
-     "end": 362.931
+     "start": 386.848,
+     "end": 387.481
     },
     {
      "w": "Villeneuve",
-     "start": 362.931,
-     "end": 363.771
+     "start": 387.481,
+     "end": 388.113
     },
     {
      "w": "is",
-     "start": 363.771,
-     "end": 364.011
+     "start": 388.113,
+     "end": 388.745
     },
     {
      "w": "taken",
-     "start": 364.011,
-     "end": 364.311
+     "start": 388.745,
+     "end": 389.378
     },
     {
      "w": "prisoner.",
-     "start": 364.311,
-     "end": 364.611
+     "start": 389.378,
+     "end": 390.01
     }
    ]
   },
   {
    "scene": 39,
    "text": "The Sant\u00edsima Trinidad, the most heavily armed warship in the world, with 130 guns, holds out for three hours, then strikes her colours.",
-   "start": 365.526,
-   "end": 375.201,
+   "start": 390.53,
+   "end": 400.684,
    "words": [
     {
      "w": "The",
-     "start": 365.426,
-     "end": 365.606
+     "start": 390.43,
+     "end": 390.61
     },
     {
      "w": "Sant\u00edsima",
-     "start": 365.606,
-     "end": 366.186
+     "start": 390.61,
+     "end": 391.23
     },
     {
      "w": "Trinidad,",
-     "start": 366.186,
-     "end": 366.466
+     "start": 391.23,
+     "end": 391.53
     },
     {
      "w": "the",
-     "start": 367.186,
-     "end": 367.406
+     "start": 392.29,
+     "end": 392.49
     },
     {
      "w": "most",
-     "start": 367.406,
-     "end": 367.586
+     "start": 392.49,
+     "end": 392.67
     },
     {
      "w": "heavily",
-     "start": 367.586,
-     "end": 367.986
+     "start": 392.67,
+     "end": 393.09
     },
     {
      "w": "armed",
-     "start": 367.986,
-     "end": 368.406
+     "start": 393.09,
+     "end": 393.53
     },
     {
      "w": "warship",
-     "start": 368.406,
-     "end": 369.006
+     "start": 393.53,
+     "end": 394.17
     },
     {
      "w": "in",
-     "start": 369.006,
-     "end": 369.146
+     "start": 394.17,
+     "end": 394.31
     },
     {
      "w": "the",
-     "start": 369.146,
-     "end": 369.266
+     "start": 394.31,
+     "end": 394.41
     },
     {
      "w": "world,",
-     "start": 369.266,
-     "end": 369.546
+     "start": 394.41,
+     "end": 394.75
     },
     {
      "w": "with",
-     "start": 369.546,
-     "end": 369.786
+     "start": 394.75,
+     "end": 394.99
     },
     {
      "w": "130",
-     "start": 369.786,
-     "end": 370.046
+     "start": 394.99,
+     "end": 395.21
     },
     {
      "w": "guns,",
-     "start": 370.046,
-     "end": 371.106
+     "start": 395.21,
+     "end": 396.39
     },
     {
      "w": "holds",
-     "start": 371.646,
-     "end": 371.926
+     "start": 396.87,
+     "end": 397.29
     },
     {
      "w": "out",
-     "start": 371.926,
-     "end": 372.266
+     "start": 397.29,
+     "end": 397.59
     },
     {
      "w": "for",
-     "start": 372.266,
-     "end": 372.506
+     "start": 397.59,
+     "end": 397.83
     },
     {
      "w": "three",
-     "start": 372.506,
-     "end": 372.706
+     "start": 397.83,
+     "end": 398.07
     },
     {
      "w": "hours,",
-     "start": 372.706,
-     "end": 373.166
+     "start": 398.07,
+     "end": 398.55
     },
     {
      "w": "then",
-     "start": 373.826,
-     "end": 373.906
+     "start": 399.23,
+     "end": 399.39
     },
     {
      "w": "strikes",
-     "start": 373.906,
-     "end": 374.166
+     "start": 399.39,
+     "end": 399.65
     },
     {
      "w": "her",
-     "start": 374.166,
-     "end": 374.684
+     "start": 399.65,
+     "end": 399.99
     },
     {
      "w": "colours.",
-     "start": 374.684,
-     "end": 375.201
+     "start": 399.99,
+     "end": 400.684
     }
    ]
   },
   {
    "scene": 40,
-   "text": "The front of the enemy line, which could have turned to help, fires a few shots, and sails away.",
-   "start": 375.661,
-   "end": 380.894,
+   "text": "The Spanish fought bravely. Two of their captains, Churruca and Alcal\u00e1 Galiano, were killed on their own decks. The front of the enemy line, which could have turned to help, fires a few shots, and sails away.",
+   "start": 401.204,
+   "end": 414.219,
    "words": [
     {
      "w": "The",
-     "start": 375.561,
-     "end": 375.741
+     "start": 401.104,
+     "end": 401.284
     },
     {
-     "w": "front",
-     "start": 375.741,
-     "end": 375.941
+     "w": "Spanish",
+     "start": 401.284,
+     "end": 401.664
+    },
+    {
+     "w": "fought",
+     "start": 401.664,
+     "end": 401.984
+    },
+    {
+     "w": "bravely.",
+     "start": 401.984,
+     "end": 402.624
+    },
+    {
+     "w": "Two",
+     "start": 403.344,
+     "end": 403.384
     },
     {
      "w": "of",
-     "start": 375.941,
-     "end": 376.081
+     "start": 403.384,
+     "end": 403.484
     },
     {
-     "w": "the",
-     "start": 376.081,
-     "end": 376.181
+     "w": "their",
+     "start": 403.484,
+     "end": 403.624
     },
     {
-     "w": "enemy",
-     "start": 376.181,
-     "end": 376.401
+     "w": "captains,",
+     "start": 403.624,
+     "end": 403.984
     },
     {
-     "w": "line,",
-     "start": 376.401,
-     "end": 376.841
-    },
-    {
-     "w": "which",
-     "start": 377.041,
-     "end": 377.121
-    },
-    {
-     "w": "could",
-     "start": 377.121,
-     "end": 377.281
-    },
-    {
-     "w": "have",
-     "start": 377.281,
-     "end": 377.361
-    },
-    {
-     "w": "turned",
-     "start": 377.361,
-     "end": 377.601
-    },
-    {
-     "w": "to",
-     "start": 377.601,
-     "end": 377.781
-    },
-    {
-     "w": "help,",
-     "start": 377.781,
-     "end": 377.981
-    },
-    {
-     "w": "fires",
-     "start": 378.501,
-     "end": 378.781
-    },
-    {
-     "w": "a",
-     "start": 378.781,
-     "end": 379.081
-    },
-    {
-     "w": "few",
-     "start": 379.081,
-     "end": 379.221
-    },
-    {
-     "w": "shots,",
-     "start": 379.221,
-     "end": 379.601
+     "w": "Churruca",
+     "start": 403.984,
+     "end": 404.964
     },
     {
      "w": "and",
-     "start": 379.601,
-     "end": 379.901
+     "start": 404.964,
+     "end": 405.204
+    },
+    {
+     "w": "Alcal\u00e1",
+     "start": 405.204,
+     "end": 405.924
+    },
+    {
+     "w": "Galiano,",
+     "start": 405.924,
+     "end": 406.644
+    },
+    {
+     "w": "were",
+     "start": 406.644,
+     "end": 406.764
+    },
+    {
+     "w": "killed",
+     "start": 406.764,
+     "end": 407.024
+    },
+    {
+     "w": "on",
+     "start": 407.024,
+     "end": 407.284
+    },
+    {
+     "w": "their",
+     "start": 407.284,
+     "end": 407.404
+    },
+    {
+     "w": "own",
+     "start": 407.404,
+     "end": 407.644
+    },
+    {
+     "w": "decks.",
+     "start": 407.644,
+     "end": 407.924
+    },
+    {
+     "w": "The",
+     "start": 408.924,
+     "end": 408.944
+    },
+    {
+     "w": "front",
+     "start": 408.944,
+     "end": 409.164
+    },
+    {
+     "w": "of",
+     "start": 409.164,
+     "end": 409.304
+    },
+    {
+     "w": "the",
+     "start": 409.304,
+     "end": 409.404
+    },
+    {
+     "w": "enemy",
+     "start": 409.404,
+     "end": 409.664
+    },
+    {
+     "w": "line,",
+     "start": 409.664,
+     "end": 410.044
+    },
+    {
+     "w": "which",
+     "start": 410.044,
+     "end": 410.324
+    },
+    {
+     "w": "could",
+     "start": 410.324,
+     "end": 410.504
+    },
+    {
+     "w": "have",
+     "start": 410.504,
+     "end": 410.584
+    },
+    {
+     "w": "turned",
+     "start": 410.584,
+     "end": 410.824
+    },
+    {
+     "w": "to",
+     "start": 410.824,
+     "end": 411.044
+    },
+    {
+     "w": "help,",
+     "start": 411.044,
+     "end": 411.284
+    },
+    {
+     "w": "fires",
+     "start": 411.284,
+     "end": 411.964
+    },
+    {
+     "w": "a",
+     "start": 411.964,
+     "end": 412.324
+    },
+    {
+     "w": "few",
+     "start": 412.324,
+     "end": 412.484
+    },
+    {
+     "w": "shots,",
+     "start": 412.484,
+     "end": 412.884
+    },
+    {
+     "w": "and",
+     "start": 412.884,
+     "end": 413.184
     },
     {
      "w": "sails",
-     "start": 379.901,
-     "end": 380.081
+     "start": 413.184,
+     "end": 413.384
     },
     {
      "w": "away.",
-     "start": 380.081,
-     "end": 380.601
+     "start": 413.384,
+     "end": 413.904
     }
    ]
   },
   {
    "scene": 41,
    "text": "Late in the afternoon, the French ship Achille catches fire, and explodes.",
-   "start": 381.354,
-   "end": 385.905,
+   "start": 414.739,
+   "end": 419.509,
    "words": [
     {
      "w": "Late",
-     "start": 381.254,
-     "end": 381.554
+     "start": 414.639,
+     "end": 414.939
     },
     {
      "w": "in",
-     "start": 381.554,
-     "end": 381.774
+     "start": 414.939,
+     "end": 415.159
     },
     {
      "w": "the",
-     "start": 381.774,
-     "end": 381.874
+     "start": 415.159,
+     "end": 415.259
     },
     {
      "w": "afternoon,",
-     "start": 381.874,
-     "end": 382.414
+     "start": 415.259,
+     "end": 415.819
     },
     {
      "w": "the",
-     "start": 382.854,
-     "end": 382.894
+     "start": 416.299,
+     "end": 416.319
     },
     {
      "w": "French",
-     "start": 382.894,
-     "end": 383.134
+     "start": 416.319,
+     "end": 416.539
     },
     {
      "w": "ship",
-     "start": 383.134,
-     "end": 383.374
+     "start": 416.539,
+     "end": 416.819
     },
     {
      "w": "Achille",
-     "start": 383.374,
-     "end": 383.614
+     "start": 416.819,
+     "end": 417.119
     },
     {
      "w": "catches",
-     "start": 383.614,
-     "end": 384.114
+     "start": 417.119,
+     "end": 417.639
     },
     {
      "w": "fire,",
-     "start": 384.114,
-     "end": 384.494
+     "start": 417.639,
+     "end": 417.999
     },
     {
      "w": "and",
-     "start": 384.494,
-     "end": 384.994
+     "start": 417.999,
+     "end": 418.539
     },
     {
      "w": "explodes.",
-     "start": 384.994,
-     "end": 385.414
+     "start": 418.539,
+     "end": 418.999
     }
    ]
   },
   {
    "scene": 42,
    "text": "Below decks, Nelson hears the cheering. Hardy tells him the victory is complete. \"Thank God I have done my duty,\" he murmurs. At half past four, he dies.",
-   "start": 386.48,
-   "end": 396.233,
+   "start": 420.159,
+   "end": 430.363,
    "words": [
     {
      "w": "Below",
-     "start": 386.38,
-     "end": 386.66
+     "start": 420.059,
+     "end": 420.339
     },
     {
      "w": "decks,",
-     "start": 386.66,
-     "end": 386.98
+     "start": 420.339,
+     "end": 420.659
     },
     {
      "w": "Nelson",
-     "start": 387.26,
-     "end": 387.3
+     "start": 420.939,
+     "end": 420.979
     },
     {
      "w": "hears",
-     "start": 387.3,
-     "end": 387.78
+     "start": 420.979,
+     "end": 421.459
     },
     {
      "w": "the",
-     "start": 387.78,
-     "end": 388.02
+     "start": 421.459,
+     "end": 421.719
     },
     {
      "w": "cheering.",
-     "start": 388.02,
-     "end": 388.26
+     "start": 421.719,
+     "end": 421.959
     },
     {
      "w": "Hardy",
-     "start": 388.26,
-     "end": 389.34
+     "start": 422.939,
+     "end": 422.999
     },
     {
      "w": "tells",
-     "start": 389.34,
-     "end": 389.6
+     "start": 422.999,
+     "end": 423.319
     },
     {
      "w": "him",
-     "start": 389.6,
-     "end": 389.76
+     "start": 423.319,
+     "end": 423.519
     },
     {
      "w": "the",
-     "start": 389.76,
-     "end": 389.88
+     "start": 423.519,
+     "end": 423.639
     },
     {
      "w": "victory",
-     "start": 389.88,
-     "end": 390.18
+     "start": 423.639,
+     "end": 423.959
     },
     {
      "w": "is",
-     "start": 390.18,
-     "end": 390.46
+     "start": 423.959,
+     "end": 424.259
     },
     {
      "w": "complete.",
-     "start": 390.46,
-     "end": 390.84
+     "start": 424.259,
+     "end": 424.619
     },
     {
      "w": "\"Thank",
-     "start": 391.54,
-     "end": 391.64
+     "start": 425.359,
+     "end": 425.499
     },
     {
      "w": "God",
-     "start": 391.64,
-     "end": 392.06
+     "start": 425.499,
+     "end": 425.919
     },
     {
      "w": "I",
-     "start": 392.06,
-     "end": 392.34
+     "start": 425.919,
+     "end": 426.199
     },
     {
      "w": "have",
-     "start": 392.34,
-     "end": 392.44
+     "start": 426.199,
+     "end": 426.299
     },
     {
      "w": "done",
-     "start": 392.44,
-     "end": 392.6
+     "start": 426.299,
+     "end": 426.459
     },
     {
      "w": "my",
-     "start": 392.6,
-     "end": 392.82
+     "start": 426.459,
+     "end": 426.679
     },
     {
      "w": "duty,\"",
-     "start": 392.82,
-     "end": 393.2
+     "start": 426.679,
+     "end": 427.039
     },
     {
      "w": "he",
-     "start": 393.4,
-     "end": 393.44
+     "start": 427.299,
+     "end": 427.339
     },
     {
      "w": "murmurs.",
-     "start": 393.44,
-     "end": 393.96
+     "start": 427.339,
+     "end": 427.919
     },
     {
      "w": "At",
-     "start": 394.4,
-     "end": 394.44
+     "start": 428.419,
+     "end": 428.459
     },
     {
      "w": "half",
-     "start": 394.44,
-     "end": 394.62
+     "start": 428.459,
+     "end": 428.639
     },
     {
      "w": "past",
-     "start": 394.62,
-     "end": 394.96
+     "start": 428.639,
+     "end": 428.999
     },
     {
      "w": "four,",
-     "start": 394.96,
-     "end": 395.34
+     "start": 428.999,
+     "end": 429.439
     },
     {
      "w": "he",
-     "start": 395.5,
-     "end": 395.52
+     "start": 429.619,
+     "end": 429.659
     },
     {
      "w": "dies.",
-     "start": 395.52,
-     "end": 395.8
+     "start": 429.659,
+     "end": 429.919
     }
    ]
   },
   {
    "scene": 43,
    "text": "Nelson had ordered the fleet to anchor. A storm was coming. That night, it hit.",
-   "start": 397.038,
-   "end": 401.557,
+   "start": 431.273,
+   "end": 436.106,
    "words": [
     {
      "w": "Nelson",
-     "start": 396.938,
-     "end": 397.218
+     "start": 431.173,
+     "end": 431.473
     },
     {
      "w": "had",
-     "start": 397.218,
-     "end": 397.618
+     "start": 431.473,
+     "end": 431.853
     },
     {
      "w": "ordered",
-     "start": 397.618,
-     "end": 397.858
+     "start": 431.853,
+     "end": 432.113
     },
     {
      "w": "the",
-     "start": 397.858,
-     "end": 398.058
+     "start": 432.113,
+     "end": 432.313
     },
     {
      "w": "fleet",
-     "start": 398.058,
-     "end": 398.218
+     "start": 432.313,
+     "end": 432.473
     },
     {
      "w": "to",
-     "start": 398.218,
-     "end": 398.458
+     "start": 432.473,
+     "end": 432.713
     },
     {
      "w": "anchor.",
-     "start": 398.458,
-     "end": 398.678
+     "start": 432.713,
+     "end": 432.933
     },
     {
      "w": "A",
-     "start": 399.258,
-     "end": 399.278
+     "start": 433.533,
+     "end": 433.553
     },
     {
      "w": "storm",
-     "start": 399.278,
-     "end": 399.578
+     "start": 433.553,
+     "end": 433.853
     },
     {
      "w": "was",
-     "start": 399.578,
-     "end": 399.878
+     "start": 433.853,
+     "end": 434.173
     },
     {
      "w": "coming.",
-     "start": 399.878,
-     "end": 400.218
+     "start": 434.173,
+     "end": 434.533
     },
     {
      "w": "That",
-     "start": 400.758,
-     "end": 400.818
+     "start": 435.073,
+     "end": 435.153
     },
     {
      "w": "night,",
-     "start": 400.818,
-     "end": 401.058
+     "start": 435.153,
+     "end": 435.433
     },
     {
      "w": "it",
-     "start": 401.058,
-     "end": 401.258
+     "start": 435.433,
+     "end": 435.613
     },
     {
      "w": "hit.",
-     "start": 401.258,
-     "end": 401.438
+     "start": 435.613,
+     "end": 435.833
     }
    ]
   },
   {
    "scene": 44,
-   "text": "For a week, a gale tore at the shattered ships. Many of the captured prizes sank or were driven onto the rocks. Some were retaken by their own prisoners.",
-   "start": 402.017,
-   "end": 411.877,
+   "text": "For a week, a gale tore at the shattered ships. Many of the captured prizes sank or were driven onto the rocks. Some were retaken by their own prisoners. In the end, the British burned or sank several prizes themselves, even the giant Sant\u00edsima Trinidad.",
+   "start": 436.626,
+   "end": 454.03,
    "words": [
     {
      "w": "For",
-     "start": 401.917,
-     "end": 402.137
+     "start": 436.526,
+     "end": 436.746
     },
     {
      "w": "a",
-     "start": 402.137,
-     "end": 402.257
+     "start": 436.746,
+     "end": 436.866
     },
     {
      "w": "week,",
-     "start": 402.257,
-     "end": 402.497
+     "start": 436.866,
+     "end": 437.106
     },
     {
      "w": "a",
-     "start": 402.737,
-     "end": 402.797
+     "start": 437.346,
+     "end": 437.406
     },
     {
      "w": "gale",
-     "start": 402.797,
-     "end": 403.097
+     "start": 437.406,
+     "end": 437.726
     },
     {
      "w": "tore",
-     "start": 403.097,
-     "end": 403.417
+     "start": 437.726,
+     "end": 438.026
     },
     {
      "w": "at",
-     "start": 403.417,
-     "end": 403.777
+     "start": 438.026,
+     "end": 438.406
     },
     {
      "w": "the",
-     "start": 403.777,
-     "end": 403.877
+     "start": 438.406,
+     "end": 438.486
     },
     {
      "w": "shattered",
-     "start": 403.877,
-     "end": 404.137
+     "start": 438.486,
+     "end": 438.746
     },
     {
      "w": "ships.",
-     "start": 404.137,
-     "end": 404.517
+     "start": 438.746,
+     "end": 439.126
     },
     {
      "w": "Many",
-     "start": 405.517,
-     "end": 405.517
+     "start": 440.166,
+     "end": 440.166
     },
     {
      "w": "of",
-     "start": 405.517,
-     "end": 405.697
+     "start": 440.166,
+     "end": 440.346
     },
     {
      "w": "the",
-     "start": 405.697,
-     "end": 405.837
+     "start": 440.346,
+     "end": 440.486
     },
     {
      "w": "captured",
-     "start": 405.837,
-     "end": 406.177
+     "start": 440.486,
+     "end": 440.846
     },
     {
      "w": "prizes",
-     "start": 406.177,
-     "end": 406.557
+     "start": 440.846,
+     "end": 441.266
     },
     {
      "w": "sank",
-     "start": 406.557,
-     "end": 407.097
+     "start": 441.266,
+     "end": 441.746
     },
     {
      "w": "or",
-     "start": 407.097,
-     "end": 407.677
+     "start": 441.746,
+     "end": 442.306
     },
     {
      "w": "were",
-     "start": 407.677,
-     "end": 407.797
+     "start": 442.306,
+     "end": 442.466
     },
     {
      "w": "driven",
-     "start": 407.797,
-     "end": 408.057
+     "start": 442.466,
+     "end": 442.746
     },
     {
      "w": "onto",
-     "start": 408.057,
-     "end": 408.337
+     "start": 442.746,
+     "end": 443.006
     },
     {
      "w": "the",
-     "start": 408.337,
-     "end": 408.537
+     "start": 443.006,
+     "end": 443.246
     },
     {
      "w": "rocks.",
-     "start": 408.537,
-     "end": 408.777
+     "start": 443.246,
+     "end": 443.506
     },
     {
      "w": "Some",
-     "start": 409.677,
-     "end": 409.717
+     "start": 444.346,
+     "end": 444.506
     },
     {
      "w": "were",
-     "start": 409.717,
-     "end": 409.897
+     "start": 444.506,
+     "end": 444.686
     },
     {
      "w": "retaken",
-     "start": 409.897,
-     "end": 410.257
+     "start": 444.686,
+     "end": 445.046
     },
     {
      "w": "by",
-     "start": 410.257,
-     "end": 410.637
+     "start": 445.046,
+     "end": 445.426
     },
     {
      "w": "their",
-     "start": 410.637,
-     "end": 410.837
+     "start": 445.426,
+     "end": 445.666
     },
     {
      "w": "own",
-     "start": 410.837,
-     "end": 411.057
+     "start": 445.666,
+     "end": 445.866
     },
     {
      "w": "prisoners.",
-     "start": 411.057,
-     "end": 411.297
+     "start": 445.866,
+     "end": 446.126
+    },
+    {
+     "w": "In",
+     "start": 447.186,
+     "end": 447.246
+    },
+    {
+     "w": "the",
+     "start": 447.246,
+     "end": 447.386
+    },
+    {
+     "w": "end,",
+     "start": 447.386,
+     "end": 447.666
+    },
+    {
+     "w": "the",
+     "start": 447.866,
+     "end": 447.906
+    },
+    {
+     "w": "British",
+     "start": 447.906,
+     "end": 448.166
+    },
+    {
+     "w": "burned",
+     "start": 448.166,
+     "end": 448.486
+    },
+    {
+     "w": "or",
+     "start": 448.486,
+     "end": 449.006
+    },
+    {
+     "w": "sank",
+     "start": 449.006,
+     "end": 449.286
+    },
+    {
+     "w": "several",
+     "start": 449.286,
+     "end": 449.766
+    },
+    {
+     "w": "prizes",
+     "start": 449.766,
+     "end": 450.286
+    },
+    {
+     "w": "themselves,",
+     "start": 450.286,
+     "end": 450.686
+    },
+    {
+     "w": "even",
+     "start": 451.506,
+     "end": 451.766
+    },
+    {
+     "w": "the",
+     "start": 451.766,
+     "end": 451.946
+    },
+    {
+     "w": "giant",
+     "start": 451.946,
+     "end": 452.406
+    },
+    {
+     "w": "Sant\u00edsima",
+     "start": 452.406,
+     "end": 453.186
+    },
+    {
+     "w": "Trinidad.",
+     "start": 453.186,
+     "end": 453.486
     }
    ]
   },
   {
    "scene": 45,
    "text": "Collingwood wrote that he would rather fight another battle than pass through such a week again.",
-   "start": 412.337,
-   "end": 417.507,
+   "start": 454.55,
+   "end": 459.923,
    "words": [
     {
      "w": "Collingwood",
-     "start": 412.237,
-     "end": 412.817
+     "start": 454.45,
+     "end": 455.05
     },
     {
      "w": "wrote",
-     "start": 412.817,
-     "end": 412.997
+     "start": 455.05,
+     "end": 455.27
     },
     {
      "w": "that",
-     "start": 412.997,
-     "end": 413.277
+     "start": 455.27,
+     "end": 455.53
     },
     {
      "w": "he",
-     "start": 413.277,
-     "end": 413.437
+     "start": 455.53,
+     "end": 455.67
     },
     {
      "w": "would",
-     "start": 413.437,
-     "end": 413.577
+     "start": 455.67,
+     "end": 455.83
     },
     {
      "w": "rather",
-     "start": 413.577,
-     "end": 413.857
+     "start": 455.83,
+     "end": 456.09
     },
     {
      "w": "fight",
-     "start": 413.857,
-     "end": 414.217
+     "start": 456.09,
+     "end": 456.45
     },
     {
      "w": "another",
-     "start": 414.217,
-     "end": 414.517
+     "start": 456.45,
+     "end": 456.77
     },
     {
      "w": "battle",
-     "start": 414.517,
-     "end": 414.937
+     "start": 456.77,
+     "end": 457.31
     },
     {
      "w": "than",
-     "start": 414.937,
-     "end": 415.637
+     "start": 457.31,
+     "end": 457.95
     },
     {
      "w": "pass",
-     "start": 415.637,
-     "end": 415.937
+     "start": 457.95,
+     "end": 458.23
     },
     {
      "w": "through",
-     "start": 415.937,
-     "end": 416.297
+     "start": 458.23,
+     "end": 458.63
     },
     {
      "w": "such",
-     "start": 416.297,
-     "end": 416.557
+     "start": 458.63,
+     "end": 458.97
     },
     {
      "w": "a",
-     "start": 416.557,
-     "end": 416.757
+     "start": 458.97,
+     "end": 459.13
     },
     {
      "w": "week",
-     "start": 416.757,
-     "end": 416.917
+     "start": 459.13,
+     "end": 459.31
     },
     {
      "w": "again.",
-     "start": 416.917,
-     "end": 417.257
+     "start": 459.31,
+     "end": 459.69
     }
    ]
   },
   {
    "scene": 46,
    "text": "The count. Britain lost about 450 men killed, and not a single ship. The French and Spanish lost around 4,400 killed, and 18 ships captured or destroyed. Only 11 made it back to C\u00e1diz.",
-   "start": 418.197,
-   "end": 433.371,
+   "start": 460.703,
+   "end": 476.366,
    "words": [
     {
      "w": "The",
-     "start": 418.097,
-     "end": 418.277
+     "start": 460.603,
+     "end": 460.803
     },
     {
      "w": "count.",
-     "start": 418.277,
-     "end": 418.477
+     "start": 460.803,
+     "end": 461.003
     },
     {
      "w": "Britain",
-     "start": 419.277,
-     "end": 419.397
+     "start": 462.003,
+     "end": 462.003
     },
     {
      "w": "lost",
-     "start": 419.397,
-     "end": 419.717
+     "start": 462.003,
+     "end": 462.243
     },
     {
      "w": "about",
-     "start": 419.717,
-     "end": 420.077
+     "start": 462.243,
+     "end": 462.623
     },
     {
      "w": "450",
-     "start": 420.077,
-     "end": 420.537
+     "start": 462.623,
+     "end": 463.063
     },
     {
      "w": "men",
-     "start": 420.537,
-     "end": 421.597
+     "start": 463.063,
+     "end": 464.143
     },
     {
      "w": "killed,",
-     "start": 421.597,
-     "end": 421.937
+     "start": 464.143,
+     "end": 464.503
     },
     {
      "w": "and",
-     "start": 421.937,
-     "end": 422.477
+     "start": 464.503,
+     "end": 465.043
     },
     {
      "w": "not",
-     "start": 422.477,
-     "end": 422.677
+     "start": 465.043,
+     "end": 465.243
     },
     {
      "w": "a",
-     "start": 422.677,
-     "end": 422.777
+     "start": 465.243,
+     "end": 465.363
     },
     {
      "w": "single",
-     "start": 422.777,
-     "end": 423.037
+     "start": 465.363,
+     "end": 465.603
     },
     {
      "w": "ship.",
-     "start": 423.037,
-     "end": 423.497
+     "start": 465.603,
+     "end": 466.083
     },
     {
      "w": "The",
-     "start": 424.297,
-     "end": 424.357
+     "start": 466.903,
+     "end": 466.983
     },
     {
      "w": "French",
-     "start": 424.357,
-     "end": 424.597
+     "start": 466.983,
+     "end": 467.223
     },
     {
      "w": "and",
-     "start": 424.597,
-     "end": 424.837
+     "start": 467.223,
+     "end": 467.463
     },
     {
      "w": "Spanish",
-     "start": 424.837,
-     "end": 425.297
+     "start": 467.463,
+     "end": 467.943
     },
     {
      "w": "lost",
-     "start": 425.297,
-     "end": 425.657
+     "start": 467.943,
+     "end": 468.283
     },
     {
      "w": "around",
-     "start": 425.657,
-     "end": 425.997
+     "start": 468.283,
+     "end": 468.603
     },
     {
      "w": "4,400",
-     "start": 425.997,
-     "end": 426.857
+     "start": 468.603,
+     "end": 469.443
     },
     {
      "w": "killed,",
-     "start": 426.857,
-     "end": 427.797
+     "start": 469.443,
+     "end": 470.543
     },
     {
      "w": "and",
-     "start": 427.797,
-     "end": 428.397
+     "start": 470.543,
+     "end": 471.143
     },
     {
      "w": "18",
-     "start": 428.397,
-     "end": 428.577
+     "start": 471.143,
+     "end": 471.343
     },
     {
      "w": "ships",
-     "start": 428.577,
-     "end": 429.077
+     "start": 471.343,
+     "end": 471.823
     },
     {
      "w": "captured",
-     "start": 429.077,
-     "end": 429.557
+     "start": 471.823,
+     "end": 472.343
     },
     {
      "w": "or",
-     "start": 429.557,
-     "end": 429.917
+     "start": 472.343,
+     "end": 472.723
     },
     {
      "w": "destroyed.",
-     "start": 429.917,
-     "end": 430.257
+     "start": 472.723,
+     "end": 473.063
     },
     {
      "w": "Only",
-     "start": 431.457,
-     "end": 431.457
+     "start": 474.303,
+     "end": 474.323
     },
     {
      "w": "11",
-     "start": 431.457,
-     "end": 431.877
+     "start": 474.323,
+     "end": 474.743
     },
     {
      "w": "made",
-     "start": 431.877,
-     "end": 432.157
+     "start": 474.743,
+     "end": 475.063
     },
     {
      "w": "it",
-     "start": 432.157,
-     "end": 432.297
+     "start": 475.063,
+     "end": 475.203
     },
     {
      "w": "back",
-     "start": 432.297,
-     "end": 432.477
+     "start": 475.203,
+     "end": 475.403
     },
     {
      "w": "to",
-     "start": 432.477,
-     "end": 432.677
+     "start": 475.403,
+     "end": 475.603
     },
     {
      "w": "C\u00e1diz.",
-     "start": 432.677,
-     "end": 433.371
+     "start": 475.603,
+     "end": 476.366
     }
    ]
   },
   {
    "scene": 47,
-   "text": "Napoleon had won a great victory at Ulm the day before. He kept Trafalgar secret for weeks.",
-   "start": 433.946,
-   "end": 439.89,
+   "text": "Napoleon had won a great victory at Ulm the day before. He kept Trafalgar secret for weeks. When the news finally broke in Paris, the newspapers called it a great French victory.",
+   "start": 477.016,
+   "end": 489.031,
    "words": [
     {
      "w": "Napoleon",
-     "start": 433.846,
-     "end": 434.266
+     "start": 476.916,
+     "end": 477.376
     },
     {
      "w": "had",
-     "start": 434.266,
-     "end": 434.706
+     "start": 477.376,
+     "end": 477.796
     },
     {
      "w": "won",
-     "start": 434.706,
-     "end": 434.906
+     "start": 477.796,
+     "end": 478.016
     },
     {
      "w": "a",
-     "start": 434.906,
-     "end": 435.006
+     "start": 478.016,
+     "end": 478.136
     },
     {
      "w": "great",
-     "start": 435.006,
-     "end": 435.266
+     "start": 478.136,
+     "end": 478.376
     },
     {
      "w": "victory",
-     "start": 435.266,
-     "end": 435.726
+     "start": 478.376,
+     "end": 478.876
     },
     {
      "w": "at",
-     "start": 435.726,
-     "end": 435.986
+     "start": 478.876,
+     "end": 479.116
     },
     {
      "w": "Ulm",
-     "start": 435.986,
-     "end": 436.246
+     "start": 479.116,
+     "end": 479.396
     },
     {
      "w": "the",
-     "start": 436.246,
-     "end": 436.426
+     "start": 479.396,
+     "end": 479.596
     },
     {
      "w": "day",
-     "start": 436.426,
-     "end": 436.566
+     "start": 479.596,
+     "end": 479.756
     },
     {
      "w": "before.",
-     "start": 436.566,
-     "end": 436.886
+     "start": 479.756,
+     "end": 480.076
     },
     {
      "w": "He",
-     "start": 437.686,
-     "end": 437.706
+     "start": 480.956,
+     "end": 480.996
     },
     {
      "w": "kept",
-     "start": 437.706,
-     "end": 437.886
+     "start": 480.996,
+     "end": 481.176
     },
     {
      "w": "Trafalgar",
-     "start": 437.886,
-     "end": 438.686
+     "start": 481.176,
+     "end": 481.996
     },
     {
      "w": "secret",
-     "start": 438.686,
-     "end": 438.866
+     "start": 481.996,
+     "end": 482.176
     },
     {
      "w": "for",
-     "start": 438.866,
-     "end": 439.246
+     "start": 482.176,
+     "end": 482.536
     },
     {
      "w": "weeks.",
-     "start": 439.246,
-     "end": 439.506
+     "start": 482.536,
+     "end": 482.816
+    },
+    {
+     "w": "When",
+     "start": 483.676,
+     "end": 483.796
+    },
+    {
+     "w": "the",
+     "start": 483.796,
+     "end": 483.916
+    },
+    {
+     "w": "news",
+     "start": 483.916,
+     "end": 484.056
+    },
+    {
+     "w": "finally",
+     "start": 484.056,
+     "end": 484.656
+    },
+    {
+     "w": "broke",
+     "start": 484.656,
+     "end": 485.056
+    },
+    {
+     "w": "in",
+     "start": 485.056,
+     "end": 485.316
+    },
+    {
+     "w": "Paris,",
+     "start": 485.316,
+     "end": 485.716
+    },
+    {
+     "w": "the",
+     "start": 486.296,
+     "end": 486.336
+    },
+    {
+     "w": "newspapers",
+     "start": 486.336,
+     "end": 486.656
+    },
+    {
+     "w": "called",
+     "start": 486.656,
+     "end": 487.336
+    },
+    {
+     "w": "it",
+     "start": 487.336,
+     "end": 487.516
+    },
+    {
+     "w": "a",
+     "start": 487.516,
+     "end": 487.656
+    },
+    {
+     "w": "great",
+     "start": 487.656,
+     "end": 487.876
+    },
+    {
+     "w": "French",
+     "start": 487.876,
+     "end": 488.176
+    },
+    {
+     "w": "victory.",
+     "start": 488.176,
+     "end": 488.596
     }
    ]
   },
   {
    "scene": 48,
    "text": "Villeneuve was released and went home to France. In 1806, he was found dead in an inn, stabbed six times. The official verdict: suicide.",
-   "start": 440.35,
-   "end": 449.903,
+   "start": 489.551,
+   "end": 499.434,
    "words": [
     {
      "w": "Villeneuve",
-     "start": 440.35,
-     "end": 440.79
+     "start": 489.551,
+     "end": 489.991
     },
     {
      "w": "was",
-     "start": 440.79,
-     "end": 441.01
+     "start": 489.991,
+     "end": 490.211
     },
     {
      "w": "released",
-     "start": 441.01,
-     "end": 441.35
+     "start": 490.211,
+     "end": 490.571
     },
     {
      "w": "and",
-     "start": 441.35,
-     "end": 441.73
+     "start": 490.571,
+     "end": 490.931
     },
     {
      "w": "went",
-     "start": 441.73,
-     "end": 441.87
+     "start": 490.931,
+     "end": 491.071
     },
     {
      "w": "home",
-     "start": 441.87,
-     "end": 442.11
+     "start": 491.071,
+     "end": 491.311
     },
     {
      "w": "to",
-     "start": 442.11,
-     "end": 442.35
+     "start": 491.311,
+     "end": 491.571
     },
     {
      "w": "France.",
-     "start": 442.35,
-     "end": 442.67
+     "start": 491.571,
+     "end": 491.871
     },
     {
      "w": "In",
-     "start": 443.51,
-     "end": 443.57
+     "start": 492.751,
+     "end": 492.811
     },
     {
      "w": "1806,",
-     "start": 443.57,
-     "end": 444.13
+     "start": 492.811,
+     "end": 493.391
     },
     {
      "w": "he",
-     "start": 444.13,
-     "end": 444.55
+     "start": 493.751,
+     "end": 493.791
     },
     {
      "w": "was",
-     "start": 444.55,
-     "end": 444.65
+     "start": 493.791,
+     "end": 493.911
     },
     {
      "w": "found",
-     "start": 444.65,
-     "end": 444.91
+     "start": 493.911,
+     "end": 494.151
     },
     {
      "w": "dead",
-     "start": 444.91,
-     "end": 445.23
+     "start": 494.151,
+     "end": 494.531
     },
     {
      "w": "in",
-     "start": 445.23,
-     "end": 445.41
+     "start": 494.531,
+     "end": 494.731
     },
     {
      "w": "an",
-     "start": 445.41,
-     "end": 445.49
+     "start": 494.731,
+     "end": 494.811
     },
     {
      "w": "inn,",
-     "start": 445.49,
-     "end": 445.69
+     "start": 494.811,
+     "end": 495.051
     },
     {
      "w": "stabbed",
-     "start": 445.69,
-     "end": 446.11
+     "start": 495.051,
+     "end": 495.491
     },
     {
      "w": "six",
-     "start": 446.11,
-     "end": 446.61
+     "start": 495.491,
+     "end": 495.991
     },
     {
      "w": "times.",
-     "start": 446.61,
-     "end": 447.11
+     "start": 495.991,
+     "end": 496.591
     },
     {
      "w": "The",
-     "start": 447.67,
-     "end": 447.87
+     "start": 497.191,
+     "end": 497.331
     },
     {
      "w": "official",
-     "start": 447.87,
-     "end": 448.27
+     "start": 497.331,
+     "end": 497.711
     },
     {
      "w": "verdict:",
-     "start": 448.27,
-     "end": 448.61
+     "start": 497.711,
+     "end": 498.051
     },
     {
      "w": "suicide.",
-     "start": 448.61,
-     "end": 449.903
+     "start": 498.051,
+     "end": 499.231
     }
    ]
   },
   {
    "scene": 49,
    "text": "Trafalgar didn't end the war. Six weeks later, Napoleon won his greatest battle, at Austerlitz.",
-   "start": 450.478,
-   "end": 456.898,
+   "start": 500.084,
+   "end": 506.743,
    "words": [
     {
      "w": "Trafalgar",
-     "start": 450.378,
-     "end": 451.018
+     "start": 499.984,
+     "end": 500.644
     },
     {
      "w": "didn't",
-     "start": 451.018,
-     "end": 451.378
+     "start": 500.644,
+     "end": 501.024
     },
     {
      "w": "end",
-     "start": 451.378,
-     "end": 451.538
+     "start": 501.024,
+     "end": 501.184
     },
     {
      "w": "the",
-     "start": 451.538,
-     "end": 451.698
+     "start": 501.184,
+     "end": 501.364
     },
     {
      "w": "war.",
-     "start": 451.698,
-     "end": 452.018
+     "start": 501.364,
+     "end": 501.684
     },
     {
      "w": "Six",
-     "start": 452.838,
-     "end": 452.838
+     "start": 502.384,
+     "end": 502.544
     },
     {
      "w": "weeks",
-     "start": 452.838,
-     "end": 453.118
+     "start": 502.544,
+     "end": 502.824
     },
     {
      "w": "later,",
-     "start": 453.118,
-     "end": 453.578
+     "start": 502.824,
+     "end": 503.284
     },
     {
      "w": "Napoleon",
-     "start": 453.858,
-     "end": 454.118
+     "start": 503.584,
+     "end": 503.824
     },
     {
      "w": "won",
-     "start": 454.118,
-     "end": 454.598
+     "start": 503.824,
+     "end": 504.344
     },
     {
      "w": "his",
-     "start": 454.598,
-     "end": 454.818
+     "start": 504.344,
+     "end": 504.544
     },
     {
      "w": "greatest",
-     "start": 454.818,
-     "end": 455.058
+     "start": 504.544,
+     "end": 504.804
     },
     {
      "w": "battle,",
-     "start": 455.058,
-     "end": 455.658
+     "start": 504.804,
+     "end": 505.404
     },
     {
      "w": "at",
-     "start": 455.658,
-     "end": 455.958
+     "start": 505.404,
+     "end": 505.744
     },
     {
      "w": "Austerlitz.",
-     "start": 455.958,
-     "end": 456.618
+     "start": 505.744,
+     "end": 506.464
     }
    ]
   },
   {
    "scene": 50,
    "text": "But it settled who ruled the sea. For the rest of the century, no fleet seriously challenged the Royal Navy.",
-   "start": 457.358,
-   "end": 464.147,
+   "start": 507.263,
+   "end": 514.278,
    "words": [
     {
      "w": "But",
-     "start": 457.258,
-     "end": 457.438
+     "start": 507.163,
+     "end": 507.343
     },
     {
      "w": "it",
-     "start": 457.438,
-     "end": 457.518
+     "start": 507.343,
+     "end": 507.423
     },
     {
      "w": "settled",
-     "start": 457.518,
-     "end": 457.778
+     "start": 507.423,
+     "end": 507.683
     },
     {
      "w": "who",
-     "start": 457.778,
-     "end": 458.098
+     "start": 507.683,
+     "end": 508.023
     },
     {
      "w": "ruled",
-     "start": 458.098,
-     "end": 458.338
+     "start": 508.023,
+     "end": 508.283
     },
     {
      "w": "the",
-     "start": 458.338,
-     "end": 458.618
+     "start": 508.283,
+     "end": 508.543
     },
     {
      "w": "sea.",
-     "start": 458.618,
-     "end": 458.858
+     "start": 508.543,
+     "end": 508.803
     },
     {
      "w": "For",
-     "start": 459.718,
-     "end": 459.738
+     "start": 509.723,
+     "end": 509.743
     },
     {
      "w": "the",
-     "start": 459.738,
-     "end": 459.838
+     "start": 509.743,
+     "end": 509.863
     },
     {
      "w": "rest",
-     "start": 459.838,
-     "end": 460.018
+     "start": 509.863,
+     "end": 510.023
     },
     {
      "w": "of",
-     "start": 460.018,
-     "end": 460.218
+     "start": 510.023,
+     "end": 510.223
     },
     {
      "w": "the",
-     "start": 460.218,
-     "end": 460.318
+     "start": 510.223,
+     "end": 510.323
     },
     {
      "w": "century,",
-     "start": 460.318,
-     "end": 460.798
+     "start": 510.323,
+     "end": 510.843
     },
     {
      "w": "no",
-     "start": 461.218,
-     "end": 461.338
+     "start": 511.303,
+     "end": 511.383
     },
     {
      "w": "fleet",
-     "start": 461.338,
-     "end": 461.638
+     "start": 511.383,
+     "end": 511.703
     },
     {
      "w": "seriously",
-     "start": 461.638,
-     "end": 462.158
+     "start": 511.703,
+     "end": 512.263
     },
     {
      "w": "challenged",
-     "start": 462.158,
-     "end": 462.878
+     "start": 512.263,
+     "end": 512.983
     },
     {
      "w": "the",
-     "start": 462.878,
-     "end": 463.218
+     "start": 512.983,
+     "end": 513.323
     },
     {
      "w": "Royal",
-     "start": 463.218,
-     "end": 463.418
+     "start": 513.323,
+     "end": 513.523
     },
     {
      "w": "Navy.",
-     "start": 463.418,
-     "end": 463.818
+     "start": 513.523,
+     "end": 513.943
     }
    ]
   },
   {
    "scene": 51,
    "text": "And Nelson came home, in a barrel of brandy, to a hero's funeral at St Paul's.",
-   "start": 464.664,
-   "end": 469.84,
+   "start": 514.863,
+   "end": 520.182,
    "words": [
     {
      "w": "And",
-     "start": 464.564,
-     "end": 464.764
+     "start": 514.763,
+     "end": 514.963
     },
     {
      "w": "Nelson",
-     "start": 464.764,
-     "end": 464.924
+     "start": 514.963,
+     "end": 515.123
     },
     {
      "w": "came",
-     "start": 464.924,
-     "end": 465.324
+     "start": 515.123,
+     "end": 515.543
     },
     {
      "w": "home,",
-     "start": 465.324,
-     "end": 465.684
+     "start": 515.543,
+     "end": 515.883
     },
     {
      "w": "in",
-     "start": 465.684,
-     "end": 466.104
+     "start": 515.883,
+     "end": 516.363
     },
     {
      "w": "a",
-     "start": 466.104,
-     "end": 466.144
+     "start": 516.363,
+     "end": 516.423
     },
     {
      "w": "barrel",
-     "start": 466.144,
-     "end": 466.464
+     "start": 516.423,
+     "end": 516.723
     },
     {
      "w": "of",
-     "start": 466.464,
-     "end": 466.644
+     "start": 516.723,
+     "end": 516.903
     },
     {
      "w": "brandy,",
-     "start": 466.644,
-     "end": 467.164
+     "start": 516.903,
+     "end": 517.463
     },
     {
      "w": "to",
-     "start": 467.164,
-     "end": 467.644
+     "start": 517.463,
+     "end": 517.943
     },
     {
      "w": "a",
-     "start": 467.644,
-     "end": 467.764
+     "start": 517.943,
+     "end": 518.043
     },
     {
      "w": "hero's",
-     "start": 467.764,
-     "end": 468.344
+     "start": 518.043,
+     "end": 518.623
     },
     {
      "w": "funeral",
-     "start": 468.344,
-     "end": 468.504
+     "start": 518.623,
+     "end": 518.783
     },
     {
      "w": "at",
-     "start": 468.504,
-     "end": 468.964
+     "start": 518.783,
+     "end": 519.263
     },
     {
      "w": "St",
-     "start": 468.964,
-     "end": 469.124
+     "start": 519.263,
+     "end": 519.423
     },
     {
      "w": "Paul's.",
-     "start": 469.344,
-     "end": 469.724
+     "start": 519.683,
+     "end": 520.063
     }
    ]
   },
   {
    "scene": 52,
    "text": "So, was Trafalgar won by Nelson's genius, or by Villeneuve's fear? Tell me in the comments, and subscribe to Buried Chronicles.",
-   "start": 470.415,
-   "end": 478.619,
+   "start": 520.832,
+   "end": 529.252,
    "words": [
     {
      "w": "So,",
-     "start": 470.315,
-     "end": 470.615
+     "start": 520.732,
+     "end": 521.032
     },
     {
      "w": "was",
-     "start": 470.795,
-     "end": 470.915
+     "start": 521.212,
+     "end": 521.372
     },
     {
      "w": "Trafalgar",
-     "start": 470.915,
-     "end": 471.535
+     "start": 521.372,
+     "end": 521.992
     },
     {
      "w": "won",
-     "start": 471.535,
-     "end": 471.755
+     "start": 521.992,
+     "end": 522.212
     },
     {
      "w": "by",
-     "start": 471.755,
-     "end": 472.035
+     "start": 522.212,
+     "end": 522.492
     },
     {
      "w": "Nelson's",
-     "start": 472.035,
-     "end": 472.555
+     "start": 522.492,
+     "end": 523.072
     },
     {
      "w": "genius,",
-     "start": 472.555,
-     "end": 472.815
+     "start": 523.072,
+     "end": 523.292
     },
     {
      "w": "or",
-     "start": 472.815,
-     "end": 473.415
+     "start": 523.292,
+     "end": 523.992
     },
     {
      "w": "by",
-     "start": 473.415,
-     "end": 473.675
+     "start": 523.992,
+     "end": 524.252
     },
     {
      "w": "Villeneuve's",
-     "start": 473.675,
-     "end": 474.375
+     "start": 524.252,
+     "end": 524.932
     },
     {
      "w": "fear?",
-     "start": 474.375,
-     "end": 474.595
+     "start": 524.932,
+     "end": 525.152
     },
     {
      "w": "Tell",
-     "start": 475.375,
-     "end": 475.495
+     "start": 526.012,
+     "end": 526.092
     },
     {
      "w": "me",
-     "start": 475.495,
-     "end": 475.675
+     "start": 526.092,
+     "end": 526.272
     },
     {
      "w": "in",
-     "start": 475.675,
-     "end": 475.795
+     "start": 526.272,
+     "end": 526.392
     },
     {
      "w": "the",
-     "start": 475.795,
-     "end": 475.875
+     "start": 526.392,
+     "end": 526.472
     },
     {
      "w": "comments,",
-     "start": 475.875,
-     "end": 476.155
+     "start": 526.472,
+     "end": 526.772
     },
     {
      "w": "and",
-     "start": 476.155,
-     "end": 476.615
+     "start": 526.772,
+     "end": 527.232
     },
     {
      "w": "subscribe",
-     "start": 476.615,
-     "end": 476.975
+     "start": 527.232,
+     "end": 527.592
     },
     {
      "w": "to",
-     "start": 476.975,
-     "end": 477.395
+     "start": 527.592,
+     "end": 528.032
     },
     {
      "w": "Buried",
-     "start": 477.395,
-     "end": 477.795
+     "start": 528.032,
+     "end": 528.452
     },
     {
      "w": "Chronicles.",
-     "start": 477.795,
-     "end": 478.095
+     "start": 528.452,
+     "end": 528.672
     }
    ]
   }

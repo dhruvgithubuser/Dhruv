@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { AbsoluteFill, Img, continueRender, delayRender, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { C, HEAD, MONO, SANS, SERIF, TYPE, ease, hash01, lin, noise1 } from './theme';
+import { C, H, HEAD, MONO, SANS, SERIF, TYPE, W, ease, hash01, lin, noise1 } from './theme';
 
 /* ───────────── fonts / stage ───────────── */
 const css = [300, 400, 600, 800].map((w) => `@font-face{font-family:'Inter';src:url('${staticFile(`assets/fonts/Inter-${w}.woff2`)}') format('woff2');font-weight:${w};}`).join('')
@@ -116,7 +116,7 @@ export const Stamp: React.FC<{ text: string; at: number; x: number; y: number; s
   if (k <= 0) return null;
   return (
     <div style={{ position: 'absolute', left: x, top: y, transform: `translate(-50%,-50%) rotate(${rot}deg) scale(${2.2 - 1.2 * k})`, opacity: Math.min(1, k * 2) * 0.92,
-      fontFamily: HEAD, fontWeight: 700, fontSize: size, letterSpacing: 4, color, border: `${Math.max(4, size / 11)}px solid ${color}`, padding: `${size * 0.05}px ${size * 0.3}px`, whiteSpace: 'nowrap', textTransform: 'uppercase', mixBlendMode: 'multiply', borderRadius: 6 }}>{text}</div>
+      fontFamily: HEAD, fontWeight: 700, fontSize: size, letterSpacing: 4, color, border: `${Math.max(4, size / 11)}px solid ${color}`, padding: `${size * 0.05}px ${size * 0.3}px`, whiteSpace: 'nowrap', textTransform: 'uppercase', background: 'rgba(242,234,214,0.94)', borderRadius: 6, boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>{text}</div>
   );
 };
 
@@ -154,6 +154,12 @@ export const ICONS: Record<string, React.FC<IP>> = {
   sleigh: ({ c = C.red }) => (<g><path d="M18 40 L70 40 Q80 40 80 56 L80 66 L24 66 Q16 66 18 40 Z" fill={c} /><path d="M10 80 L84 80 Q96 80 94 66" fill="none" stroke={C.charcoal} strokeWidth="5" strokeLinecap="round" /><path d="M30 66 L30 80 M66 66 L66 80" stroke={C.charcoal} strokeWidth="4" /><rect x="22" y="22" width="22" height="20" rx="4" fill={C.charcoal} /></g>),
   bridge: ({ c = '#7a5a36' }) => (<g><rect x="4" y="44" width="92" height="9" fill={c} />{[12, 30, 48, 66, 84].map((x) => <rect key={x} x={x} y="52" width="6" height="30" fill={c} />)}<path d="M2 84 Q14 78 26 84 T50 84 T74 84 T98 84" fill="none" stroke="#5d7fa6" strokeWidth="5" /></g>),
   skull: ({ c = '#efe6d2' }) => (<g><path d="M50 10 Q84 10 84 44 Q84 60 72 66 L72 80 L28 80 L28 66 Q16 60 16 44 Q16 10 50 10 Z" fill={c} stroke={C.charcoal} strokeWidth="3" /><circle cx="36" cy="44" r="9" fill={C.charcoal} /><circle cx="64" cy="44" r="9" fill={C.charcoal} /><path d="M46 58 L50 50 L54 58 Z" fill={C.charcoal} /><path d="M38 80 L38 70 M50 80 L50 70 M62 80 L62 70" stroke={C.charcoal} strokeWidth="3" /></g>),
+  redcoat: ({ c = '#b3261e' }) => (<g><path d="M36 20 Q36 4 50 4 Q64 4 64 20 L70 22 L30 22 Z" fill="#f2efe6" stroke={C.charcoal} strokeWidth="2" /><circle cx="50" cy="29" r="8" fill="#d8b393" /><path d="M34 38 Q50 33 66 38 L64 70 L36 70 Z" fill={c} /><rect x="36" y="58" width="28" height="4" fill="#f2efe6" /><rect x="38" y="70" width="10" height="27" fill="#1f2433" /><rect x="52" y="70" width="10" height="27" fill="#1f2433" /><rect x="68" y="4" width="4" height="74" fill="#5a3d24" transform="rotate(6 70 40)" /></g>),
+  warrior: ({ c = '#3a2a1e' }) => (<g><rect x="60" y="2" width="4" height="70" fill="#6b4a2e" transform="rotate(10 62 40)" /><path d="M62 2 L58 14 L66 14 Z" fill="#9aa0a6" transform="rotate(10 62 40)" /><ellipse cx="42" cy="50" rx="24" ry="44" fill="#f2efe6" stroke={C.charcoal} strokeWidth="3" /><path d="M30 24 Q38 30 34 44 Q28 40 30 24 Z M48 56 Q58 62 52 78 Q44 70 48 56 Z M32 64 Q38 66 36 76 Q30 72 32 64 Z" fill={c} /><rect x="40" y="8" width="4" height="84" fill="#6b4a2e" /></g>),
+  sack: ({ c = '#d9c48f' }) => (<g><path d="M18 30 Q14 92 50 92 Q86 92 82 30 Q66 22 50 26 Q34 22 18 30 Z" fill={c} stroke={C.charcoal} strokeWidth="3" /><path d="M30 26 Q50 8 70 26" fill="none" stroke={C.charcoal} strokeWidth="4" /><text x="50" y="68" textAnchor="middle" fontFamily="Courier Prime" fontWeight="700" fontSize="16" fill={C.charcoal}>MEALIE</text></g>),
+  box: ({ c = '#a77a45' }) => (<g><rect x="12" y="26" width="76" height="58" fill={c} stroke={C.charcoal} strokeWidth="3" /><path d="M12 45 L88 45 M12 65 L88 65" stroke={C.charcoal} strokeWidth="2" /><text x="50" y="60" textAnchor="middle" fontFamily="Courier Prime" fontWeight="700" fontSize="13" fill={C.charcoal}>BISCUIT</text></g>),
+  vc: ({ c = '#8a6a3a' }) => (<g><rect x="38" y="2" width="24" height="30" fill="#8c1d2c" /><rect x="34" y="30" width="32" height="6" fill={c} /><path d="M50 40 L58 46 Q66 44 72 38 Q70 52 74 60 Q70 68 72 82 Q66 76 58 74 L50 80 L42 74 Q34 76 28 82 Q30 68 26 60 Q30 52 28 38 Q34 44 42 46 Z" fill={c} stroke="#4a3518" strokeWidth="2" /><circle cx="50" cy="60" r="10" fill="#a8844a" stroke="#4a3518" strokeWidth="2" /></g>),
+  clock: ({ c = '#f6f0e2' }) => (<g><circle cx="50" cy="52" r="40" fill={c} stroke={C.charcoal} strokeWidth="5" /><path d="M50 52 L50 24 M50 52 L70 60" stroke={C.charcoal} strokeWidth="6" strokeLinecap="round" /><rect x="42" y="4" width="16" height="8" fill={C.charcoal} /></g>),
   eagle: ({ c = '#c9a13b' }) => (<g fill={c} stroke={C.charcoal} strokeWidth="2"><path d="M50 30 Q42 14 30 18 Q20 22 6 14 Q12 34 28 40 Q14 42 8 52 Q26 52 36 48 L40 70 L34 88 L50 80 L66 88 L60 70 L64 48 Q74 52 92 52 Q86 42 72 40 Q88 34 94 14 Q80 22 70 18 Q58 14 50 30 Z" /><circle cx="50" cy="26" r="7" /></g>),
 };
 /** An icon placed on the canvas with a white paper-cut edge; pops in. */
@@ -267,11 +273,11 @@ export const Mark: React.FC<{ at: number; x: number; y: number; s?: number; ok?:
 export const Particles: React.FC<{ kind: 'snow' | 'embers' | 'ash'; n?: number; o?: number }> = ({ kind, n = 90, o = 1 }) => {
   const f = useCurrentFrame();
   return (
-    <svg width={1920} height={1080} style={{ position: 'absolute', inset: 0, opacity: o, pointerEvents: 'none' }}>
+    <svg width={W} height={H} style={{ position: 'absolute', inset: 0, opacity: o, pointerEvents: 'none' }}>
       {Array.from({ length: n }, (_, i) => {
         const sp = kind === 'embers' ? -(1.2 + hash01(i, 3) * 2) : 1 + hash01(i, 3) * 2.4;
-        const x = (hash01(i, 1) * 2100 + f * (kind === 'snow' ? 0.9 : 0.4) + 40 * Math.sin(f / 40 + i)) % 2000 - 40;
-        const y = ((hash01(i, 2) * 1200 + f * sp) % 1200 + 1200) % 1200 - 60;
+        const x = (hash01(i, 1) * (W + 180) + f * (kind === 'snow' ? 0.9 : 0.4) + 40 * Math.sin(f / 40 + i)) % (W + 80) - 40;
+        const y = ((hash01(i, 2) * (H + 120) + f * sp) % (H + 120) + H + 120) % (H + 120) - 60;
         const r = kind === 'snow' ? 2 + hash01(i, 4) * 5 : 1.5 + hash01(i, 4) * 3;
         const col = kind === 'snow' ? '#fbfaf6' : kind === 'embers' ? (i % 2 ? '#ffb347' : '#ff6a1a') : '#5a534a';
         return <circle key={i} cx={x} cy={y} r={r} fill={col} opacity={kind === 'embers' ? 0.5 + 0.5 * Math.sin(f / 5 + i) : 0.85} />;
@@ -282,11 +288,11 @@ export const Particles: React.FC<{ kind: 'snow' | 'embers' | 'ash'; n?: number; 
 
 /** Bold word-chunk captions (as in the Valkyrie Short), lower third. */
 export const BigCaption: React.FC<{ words: { w: string; start: number }[]; t: number; keys: Set<string>; k: number }> = ({ words, t, keys, k }) => (
-  <div style={{ position: 'absolute', left: 140, right: 140, bottom: 70, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0 16px', transform: `scale(${0.92 + 0.08 * k})`, opacity: Math.min(1, k * 1.6) }}>
+  <div style={{ position: 'absolute', left: 70, right: 70, top: 1270, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0 18px', transform: `scale(${0.92 + 0.08 * k})`, opacity: Math.min(1, k * 1.6) }}>
     {words.map((w, i) => {
       const on = t >= w.start - 0.03;
       const key = keys.has(w.w.toLowerCase().replace(/[^a-z0-9,]/g, '').replace(/,$/, ''));
-      return <span key={i} style={{ fontFamily: SANS, fontWeight: 800, fontSize: key ? 66 : 58, lineHeight: 1.12, textTransform: 'uppercase', color: on ? (key ? C.gold : '#fff') : 'rgba(255,255,255,0.5)', WebkitTextStroke: '8px #1d1b19', paintOrder: 'stroke fill', textShadow: '0 6px 18px rgba(0,0,0,0.7)' }}>{w.w}</span>;
+      return <span key={i} style={{ fontFamily: SANS, fontWeight: 800, fontSize: key ? 86 : 76, lineHeight: 1.1, textTransform: 'uppercase', color: on ? (key ? C.gold : '#fff') : 'rgba(255,255,255,0.5)', WebkitTextStroke: '10px #1d1b19', paintOrder: 'stroke fill', textShadow: '0 6px 18px rgba(0,0,0,0.7)' }}>{w.w}</span>;
     })}
   </div>
 );
