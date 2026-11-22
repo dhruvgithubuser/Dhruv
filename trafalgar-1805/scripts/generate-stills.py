@@ -14,7 +14,7 @@ from huggingface_hub import hf_hub_download
 
 STYLE = ", cinematic film still, Napoleonic era 1805, 35mm film, dramatic natural light, highly detailed, photorealistic"
 NEG = ("painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, frame, border, "
-       "modern ship, steel ship, modern clothing, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, duplicate, split image")
+       "modern ship, steel ship, steamship, battleship, funnel, smokestack, electric lamp, picture frame, framed, modern clothing, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, duplicate, split image")
 SHOTS = {
     "t01_fleet_dawn": ("fleet of wooden ships of the line under full sail at dawn on a calm sea, golden light, sailing warships", 7001),
     "t02_headland": ("rocky headland on the coast of southern Spain at dawn, calm sea, tiny sailing warships far on the horizon", 7002),
@@ -40,21 +40,21 @@ SHOTS = {
     "t22_breakthrough": ("great three-deck wooden warship under full sail cutting through a line of enemy ships, firing both sides, thick smoke", 7022),
     "t23_dismasted": ("dismasted wooden warship with broken masts and wreckage, still flying a British flag, cannon smoke around", 7023),
     "t24_wheel": ("shattered ship's wheel on the quarterdeck of a wooden warship, splinters and smoke, damage", 7024),
-    "t25_raking": ("wooden warship firing a broadside into the stern of another ship at close range, huge muzzle flashes, smoke", 7025),
+    "t25_raking": ("two old wooden sailing ships of the line with tall masts and canvas sails at close range, one firing a broadside of cannons into the carved wooden stern of the other, orange muzzle flashes, white smoke, 1805", 7125),
     "t26_locked": ("two wooden warships locked together side by side, rigging tangled, sailors fighting on deck, smoke", 7026),
     "t27_marksman": ("French marksman in the fighting top of a warship mast aiming a musket down at the deck below, smoke, ropes", 7027),
     "t28_admiral_falls": ("officers rushing to a fallen admiral in a blue coat on the deck of a wooden warship, smoke, chaos", 7028),
     "t29_cockpit": ("dim lower deck of a wooden warship lit by lanterns, wounded sailors lying in rows, a surgeon working", 7029),
     "t30_boarders": ("sailors with cutlasses and muskets crowding the rail ready to board an enemy ship, smoke, chaos", 7030),
     "t31_surrender": ("flag being lowered on a battered wooden warship, smoke clearing, defeated sailors", 7031),
-    "t32_giant_ship": ("enormous four-deck Spanish warship painted red and black firing all its guns in battle, smoke", 7032),
+    "t32_giant_ship": ("enormous old wooden Spanish sailing ship of the line with four rows of gun ports, three tall masts and full canvas sails, hull painted dark red and black, firing its cannons in battle, white smoke, 1805", 7132),
     "t33_sail_away": ("group of wooden sailing warships sailing away from a distant battle, smoke on the horizon", 7033),
     "t34_explosion": ("wooden warship exploding in a huge fireball at sea, debris flying, smoke, late afternoon", 7034),
-    "t35_storm": ("wooden sailing warships with broken masts tossed in a violent storm at night, huge waves, lightning", 7035),
+    "t35_storm": ("real photograph style, wooden sailing warships with broken masts tossed by huge waves in a violent storm at night, rain, lightning, dark sea, full frame", 7135),
     "t36_wreck": ("wrecked wooden warship broken on rocks near a coast in a storm, survivors clinging to the rocks", 7036),
     "t37_after_storm": ("calm sea at dawn after a storm with floating debris and a battered warship, quiet, mist", 7037),
     "t38_ulm": ("Napoleon on horseback receiving surrendering Austrian officers in white uniforms, autumn, army behind", 7038),
-    "t39_inn": ("small dim French inn room at night with a single candle and an empty bed, sinister, quiet", 7039),
+    "t39_inn": ("rustic 1806 French country inn bedroom at night, rough stone walls, wooden beams, a simple wooden bed, a single tallow candle on a wooden table, deep shadows, sinister, no electric lamps", 7139),
     "t40_austerlitz": ("Napoleonic battlefield in winter fog at sunrise, columns of soldiers advancing, frost", 7040),
     "t41_ship_home": ("single great wooden warship with damaged rigging sailing home into an English harbour under grey sky, flags at half mast", 7041),
     "t42_fleet_glory": ("fleet of British wooden warships sailing on a sunny sea with Union flags flying, proud, wide view", 7042),
