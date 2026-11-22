@@ -28,7 +28,7 @@ SHOTS = {
     "t10_cadiz": ("white walled harbour city of Cadiz in Spain with many wooden warships at anchor, evening light", 7010),
     "t11_army_march": ("Napoleonic French army columns marching away along a dusty country road inland, seen from behind, banners", 7011),
     "t12_frigate": ("fast sailing frigate on watch off a coastline at dusk, a lookout with a telescope in the rigging", 7012),
-    "t13_gun_deck_crew": ("crowded dark gun deck of an old wooden warship with nervous young inexperienced sailors beside cannons, lantern light", 7013),
+    "t13_gun_deck_crew": ("dark lower gun deck of an 1805 wooden warship with a long row of black iron cannons, young sailors in striped shirts and neckerchiefs crouching nervously beside the guns, lantern light, low ceiling beams", 7113),
     "t14_letter": ("French admiral in uniform reading a letter by candlelight in his ship cabin, shocked expression", 7014),
     "t15_leave_harbour": ("line of wooden warships slowly leaving a harbour in very light wind, sails hanging half full, calm water", 7015),
     "t16_line_battle": ("two parallel lines of wooden sailing warships firing broadsides at each other, white cannon smoke, wide view", 7016),
