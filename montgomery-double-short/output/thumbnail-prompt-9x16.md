@@ -30,7 +30,7 @@ misspelled text, extra words, gibberish letters, watermark, logo, peaked cap, mo
 ```
 
 ## Tips
-- The text **"THE FAKE GENERAL"** pairs with the title **"Montgomery's Body Double: Did He Fool Hitler? (1944)"** (lint 98) without repeating its words, the same way the reference pairs its thumbnail with its title.
+- **Title pairing:** with the recommended title **"The Fake General Who Tried to Fool Hitler (1944)"** (vidIQ 90), change the two big lines to **"MONTY'S"** (silver) and **"DOUBLE"** (red), so the cover doesn't repeat the title. Keep **"THE FAKE GENERAL"** only if you use the alternative title "Montgomery's Body Double: Did He Fool Hitler? (1944)" (vidIQ 86).
 - Monty's 1944 look was the **black beret with two badges**. If the tool draws a peaked cap, reply: *"Change the cap to a soft black beret with two small badges, keep everything else."*
 - If a word is misspelled, reply: *"Keep everything the same, only fix the text to read exactly: THE FAKE GENERAL"*.
 - At feed size the 3 big words must stay readable. If the top line looks cluttered, drop "THE PAY CLERK WHO BECAME".
