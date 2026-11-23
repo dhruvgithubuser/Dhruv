@@ -27,8 +27,8 @@ SHOTS = {
     "g07_phone": ('Spanish man in a 1940s dark suit making a secret call from an old wall telephone in a dim bar, glancing over his shoulder, 1944', 6072),
     "g08_algiers": ('a lean British army general in his fifties with a thin face, sharp pointed nose, small grey moustache, soft black beret worn tilted, with two small cap badges on the beret, khaki battledress stepping out of a staff car in a sunlit North African city street, white buildings, palm trees, crowds and press photographers, 1944', 6081),
     "g08_cairo": ('a lonely man in a white shirt sitting in a shuttered room in Cairo, slatted light through the blinds, ceiling fan, waiting, 1944', 6082),
-    "g09_generals": ('German army generals in grey 1944 uniforms studying a large map in a concrete bunker headquarters, harsh lamp light', 6091),
-    "g10_desk": ('middle-aged British lieutenant with a thin face and small grey moustache sitting back at a plain office desk with ledgers, alone, grey afternoon light, 1944', 6101),
+    "g09_generals": ("three bare-headed older German Wehrmacht generals in grey-green 1944 field uniforms with red collar patches and Iron Cross medals, studying a large map of France on a table in a concrete bunker, harsh lamp light", 6093),
+    "g10_desk": ('middle-aged British lieutenant with a thin face and small grey moustache sitting back at a plain office desk with ledgers, alone, grey afternoon light, 1944', 6103),
 }
 
 out = Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)
