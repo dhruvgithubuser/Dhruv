@@ -162,7 +162,7 @@ const S01: React.FC = () => {
       <Dim />
       <Slate at={4} place="GENERAL MONTGOMERY?" date="MAY 1944 · DAYS BEFORE D-DAY" out={pc} />
       <Verdict at={pc} text="A PAY CLERK" y={330} rot={-6} />
-      <RealPhoto at={pc + 8} y={640} />
+      <RealPhoto at={pc + 8} y={430} />
     </AbsoluteFill>
   );
 };
