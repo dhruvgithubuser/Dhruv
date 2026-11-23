@@ -266,7 +266,7 @@ const S08: React.FC = () => {
       <Shot name="g08_cairo" from={va} to={end(8)} />
       <Dim />
       <Slate at={4} place="ALGIERS" date="CROWDS · CAMERAS" out={va} />
-      <Chips top={480} items={[{ at: wf(8, 'wilson'), t: 'GEN. MAITLAND WILSON' }]} />
+      <Chips top={480} items={[{ at: wf(8, 'wilson'), t: 'GEN. MAITLAND WILSON' }]} out={va} />
       <Slate at={va + 4} place="CAIRO" date="HIDDEN UNTIL D-DAY" />
     </AbsoluteFill>
   );
