@@ -1,0 +1,1197 @@
+{
+ "fps": 30,
+ "duration": 78.212,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're looking at Britain's top general, days before D-Day. It's a pay clerk. Why would Britain fake its own general?",
+   "start": 0.35,
+   "end": 6.921,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.45
+    },
+    {
+     "w": "looking",
+     "start": 0.45,
+     "end": 0.65
+    },
+    {
+     "w": "at",
+     "start": 0.65,
+     "end": 0.81
+    },
+    {
+     "w": "Britain's",
+     "start": 0.81,
+     "end": 1.21
+    },
+    {
+     "w": "top",
+     "start": 1.21,
+     "end": 1.41
+    },
+    {
+     "w": "general,",
+     "start": 1.41,
+     "end": 1.75
+    },
+    {
+     "w": "days",
+     "start": 1.75,
+     "end": 2.25
+    },
+    {
+     "w": "before",
+     "start": 2.25,
+     "end": 2.63
+    },
+    {
+     "w": "D-Day.",
+     "start": 2.63,
+     "end": 3.65
+    },
+    {
+     "w": "It's",
+     "start": 3.65,
+     "end": 3.71
+    },
+    {
+     "w": "a",
+     "start": 3.71,
+     "end": 3.77
+    },
+    {
+     "w": "pay",
+     "start": 3.77,
+     "end": 3.97
+    },
+    {
+     "w": "clerk.",
+     "start": 3.97,
+     "end": 4.27
+    },
+    {
+     "w": "Why",
+     "start": 4.99,
+     "end": 5.11
+    },
+    {
+     "w": "would",
+     "start": 5.11,
+     "end": 5.29
+    },
+    {
+     "w": "Britain",
+     "start": 5.29,
+     "end": 5.51
+    },
+    {
+     "w": "fake",
+     "start": 5.51,
+     "end": 5.79
+    },
+    {
+     "w": "its",
+     "start": 5.79,
+     "end": 6.03
+    },
+    {
+     "w": "own",
+     "start": 6.03,
+     "end": 6.25
+    },
+    {
+     "w": "general?",
+     "start": 6.25,
+     "end": 6.61
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Britain wanted German eyes on the Mediterranean, not Normandy. So it borrowed Montgomery's face.",
+   "start": 7.321,
+   "end": 13.305,
+   "words": [
+    {
+     "w": "Britain",
+     "start": 7.221,
+     "end": 7.481
+    },
+    {
+     "w": "wanted",
+     "start": 7.481,
+     "end": 7.761
+    },
+    {
+     "w": "German",
+     "start": 7.761,
+     "end": 8.141
+    },
+    {
+     "w": "eyes",
+     "start": 8.141,
+     "end": 8.601
+    },
+    {
+     "w": "on",
+     "start": 8.601,
+     "end": 8.861
+    },
+    {
+     "w": "the",
+     "start": 8.861,
+     "end": 8.961
+    },
+    {
+     "w": "Mediterranean,",
+     "start": 8.961,
+     "end": 9.281
+    },
+    {
+     "w": "not",
+     "start": 10.061,
+     "end": 10.221
+    },
+    {
+     "w": "Normandy.",
+     "start": 10.221,
+     "end": 10.621
+    },
+    {
+     "w": "So",
+     "start": 11.121,
+     "end": 11.421
+    },
+    {
+     "w": "it",
+     "start": 11.421,
+     "end": 11.501
+    },
+    {
+     "w": "borrowed",
+     "start": 11.501,
+     "end": 11.761
+    },
+    {
+     "w": "Montgomery's",
+     "start": 11.761,
+     "end": 12.741
+    },
+    {
+     "w": "face.",
+     "start": 12.741,
+     "end": 12.981
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Lieutenant Clifton James was an actor, stuck counting money in the Army Pay Corps. Then a newspaper photo showed he was Monty's twin.",
+   "start": 13.625,
+   "end": 21.341,
+   "words": [
+    {
+     "w": "Lieutenant",
+     "start": 13.525,
+     "end": 13.865
+    },
+    {
+     "w": "Clifton",
+     "start": 13.865,
+     "end": 14.325
+    },
+    {
+     "w": "James",
+     "start": 14.325,
+     "end": 14.525
+    },
+    {
+     "w": "was",
+     "start": 14.525,
+     "end": 14.945
+    },
+    {
+     "w": "an",
+     "start": 14.945,
+     "end": 15.065
+    },
+    {
+     "w": "actor,",
+     "start": 15.065,
+     "end": 15.445
+    },
+    {
+     "w": "stuck",
+     "start": 15.945,
+     "end": 16.065
+    },
+    {
+     "w": "counting",
+     "start": 16.065,
+     "end": 16.465
+    },
+    {
+     "w": "money",
+     "start": 16.465,
+     "end": 16.785
+    },
+    {
+     "w": "in",
+     "start": 16.785,
+     "end": 17.065
+    },
+    {
+     "w": "the",
+     "start": 17.065,
+     "end": 17.165
+    },
+    {
+     "w": "Army",
+     "start": 17.165,
+     "end": 17.405
+    },
+    {
+     "w": "Pay",
+     "start": 17.405,
+     "end": 17.665
+    },
+    {
+     "w": "Corps.",
+     "start": 17.665,
+     "end": 17.985
+    },
+    {
+     "w": "Then",
+     "start": 18.725,
+     "end": 18.745
+    },
+    {
+     "w": "a",
+     "start": 18.745,
+     "end": 18.845
+    },
+    {
+     "w": "newspaper",
+     "start": 18.845,
+     "end": 19.085
+    },
+    {
+     "w": "photo",
+     "start": 19.085,
+     "end": 19.605
+    },
+    {
+     "w": "showed",
+     "start": 19.605,
+     "end": 20.005
+    },
+    {
+     "w": "he",
+     "start": 20.005,
+     "end": 20.165
+    },
+    {
+     "w": "was",
+     "start": 20.165,
+     "end": 20.265
+    },
+    {
+     "w": "Monty's",
+     "start": 20.265,
+     "end": 20.845
+    },
+    {
+     "w": "twin.",
+     "start": 20.845,
+     "end": 21.045
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "There were problems. Monty never drank or smoked. James did both. And he'd lost a finger in the First World War, so they made him a fake one.",
+   "start": 21.661,
+   "end": 29.852,
+   "words": [
+    {
+     "w": "There",
+     "start": 21.561,
+     "end": 21.741
+    },
+    {
+     "w": "were",
+     "start": 21.741,
+     "end": 21.861
+    },
+    {
+     "w": "problems.",
+     "start": 21.861,
+     "end": 22.281
+    },
+    {
+     "w": "Monty",
+     "start": 22.941,
+     "end": 23.101
+    },
+    {
+     "w": "never",
+     "start": 23.101,
+     "end": 23.321
+    },
+    {
+     "w": "drank",
+     "start": 23.321,
+     "end": 23.561
+    },
+    {
+     "w": "or",
+     "start": 23.561,
+     "end": 23.941
+    },
+    {
+     "w": "smoked.",
+     "start": 23.941,
+     "end": 24.181
+    },
+    {
+     "w": "James",
+     "start": 25.121,
+     "end": 25.121
+    },
+    {
+     "w": "did",
+     "start": 25.121,
+     "end": 25.501
+    },
+    {
+     "w": "both.",
+     "start": 25.501,
+     "end": 25.801
+    },
+    {
+     "w": "And",
+     "start": 26.341,
+     "end": 26.481
+    },
+    {
+     "w": "he'd",
+     "start": 26.481,
+     "end": 26.661
+    },
+    {
+     "w": "lost",
+     "start": 26.661,
+     "end": 26.801
+    },
+    {
+     "w": "a",
+     "start": 26.801,
+     "end": 27.001
+    },
+    {
+     "w": "finger",
+     "start": 27.001,
+     "end": 27.221
+    },
+    {
+     "w": "in",
+     "start": 27.221,
+     "end": 27.461
+    },
+    {
+     "w": "the",
+     "start": 27.461,
+     "end": 27.541
+    },
+    {
+     "w": "First",
+     "start": 27.541,
+     "end": 27.761
+    },
+    {
+     "w": "World",
+     "start": 27.761,
+     "end": 28.021
+    },
+    {
+     "w": "War,",
+     "start": 28.021,
+     "end": 28.361
+    },
+    {
+     "w": "so",
+     "start": 28.561,
+     "end": 28.641
+    },
+    {
+     "w": "they",
+     "start": 28.641,
+     "end": 28.741
+    },
+    {
+     "w": "made",
+     "start": 28.741,
+     "end": 28.921
+    },
+    {
+     "w": "him",
+     "start": 28.921,
+     "end": 29.101
+    },
+    {
+     "w": "a",
+     "start": 29.101,
+     "end": 29.161
+    },
+    {
+     "w": "fake",
+     "start": 29.161,
+     "end": 29.381
+    },
+    {
+     "w": "one.",
+     "start": 29.381,
+     "end": 29.661
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "He studied the real Monty up close, posing as a reporter, learning his walk and his voice.",
+   "start": 30.172,
+   "end": 35.561,
+   "words": [
+    {
+     "w": "He",
+     "start": 30.072,
+     "end": 30.232
+    },
+    {
+     "w": "studied",
+     "start": 30.232,
+     "end": 30.472
+    },
+    {
+     "w": "the",
+     "start": 30.472,
+     "end": 30.652
+    },
+    {
+     "w": "real",
+     "start": 30.652,
+     "end": 30.972
+    },
+    {
+     "w": "Monty",
+     "start": 30.972,
+     "end": 31.172
+    },
+    {
+     "w": "up",
+     "start": 31.172,
+     "end": 31.552
+    },
+    {
+     "w": "close,",
+     "start": 31.552,
+     "end": 31.812
+    },
+    {
+     "w": "posing",
+     "start": 32.272,
+     "end": 32.632
+    },
+    {
+     "w": "as",
+     "start": 32.632,
+     "end": 32.872
+    },
+    {
+     "w": "a",
+     "start": 32.872,
+     "end": 32.912
+    },
+    {
+     "w": "reporter,",
+     "start": 32.912,
+     "end": 33.332
+    },
+    {
+     "w": "learning",
+     "start": 33.812,
+     "end": 33.972
+    },
+    {
+     "w": "his",
+     "start": 33.972,
+     "end": 34.272
+    },
+    {
+     "w": "walk",
+     "start": 34.272,
+     "end": 34.572
+    },
+    {
+     "w": "and",
+     "start": 34.572,
+     "end": 34.792
+    },
+    {
+     "w": "his",
+     "start": 34.792,
+     "end": 34.912
+    },
+    {
+     "w": "voice.",
+     "start": 34.912,
+     "end": 35.212
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "In late May, he flew to Gibraltar on Churchill's own plane. Reportedly, it circled for an hour, so he could sober up from smuggled gin.",
+   "start": 35.841,
+   "end": 43.991,
+   "words": [
+    {
+     "w": "In",
+     "start": 35.741,
+     "end": 35.901
+    },
+    {
+     "w": "late",
+     "start": 35.901,
+     "end": 36.061
+    },
+    {
+     "w": "May,",
+     "start": 36.061,
+     "end": 36.301
+    },
+    {
+     "w": "he",
+     "start": 36.621,
+     "end": 36.641
+    },
+    {
+     "w": "flew",
+     "start": 36.641,
+     "end": 36.821
+    },
+    {
+     "w": "to",
+     "start": 36.821,
+     "end": 37.021
+    },
+    {
+     "w": "Gibraltar",
+     "start": 37.021,
+     "end": 37.201
+    },
+    {
+     "w": "on",
+     "start": 37.201,
+     "end": 37.821
+    },
+    {
+     "w": "Churchill's",
+     "start": 37.821,
+     "end": 38.381
+    },
+    {
+     "w": "own",
+     "start": 38.381,
+     "end": 38.561
+    },
+    {
+     "w": "plane.",
+     "start": 38.561,
+     "end": 38.801
+    },
+    {
+     "w": "Reportedly,",
+     "start": 39.901,
+     "end": 40.201
+    },
+    {
+     "w": "it",
+     "start": 40.361,
+     "end": 40.401
+    },
+    {
+     "w": "circled",
+     "start": 40.401,
+     "end": 40.621
+    },
+    {
+     "w": "for",
+     "start": 40.621,
+     "end": 41.021
+    },
+    {
+     "w": "an",
+     "start": 41.021,
+     "end": 41.101
+    },
+    {
+     "w": "hour,",
+     "start": 41.101,
+     "end": 41.421
+    },
+    {
+     "w": "so",
+     "start": 41.821,
+     "end": 41.941
+    },
+    {
+     "w": "he",
+     "start": 41.941,
+     "end": 42.061
+    },
+    {
+     "w": "could",
+     "start": 42.061,
+     "end": 42.201
+    },
+    {
+     "w": "sober",
+     "start": 42.201,
+     "end": 42.441
+    },
+    {
+     "w": "up",
+     "start": 42.441,
+     "end": 42.761
+    },
+    {
+     "w": "from",
+     "start": 42.761,
+     "end": 42.961
+    },
+    {
+     "w": "smuggled",
+     "start": 42.961,
+     "end": 43.321
+    },
+    {
+     "w": "gin.",
+     "start": 43.321,
+     "end": 43.681
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "At breakfast, the governor talked about secret plans, in front of a Spanish visitor known to spy for Germany. He crossed the border to call his handler.",
+   "start": 44.351,
+   "end": 52.679,
+   "words": [
+    {
+     "w": "At",
+     "start": 44.251,
+     "end": 44.431
+    },
+    {
+     "w": "breakfast,",
+     "start": 44.431,
+     "end": 44.771
+    },
+    {
+     "w": "the",
+     "start": 45.071,
+     "end": 45.111
+    },
+    {
+     "w": "governor",
+     "start": 45.111,
+     "end": 45.331
+    },
+    {
+     "w": "talked",
+     "start": 45.331,
+     "end": 45.651
+    },
+    {
+     "w": "about",
+     "start": 45.651,
+     "end": 45.991
+    },
+    {
+     "w": "secret",
+     "start": 45.991,
+     "end": 46.311
+    },
+    {
+     "w": "plans,",
+     "start": 46.311,
+     "end": 46.811
+    },
+    {
+     "w": "in",
+     "start": 47.431,
+     "end": 47.471
+    },
+    {
+     "w": "front",
+     "start": 47.471,
+     "end": 47.631
+    },
+    {
+     "w": "of",
+     "start": 47.631,
+     "end": 47.771
+    },
+    {
+     "w": "a",
+     "start": 47.771,
+     "end": 47.851
+    },
+    {
+     "w": "Spanish",
+     "start": 47.851,
+     "end": 48.131
+    },
+    {
+     "w": "visitor",
+     "start": 48.131,
+     "end": 48.591
+    },
+    {
+     "w": "known",
+     "start": 48.591,
+     "end": 48.891
+    },
+    {
+     "w": "to",
+     "start": 48.891,
+     "end": 49.191
+    },
+    {
+     "w": "spy",
+     "start": 49.191,
+     "end": 49.411
+    },
+    {
+     "w": "for",
+     "start": 49.411,
+     "end": 49.731
+    },
+    {
+     "w": "Germany.",
+     "start": 49.731,
+     "end": 49.971
+    },
+    {
+     "w": "He",
+     "start": 50.851,
+     "end": 50.891
+    },
+    {
+     "w": "crossed",
+     "start": 50.891,
+     "end": 51.091
+    },
+    {
+     "w": "the",
+     "start": 51.091,
+     "end": 51.311
+    },
+    {
+     "w": "border",
+     "start": 51.311,
+     "end": 51.491
+    },
+    {
+     "w": "to",
+     "start": 51.491,
+     "end": 51.711
+    },
+    {
+     "w": "call",
+     "start": 51.711,
+     "end": 51.891
+    },
+    {
+     "w": "his",
+     "start": 51.891,
+     "end": 52.091
+    },
+    {
+     "w": "handler.",
+     "start": 52.091,
+     "end": 52.351
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Then Algiers. Crowds, cameras, a meeting with General Wilson. Then the double vanished, hidden in Cairo until D-Day.",
+   "start": 52.999,
+   "end": 59.866,
+   "words": [
+    {
+     "w": "Then",
+     "start": 52.899,
+     "end": 53.119
+    },
+    {
+     "w": "Algiers.",
+     "start": 53.119,
+     "end": 53.579
+    },
+    {
+     "w": "Crowds,",
+     "start": 53.579,
+     "end": 54.199
+    },
+    {
+     "w": "cameras,",
+     "start": 54.199,
+     "end": 54.679
+    },
+    {
+     "w": "a",
+     "start": 54.679,
+     "end": 54.679
+    },
+    {
+     "w": "meeting",
+     "start": 54.679,
+     "end": 55.379
+    },
+    {
+     "w": "with",
+     "start": 55.379,
+     "end": 55.619
+    },
+    {
+     "w": "General",
+     "start": 55.619,
+     "end": 55.839
+    },
+    {
+     "w": "Wilson.",
+     "start": 55.839,
+     "end": 56.139
+    },
+    {
+     "w": "Then",
+     "start": 57.079,
+     "end": 57.079
+    },
+    {
+     "w": "the",
+     "start": 57.079,
+     "end": 57.219
+    },
+    {
+     "w": "double",
+     "start": 57.219,
+     "end": 57.419
+    },
+    {
+     "w": "vanished,",
+     "start": 57.419,
+     "end": 57.799
+    },
+    {
+     "w": "hidden",
+     "start": 58.159,
+     "end": 58.279
+    },
+    {
+     "w": "in",
+     "start": 58.279,
+     "end": 58.479
+    },
+    {
+     "w": "Cairo",
+     "start": 58.479,
+     "end": 58.739
+    },
+    {
+     "w": "until",
+     "start": 58.739,
+     "end": 59.259
+    },
+    {
+     "w": "D-Day.",
+     "start": 59.259,
+     "end": 59.866
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Did it work? Captured German generals said they believed it was Monty, but guessed it was a trick. Historians find no sign it changed their plans.",
+   "start": 60.226,
+   "end": 68.68,
+   "words": [
+    {
+     "w": "Did",
+     "start": 60.126,
+     "end": 60.326
+    },
+    {
+     "w": "it",
+     "start": 60.326,
+     "end": 60.366
+    },
+    {
+     "w": "work?",
+     "start": 60.366,
+     "end": 60.546
+    },
+    {
+     "w": "Captured",
+     "start": 61.226,
+     "end": 61.406
+    },
+    {
+     "w": "German",
+     "start": 61.406,
+     "end": 61.686
+    },
+    {
+     "w": "generals",
+     "start": 61.686,
+     "end": 62.226
+    },
+    {
+     "w": "said",
+     "start": 62.226,
+     "end": 62.526
+    },
+    {
+     "w": "they",
+     "start": 62.526,
+     "end": 62.646
+    },
+    {
+     "w": "believed",
+     "start": 62.646,
+     "end": 62.986
+    },
+    {
+     "w": "it",
+     "start": 62.986,
+     "end": 63.226
+    },
+    {
+     "w": "was",
+     "start": 63.226,
+     "end": 63.366
+    },
+    {
+     "w": "Monty,",
+     "start": 63.366,
+     "end": 63.846
+    },
+    {
+     "w": "but",
+     "start": 64.206,
+     "end": 64.286
+    },
+    {
+     "w": "guessed",
+     "start": 64.286,
+     "end": 64.466
+    },
+    {
+     "w": "it",
+     "start": 64.466,
+     "end": 64.686
+    },
+    {
+     "w": "was",
+     "start": 64.686,
+     "end": 64.806
+    },
+    {
+     "w": "a",
+     "start": 64.806,
+     "end": 64.886
+    },
+    {
+     "w": "trick.",
+     "start": 64.886,
+     "end": 65.126
+    },
+    {
+     "w": "Historians",
+     "start": 65.846,
+     "end": 66.306
+    },
+    {
+     "w": "find",
+     "start": 66.306,
+     "end": 66.646
+    },
+    {
+     "w": "no",
+     "start": 66.646,
+     "end": 66.926
+    },
+    {
+     "w": "sign",
+     "start": 66.926,
+     "end": 67.306
+    },
+    {
+     "w": "it",
+     "start": 67.306,
+     "end": 67.466
+    },
+    {
+     "w": "changed",
+     "start": 67.466,
+     "end": 67.666
+    },
+    {
+     "w": "their",
+     "start": 67.666,
+     "end": 67.986
+    },
+    {
+     "w": "plans.",
+     "start": 67.986,
+     "end": 68.286
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "James got \u00a310 a day, Monty's pay, then went back to his desk. Genius, or a waste? Tell me below, and follow Buried Chronicles.",
+   "start": 69.04,
+   "end": 77.052,
+   "words": [
+    {
+     "w": "James",
+     "start": 68.94,
+     "end": 69.2
+    },
+    {
+     "w": "got",
+     "start": 69.2,
+     "end": 69.48
+    },
+    {
+     "w": "\u00a310",
+     "start": 69.48,
+     "end": 69.78
+    },
+    {
+     "w": "a",
+     "start": 70.06,
+     "end": 70.24
+    },
+    {
+     "w": "day,",
+     "start": 70.24,
+     "end": 70.4
+    },
+    {
+     "w": "Monty's",
+     "start": 70.4,
+     "end": 70.86
+    },
+    {
+     "w": "pay,",
+     "start": 70.86,
+     "end": 71.02
+    },
+    {
+     "w": "then",
+     "start": 71.3,
+     "end": 71.38
+    },
+    {
+     "w": "went",
+     "start": 71.38,
+     "end": 71.5
+    },
+    {
+     "w": "back",
+     "start": 71.5,
+     "end": 71.74
+    },
+    {
+     "w": "to",
+     "start": 71.74,
+     "end": 71.94
+    },
+    {
+     "w": "his",
+     "start": 71.94,
+     "end": 72.04
+    },
+    {
+     "w": "desk.",
+     "start": 72.04,
+     "end": 72.38
+    },
+    {
+     "w": "Genius,",
+     "start": 72.9,
+     "end": 73.28
+    },
+    {
+     "w": "or",
+     "start": 73.28,
+     "end": 73.64
+    },
+    {
+     "w": "a",
+     "start": 73.64,
+     "end": 73.76
+    },
+    {
+     "w": "waste?",
+     "start": 73.76,
+     "end": 74.02
+    },
+    {
+     "w": "Tell",
+     "start": 74.68,
+     "end": 74.72
+    },
+    {
+     "w": "me",
+     "start": 74.72,
+     "end": 74.88
+    },
+    {
+     "w": "below,",
+     "start": 74.88,
+     "end": 75.16
+    },
+    {
+     "w": "and",
+     "start": 75.16,
+     "end": 75.46
+    },
+    {
+     "w": "follow",
+     "start": 75.46,
+     "end": 75.74
+    },
+    {
+     "w": "Buried",
+     "start": 75.74,
+     "end": 76.28
+    },
+    {
+     "w": "Chronicles.",
+     "start": 76.28,
+     "end": 76.48
+    }
+   ]
+  }
+ ]
+}

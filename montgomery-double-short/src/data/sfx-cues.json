@@ -1,0 +1,182 @@
+[
+ {
+  "file": "plane.wav",
+  "at": 0.0,
+  "volume": 0.35
+ },
+ {
+  "file": "wind.wav",
+  "at": 0.0,
+  "volume": 0.2
+ },
+ {
+  "file": "stamp.wav",
+  "at": 3.77,
+  "volume": 0.55
+ },
+ {
+  "file": "impact.wav",
+  "at": 3.77,
+  "volume": 0.4
+ },
+ {
+  "file": "paper.wav",
+  "at": 7.321,
+  "volume": 0.3
+ },
+ {
+  "file": "ticks.wav",
+  "at": 8.961,
+  "volume": 0.25
+ },
+ {
+  "file": "ticks.wav",
+  "at": 10.221,
+  "volume": 0.25
+ },
+ {
+  "file": "stamp.wav",
+  "at": 12.741,
+  "volume": 0.5
+ },
+ {
+  "file": "ticks.wav",
+  "at": 13.625,
+  "volume": 0.2
+ },
+ {
+  "file": "paper.wav",
+  "at": 18.845,
+  "volume": 0.45
+ },
+ {
+  "file": "impact.wav",
+  "at": 20.845,
+  "volume": 0.4
+ },
+ {
+  "file": "stamp.wav",
+  "at": 21.861,
+  "volume": 0.45
+ },
+ {
+  "file": "ticks.wav",
+  "at": 23.321,
+  "volume": 0.22
+ },
+ {
+  "file": "ticks.wav",
+  "at": 25.501,
+  "volume": 0.22
+ },
+ {
+  "file": "hiss.wav",
+  "at": 29.161,
+  "volume": 0.25
+ },
+ {
+  "file": "paper.wav",
+  "at": 32.912,
+  "volume": 0.35
+ },
+ {
+  "file": "wind.wav",
+  "at": 29.872,
+  "volume": 0.2
+ },
+ {
+  "file": "rumble.wav",
+  "at": 35.541,
+  "volume": 0.4
+ },
+ {
+  "file": "plane.wav",
+  "at": 36.041,
+  "volume": 0.45
+ },
+ {
+  "file": "impact.wav",
+  "at": 39.901,
+  "volume": 0.35
+ },
+ {
+  "file": "ticks.wav",
+  "at": 43.321,
+  "volume": 0.2
+ },
+ {
+  "file": "clock.wav",
+  "at": 44.251,
+  "volume": 0.25
+ },
+ {
+  "file": "impact.wav",
+  "at": 49.191,
+  "volume": 0.45
+ },
+ {
+  "file": "morse.wav",
+  "at": 50.891,
+  "volume": 0.3
+ },
+ {
+  "file": "stamp.wav",
+  "at": 52.091,
+  "volume": 0.45
+ },
+ {
+  "file": "murmur.wav",
+  "at": 52.699,
+  "volume": 0.4
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 57.419,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 57.419,
+  "volume": 0.2
+ },
+ {
+  "file": "rumble.wav",
+  "at": 59.926,
+  "volume": 0.3
+ },
+ {
+  "file": "impact.wav",
+  "at": 60.366,
+  "volume": 0.4
+ },
+ {
+  "file": "ticks.wav",
+  "at": 62.646,
+  "volume": 0.2
+ },
+ {
+  "file": "stamp.wav",
+  "at": 66.926,
+  "volume": 0.5
+ },
+ {
+  "file": "paper.wav",
+  "at": 69.04,
+  "volume": 0.3
+ },
+ {
+  "file": "ticks.wav",
+  "at": 69.48,
+  "volume": 0.2
+ },
+ {
+  "file": "impact.wav",
+  "at": 72.9,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 73.76,
+  "volume": 0.35
+ }
+]
