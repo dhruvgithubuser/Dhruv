@@ -28,6 +28,9 @@ LONG_FILL = 'F2C94C'
 # ---------------------------------------------------------------- data (one row per day)
 # (date, short title, pillar, hook, cover text, linked long video, long video title or '')
 D = dt.date
+# 19 and 22 Nov (Isandlwana cuts) were skipped; Churchill moved up from 30 Nov.
+STATUS = {D(2026,11,15): 'Published', D(2026,11,16): 'Published', D(2026,11,17): 'Published', D(2026,11,18): 'Published', D(2026,11,19): 'Idea',
+          D(2026,11,20): 'Published', D(2026,11,21): 'Published', D(2026,11,22): 'Published', D(2026,11,23): 'Published', D(2026,11,24): 'Produced'}
 ROWS = [
     (D(2026,11,15), "Custer's Last Order: Bring Packs (Little Bighorn 1876)", 'Cut from Long Video', "You're reading the last order Custer ever wrote. Why did nobody come?", 'NOBODY CAME', 'The Trial After Little Bighorn', ''),
     (D(2026,11,16), 'The 1941 Pearl Harbor Quote Yamamoto Never Said', 'History Myths', 'You know the most famous quote about Pearl Harbor. Nobody can find it before 1970.', 'A MOVIE WROTE IT', 'The Trial After Little Bighorn', 'Isandlwana: The Zulu General Who Out-Planned the British Empire'),
@@ -36,23 +39,23 @@ ROWS = [
     (D(2026,11,19), 'The Day the Sun Went Dark Mid-Battle (Isandlwana, 1879)', 'Cut from Long Video', 'You are in a battle with 20,000 warriors. Then the sun goes dark.', 'ECLIPSE', 'Isandlwana', ''),
     (D(2026,11,20), 'The Only Soldier to Kill With a Longbow in WWII', 'Hidden Heroes', 'You went to WWII with a rifle. He brought a longbow, a sword and bagpipes.', 'SWORD. BOW. BAGPIPES.', 'Isandlwana', ''),
     (D(2026,11,21), 'Britain Shot Its Own Admiral (1757)', 'Fatal Mistakes', 'You lose one battle at sea. Your own navy puts you in front of a firing squad.', '"TO ENCOURAGE THE OTHERS"', 'Isandlwana', ''),
-    (D(2026,11,22), 'The Ammunition Box Myth of Isandlwana', 'Cut from Long Video', "You've heard the British lost because of screwed-down ammo boxes. Historians disagree.", 'NOT THE BOXES', 'Isandlwana', ''),
-    (D(2026,11,23), 'Nelson Came Home in a Barrel of Brandy', 'History Myths', "You'd never guess how Britain brought its greatest admiral home from Trafalgar.", "DON'T DRINK IT", 'Isandlwana', ''),
-    (D(2026,11,24), "Montgomery's Body Double Fooled Hitler", 'Hidden Heroes', "You're a German spy in 1944. You just saw Montgomery in Gibraltar. You didn't.", 'THE FAKE GENERAL', 'Isandlwana', ''),
-    (D(2026,11,25), 'Two Officers Died Saving One Flag (Isandlwana)', 'Cut from Long Video', 'You have minutes to escape. They spent them saving a flag.', 'THE QUEEN\'S COLOUR', 'Isandlwana', ''),
-    (D(2026,11,26), "The Kaiser's Insult That Made Britain's Army Famous", 'History Myths', 'You were called a "contemptible little army". So you made it your name.', 'OLD CONTEMPTIBLES', 'Isandlwana', ''),
-    (D(2026,11,27), 'Wellington Called His Own Army "the Scum of the Earth"', 'History Myths', 'You beat Napoleon with this army. Its own general called it scum.', 'SCUM OF THE EARTH', 'Isandlwana', ''),
-    (D(2026,11,28), '"England Expects": Nelson\'s Signal Was a Last-Minute Edit', 'History Myths', "You know Nelson's famous signal. It wasn't what he first wrote.", 'NELSON CONFIDES?', 'The Charge of the Light Brigade', 'The Charge of the Light Brigade: The Order Nobody Understood'),
-    (D(2026,11,29), 'He Led the Light Brigade… Then Had Dinner on His Yacht', 'Cut from Long Video', 'You survive the most famous charge in history. Where do you go next? His yacht.', 'DINNER AFTER', 'The Charge of the Light Brigade', ''),
-    (D(2026,11,30), "Churchill's Wanted Poster: £25, Dead or Alive", 'Hidden Heroes', 'You know Churchill the prime minister. Meet Churchill the escaped prisoner.', 'DEAD OR ALIVE', 'The Charge of the Light Brigade', ''),
-    (D(2026,12,1), '"Attack the Guns": Which Guns? (Light Brigade)', 'Cut from Long Video', 'You get an order to attack "the guns". There are three sets of guns.', 'WHICH GUNS?', 'The Charge of the Light Brigade', ''),
-    (D(2026,12,2), 'The Radar Operators Who Saw Pearl Harbor Coming', 'Fatal Mistakes', "You see 50+ planes on radar. You're told: don't worry about it.", '"DON\'T WORRY"', 'The Charge of the Light Brigade', ''),
-    (D(2026,12,3), "The Pearl Harbor Warning That Came by Western Union", 'Fatal Mistakes', 'You send the most urgent warning of the war. By regular telegram.', 'TOO LATE', 'The Charge of the Light Brigade', ''),
-    (D(2026,12,4), "Orde Wingate: Britain's Strangest General", 'Hidden Heroes', 'You meet your new general. He is eating a raw onion. And he is naked.', 'STRANGEST GENERAL', 'The Charge of the Light Brigade', ''),
-    (D(2026,12,5), 'The Japanese Pilot Who Crash-Landed on Niihau', 'Hidden Heroes', 'You crash on a tiny Hawaiian island. Nobody there knows about Pearl Harbor yet.', 'NIIHAU', 'Pearl Harbor: The Warnings', 'Pearl Harbor: The Warnings That Were Ignored'),
-    (D(2026,12,6), 'The Ship That Still Leaks Oil at Pearl Harbor', 'Cut from Long Video', 'You can still see the USS Arizona bleeding oil, 85 years later.', 'BLACK TEARS', 'Pearl Harbor: The Warnings', ''),
-    (D(2026,12,7), '"Air Raid Pearl Harbor. This Is No Drill."', 'Cut from Long Video', 'You are reading the message that started America\'s war.', 'NO DRILL', 'Pearl Harbor: The Warnings', ''),
-    (D(2026,12,8), "Pearl Harbor's Missing Third Wave", 'Fatal Mistakes', 'You destroyed the battleships. Why did you leave the fuel tanks?', 'NO THIRD WAVE', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,11,22), 'Nelson Came Home in a Barrel of Brandy', 'History Myths', "You're looking at the hero of Trafalgar. He came home in a barrel of brandy.", "DON'T DRINK IT", 'Battle of Trafalgar', 'Battle of Trafalgar Documentary: Nelson\'s Last Battle (1805)'),
+    (D(2026,11,23), "Montgomery's Body Double (Operation Copperhead)", 'Hidden Heroes', "You're looking at Britain's top general, days before D-Day. It's a pay clerk.", 'THE FAKE GENERAL', 'Battle of Trafalgar', ''),
+    (D(2026,11,24), 'Churchill Was Wanted Dead or Alive for £25 (1899)', 'Hidden Heroes', "You're a 25-year-old reporter in 1899. Now you're worth 25 pounds, dead or alive.", 'WHERE DO YOU HIDE?', 'Battle of Trafalgar', ''),
+    (D(2026,11,25), '[US] The Radar Operators Who Saw Pearl Harbor Coming', 'Fatal Mistakes', "You see 50+ planes on radar. You're told: don't worry about it.", '"DON\'T WORRY"', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,11,26), '[US] Teddy Roosevelt Was Shot, Then Gave the Speech Anyway', 'Hidden Heroes', "He's just been shot in the chest. He gives the speech anyway.", 'SHOT. KEPT TALKING.', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,11,27), '[US] The Boston Molasses Flood (1919)', 'Fatal Mistakes', 'A wave of molasses, taller than a house, moving through Boston.', 'DEATH BY MOLASSES', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,11,28), "[US] Booth's Brother Saved Lincoln's Son", 'Hidden Heroes', "The brother of Lincoln's assassin once saved Lincoln's son's life.", 'WRONG BOOTH', 'The Charge of the Light Brigade', 'The Charge of the Light Brigade: The Order Nobody Understood'),
+    (D(2026,11,29), '[UK] "Attack the Guns": Which Guns? (Light Brigade)', 'Cut from Long Video', 'You get an order to attack "the guns". There are three sets of guns.', 'WHICH GUNS?', 'The Charge of the Light Brigade', ''),
+    (D(2026,11,30), "[US] Two Pistols, Both Misfired: Andrew Jackson's Attacker", 'Fatal Mistakes', 'Two pistols, point blank, at the President. Both misfire.', '2 MISFIRES', 'The Charge of the Light Brigade', ''),
+    (D(2026,12,1), '[US] The Pearl Harbor Warning That Came by Western Union', 'Fatal Mistakes', 'You send the most urgent warning of the war. By regular telegram.', 'TOO LATE', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,12,2), '[UK] Two Officers Died Saving One Flag (Isandlwana)', 'Last Stands', 'You have minutes to escape. They spent them saving a flag.', "THE QUEEN'S COLOUR", 'Rorke\'s Drift Short', ''),
+    (D(2026,12,3), '[US] The Famous Iwo Jima Photo Shows the Second Flag', 'History Myths', 'The most famous photo of WWII? It shows the second flag.', 'THE 2ND FLAG', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,12,4), '[US] The Japanese Pilot Who Crash-Landed on Niihau', 'Hidden Heroes', 'You crash on a tiny Hawaiian island. Nobody there knows about Pearl Harbor yet.', 'NIIHAU', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,12,5), '[UK] Wellington Called His Own Army "the Scum of the Earth"', 'History Myths', 'You beat Napoleon with this army. Its own general called it scum.', 'SCUM OF THE EARTH', 'Pearl Harbor: The Warnings', 'Pearl Harbor: The Warnings That Were Ignored'),
+    (D(2026,12,6), '[US] The Ship That Still Leaks Oil at Pearl Harbor', 'Cut from Long Video', 'You can still see the USS Arizona bleeding oil, 85 years later.', 'BLACK TEARS', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,12,7), '[US] "Air Raid Pearl Harbor. This Is No Drill."', 'Cut from Long Video', 'You are reading the message that started America\'s war.', 'NO DRILL', 'Pearl Harbor: The Warnings', ''),
+    (D(2026,12,8), "[US] Pearl Harbor's Missing Third Wave", 'Fatal Mistakes', 'You destroyed the battleships. Why did you leave the fuel tanks?', 'NO THIRD WAVE', 'Pearl Harbor: The Warnings', ''),
     (D(2026,12,9), '740 Men Held the Bridge at Arnhem', 'Last Stands', 'You were told to hold the bridge for two days. Relief never came.', 'A BRIDGE TOO FAR', 'Pearl Harbor: The Warnings', ''),
     (D(2026,12,10), 'Germans in American Uniforms at the Bulge', 'Hidden Heroes', 'You stop a jeep of GIs at a checkpoint. They are German.', 'FAKE GIs', 'Pearl Harbor: The Warnings', ''),
     (D(2026,12,11), 'Wake Island: The Garrison That Sank Japanese Ships', 'Last Stands', 'You have 450 Marines on a tiny island. A Japanese invasion fleet arrives.', 'THEY FIRED BACK', 'Pearl Harbor: The Warnings', ''),
@@ -74,7 +77,7 @@ pl = wb.active; pl.title = 'Daily Plan'
 hdr = ['Date', 'Day', 'Short title', 'Pillar', 'Hook (first 2 s)', 'Cover text', 'Related long video (link in Short)', 'Long video that day',
        'Short time (IST)', 'Short time (EST)', 'YouTube', 'Instagram', 'Facebook', 'TikTok', 'Status', 'YT views (48 h)', 'IG views (48 h)', 'Notes']
 pl['A1'] = 'BURIED CHRONICLES · DAILY PLAN (15 Nov – 14 Dec 2026)'; pl['A1'].font = font(14, True, '8E1B16')
-pl['A2'] = 'Edit the yellow cells (status, views, notes). Titles feed the Calendar sheet automatically. EST = IST − 10:30 (US Eastern Standard Time).'; pl['A2'].font = font(9, False, '7A6B55', True)
+pl['A2'] = 'Edit the yellow cells (status, views, notes). Titles feed the Calendar sheet automatically. EST = IST − 10:30 (US Eastern Standard Time). From 24 Nov: Shorts 10:30 PM IST (5 PM UK / 12 PM New York). [US]/[UK] = main audience; rule: never two [UK] topics in a row, topics must need no background knowledge.'; pl['A2'].font = font(9, False, '7A6B55', True)
 for j, h in enumerate(hdr, 1):
     c = pl.cell(row=4, column=j, value=h); c.font = font(10, True, 'FFFFFF'); c.fill = fill('1D1B19'); c.alignment = center; c.border = box
 for i, (d, title, pillar, hook, cover, rel, lng) in enumerate(ROWS):
@@ -83,12 +86,12 @@ for i, (d, title, pillar, hook, cover, rel, lng) in enumerate(ROWS):
     pl.cell(row=r, column=2, value=f'=TEXT(A{r},"ddd")')
     pl.cell(row=r, column=3, value=title); pl.cell(row=r, column=4, value=pillar); pl.cell(row=r, column=5, value=hook)
     pl.cell(row=r, column=6, value=cover); pl.cell(row=r, column=7, value=rel); pl.cell(row=r, column=8, value=lng)
-    t = dt.time(22, 30) if d == D(2026,11,16) else dt.time(21, 30)
+    t = dt.time(22, 30) if (d == D(2026,11,16) or d >= D(2026,11,24)) else dt.time(21, 30)
     pl.cell(row=r, column=9, value=t).number_format = 'h:mm AM/PM'
     pl.cell(row=r, column=10, value=f'=MOD(I{r}-TIME(10,30,0),1)').number_format = 'h:mm AM/PM'
     for k, v in zip(range(11, 15), ['Same day', 'Next day', 'Next day (auto from IG)', 'Next day']):
         pl.cell(row=r, column=k, value=v)
-    pl.cell(row=r, column=15, value='Published' if d == D(2026,11,15) else 'Planned')
+    pl.cell(row=r, column=15, value=STATUS.get(d, 'Planned'))
     pl.cell(row=r, column=16, value=None); pl.cell(row=r, column=17, value=None); pl.cell(row=r, column=18, value='')
     pf, pc = PILLARS[pillar]
     for j in range(1, 19):
@@ -114,7 +117,7 @@ pl.row_dimensions[4].height = 30
 
 # ================================================================ Long Videos
 lv = wb.create_sheet('Long Videos')
-lv['A1'] = 'LONG VIDEOS · 1 per week · Saturday 7:30 PM IST (9:00 AM EST)'; lv['A1'].font = font(14, True, '8E1B16')
+lv['A1'] = 'LONG VIDEOS · 1 per week · Saturday or Sunday 9:30 PM IST (4 PM UK / 11:00 AM EST)'; lv['A1'].font = font(14, True, '8E1B16')
 lh = ['Publish date', 'Day', 'Title', 'Unique angle', 'Thumbnail text', 'Key beats (verified facts only)', 'Search term to target', 'Cross-link', 'Publish (IST)', 'Publish (EST)', 'Status', 'Views (7 days)', 'Watch hours (7 days)']
 for j, h in enumerate(lh, 1):
     c = lv.cell(row=3, column=j, value=h); c.font = font(10, True, 'FFFFFF'); c.fill = fill('8E1B16'); c.alignment = center; c.border = box
@@ -123,7 +126,7 @@ for i, (d, t, ang, th, beats, kw, xl) in enumerate(LONGS):
     lv.cell(row=r, column=1, value=d).number_format = 'dd mmm yyyy'
     lv.cell(row=r, column=2, value=f'=TEXT(A{r},"dddd")')
     for j, v in zip(range(3, 9), [t, ang, th, beats, kw, xl]): lv.cell(row=r, column=j, value=v)
-    lv.cell(row=r, column=9, value=dt.time(19, 30)).number_format = 'h:mm AM/PM'
+    lv.cell(row=r, column=9, value=dt.time(21, 30)).number_format = 'h:mm AM/PM'
     lv.cell(row=r, column=10, value=f'=MOD(I{r}-TIME(10,30,0),1)').number_format = 'h:mm AM/PM'
     lv.cell(row=r, column=11, value='Planned')
     for j in range(1, 14):
@@ -182,7 +185,7 @@ for k, t in enumerate(['A Short beats 10,000 views → make 2 more on the same f
 ca = wb.create_sheet('Calendar', 0)
 ca.sheet_view.showGridLines = False
 ca['A1'] = 'BURIED CHRONICLES · CONTENT CALENDAR'; ca['A1'].font = font(20, True, '8E1B16')
-ca['A2'] = '15 November – 14 December 2026  ·  1 Short every day (9:30 PM IST / 11:00 AM EST)  ·  1 long video a week (7:30 PM IST / 9:00 AM EST)'; ca['A2'].font = font(10, False, '4D4F43')
+ca['A2'] = '15 November – 14 December 2026  ·  1 Short every day (10:30 PM IST / 12:00 PM EST from 24 Nov)  ·  1 long video a week (weekend 9:30 PM IST / 11:00 AM EST)'; ca['A2'].font = font(10, False, '4D4F43')
 ca['A3'] = 'This calendar reads from the Daily Plan sheet: change a title or pillar there and it updates here.'; ca['A3'].font = font(9, False, '7A6B55', True)
 days = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY']
 for j, dname in enumerate(days):
