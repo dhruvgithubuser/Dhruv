@@ -13,7 +13,7 @@ from diffusers import AutoencoderKL, LCMScheduler, StableDiffusionPipeline
 from huggingface_hub import hf_hub_download
 
 STYLE = ", cinematic film still, 1879 Anglo-Zulu War period drama, 35mm film, dramatic natural light, highly detailed, photorealistic"
-NEG = ("painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, frame, border, "
+NEG = ("sombrero, women, female, pyramids, painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, frame, border, "
        "modern clothing, modern building, car, airplane, steel helmet, camouflage, tank, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, corpse, duplicate, split image")
 SHOTS = {
     "i01_mountain_dawn": ('the sphinx-shaped rocky crag of Isandlwana mountain rising above the rolling grassy plains of Zululand at dawn, mist in the valleys, golden light, epic wide landscape', 9001),
@@ -33,10 +33,10 @@ SHOTS = {
     "i15_valley_hidden": ('thousands of Zulu warriors with tall oval cowhide shields and short stabbing spears, wearing traditional headdresses and cow-tail ornaments sitting silently in a deep grassy valley, shields resting on the ground, no fires, early morning mist, hidden', 9015),
     "i16_night_march": ('British infantry in red tunics, white foreign-service helmets and Martini-Henry rifles marching out of a camp in the dark before dawn, lanterns, silhouettes against a pale sky, 1879', 9016),
     "i17_pulleine": ('a British lieutenant colonel with a moustache in a red tunic and white helmet standing among white bell tents, reading a note, worried, 1879', 9017),
-    "i18_durnford": ('a British colonel with a long drooping moustache, his left arm hanging stiff, riding at the head of African mounted troops in yellow cord uniforms with carbines, grassland, 1879', 9018),
+    "i18_durnford": ('a Victorian British army colonel with a long drooping moustache in a dark blue patrol jacket and white sun helmet, riding a brown horse at the head of a column of African mounted troops with carbines, grassland, 1879', 9118),
     "i19_patrol": ('mounted colonial troopers in dark uniforms and slouch hats riding over a high grassy plateau, scanning the horizon, 1879', 9019),
     "i20_discovery": ('mounted troopers on horses at the edge of a deep valley, looking down in shock at thousands of Zulu warriors with tall oval cowhide shields and short stabbing spears, wearing traditional headdresses and cow-tail ornaments rising up from the grass below', 9020),
-    "i21_warriors_rise": ('close-up of Zulu warriors with tall oval cowhide shields and short stabbing spears, wearing traditional headdresses and cow-tail ornaments rising from the long grass with shields raised, dust, fierce determined faces, intense', 9021),
+    "i21_warriors_rise": ('close-up of Zulu warriors with tall oval cowhide shields and short stabbing spears, wearing traditional headdresses and cow-tail ornaments rising from the long grass with shields raised, dust, fierce determined faces, intense, adult male warriors, muscular men', 9121),
     "i22_horns_run": ('Zulu warriors with tall oval cowhide shields and short stabbing spears, wearing traditional headdresses and cow-tail ornaments running at full speed across a grassy plain in a long curving line, flanking, dust trail, aerial-like wide shot', 9022),
     "i23_firing_line": ('British infantry in red tunics, white foreign-service helmets and Martini-Henry rifles spread far apart in a long thin firing line in open grassland, firing toward a distant dark mass of warriors, gunsmoke, wide shot', 9023),
     "i24_rocket": ('British soldiers firing a Hale war rocket from a trough on a grassy slope, bright smoke trail across the sky, 1879', 9024),
@@ -51,7 +51,7 @@ SHOTS = {
     "i33_flight": ('men on foot and on horseback fleeing down a steep rocky ravine toward a river, 1879, dust and panic', 9033),
     "i34_river": ('a flooded fast-flowing brown river between rocks, men and horses struggling to cross, spray, 1879', 9034),
     "i35_colour": ('two young British officers on horseback galloping down a rocky slope, one carrying a furled regimental colour in a leather case, 1879', 9035),
-    "i36_dusk_field": ('a silent battlefield at dusk below a sphinx-shaped rocky mountain, overturned ox wagons and torn tents, smoke rising, crows circling', 9036),
+    "i36_dusk_field": ('a silent abandoned battlefield at dusk below a large rocky crag, overturned wooden ox wagons, collapsed torn canvas bell tents, thin smoke rising, crows circling, grassland', 9136),
     "i37_chelmsford_return": ('a British general and British infantry in red tunics, white foreign-service helmets and Martini-Henry rifles arriving at dusk at a destroyed camp, shocked faces, torn tents, 1879', 9037),
     "i38_rorkes": ('a small mission station with a thatched roof and a stone cattle kraal at night, barricades of biscuit boxes and grain sacks, fires, 1879', 9038),
     "i39_zulu_return": ('exhausted Zulu warriors with tall oval cowhide shields and short stabbing spears, wearing traditional headdresses and cow-tail ornaments walking home across hills at sunset, some carrying captured rifles, 1879', 9039),
