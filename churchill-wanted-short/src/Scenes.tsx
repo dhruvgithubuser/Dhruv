@@ -171,7 +171,7 @@ const Poster: React.FC<{ stamp?: number; push?: number }> = ({ stamp, push = 0.0
         <div style={{ position: 'relative', fontFamily: HEAD, fontWeight: 700, fontSize: 70, color: C.red, letterSpacing: 6, marginTop: 0 }}>DEAD OR ALIVE</div>
         <div style={{ position: 'relative', fontFamily: TYPE, fontSize: 22, color: 'rgba(42,26,12,0.7)', marginTop: 16, letterSpacing: 2 }}>PRETORIA · DECEMBER 1899</div>
       </div>
-      {stamp !== undefined && <Verdict at={stamp} text="DEAD OR ALIVE" y={560} rot={-9} />}
+      {stamp !== undefined && <Verdict at={stamp} text="DEAD OR ALIVE" y={1150} rot={-7} />}
       <div style={{ position: 'absolute', left: 40, bottom: 330, fontFamily: TYPE, fontWeight: 700, fontSize: 20, letterSpacing: 3, color: 'rgba(246,236,212,0.6)' }}>STYLISED · BASED ON THE 1899 REWARD NOTICE · PHOTO: CHURCHILL, 1900</div>
     </AbsoluteFill>
   );
@@ -208,12 +208,9 @@ const Route: React.FC<{ at: number; dur?: number }> = ({ at, dur = 90 }) => {
 
 // S01 hook: the reward notice from frame 0.
 const S01: React.FC = () => {
-  const f = useCurrentFrame();
-  const hd = wf(1, 'hide');
   return (
     <AbsoluteFill style={{ background: '#000' }}>
       <Poster stamp={wf(1, 'dead')} push={0.1} />
-      {f >= hd && <Verdict at={hd} text="WHERE DO YOU HIDE?" color={C.gold} y={300} rot={-4} />}
     </AbsoluteFill>
   );
 };
