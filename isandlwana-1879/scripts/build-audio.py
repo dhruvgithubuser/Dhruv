@@ -1,4 +1,4 @@
-"""Sound effects for "Trafalgar 1805" (long video). The music is the creator's own track, not generated.
+"""Sound effects for "Isandlwana" (long video). The music is the creator's own track, not generated.
 """
 import json
 import subprocess
@@ -24,7 +24,7 @@ def ph(n):
 
 
 S = {1: 0.0}
-for n in range(2, 53):
+for n in range(2, 74):
     S[n] = ph(n)[0]["start"] - 0.3
 
 
@@ -546,30 +546,52 @@ def bowstring():
     return np.sin(2 * np.pi * 95 * tm) * np.exp(-tm / 0.12) * 0.8 + bp(rng.standard_normal(n), 800, 3000) * np.exp(-tm / 0.03) * 0.5
 
 
+def shields(length=6.0, bpm=96):
+    """Thousands of spears beaten on cowhide shields: layered low hide thumps on a steady pulse."""
+    n = int(length * SR); out = np.zeros(n); beat = 60.0 / bpm
+    for k in range(int(length / beat)):
+        for layer in range(14):
+            at = k * beat + rng.normal(0, 0.018)
+            if at < 0:
+                continue
+            m = int(0.16 * SR); tm = t_(m)
+            hit = bp(rng.standard_normal(m), 90, 900) * np.exp(-tm / 0.035) * (0.5 + 0.5 * rng.random())
+            i = int(at * SR); j = min(n, i + m); out[i:j] += hit[: j - i]
+    return reverb(out / (np.abs(out).max() + 1e-9), 1.6, 1.2, 0.25)
+
+
 def main():
     """Sound effects only. The music bed is the creator's own track (public/assets/music/score.mp3): never generated or overwritten here."""
-    files = {"wind.wav": wind(8.0), "paper.wav": paper(), "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000),
-             "volley.wav": volley(6, 0.6), "musket.wav": musket(), "explosion.wav": explosion(), "fire.wav": fire(10.0), "waves.wav": waves(8.0),
-             "creak.wav": creak(), "bell.wav": bell(), "cannon.wav": cannon(), "splash.wav": splash()}
+    files = {"wind.wav": wind(8.0), "impact.wav": impact(), "whoosh.wav": whoosh(0.9, 200, 3200), "paper.wav": paper(),
+             "volley.wav": volley(8, 0.5), "musket.wav": musket(), "cannon.wav": cannon(), "explosion.wav": explosion(),
+             "drum.wav": war_drum(), "shields.wav": shields(6.0), "gallop.wav": gallop(6.0), "murmur.wav": murmur(6.0),
+             "waves.wav": waves(8.0), "splash.wav": splash(), "fire.wav": fire(8.0)}
     for k, v in files.items():
         save(k, v)
     w = word_t
-    cues = [("waves.wav", 0.0, 0.25), ("cannon.wav", 0.7, 0.45), ("cannon.wav", 2.3, 0.4), ("impact.wav", w(1, "none"), 0.4),
-            ("waves.wav", S[2], 0.3), ("impact.wav", w(3, "battle"), 0.4), ("wind.wav", S[4], 0.25),
-            ("whoosh.wav", S[6], 0.2), ("paper.wav", S[7] + 0.3, 0.25), ("waves.wav", S[9], 0.25), ("cannon.wav", S[10] + 0.5, 0.35), ("cannon.wav", S[10] + 2.0, 0.3),
-            ("impact.wav", w(12, "off"), 0.4), ("impact.wav", w(13, "cancelled"), 0.35), ("waves.wav", S[14], 0.25), ("creak.wav", S[15] + 0.4, 0.3),
-            ("paper.wav", w(16, "18"), 0.3), ("bell.wav", S[17] + 0.3, 0.3), ("waves.wav", S[17], 0.25), ("cannon.wav", S[18] + 0.5, 0.3),
-            ("creak.wav", S[19] + 0.3, 0.25), ("whoosh.wav", S[20], 0.2), ("waves.wav", S[21], 0.25), ("bell.wav", S[23] + 0.4, 0.3), ("wind.wav", S[23], 0.25),
-            ("creak.wav", S[26] + 0.5, 0.3), ("impact.wav", w(26, "expects"), 0.35), ("cannon.wav", w(28, "first"), 0.5),
-            ("cannon.wav", w(29, "smashes"), 0.55), ("explosion.wav", w(29, "broadside"), 0.5), ("cannon.wav", S[30] + 0.6, 0.45), ("cannon.wav", S[30] + 2.2, 0.4),
-            ("cannon.wav", S[31] + 0.5, 0.45), ("cannon.wav", S[31] + 1.8, 0.4), ("impact.wav", w(31, "wheel"), 0.45), ("explosion.wav", w(32, "broadside"), 0.6),
-            ("creak.wav", S[33] + 0.3, 0.4), ("volley.wav", S[33] + 1.0, 0.3), ("musket.wav", w(34, "musket") + 0.2, 0.75), ("impact.wav", w(34, "spine"), 0.35),
-            ("explosion.wav", w(36, "fires"), 0.6), ("volley.wav", S[36] + 0.5, 0.3), ("impact.wav", w(37, "surrenders"), 0.4), ("cannon.wav", S[38] + 0.5, 0.35),
-            ("impact.wav", w(38, "prisoner"), 0.35), ("cannon.wav", S[39] + 0.5, 0.45), ("cannon.wav", S[39] + 2.0, 0.4), ("waves.wav", w(40, "front"), 0.25),
-            ("explosion.wav", w(41, "explodes"), 0.85), ("fire.wav", w(41, "explodes"), 0.35), ("creak.wav", S[42] + 0.3, 0.3), ("bell.wav", w(42, "half"), 0.3),
-            ("wind.wav", S[43], 0.5), ("waves.wav", S[43], 0.45), ("explosion.wav", w(43, "hit"), 0.35), ("wind.wav", S[44], 0.45), ("waves.wav", S[44], 0.45), ("splash.wav", w(44, "rocks"), 0.4),
-            ("waves.wav", S[45], 0.25), ("paper.wav", S[46] + 0.3, 0.3), ("impact.wav", w(46, "single"), 0.35), ("paper.wav", w(48, "found"), 0.25), ("impact.wav", w(48, "suicide"), 0.35),
-            ("cannon.wav", S[49] + 0.5, 0.25), ("waves.wav", S[50], 0.25), ("bell.wav", S[51] + 0.3, 0.35), ("whoosh.wav", S[52], 0.2), ("impact.wav", w(52, "genius"), 0.35), ("impact.wav", w(52, "fear"), 0.35)]
+    cues = [
+        ("volley.wav", 0.6, 0.5), ("musket.wav", w(1, "cannon"), 0.5), ("whoosh.wav", w(1, "rockets"), 0.35), ("shields.wav", w(1, "they"), 0.45), ("drum.wav", w(1, "gone"), 0.6), ("wind.wav", w(1, "gone"), 0.3),
+        ("wind.wav", S[2], 0.35), ("drum.wav", w(3, "battle"), 0.45), ("impact.wav", w(3, "planned"), 0.35),
+        ("paper.wav", S[4] + 0.5, 0.3), ("paper.wav", S[6] + 0.3, 0.35), ("impact.wav", w(6, "disband"), 0.5), ("paper.wav", w(7, "three"), 0.25),
+        ("drum.wav", w(8, "crossed"), 0.4), ("gallop.wav", S[10] + 0.3, 0.25), ("waves.wav", S[10], 0.25),
+        ("drum.wav", w(11, "army"), 0.45), ("shields.wav", w(11, "army"), 0.35), ("impact.wav", w(12, "ntshingwayo"), 0.4),
+        ("shields.wav", S[14] + 0.3, 0.45), ("drum.wav", w(14, "20000"), 0.45), ("impact.wav", w(15, "eat"), 0.35),
+        ("shields.wav", S[16], 0.3), ("wind.wav", S[18], 0.3), ("wind.wav", S[19], 0.25), ("impact.wav", w(20, "neither"), 0.45),
+        ("wind.wav", S[23], 0.3), ("impact.wav", w(23, "23"), 0.35), ("gallop.wav", S[24] + 0.5, 0.25), ("drum.wav", w(25, "worked"), 0.35),
+        ("impact.wav", w(28, "turn"), 0.4), ("gallop.wav", S[29] + 0.3, 0.3), ("gallop.wav", S[31] + 0.3, 0.35),
+        ("drum.wav", S[32] + 0.2, 0.8), ("impact.wav", S[32] + 0.3, 0.6), ("shields.wav", w(33, "rose"), 0.6), ("drum.wav", w(33, "rose"), 0.5),
+        ("drum.wav", S[34] + 0.3, 0.4), ("shields.wav", S[38], 0.45),
+        ("volley.wav", S[39] + 0.8, 0.45), ("volley.wav", S[39] + 3.5, 0.4), ("volley.wav", w(40, "volley"), 0.6), ("volley.wav", w(40, "volley", 1), 0.55), ("musket.wav", w(40, "flat"), 0.4),
+        ("cannon.wav", S[41] + 0.7, 0.55), ("cannon.wav", S[41] + 2.0, 0.5), ("whoosh.wav", w(41, "rocket"), 0.45), ("explosion.wav", w(41, "overrun"), 0.45),
+        ("volley.wav", S[43] + 0.6, 0.3), ("musket.wav", w(43, "ammunition"), 0.35), ("impact.wav", w(44, "screwdrivers"), 0.35), ("impact.wav", w(45, "sure"), 0.35),
+        ("drum.wav", w(46, "pulleine"), 0.45), ("shields.wav", S[47], 0.65), ("drum.wav", w(47, "charged"), 0.75), ("volley.wav", w(47, "charged") + 0.4, 0.4),
+        ("wind.wav", w(49, "sky"), 0.5), ("impact.wav", w(49, "wrong"), 0.4), ("wind.wav", S[50], 0.45), ("drum.wav", w(51, "surrounded"), 0.6),
+        ("gallop.wav", S[52], 0.25), ("musket.wav", S[53] + 0.6, 0.45), ("musket.wav", S[53] + 1.9, 0.4), ("explosion.wav", S[53] + 3.2, 0.4), ("fire.wav", S[53], 0.4), ("shields.wav", S[53] + 0.5, 0.4),
+        ("impact.wav", w(54, "fallen"), 0.55), ("wind.wav", S[54], 0.4), ("gallop.wav", S[55], 0.4), ("waves.wav", S[56], 0.45), ("splash.wav", w(56, "river"), 0.5),
+        ("wind.wav", S[58], 0.35), ("impact.wav", w(58, "five"), 0.4), ("wind.wav", S[60], 0.35), ("fire.wav", S[62], 0.35), ("musket.wav", S[62] + 1.2, 0.3),
+        ("murmur.wav", S[63], 0.35), ("impact.wav", w(63, "worst"), 0.4), ("drum.wav", w(64, "greatest"), 0.45),
+        ("volley.wav", S[65] + 0.8, 0.4), ("fire.wav", w(65, "burned"), 0.4), ("impact.wav", w(66, "captured"), 0.3),
+        ("wind.wav", S[68], 0.3), ("shields.wav", S[71], 0.35), ("drum.wav", w(72, "surprise"), 0.45), ("impact.wav", w(73, "planning"), 0.3), ("impact.wav", w(73, "overconfidence"), 0.3)]
     (ROOT / "src" / "data" / "sfx-cues.json").write_text(json.dumps([{"file": f, "at": round(a, 3), "volume": v} for f, a, v in cues], indent=1))
     print("sfx", len(files), "cues", len(cues), "(music: creator's own track, untouched)")
 

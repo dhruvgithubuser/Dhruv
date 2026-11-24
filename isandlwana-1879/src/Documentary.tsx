@@ -13,7 +13,7 @@ const Fade: React.FC<{ first: boolean; children: React.ReactNode }> = ({ first, 
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
 
-const KEY = new Set(['27', '33', '1805', 'none', 'nelson', 'trafalgar', 'napoleon', 'navy', 'boulogne', 'channel', 'toulon', 'brest', 'caribbean', 'villeneuve', 'nile', 'atlantic', 'cadiz', 'invasion', 'off', 'cancelled', 'bigger', '50', '2000', 'naples', 'replace', 'disgraced', 'columns', 'right', 'three', 'targets', 'victory', 'collingwood', 'england', 'expects', 'duty', 'noon', 'belleisle', '45', '40', 'wheel', 'bucentaure', 'redoutable', 'marksman', 'spine', 'backbone', 'temeraire', '643', '99', 'prisoner', '130', 'achille', 'explodes', 'dies', 'storm', 'gale', 'rocks', 'single', '450', '4400', '18', '11', 'ulm', 'secret', 'suicide', 'austerlitz', 'sea', 'brandy', 'genius', 'fear', 'buried', 'chronicles']);
+const KEY = new Set(['rifles', 'cannon', 'rockets', 'spears', 'shields', '330', 'gone', '1879', 'isandlwana', 'zulu', 'ultimatum', 'frere', 'without', 'disband', 'army', 'flimsy', 'chelmsford', '4700', 'cetshwayo', 'peace', 'ntshingwayo', '70', 'photographs', '20000', 'eat', 'scouts', 'screening', '50', 'ten', 'sphinxshaped', 'neither', 'week', 'dare', 'ngwebeni', 'seven', '23', '2800', 'purpose', '1300', 'pulleine', 'wait', 'durnford', 'rocket', 'raw', 'valley', 'early', 'reverse', 'buffalo', 'chest', 'horns', 'loins', 'martinihenry', 'deadly', 'perimeter', 'ammunition', 'screwdrivers', 'disagree', 'flank', 'charged', 'run', '230', 'eclipse', 'black', 'surrounded', 'fallen', 'fugitives', 'colour', 'victoria', 'cross', 'wolseley', 'five', '1000', 'sons', 'thousand', 'rorkes', '150', 'worst', 'greatest', 'ulundi', '45', 'burned', 'captured', 'london', '1883', 'blamed', 'outplan', 'split', 'adapted', 'surprise', 'planning', 'overconfidence', 'buried', 'chronicles']);
 const CHUNKS = (() => {
   const out: { words: { w: string; start: number; end: number }[]; start: number; end: number }[] = [];
   for (const p of PHRASES) {
@@ -41,7 +41,7 @@ const Captions: React.FC = () => {
   );
 };
 
-export const Trafalgar: React.FC = () => (
+export const Isandlwana: React.FC = () => (
   <AbsoluteFill style={{ background: '#1d1b19' }}>
     <Fonts />
     {SCENE_COMPS.map((Comp, i) => {

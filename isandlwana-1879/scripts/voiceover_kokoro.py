@@ -1,4 +1,4 @@
-"""Trafalgar long-video narration: Kokoro-82M ONNX, deep American male (am_michael/am_onyx blend).
+"""Isandlwana long-video narration: Kokoro-82M ONNX, deep American male (am_michael/am_onyx blend).
 
     python scripts/voiceover_kokoro.py <kokoro_dir> [--whisper]
 
@@ -56,7 +56,7 @@ def warm(x):
 
 
 def main():
-    npz = KDIR / "voices_traf.npz"
+    npz = KDIR / "voices_isandlwana.npz"
     np.savez(npz, narrator=voice_style())
     tts = Kokoro(str(KDIR / "model.onnx"), str(npz))
     parts, phrases, t = [np.zeros(int(LEAD * SR))], [], LEAD

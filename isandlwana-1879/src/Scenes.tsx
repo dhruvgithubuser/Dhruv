@@ -2,17 +2,18 @@ import React from 'react';
 import { AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig, spring } from 'remotion';
 import { Particles } from './kit';
 import { Explosion, Shake, VfxDefs } from './vfx';
-import map from './data/atlantic.json';
+import map from './data/zulu.json';
 import { C, H, HEAD, SANS, SCENES, SERIF, TYPE, W, ease, hash01, lin, wf } from './theme';
 
 /*
- * "Trafalgar 1805: What Happened and Why" - 16:9 realistic documentary in the channel's Shorts language.
+ * "Isandlwana: The Zulu General Who Out-Planned the British Empire" (1879) - 16:9 cinematic documentary.
  * Every shot is an AI-generated still turned into a moving camera shot (depth parallax, scripts/parallax.py),
- * labelled DRAMATIZED RECONSTRUCTION. No paintings. Maps are motion graphics drawn from real coastline data.
+ * labelled DRAMATIZED RECONSTRUCTION. Real photographs (Ntshingwayo 1879, Cetshwayo 1882, the battlefield today)
+ * appear as framed prints. Maps are motion graphics: Zululand from real coastline data; the battlefield is schematic.
  */
 
-const GRADE = 'saturate(0.7) sepia(0.18) contrast(1.1) brightness(0.96)';
-const CLIP_S = 10; // every parallax clip is 10 s
+const GRADE = 'saturate(0.72) sepia(0.2) contrast(1.1) brightness(0.95)';
+const CLIP_S = 14; // every parallax clip is 14 s; shots shorter than that play at real speed (no stretching)
 
 /* ───────────── building blocks ───────────── */
 
@@ -26,7 +27,6 @@ const ShotInner: React.FC<{ id: string; dur: number; fadeIn: number }> = ({ id, 
     </AbsoluteFill>
   );
 };
-/** One moving shot between scene-local frames `from` and `to`. */
 const Shot: React.FC<{ id: string; from: number; to: number; fadeIn?: number }> = ({ id, from, to, fadeIn = 10 }) => (
   <Sequence from={from} durationInFrames={Math.max(1, to - from)} layout="none"><ShotInner id={id} dur={to - from} fadeIn={fadeIn} /></Sequence>
 );
@@ -35,7 +35,6 @@ const Dim: React.FC<{ top?: number; bottom?: number }> = ({ top = 0.5, bottom = 
   <AbsoluteFill style={{ background: `linear-gradient(180deg, rgba(0,0,0,${top}) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 62%, rgba(0,0,0,${bottom}) 100%)` }} />
 );
 
-/** Location / date slate, typed on, top-left. */
 const Slate: React.FC<{ at: number; place: string; date?: string; out?: number }> = ({ at, place, date, out }) => {
   const f = useCurrentFrame();
   const o = lin(f, at, at + 6) * (out ? 1 - lin(f, out - 8, out) : 1);
@@ -50,7 +49,6 @@ const Slate: React.FC<{ at: number; place: string; date?: string; out?: number }
   );
 };
 
-/** Chapter card, top-right (PART n / title). */
 const Chapter: React.FC<{ n: string; title: string; at?: number }> = ({ n, title, at = 4 }) => {
   const f = useCurrentFrame();
   const o = lin(f, at, at + 12) * (1 - lin(f, at + 130, at + 150));
@@ -63,8 +61,7 @@ const Chapter: React.FC<{ n: string; title: string; at?: number }> = ({ n, title
   );
 };
 
-/** Rubber-stamp verdict. */
-const Verdict: React.FC<{ at: number; text: string; color?: string; x?: number; y?: number; rot?: number; size?: number; out?: number }> = ({ at, text, color = C.redHi, x = 960, y = 300, rot = -6, size = 84, out }) => {
+const Verdict: React.FC<{ at: number; text: string; color?: string; x?: number; y?: number; rot?: number; size?: number; out?: number }> = ({ at, text, color = C.redHi, x = 960, y = 300, rot = -6, size = 80, out }) => {
   const f = useCurrentFrame();
   if (f < at || (out !== undefined && f >= out)) return null;
   const k = ease(f, at, at + 7);
@@ -73,11 +70,11 @@ const Verdict: React.FC<{ at: number; text: string; color?: string; x?: number; 
   );
 };
 
-/** Fact chips that slide in on spoken words, right side. */
-const Chips: React.FC<{ items: { at: number; t: string }[]; top?: number; left?: boolean }> = ({ items, top = 200, left }) => {
+const Chips: React.FC<{ items: { at: number; t: string }[]; top?: number; left?: boolean; out?: number }> = ({ items, top = 200, left, out }) => {
   const f = useCurrentFrame();
+  if (out !== undefined && f >= out) return null;
   return (
-    <div style={{ position: 'absolute', [left ? 'left' : 'right']: 70, top, display: 'flex', flexDirection: 'column', alignItems: left ? 'flex-start' : 'flex-end', gap: 12 }}>
+    <div style={{ position: 'absolute', [left ? 'left' : 'right']: 70, top, display: 'flex', flexDirection: 'column', alignItems: left ? 'flex-start' : 'flex-end', gap: 12, opacity: out !== undefined ? 1 - lin(f, out - 6, out) : 1 }}>
       {items.map((x, i) => f < x.at ? null : (
         <div key={i} style={{ background: 'rgba(14,10,6,0.82)', border: `3px solid ${C.gold}`, padding: '6px 18px', fontFamily: HEAD, fontWeight: 700, fontSize: 38, color: '#f6ecd4', letterSpacing: 2, transform: `translateX(${(left ? -40 : 40) * (1 - lin(f, x.at, x.at + 6))}px)`, opacity: lin(f, x.at, x.at + 6) }}>{x.t}</div>
       ))}
@@ -85,7 +82,6 @@ const Chips: React.FC<{ items: { at: number; t: string }[]; top?: number; left?:
   );
 };
 
-/** Big number that counts up, right side. */
 const Count: React.FC<{ at: number; to: number; label: string; dur?: number; prefix?: string; suffix?: string; top?: number }> = ({ at, to, label, dur = 30, prefix = '', suffix = '', top = 180 }) => {
   const f = useCurrentFrame();
   if (f < at) return null;
@@ -98,20 +94,18 @@ const Count: React.FC<{ at: number; to: number; label: string; dur?: number; pre
   );
 };
 
-/** Quote card (serif italic). */
 const QuoteCard: React.FC<{ at: number; text: string; by: string; y?: number; out?: number }> = ({ at, text, by, y = 220, out }) => {
   const f = useCurrentFrame();
   const o = lin(f, at, at + 10) * (out !== undefined ? 1 - lin(f, out - 8, out) : 1);
   if (o <= 0) return null;
   return (
     <div style={{ position: 'absolute', left: 300, right: 300, top: y, opacity: o, background: '#f6f0e2', padding: '30px 44px', boxShadow: '0 16px 40px rgba(0,0,0,0.6)', borderTop: `8px solid ${C.red}`, transform: `rotate(-1deg) translateY(${20 * (1 - ease(f, at, at + 12))}px)` }}>
-      <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 50, lineHeight: 1.25, color: C.charcoal }}>“{text}”</div>
+      <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 46, lineHeight: 1.25, color: C.charcoal }}>“{text}”</div>
       <div style={{ fontFamily: TYPE, fontWeight: 700, fontSize: 24, color: C.red, marginTop: 16 }}>— {by}</div>
     </div>
   );
 };
 
-/** Full-screen title. */
 const Title: React.FC<{ at: number; text: string; sub?: string }> = ({ at, text, sub }) => {
   const f = useCurrentFrame();
   const o = lin(f, at, at + 14);
@@ -125,16 +119,39 @@ const Title: React.FC<{ at: number; text: string; sub?: string }> = ({ at, text,
   );
 };
 
-/** Rolling cannon smoke + muzzle flashes along a line. */
-const Broadsides: React.FC<{ y: number; x0: number; x1: number; seed?: number; n?: number }> = ({ y, x0, x1, seed = 2, n = 10 }) => {
+/** Real archival photograph as a framed print. */
+const Print: React.FC<{ src: string; at: number; out?: number; x?: number; y?: number; w?: number; h?: number; rot?: number; label: string; pos?: string }> = ({ src, at, out, x, y = 150, w = 700, h = 560, rot = -2, label, pos = '50% 40%' }) => {
+  const f = useCurrentFrame(); const { fps } = useVideoConfig();
+  if (f < at || (out !== undefined && f >= out)) return null;
+  const k = spring({ frame: f - at, fps, config: { damping: 14, stiffness: 160 } });
+  const o = Math.min(1, k * 1.5) * (out !== undefined ? 1 - lin(f, out - 6, out) : 1);
+  return (
+    <div style={{ position: 'absolute', left: x ?? (W - w) / 2, top: y, width: w, opacity: o, transform: `rotate(${rot + (1 - k) * 6}deg) scale(${1.12 - 0.12 * k})`, background: '#f4eedf', padding: 16, paddingBottom: 66, boxShadow: '0 30px 60px rgba(0,0,0,0.8)' }}>
+      <div style={{ width: w - 32, height: h, overflow: 'hidden', background: '#111' }}>
+        <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: pos, filter: 'sepia(0.25) contrast(1.06)', transform: `scale(${1 + 0.05 * lin(f, at, at + 200)})` }} />
+      </div>
+      <div style={{ position: 'absolute', left: 22, right: 18, bottom: 20, fontFamily: TYPE, fontWeight: 700, fontSize: 24, color: C.ink, textAlign: 'center' }}>{label}</div>
+      <div style={{ position: 'absolute', right: -14, top: -18, background: C.red, color: '#fff', fontFamily: HEAD, fontWeight: 700, fontSize: 28, padding: '4px 16px', letterSpacing: 2, transform: 'rotate(5deg)' }}>REAL PHOTO</div>
+    </div>
+  );
+};
+/** Blurred photo backdrop for a Print. */
+const PhotoBg: React.FC<{ src: string }> = ({ src }) => (
+  <AbsoluteFill style={{ background: '#0b0805' }}>
+    <Img src={staticFile(src)} style={{ position: 'absolute', inset: -60, width: W + 120, height: H + 120, objectFit: 'cover', filter: 'blur(28px) brightness(0.35) sepia(0.3)' }} />
+  </AbsoluteFill>
+);
+
+/** Rolling rifle smoke + muzzle flashes along a line (volley fire). */
+const Volley: React.FC<{ y: number; x0: number; x1: number; seed?: number; n?: number; period?: number }> = ({ y, x0, x1, seed = 2, n = 12, period = 36 }) => {
   const f = useCurrentFrame();
   return (
     <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
       <defs><radialGradient id={`mz${seed}`}><stop offset="0" stopColor="#fff7d6" /><stop offset="0.5" stopColor="#ffb347" /><stop offset="1" stopColor="#ff7a1a" stopOpacity="0" /></radialGradient></defs>
       {Array.from({ length: n }, (_, i) => {
-        const ph = (f + Math.floor(hash01(i, seed) * 44)) % 44; const k = ph / 44;
-        const x = x0 + ((x1 - x0) * i) / (n - 1) + 40 * k; const r = 26 + 120 * k;
-        return <g key={i}><circle cx={x} cy={y - 50 * k} r={r} fill="#e9e4da" opacity={0.5 * (1 - k)} />{ph < 3 && <circle cx={x} cy={y} r={38} fill={`url(#mz${seed})`} opacity={1 - ph / 3} />}</g>;
+        const ph = (f + Math.floor(hash01(i, seed) * 6)) % period; const k = ph / period;
+        const x = x0 + ((x1 - x0) * i) / (n - 1) + 30 * k; const r = 18 + 90 * k;
+        return <g key={i}><circle cx={x} cy={y - 40 * k} r={r} fill="#ece7dc" opacity={0.45 * (1 - k)} />{ph < 3 && <circle cx={x} cy={y} r={26} fill={`url(#mz${seed})`} opacity={1 - ph / 3} />}</g>;
       })}
     </svg>
   );
@@ -146,7 +163,7 @@ const Flash: React.FC<{ at: number; color?: string; dur?: number }> = ({ at, col
   return <AbsoluteFill style={{ background: `rgba(${color},${0.7 * (1 - t / dur)})`, mixBlendMode: 'screen' }} />;
 };
 
-const Haze: React.FC<{ color?: string; o?: number; y?: number }> = ({ color = '220,215,205', o = 0.35, y = 600 }) => {
+const Haze: React.FC<{ color?: string; o?: number; y?: number }> = ({ color = '220,210,190', o = 0.35, y = 600 }) => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{ pointerEvents: 'none', opacity: o }}>
@@ -157,181 +174,252 @@ const Haze: React.FC<{ color?: string; o?: number; y?: number }> = ({ color = '2
   );
 };
 
-/** Rain streaks for the storm. */
-const Rain: React.FC<{ o?: number }> = ({ o = 0.6 }) => {
+/** The eclipse: the light drains out of the frame (and, optionally, the sun's disc is bitten by the moon). */
+const Eclipse: React.FC<{ at: number; dur?: number; disc?: boolean }> = ({ at, dur = 90, disc }) => {
   const f = useCurrentFrame();
+  const k = ease(f, at, at + dur);
   return (
-    <svg width={W} height={H} style={{ position: 'absolute', inset: 0, opacity: o }}>
-      {Array.from({ length: 140 }, (_, i) => {
-        const x = (hash01(i, 5) * (W + 300) + f * 9) % (W + 300) - 150; const y = (hash01(i, 6) * H + f * 46) % (H + 100) - 50;
-        return <line key={i} x1={x} y1={y} x2={x - 14} y2={y + 40} stroke="#cfd8e0" strokeWidth={2} opacity={0.5} />;
-      })}
-    </svg>
-  );
-};
-
-/* ───────────── motion graphics: maps ───────────── */
-
-type LL = [number, number];
-const A = map.atlantic;
-const PA = ([lon, lat]: LL): [number, number] => [((lon - A.lon0) / (A.lon1 - A.lon0)) * W, ((A.lat1 - lat) / (A.lat1 - A.lat0)) * H];
-const PLACES: Record<string, LL> = { toulon: [5.93, 43.12], brest: [-4.49, 48.39], boulogne: [1.61, 50.73], cadiz: [-6.29, 36.53], ferrol: [-8.23, 43.48], martinique: [-61.02, 14.64], gib: [-5.6, 35.95], channel: [-1.5, 50.0], london: [-0.13, 51.5], finisterre: [-10.5, 43.2] };
-const route = (pts: LL[]) => pts.map(PA);
-const plen = (p: [number, number][]) => p.slice(1).reduce((s, q, i) => s + Math.hypot(q[0] - p[i][0], q[1] - p[i][1]), 0);
-const dpath = (p: [number, number][]) => p.map((q, i) => `${i ? 'L' : 'M'}${q[0].toFixed(1)},${q[1].toFixed(1)}`).join('');
-
-const Route: React.FC<{ pts: LL[]; t: number; color: string; dashed?: boolean; label?: string; lx?: number; ly?: number; w?: number }> = ({ pts, t, color, dashed, label, lx = 14, ly = -14, w = 7 }) => {
-  if (t <= 0) return null;
-  const p = route(pts); const L = plen(p);
-  let acc = 0, end = p[p.length - 1];
-  for (let i = 1; i < p.length; i++) { const s = Math.hypot(p[i][0] - p[i - 1][0], p[i][1] - p[i - 1][1]); if (acc + s >= L * t) { const k = (L * t - acc) / s; end = [p[i - 1][0] + (p[i][0] - p[i - 1][0]) * k, p[i - 1][1] + (p[i][1] - p[i - 1][1]) * k]; break; } acc += s; }
-  return (
-    <g>
-      <path d={dpath(p)} fill="none" stroke={color} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={dashed ? `18 14` : `${L * t} ${L * 2}`} style={dashed ? { clipPath: undefined } : undefined} opacity={dashed ? 0.9 * Math.min(1, t * 3) : 0.95} />
-      {dashed && <path d={dpath(p)} fill="none" stroke="#0b1622" strokeWidth={w + 4} strokeDasharray={`0 ${L * t} ${L * 2}`} />}
-      <circle cx={end[0]} cy={end[1]} r={12} fill={color} stroke="#efe6d2" strokeWidth={3} />
-      {label && <text x={end[0] + lx} y={end[1] + ly} fontFamily={HEAD} fontWeight={700} fontSize={32} fill={color} stroke="#0b1622" strokeWidth={6} paintOrder="stroke">{label}</text>}
-    </g>
-  );
-};
-const Port: React.FC<{ k: string; name: string; at?: number; dx?: number; dy?: number; color?: string; x?: boolean }> = ({ k, name, at = 0, dx = 16, dy = 8, color = '#f6ecd4', x }) => {
-  const f = useCurrentFrame();
-  const [px, py] = PA(PLACES[k]); const o = lin(f, at, at + 10);
-  if (o <= 0) return null;
-  const pulse = 1 + 0.25 * Math.sin(f / 6);
-  return (
-    <g opacity={o}>
-      <circle cx={px} cy={py} r={9 * pulse} fill="none" stroke={color} strokeWidth={3} opacity={0.6} />
-      <circle cx={px} cy={py} r={6} fill={color} />
-      <text x={px + dx} y={py + dy} fontFamily={TYPE} fontWeight={700} fontSize={26} fill="#f6ecd4" stroke="#0b1622" strokeWidth={5} paintOrder="stroke">{name}</text>
-      {x && <g stroke={C.redHi} strokeWidth={7} strokeLinecap="round"><line x1={px - 22} y1={py - 22} x2={px + 22} y2={py + 22} /><line x1={px + 22} y1={py - 22} x2={px - 22} y2={py + 22} /></g>}
-    </g>
-  );
-};
-/** Atlantic map: real coastline (world-atlas 50m), dark chart style; children draw routes and ports. */
-const AtlanticMap: React.FC<{ dur: number; zoom?: [number, number, number]; children?: React.ReactNode; title?: string }> = ({ dur, zoom = [1, 960, 540], children, title }) => {
-  const f = useCurrentFrame();
-  const [z, cx, cy] = zoom; const zz = z * (1 + 0.04 * lin(f, 0, dur));
-  return (
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 40% 50%, #17324a 0%, #0b1622 75%)', opacity: lin(f, 0, 10) }}>
-      <AbsoluteFill style={{ transform: `scale(${zz})`, transformOrigin: `${cx}px ${cy}px` }}>
+    <AbsoluteFill style={{ pointerEvents: 'none' }}>
+      <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 35%, rgba(40,30,10,${0.25 * k}) 0%, rgba(5,4,2,${0.62 * k}) 80%)` }} />
+      <AbsoluteFill style={{ background: `rgba(120,80,20,${0.12 * k})`, mixBlendMode: 'color' }} />
+      {disc && (
         <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
-          {Array.from({ length: 9 }, (_, i) => <line key={`v${i}`} x1={(i + 1) * 192} y1={0} x2={(i + 1) * 192} y2={H} stroke="#2a4a66" strokeWidth={1} opacity={0.35} />)}
-          {Array.from({ length: 5 }, (_, i) => <line key={`h${i}`} x1={0} y1={(i + 1) * 180} x2={W} y2={(i + 1) * 180} stroke="#2a4a66" strokeWidth={1} opacity={0.35} />)}
-          <path d={A.d} fill="#c9b48a" stroke="#6b5636" strokeWidth={1.5} opacity={0.92} />
-          {children}
+          <defs><radialGradient id="corona"><stop offset="0.55" stopColor="#ffe9b0" stopOpacity="0.9" /><stop offset="1" stopColor="#ffb347" stopOpacity="0" /></radialGradient></defs>
+          <circle cx={1460} cy={250} r={150} fill="url(#corona)" opacity={0.8} />
+          <circle cx={1460} cy={250} r={92} fill="#fff4cf" />
+          <circle cx={1460 + 150 - 120 * k} cy={236} r={90} fill="#120d06" />
         </svg>
-      </AbsoluteFill>
-      {title && <div style={{ position: 'absolute', left: 70, bottom: 60, fontFamily: TYPE, fontWeight: 700, fontSize: 22, letterSpacing: 4, color: 'rgba(246,236,212,0.7)' }}>{title}</div>}
+      )}
     </AbsoluteFill>
   );
 };
 
-/** Tactical map off Cape Trafalgar (schematic). Allied line N-S near the cape, British columns from the west. */
-const T = map.trafalgar;
-const PT = ([lon, lat]: LL): [number, number] => [((lon - T.lon0) / (T.lon1 - T.lon0)) * W, ((T.lat1 - lat) / (T.lat1 - T.lat0)) * H];
-const Ship: React.FC<{ x: number; y: number; dir: number; color: string; s?: number; sunk?: number }> = ({ x, y, dir, color, s = 1, sunk = 0 }) => (
-  <g transform={`translate(${x} ${y}) rotate(${dir}) scale(${s})`} opacity={1 - 0.6 * sunk}>
-    <path d="M-16,-7 L10,-7 L20,0 L10,7 L-16,7 Z" fill={color} stroke="#0b1622" strokeWidth={2} />
+/* ───────────── motion graphics: Zululand map (real coastline) ───────────── */
+
+type LL = [number, number];
+const Z = map.zulu;
+const PZ = ([lon, lat]: LL): [number, number] => [((lon - Z.lon0) / (Z.lon1 - Z.lon0)) * W, ((Z.lat1 - lat) / (Z.lat1 - Z.lat0)) * H];
+const PL: Record<string, LL> = {
+  isandlwana: [30.652, -28.358], rorkes: [30.536, -28.348], ondini: [31.42, -28.31], ngwebeni: [30.78, -28.29], mangeni: [30.8, -28.45],
+  helpmekaar: [30.37, -28.38], utrecht: [30.32, -27.66], lowerdrift: [31.4, -29.13], eshowe: [31.47, -28.89],
+};
+const BORDER: LL[] = [[30.15, -27.7], [30.33, -28.02], [30.536, -28.348], [30.62, -28.56], [30.76, -28.72], [31.0, -28.86], [31.24, -29.04], [31.47, -29.22]];
+const plen = (p: [number, number][]) => p.slice(1).reduce((s, q, i) => s + Math.hypot(q[0] - p[i][0], q[1] - p[i][1]), 0);
+const dpath = (p: [number, number][]) => p.map((q, i) => `${i ? 'L' : 'M'}${q[0].toFixed(1)},${q[1].toFixed(1)}`).join('');
+
+const Route: React.FC<{ pts: LL[]; t: number; color: string; label?: string; lx?: number; ly?: number; w?: number }> = ({ pts, t, color, label, lx = 16, ly = -16, w = 7 }) => {
+  if (t <= 0) return null;
+  const p = pts.map(PZ); const L = plen(p);
+  let acc = 0, end = p[p.length - 1];
+  for (let i = 1; i < p.length; i++) { const s = Math.hypot(p[i][0] - p[i - 1][0], p[i][1] - p[i - 1][1]); if (acc + s >= L * t) { const k = (L * t - acc) / s; end = [p[i - 1][0] + (p[i][0] - p[i - 1][0]) * k, p[i - 1][1] + (p[i][1] - p[i - 1][1]) * k]; break; } acc += s; }
+  return (
+    <g>
+      <path d={dpath(p)} fill="none" stroke={color} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={`${L * t} ${L * 2}`} opacity={0.95} />
+      <circle cx={end[0]} cy={end[1]} r={12} fill={color} stroke="#efe6d2" strokeWidth={3} />
+      {label && <text x={end[0] + lx} y={end[1] + ly} fontFamily={HEAD} fontWeight={700} fontSize={32} fill={color} stroke="#14100a" strokeWidth={6} paintOrder="stroke">{label}</text>}
+    </g>
+  );
+};
+const Place: React.FC<{ k: string; name: string; at?: number; dx?: number; dy?: number; color?: string; big?: boolean }> = ({ k, name, at = 0, dx = 16, dy = 8, color = '#f6ecd4', big }) => {
+  const f = useCurrentFrame();
+  const [px, py] = PZ(PL[k]); const o = lin(f, at, at + 10);
+  if (o <= 0) return null;
+  const pulse = 1 + 0.25 * Math.sin(f / 6);
+  return (
+    <g opacity={o}>
+      <circle cx={px} cy={py} r={(big ? 13 : 9) * pulse} fill="none" stroke={color} strokeWidth={3} opacity={0.6} />
+      <circle cx={px} cy={py} r={big ? 9 : 6} fill={color} />
+      <text x={px + dx} y={py + dy} fontFamily={TYPE} fontWeight={700} fontSize={big ? 30 : 25} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke">{name}</text>
+    </g>
+  );
+};
+/** Zululand & Natal, 1879: land from world-atlas, the border rivers drawn schematically. */
+const ZuluMap: React.FC<{ dur: number; zoom?: [number, number, number]; children?: React.ReactNode; title?: string }> = ({ dur, zoom = [1, 960, 540], children, title }) => {
+  const f = useCurrentFrame();
+  const [z, cx, cy] = zoom; const zz = z * (1 + 0.04 * lin(f, 0, dur));
+  const bp = BORDER.map(PZ);
+  return (
+    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 70% 60%, #17324a 0%, #0b1622 75%)', opacity: lin(f, 0, 10) }}>
+      <AbsoluteFill style={{ transform: `scale(${zz})`, transformOrigin: `${cx}px ${cy}px` }}>
+        <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
+          <path d={Z.d} fill="#b8a273" stroke="#6b5636" strokeWidth={1.5} opacity={0.95} />
+          {Array.from({ length: 60 }, (_, i) => <circle key={i} cx={hash01(i, 3) * 1500 + 40} cy={hash01(i, 4) * 1000 + 40} r={2 + 3 * hash01(i, 5)} fill="#8f7a50" opacity={0.35} />)}
+          <path d={dpath(bp)} fill="none" stroke="#5b8fc0" strokeWidth={6} opacity={0.9} />
+          <text x={bp[2][0] - 250} y={bp[2][1] + 120} fontFamily={TYPE} fontWeight={700} fontSize={22} fill="#9cc2e6" stroke="#14100a" strokeWidth={4} paintOrder="stroke">BUFFALO & THUKELA RIVERS (BORDER)</text>
+          <text x={260} y={760} fontFamily={HEAD} fontWeight={700} fontSize={44} fill="rgba(30,22,10,0.55)" letterSpacing={8}>NATAL (BRITISH)</text>
+          <text x={980} y={330} fontFamily={HEAD} fontWeight={700} fontSize={50} fill="rgba(30,22,10,0.55)" letterSpacing={8}>ZULU KINGDOM</text>
+          <text x={1650} y={880} fontFamily={TYPE} fontWeight={700} fontSize={24} fill="#7fa7c9" letterSpacing={4}>INDIAN OCEAN</text>
+          {children}
+        </svg>
+      </AbsoluteFill>
+      {title && <div style={{ position: 'absolute', left: 70, bottom: 60, fontFamily: TYPE, fontWeight: 700, fontSize: 22, letterSpacing: 4, color: 'rgba(246,236,212,0.75)' }}>{title} · BORDERS APPROXIMATE</div>}
+    </AbsoluteFill>
+  );
+};
+
+/* ───────────── motion graphics: the battlefield (schematic, north up) ───────────── */
+
+type BMode = 'hidden' | 'split' | 'horns' | 'line' | 'collapse' | 'closed' | 'summary';
+const MT: [number, number] = [860, 560]; // Isandlwana mountain
+const Mountain = () => (
+  <g>
+    <path d={`M${MT[0] - 120},${MT[1] + 60} L${MT[0] - 70},${MT[1] - 50} L${MT[0] + 10},${MT[1] - 80} L${MT[0] + 90},${MT[1] - 40} L${MT[0] + 120},${MT[1] + 50} Z`} fill="#6b5a3c" stroke="#2f2516" strokeWidth={4} />
+    <path d={`M${MT[0] - 60},${MT[1] - 30} L${MT[0] + 10},${MT[1] - 60} L${MT[0] + 70},${MT[1] - 25}`} fill="none" stroke="#9c8558" strokeWidth={4} />
+    <text x={MT[0]} y={MT[1] + 100} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke">ISANDLWANA</text>
   </g>
 );
-const allied = (i: number, n: number, curve: number): [number, number] => {
-  const t = i / (n - 1); const y = 230 + t * 740; const x = 960 + curve * 140 * Math.sin(Math.PI * t);
-  return [x, y];
-};
-const TacticsMap: React.FC<{ mode: 'parallel' | 'plan' | 'turn' | 'columns' | 'melee'; dur: number; p?: number }> = ({ mode, dur, p: pIn }) => {
-  const f = useCurrentFrame();
-  const p = pIn ?? ease(f, 15, dur - 20);
-  const coast = T.d; const cape = PT([-6.03, 36.18]);
-  const BLUE = '#3f6fb0', YEL = '#d8b13a', RED = '#c0392b';
-  const nA = 33; const curve = mode === 'turn' ? p : mode === 'parallel' ? 0 : 1;
-  const alliedPos = Array.from({ length: nA }, (_, i) => allied(i, nA, curve));
-  const isSpanish = (i: number) => [2, 5, 8, 12, 15, 19, 22, 25, 28, 31].includes(i);
-  // British columns
-  const weather = 12, lee = 15;
-  const colPos = (k: number, i: number, prog: number): [number, number] => {
-    const target = k === 0 ? allied(14, nA, curve) : allied(24, nA, curve);
-    const startX = 180, y0 = target[1] + (k === 0 ? -40 : 30);
-    const headX = startX + (target[0] - startX) * prog;
-    return [headX - i * 62, y0 + (k === 0 ? -0.0 : 0)];
-  };
+const Tents: React.FC<{ red?: number }> = ({ red = 0 }) => (
+  <g>{Array.from({ length: 24 }, (_, i) => { const x = MT[0] + 150 + (i % 6) * 26, y = MT[1] - 70 + Math.floor(i / 6) * 34; return <path key={i} d={`M${x - 9},${y + 8} L${x},${y - 10} L${x + 9},${y + 8} Z`} fill={red > 0 ? `rgba(${200 + 40 * red},${230 - 160 * red},${220 - 160 * red},1)` : '#efe9dc'} stroke="#3a3122" strokeWidth={1.5} />; })}</g>
+);
+/** A dense mass of warriors drawn as dots inside an ellipse, moving from a to b over t. */
+const Mass: React.FC<{ a: [number, number]; b: [number, number]; t: number; rx: number; ry: number; n?: number; seed?: number; rot?: number }> = ({ a, b, t, rx, ry, n = 90, seed = 1, rot = 0 }) => {
+  const x = a[0] + (b[0] - a[0]) * t, y = a[1] + (b[1] - a[1]) * t;
   return (
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 50%, #1b3a55 0%, #0b1622 80%)', opacity: lin(f, 0, 10) }}>
+    <g transform={`translate(${x} ${y}) rotate(${rot})`}>
+      {Array.from({ length: n }, (_, i) => { const r = Math.sqrt(hash01(i, seed)); const th = hash01(i, seed + 1) * Math.PI * 2; return <circle key={i} cx={Math.cos(th) * r * rx} cy={Math.sin(th) * r * ry} r={7} fill="#120c08" stroke="#f0d9a8" strokeWidth={2} />; })}
+    </g>
+  );
+};
+const Arrow: React.FC<{ d: string; t: number; color?: string; w?: number }> = ({ d, t, color = '#e8d5a8', w = 8 }) => (
+  <path d={d} fill="none" stroke={color} strokeWidth={w} strokeLinecap="round" strokeDasharray="3000" strokeDashoffset={3000 * (1 - t)} markerEnd="url(#ah)" opacity={t > 0 ? 0.95 : 0} />
+);
+const BattleMap: React.FC<{ mode: BMode; dur: number; p?: number }> = ({ mode, dur, p: pIn }) => {
+  const f = useCurrentFrame();
+  const p = pIn ?? ease(f, 12, Math.max(30, dur - 24));
+  const RED = '#c0392b';
+  // British firing line: an arc east/north-east of the camp
+  const lineR = mode === 'collapse' || mode === 'closed' ? 330 - 170 * (mode === 'closed' ? 1 : p) : 330;
+  const arc = Array.from({ length: 22 }, (_, i) => { const th = (-110 + i * 8) * Math.PI / 180; return [MT[0] + 200 + Math.cos(th) * lineR * 1.15, MT[1] + Math.sin(th) * lineR * 0.85] as [number, number]; });
+  const showLine = mode === 'line' || mode === 'horns' || mode === 'collapse' || mode === 'closed';
+  return (
+    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 50%, #5a5136 0%, #2a2618 85%)', opacity: lin(f, 0, 10) }}>
       <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
-        {Array.from({ length: 30 }, (_, i) => <path key={i} d={`M${(i * 137) % 1900},${(i * 251) % 1060} q14,-8 28,0 t28,0`} fill="none" stroke="#3b6488" strokeWidth={2} opacity={0.35} />)}
-        <path d={coast} fill="#c9b48a" stroke="#6b5636" strokeWidth={2} />
-        <circle cx={cape[0]} cy={cape[1]} r={8} fill="#f6ecd4" />
-        <text x={cape[0] + 16} y={cape[1] + 8} fontFamily={TYPE} fontWeight={700} fontSize={26} fill="#f6ecd4" stroke="#0b1622" strokeWidth={5} paintOrder="stroke">CAPE TRAFALGAR</text>
-        <text x={PT([-6.4, 36.62])[0]} y={PT([-6.4, 36.62])[1]} fontFamily={TYPE} fontWeight={700} fontSize={26} fill="#f6ecd4" stroke="#0b1622" strokeWidth={5} paintOrder="stroke">CÁDIZ</text>
-        {/* wind arrow */}
-        <g transform="translate(120,110)" opacity={0.85}><line x1={0} y1={0} x2={110} y2={0} stroke="#cfe0ee" strokeWidth={5} /><path d="M110,-12 L134,0 L110,12 Z" fill="#cfe0ee" /><text x={0} y={-16} fontFamily={TYPE} fontWeight={700} fontSize={22} fill="#cfe0ee">LIGHT WIND FROM THE WEST</text></g>
-        {mode === 'parallel' ? (
-          <>
-            {Array.from({ length: 12 }, (_, i) => <Ship key={`pa${i}`} x={420 + i * 95 + 40 * p} y={440} dir={0} color={RED} />)}
-            {Array.from({ length: 12 }, (_, i) => <Ship key={`pb${i}`} x={420 + i * 95 + 40 * p} y={620} dir={0} color={BLUE} />)}
-            {Array.from({ length: 12 }, (_, i) => { const ph = (f + i * 7) % 40; return ph < 3 ? <line key={`sh${i}`} x1={430 + i * 95} y1={452} x2={430 + i * 95} y2={608} stroke="#ffd36a" strokeWidth={3} opacity={1 - ph / 3} /> : null; })}
-            <text x={960} y={330} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={46} fill="#f6ecd4">THE OLD WAY: LINE AGAINST LINE</text>
-          </>
-        ) : (
-          <>
-            {alliedPos.map(([x, y], i) => {
-              const cut = mode === 'melee' && i >= 12 && i < 33; const away = mode === 'melee' && i < 10;
-              return <Ship key={`a${i}`} x={x + (away ? -60 * p : 0)} y={y - (away ? 180 * p : 0)} dir={away ? -100 : 90} color={isSpanish(i) ? YEL : BLUE} sunk={cut ? 0.5 * p : 0} />;
-            })}
-            {mode !== 'turn' && [0, 1].map((k) => {
-              const n = k === 0 ? weather : lee;
-              const prog = mode === 'plan' ? p : mode === 'columns' ? 0.55 * p : 1;
-              return Array.from({ length: n }, (_, i) => { const [x, y] = colPos(k, i, prog); return x > 0 ? <Ship key={`b${k}${i}`} x={x} y={y} dir={0} color={RED} s={i === 0 ? 1.3 : 1} /> : null; });
-            })}
-            {(mode === 'columns' || mode === 'plan') && (
-              <>
-                <text x={colPos(0, 0, mode === 'plan' ? p : 0.55 * p)[0] - 20} y={colPos(0, 0, 0)[1] - 30} textAnchor="end" fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#f6ecd4" stroke="#0b1622" strokeWidth={6} paintOrder="stroke">NELSON · VICTORY</text>
-                <text x={colPos(1, 0, mode === 'plan' ? p : 0.55 * p)[0] - 20} y={colPos(1, 0, 0)[1] + 50} textAnchor="end" fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#f6ecd4" stroke="#0b1622" strokeWidth={6} paintOrder="stroke">COLLINGWOOD · ROYAL SOVEREIGN</text>
-              </>
-            )}
-            {mode === 'plan' && p > 0.92 && (
-              <g opacity={lin(p, 0.92, 1)}>
-                {[[200, 460], [460, 770], [770, 990]].map(([a, b], i) => <rect key={i} x={850} y={a} width={260} height={b - a} fill="none" stroke={['#9fb6cf', C.gold, C.gold][i]} strokeWidth={4} strokeDasharray="14 10" />)}
-                <text x={1130} y={330} fontFamily={HEAD} fontWeight={700} fontSize={32} fill="#9fb6cf">VAN · CUT OFF</text>
-                <text x={1130} y={620} fontFamily={HEAD} fontWeight={700} fontSize={32} fill={C.gold}>CENTRE · CRUSHED</text>
-                <text x={1130} y={890} fontFamily={HEAD} fontWeight={700} fontSize={32} fill={C.gold}>REAR · CRUSHED</text>
-              </g>
-            )}
-            {mode === 'melee' && <text x={760} y={110} fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#9fb6cf" opacity={lin(p, 0.3, 0.6)}>THE VAN SAILS AWAY ↑</text>}
-          </>
+        <defs><marker id="ah" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e8d5a8" /></marker></defs>
+        {Array.from({ length: 80 }, (_, i) => <path key={i} d={`M${hash01(i, 7) * 1920},${hash01(i, 8) * 1080} q10,-6 20,0`} fill="none" stroke="#7d7150" strokeWidth={2} opacity={0.35} />)}
+        {/* plateau escarpment to the north */}
+        <path d="M0,250 C400,300 700,180 1100,240 C1400,280 1650,200 1920,230" fill="none" stroke="#8c7b52" strokeWidth={10} strokeDasharray="20 14" opacity={0.7} />
+        <text x={1160} y={210} fontFamily={TYPE} fontWeight={700} fontSize={24} fill="#d8c8a0">NQUTU PLATEAU (ESCARPMENT)</text>
+        {/* road to Rorke's Drift, west */}
+        <path d={`M${MT[0] - 120},${MT[1] + 40} L120,${MT[1] + 120}`} fill="none" stroke="#a8946a" strokeWidth={5} strokeDasharray="10 10" />
+        <text x={110} y={MT[1] + 165} fontFamily={TYPE} fontWeight={700} fontSize={24} fill="#d8c8a0">← RORKE'S DRIFT (10 MILES)</text>
+        <Mountain />
+        <Tents red={mode === 'closed' ? p : 0} />
+        <text x={MT[0] + 220} y={MT[1] + 110} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={28} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke">BRITISH CAMP</text>
+        {showLine && <path d={dpath(arc)} fill="none" stroke={RED} strokeWidth={mode === 'line' ? 10 + 4 * Math.sin(f / 5) : 9} strokeLinecap="round" opacity={0.95} />}
+        {mode === 'line' && <text x={arc[16][0] + 30} y={arc[16][1]} fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(p, 0.2, 0.5)}>FIRING LINE: TOO LONG, TOO THIN</text>}
+        {(mode === 'hidden' || mode === 'split' || mode === 'summary') && (
+          <g>
+            <Mass a={[1640, 150]} b={[1640, 150]} t={0} rx={170} ry={70} n={140} seed={3} />
+            <text x={1640} y={260} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#f6ecd4" stroke="#14100a" strokeWidth={6} paintOrder="stroke">NGWEBENI VALLEY · 20,000 HIDDEN</text>
+            <path d={`M${MT[0] + 260},${MT[1] - 120} L1500,200`} stroke="#f0d78a" strokeWidth={4} strokeDasharray="12 10" opacity={lin(p, 0.3, 0.6)} />
+            <text x={1250} y={330} fontFamily={HEAD} fontWeight={700} fontSize={40} fill="#f0d78a" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(p, 0.4, 0.7)}>≈ 7 MILES</text>
+          </g>
         )}
-        <g transform="translate(70,1010)">
-          <Ship x={10} y={0} dir={0} color={RED} /><text x={40} y={9} fontFamily={TYPE} fontWeight={700} fontSize={22} fill="#f6ecd4">BRITISH (27)</text>
-          <Ship x={270} y={0} dir={0} color={BLUE} /><text x={300} y={9} fontFamily={TYPE} fontWeight={700} fontSize={22} fill="#f6ecd4">FRENCH</text>
-          <Ship x={460} y={0} dir={0} color={YEL} /><text x={490} y={9} fontFamily={TYPE} fontWeight={700} fontSize={22} fill="#f6ecd4">SPANISH (33 ALLIED)</text>
-          <text x={900} y={9} fontFamily={TYPE} fontSize={20} fill="rgba(246,236,212,0.6)">SCHEMATIC · NOT TO SCALE</text>
-        </g>
+        {(mode === 'split' || mode === 'summary') && (
+          <g>
+            <Arrow d={`M${MT[0] + 240},${MT[1] + 60} C1250,800 1500,900 1760,980`} t={mode === 'summary' ? 1 : p} color="#ff9a8a" w={12} />
+            <text x={1380} y={1000} fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={mode === 'summary' ? 1 : lin(p, 0.5, 0.8)}>CHELMSFORD → MANGENI · 2,800 MEN</text>
+            <text x={MT[0] + 220} y={MT[1] + 150} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f0d78a" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={mode === 'summary' ? 1 : lin(p, 0.7, 0.9)}>LEFT IN CAMP: ~1,300</text>
+          </g>
+        )}
+        {(mode === 'horns' || mode === 'collapse' || mode === 'closed') && (() => {
+          const t = mode === 'horns' ? p : 1;
+          const c = mode === 'closed' ? 1 : mode === 'collapse' ? p : 0;
+          return (
+            <g>
+              {/* chest: from the north-east straight at the camp */}
+              <Mass a={[1550, 230]} b={[MT[0] + 560 - 200 * c, MT[1] - 160 + 80 * c]} t={t} rx={150} ry={80} n={130} seed={5} rot={-30} />
+              {/* left horn: sweeps south around the British right */}
+              <Arrow d={`M1650,300 C1800,700 1500,950 ${1150 - 250 * c},${900 - 120 * c}`} t={t} w={10} />
+              <Mass a={[1650, 300]} b={[1150 - 250 * c, 880 - 120 * c]} t={t} rx={90} ry={55} n={70} seed={6} />
+              {/* right horn: swings north and west behind the mountain */}
+              <Arrow d={`M1450,180 C1000,120 500,250 ${420 + 200 * c},${MT[1] + 60 + 40 * c}`} t={t} w={10} />
+              <Mass a={[1450, 180]} b={[420 + 200 * c, MT[1] + 40 + 40 * c]} t={t} rx={90} ry={55} n={70} seed={7} />
+              <text x={1520} y={140} fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={lin(t, 0.1, 0.3)}>CHEST</text>
+              <text x={1600} y={760} fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={lin(t, 0.4, 0.6)}>LEFT HORN</text>
+              <text x={420} y={170} fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={lin(t, 0.4, 0.6)}>RIGHT HORN</text>
+              {mode === 'collapse' && <text x={960} y={1000} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={38} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(p, 0.3, 0.6)}>THE LINE FALLS BACK · THE FLANK OPENS</text>}
+              {mode === 'closed' && <text x={960} y={1000} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={44} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke">THE HORNS CLOSE · CAMP SURROUNDED</text>}
+            </g>
+          );
+        })()}
+        <text x={70} y={1040} fontFamily={TYPE} fontSize={20} fill="rgba(246,236,212,0.6)">SCHEMATIC · NOT TO SCALE · NORTH UP</text>
       </svg>
     </AbsoluteFill>
   );
 };
 
-/** Final count: Britain vs France & Spain. */
-const Scoreboard: React.FC<{ n: number }> = ({ n }) => {
+/** The 'horns and chest of the buffalo' as a diagram; `hi` highlights one part. */
+const BuffaloDiagram: React.FC<{ hi?: 'chest' | 'horns' | 'loins' | 'all' }> = ({ hi = 'all' }) => {
+  const f = useCurrentFrame();
+  const on = (k: string) => (hi === 'all' || hi === k ? 1 : 0.28);
+  const pulse = 1 + 0.04 * Math.sin(f / 8);
+  return (
+    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 55%, #3a2f1c 0%, #140f08 85%)', opacity: lin(f, 0, 10) }}>
+      <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
+        <rect x={860} y={170} width={200} height={70} fill="#c0392b" stroke="#f6ecd4" strokeWidth={3} />
+        <text x={960} y={140} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#f6ecd4">THE ENEMY</text>
+        <g opacity={on('horns')} transform={hi === 'horns' ? `translate(960 600) scale(${pulse}) translate(-960 -600)` : undefined}>
+          <path d="M760,520 C520,470 470,300 640,210" fill="none" stroke="#e8c27a" strokeWidth={70} strokeLinecap="round" />
+          <path d="M1160,520 C1400,470 1450,300 1280,210" fill="none" stroke="#e8c27a" strokeWidth={70} strokeLinecap="round" />
+          <text x={420} y={360} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={40} fill="#f6ecd4">LEFT HORN</text>
+          <text x={1500} y={360} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={40} fill="#f6ecd4">RIGHT HORN</text>
+          <text x={960} y={1030} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={28} fill="#e8c27a" opacity={hi === 'horns' ? 1 : 0}>FAST YOUNG REGIMENTS · SURROUND</text>
+        </g>
+        <g opacity={on('chest')}>
+          <ellipse cx={960} cy={560} rx={230} ry={110} fill="#d9a441" stroke="#f6ecd4" strokeWidth={3} transform={hi === 'chest' ? `translate(960 560) scale(${pulse}) translate(-960 -560)` : undefined} />
+          <text x={960} y={572} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={48} fill="#1d1410">CHEST · 7–9,000</text>
+          <path d="M960,440 L960,270" stroke="#d9a441" strokeWidth={10} markerEnd="url(#ah2)" />
+          <text x={960} y={1030} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={28} fill="#d9a441" opacity={hi === 'chest' ? 1 : 0}>DRIVES STRAIGHT IN · PINS THE ENEMY</text>
+        </g>
+        <g opacity={on('loins')}>
+          <ellipse cx={960} cy={830} rx={170} ry={70} fill="#8a6a30" stroke="#f6ecd4" strokeWidth={3} />
+          <text x={960} y={842} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={38} fill="#f6ecd4">LOINS · 4–5,000</text>
+          <text x={960} y={1030} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={28} fill="#c9a86a" opacity={hi === 'loins' ? 1 : 0}>RESERVE · FINISHES THE JOB</text>
+        </g>
+        <defs><marker id="ah2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#d9a441" /></marker></defs>
+      </svg>
+      <div style={{ position: 'absolute', left: 70, top: 64, fontFamily: SERIF, fontWeight: 900, fontSize: 54, color: '#f4ecda', textShadow: '0 4px 20px #000' }}>The Horns of the Buffalo</div>
+    </AbsoluteFill>
+  );
+};
+
+/** The ultimatum as a document, its key demand stamped. */
+const Ultimatum: React.FC<{ at: number; stamp: number }> = ({ at, stamp }) => {
+  const f = useCurrentFrame();
+  if (f < at) return null;
+  const k = ease(f, at, at + 12);
+  const lines = ['1. Surrender the men accused in border incidents', '2. Pay a fine of 500 cattle', '4. Surrender Mbilini waMswati', '6. DISBAND THE ZULU ARMY', '11. Accept a British agent in Zululand'];
+  return (
+    <div style={{ position: 'absolute', left: 520, right: 520, top: 150, transform: `translateY(${40 * (1 - k)}px) rotate(-1.5deg)`, opacity: k, background: '#efe4c8', padding: '30px 42px', boxShadow: '0 20px 50px rgba(0,0,0,0.75)' }}>
+      <div style={{ fontFamily: SERIF, fontWeight: 900, fontSize: 44, color: '#2a2117', borderBottom: '3px double #2a2117', paddingBottom: 8 }}>The Ultimatum · 11 Dec 1878</div>
+      {lines.map((l, i) => <div key={i} style={{ fontFamily: TYPE, fontWeight: i === 3 ? 700 : 400, fontSize: 28, color: i === 3 ? C.red : '#3a2c1c', marginTop: 12, opacity: lin(f, at + 10 + i * 8, at + 16 + i * 8) }}>{l}</div>)}
+      <div style={{ fontFamily: TYPE, fontSize: 22, color: '#6a5a40', marginTop: 14, opacity: lin(f, at + 50, at + 60) }}>13 DEMANDS IN TOTAL · EXCERPT</div>
+      {f >= stamp && <div style={{ position: 'absolute', right: 26, bottom: 24, transform: `rotate(-10deg) scale(${1.5 - 0.5 * ease(f, stamp, stamp + 7)})`, border: `7px solid ${C.redHi}`, color: C.redHi, fontFamily: HEAD, fontWeight: 700, fontSize: 50, padding: '0 18px', letterSpacing: 4, background: 'rgba(239,228,200,0.85)' }}>IMPOSSIBLE</div>}
+    </div>
+  );
+};
+
+/** Final toll. */
+const Toll: React.FC<{ n: number }> = ({ n }) => {
   const f = useCurrentFrame();
   const row = (at: number, label: string, a: string, b: string) => (
     <div style={{ display: 'flex', alignItems: 'center', opacity: lin(f, at, at + 8), transform: `translateY(${16 * (1 - ease(f, at, at + 10))}px)`, borderBottom: '2px solid rgba(246,236,212,0.2)', padding: '14px 0' }}>
-      <div style={{ width: 520, fontFamily: TYPE, fontWeight: 700, fontSize: 32, letterSpacing: 3, color: '#cfc3a8' }}>{label}</div>
-      <div style={{ width: 380, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 74, color: '#f6ecd4' }}>{a}</div>
-      <div style={{ width: 380, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 74, color: C.redHi }}>{b}</div>
+      <div style={{ width: 480, fontFamily: TYPE, fontWeight: 700, fontSize: 30, letterSpacing: 3, color: '#cfc3a8' }}>{label}</div>
+      <div style={{ width: 400, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 70, color: C.redHi }}>{a}</div>
+      <div style={{ width: 400, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 70, color: '#f6ecd4' }}>{b}</div>
     </div>
   );
   return (
-    <AbsoluteFill style={{ background: 'rgba(8,6,4,0.72)', alignItems: 'center', justifyContent: 'center' }}>
+    <AbsoluteFill style={{ background: 'rgba(8,6,4,0.74)', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ width: 1280 }}>
         <div style={{ display: 'flex', paddingBottom: 10, opacity: lin(f, 4, 14) }}>
-          <div style={{ width: 520 }} />
-          <div style={{ width: 380, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 40, color: C.gold }}>BRITAIN</div>
-          <div style={{ width: 380, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 40, color: C.gold }}>FRANCE & SPAIN</div>
+          <div style={{ width: 480 }} />
+          <div style={{ width: 400, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 40, color: C.gold }}>BRITISH FORCE</div>
+          <div style={{ width: 400, textAlign: 'center', fontFamily: HEAD, fontWeight: 700, fontSize: 40, color: C.gold }}>ZULU ARMY</div>
         </div>
-        {row(wf(n, 'single'), 'SHIPS LOST', '0', '18')}
-        {row(wf(n, '450'), 'KILLED (APPROX.)', '~450', '~4,400')}
-        {row(wf(n, '11'), 'BACK IN CÁDIZ', '—', '11')}
+        {row(wf(n, '1300'), 'KILLED', '1,300+', '1,000–3,000')}
+        {row(wf(n, 'five'), 'IMPERIAL OFFICERS LEFT', '5', '—')}
       </div>
     </AbsoluteFill>
   );
@@ -343,121 +431,119 @@ type SC = React.FC;
 const mk = (n: number, render: (F: number) => React.ReactNode): SC => { const C2: SC = () => <AbsoluteFill style={{ background: '#000' }}>{render(fr(n))}</AbsoluteFill>; return C2; };
 const one = (n: number, id: string, extra?: (F: number) => React.ReactNode, fadeIn = 10) => mk(n, (F) => (<><Shot id={id} from={0} to={F} fadeIn={fadeIn} /><Dim />{extra?.(F)}</>));
 const two = (n: number, a: string, b: string, cutWord: string, extra?: (F: number) => React.ReactNode, nth = 0) => mk(n, (F) => { const c = wf(n, cutWord, nth); return (<><Shot id={a} from={0} to={c + 8} /><Shot id={b} from={c} to={F} /><Dim />{extra?.(F)}</>); });
+const Clock: React.FC<{ n: number; render: (f: number) => React.ReactNode }> = ({ render }) => { const f = useCurrentFrame(); return <>{render(f)}</>; };
 
 const S: SC[] = [];
 // 1 hook
-S[1] = mk(1, (F) => { const c = wf(1, 'sunset'); return (<>
-  <Shake hits={[20, 70]} amp={10}><Shot id="t22_breakthrough" from={0} to={c + 8} fadeIn={0} /><Broadsides y={720} x0={150} x1={1750} /></Shake>
-  <Shot id="t42_fleet_glory" from={c} to={F} /><Dim />
-  <Chips items={[{ at: wf(1, '27'), t: '27 BRITISH' }, { at: wf(1, '33'), t: '33 FRENCH & SPANISH' }]} />
-  <Verdict at={wf(1, 'none')} text="BRITISH SHIPS LOST: 0" color={C.gold} y={420} />
+S[1] = mk(1, (F) => { const a = wf(1, 'they'); const g = wf(1, 'gone'); return (<>
+  <Shake hits={[wf(1, 'rockets')]} amp={8}><Shot id="i03_redcoats_line" from={0} to={a + 8} fadeIn={0} /><Volley y={640} x0={200} x1={1700} /></Shake>
+  <Shot id="i29_chest_charge" from={a} to={g + 8} /><Shot id="i36_dusk_field" from={g} to={F} /><Dim />
+  <Chips items={[{ at: wf(1, 'rifles'), t: 'RIFLES' }, { at: wf(1, 'cannon'), t: 'CANNON' }, { at: wf(1, 'rockets'), t: 'ROCKETS' }]} out={a} />
+  <Chips items={[{ at: wf(1, 'spears'), t: 'SPEARS' }, { at: wf(1, 'shields'), t: 'SHIELDS' }]} left out={g} />
+  <Verdict at={g} text="CAMP DESTROYED" y={420} />
 </>); });
-S[2] = one(2, 't02_headland', () => <Slate at={6} place="CAPE TRAFALGAR, SPAIN" date="21 OCTOBER 1805" />);
-S[3] = one(3, 't01_fleet_dawn', () => <Title at={wf(3, 'battle') - 4} text="TRAFALGAR" sub="What happened, and why it happened at all" />);
-S[4] = one(4, 't03_napoleon', () => (<><Chapter n="I" title="The Invasion Plan" /><Slate at={40} place="EUROPE · 1803" date="NAPOLEON BONAPARTE" /></>));
-S[5] = one(5, 't04_boulogne', () => (<><Slate at={6} place="BOULOGNE" date="THE ARMY OF ENGLAND" /><Chips items={[{ at: wf(5, 'barges'), t: 'INVASION BARGES' }, { at: wf(5, 'channel'), t: 'NEEDS: THE CHANNEL' }]} /></>));
-S[6] = mk(6, (F) => { const c = Math.round(F * 0.45); return (<><Shot id="t05_blockade" from={0} to={c + 8} /><Dim />
-  <Sequence from={c} layout="none"><AtlanticMap dur={F - c} zoom={[1.9, 1500, 400]} title="THE BLOCKADE · 1805">
-    <Port k="toulon" name="TOULON" at={wf(6, 'toulon') - c} x /><Port k="brest" name="BREST" at={wf(6, 'brest') - c} x /><Port k="boulogne" name="BOULOGNE" at={0} dy={-14} />
-  </AtlanticMap></Sequence></>); });
-S[7] = mk(7, (F) => { const f0 = 0; return (<AtlanticMap dur={F} title="NAPOLEON'S PLAN · 1805">
-  <PlanRoutes n={7} /><Port k="toulon" name="TOULON" at={f0} /><Port k="martinique" name="CARIBBEAN" at={wf(7, 'caribbean')} dx={18} dy={40} /><Port k="boulogne" name="CHANNEL" at={wf(7, 'channel')} dy={-14} />
-</AtlanticMap>); });
-S[8] = one(8, 't07_villeneuve', () => (<><Slate at={6} place="VICE-ADMIRAL VILLENEUVE" date="COMMANDER, COMBINED FLEET" /><Chips items={[{ at: wf(8, 'nile'), t: 'SURVIVED THE NILE · 1798' }]} /></>));
-S[9] = mk(9, (F) => { const c = wf(9, 'nelson'); return (<><Shot id="t08_atlantic" from={0} to={c + 8} /><Dim />
-  <Sequence from={c} layout="none"><AtlanticMap dur={F - c} title="THE CHASE · SPRING–SUMMER 1805"><ChaseRoutes /></AtlanticMap></Sequence>
-  <Chapter n="II" title="The Chase" /></>); });
-S[10] = one(10, 't16_line_battle', () => (<><Slate at={6} place="CAPE FINISTERRE" date="22 JULY 1805" /><Verdict at={wf(10, 'inconclusive')} text="INCONCLUSIVE" color={C.gold} y={430} /><Haze o={0.3} /></>));
-S[11] = mk(11, (F) => (<AtlanticMap dur={F} zoom={[2.6, 1500, 420]} title="AUGUST 1805">
-  <Route pts={[PLACES.ferrol, [-10.5, 42], [-9.8, 38], PLACES.cadiz]} t={ease(useCurrentFrame(), wf(11, 'south'), wf(11, 'south') + 60)} color="#4f86c6" label="VILLENEUVE → CÁDIZ" lx={-330} ly={44} w={5} />
-  <Port k="ferrol" name="FERROL" at={0} dx={-120} /><Port k="brest" name="BREST" at={wf(11, 'brest')} x={useCurrentFrame() > wf(11, 'instead')} /><Port k="cadiz" name="CÁDIZ" at={wf(11, 'cdiz')} dx={-110} />
-</AtlanticMap>));
-S[12] = one(12, 't11_army_march', () => (<><Slate at={6} place="BOULOGNE → AUSTRIA" date="25 AUGUST 1805" /><Verdict at={wf(12, 'off')} text="INVASION CANCELLED" y={430} /></>));
-S[13] = one(13, 't04_boulogne', () => (<><Verdict at={wf(13, 'stop')} text="MYTH" y={360} out={wf(13, 'cancelled')} /><Verdict at={wf(13, 'cancelled')} text="ALREADY CANCELLED" color={C.gold} y={360} /></>));
-S[14] = one(14, 't12_frigate', () => (<><Chapter n="III" title="The Trap at Cádiz" /><Chips items={[{ at: wf(14, '50'), t: '50 MILES OFFSHORE' }, { at: wf(14, 'frigates'), t: 'FRIGATES WATCHING' }]} top={260} /></>));
-S[15] = one(15, 't13_gun_deck_crew', () => <Chips items={[{ at: wf(15, 'supplies'), t: 'SUPPLIES SHORT' }, { at: wf(15, '2000'), t: '2,000+ MEN SHORT' }, { at: wf(15, 'sailors'), t: 'RAW CREWS' }]} />);
-S[16] = one(16, 't14_letter', () => (<><Slate at={wf(16, '18') - 4} place="18 OCTOBER 1805" date="A REPLACEMENT IS COMING" /><Chips items={[{ at: wf(16, 'naples'), t: 'ORDERS: SAIL FOR NAPLES' }]} /></>));
-S[17] = one(17, 't15_leave_harbour', () => (<><Count at={wf(17, '33')} to={33} label="SHIPS OF THE LINE" /><Chips items={[{ at: wf(17, 'voted'), t: 'CAPTAINS VOTED TO STAY' }]} top={460} /></>));
-S[18] = mk(18, (F) => { const c = Math.round(F * 0.3); return (<><Shot id="t16_line_battle" from={0} to={c + 8} /><Dim />
-  <Sequence from={c} layout="none"><TacticsMap mode="parallel" dur={F - c} /></Sequence><Chapter n="IV" title="The Nelson Touch" /></>); });
-S[19] = one(19, 't17_dinner', () => <Slate at={6} place="ABOARD HMS VICTORY" date="OCTOBER 1805" />);
-S[20] = mk(20, (F) => <TacticsMap mode="plan" dur={F} />);
-S[21] = one(21, 't18_bow_on', () => (<><Chips items={[{ at: wf(21, 'fire'), t: "CAN'T FIRE BACK" }, { at: wf(21, 'targets'), t: 'JUST TARGETS' }]} /><Broadsides y={600} x0={300} x1={1600} seed={7} n={8} /></>));
-S[22] = one(22, 't07_villeneuve', () => <Verdict at={wf(22, 'single')} text="KEEPS THE SINGLE LINE" color={C.gold} y={420} />);
-S[23] = one(23, 't19_lookout', () => (<><Chapter n="V" title="The Morning" /><Slate at={40} place="DAWN · 21 OCTOBER" date="WIND: LIGHT" /></>));
-S[24] = mk(24, (F) => <TacticsMap mode="turn" dur={F} />);
-S[25] = mk(25, (F) => { const c = wf(25, 'nelson', 1); return (<><Shot id="t42_fleet_glory" from={0} to={c + 8} /><Dim />
-  <Sequence from={c} layout="none"><TacticsMap mode="columns" dur={F - c} /></Sequence>
-  <Sequence from={c} layout="none"><Chips items={[{ at: wf(25, '27') - c, t: '27 SHIPS' }, { at: wf(25, '2000') - c, t: '2,000+ CANNON' }, { at: wf(25, '17000') - c, t: '17,000 MEN' }]} top={140} /></Sequence></>); });
-S[26] = one(26, 't20_signal_flags', () => (<><Slate at={6} place="11:45 AM" date="NELSON'S SIGNAL" /><SignalText n={26} /></>));
-S[27] = one(27, 't21_gun_crew', () => (<><QuoteCard at={6} text="England expects that every man will do his duty." by="HMS VICTORY, 11:45 AM" out={wf(27, 'then') + 4} /><Chips items={[{ at: wf(27, 'engage'), t: '"ENGAGE THE ENEMY MORE CLOSELY"' }]} top={300} /></>));
-S[28] = one(28, 't22_breakthrough', () => (<><Chapter n="VI" title="Breaking the Line" /><Slate at={30} place="NOON" date="FIRST SHOT" /><QuoteCard at={wf(28, 'now')} text="Now, gentlemen, let us do something today which the world may talk of hereafter." by="VICE-ADMIRAL COLLINGWOOD" y={600} /></>));
-S[29] = mk(29, (F) => (<><Shake hits={[wf(29, 'smashes'), wf(29, 'broadside')]} amp={18}><Shot id="t25_raking" from={0} to={F} /><Broadsides y={640} x0={200} x1={1700} seed={3} /></Shake><Flash at={wf(29, 'broadside')} /><Dim /><Slate at={6} place="ROYAL SOVEREIGN" date="ALONE INTO THE LINE" /></>));
-S[30] = one(30, 't23_dismasted', () => (<><Slate at={6} place="HMS BELLEISLE" date="DISMASTED" /><Count at={wf(30, '45')} to={45} label="MINUTES · FLAG STILL FLYING" /><Haze o={0.35} /></>));
-S[31] = two(31, 't18_bow_on', 't24_wheel', 'wheel', () => (<><Slate at={6} place="HMS VICTORY" date="UNDER FIRE FROM 4 SHIPS" /><Count at={wf(31, '40')} to={40} label="MINUTES · CAN'T FIRE BACK" /></>));
-S[32] = mk(32, (F) => (<><Shake hits={[wf(32, 'broadside')]} amp={22}><Shot id="t25_raking" from={0} to={F} /><svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}><VfxDefs /><Explosion at={wf(32, 'broadside')} x={1100} y={560} s={1.3} seed={4} /></svg></Shake><Flash at={wf(32, 'broadside')} /><Dim /><Slate at={6} place="BUCENTAURE" date="RAKED STERN TO BOW" /></>));
-S[33] = one(33, 't26_locked', () => (<><Slate at={6} place="VICTORY vs REDOUTABLE" date="LOCKED TOGETHER" /><Haze o={0.35} /></>));
-S[34] = two(34, 't27_marksman', 't28_admiral_falls', 'musket', () => (<><Chapter n="VII" title="The Fall of Nelson" /><Flash at={wf(34, 'musket') + 6} color="255,230,190" /><Chips items={[{ at: wf(34, 'shoulder'), t: 'SHOULDER' }, { at: wf(34, 'lung'), t: 'LUNG' }, { at: wf(34, 'spine'), t: 'SPINE' }]} top={300} /><Slate at={wf(34, 'quarter') - 4} place="ABOUT 1:15 PM" /></>));
-S[35] = two(35, 't28_admiral_falls', 't29_cockpit', 'carried', () => <QuoteCard at={6} text="They have done it at last, Hardy. My backbone is shot through." by="NELSON" y={160} out={wf(35, 'carried') + 4} />);
-S[36] = mk(36, (F) => (<><Shake hits={[wf(36, 'fires')]} amp={22}><Shot id="t30_boarders" from={0} to={F} /></Shake><Flash at={wf(36, 'fires')} /><Dim /><Chips items={[{ at: wf(36, 'temeraire'), t: 'HMS TEMERAIRE' }]} /></>));
-S[37] = one(37, 't31_surrender', () => (<><Slate at={6} place="1:55 PM" date="REDOUTABLE SURRENDERS" /><Count at={wf(37, '99')} to={99} label={'OF 643 STILL FIT'} /></>));
-S[38] = mk(38, (F) => { const c = Math.round(F * 0.55); return (<><TacticsMap mode="melee" dur={c + 10} /><Shot id="t31_surrender" from={c} to={F} /><Sequence from={c} layout="none"><Dim /></Sequence><Verdict at={wf(38, 'prisoner')} text="VILLENEUVE CAPTURED" y={420} /></>); });
-S[39] = one(39, 't32_giant_ship', () => (<><Slate at={6} place="SANTÍSIMA TRINIDAD" date="THE MOST HEAVILY ARMED SHIP AFLOAT" /><Count at={wf(39, '130')} to={130} label="GUNS" /><Broadsides y={660} x0={300} x1={1600} seed={9} /></>));
-S[40] = two(40, 't26_locked', 't33_sail_away', 'front', () => <Chips items={[{ at: wf(40, 'churruca'), t: 'CHURRUCA · KILLED' }, { at: wf(40, 'galiano'), t: 'ALCALÁ GALIANO · KILLED' }]} />);
-S[41] = mk(41, (F) => (<><Shake hits={[wf(41, 'explodes')]} amp={30}><Shot id="t34_explosion" from={0} to={F} /><svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}><VfxDefs /><Explosion at={wf(41, 'explodes')} x={960} y={560} s={2} seed={6} /></svg><Particles kind="embers" n={80} o={0.8} /></Shake><Flash at={wf(41, 'explodes')} dur={24} /><Dim /><Slate at={6} place="ACHILLE" date="LATE AFTERNOON" /></>));
-S[42] = one(42, 't29_cockpit', () => (<><QuoteCard at={wf(42, 'thank')} text="Thank God I have done my duty." by="NELSON" y={160} out={wf(42, 'half') - 2} /><Slate at={wf(42, 'half')} place="4:30 PM" date="NELSON DIES · AGED 47" /></>));
-S[43] = mk(43, (F) => (<><Shot id="t35_storm" from={0} to={F} /><Rain o={0.55} /><Flash at={wf(43, 'hit')} color="210,225,255" /><Dim /><Chapter n="VIII" title="The Storm" /></>));
-S[44] = mk(44, (F) => { const c = wf(44, 'retaken'); return (<><Shot id="t36_wreck" from={0} to={F} /><Rain o={0.45} /><Dim /><Chips items={[{ at: wf(44, 'sank'), t: 'PRIZES SINK' }, { at: wf(44, 'rocks'), t: 'DRIVEN ONTO ROCKS' }, { at: c, t: 'RETAKEN BY PRISONERS' }, { at: wf(44, 'burned'), t: 'SANTÍSIMA TRINIDAD SCUTTLED' }]} /></>); });
-S[45] = one(45, 't37_after_storm', () => <QuoteCard at={wf(45, 'collingwood') + 4} text="…would rather fight another battle than pass through such a week as followed it." by="COLLINGWOOD, NOVEMBER 1805" y={300} />);
-S[46] = mk(46, (F) => (<><Shot id="t42_fleet_glory" from={0} to={F} /><Dim /><Scoreboard n={46} /><Chapter n="IX" title="Why It Mattered" /></>));
-S[47] = one(47, 't38_ulm', () => (<><Slate at={6} place="ULM" date="20 OCTOBER 1805" /><Chips items={[{ at: wf(47, 'secret'), t: 'TRAFALGAR KEPT SECRET' }, { at: wf(47, 'victory', 1), t: 'PARIS: "A FRENCH VICTORY"' }]} /></>));
-S[48] = one(48, 't39_inn', () => (<><Slate at={6} place="RENNES, FRANCE" date="APRIL 1806" /><Verdict at={wf(48, 'suicide')} text="OFFICIAL VERDICT: SUICIDE" y={430} size={66} /></>));
-S[49] = one(49, 't40_austerlitz', () => <Slate at={6} place="AUSTERLITZ" date="2 DECEMBER 1805" />);
-S[50] = one(50, 't42_fleet_glory', () => <Verdict at={wf(50, 'sea')} text="RULER OF THE SEA" color={C.gold} y={420} />);
-S[51] = one(51, 't41_ship_home', () => <Slate at={6} place="ST PAUL'S CATHEDRAL" date="9 JANUARY 1806" />);
-S[52] = mk(52, (F) => { const f = useCurrentFrame(); const a = wf(52, 'genius'); const b = wf(52, 'fear');
+S[2] = one(2, 'i01_mountain_dawn', () => <Slate at={6} place="ISANDLWANA, ZULU KINGDOM" date="22 JANUARY 1879" />, 14);
+S[3] = one(3, 'i09_ntshingwayo', () => <Title at={wf(3, 'story') - 4} text="ISANDLWANA" sub="The Zulu General Who Out-Planned the British Empire" />);
+S[4] = one(4, 'i04_ultimatum_tree', () => (<><Chapter n="I" title="The Ultimatum" /><Slate at={wf(4, '11') - 4} place="THE ULTIMATUM TREE · THUKELA RIVER" date="11 DECEMBER 1878" /></>));
+S[5] = one(5, 'i05_frere', () => (<><Slate at={6} place="SIR BARTLE FRERE" date="BRITAIN'S HIGH COMMISSIONER" /><Chips items={[{ at: wf(5, 'without'), t: "WITHOUT LONDON'S APPROVAL" }]} top={260} /></>));
+S[6] = mk(6, () => (<><Shot id="i04_ultimatum_tree" from={0} to={fr(6)} /><Dim top={0.6} bottom={0.6} /><Ultimatum at={4} stamp={wf(6, 'disband')} /></>));
+S[7] = one(7, 'i05_frere', () => <Chips items={[{ at: wf(7, 'three'), t: '3 BORDER INCIDENTS' }, { at: wf(7, 'flimsy'), t: '"FLIMSY GROUNDS"' }]} />);
+S[8] = mk(8, (F) => <ZuluMap dur={F} title="ZULULAND · JANUARY 1879"><Place k="ondini" name="oNDINI (ROYAL CAPITAL)" big /><Place k="rorkes" name="RORKE'S DRIFT" at={wf(8, 'crossed')} dx={-250} dy={-16} />
+  <Clock n={8} render={(f) => f >= wf(8, '10') ? <text x={1250} y={980} fontFamily={HEAD} fontWeight={700} fontSize={46} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(f, wf(8, '10'), wf(8, '10') + 8)}>DEADLINE: 10 JANUARY 1879</text> : null} /></ZuluMap>);
+S[9] = mk(9, (F) => <ZuluMap dur={F} title="THE INVASION · 11 JANUARY 1879"><Clock n={9} render={(f) => (<>
+  <Route pts={[PL.lowerdrift, PL.eshowe]} t={ease(f, wf(9, 'coast'), wf(9, 'coast') + 40)} color="#e74c3c" label="COASTAL COLUMN" lx={20} ly={10} w={6} />
+  <Route pts={[PL.utrecht, [30.7, -27.85]]} t={ease(f, wf(9, 'north'), wf(9, 'north') + 40)} color="#e74c3c" label="NORTHERN COLUMN" lx={20} ly={10} w={6} />
+  <Route pts={[PL.helpmekaar, PL.rorkes, PL.isandlwana]} t={ease(f, wf(9, 'centre'), wf(9, 'centre') + 50)} color="#ff6f5e" label="CENTRE COLUMN" lx={-120} ly={60} w={8} />
+  <Place k="ondini" name="oNDINI" at={0} big /><Place k="rorkes" name="RORKE'S DRIFT" at={wf(9, 'rorkes')} dx={-250} dy={-16} /></>)} /></ZuluMap>);
+S[10] = two(10, 'i06_crossing', 'i14_chelmsford', 'chelmsford', () => (<><Slate at={wf(10, 'chelmsford')} place="LORD CHELMSFORD" date="BRITISH COMMANDER" /><Count at={wf(10, '4700')} to={4700} label="CENTRE COLUMN" top={300} /></>));
+S[11] = mk(11, (F) => (<><Shot id="i07_cetshwayo" from={0} to={F} /><Dim /><Slate at={6} place="oNDINI" date="KING CETSHWAYO kaMPANDE" /><Print src="assets/archival/cetshwayo.jpg" at={wf(11, 'cetshwayo')} out={wf(11, 'messengers')} x={1180} y={140} w={560} h={600} rot={2} label="CETSHWAYO · PHOTOGRAPHED 1882" pos="50% 25%" /><Chips items={[{ at: wf(11, 'peace'), t: 'ASKED FOR PEACE TALKS' }, { at: wf(11, 'army'), t: 'CALLED UP HIS ARMY' }]} top={260} /></>));
+S[12] = one(12, 'i09_ntshingwayo', () => (<><Chapter n="II" title="The General" /><Slate at={wf(12, 'ntshingwayo') - 2} place="NTSHINGWAYO kaMAHOLE KHOZA" date="COMMANDING GENERAL" /></>));
+S[13] = mk(13, (F) => (<><PhotoBg src="assets/archival/ntshingwayo.jpg" /><Print src="assets/archival/ntshingwayo.jpg" at={wf(13, 'photographs') - 6} x={460} y={90} w={1000} h={800} rot={-1} label="NTSHINGWAYO (SEATED, CENTRE) AT HIS HOMESTEAD · 1879" pos="50% 50%" /><Chips items={[{ at: wf(13, '70'), t: 'AGE: ABOUT 70' }, { at: wf(13, 'councillor'), t: "KING'S COUNCILLOR" }]} left top={200} /></>));
+S[14] = one(14, 'i10_army_gathers', () => (<><Count at={wf(14, '20000')} to={20000} label="WARRIORS" /><Chips items={[{ at: wf(14, 'age'), t: 'REGIMENTS BY AGE' }, { at: wf(14, 'spear'), t: 'STABBING SPEAR' }, { at: wf(14, 'shield'), t: 'COWHIDE SHIELD' }, { at: wf(14, 'firearms'), t: 'SOME OLD FIREARMS' }]} top={440} /></>));
+S[15] = one(15, 'i08_council', () => <QuoteCard at={wf(15, 'march') - 4} text="March slowly, attack at dawn and eat up the red soldiers." by="KING CETSHWAYO'S ORDER, AS RECORDED" y={260} />);
+S[16] = one(16, 'i11_march', () => (<><Chapter n="III" title="The Invisible Army" /><Chips items={[{ at: wf(16, 'two'), t: 'TWO COLUMNS' }, { at: wf(16, 'scouts'), t: 'SCOUTS OUT FRONT' }, { at: wf(16, 'screening'), t: 'SCREENS OF 200–400 MEN' }]} top={300} /></>));
+S[17] = mk(17, (F) => <ZuluMap dur={F} zoom={[1.6, 900, 330]} title="THE MARCH · JANUARY 1879"><Clock n={17} render={(f) => (<>
+  <Route pts={[PL.ondini, [31.15, -28.24], [30.95, -28.27], PL.ngwebeni]} t={ease(f, 10, wf(17, 'miles') + 20)} color="#e8c27a" label="ZULU ARMY: 50+ MILES IN 5 DAYS" lx={-60} ly={-40} w={8} />
+  <Route pts={[PL.rorkes, PL.isandlwana]} t={ease(f, wf(17, 'ten'), wf(17, 'ten') + 60)} color="#ff6f5e" label="BRITISH: ~10 MILES IN 10 DAYS" lx={-120} ly={70} w={8} />
+  <Place k="ondini" name="oNDINI" big /><Place k="isandlwana" name="ISANDLWANA" at={wf(17, 'ten')} dx={-60} dy={44} /></>)} /></ZuluMap>);
+S[18] = one(18, 'i19_patrol', () => <Verdict at={wf(18, 'idea')} text="WHERE ARE THEY?" color={C.gold} y={420} />);
+S[19] = one(19, 'i12_camp', () => (<><Chapter n="IV" title="The Camp" /><Slate at={wf(19, '20') - 4} place="ISANDLWANA" date="20 JANUARY 1879" /></>));
+S[20] = one(20, 'i13_wagons', () => (<><Chips items={[{ at: wf(20, 'entrench'), t: 'ORDERS: ENTRENCH' }, { at: wf(20, 'laager'), t: 'OR CIRCLE THE WAGONS' }]} /><Verdict at={wf(20, 'neither')} text="NEITHER" y={430} /></>));
+S[21] = one(21, 'i14_chelmsford', () => (<><QuoteCard at={wf(21, 'week') - 6} text="It would take a week to make." by="LORD CHELMSFORD, ON A WAGON LAAGER" y={220} out={wf(21, 'temporary')} /><Chips items={[{ at: wf(21, 'temporary'), t: 'TEMPORARY CAMP' }, { at: wf(21, 'supplies'), t: 'WAGONS FOR SUPPLIES' }, { at: wf(21, 'dare'), t: '"THEY WON\'T DARE"' }]} top={300} /></>));
+S[22] = mk(22, (F) => <BattleMap mode="hidden" dur={F} />);
+S[23] = one(23, 'i15_valley_hidden', () => (<><Count at={wf(23, '20000')} to={20000} label="IN TOTAL QUIET" /><Verdict at={wf(23, '23')} text="ATTACK PLANNED: 23 JANUARY" color={C.gold} y={560} size={64} /></>));
+S[24] = one(24, 'i16_night_march', () => (<><Chapter n="V" title="The Split" /><Slate at={30} place="BEFORE DAWN · 22 JANUARY" date="TOWARD THE MANGENI HILLS" /><Count at={wf(24, '2800')} to={2800} label="MEN MARCH OUT" top={340} /></>));
+S[25] = mk(25, (F) => <BattleMap mode="split" dur={F} />);
+S[26] = one(26, 'i17_pulleine', () => (<><Slate at={wf(26, 'henry') - 6} place="LT. COL. HENRY PULLEINE" date="IN COMMAND OF THE CAMP" /><Count at={wf(26, '1300')} to={1300} label="MEN LEFT BEHIND" top={300} /><Chips items={[{ at: wf(26, 'two'), t: '2 FIELD GUNS' }, { at: wf(26, 'administrator'), t: 'NO FRONT-LINE COMMAND' }]} top={560} /></>));
+S[27] = one(27, 'i12_camp', () => <Verdict at={wf(27, 'defend')} text="DEFEND THE CAMP. WAIT." color={C.gold} y={420} />);
+S[28] = one(28, 'i19_patrol', () => (<><Slate at={6} place="EARLY MORNING" date="ZULUS SEEN TO THE NORTH-EAST" /><Verdict at={wf(28, 'turn')} text="CHELMSFORD DOES NOT TURN BACK" y={440} size={60} /></>));
+S[29] = one(29, 'i18_durnford', () => (<><Slate at={6} place="10:30 AM" date="COL. ANTHONY DURNFORD ARRIVES" /><Chips items={[{ at: wf(29, '500'), t: '~500 AFRICAN TROOPS' }, { at: wf(29, 'rocket'), t: 'ROCKET BATTERY' }]} top={300} /></>));
+S[30] = one(30, 'i18_durnford', () => <Chips items={[{ at: wf(30, 'ride'), t: 'RIDES OUT OF CAMP' }]} top={300} />);
+S[31] = one(31, 'i19_patrol', () => (<><Chapter n="VI" title="Discovery" /><Slate at={wf(31, 'raw') - 4} place="AROUND 11:00 AM" date="LT. CHARLES RAW'S SCOUTS" /></>));
+S[32] = mk(32, (F) => (<><Shake hits={[16]} amp={10}><Shot id="i20_discovery" from={0} to={F} fadeIn={0} /></Shake><Dim /><Flash at={10} color="255,240,210" dur={10} /></>));
+S[33] = mk(33, (F) => { const c = wf(33, 'rose'); const r = wf(33, 'run'); return (<>
+  <Shot id="i15_valley_hidden" from={0} to={c + 8} /><Shake hits={[c + 6]} amp={14}><Shot id="i21_warriors_rise" from={c} to={r + 8} /><Shot id="i22_horns_run" from={r} to={F} /><Particles kind="ash" n={40} o={0.4} /></Shake><Dim />
+  <Verdict at={wf(33, 'early')} text="DISCOVERED A DAY EARLY" y={420} size={66} out={c} />
+</>); });
+S[34] = mk(34, () => <><BuffaloDiagram hi="all" /><Chapter n="VII" title="The Buffalo" at={6} /></>);
+S[35] = mk(35, () => <BuffaloDiagram hi="chest" />);
+S[36] = mk(36, () => <BuffaloDiagram hi="horns" />);
+S[37] = mk(37, () => <BuffaloDiagram hi="loins" />);
+S[38] = mk(38, (F) => <BattleMap mode="horns" dur={F} />);
+S[39] = one(39, 'i23_firing_line', () => (<><Chapter n="VIII" title="The Firing Line" /><Chips items={[{ at: wf(39, 'six'), t: '6 COMPANIES · 24TH FOOT' }, { at: wf(39, 'firing'), t: 'FAR FROM THE TENTS' }]} top={300} /><Volley y={620} x0={150} x1={1750} seed={4} /></>));
+S[40] = mk(40, (F) => { const c = wf(40, 'warriors'); return (<>
+  <Shake hits={[wf(40, 'volley'), wf(40, 'volley', 1)]} amp={12}><Shot id="i03_redcoats_line" from={0} to={c + 8} /><Volley y={640} x0={200} x1={1700} seed={5} period={30} /></Shake>
+  <Shot id="i26_warriors_ground" from={c} to={F} /><Dim /><Chips items={[{ at: wf(40, 'martinihenry'), t: 'MARTINI-HENRY RIFLE' }, { at: wf(40, 'hour'), t: 'HELD FOR AN HOUR+' }]} top={300} />
+</>); });
+S[41] = mk(41, (F) => { const c = wf(41, 'rocket'); return (<>
+  <Shake hits={[20, 60, c + 10]} amp={16}><Shot id="i25_guns" from={0} to={c + 8} /><Shot id="i24_rocket" from={c} to={F} />
+    <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}><VfxDefs /><Explosion at={20} x={1250} y={520} s={1.1} seed={3} /><Explosion at={60} x={700} y={560} s={0.9} seed={8} /></svg></Shake>
+  <Flash at={20} /><Dim /><Chips items={[{ at: wf(41, 'three'), t: '3 ROCKETS FIRED' }, { at: wf(41, 'ten'), t: '1 IN 10 AUXILIARIES ARMED' }]} top={300} />
+</>); });
+S[42] = mk(42, (F) => (<><BattleMap mode="line" dur={F} /><QuoteCard at={wf(42, 'historian')} text="…too large a perimeter." by="HISTORIAN IAN KNIGHT" y={700} /></>));
+S[43] = one(43, 'i27_ammo', () => (<><Slate at={6} place="THE BRITISH RIGHT" date="DURNFORD'S MEN IN A DONGA" /><Verdict at={wf(43, 'ammunition')} text="RUNNING OUT OF AMMUNITION" y={440} size={60} /></>));
+S[44] = one(44, 'i28_ammo_box', () => <Verdict at={wf(44, 'screwdrivers')} text="THE SCREWDRIVER STORY" color={C.gold} y={300} />);
+S[45] = two(45, 'i28_ammo_box', 'i23_firing_line', 'argue', () => (<><Verdict at={wf(45, 'sure')} text="DISPUTED" y={300} out={wf(45, 'argue')} /><Chips items={[{ at: wf(45, 'never'), t: 'MAIN LINE: PROBABLY HAD AMMUNITION' }, { at: wf(45, 'probably'), t: "FAR UNITS (DURNFORD'S): RAN OUT" }]} top={300} /></>));
+S[46] = mk(46, (F) => (<><BattleMap mode="collapse" dur={F} /><Chapter n="IX" title="The Sun Turns Black" at={wf(46, 'pulleine')} /></>));
+S[47] = mk(47, (F) => (<><Shake hits={[wf(47, 'charged'), wf(47, 'charged') + 14]} amp={20}><Shot id="i29_chest_charge" from={0} to={F} /><Particles kind="ash" n={60} o={0.5} /><Haze color="200,170,120" o={0.4} y={800} /></Shake><Dim /></>));
+S[48] = one(48, 'i21_warriors_rise', () => <QuoteCard at={wf(48, 'dont') - 4} text="Don't you dare run away. Your leader, Cetshwayo, never told you to run away." by="AN OLDER ZULU WARRIOR, AS REMEMBERED" y={240} />);
+S[49] = mk(49, (F) => (<><Shot id="i30_eclipse" from={0} to={F} /><Dim /><Eclipse at={wf(49, 'sky')} dur={F - wf(49, 'sky')} /><Slate at={wf(49, '230') - 2} place="2:30 PM" date="22 JANUARY 1879" /></>));
+S[50] = mk(50, (F) => (<><Shot id="i30_eclipse" from={0} to={F} fadeIn={0} /><Dim /><Eclipse at={-200} dur={1} disc /><QuoteCard at={wf(50, 'sun') - 6} text="The sun turned black in the middle of the battle." by="A ZULU WARRIOR" y={560} /><Slate at={6} place="SOLAR ECLIPSE" /></>));
+S[51] = mk(51, (F) => (<><BattleMap mode="closed" dur={F} /><Eclipse at={-200} dur={1} /></>));
+S[52] = one(52, 'i19_patrol', () => <QuoteCard at={wf(52, 'gods') - 6} text="For God's sake come back. The camp is surrounded, and things I fear are going badly." by="COMMANDANT HAMILTON-BROWNE, ABOUT 1:30 PM" y={220} />);
+S[53] = mk(53, (F) => (<><Shake hits={[20, 70, 130]} amp={16}><Shot id="i31_melee_tents" from={0} to={Math.round(F * 0.6)} /><Shot id="i32_last_stand" from={Math.round(F * 0.6)} to={F} /><Particles kind="embers" n={70} o={0.7} /><Haze o={0.45} /></Shake><Eclipse at={-200} dur={1} /><Dim /></>));
+S[54] = one(54, 'i36_dusk_field', () => <Verdict at={wf(54, '330')} text="3:30 PM · THE CAMP HAS FALLEN" y={420} size={66} />);
+S[55] = one(55, 'i33_flight', () => <Slate at={6} place="FUGITIVES' DRIFT" date="THE BUFFALO RIVER" />);
+S[56] = two(56, 'i35_colour', 'i34_river', 'river', () => (<><Chapter n="X" title="Aftermath" at={6} /><Chips items={[{ at: wf(56, 'colour'), t: "THE QUEEN'S COLOUR" }, { at: wf(56, '1907'), t: 'VICTORIA CROSS · 1907' }]} top={300} /></>));
+S[57] = one(57, 'i34_river', () => <QuoteCard at={wf(57, 'dont') - 6} text="I don't like the idea of officers escaping on horseback when their men on foot are being killed." by="SIR GARNET WOLSELEY" y={240} />);
+S[58] = mk(58, (F) => (<><Shot id="i36_dusk_field" from={0} to={F} /><Dim /><Toll n={58} /></>));
+S[59] = one(59, 'i39_zulu_return', () => <Chips items={[{ at: wf(59, '1000'), t: '1,000–3,000 ZULU DEAD' }, { at: wf(59, 'sons'), t: "NTSHINGWAYO'S TWO SONS WOUNDED" }]} top={300} />);
+S[60] = one(60, 'i37_chelmsford_return', () => (<><Slate at={6} place="SUNDOWN" date="CHELMSFORD RETURNS" /><QuoteCard at={wf(60, 'left') - 6} text="But I left over 1,000 men to guard the camp." by="LORD CHELMSFORD" y={560} /></>));
+S[61] = one(61, 'i36_dusk_field', () => <Haze o={0.3} color="120,110,100" />);
+S[62] = one(62, 'i38_rorkes', () => (<><Slate at={6} place="RORKE'S DRIFT" date="NIGHT OF 22–23 JANUARY" /><Count at={wf(62, '150')} to={150} label="DEFENDERS" top={300} /><Particles kind="embers" n={40} o={0.6} /></>));
+S[63] = one(63, 'i40_london', () => <Verdict at={wf(63, 'worst')} text="WORST DEFEAT" y={420} />);
+S[64] = one(64, 'i02_impi_ridge', () => <Verdict at={wf(64, 'greatest')} text="THE GREATEST ZULU VICTORY" color={C.gold} y={420} size={66} />);
+S[65] = two(65, 'i41_ulundi', 'i42_burning', 'capital', () => (<><Slate at={6} place="ULUNDI" date="4 JULY 1879" /><Count at={wf(65, '45')} to={45} label="MINUTES" top={300} /></>));
+S[66] = one(66, 'i43_captive', () => <Slate at={6} place="AUGUST 1879" date="CETSHWAYO CAPTURED · SENT TO CAPE TOWN" />);
+S[67] = mk(67, () => (<><PhotoBg src="assets/archival/cetshwayo.jpg" /><Print src="assets/archival/cetshwayo.jpg" at={6} x={610} y={70} w={700} h={760} rot={-1} label="CETSHWAYO IN LONDON · 1882" pos="50% 25%" /><Chips items={[{ at: wf(67, 'restored'), t: 'BRIEFLY RESTORED' }, { at: wf(67, '1884'), t: 'DIED 1884' }]} left top={300} /></>));
+S[68] = one(68, 'i44_old_general', () => <Slate at={wf(68, '1883') - 4} place="oNDINI" date="JULY 1883 · NTSHINGWAYO KILLED" />);
+S[69] = mk(69, () => (<><PhotoBg src="assets/archival/ntshingwayo.jpg" /><Print src="assets/archival/ntshingwayo.jpg" at={4} x={460} y={90} w={1000} h={800} rot={1} label="NTSHINGWAYO kaMAHOLE · 1879" /></>));
+S[70] = mk(70, (F) => <BattleMap mode="summary" dur={F} />);
+S[71] = one(71, 'i22_horns_run', () => <Verdict at={wf(71, 'adapted')} text="ADAPTED ON THE RUN" color={C.gold} y={420} />);
+S[72] = two(72, 'i03_redcoats_line', 'i09_ntshingwayo', 'ntshingwayo', () => (<>
+  <Chips items={[{ at: wf(72, 'rifles'), t: 'RIFLES · CANNON · ROCKETS' }]} out={wf(72, 'ntshingwayo')} />
+  <Chips items={[{ at: wf(72, 'scouts'), t: 'SCOUTS' }, { at: wf(72, 'speed'), t: 'SPEED' }, { at: wf(72, 'surprise'), t: 'SURPRISE' }]} left />
+</>));
+S[73] = mk(73, (F) => (<><Shot id="i45_cairns" from={0} to={F} /><Dim top={0.6} /><Clock n={73} render={(f) => { const a = wf(73, 'planning'); const b = wf(73, 'overconfidence');
   const card = (at: number, l: string, t: string, x: number, col: string) => f < at ? null : (
-    <div style={{ position: 'absolute', left: x, top: 330, width: 560, transform: `scale(${0.8 + 0.2 * ease(f, at, at + 8)})`, opacity: lin(f, at, at + 6), background: 'rgba(14,10,6,0.85)', border: `4px solid ${col}`, padding: '18px 22px', textAlign: 'center' }}>
+    <div style={{ position: 'absolute', left: x, top: 330, width: 600, transform: `scale(${0.8 + 0.2 * ease(f, at, at + 8)})`, opacity: lin(f, at, at + 6), background: 'rgba(14,10,6,0.85)', border: `4px solid ${col}`, padding: '18px 22px', textAlign: 'center' }}>
       <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 40, color: col }}>{l}</div>
-      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 60, color: '#fff' }}>{t}</div>
+      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 56, color: '#fff' }}>{t}</div>
     </div>);
-  return (<><Shot id="t01_fleet_dawn" from={0} to={F} /><Dim top={0.6} />
-    <div style={{ position: 'absolute', left: 0, right: 0, top: 150, textAlign: 'center', opacity: lin(f, 4, 12), fontFamily: HEAD, fontWeight: 700, fontSize: 84, color: '#fff', textShadow: '0 8px 24px #000' }}>TRAFALGAR WAS WON BY…</div>
-    {card(a, 'A', "NELSON'S GENIUS", 340, C.gold)}{card(b, 'B', "VILLENEUVE'S FEAR", 1020, '#6fbf73')}
-    <div style={{ position: 'absolute', left: 0, right: 0, top: 640, textAlign: 'center', opacity: lin(f, wf(52, 'subscribe') - 4, wf(52, 'subscribe') + 6) }}><span style={{ background: C.red, color: '#fff', fontFamily: SANS, fontWeight: 800, fontSize: 40, padding: '12px 30px', letterSpacing: 2 }}>SUBSCRIBE · BURIED CHRONICLES</span></div>
-  </>); });
-
-/* scene-specific helpers that read the clock */
-function PlanRoutes({ n }: { n: number }) {
-  const f = useCurrentFrame();
-  const a = wf(n, 'slip'), b = wf(n, 'lure'), c = wf(n, 'race');
   return (<>
-    <Route pts={[PLACES.toulon, [3, 38.5], PLACES.gib, [-20, 30], [-45, 20], PLACES.martinique]} t={ease(f, a, b + 20)} color="#4f86c6" w={6} />
-    <Route pts={[PLACES.martinique, [-45, 33], [-20, 45], PLACES.brest, PLACES.channel]} t={ease(f, c, c + 70)} color={C.gold} dashed label="SWEEP THE CHANNEL" lx={-420} ly={-30} w={6} />
-  </>);
-}
-function ChaseRoutes() {
-  const f = useCurrentFrame();
-  return (<>
-    <Route pts={[PLACES.toulon, [3, 38.5], PLACES.gib, [-20, 30], [-45, 20], PLACES.martinique, [-45, 33], [-20, 42], PLACES.finisterre, PLACES.ferrol]} t={ease(f, 0, 120)} color="#4f86c6" label="VILLENEUVE" lx={-200} ly={60} w={6} />
-    <Route pts={[[4, 40.5], [-4, 36.6], [-20, 28], [-45, 16], [-59.6, 13.1], [-45, 30], [-20, 38], [-6, 36.3]]} t={ease(f, 40, 170)} color={C.redHi} label="NELSON" lx={20} ly={50} w={5} />
-    <Port k="toulon" name="TOULON" at={0} /><Port k="martinique" name="WEST INDIES" at={30} dx={18} dy={40} />
-  </>);
-}
-function SignalText({ n }: { n: number }) {
-  const f = useCurrentFrame();
-  const a = wf(n, 'confides'), b = wf(n, 'expects');
-  return (
-    <div style={{ position: 'absolute', left: 0, right: 0, top: 380, textAlign: 'center', opacity: lin(f, a - 4, a + 6) }}>
-      <span style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 58, color: '#f6ecd4', textShadow: '0 4px 20px #000' }}>England </span>
-      <span style={{ position: 'relative', fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 58, color: f >= b ? C.gold : '#f6ecd4', textShadow: '0 4px 20px #000' }}>
-        {f >= b ? 'expects' : 'confides'}
-        {f >= b - 2 && f < b + 12 && <span style={{ position: 'absolute', left: -10, right: -10, top: '50%', height: 6, background: C.redHi, transform: `scaleX(${lin(f, b - 2, b + 4)})`, transformOrigin: 'left' }} />}
-      </span>
-      <span style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 700, fontSize: 58, color: '#f6ecd4', textShadow: '0 4px 20px #000' }}> that every man will do his duty</span>
-    </div>
-  );
-}
+    <div style={{ position: 'absolute', left: 0, right: 0, top: 150, textAlign: 'center', opacity: lin(f, 4, 12), fontFamily: HEAD, fontWeight: 700, fontSize: 80, color: '#fff', textShadow: '0 8px 24px #000' }}>ISANDLWANA WAS…</div>
+    {card(a, 'A', 'WON BY ZULU PLANNING', 320, C.gold)}{card(b, 'B', 'LOST BY BRITISH OVERCONFIDENCE', 1000, '#6fbf73')}
+    <div style={{ position: 'absolute', left: 0, right: 0, top: 640, textAlign: 'center', opacity: lin(f, wf(73, 'subscribe') - 4, wf(73, 'subscribe') + 6) }}><span style={{ background: C.red, color: '#fff', fontFamily: SANS, fontWeight: 800, fontSize: 40, padding: '12px 30px', letterSpacing: 2 }}>SUBSCRIBE · BURIED CHRONICLES</span></div>
+  </>); }} /></>));
 
-export const SCENE_COMPS = Array.from({ length: 52 }, (_, i) => S[i + 1]);
-export { spring, useVideoConfig, Img };
+export const SCENE_COMPS = Array.from({ length: 73 }, (_, i) => S[i + 1]);

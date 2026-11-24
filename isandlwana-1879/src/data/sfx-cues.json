@@ -1,347 +1,437 @@
 [
  {
-  "file": "waves.wav",
-  "at": 0.0,
-  "volume": 0.25
- },
- {
-  "file": "cannon.wav",
-  "at": 0.7,
-  "volume": 0.45
- },
- {
-  "file": "cannon.wav",
-  "at": 2.3,
-  "volume": 0.4
- },
- {
-  "file": "impact.wav",
-  "at": 9.25,
-  "volume": 0.4
- },
- {
-  "file": "waves.wav",
-  "at": 11.93,
-  "volume": 0.3
- },
- {
-  "file": "impact.wav",
-  "at": 19.196,
-  "volume": 0.4
- },
- {
-  "file": "wind.wav",
-  "at": 23.841,
-  "volume": 0.25
- },
- {
-  "file": "whoosh.wav",
-  "at": 47.167,
-  "volume": 0.2
- },
- {
-  "file": "paper.wav",
-  "at": 54.401,
-  "volume": 0.25
- },
- {
-  "file": "waves.wav",
-  "at": 77.757,
-  "volume": 0.25
- },
- {
-  "file": "cannon.wav",
-  "at": 88.009,
-  "volume": 0.35
- },
- {
-  "file": "cannon.wav",
-  "at": 89.509,
-  "volume": 0.3
- },
- {
-  "file": "impact.wav",
-  "at": 114.297,
-  "volume": 0.4
- },
- {
-  "file": "impact.wav",
-  "at": 119.879,
-  "volume": 0.35
- },
- {
-  "file": "waves.wav",
-  "at": 124.192,
-  "volume": 0.25
- },
- {
-  "file": "creak.wav",
-  "at": 135.407,
-  "volume": 0.3
- },
- {
-  "file": "paper.wav",
-  "at": 150.911,
-  "volume": 0.3
- },
- {
-  "file": "bell.wav",
-  "at": 157.899,
-  "volume": 0.3
- },
- {
-  "file": "waves.wav",
-  "at": 157.599,
-  "volume": 0.25
- },
- {
-  "file": "cannon.wav",
-  "at": 169.972,
-  "volume": 0.3
- },
- {
-  "file": "creak.wav",
-  "at": 181.842,
-  "volume": 0.25
- },
- {
-  "file": "whoosh.wav",
-  "at": 189.826,
-  "volume": 0.2
- },
- {
-  "file": "waves.wav",
-  "at": 204.225,
-  "volume": 0.25
- },
- {
-  "file": "bell.wav",
-  "at": 222.712,
-  "volume": 0.3
- },
- {
-  "file": "wind.wav",
-  "at": 222.312,
-  "volume": 0.25
- },
- {
-  "file": "creak.wav",
-  "at": 260.837,
-  "volume": 0.3
- },
- {
-  "file": "impact.wav",
-  "at": 270.757,
-  "volume": 0.35
- },
- {
-  "file": "cannon.wav",
-  "at": 284.196,
+  "file": "volley.wav",
+  "at": 0.6,
   "volume": 0.5
  },
  {
-  "file": "cannon.wav",
-  "at": 298.157,
-  "volume": 0.55
- },
- {
-  "file": "explosion.wav",
-  "at": 301.497,
+  "file": "musket.wav",
+  "at": 1.45,
   "volume": 0.5
  },
  {
-  "file": "cannon.wav",
-  "at": 305.783,
+  "file": "whoosh.wav",
+  "at": 1.93,
+  "volume": 0.35
+ },
+ {
+  "file": "shields.wav",
+  "at": 2.87,
   "volume": 0.45
  },
  {
-  "file": "cannon.wav",
-  "at": 307.383,
-  "volume": 0.4
- },
- {
-  "file": "cannon.wav",
-  "at": 317.775,
-  "volume": 0.45
- },
- {
-  "file": "cannon.wav",
-  "at": 319.075,
-  "volume": 0.4
- },
- {
-  "file": "impact.wav",
-  "at": 324.395,
-  "volume": 0.45
- },
- {
-  "file": "explosion.wav",
-  "at": 333.224,
+  "file": "drum.wav",
+  "at": 7.85,
   "volume": 0.6
  },
  {
-  "file": "creak.wav",
-  "at": 336.106,
+  "file": "wind.wav",
+  "at": 7.85,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 10.163,
+  "volume": 0.35
+ },
+ {
+  "file": "drum.wav",
+  "at": 18.972,
+  "volume": 0.45
+ },
+ {
+  "file": "impact.wav",
+  "at": 23.332,
+  "volume": 0.35
+ },
+ {
+  "file": "paper.wav",
+  "at": 25.137,
+  "volume": 0.3
+ },
+ {
+  "file": "paper.wav",
+  "at": 44.396,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 54.736,
+  "volume": 0.5
+ },
+ {
+  "file": "paper.wav",
+  "at": 61.566,
+  "volume": 0.25
+ },
+ {
+  "file": "drum.wav",
+  "at": 73.749,
+  "volume": 0.4
+ },
+ {
+  "file": "gallop.wav",
+  "at": 84.429,
+  "volume": 0.25
+ },
+ {
+  "file": "waves.wav",
+  "at": 84.129,
+  "volume": 0.25
+ },
+ {
+  "file": "drum.wav",
+  "at": 108.829,
+  "volume": 0.45
+ },
+ {
+  "file": "shields.wav",
+  "at": 108.829,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 113.228,
+  "volume": 0.4
+ },
+ {
+  "file": "shields.wav",
+  "at": 126.987,
+  "volume": 0.45
+ },
+ {
+  "file": "drum.wav",
+  "at": 128.067,
+  "volume": 0.45
+ },
+ {
+  "file": "impact.wav",
+  "at": 145.943,
+  "volume": 0.35
+ },
+ {
+  "file": "shields.wav",
+  "at": 148.1,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 167.346,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 170.625,
+  "volume": 0.25
+ },
+ {
+  "file": "impact.wav",
+  "at": 185.82,
+  "volume": 0.45
+ },
+ {
+  "file": "wind.wav",
+  "at": 205.304,
+  "volume": 0.3
+ },
+ {
+  "file": "impact.wav",
+  "at": 210.824,
+  "volume": 0.35
+ },
+ {
+  "file": "gallop.wav",
+  "at": 213.05,
+  "volume": 0.25
+ },
+ {
+  "file": "drum.wav",
+  "at": 233.533,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 263.649,
+  "volume": 0.4
+ },
+ {
+  "file": "gallop.wav",
+  "at": 265.215,
+  "volume": 0.3
+ },
+ {
+  "file": "gallop.wav",
+  "at": 283.743,
+  "volume": 0.35
+ },
+ {
+  "file": "drum.wav",
+  "at": 294.327,
+  "volume": 0.8
+ },
+ {
+  "file": "impact.wav",
+  "at": 294.427,
+  "volume": 0.6
+ },
+ {
+  "file": "shields.wav",
+  "at": 300.755,
+  "volume": 0.6
+ },
+ {
+  "file": "drum.wav",
+  "at": 300.755,
+  "volume": 0.5
+ },
+ {
+  "file": "drum.wav",
+  "at": 310.481,
+  "volume": 0.4
+ },
+ {
+  "file": "shields.wav",
+  "at": 337.126,
+  "volume": 0.45
+ },
+ {
+  "file": "volley.wav",
+  "at": 344.296,
+  "volume": 0.45
+ },
+ {
+  "file": "volley.wav",
+  "at": 346.996,
   "volume": 0.4
  },
  {
   "file": "volley.wav",
-  "at": 336.806,
+  "at": 354.188,
+  "volume": 0.6
+ },
+ {
+  "file": "volley.wav",
+  "at": 354.628,
+  "volume": 0.55
+ },
+ {
+  "file": "musket.wav",
+  "at": 359.808,
+  "volume": 0.4
+ },
+ {
+  "file": "cannon.wav",
+  "at": 362.352,
+  "volume": 0.55
+ },
+ {
+  "file": "cannon.wav",
+  "at": 363.652,
+  "volume": 0.5
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 364.572,
+  "volume": 0.45
+ },
+ {
+  "file": "explosion.wav",
+  "at": 367.532,
+  "volume": 0.45
+ },
+ {
+  "file": "volley.wav",
+  "at": 384.071,
   "volume": 0.3
  },
  {
   "file": "musket.wav",
-  "at": 350.9,
+  "at": 391.211,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 400.531,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 404.545,
+  "volume": 0.35
+ },
+ {
+  "file": "drum.wav",
+  "at": 417.609,
+  "volume": 0.45
+ },
+ {
+  "file": "shields.wav",
+  "at": 421.047,
+  "volume": 0.65
+ },
+ {
+  "file": "drum.wav",
+  "at": 425.847,
   "volume": 0.75
  },
  {
-  "file": "impact.wav",
-  "at": 356.08,
-  "volume": 0.35
- },
- {
-  "file": "explosion.wav",
-  "at": 370.472,
-  "volume": 0.6
- },
- {
   "file": "volley.wav",
-  "at": 363.892,
-  "volume": 0.3
- },
- {
-  "file": "impact.wav",
-  "at": 375.364,
+  "at": 426.247,
   "volume": 0.4
- },
- {
-  "file": "cannon.wav",
-  "at": 381.716,
-  "volume": 0.35
- },
- {
-  "file": "impact.wav",
-  "at": 389.378,
-  "volume": 0.35
- },
- {
-  "file": "cannon.wav",
-  "at": 390.73,
-  "volume": 0.45
- },
- {
-  "file": "cannon.wav",
-  "at": 392.23,
-  "volume": 0.4
- },
- {
-  "file": "waves.wav",
-  "at": 408.944,
-  "volume": 0.25
- },
- {
-  "file": "explosion.wav",
-  "at": 418.539,
-  "volume": 0.85
- },
- {
-  "file": "fire.wav",
-  "at": 418.539,
-  "volume": 0.35
- },
- {
-  "file": "creak.wav",
-  "at": 420.159,
-  "volume": 0.3
- },
- {
-  "file": "bell.wav",
-  "at": 428.459,
-  "volume": 0.3
  },
  {
   "file": "wind.wav",
-  "at": 430.973,
+  "at": 439.097,
   "volume": 0.5
  },
  {
-  "file": "waves.wav",
-  "at": 430.973,
-  "volume": 0.45
- },
- {
-  "file": "explosion.wav",
-  "at": 435.613,
-  "volume": 0.35
+  "file": "impact.wav",
+  "at": 439.717,
+  "volume": 0.4
  },
  {
   "file": "wind.wav",
-  "at": 436.326,
+  "at": 440.77,
   "volume": 0.45
  },
  {
+  "file": "drum.wav",
+  "at": 451.812,
+  "volume": 0.6
+ },
+ {
+  "file": "gallop.wav",
+  "at": 452.956,
+  "volume": 0.25
+ },
+ {
+  "file": "musket.wav",
+  "at": 465.865,
+  "volume": 0.45
+ },
+ {
+  "file": "musket.wav",
+  "at": 467.165,
+  "volume": 0.4
+ },
+ {
+  "file": "explosion.wav",
+  "at": 468.465,
+  "volume": 0.4
+ },
+ {
+  "file": "fire.wav",
+  "at": 465.265,
+  "volume": 0.4
+ },
+ {
+  "file": "shields.wav",
+  "at": 465.765,
+  "volume": 0.4
+ },
+ {
+  "file": "impact.wav",
+  "at": 477.285,
+  "volume": 0.55
+ },
+ {
+  "file": "wind.wav",
+  "at": 475.365,
+  "volume": 0.4
+ },
+ {
+  "file": "gallop.wav",
+  "at": 478.676,
+  "volume": 0.4
+ },
+ {
   "file": "waves.wav",
-  "at": 436.326,
+  "at": 484.953,
   "volume": 0.45
  },
  {
   "file": "splash.wav",
-  "at": 443.246,
+  "at": 491.353,
+  "volume": 0.5
+ },
+ {
+  "file": "wind.wav",
+  "at": 509.142,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 513.282,
   "volume": 0.4
  },
  {
-  "file": "waves.wav",
-  "at": 454.25,
-  "volume": 0.25
+  "file": "wind.wav",
+  "at": 526.687,
+  "volume": 0.35
  },
  {
-  "file": "paper.wav",
-  "at": 460.703,
+  "file": "fire.wav",
+  "at": 543.02,
+  "volume": 0.35
+ },
+ {
+  "file": "musket.wav",
+  "at": 544.22,
+  "volume": 0.3
+ },
+ {
+  "file": "murmur.wav",
+  "at": 556.395,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 559.075,
+  "volume": 0.4
+ },
+ {
+  "file": "drum.wav",
+  "at": 565.94,
+  "volume": 0.45
+ },
+ {
+  "file": "volley.wav",
+  "at": 569.306,
+  "volume": 0.4
+ },
+ {
+  "file": "fire.wav",
+  "at": 581.626,
+  "volume": 0.4
+ },
+ {
+  "file": "impact.wav",
+  "at": 583.799,
+  "volume": 0.3
+ },
+ {
+  "file": "wind.wav",
+  "at": 596.915,
+  "volume": 0.3
+ },
+ {
+  "file": "shields.wav",
+  "at": 624.388,
+  "volume": 0.35
+ },
+ {
+  "file": "drum.wav",
+  "at": 637.321,
+  "volume": 0.45
+ },
+ {
+  "file": "impact.wav",
+  "at": 640.865,
   "volume": 0.3
  },
  {
   "file": "impact.wav",
-  "at": 465.363,
-  "volume": 0.35
- },
- {
-  "file": "paper.wav",
-  "at": 493.911,
-  "volume": 0.25
- },
- {
-  "file": "impact.wav",
-  "at": 498.051,
-  "volume": 0.35
- },
- {
-  "file": "cannon.wav",
-  "at": 500.284,
-  "volume": 0.25
- },
- {
-  "file": "waves.wav",
-  "at": 506.963,
-  "volume": 0.25
- },
- {
-  "file": "bell.wav",
-  "at": 514.863,
-  "volume": 0.35
- },
- {
-  "file": "whoosh.wav",
-  "at": 520.532,
-  "volume": 0.2
- },
- {
-  "file": "impact.wav",
-  "at": 523.072,
-  "volume": 0.35
- },
- {
-  "file": "impact.wav",
-  "at": 524.932,
-  "volume": 0.35
+  "at": 643.125,
+  "volume": 0.3
  }
 ]
