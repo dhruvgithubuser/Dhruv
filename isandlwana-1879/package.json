@@ -2,7 +2,7 @@
   "name": "trafalgar-1805",
   "version": "1.0.0",
   "private": true,
-  "description": "Trafalgar 1805: what happened and why. 16:9 realistic documentary (Remotion).",
+  "description": "Isandlwana 1805: what happened and why. 16:9 realistic documentary (Remotion).",
   "scripts": {
     "studio": "remotion studio src/index.ts",
     "render": "bash scripts/render-video.sh"
