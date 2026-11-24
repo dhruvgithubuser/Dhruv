@@ -19,10 +19,18 @@ W, H, FPS = 1080, 1920, 30
 # per shot: (kind, strength, seconds, focus x, focus y) - focus in -1..1 is the point the camera pushes toward.
 # kinds: push (dolly in), pull (dolly out), left/right (truck with parallax), rise, drift
 MOTION = {
-    "g02_train": ("push", 1.1, 8, 0.0, 0.2), "g03_reporter": ("push", 1.3, 4, 0.0, -0.3), "g03_capture": ("push", 1.2, 4, 0.1, -0.2),
-    "g04_prison": ("push", 1.0, 6, 0, 0), "g05_wall": ("rise", 1.0, 7, 0, 0), "g06_post": ("right", 1.0, 6, 0, 0),
-    "g07_train": ("push", 1.4, 4, 0.2, -0.1), "g08_mine": ("push", 1.1, 4, 0, 0), "g09_shaft": ("push", 1.3, 5, -0.1, 0.1),
-    "g10_wool": ("push", 1.2, 8, 0.0, -0.1), "g11_crowd": ("pull", 1.3, 8, 0.3, -0.4),
+    "g01_hero": ("push", 1.3, 10, 0.0, -0.3),
+    "g02_train": ("push", 1.1, 11, 0.0, 0.2),
+    "g03_reporter": ("push", 1.3, 5, 0.0, -0.3),
+    "g03_capture": ("push", 1.2, 2, 0.1, -0.2),
+    "g04_prison": ("push", 1.0, 6, 0, 0),
+    "g05_wall": ("rise", 1.0, 6, 0, 0),
+    "g06_post": ("right", 1.0, 5, 0, 0),
+    "g07_train": ("push", 1.4, 3, 0.2, -0.1),
+    "g08_mine": ("push", 1.1, 5, 0, 0),
+    "g09_shaft": ("push", 1.3, 3, -0.1, 0.1),
+    "g10_wool": ("push", 1.2, 9, 0.0, -0.1),
+    "g11_crowd": ("pull", 1.3, 7, 0.3, -0.4),
 }
 
 

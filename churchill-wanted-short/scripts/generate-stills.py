@@ -16,6 +16,8 @@ STYLE = ", cinematic film still, 1899 Boer War period drama, 35mm film grain, dr
 NEG = ("painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, "
        "modern clothing, smartphone, modern car, airplane, two moons, floating objects, steel helmet, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, duplicate, two heads")
 SHOTS = {
+    "g01_hero": ("close-up portrait of a pale young Englishman of 25 with reddish-brown hair and a round boyish face, clean-shaven, dark wool suit and loose white collar, sweating, hiding in deep shadow at night, lit by a single lantern, hunted tense look, 1899", 7011),
+    "g01_hero2": ("cinematic close-up of a pale round-faced young Englishman of 25 with reddish-brown hair, clean-shaven, dark suit, crouching behind a wooden wall at night, moonlight on his face, eyes wide, fugitive, 1899 South Africa", 7012),
     "g02_train": ('armoured train derailed on a hillside railway in South Africa in 1899, overturned armoured trucks, steam and smoke, Boer riflemen firing from a ridge, grassy veld', 7021),
     "g03_reporter": ("slim pale young Englishman with red-brown hair in a khaki 1899 war correspondent's uniform and slouch hat, helping wounded soldiers beside a derailed armoured train under fire, smoke", 7031),
     "g03_capture": ('slim pale young Englishman with red-brown hair in khaki surrendering, hands raised, surrounded by bearded Boer horsemen with rifles and wide-brimmed hats on the open veld, 1899', 7032),

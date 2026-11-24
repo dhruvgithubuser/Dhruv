@@ -12,8 +12,7 @@ import { C, H, HEAD, SANS, SCENES, SERIF, TYPE, W, ease, hash01, lin, pf, wf } f
 
 // length (s) of each parallax clip, as rendered by scripts/parallax.py
 const CLIP_S: Record<string, number> = {
-  g02_train: 8, g03_reporter: 4, g03_capture: 4, g04_prison: 6, g05_wall: 7, g06_post: 6, g07_train: 4, g08_mine: 4, g09_shaft: 5,
-  g10_wool: 8, g11_crowd: 8,
+  g01_hero: 10, g02_train: 11, g03_reporter: 5, g03_capture: 2, g04_prison: 6, g05_wall: 6, g06_post: 5, g07_train: 3, g08_mine: 5, g09_shaft: 3, g10_wool: 9, g11_crowd: 7,
 };
 const GRADE = 'saturate(0.55) sepia(0.28) contrast(1.1) brightness(0.95)';
 
@@ -132,6 +131,20 @@ const Count: React.FC<{ at: number; to: number; label: string; dur?: number }> =
   );
 };
 
+/** A small typed document card (newspaper / warrant). */
+const Doc: React.FC<{ at: number; title: string; lines: string[]; stamp?: { at: number; t: string }; y?: number }> = ({ at, title, lines, stamp, y = 230 }) => {
+  const f = useCurrentFrame();
+  if (f < at) return null;
+  const k = ease(f, at, at + 10);
+  return (
+    <div style={{ position: 'absolute', left: 90, right: 90, top: y, transform: `translateY(${40 * (1 - k)}px) rotate(-2deg)`, opacity: k, background: '#efe4c8', padding: '26px 34px', boxShadow: '0 18px 40px rgba(0,0,0,0.7)' }}>
+      <div style={{ fontFamily: SERIF, fontWeight: 900, fontSize: 46, color: '#2a2117', borderBottom: '3px double #2a2117', paddingBottom: 8 }}>{title}</div>
+      {lines.map((l, i) => <div key={i} style={{ fontFamily: TYPE, fontSize: 28, color: '#3a2c1c', marginTop: 10, lineHeight: 1.35, opacity: lin(f, at + 8 + i * 6, at + 14 + i * 6) }}>{l}</div>)}
+      {stamp && f >= stamp.at && <div style={{ position: 'absolute', right: 26, bottom: 18, transform: `rotate(-10deg) scale(${1.5 - 0.5 * ease(f, stamp.at, stamp.at + 7)})`, border: `7px solid ${C.redHi}`, color: C.redHi, fontFamily: HEAD, fontWeight: 700, fontSize: 56, padding: '0 18px', letterSpacing: 4 }}>{stamp.t}</div>}
+    </div>
+  );
+};
+
 /* ───────────── scenes ───────────── */
 
 /** A real archival photograph as a framed print. */
@@ -148,32 +161,6 @@ const Print: React.FC<{ src: string; at: number; out?: number; y?: number; w?: n
       <div style={{ position: 'absolute', left: 22, right: 18, bottom: 20, fontFamily: TYPE, fontWeight: 700, fontSize: 28, color: C.ink, textAlign: 'center' }}>{label}</div>
       <div style={{ position: 'absolute', right: -14, top: -18, background: C.red, color: '#fff', fontFamily: HEAD, fontWeight: 700, fontSize: 30, padding: '4px 16px', letterSpacing: 2, transform: 'rotate(6deg)' }}>REAL PHOTO</div>
     </div>
-  );
-};
-
-/** The reward notice: aged paper, big type, Churchill's 1900 photo pinned on. Visible from frame 0. */
-const Poster: React.FC<{ stamp?: number; push?: number }> = ({ stamp, push = 0.08 }) => {
-  const f = useCurrentFrame();
-  const z = 1 + push * ease(f, 0, 240);
-  return (
-    <AbsoluteFill style={{ background: '#140e08' }}>
-      <Img src={staticFile('assets/backgrounds/paper.jpg')} style={{ position: 'absolute', inset: 0, width: W, height: H, objectFit: 'cover', filter: 'blur(10px) brightness(0.35)' }} />
-      <div style={{ position: 'absolute', left: 90, right: 90, top: 130, height: 1120, transform: `scale(${z}) rotate(-1.2deg)`, transformOrigin: '50% 20%', background: '#e9dcbc', boxShadow: '0 40px 80px rgba(0,0,0,0.85), inset 0 0 120px rgba(110,70,20,0.45)', padding: '46px 50px', textAlign: 'center' }}>
-        <Img src={staticFile('assets/backgrounds/paper.jpg')} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.55, mixBlendMode: 'multiply' }} />
-        <div style={{ position: 'relative', fontFamily: SERIF, fontWeight: 900, fontSize: 130, lineHeight: 1, color: '#2a1a0c', letterSpacing: 4 }}>£25</div>
-        <div style={{ position: 'relative', fontFamily: HEAD, fontWeight: 700, fontSize: 100, lineHeight: 1.05, color: '#2a1a0c', letterSpacing: 10 }}>REWARD</div>
-        <div style={{ position: 'relative', height: 6, background: '#2a1a0c', margin: '18px 40px 22px' }} />
-        <div style={{ position: 'relative', margin: '0 auto', width: 430, height: 450, border: '6px solid #2a1a0c', overflow: 'hidden', background: '#222' }}>
-          <Img src={staticFile('assets/archival/churchill1900.jpg')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 20%', filter: 'grayscale(1) sepia(0.35) contrast(1.15)' }} />
-        </div>
-        <div style={{ position: 'relative', fontFamily: TYPE, fontWeight: 700, fontSize: 38, color: '#2a1a0c', marginTop: 18, letterSpacing: 3 }}>THE ESCAPED PRISONER OF WAR</div>
-        <div style={{ position: 'relative', fontFamily: SERIF, fontWeight: 900, fontSize: 100, color: '#2a1a0c', letterSpacing: 6, lineHeight: 1.1 }}>CHURCHILL</div>
-        <div style={{ position: 'relative', fontFamily: HEAD, fontWeight: 700, fontSize: 70, color: C.red, letterSpacing: 6, marginTop: 0 }}>DEAD OR ALIVE</div>
-        <div style={{ position: 'relative', fontFamily: TYPE, fontSize: 22, color: 'rgba(42,26,12,0.7)', marginTop: 16, letterSpacing: 2 }}>PRETORIA · DECEMBER 1899</div>
-      </div>
-      {stamp !== undefined && <Verdict at={stamp} text="DEAD OR ALIVE" y={1150} rot={-7} />}
-      <div style={{ position: 'absolute', left: 40, bottom: 330, fontFamily: TYPE, fontWeight: 700, fontSize: 20, letterSpacing: 3, color: 'rgba(246,236,212,0.6)' }}>STYLISED · BASED ON THE 1899 REWARD NOTICE · PHOTO: CHURCHILL, 1900</div>
-    </AbsoluteFill>
   );
 };
 
@@ -206,14 +193,16 @@ const Route: React.FC<{ at: number; dur?: number }> = ({ at, dur = 90 }) => {
   );
 };
 
-// S01 hook: the reward notice from frame 0.
-const S01: React.FC = () => {
-  return (
-    <AbsoluteFill style={{ background: '#000' }}>
-      <Poster stamp={wf(1, 'dead')} push={0.1} />
-    </AbsoluteFill>
-  );
-};
+// S01 hook: young Churchill in hiding, the reward on screen from frame 0.
+const S01: React.FC = () => (
+  <AbsoluteFill style={{ background: '#000' }}>
+    <Shot name="g01_hero" from={0} to={end(1)} fadeIn={0} />
+    <AbsoluteFill style={{ background: `rgba(255,170,80,${0.04 + 0.04 * hash01(useCurrentFrame(), 7)})`, mixBlendMode: 'screen' }} />
+    <Dim />
+    <Slate at={-20} place="WANTED · £25 REWARD" date="SOUTH AFRICA · DECEMBER 1899" />
+    <Verdict at={wf(1, 'dead')} text="DEAD OR ALIVE" y={1080} rot={-6} />
+  </AbsoluteFill>
+);
 
 // S02 the armoured train, 15 Nov 1899.
 const S02: React.FC = () => (
@@ -221,8 +210,9 @@ const S02: React.FC = () => (
     <Shot name="g02_train" from={0} to={end(2)} />
     <Haze color="225,215,195" o={0.3} y={1000} />
     <Dim />
-    <Slate at={4} place="NATAL, SOUTH AFRICA" date="15 NOVEMBER 1899" />
-    <Chips top={480} items={[{ at: wf(2, 'correspondent'), t: 'WAR CORRESPONDENT' }, { at: wf(2, 'morning'), t: 'THE MORNING POST' }, { at: wf(2, 'armoured'), t: 'ARMOURED TRAIN' }]} />
+    <Slate at={4} place="NATAL, SOUTH AFRICA" date="15 NOVEMBER 1899" out={wf(2, 'winston')} />
+    <Print src="assets/archival/churchill1900.jpg" at={wf(2, 'winston')} out={wf(2, 'riding')} y={300} w={520} h={600} rot={-3} label="WINSTON CHURCHILL · 1900" pos="50% 20%" />
+    <Chips top={300} items={[{ at: wf(2, 'riding'), t: 'WAR CORRESPONDENT' }, { at: wf(2, 'riding') + 6, t: 'THE MORNING POST' }, { at: wf(2, 'armoured'), t: 'ARMOURED TRAIN' }]} />
   </AbsoluteFill>
 );
 
@@ -265,12 +255,12 @@ const S05: React.FC = () => (
   </AbsoluteFill>
 );
 
-// S06 the price on his head.
+// S06 the price on his head: the reward notice as a document card.
 const S06: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g06_post" from={0} to={wf(6, '25') + 4} />
-    <Sequence from={wf(6, '25')} layout="none"><Poster stamp={wf(6, 'dead') - wf(6, '25')} push={0.06} /></Sequence>
-    <Dim top={0.3} bottom={0.4} />
+    <Shot name="g06_post" from={0} to={end(6)} />
+    <Dim />
+    <Doc at={wf(6, 'price')} title="£25 REWARD" lines={['THE ESCAPED PRISONER OF WAR', 'CHURCHILL', 'DEAD OR ALIVE']} stamp={{ at: wf(6, 'dead'), t: 'WANTED' }} y={330} />
   </AbsoluteFill>
 );
 
