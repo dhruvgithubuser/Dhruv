@@ -1,745 +1,715 @@
 {
  "fps": 30,
- "duration": 78.212,
+ "duration": 73.017,
  "voice": "kokoro am_michael/am_onyx blend (en-us)",
  "phrases": [
   {
    "scene": 1,
-   "text": "You're looking at Britain's top general, days before D-Day. It's a pay clerk. Why would Britain fake its own general?",
+   "text": "You're a 25-year-old reporter in 1899. Now you're an escaped prisoner, worth 25 pounds, dead or alive. Where do you hide?",
    "start": 0.35,
-   "end": 6.921,
+   "end": 9.179,
    "words": [
     {
      "w": "You're",
      "start": 0.25,
-     "end": 0.45
-    },
-    {
-     "w": "looking",
-     "start": 0.45,
-     "end": 0.65
-    },
-    {
-     "w": "at",
-     "start": 0.65,
-     "end": 0.81
-    },
-    {
-     "w": "Britain's",
-     "start": 0.81,
-     "end": 1.21
-    },
-    {
-     "w": "top",
-     "start": 1.21,
-     "end": 1.41
-    },
-    {
-     "w": "general,",
-     "start": 1.41,
-     "end": 1.75
-    },
-    {
-     "w": "days",
-     "start": 1.75,
-     "end": 2.25
-    },
-    {
-     "w": "before",
-     "start": 2.25,
-     "end": 2.63
-    },
-    {
-     "w": "D-Day.",
-     "start": 2.63,
-     "end": 3.65
-    },
-    {
-     "w": "It's",
-     "start": 3.65,
-     "end": 3.71
+     "end": 0.47
     },
     {
      "w": "a",
-     "start": 3.71,
-     "end": 3.77
+     "start": 0.47,
+     "end": 0.51
     },
     {
-     "w": "pay",
-     "start": 3.77,
+     "w": "25-year-old",
+     "start": 0.51,
+     "end": 1.63
+    },
+    {
+     "w": "reporter",
+     "start": 1.63,
+     "end": 2.03
+    },
+    {
+     "w": "in",
+     "start": 2.03,
+     "end": 2.29
+    },
+    {
+     "w": "1899.",
+     "start": 2.29,
+     "end": 2.85
+    },
+    {
+     "w": "Now",
+     "start": 3.89,
      "end": 3.97
     },
     {
-     "w": "clerk.",
+     "w": "you're",
      "start": 3.97,
-     "end": 4.27
+     "end": 4.23
     },
     {
-     "w": "Why",
-     "start": 4.99,
-     "end": 5.11
+     "w": "an",
+     "start": 4.23,
+     "end": 4.31
     },
     {
-     "w": "would",
-     "start": 5.11,
-     "end": 5.29
+     "w": "escaped",
+     "start": 4.31,
+     "end": 4.61
     },
     {
-     "w": "Britain",
-     "start": 5.29,
-     "end": 5.51
+     "w": "prisoner,",
+     "start": 4.61,
+     "end": 5.13
     },
     {
-     "w": "fake",
-     "start": 5.51,
-     "end": 5.79
+     "w": "worth",
+     "start": 5.47,
+     "end": 5.53
     },
     {
-     "w": "its",
-     "start": 5.79,
-     "end": 6.03
+     "w": "25",
+     "start": 5.53,
+     "end": 5.87
     },
     {
-     "w": "own",
-     "start": 6.03,
-     "end": 6.25
+     "w": "pounds,",
+     "start": 5.87,
+     "end": 6.57
     },
     {
-     "w": "general?",
-     "start": 6.25,
-     "end": 6.61
+     "w": "dead",
+     "start": 6.83,
+     "end": 6.97
+    },
+    {
+     "w": "or",
+     "start": 6.97,
+     "end": 7.33
+    },
+    {
+     "w": "alive.",
+     "start": 7.33,
+     "end": 7.61
+    },
+    {
+     "w": "Where",
+     "start": 8.39,
+     "end": 8.43
+    },
+    {
+     "w": "do",
+     "start": 8.43,
+     "end": 8.53
+    },
+    {
+     "w": "you",
+     "start": 8.53,
+     "end": 8.63
+    },
+    {
+     "w": "hide?",
+     "start": 8.63,
+     "end": 8.91
     }
    ]
   },
   {
    "scene": 2,
-   "text": "Britain wanted German eyes on the Mediterranean, not Normandy. So it borrowed Montgomery's face.",
-   "start": 7.321,
-   "end": 13.305,
+   "text": "November 15, 1899. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.",
+   "start": 9.579,
+   "end": 19.001,
    "words": [
     {
-     "w": "Britain",
-     "start": 7.221,
-     "end": 7.481
+     "w": "November",
+     "start": 9.479,
+     "end": 9.859
     },
     {
-     "w": "wanted",
-     "start": 7.481,
-     "end": 7.761
+     "w": "15,",
+     "start": 9.859,
+     "end": 10.739
     },
     {
-     "w": "German",
-     "start": 7.761,
-     "end": 8.141
+     "w": "1899.",
+     "start": 10.739,
+     "end": 11.239
     },
     {
-     "w": "eyes",
-     "start": 8.141,
-     "end": 8.601
+     "w": "South",
+     "start": 12.379,
+     "end": 12.379
     },
     {
-     "w": "on",
-     "start": 8.601,
-     "end": 8.861
+     "w": "Africa.",
+     "start": 12.379,
+     "end": 12.859
+    },
+    {
+     "w": "Winston",
+     "start": 13.599,
+     "end": 13.639
+    },
+    {
+     "w": "Churchill",
+     "start": 13.639,
+     "end": 14.119
+    },
+    {
+     "w": "is",
+     "start": 14.119,
+     "end": 14.519
+    },
+    {
+     "w": "a",
+     "start": 14.519,
+     "end": 14.619
+    },
+    {
+     "w": "war",
+     "start": 14.619,
+     "end": 14.859
+    },
+    {
+     "w": "correspondent",
+     "start": 14.859,
+     "end": 15.359
+    },
+    {
+     "w": "for",
+     "start": 15.359,
+     "end": 15.819
     },
     {
      "w": "the",
-     "start": 8.861,
-     "end": 8.961
+     "start": 15.819,
+     "end": 15.899
     },
     {
-     "w": "Mediterranean,",
-     "start": 8.961,
-     "end": 9.281
+     "w": "Morning",
+     "start": 15.899,
+     "end": 16.119
     },
     {
-     "w": "not",
-     "start": 10.061,
-     "end": 10.221
+     "w": "Post,",
+     "start": 16.119,
+     "end": 16.459
     },
     {
-     "w": "Normandy.",
-     "start": 10.221,
-     "end": 10.621
+     "w": "riding",
+     "start": 16.859,
+     "end": 17.139
     },
     {
-     "w": "So",
-     "start": 11.121,
-     "end": 11.421
+     "w": "an",
+     "start": 17.139,
+     "end": 17.379
     },
     {
-     "w": "it",
-     "start": 11.421,
-     "end": 11.501
+     "w": "armoured",
+     "start": 17.379,
+     "end": 17.579
     },
     {
-     "w": "borrowed",
-     "start": 11.501,
-     "end": 11.761
+     "w": "train",
+     "start": 17.579,
+     "end": 18.019
     },
     {
-     "w": "Montgomery's",
-     "start": 11.761,
-     "end": 12.741
+     "w": "near",
+     "start": 18.019,
+     "end": 18.319
     },
     {
-     "w": "face.",
-     "start": 12.741,
-     "end": 12.981
+     "w": "Chieveley.",
+     "start": 18.319,
+     "end": 19.001
     }
    ]
   },
   {
    "scene": 3,
-   "text": "Lieutenant Clifton James was an actor, stuck counting money in the Army Pay Corps. Then a newspaper photo showed he was Monty's twin.",
-   "start": 13.625,
-   "end": 21.341,
+   "text": "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.",
+   "start": 19.321,
+   "end": 25.054,
    "words": [
     {
-     "w": "Lieutenant",
-     "start": 13.525,
-     "end": 13.865
+     "w": "Boer",
+     "start": 19.221,
+     "end": 19.561
     },
     {
-     "w": "Clifton",
-     "start": 13.865,
-     "end": 14.325
+     "w": "guns",
+     "start": 19.561,
+     "end": 19.841
     },
     {
-     "w": "James",
-     "start": 14.325,
-     "end": 14.525
+     "w": "derail",
+     "start": 19.841,
+     "end": 20.241
     },
     {
-     "w": "was",
-     "start": 14.525,
-     "end": 14.945
+     "w": "it.",
+     "start": 20.241,
+     "end": 20.621
     },
     {
-     "w": "an",
-     "start": 14.945,
-     "end": 15.065
+     "w": "He",
+     "start": 21.001,
+     "end": 21.061
     },
     {
-     "w": "actor,",
-     "start": 15.065,
-     "end": 15.445
+     "w": "helps",
+     "start": 21.061,
+     "end": 21.201
     },
     {
-     "w": "stuck",
-     "start": 15.945,
-     "end": 16.065
-    },
-    {
-     "w": "counting",
-     "start": 16.065,
-     "end": 16.465
-    },
-    {
-     "w": "money",
-     "start": 16.465,
-     "end": 16.785
-    },
-    {
-     "w": "in",
-     "start": 16.785,
-     "end": 17.065
+     "w": "clear",
+     "start": 21.201,
+     "end": 21.501
     },
     {
      "w": "the",
-     "start": 17.065,
-     "end": 17.165
+     "start": 21.501,
+     "end": 21.681
     },
     {
-     "w": "Army",
-     "start": 17.165,
-     "end": 17.405
+     "w": "line,",
+     "start": 21.681,
+     "end": 22.021
     },
     {
-     "w": "Pay",
-     "start": 17.405,
-     "end": 17.665
+     "w": "under",
+     "start": 22.021,
+     "end": 22.241
     },
     {
-     "w": "Corps.",
-     "start": 17.665,
-     "end": 17.985
+     "w": "fire.",
+     "start": 22.241,
+     "end": 22.681
     },
     {
      "w": "Then",
-     "start": 18.725,
-     "end": 18.745
+     "start": 23.261,
+     "end": 23.301
     },
     {
-     "w": "a",
-     "start": 18.745,
-     "end": 18.845
+     "w": "he's",
+     "start": 23.301,
+     "end": 23.501
     },
     {
-     "w": "newspaper",
-     "start": 18.845,
-     "end": 19.085
+     "w": "surrounded,",
+     "start": 23.501,
+     "end": 23.861
     },
     {
-     "w": "photo",
-     "start": 19.085,
-     "end": 19.605
+     "w": "and",
+     "start": 23.861,
+     "end": 24.141
     },
     {
-     "w": "showed",
-     "start": 19.605,
-     "end": 20.005
+     "w": "taken",
+     "start": 24.141,
+     "end": 24.401
     },
     {
-     "w": "he",
-     "start": 20.005,
-     "end": 20.165
-    },
-    {
-     "w": "was",
-     "start": 20.165,
-     "end": 20.265
-    },
-    {
-     "w": "Monty's",
-     "start": 20.265,
-     "end": 20.845
-    },
-    {
-     "w": "twin.",
-     "start": 20.845,
-     "end": 21.045
+     "w": "prisoner.",
+     "start": 24.401,
+     "end": 24.641
     }
    ]
   },
   {
    "scene": 4,
-   "text": "There were problems. Monty never drank or smoked. James did both. And he'd lost a finger in the First World War, so they made him a fake one.",
-   "start": 21.661,
-   "end": 29.852,
+   "text": "They lock him in a school in Pretoria, turned into a prison for British officers.",
+   "start": 25.374,
+   "end": 29.911,
    "words": [
     {
-     "w": "There",
-     "start": 21.561,
-     "end": 21.741
+     "w": "They",
+     "start": 25.274,
+     "end": 25.454
     },
     {
-     "w": "were",
-     "start": 21.741,
-     "end": 21.861
-    },
-    {
-     "w": "problems.",
-     "start": 21.861,
-     "end": 22.281
-    },
-    {
-     "w": "Monty",
-     "start": 22.941,
-     "end": 23.101
-    },
-    {
-     "w": "never",
-     "start": 23.101,
-     "end": 23.321
-    },
-    {
-     "w": "drank",
-     "start": 23.321,
-     "end": 23.561
-    },
-    {
-     "w": "or",
-     "start": 23.561,
-     "end": 23.941
-    },
-    {
-     "w": "smoked.",
-     "start": 23.941,
-     "end": 24.181
-    },
-    {
-     "w": "James",
-     "start": 25.121,
-     "end": 25.121
-    },
-    {
-     "w": "did",
-     "start": 25.121,
-     "end": 25.501
-    },
-    {
-     "w": "both.",
-     "start": 25.501,
-     "end": 25.801
-    },
-    {
-     "w": "And",
-     "start": 26.341,
-     "end": 26.481
-    },
-    {
-     "w": "he'd",
-     "start": 26.481,
-     "end": 26.661
-    },
-    {
-     "w": "lost",
-     "start": 26.661,
-     "end": 26.801
-    },
-    {
-     "w": "a",
-     "start": 26.801,
-     "end": 27.001
-    },
-    {
-     "w": "finger",
-     "start": 27.001,
-     "end": 27.221
-    },
-    {
-     "w": "in",
-     "start": 27.221,
-     "end": 27.461
-    },
-    {
-     "w": "the",
-     "start": 27.461,
-     "end": 27.541
-    },
-    {
-     "w": "First",
-     "start": 27.541,
-     "end": 27.761
-    },
-    {
-     "w": "World",
-     "start": 27.761,
-     "end": 28.021
-    },
-    {
-     "w": "War,",
-     "start": 28.021,
-     "end": 28.361
-    },
-    {
-     "w": "so",
-     "start": 28.561,
-     "end": 28.641
-    },
-    {
-     "w": "they",
-     "start": 28.641,
-     "end": 28.741
-    },
-    {
-     "w": "made",
-     "start": 28.741,
-     "end": 28.921
+     "w": "lock",
+     "start": 25.454,
+     "end": 25.674
     },
     {
      "w": "him",
-     "start": 28.921,
-     "end": 29.101
+     "start": 25.674,
+     "end": 25.934
+    },
+    {
+     "w": "in",
+     "start": 25.934,
+     "end": 26.034
     },
     {
      "w": "a",
-     "start": 29.101,
-     "end": 29.161
+     "start": 26.034,
+     "end": 26.074
     },
     {
-     "w": "fake",
-     "start": 29.161,
-     "end": 29.381
+     "w": "school",
+     "start": 26.074,
+     "end": 26.334
     },
     {
-     "w": "one.",
-     "start": 29.381,
-     "end": 29.661
+     "w": "in",
+     "start": 26.334,
+     "end": 26.634
+    },
+    {
+     "w": "Pretoria,",
+     "start": 26.634,
+     "end": 27.094
+    },
+    {
+     "w": "turned",
+     "start": 27.574,
+     "end": 27.854
+    },
+    {
+     "w": "into",
+     "start": 27.854,
+     "end": 28.174
+    },
+    {
+     "w": "a",
+     "start": 28.174,
+     "end": 28.294
+    },
+    {
+     "w": "prison",
+     "start": 28.294,
+     "end": 28.534
+    },
+    {
+     "w": "for",
+     "start": 28.534,
+     "end": 28.834
+    },
+    {
+     "w": "British",
+     "start": 28.834,
+     "end": 29.034
+    },
+    {
+     "w": "officers.",
+     "start": 29.034,
+     "end": 29.474
     }
    ]
   },
   {
    "scene": 5,
-   "text": "He studied the real Monty up close, posing as a reporter, learning his walk and his voice.",
-   "start": 30.172,
-   "end": 35.561,
+   "text": "December 12. At night, he climbs the wall by the latrine, and walks out through the town.",
+   "start": 30.191,
+   "end": 35.392,
    "words": [
     {
-     "w": "He",
-     "start": 30.072,
-     "end": 30.232
+     "w": "December",
+     "start": 30.091,
+     "end": 30.511
     },
     {
-     "w": "studied",
-     "start": 30.232,
-     "end": 30.472
+     "w": "12.",
+     "start": 30.511,
+     "end": 31.471
+    },
+    {
+     "w": "At",
+     "start": 31.471,
+     "end": 31.611
+    },
+    {
+     "w": "night,",
+     "start": 31.611,
+     "end": 31.831
+    },
+    {
+     "w": "he",
+     "start": 32.071,
+     "end": 32.111
+    },
+    {
+     "w": "climbs",
+     "start": 32.111,
+     "end": 32.351
     },
     {
      "w": "the",
-     "start": 30.472,
-     "end": 30.652
+     "start": 32.351,
+     "end": 32.631
     },
     {
-     "w": "real",
-     "start": 30.652,
-     "end": 30.972
+     "w": "wall",
+     "start": 32.631,
+     "end": 32.851
     },
     {
-     "w": "Monty",
-     "start": 30.972,
-     "end": 31.172
+     "w": "by",
+     "start": 32.851,
+     "end": 33.151
     },
     {
-     "w": "up",
-     "start": 31.172,
-     "end": 31.552
+     "w": "the",
+     "start": 33.151,
+     "end": 33.271
     },
     {
-     "w": "close,",
-     "start": 31.552,
-     "end": 31.812
-    },
-    {
-     "w": "posing",
-     "start": 32.272,
-     "end": 32.632
-    },
-    {
-     "w": "as",
-     "start": 32.632,
-     "end": 32.872
-    },
-    {
-     "w": "a",
-     "start": 32.872,
-     "end": 32.912
-    },
-    {
-     "w": "reporter,",
-     "start": 32.912,
-     "end": 33.332
-    },
-    {
-     "w": "learning",
-     "start": 33.812,
-     "end": 33.972
-    },
-    {
-     "w": "his",
-     "start": 33.972,
-     "end": 34.272
-    },
-    {
-     "w": "walk",
-     "start": 34.272,
-     "end": 34.572
+     "w": "latrine,",
+     "start": 33.271,
+     "end": 33.651
     },
     {
      "w": "and",
-     "start": 34.572,
-     "end": 34.792
+     "start": 33.651,
+     "end": 34.011
     },
     {
-     "w": "his",
-     "start": 34.792,
-     "end": 34.912
+     "w": "walks",
+     "start": 34.011,
+     "end": 34.211
     },
     {
-     "w": "voice.",
-     "start": 34.912,
-     "end": 35.212
+     "w": "out",
+     "start": 34.211,
+     "end": 34.491
+    },
+    {
+     "w": "through",
+     "start": 34.491,
+     "end": 34.751
+    },
+    {
+     "w": "the",
+     "start": 34.751,
+     "end": 34.851
+    },
+    {
+     "w": "town.",
+     "start": 34.851,
+     "end": 35.071
     }
    ]
   },
   {
    "scene": 6,
-   "text": "In late May, he flew to Gibraltar on Churchill's own plane. Reportedly, it circled for an hour, so he could sober up from smuggled gin.",
-   "start": 35.841,
-   "end": 43.991,
+   "text": "The Boers put a price on him. 25 pounds, dead or alive.",
+   "start": 35.712,
+   "end": 39.591,
    "words": [
     {
-     "w": "In",
-     "start": 35.741,
-     "end": 35.901
+     "w": "The",
+     "start": 35.612,
+     "end": 35.772
     },
     {
-     "w": "late",
-     "start": 35.901,
-     "end": 36.061
+     "w": "Boers",
+     "start": 35.772,
+     "end": 36.092
     },
     {
-     "w": "May,",
-     "start": 36.061,
-     "end": 36.301
+     "w": "put",
+     "start": 36.092,
+     "end": 36.272
     },
     {
-     "w": "he",
-     "start": 36.621,
-     "end": 36.641
+     "w": "a",
+     "start": 36.272,
+     "end": 36.332
     },
     {
-     "w": "flew",
-     "start": 36.641,
-     "end": 36.821
-    },
-    {
-     "w": "to",
-     "start": 36.821,
-     "end": 37.021
-    },
-    {
-     "w": "Gibraltar",
-     "start": 37.021,
-     "end": 37.201
+     "w": "price",
+     "start": 36.332,
+     "end": 36.532
     },
     {
      "w": "on",
-     "start": 37.201,
-     "end": 37.821
+     "start": 36.532,
+     "end": 36.852
     },
     {
-     "w": "Churchill's",
-     "start": 37.821,
-     "end": 38.381
+     "w": "him.",
+     "start": 36.852,
+     "end": 37.012
     },
     {
-     "w": "own",
-     "start": 38.381,
-     "end": 38.561
+     "w": "25",
+     "start": 37.392,
+     "end": 37.672
     },
     {
-     "w": "plane.",
-     "start": 38.561,
-     "end": 38.801
+     "w": "pounds,",
+     "start": 37.672,
+     "end": 38.312
     },
     {
-     "w": "Reportedly,",
-     "start": 39.901,
-     "end": 40.201
+     "w": "dead",
+     "start": 38.312,
+     "end": 38.612
     },
     {
-     "w": "it",
-     "start": 40.361,
-     "end": 40.401
+     "w": "or",
+     "start": 38.612,
+     "end": 38.912
     },
     {
-     "w": "circled",
-     "start": 40.401,
-     "end": 40.621
-    },
-    {
-     "w": "for",
-     "start": 40.621,
-     "end": 41.021
-    },
-    {
-     "w": "an",
-     "start": 41.021,
-     "end": 41.101
-    },
-    {
-     "w": "hour,",
-     "start": 41.101,
-     "end": 41.421
-    },
-    {
-     "w": "so",
-     "start": 41.821,
-     "end": 41.941
-    },
-    {
-     "w": "he",
-     "start": 41.941,
-     "end": 42.061
-    },
-    {
-     "w": "could",
-     "start": 42.061,
-     "end": 42.201
-    },
-    {
-     "w": "sober",
-     "start": 42.201,
-     "end": 42.441
-    },
-    {
-     "w": "up",
-     "start": 42.441,
-     "end": 42.761
-    },
-    {
-     "w": "from",
-     "start": 42.761,
-     "end": 42.961
-    },
-    {
-     "w": "smuggled",
-     "start": 42.961,
-     "end": 43.321
-    },
-    {
-     "w": "gin.",
-     "start": 43.321,
-     "end": 43.681
+     "w": "alive.",
+     "start": 38.912,
+     "end": 39.332
     }
    ]
   },
   {
    "scene": 7,
-   "text": "At breakfast, the governor talked about secret plans, in front of a Spanish visitor known to spy for Germany. He crossed the border to call his handler.",
-   "start": 44.351,
-   "end": 52.679,
+   "text": "He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.",
+   "start": 39.951,
+   "end": 48.322,
    "words": [
     {
-     "w": "At",
-     "start": 44.251,
-     "end": 44.431
+     "w": "He",
+     "start": 39.851,
+     "end": 40.011
     },
     {
-     "w": "breakfast,",
-     "start": 44.431,
-     "end": 44.771
+     "w": "jumps",
+     "start": 40.011,
+     "end": 40.211
     },
     {
-     "w": "the",
-     "start": 45.071,
-     "end": 45.111
+     "w": "a",
+     "start": 40.211,
+     "end": 40.391
     },
     {
-     "w": "governor",
-     "start": 45.111,
-     "end": 45.331
+     "w": "goods",
+     "start": 40.391,
+     "end": 40.551
     },
     {
-     "w": "talked",
-     "start": 45.331,
-     "end": 45.651
-    },
-    {
-     "w": "about",
-     "start": 45.651,
-     "end": 45.991
-    },
-    {
-     "w": "secret",
-     "start": 45.991,
-     "end": 46.311
-    },
-    {
-     "w": "plans,",
-     "start": 46.311,
-     "end": 46.811
+     "w": "train",
+     "start": 40.551,
+     "end": 40.911
     },
     {
      "w": "in",
-     "start": 47.431,
-     "end": 47.471
+     "start": 40.911,
+     "end": 41.111
     },
     {
-     "w": "front",
-     "start": 47.471,
+     "w": "the",
+     "start": 41.111,
+     "end": 41.211
+    },
+    {
+     "w": "dark,",
+     "start": 41.211,
+     "end": 41.431
+    },
+    {
+     "w": "and",
+     "start": 41.431,
+     "end": 41.651
+    },
+    {
+     "w": "ends",
+     "start": 41.651,
+     "end": 41.911
+    },
+    {
+     "w": "up",
+     "start": 41.911,
+     "end": 42.071
+    },
+    {
+     "w": "at",
+     "start": 42.071,
+     "end": 42.231
+    },
+    {
+     "w": "a",
+     "start": 42.231,
+     "end": 42.291
+    },
+    {
+     "w": "coal",
+     "start": 42.291,
+     "end": 42.491
+    },
+    {
+     "w": "mine.",
+     "start": 42.491,
+     "end": 42.851
+    },
+    {
+     "w": "By",
+     "start": 43.551,
+     "end": 43.611
+    },
+    {
+     "w": "luck,",
+     "start": 43.611,
+     "end": 43.871
+    },
+    {
+     "w": "the",
+     "start": 44.211,
+     "end": 44.271
+    },
+    {
+     "w": "manager",
+     "start": 44.271,
+     "end": 44.571
+    },
+    {
+     "w": "is",
+     "start": 44.571,
+     "end": 44.931
+    },
+    {
+     "w": "English.",
+     "start": 44.931,
+     "end": 45.191
+    },
+    {
+     "w": "John",
+     "start": 46.111,
+     "end": 46.111
+    },
+    {
+     "w": "Howard",
+     "start": 46.111,
+     "end": 46.491
+    },
+    {
+     "w": "hides",
+     "start": 46.491,
+     "end": 46.871
+    },
+    {
+     "w": "him",
+     "start": 46.871,
+     "end": 47.111
+    },
+    {
+     "w": "at",
+     "start": 47.111,
+     "end": 47.211
+    },
+    {
+     "w": "the",
+     "start": 47.211,
+     "end": 47.291
+    },
+    {
+     "w": "bottom",
+     "start": 47.291,
      "end": 47.631
     },
     {
@@ -748,448 +718,378 @@
      "end": 47.771
     },
     {
-     "w": "a",
-     "start": 47.771,
-     "end": 47.851
-    },
-    {
-     "w": "Spanish",
-     "start": 47.851,
-     "end": 48.131
-    },
-    {
-     "w": "visitor",
-     "start": 48.131,
-     "end": 48.591
-    },
-    {
-     "w": "known",
-     "start": 48.591,
-     "end": 48.891
-    },
-    {
-     "w": "to",
-     "start": 48.891,
-     "end": 49.191
-    },
-    {
-     "w": "spy",
-     "start": 49.191,
-     "end": 49.411
-    },
-    {
-     "w": "for",
-     "start": 49.411,
-     "end": 49.731
-    },
-    {
-     "w": "Germany.",
-     "start": 49.731,
-     "end": 49.971
-    },
-    {
-     "w": "He",
-     "start": 50.851,
-     "end": 50.891
-    },
-    {
-     "w": "crossed",
-     "start": 50.891,
-     "end": 51.091
-    },
-    {
      "w": "the",
-     "start": 51.091,
-     "end": 51.311
+     "start": 47.771,
+     "end": 47.871
     },
     {
-     "w": "border",
-     "start": 51.311,
-     "end": 51.491
-    },
-    {
-     "w": "to",
-     "start": 51.491,
-     "end": 51.711
-    },
-    {
-     "w": "call",
-     "start": 51.711,
-     "end": 51.891
-    },
-    {
-     "w": "his",
-     "start": 51.891,
-     "end": 52.091
-    },
-    {
-     "w": "handler.",
-     "start": 52.091,
-     "end": 52.351
+     "w": "mine.",
+     "start": 47.871,
+     "end": 48.091
     }
    ]
   },
   {
    "scene": 8,
-   "text": "Then Algiers. Crowds, cameras, a meeting with General Wilson. Then the double vanished, hidden in Cairo until D-Day.",
-   "start": 52.999,
-   "end": 59.866,
+   "text": "Then he's smuggled out in a freight car, buried under bales of wool, almost 300 miles, to Portuguese East Africa. Free.",
+   "start": 48.642,
+   "end": 56.464,
    "words": [
     {
      "w": "Then",
-     "start": 52.899,
-     "end": 53.119
+     "start": 48.542,
+     "end": 48.742
     },
     {
-     "w": "Algiers.",
-     "start": 53.119,
-     "end": 53.579
+     "w": "he's",
+     "start": 48.742,
+     "end": 48.862
     },
     {
-     "w": "Crowds,",
-     "start": 53.579,
-     "end": 54.199
+     "w": "smuggled",
+     "start": 48.822,
+     "end": 49.082
     },
     {
-     "w": "cameras,",
-     "start": 54.199,
-     "end": 54.679
-    },
-    {
-     "w": "a",
-     "start": 54.679,
-     "end": 54.679
-    },
-    {
-     "w": "meeting",
-     "start": 54.679,
-     "end": 55.379
-    },
-    {
-     "w": "with",
-     "start": 55.379,
-     "end": 55.619
-    },
-    {
-     "w": "General",
-     "start": 55.619,
-     "end": 55.839
-    },
-    {
-     "w": "Wilson.",
-     "start": 55.839,
-     "end": 56.139
-    },
-    {
-     "w": "Then",
-     "start": 57.079,
-     "end": 57.079
-    },
-    {
-     "w": "the",
-     "start": 57.079,
-     "end": 57.219
-    },
-    {
-     "w": "double",
-     "start": 57.219,
-     "end": 57.419
-    },
-    {
-     "w": "vanished,",
-     "start": 57.419,
-     "end": 57.799
-    },
-    {
-     "w": "hidden",
-     "start": 58.159,
-     "end": 58.279
+     "w": "out",
+     "start": 49.082,
+     "end": 49.502
     },
     {
      "w": "in",
-     "start": 58.279,
-     "end": 58.479
+     "start": 49.502,
+     "end": 49.642
     },
     {
-     "w": "Cairo",
-     "start": 58.479,
-     "end": 58.739
+     "w": "a",
+     "start": 49.642,
+     "end": 49.702
     },
     {
-     "w": "until",
-     "start": 58.739,
-     "end": 59.259
+     "w": "freight",
+     "start": 49.702,
+     "end": 49.882
     },
     {
-     "w": "D-Day.",
-     "start": 59.259,
-     "end": 59.866
+     "w": "car,",
+     "start": 49.882,
+     "end": 50.302
+    },
+    {
+     "w": "buried",
+     "start": 50.762,
+     "end": 50.882
+    },
+    {
+     "w": "under",
+     "start": 50.882,
+     "end": 51.162
+    },
+    {
+     "w": "bales",
+     "start": 51.162,
+     "end": 51.542
+    },
+    {
+     "w": "of",
+     "start": 51.542,
+     "end": 51.722
+    },
+    {
+     "w": "wool,",
+     "start": 51.722,
+     "end": 51.962
+    },
+    {
+     "w": "almost",
+     "start": 51.962,
+     "end": 52.642
+    },
+    {
+     "w": "300",
+     "start": 52.642,
+     "end": 53.002
+    },
+    {
+     "w": "miles,",
+     "start": 53.002,
+     "end": 53.642
+    },
+    {
+     "w": "to",
+     "start": 53.642,
+     "end": 54.022
+    },
+    {
+     "w": "Portuguese",
+     "start": 54.022,
+     "end": 54.342
+    },
+    {
+     "w": "East",
+     "start": 54.342,
+     "end": 54.862
+    },
+    {
+     "w": "Africa.",
+     "start": 54.862,
+     "end": 55.362
+    },
+    {
+     "w": "Free.",
+     "start": 56.042,
+     "end": 56.162
     }
    ]
   },
   {
    "scene": 9,
-   "text": "Did it work? Captured German generals said they believed it was Monty, but guessed it was a trick. Historians find no sign it changed their plans.",
-   "start": 60.226,
-   "end": 68.68,
+   "text": "Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.",
+   "start": 56.824,
+   "end": 63.008,
    "words": [
     {
-     "w": "Did",
-     "start": 60.126,
-     "end": 60.326
+     "w": "Britain",
+     "start": 56.724,
+     "end": 56.964
+    },
+    {
+     "w": "had",
+     "start": 56.964,
+     "end": 57.184
+    },
+    {
+     "w": "just",
+     "start": 57.184,
+     "end": 57.364
+    },
+    {
+     "w": "lost",
+     "start": 57.364,
+     "end": 57.584
+    },
+    {
+     "w": "three",
+     "start": 57.584,
+     "end": 57.904
+    },
+    {
+     "w": "battles",
+     "start": 57.904,
+     "end": 58.324
+    },
+    {
+     "w": "in",
+     "start": 58.324,
+     "end": 58.544
+    },
+    {
+     "w": "one",
+     "start": 58.544,
+     "end": 58.724
+    },
+    {
+     "w": "week.",
+     "start": 58.724,
+     "end": 58.964
+    },
+    {
+     "w": "Now",
+     "start": 59.564,
+     "end": 59.624
     },
     {
      "w": "it",
-     "start": 60.326,
-     "end": 60.366
+     "start": 59.624,
+     "end": 59.864
     },
     {
-     "w": "work?",
-     "start": 60.366,
-     "end": 60.546
-    },
-    {
-     "w": "Captured",
-     "start": 61.226,
-     "end": 61.406
-    },
-    {
-     "w": "German",
-     "start": 61.406,
-     "end": 61.686
-    },
-    {
-     "w": "generals",
-     "start": 61.686,
-     "end": 62.226
-    },
-    {
-     "w": "said",
-     "start": 62.226,
-     "end": 62.526
-    },
-    {
-     "w": "they",
-     "start": 62.526,
-     "end": 62.646
-    },
-    {
-     "w": "believed",
-     "start": 62.646,
-     "end": 62.986
-    },
-    {
-     "w": "it",
-     "start": 62.986,
-     "end": 63.226
-    },
-    {
-     "w": "was",
-     "start": 63.226,
-     "end": 63.366
-    },
-    {
-     "w": "Monty,",
-     "start": 63.366,
-     "end": 63.846
-    },
-    {
-     "w": "but",
-     "start": 64.206,
-     "end": 64.286
-    },
-    {
-     "w": "guessed",
-     "start": 64.286,
-     "end": 64.466
-    },
-    {
-     "w": "it",
-     "start": 64.466,
-     "end": 64.686
-    },
-    {
-     "w": "was",
-     "start": 64.686,
-     "end": 64.806
+     "w": "had",
+     "start": 59.864,
+     "end": 59.984
     },
     {
      "w": "a",
-     "start": 64.806,
-     "end": 64.886
+     "start": 59.984,
+     "end": 60.064
     },
     {
-     "w": "trick.",
-     "start": 64.886,
-     "end": 65.126
+     "w": "hero.",
+     "start": 60.064,
+     "end": 60.404
     },
     {
-     "w": "Historians",
-     "start": 65.846,
-     "end": 66.306
+     "w": "Less",
+     "start": 61.024,
+     "end": 61.084
     },
     {
-     "w": "find",
-     "start": 66.306,
-     "end": 66.646
+     "w": "than",
+     "start": 61.084,
+     "end": 61.284
     },
     {
-     "w": "no",
-     "start": 66.646,
-     "end": 66.926
+     "w": "a",
+     "start": 61.284,
+     "end": 61.364
     },
     {
-     "w": "sign",
-     "start": 66.926,
-     "end": 67.306
+     "w": "year",
+     "start": 61.364,
+     "end": 61.524
     },
     {
-     "w": "it",
-     "start": 67.306,
-     "end": 67.466
+     "w": "later,",
+     "start": 61.524,
+     "end": 61.824
     },
     {
-     "w": "changed",
-     "start": 67.466,
-     "end": 67.666
+     "w": "he",
+     "start": 62.004,
+     "end": 62.064
     },
     {
-     "w": "their",
-     "start": 67.666,
-     "end": 67.986
+     "w": "was",
+     "start": 62.064,
+     "end": 62.164
     },
     {
-     "w": "plans.",
-     "start": 67.986,
-     "end": 68.286
+     "w": "in",
+     "start": 62.164,
+     "end": 62.304
+    },
+    {
+     "w": "Parliament.",
+     "start": 62.304,
+     "end": 62.544
     }
    ]
   },
   {
    "scene": 10,
-   "text": "James got \u00a310 a day, Monty's pay, then went back to his desk. Genius, or a waste? Tell me below, and follow Buried Chronicles.",
-   "start": 69.04,
-   "end": 77.052,
+   "text": "Four decades later, the man worth 25 pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.",
+   "start": 63.328,
+   "end": 71.857,
    "words": [
     {
-     "w": "James",
-     "start": 68.94,
-     "end": 69.2
+     "w": "Four",
+     "start": 63.228,
+     "end": 63.468
     },
     {
-     "w": "got",
-     "start": 69.2,
-     "end": 69.48
+     "w": "decades",
+     "start": 63.468,
+     "end": 63.708
     },
     {
-     "w": "\u00a310",
-     "start": 69.48,
-     "end": 69.78
+     "w": "later,",
+     "start": 63.708,
+     "end": 64.188
     },
     {
-     "w": "a",
-     "start": 70.06,
-     "end": 70.24
+     "w": "the",
+     "start": 64.448,
+     "end": 64.488
     },
     {
-     "w": "day,",
-     "start": 70.24,
-     "end": 70.4
+     "w": "man",
+     "start": 64.488,
+     "end": 64.668
     },
     {
-     "w": "Monty's",
-     "start": 70.4,
-     "end": 70.86
+     "w": "worth",
+     "start": 64.668,
+     "end": 64.928
     },
     {
-     "w": "pay,",
-     "start": 70.86,
-     "end": 71.02
+     "w": "25",
+     "start": 64.928,
+     "end": 65.328
     },
     {
-     "w": "then",
-     "start": 71.3,
-     "end": 71.38
+     "w": "pounds",
+     "start": 65.328,
+     "end": 66.028
     },
     {
-     "w": "went",
-     "start": 71.38,
-     "end": 71.5
+     "w": "became",
+     "start": 66.028,
+     "end": 66.388
     },
     {
-     "w": "back",
-     "start": 71.5,
-     "end": 71.74
+     "w": "Prime",
+     "start": 66.388,
+     "end": 66.648
     },
     {
-     "w": "to",
-     "start": 71.74,
-     "end": 71.94
+     "w": "Minister.",
+     "start": 66.648,
+     "end": 67.148
     },
     {
-     "w": "his",
-     "start": 71.94,
-     "end": 72.04
+     "w": "Would",
+     "start": 67.868,
+     "end": 67.888
     },
     {
-     "w": "desk.",
-     "start": 72.04,
-     "end": 72.38
+     "w": "you",
+     "start": 67.888,
+     "end": 68.008
     },
     {
-     "w": "Genius,",
-     "start": 72.9,
-     "end": 73.28
+     "w": "have",
+     "start": 68.008,
+     "end": 68.128
     },
     {
-     "w": "or",
-     "start": 73.28,
-     "end": 73.64
+     "w": "turned",
+     "start": 68.128,
+     "end": 68.368
     },
     {
-     "w": "a",
-     "start": 73.64,
-     "end": 73.76
+     "w": "him",
+     "start": 68.368,
+     "end": 68.568
     },
     {
-     "w": "waste?",
-     "start": 73.76,
-     "end": 74.02
+     "w": "in?",
+     "start": 68.568,
+     "end": 68.768
     },
     {
      "w": "Tell",
-     "start": 74.68,
-     "end": 74.72
+     "start": 69.328,
+     "end": 69.408
     },
     {
      "w": "me",
-     "start": 74.72,
-     "end": 74.88
+     "start": 69.408,
+     "end": 69.568
     },
     {
      "w": "below,",
-     "start": 74.88,
-     "end": 75.16
+     "start": 69.568,
+     "end": 69.828
     },
     {
      "w": "and",
-     "start": 75.16,
-     "end": 75.46
+     "start": 69.828,
+     "end": 70.208
     },
     {
      "w": "follow",
-     "start": 75.46,
-     "end": 75.74
+     "start": 70.208,
+     "end": 70.588
     },
     {
      "w": "Buried",
-     "start": 75.74,
-     "end": 76.28
+     "start": 70.588,
+     "end": 70.988
     },
     {
      "w": "Chronicles.",
-     "start": 76.28,
-     "end": 76.48
+     "start": 70.988,
+     "end": 71.588
     }
    ]
   }

@@ -13,7 +13,7 @@ const Fade: React.FC<{ first: boolean; children: React.ReactNode }> = ({ first, 
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
 
-const KEY = new Set(['general', 'dday', 'clerk', 'fake', 'mediterranean', 'normandy', 'face', 'clifton', 'james', 'actor', 'newspaper', 'twin', 'problems', 'drank', 'smoked', 'both', 'finger', 'reporter', 'walk', 'voice', 'gibraltar', 'churchills', 'reportedly', 'hour', 'gin', 'secret', 'spy', 'germany', 'handler', 'algiers', 'cairo', 'vanished', 'work', 'monty', 'trick', 'no', 'sign', '10', 'desk', 'genius', 'waste', 'buried', 'chronicles']);
+const KEY = new Set(['25yearold', '1899', 'escaped', 'prisoner', '25', 'dead', 'alive', 'hide', 'churchill', 'correspondent', 'armoured', 'derail', 'fire', 'surrounded', 'pretoria', 'school', 'prison', 'wall', 'latrine', 'price', 'train', 'coal', 'mine', 'english', 'howard', 'bottom', 'wool', '300', 'free', 'three', 'hero', 'parliament', 'prime', 'minister', 'turned', 'buried', 'chronicles']);
 const CHUNKS = (() => {
   const out: { words: { w: string; start: number; end: number }[]; start: number; end: number }[] = [];
   for (const p of PHRASES) {
@@ -33,7 +33,7 @@ const Captions: React.FC = () => {
   return <BigCaption words={ch.words} t={t} keys={KEY} k={k} />;
 };
 
-export const MontyDouble: React.FC = () => (
+export const ChurchillWanted: React.FC = () => (
   <AbsoluteFill style={{ background: '#1d1b19' }}>
     <Fonts />
     {SCENE_COMPS.map((Comp, i) => {

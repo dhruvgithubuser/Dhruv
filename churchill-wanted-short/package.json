@@ -1,8 +1,8 @@
 {
-  "name": "montgomery-double-short",
+  "name": "churchill-wanted-short",
   "version": "1.0.0",
   "private": true,
-  "description": "Montgomery's Body Double (Operation Copperhead, 1944): 9:16 cinematic documentary Short (Remotion).",
+  "description": "Churchill's Wanted Poster: £25, Dead or Alive (1899): 9:16 cinematic documentary Short (Remotion).",
   "scripts": {
     "studio": "remotion studio src/index.ts",
     "render": "bash scripts/render-video.sh"

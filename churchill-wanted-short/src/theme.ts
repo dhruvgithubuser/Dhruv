@@ -1,4 +1,4 @@
-// Timing + palette for "Montgomery's Body Double" (Operation Copperhead, 1944) (cinematic documentary Short). Every visual is a pure function of the frame.
+// Timing + palette for "Churchill's Wanted Poster" (Boer War, 1899) (cinematic documentary Short). Every visual is a pure function of the frame.
 import { Easing, interpolate } from 'remotion';
 import timeline from './data/timeline.json';
 

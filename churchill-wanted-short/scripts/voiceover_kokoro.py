@@ -1,4 +1,4 @@
-"""Montgomery body double narration: Kokoro-82M ONNX, deep American male (am_michael/am_onyx blend).
+"""Churchill wanted-poster narration: Kokoro-82M ONNX, deep American male (am_michael/am_onyx blend).
 
     python scripts/voiceover_kokoro.py <kokoro_dir> [--whisper]
 
@@ -31,16 +31,16 @@ LEAD = 0.35  # silence before the first word
 
 # (scene, spoken text (what the TTS reads), caption text (exact script wording), pause after in s)
 PHRASES = [
-    (1, "You're looking at Britain's top general, days before D-Day. It's a pay clerk. Why would Britain fake its own general?", "You're looking at Britain's top general, days before D-Day. It's a pay clerk. Why would Britain fake its own general?", 0.5),
-    (2, "Britain wanted German eyes on the Mediterranean, not Normandy. So it borrowed Montgomery's face.", "Britain wanted German eyes on the Mediterranean, not Normandy. So it borrowed Montgomery's face.", 0.4),
-    (3, "Lieutenant Clifton James was an actor, stuck counting money in the Army Pay Corps. Then a newspaper photo showed he was Monty's twin.", "Lieutenant Clifton James was an actor, stuck counting money in the Army Pay Corps. Then a newspaper photo showed he was Monty's twin.", 0.4),
-    (4, "There were problems. Monty never drank or smoked. James did both. And he'd lost a finger in the First World War, so they made him a fake one.", "There were problems. Monty never drank or smoked. James did both. And he'd lost a finger in the First World War, so they made him a fake one.", 0.4),
-    (5, 'He studied the real Monty up close, posing as a reporter, learning his walk and his voice.', 'He studied the real Monty up close, posing as a reporter, learning his walk and his voice.', 0.35),
-    (6, "In late May, he flew to Gibraltar on Churchill's own plane. Reportedly, it circled for an hour, so he could sober up from smuggled gin.", "In late May, he flew to Gibraltar on Churchill's own plane. Reportedly, it circled for an hour, so he could sober up from smuggled gin.", 0.45),
-    (7, 'At breakfast, the governor talked about secret plans, in front of a Spanish visitor known to spy for Germany. He crossed the border to call his handler.', 'At breakfast, the governor talked about secret plans, in front of a Spanish visitor known to spy for Germany. He crossed the border to call his handler.', 0.4),
-    (8, 'Then Algiers. Crowds, cameras, a meeting with General Wilson. Then the double vanished, hidden in Cairo until D-Day.', 'Then Algiers. Crowds, cameras, a meeting with General Wilson. Then the double vanished, hidden in Cairo until D-Day.', 0.45),
-    (9, 'Did it work? Captured German generals said they believed it was Monty, but guessed it was a trick. Historians find no sign it changed their plans.', 'Did it work? Captured German generals said they believed it was Monty, but guessed it was a trick. Historians find no sign it changed their plans.', 0.45),
-    (10, "James got ten pounds a day, Monty's pay, then went back to his desk. Genius, or a waste? Tell me below, and follow Buried Chronicles.", "James got £10 a day, Monty's pay, then went back to his desk. Genius, or a waste? Tell me below, and follow Buried Chronicles.", 0.2),
+    (1, "You're a twenty-five-year-old reporter in eighteen ninety-nine. Now you're an escaped prisoner, worth twenty-five pounds, dead or alive. Where do you hide?", "You're a 25-year-old reporter in 1899. Now you're an escaped prisoner, worth 25 pounds, dead or alive. Where do you hide?", 0.5),
+    (2, 'November fifteenth, eighteen ninety-nine. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.', 'November 15, 1899. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.', 0.4),
+    (3, "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.", "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.", 0.4),
+    (4, 'They lock him in a school in Pretoria, turned into a prison for British officers.', 'They lock him in a school in Pretoria, turned into a prison for British officers.', 0.35),
+    (5, 'December twelfth. At night, he climbs the wall by the latrine, and walks out through the town.', 'December 12. At night, he climbs the wall by the latrine, and walks out through the town.', 0.4),
+    (6, 'The Boers put a price on him. Twenty-five pounds, dead or alive.', 'The Boers put a price on him. 25 pounds, dead or alive.', 0.45),
+    (7, 'He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.', 'He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.', 0.4),
+    (8, "Then he's smuggled out in a freight car, buried under bales of wool, almost three hundred miles, to Portuguese East Africa. Free.", "Then he's smuggled out in a freight car, buried under bales of wool, almost 300 miles, to Portuguese East Africa. Free.", 0.45),
+    (9, 'Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.', 'Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.', 0.4),
+    (10, 'Four decades later, the man worth twenty-five pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.', 'Four decades later, the man worth 25 pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.', 0.2),
 ]
 TAIL = 1.0  # title card after the last word
 
@@ -67,7 +67,7 @@ def warm(x):
 
 
 def main():
-    npz = KDIR / "voices_monty.npz"
+    npz = KDIR / "voices_churchill.npz"
     np.savez(npz, narrator=voice_style())
     tts = Kokoro(str(KDIR / "model.onnx"), str(npz))
     parts, phrases, t = [np.zeros(int(LEAD * SR))], [], LEAD
