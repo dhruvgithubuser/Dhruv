@@ -246,13 +246,13 @@ const ZuluMap: React.FC<{ dur: number; zoom?: [number, number, number]; children
           {Array.from({ length: 60 }, (_, i) => <circle key={i} cx={hash01(i, 3) * 1500 + 40} cy={hash01(i, 4) * 1000 + 40} r={2 + 3 * hash01(i, 5)} fill="#8f7a50" opacity={0.35} />)}
           <path d={dpath(bp)} fill="none" stroke="#5b8fc0" strokeWidth={6} opacity={0.9} />
           <text x={bp[2][0] - 250} y={bp[2][1] + 120} fontFamily={TYPE} fontWeight={700} fontSize={22} fill="#9cc2e6" stroke="#14100a" strokeWidth={4} paintOrder="stroke">BUFFALO & THUKELA RIVERS (BORDER)</text>
-          <text x={260} y={760} fontFamily={HEAD} fontWeight={700} fontSize={44} fill="rgba(30,22,10,0.55)" letterSpacing={8}>NATAL (BRITISH)</text>
+          {z === 1 && <text x={150} y={820} fontFamily={HEAD} fontWeight={700} fontSize={40} fill="rgba(30,22,10,0.55)" letterSpacing={8}>NATAL (BRITISH)</text>}
           <text x={980} y={330} fontFamily={HEAD} fontWeight={700} fontSize={50} fill="rgba(30,22,10,0.55)" letterSpacing={8}>ZULU KINGDOM</text>
           <text x={1650} y={880} fontFamily={TYPE} fontWeight={700} fontSize={24} fill="#7fa7c9" letterSpacing={4}>INDIAN OCEAN</text>
           {children}
         </svg>
       </AbsoluteFill>
-      {title && <div style={{ position: 'absolute', left: 70, bottom: 60, fontFamily: TYPE, fontWeight: 700, fontSize: 22, letterSpacing: 4, color: 'rgba(246,236,212,0.75)' }}>{title} · BORDERS APPROXIMATE</div>}
+      {title && <div style={{ position: 'absolute', left: 70, top: 50, fontFamily: TYPE, fontWeight: 700, fontSize: 22, letterSpacing: 4, color: 'rgba(246,236,212,0.75)' }}>{title} · BORDERS APPROXIMATE</div>}
     </AbsoluteFill>
   );
 };
@@ -318,7 +318,7 @@ const BattleMap: React.FC<{ mode: BMode; dur: number; p?: number }> = ({ mode, d
         {(mode === 'split' || mode === 'summary') && (
           <g>
             <Arrow d={`M${MT[0] + 240},${MT[1] + 60} C1250,800 1500,900 1760,980`} t={mode === 'summary' ? 1 : p} color="#ff9a8a" w={12} />
-            <text x={1380} y={1000} fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={mode === 'summary' ? 1 : lin(p, 0.5, 0.8)}>CHELMSFORD → MANGENI · 2,800 MEN</text>
+            <text x={1340} y={830} fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={mode === 'summary' ? 1 : lin(p, 0.5, 0.8)}>CHELMSFORD TO MANGENI · 2,800 MEN</text>
             <text x={MT[0] + 220} y={MT[1] + 150} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f0d78a" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={mode === 'summary' ? 1 : lin(p, 0.7, 0.9)}>LEFT IN CAMP: ~1,300</text>
           </g>
         )}
@@ -338,8 +338,8 @@ const BattleMap: React.FC<{ mode: BMode; dur: number; p?: number }> = ({ mode, d
               <text x={1520} y={140} fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={lin(t, 0.1, 0.3)}>CHEST</text>
               <text x={1600} y={760} fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={lin(t, 0.4, 0.6)}>LEFT HORN</text>
               <text x={420} y={170} fontFamily={HEAD} fontWeight={700} fontSize={30} fill="#f6ecd4" stroke="#14100a" strokeWidth={5} paintOrder="stroke" opacity={lin(t, 0.4, 0.6)}>RIGHT HORN</text>
-              {mode === 'collapse' && <text x={960} y={1000} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={38} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(p, 0.3, 0.6)}>THE LINE FALLS BACK · THE FLANK OPENS</text>}
-              {mode === 'closed' && <text x={960} y={1000} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={44} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke">THE HORNS CLOSE · CAMP SURROUNDED</text>}
+              {mode === 'collapse' && <text x={960} y={150} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={38} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(p, 0.3, 0.6)}>THE LINE FALLS BACK · THE FLANK OPENS</text>}
+              {mode === 'closed' && <text x={960} y={150} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={44} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke">THE HORNS CLOSE · CAMP SURROUNDED</text>}
             </g>
           );
         })()}
@@ -449,7 +449,7 @@ S[5] = one(5, 'i05_frere', () => (<><Slate at={6} place="SIR BARTLE FRERE" date=
 S[6] = mk(6, () => (<><Shot id="i04_ultimatum_tree" from={0} to={fr(6)} /><Dim top={0.6} bottom={0.6} /><Ultimatum at={4} stamp={wf(6, 'disband')} /></>));
 S[7] = one(7, 'i05_frere', () => <Chips items={[{ at: wf(7, 'three'), t: '3 BORDER INCIDENTS' }, { at: wf(7, 'flimsy'), t: '"FLIMSY GROUNDS"' }]} />);
 S[8] = mk(8, (F) => <ZuluMap dur={F} title="ZULULAND · JANUARY 1879"><Place k="ondini" name="oNDINI (ROYAL CAPITAL)" big /><Place k="rorkes" name="RORKE'S DRIFT" at={wf(8, 'crossed')} dx={-250} dy={-16} />
-  <Clock n={8} render={(f) => f >= wf(8, '10') ? <text x={1250} y={980} fontFamily={HEAD} fontWeight={700} fontSize={46} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(f, wf(8, '10'), wf(8, '10') + 8)}>DEADLINE: 10 JANUARY 1879</text> : null} /></ZuluMap>);
+  <Clock n={8} render={(f) => f >= wf(8, '10') ? <text x={1150} y={830} fontFamily={HEAD} fontWeight={700} fontSize={46} fill="#ffb4a8" stroke="#14100a" strokeWidth={6} paintOrder="stroke" opacity={lin(f, wf(8, '10'), wf(8, '10') + 8)}>DEADLINE: 10 JANUARY 1879</text> : null} /></ZuluMap>);
 S[9] = mk(9, (F) => <ZuluMap dur={F} title="THE INVASION · 11 JANUARY 1879"><Clock n={9} render={(f) => (<>
   <Route pts={[PL.lowerdrift, PL.eshowe]} t={ease(f, wf(9, 'coast'), wf(9, 'coast') + 40)} color="#e74c3c" label="COASTAL COLUMN" lx={20} ly={10} w={6} />
   <Route pts={[PL.utrecht, [30.7, -27.85]]} t={ease(f, wf(9, 'north'), wf(9, 'north') + 40)} color="#e74c3c" label="NORTHERN COLUMN" lx={20} ly={10} w={6} />
@@ -458,7 +458,7 @@ S[9] = mk(9, (F) => <ZuluMap dur={F} title="THE INVASION · 11 JANUARY 1879"><Cl
 S[10] = two(10, 'i06_crossing', 'i14_chelmsford', 'chelmsford', () => (<><Slate at={wf(10, 'chelmsford')} place="LORD CHELMSFORD" date="BRITISH COMMANDER" /><Count at={wf(10, '4700')} to={4700} label="CENTRE COLUMN" top={300} /></>));
 S[11] = mk(11, (F) => (<><Shot id="i07_cetshwayo" from={0} to={F} /><Dim /><Slate at={6} place="oNDINI" date="KING CETSHWAYO kaMPANDE" /><Print src="assets/archival/cetshwayo.jpg" at={wf(11, 'cetshwayo')} out={wf(11, 'messengers')} x={1180} y={140} w={560} h={600} rot={2} label="CETSHWAYO · PHOTOGRAPHED 1882" pos="50% 25%" /><Chips items={[{ at: wf(11, 'peace'), t: 'ASKED FOR PEACE TALKS' }, { at: wf(11, 'army'), t: 'CALLED UP HIS ARMY' }]} top={260} /></>));
 S[12] = one(12, 'i09_ntshingwayo', () => (<><Chapter n="II" title="The General" /><Slate at={wf(12, 'ntshingwayo') - 2} place="NTSHINGWAYO kaMAHOLE KHOZA" date="COMMANDING GENERAL" /></>));
-S[13] = mk(13, (F) => (<><PhotoBg src="assets/archival/ntshingwayo.jpg" /><Print src="assets/archival/ntshingwayo.jpg" at={wf(13, 'photographs') - 6} x={460} y={90} w={1000} h={800} rot={-1} label="NTSHINGWAYO (SEATED, CENTRE) AT HIS HOMESTEAD · 1879" pos="50% 50%" /><Chips items={[{ at: wf(13, '70'), t: 'AGE: ABOUT 70' }, { at: wf(13, 'councillor'), t: "KING'S COUNCILLOR" }]} left top={200} /></>));
+S[13] = mk(13, (F) => (<><PhotoBg src="assets/archival/ntshingwayo.jpg" /><Print src="assets/archival/ntshingwayo.jpg" at={10} x={460} y={90} w={1000} h={800} rot={-1} label="NTSHINGWAYO (SEATED, CENTRE) AT HIS HOMESTEAD · 1879" pos="50% 50%" /><Chips items={[{ at: wf(13, '70'), t: 'AGE: ABOUT 70' }, { at: wf(13, 'councillor'), t: "KING'S COUNCILLOR" }]} left top={200} /></>));
 S[14] = one(14, 'i10_army_gathers', () => (<><Count at={wf(14, '20000')} to={20000} label="WARRIORS" /><Chips items={[{ at: wf(14, 'age'), t: 'REGIMENTS BY AGE' }, { at: wf(14, 'spear'), t: 'STABBING SPEAR' }, { at: wf(14, 'shield'), t: 'COWHIDE SHIELD' }, { at: wf(14, 'firearms'), t: 'SOME OLD FIREARMS' }]} top={440} /></>));
 S[15] = one(15, 'i08_council', () => <QuoteCard at={wf(15, 'march') - 4} text="March slowly, attack at dawn and eat up the red soldiers." by="KING CETSHWAYO'S ORDER, AS RECORDED" y={260} />);
 S[16] = one(16, 'i11_march', () => (<><Chapter n="III" title="The Invisible Army" /><Chips items={[{ at: wf(16, 'two'), t: 'TWO COLUMNS' }, { at: wf(16, 'scouts'), t: 'SCOUTS OUT FRONT' }, { at: wf(16, 'screening'), t: 'SCREENS OF 200–400 MEN' }]} top={300} /></>));
