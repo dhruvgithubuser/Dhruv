@@ -6,8 +6,8 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 WORK=${1:?work dir}
-COMP=ChurchillWanted
-OUT=output/churchills-wanted-poster-1899.mp4
+COMP=PearlRadar
+OUT=output/pearl-harbor-radar-46-minutes-early.mp4
 B=${REMOTION_BROWSER:-/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell}
 mkdir -p "$WORK"
 rm -rf "${WORK:?}/bundle" "$WORK"/part_*.mkv
@@ -25,5 +25,5 @@ ffmpeg -loglevel error -y "${INS[@]}" -filter_complex "${FL}concat=n=$n:v=1:a=1[
   -c:v libx264 -preset slow -b:v 9000k -pass 2 -passlogfile "$WORK/x264" -pix_fmt yuv420p -c:a aac -b:a 192k -ar 48000 -movflags +faststart "$OUT"
 rm -f "$WORK"/part_*.mkv "$WORK"/x264*
 cp public/assets/sound/voiceover.mp3 output/voiceover.mp3
-node scripts/make-srt.mjs > output/churchills-wanted-poster-1899.srt
+node scripts/make-srt.mjs > output/pearl-harbor-radar-46-minutes-early.srt
 ffprobe -v error -show_entries stream=codec_name,width,height,avg_frame_rate -show_entries format=duration,size -of compact "$OUT"

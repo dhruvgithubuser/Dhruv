@@ -13,16 +13,16 @@ from diffusers import AutoencoderKL, LCMScheduler, StableDiffusionPipeline
 from huggingface_hub import hf_hub_download
 
 STYLE = ", cinematic film still, 1941 World War II period drama, 35mm film grain, dramatic lighting, photorealistic"
-NEG = ("painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, letters, "
+NEG = ("beret, woman, female, text, letters, numbers, painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, letters, "
        "modern clothing, smartphone, computer, modern car, jet, two moons, floating objects, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, duplicate, two heads")
 SHOTS = {
-    "r01_hero": ("close-up of a young American army private in 1941, short hair, khaki shirt, wearing bulky old radio headphones, face lit by green glow from a round oscilloscope screen inside a dark army radar truck, eyes wide, tense", 8011),
+    "r01_hero": ('close-up portrait of a young American man, 20 year old male soldier in 1941, short cropped hair, no hat, khaki army shirt, wearing big round 1940s leather radio headphones, his face lit from below by green glow of a radar screen, dark truck interior, eyes wide in alarm, staring at the screen', 8111),
     "r02_opana": ("tall metal lattice radar antenna on a grassy hilltop above the Pacific ocean at dawn, Hawaiian coastline below, army trucks parked beside it, 1941, wide shot", 8021),
     "r03_van": ("two young American army privates in 1941 khaki uniforms inside a cramped army radar truck at dawn, one wearing headphones facing a round oscilloscope screen, the other holding a pencil over a paper plotting board, early light through the open door", 8031),
-    "r04_scope": ("extreme close-up of a round green glowing vintage oscilloscope screen with a bright tall spike on a horizontal line, black metal panel with knobs and dials, dark room", 8041),
-    "r05_phone": ("young American army private in a 1941 khaki uniform speaking urgently into a black field telephone handset inside a radar truck, green screen glow on his face, dawn", 8051),
+    "r04_scope": ('close-up of a vintage round cathode ray tube screen glowing green with a single bright jagged line across it, set into a black metal military radio console with round knobs, dark, no text, no numbers', 8141),
+    "r05_phone": ('young American soldier in 1941 khaki shirt, no hat, holding a black candlestick field telephone receiver to his ear and shouting into it urgently, inside a dark army radar truck, green glow on his face', 8151),
     "r06_tyler": ("young American army lieutenant in a 1941 khaki uniform sitting alone at a desk in a quiet military plotting room with a large map table, holding a telephone receiver, calm relaxed expression, early morning light through windows", 8061),
-    "r07_b17": ("a formation of B-17 Flying Fortress bombers flying over the Pacific ocean at sunrise, clouds below, 1941", 8071),
+    "r07_b17": ('four-engine B-17 Flying Fortress bombers in formation flying over the Pacific ocean at sunrise, silver metal, clouds below, 1941, four propellers on each plane', 8171),
     "r08_jp": ("a formation of 1941 Japanese navy propeller bombers with red circle insignia flying low over the ocean toward a green mountainous island at sunrise, seen from behind", 8081),
     "r09_harbor": ("battleships burning in a harbor, thick black smoke rising into the sky, fire on the water, warships, 1941 Pearl Harbor attack", 8091),
     "r10_dusk": ("silhouette of a tall lattice radar antenna on a hilltop at sunset over the ocean, empty, lonely, 1941", 8101),

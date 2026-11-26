@@ -186,7 +186,7 @@ const AScope: React.FC<{ at: number; r0: number; r1: number; dur: number; out?: 
       {Array.from({ length: 16 }, (_, i) => <line key={i} x1={X0 + ((X1 - X0) * i) / 15} y1={140} x2={X0 + ((X1 - X0) * i) / 15} y2={400} stroke="rgba(120,255,150,0.12)" strokeWidth={2} />)}
       <polyline points={pts.join(' ')} fill="none" stroke="#9dffb0" strokeWidth={4} style={{ filter: 'drop-shadow(0 0 8px #5dff7a)' }} />
       {[0, 50, 100, 150].map((m) => <text key={m} x={X0 + ((X1 - X0) * m) / 150} y={448} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={24} fill="#9dffb0">{m} MI</text>)}
-      {amp > 0.05 && <text x={sx} y={Y0 - 240} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={40} fill="#fff" opacity={amp}>{Math.round(range)} MILES</text>}
+      {amp > 0.05 && <text x={sx - 30} y={Y0 - 150} textAnchor="end" fontFamily={HEAD} fontWeight={700} fontSize={40} fill="#fff" opacity={amp}>{Math.round(range)} MILES</text>}
       {caption && <text x={540} y={100} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={28} letterSpacing={3} fill="#9dffb0">{caption}</text>}
     </svg>
   );
@@ -205,7 +205,7 @@ const HookTitle: React.FC<{ out: number }> = ({ out }) => {
   const o = 1 - lin(f, out - 8, out);
   return (
     <div style={{ position: 'absolute', left: 50, right: 50, top: 170, opacity: o, textAlign: 'center' }}>
-      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 92, lineHeight: 1.02, color: '#fff', textShadow: '0 6px 0 #000, 0 10px 30px rgba(0,0,0,0.9)', letterSpacing: 1 }}>PEARL HARBOR WAS ON RADAR</div>
+      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 76, lineHeight: 1.02, color: '#fff', whiteSpace: 'nowrap', textShadow: '0 6px 0 #000, 0 10px 30px rgba(0,0,0,0.9)', letterSpacing: 1 }}>PEARL HARBOR WAS ON RADAR</div>
       <div style={{ display: 'inline-block', marginTop: 14, background: 'rgba(4,18,8,0.88)', border: '5px solid #7dff95', padding: '4px 26px', fontFamily: HEAD, fontWeight: 700, fontSize: 108, color: '#9dffb0', textShadow: '0 0 18px #3dff6a' }}>46 MINUTES EARLY</div>
       <div style={{ marginTop: 16, fontFamily: TYPE, fontWeight: 700, fontSize: 32, letterSpacing: 4, color: C.gold, textShadow: '0 3px 10px #000' }}>OAHU · 7 DECEMBER 1941 · 7:02 AM</div>
     </div>
@@ -287,8 +287,8 @@ const S07: React.FC = () => (
   <AbsoluteFill style={{ background: '#0b0805' }}>
     <Img src={staticFile('assets/archival/plot.jpg')} style={{ position: 'absolute', inset: -60, width: W + 120, height: H + 120, objectFit: 'cover', filter: 'blur(26px) brightness(0.35) grayscale(1)' }} />
     <Print src="assets/archival/plot.jpg" at={0} y={260} w={700} h={860} rot={-2} label="THE REAL OPANA PLOT · 7 DEC 1941" pos="50% 35%" />
-    <Slate at={wf(7, '740') - 4} place="7:40 AM" date="CONTACT LOST" />
-    <Verdict at={wf(7, 'contact')} text="CONTACT LOST" y={1290} rot={-6} />
+    <Slate at={wf(7, '740') - 4} place="7:40 AM" date="OPANA · NORTH OAHU" />
+    <Verdict at={wf(7, 'contact')} text="CONTACT LOST" y={760} rot={-8} />
   </AbsoluteFill>
 );
 
