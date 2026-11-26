@@ -286,9 +286,9 @@ const S06: React.FC = () => (
 const S07: React.FC = () => (
   <AbsoluteFill style={{ background: '#0b0805' }}>
     <Img src={staticFile('assets/archival/plot.jpg')} style={{ position: 'absolute', inset: -60, width: W + 120, height: H + 120, objectFit: 'cover', filter: 'blur(26px) brightness(0.35) grayscale(1)' }} />
-    <Print src="assets/archival/plot.jpg" at={0} y={260} w={700} h={860} rot={-2} label="THE REAL OPANA PLOT · 7 DEC 1941" pos="50% 35%" />
+    <Print src="assets/archival/plot.jpg" at={0} y={400} w={640} h={780} rot={-2} label="THE REAL OPANA PLOT · 7 DEC 1941" pos="50% 35%" />
     <Slate at={wf(7, '740') - 4} place="7:40 AM" date="OPANA · NORTH OAHU" />
-    <Verdict at={wf(7, 'contact')} text="CONTACT LOST" y={760} rot={-8} />
+    <Verdict at={wf(7, 'contact')} text="CONTACT LOST" y={860} rot={-8} />
   </AbsoluteFill>
 );
 
