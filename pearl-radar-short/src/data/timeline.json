@@ -1,1095 +1,1150 @@
 {
  "fps": 30,
- "duration": 73.017,
+ "duration": 79.115,
  "voice": "kokoro am_michael/am_onyx blend (en-us)",
  "phrases": [
   {
    "scene": 1,
-   "text": "You're a 25-year-old reporter in 1899. Now you're an escaped prisoner, worth 25 pounds, dead or alive. Where do you hide?",
+   "text": "You spotted Pearl Harbor on radar, 46 minutes early. You called it in. So why did over 2,400 Americans still die?",
    "start": 0.35,
-   "end": 9.179,
+   "end": 8.025,
    "words": [
     {
-     "w": "You're",
+     "w": "You",
      "start": 0.25,
-     "end": 0.47
+     "end": 0.43
     },
     {
-     "w": "a",
-     "start": 0.47,
-     "end": 0.51
+     "w": "spotted",
+     "start": 0.43,
+     "end": 0.71
     },
     {
-     "w": "25-year-old",
-     "start": 0.51,
-     "end": 1.63
+     "w": "Pearl",
+     "start": 0.71,
+     "end": 1.07
     },
     {
-     "w": "reporter",
-     "start": 1.63,
-     "end": 2.03
+     "w": "Harbor",
+     "start": 1.07,
+     "end": 1.43
     },
     {
-     "w": "in",
-     "start": 2.03,
-     "end": 2.29
+     "w": "on",
+     "start": 1.43,
+     "end": 1.73
     },
     {
-     "w": "1899.",
-     "start": 2.29,
-     "end": 2.85
+     "w": "radar,",
+     "start": 1.73,
+     "end": 1.91
     },
     {
-     "w": "Now",
-     "start": 3.89,
-     "end": 3.97
+     "w": "46",
+     "start": 1.91,
+     "end": 2.57
     },
     {
-     "w": "you're",
-     "start": 3.97,
+     "w": "minutes",
+     "start": 2.57,
+     "end": 3.05
+    },
+    {
+     "w": "early.",
+     "start": 3.05,
+     "end": 3.35
+    },
+    {
+     "w": "You",
+     "start": 4.01,
+     "end": 4.03
+    },
+    {
+     "w": "called",
+     "start": 4.03,
      "end": 4.23
     },
     {
-     "w": "an",
+     "w": "it",
      "start": 4.23,
-     "end": 4.31
+     "end": 4.43
     },
     {
-     "w": "escaped",
-     "start": 4.31,
-     "end": 4.61
+     "w": "in.",
+     "start": 4.43,
+     "end": 4.57
     },
     {
-     "w": "prisoner,",
-     "start": 4.61,
-     "end": 5.13
+     "w": "So",
+     "start": 5.15,
+     "end": 5.21
     },
     {
-     "w": "worth",
-     "start": 5.47,
-     "end": 5.53
+     "w": "why",
+     "start": 5.21,
+     "end": 5.41
     },
     {
-     "w": "25",
-     "start": 5.53,
-     "end": 5.87
+     "w": "did",
+     "start": 5.41,
+     "end": 5.61
     },
     {
-     "w": "pounds,",
-     "start": 5.87,
-     "end": 6.57
+     "w": "over",
+     "start": 5.61,
+     "end": 5.81
     },
     {
-     "w": "dead",
-     "start": 6.83,
-     "end": 6.97
+     "w": "2,400",
+     "start": 5.81,
+     "end": 6.41
     },
     {
-     "w": "or",
-     "start": 6.97,
-     "end": 7.33
+     "w": "Americans",
+     "start": 6.41,
+     "end": 7.01
     },
     {
-     "w": "alive.",
-     "start": 7.33,
-     "end": 7.61
+     "w": "still",
+     "start": 7.01,
+     "end": 7.53
     },
     {
-     "w": "Where",
-     "start": 8.39,
-     "end": 8.43
-    },
-    {
-     "w": "do",
-     "start": 8.43,
-     "end": 8.53
-    },
-    {
-     "w": "you",
-     "start": 8.53,
-     "end": 8.63
-    },
-    {
-     "w": "hide?",
-     "start": 8.63,
-     "end": 8.91
+     "w": "die?",
+     "start": 7.53,
+     "end": 7.81
     }
    ]
   },
   {
    "scene": 2,
-   "text": "November 15, 1899. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.",
-   "start": 9.579,
-   "end": 19.001,
+   "text": "December 7, 1941. Opana Point, on the northern tip of Oahu. Two privates, Joseph Lockard and George Elliott, are running a mobile radar.",
+   "start": 8.425,
+   "end": 17.941,
    "words": [
     {
-     "w": "November",
-     "start": 9.479,
-     "end": 9.859
+     "w": "December",
+     "start": 8.325,
+     "end": 8.645
     },
     {
-     "w": "15,",
-     "start": 9.859,
-     "end": 10.739
+     "w": "7,",
+     "start": 8.645,
+     "end": 9.065
     },
     {
-     "w": "1899.",
-     "start": 10.739,
-     "end": 11.239
+     "w": "1941.",
+     "start": 9.325,
+     "end": 10.025
     },
     {
-     "w": "South",
-     "start": 12.379,
-     "end": 12.379
+     "w": "Opana",
+     "start": 10.025,
+     "end": 10.965
     },
     {
-     "w": "Africa.",
-     "start": 12.379,
-     "end": 12.859
+     "w": "Point,",
+     "start": 10.965,
+     "end": 11.605
     },
     {
-     "w": "Winston",
-     "start": 13.599,
-     "end": 13.639
-    },
-    {
-     "w": "Churchill",
-     "start": 13.639,
-     "end": 14.119
-    },
-    {
-     "w": "is",
-     "start": 14.119,
-     "end": 14.519
-    },
-    {
-     "w": "a",
-     "start": 14.519,
-     "end": 14.619
-    },
-    {
-     "w": "war",
-     "start": 14.619,
-     "end": 14.859
-    },
-    {
-     "w": "correspondent",
-     "start": 14.859,
-     "end": 15.359
-    },
-    {
-     "w": "for",
-     "start": 15.359,
-     "end": 15.819
+     "w": "on",
+     "start": 11.605,
+     "end": 11.845
     },
     {
      "w": "the",
-     "start": 15.819,
-     "end": 15.899
+     "start": 11.845,
+     "end": 11.925
     },
     {
-     "w": "Morning",
-     "start": 15.899,
-     "end": 16.119
+     "w": "northern",
+     "start": 11.925,
+     "end": 12.125
     },
     {
-     "w": "Post,",
-     "start": 16.119,
-     "end": 16.459
+     "w": "tip",
+     "start": 12.125,
+     "end": 12.485
     },
     {
-     "w": "riding",
-     "start": 16.859,
-     "end": 17.139
+     "w": "of",
+     "start": 12.485,
+     "end": 12.645
     },
     {
-     "w": "an",
-     "start": 17.139,
-     "end": 17.379
+     "w": "Oahu.",
+     "start": 12.645,
+     "end": 13.085
     },
     {
-     "w": "armoured",
-     "start": 17.379,
-     "end": 17.579
+     "w": "Two",
+     "start": 13.565,
+     "end": 13.705
     },
     {
-     "w": "train",
-     "start": 17.579,
-     "end": 18.019
+     "w": "privates,",
+     "start": 13.705,
+     "end": 14.305
     },
     {
-     "w": "near",
-     "start": 18.019,
-     "end": 18.319
+     "w": "Joseph",
+     "start": 14.305,
+     "end": 14.585
     },
     {
-     "w": "Chieveley.",
-     "start": 18.319,
-     "end": 19.001
+     "w": "Lockard",
+     "start": 14.585,
+     "end": 15.225
+    },
+    {
+     "w": "and",
+     "start": 15.225,
+     "end": 15.345
+    },
+    {
+     "w": "George",
+     "start": 15.345,
+     "end": 15.525
+    },
+    {
+     "w": "Elliott,",
+     "start": 15.525,
+     "end": 15.945
+    },
+    {
+     "w": "are",
+     "start": 15.945,
+     "end": 16.445
+    },
+    {
+     "w": "running",
+     "start": 16.445,
+     "end": 16.685
+    },
+    {
+     "w": "a",
+     "start": 16.685,
+     "end": 16.905
+    },
+    {
+     "w": "mobile",
+     "start": 16.905,
+     "end": 17.145
+    },
+    {
+     "w": "radar.",
+     "start": 17.145,
+     "end": 17.545
     }
    ]
   },
   {
    "scene": 3,
-   "text": "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.",
-   "start": 19.321,
-   "end": 25.054,
+   "text": "It's only allowed to run four hours a day, and it's due to shut down at 7. But the truck taking them to breakfast is late. So they keep practicing.",
+   "start": 18.261,
+   "end": 26.577,
    "words": [
     {
-     "w": "Boer",
-     "start": 19.221,
-     "end": 19.561
+     "w": "It's",
+     "start": 18.161,
+     "end": 18.401
     },
     {
-     "w": "guns",
-     "start": 19.561,
-     "end": 19.841
+     "w": "only",
+     "start": 18.401,
+     "end": 18.641
     },
     {
-     "w": "derail",
-     "start": 19.841,
-     "end": 20.241
+     "w": "allowed",
+     "start": 18.641,
+     "end": 18.941
     },
     {
-     "w": "it.",
-     "start": 20.241,
-     "end": 20.621
+     "w": "to",
+     "start": 18.941,
+     "end": 19.161
     },
     {
-     "w": "He",
-     "start": 21.001,
-     "end": 21.061
+     "w": "run",
+     "start": 19.161,
+     "end": 19.341
     },
     {
-     "w": "helps",
-     "start": 21.061,
-     "end": 21.201
+     "w": "four",
+     "start": 19.341,
+     "end": 19.721
     },
     {
-     "w": "clear",
-     "start": 21.201,
-     "end": 21.501
+     "w": "hours",
+     "start": 19.721,
+     "end": 20.141
     },
     {
-     "w": "the",
-     "start": 21.501,
-     "end": 21.681
+     "w": "a",
+     "start": 20.141,
+     "end": 20.321
     },
     {
-     "w": "line,",
-     "start": 21.681,
-     "end": 22.021
-    },
-    {
-     "w": "under",
-     "start": 22.021,
-     "end": 22.241
-    },
-    {
-     "w": "fire.",
-     "start": 22.241,
-     "end": 22.681
-    },
-    {
-     "w": "Then",
-     "start": 23.261,
-     "end": 23.301
-    },
-    {
-     "w": "he's",
-     "start": 23.301,
-     "end": 23.501
-    },
-    {
-     "w": "surrounded,",
-     "start": 23.501,
-     "end": 23.861
+     "w": "day,",
+     "start": 20.321,
+     "end": 20.501
     },
     {
      "w": "and",
-     "start": 23.861,
+     "start": 20.501,
+     "end": 20.741
+    },
+    {
+     "w": "it's",
+     "start": 20.741,
+     "end": 20.901
+    },
+    {
+     "w": "due",
+     "start": 20.901,
+     "end": 21.041
+    },
+    {
+     "w": "to",
+     "start": 21.041,
+     "end": 21.141
+    },
+    {
+     "w": "shut",
+     "start": 21.141,
+     "end": 21.361
+    },
+    {
+     "w": "down",
+     "start": 21.361,
+     "end": 21.681
+    },
+    {
+     "w": "at",
+     "start": 21.681,
+     "end": 21.821
+    },
+    {
+     "w": "7.",
+     "start": 21.821,
+     "end": 22.601
+    },
+    {
+     "w": "But",
+     "start": 22.601,
+     "end": 22.861
+    },
+    {
+     "w": "the",
+     "start": 22.861,
+     "end": 22.961
+    },
+    {
+     "w": "truck",
+     "start": 22.961,
+     "end": 23.161
+    },
+    {
+     "w": "taking",
+     "start": 23.161,
+     "end": 23.561
+    },
+    {
+     "w": "them",
+     "start": 23.561,
+     "end": 23.761
+    },
+    {
+     "w": "to",
+     "start": 23.761,
+     "end": 23.921
+    },
+    {
+     "w": "breakfast",
+     "start": 23.921,
      "end": 24.141
     },
     {
-     "w": "taken",
+     "w": "is",
      "start": 24.141,
-     "end": 24.401
+     "end": 24.561
     },
     {
-     "w": "prisoner.",
-     "start": 24.401,
-     "end": 24.641
+     "w": "late.",
+     "start": 24.561,
+     "end": 24.801
+    },
+    {
+     "w": "So",
+     "start": 25.221,
+     "end": 25.441
+    },
+    {
+     "w": "they",
+     "start": 25.441,
+     "end": 25.561
+    },
+    {
+     "w": "keep",
+     "start": 25.561,
+     "end": 25.761
+    },
+    {
+     "w": "practicing.",
+     "start": 25.761,
+     "end": 26.181
     }
    ]
   },
   {
    "scene": 4,
-   "text": "They lock him in a school in Pretoria, turned into a prison for British officers.",
-   "start": 25.374,
-   "end": 29.911,
+   "text": "At 7:02, a huge echo appears. Planes, 130 miles out, coming in from the north. More than they have ever seen.",
+   "start": 26.897,
+   "end": 34.633,
    "words": [
     {
-     "w": "They",
-     "start": 25.274,
-     "end": 25.454
+     "w": "At",
+     "start": 26.797,
+     "end": 26.997
     },
     {
-     "w": "lock",
-     "start": 25.454,
-     "end": 25.674
-    },
-    {
-     "w": "him",
-     "start": 25.674,
-     "end": 25.934
-    },
-    {
-     "w": "in",
-     "start": 25.934,
-     "end": 26.034
+     "w": "7:02,",
+     "start": 26.997,
+     "end": 27.557
     },
     {
      "w": "a",
-     "start": 26.034,
-     "end": 26.074
+     "start": 27.677,
+     "end": 27.937
     },
     {
-     "w": "school",
-     "start": 26.074,
-     "end": 26.334
+     "w": "huge",
+     "start": 27.937,
+     "end": 28.177
+    },
+    {
+     "w": "echo",
+     "start": 28.177,
+     "end": 28.497
+    },
+    {
+     "w": "appears.",
+     "start": 28.497,
+     "end": 28.997
+    },
+    {
+     "w": "Planes,",
+     "start": 29.657,
+     "end": 29.997
+    },
+    {
+     "w": "130",
+     "start": 29.997,
+     "end": 30.797
+    },
+    {
+     "w": "miles",
+     "start": 30.797,
+     "end": 31.457
+    },
+    {
+     "w": "out,",
+     "start": 31.457,
+     "end": 31.797
+    },
+    {
+     "w": "coming",
+     "start": 31.797,
+     "end": 32.097
     },
     {
      "w": "in",
-     "start": 26.334,
-     "end": 26.634
+     "start": 32.097,
+     "end": 32.277
     },
     {
-     "w": "Pretoria,",
-     "start": 26.634,
-     "end": 27.094
+     "w": "from",
+     "start": 32.277,
+     "end": 32.437
     },
     {
-     "w": "turned",
-     "start": 27.574,
-     "end": 27.854
+     "w": "the",
+     "start": 32.437,
+     "end": 32.577
     },
     {
-     "w": "into",
-     "start": 27.854,
-     "end": 28.174
+     "w": "north.",
+     "start": 32.577,
+     "end": 32.837
     },
     {
-     "w": "a",
-     "start": 28.174,
-     "end": 28.294
+     "w": "More",
+     "start": 32.837,
+     "end": 33.477
     },
     {
-     "w": "prison",
-     "start": 28.294,
-     "end": 28.534
+     "w": "than",
+     "start": 33.477,
+     "end": 33.657
     },
     {
-     "w": "for",
-     "start": 28.534,
-     "end": 28.834
+     "w": "they",
+     "start": 33.657,
+     "end": 33.777
     },
     {
-     "w": "British",
-     "start": 28.834,
-     "end": 29.034
+     "w": "have",
+     "start": 33.777,
+     "end": 33.877
     },
     {
-     "w": "officers.",
-     "start": 29.034,
-     "end": 29.474
+     "w": "ever",
+     "start": 33.877,
+     "end": 34.097
+    },
+    {
+     "w": "seen.",
+     "start": 34.097,
+     "end": 34.377
     }
    ]
   },
   {
    "scene": 5,
-   "text": "December 12. At night, he climbs the wall by the latrine, and walks out through the town.",
-   "start": 30.191,
-   "end": 35.392,
+   "text": "Lockard phones the information center at Fort Shafter. The officer on duty is Lieutenant Kermit Tyler. He arrived a week ago, with almost no training.",
+   "start": 34.993,
+   "end": 43.879,
    "words": [
     {
-     "w": "December",
-     "start": 30.091,
-     "end": 30.511
+     "w": "Lockard",
+     "start": 34.893,
+     "end": 35.333
     },
     {
-     "w": "12.",
-     "start": 30.511,
-     "end": 31.471
-    },
-    {
-     "w": "At",
-     "start": 31.471,
-     "end": 31.611
-    },
-    {
-     "w": "night,",
-     "start": 31.611,
-     "end": 31.831
-    },
-    {
-     "w": "he",
-     "start": 32.071,
-     "end": 32.111
-    },
-    {
-     "w": "climbs",
-     "start": 32.111,
-     "end": 32.351
+     "w": "phones",
+     "start": 35.333,
+     "end": 35.533
     },
     {
      "w": "the",
-     "start": 32.351,
-     "end": 32.631
+     "start": 35.533,
+     "end": 35.973
     },
     {
-     "w": "wall",
-     "start": 32.631,
-     "end": 32.851
+     "w": "information",
+     "start": 35.973,
+     "end": 36.093
     },
     {
-     "w": "by",
-     "start": 32.851,
-     "end": 33.151
+     "w": "center",
+     "start": 36.093,
+     "end": 36.853
     },
     {
-     "w": "the",
-     "start": 33.151,
-     "end": 33.271
+     "w": "at",
+     "start": 36.853,
+     "end": 37.073
     },
     {
-     "w": "latrine,",
-     "start": 33.271,
-     "end": 33.651
+     "w": "Fort",
+     "start": 37.073,
+     "end": 37.293
     },
     {
-     "w": "and",
-     "start": 33.651,
-     "end": 34.011
+     "w": "Shafter.",
+     "start": 37.293,
+     "end": 37.733
     },
     {
-     "w": "walks",
-     "start": 34.011,
-     "end": 34.211
+     "w": "The",
+     "start": 38.393,
+     "end": 38.453
     },
     {
-     "w": "out",
-     "start": 34.211,
-     "end": 34.491
+     "w": "officer",
+     "start": 38.453,
+     "end": 38.793
     },
     {
-     "w": "through",
-     "start": 34.491,
-     "end": 34.751
+     "w": "on",
+     "start": 38.793,
+     "end": 39.093
     },
     {
-     "w": "the",
-     "start": 34.751,
-     "end": 34.851
+     "w": "duty",
+     "start": 39.093,
+     "end": 39.353
     },
     {
-     "w": "town.",
-     "start": 34.851,
-     "end": 35.071
+     "w": "is",
+     "start": 39.353,
+     "end": 39.753
+    },
+    {
+     "w": "Lieutenant",
+     "start": 39.753,
+     "end": 39.953
+    },
+    {
+     "w": "Kermit",
+     "start": 39.953,
+     "end": 40.493
+    },
+    {
+     "w": "Tyler.",
+     "start": 40.493,
+     "end": 40.673
+    },
+    {
+     "w": "He",
+     "start": 41.473,
+     "end": 41.493
+    },
+    {
+     "w": "arrived",
+     "start": 41.493,
+     "end": 41.733
+    },
+    {
+     "w": "a",
+     "start": 41.733,
+     "end": 41.973
+    },
+    {
+     "w": "week",
+     "start": 41.973,
+     "end": 42.113
+    },
+    {
+     "w": "ago,",
+     "start": 42.113,
+     "end": 42.433
+    },
+    {
+     "w": "with",
+     "start": 42.433,
+     "end": 42.713
+    },
+    {
+     "w": "almost",
+     "start": 42.713,
+     "end": 42.853
+    },
+    {
+     "w": "no",
+     "start": 42.853,
+     "end": 43.233
+    },
+    {
+     "w": "training.",
+     "start": 43.233,
+     "end": 43.613
     }
    ]
   },
   {
    "scene": 6,
-   "text": "The Boers put a price on him. 25 pounds, dead or alive.",
-   "start": 35.712,
-   "end": 39.591,
+   "text": "Tyler knows six B-17 bombers are flying in from the mainland that morning. So he tells them not to worry.",
+   "start": 44.199,
+   "end": 50.996,
    "words": [
     {
-     "w": "The",
-     "start": 35.612,
-     "end": 35.772
+     "w": "Tyler",
+     "start": 44.099,
+     "end": 44.439
     },
     {
-     "w": "Boers",
-     "start": 35.772,
-     "end": 36.092
+     "w": "knows",
+     "start": 44.439,
+     "end": 44.719
     },
     {
-     "w": "put",
-     "start": 36.092,
-     "end": 36.272
+     "w": "six",
+     "start": 44.719,
+     "end": 45.199
     },
     {
-     "w": "a",
-     "start": 36.272,
-     "end": 36.332
+     "w": "B-17",
+     "start": 45.199,
+     "end": 45.979
     },
     {
-     "w": "price",
-     "start": 36.332,
-     "end": 36.532
+     "w": "bombers",
+     "start": 45.979,
+     "end": 46.379
     },
     {
-     "w": "on",
-     "start": 36.532,
-     "end": 36.852
+     "w": "are",
+     "start": 46.379,
+     "end": 46.819
     },
     {
-     "w": "him.",
-     "start": 36.852,
-     "end": 37.012
+     "w": "flying",
+     "start": 46.819,
+     "end": 47.159
     },
     {
-     "w": "25",
-     "start": 37.392,
-     "end": 37.672
+     "w": "in",
+     "start": 47.159,
+     "end": 47.519
     },
     {
-     "w": "pounds,",
-     "start": 37.672,
-     "end": 38.312
+     "w": "from",
+     "start": 47.519,
+     "end": 47.719
     },
     {
-     "w": "dead",
-     "start": 38.312,
-     "end": 38.612
+     "w": "the",
+     "start": 47.719,
+     "end": 47.839
     },
     {
-     "w": "or",
-     "start": 38.612,
-     "end": 38.912
+     "w": "mainland",
+     "start": 47.839,
+     "end": 48.099
     },
     {
-     "w": "alive.",
-     "start": 38.912,
-     "end": 39.332
+     "w": "that",
+     "start": 48.099,
+     "end": 48.419
+    },
+    {
+     "w": "morning.",
+     "start": 48.419,
+     "end": 48.779
+    },
+    {
+     "w": "So",
+     "start": 49.199,
+     "end": 49.479
+    },
+    {
+     "w": "he",
+     "start": 49.479,
+     "end": 49.559
+    },
+    {
+     "w": "tells",
+     "start": 49.559,
+     "end": 49.839
+    },
+    {
+     "w": "them",
+     "start": 49.839,
+     "end": 50.079
+    },
+    {
+     "w": "not",
+     "start": 50.079,
+     "end": 50.339
+    },
+    {
+     "w": "to",
+     "start": 50.339,
+     "end": 50.519
+    },
+    {
+     "w": "worry.",
+     "start": 50.519,
+     "end": 50.819
     }
    ]
   },
   {
    "scene": 7,
-   "text": "He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.",
-   "start": 39.951,
-   "end": 48.322,
+   "text": "Lockard and Elliott keep tracking it anyway. Closer. And closer. At 7:40, they lose contact.",
+   "start": 51.396,
+   "end": 57.428,
    "words": [
     {
-     "w": "He",
-     "start": 39.851,
-     "end": 40.011
-    },
-    {
-     "w": "jumps",
-     "start": 40.011,
-     "end": 40.211
-    },
-    {
-     "w": "a",
-     "start": 40.211,
-     "end": 40.391
-    },
-    {
-     "w": "goods",
-     "start": 40.391,
-     "end": 40.551
-    },
-    {
-     "w": "train",
-     "start": 40.551,
-     "end": 40.911
-    },
-    {
-     "w": "in",
-     "start": 40.911,
-     "end": 41.111
-    },
-    {
-     "w": "the",
-     "start": 41.111,
-     "end": 41.211
-    },
-    {
-     "w": "dark,",
-     "start": 41.211,
-     "end": 41.431
+     "w": "Lockard",
+     "start": 51.396,
+     "end": 51.756
     },
     {
      "w": "and",
-     "start": 41.431,
-     "end": 41.651
+     "start": 51.756,
+     "end": 51.856
     },
     {
-     "w": "ends",
-     "start": 41.651,
-     "end": 41.911
+     "w": "Elliott",
+     "start": 51.856,
+     "end": 52.076
     },
     {
-     "w": "up",
-     "start": 41.911,
-     "end": 42.071
+     "w": "keep",
+     "start": 52.076,
+     "end": 52.436
     },
     {
-     "w": "at",
-     "start": 42.071,
-     "end": 42.231
+     "w": "tracking",
+     "start": 52.436,
+     "end": 52.776
     },
     {
-     "w": "a",
-     "start": 42.231,
-     "end": 42.291
+     "w": "it",
+     "start": 52.776,
+     "end": 53.036
     },
     {
-     "w": "coal",
-     "start": 42.291,
-     "end": 42.491
+     "w": "anyway.",
+     "start": 53.036,
+     "end": 53.196
     },
     {
-     "w": "mine.",
-     "start": 42.491,
-     "end": 42.851
+     "w": "Closer.",
+     "start": 53.836,
+     "end": 54.076
     },
     {
-     "w": "By",
-     "start": 43.551,
-     "end": 43.611
+     "w": "And",
+     "start": 54.076,
+     "end": 54.596
     },
     {
-     "w": "luck,",
-     "start": 43.611,
-     "end": 43.871
+     "w": "closer.",
+     "start": 54.596,
+     "end": 54.816
     },
     {
-     "w": "the",
-     "start": 44.211,
-     "end": 44.271
+     "w": "At",
+     "start": 55.436,
+     "end": 55.476
     },
     {
-     "w": "manager",
-     "start": 44.271,
-     "end": 44.571
+     "w": "7:40,",
+     "start": 55.476,
+     "end": 56.136
     },
     {
-     "w": "is",
-     "start": 44.571,
-     "end": 44.931
+     "w": "they",
+     "start": 56.136,
+     "end": 56.376
     },
     {
-     "w": "English.",
-     "start": 44.931,
-     "end": 45.191
+     "w": "lose",
+     "start": 56.376,
+     "end": 56.536
     },
     {
-     "w": "John",
-     "start": 46.111,
-     "end": 46.111
-    },
-    {
-     "w": "Howard",
-     "start": 46.111,
-     "end": 46.491
-    },
-    {
-     "w": "hides",
-     "start": 46.491,
-     "end": 46.871
-    },
-    {
-     "w": "him",
-     "start": 46.871,
-     "end": 47.111
-    },
-    {
-     "w": "at",
-     "start": 47.111,
-     "end": 47.211
-    },
-    {
-     "w": "the",
-     "start": 47.211,
-     "end": 47.291
-    },
-    {
-     "w": "bottom",
-     "start": 47.291,
-     "end": 47.631
-    },
-    {
-     "w": "of",
-     "start": 47.631,
-     "end": 47.771
-    },
-    {
-     "w": "the",
-     "start": 47.771,
-     "end": 47.871
-    },
-    {
-     "w": "mine.",
-     "start": 47.871,
-     "end": 48.091
+     "w": "contact.",
+     "start": 56.536,
+     "end": 56.916
     }
    ]
   },
   {
    "scene": 8,
-   "text": "Then he's smuggled out in a freight car, buried under bales of wool, almost 300 miles, to Portuguese East Africa. Free.",
-   "start": 48.642,
-   "end": 56.464,
+   "text": "Eight minutes later, the first Japanese planes strike Oahu. By the end of the morning, over 2,400 Americans are dead.",
+   "start": 57.748,
+   "end": 65.004,
    "words": [
     {
-     "w": "Then",
-     "start": 48.542,
-     "end": 48.742
+     "w": "Eight",
+     "start": 57.648,
+     "end": 57.888
     },
     {
-     "w": "he's",
-     "start": 48.742,
-     "end": 48.862
+     "w": "minutes",
+     "start": 57.888,
+     "end": 58.108
     },
     {
-     "w": "smuggled",
-     "start": 48.822,
-     "end": 49.082
+     "w": "later,",
+     "start": 58.108,
+     "end": 58.508
     },
     {
-     "w": "out",
-     "start": 49.082,
-     "end": 49.502
+     "w": "the",
+     "start": 58.828,
+     "end": 58.868
     },
     {
-     "w": "in",
-     "start": 49.502,
-     "end": 49.642
+     "w": "first",
+     "start": 58.868,
+     "end": 59.108
     },
     {
-     "w": "a",
-     "start": 49.642,
-     "end": 49.702
+     "w": "Japanese",
+     "start": 59.108,
+     "end": 59.608
     },
     {
-     "w": "freight",
-     "start": 49.702,
-     "end": 49.882
+     "w": "planes",
+     "start": 59.608,
+     "end": 60.008
     },
     {
-     "w": "car,",
-     "start": 49.882,
-     "end": 50.302
+     "w": "strike",
+     "start": 60.008,
+     "end": 60.428
     },
     {
-     "w": "buried",
-     "start": 50.762,
-     "end": 50.882
+     "w": "Oahu.",
+     "start": 60.428,
+     "end": 60.968
     },
     {
-     "w": "under",
-     "start": 50.882,
-     "end": 51.162
+     "w": "By",
+     "start": 61.648,
+     "end": 61.688
     },
     {
-     "w": "bales",
-     "start": 51.162,
-     "end": 51.542
+     "w": "the",
+     "start": 61.688,
+     "end": 61.808
+    },
+    {
+     "w": "end",
+     "start": 61.808,
+     "end": 61.988
     },
     {
      "w": "of",
-     "start": 51.542,
-     "end": 51.722
+     "start": 61.988,
+     "end": 62.068
     },
     {
-     "w": "wool,",
-     "start": 51.722,
-     "end": 51.962
+     "w": "the",
+     "start": 62.068,
+     "end": 62.148
     },
     {
-     "w": "almost",
-     "start": 51.962,
-     "end": 52.642
+     "w": "morning,",
+     "start": 62.148,
+     "end": 62.448
     },
     {
-     "w": "300",
-     "start": 52.642,
-     "end": 53.002
+     "w": "over",
+     "start": 62.748,
+     "end": 62.868
     },
     {
-     "w": "miles,",
-     "start": 53.002,
-     "end": 53.642
+     "w": "2,400",
+     "start": 62.868,
+     "end": 63.488
     },
     {
-     "w": "to",
-     "start": 53.642,
-     "end": 54.022
+     "w": "Americans",
+     "start": 63.488,
+     "end": 64.108
     },
     {
-     "w": "Portuguese",
-     "start": 54.022,
-     "end": 54.342
+     "w": "are",
+     "start": 64.108,
+     "end": 64.508
     },
     {
-     "w": "East",
-     "start": 54.342,
-     "end": 54.862
-    },
-    {
-     "w": "Africa.",
-     "start": 54.862,
-     "end": 55.362
-    },
-    {
-     "w": "Free.",
-     "start": 56.042,
-     "end": 56.162
+     "w": "dead.",
+     "start": 64.508,
+     "end": 64.748
     }
    ]
   },
   {
    "scene": 9,
-   "text": "Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.",
-   "start": 56.824,
-   "end": 63.008,
+   "text": "Tyler was later cleared. Investigators found he'd been left with no training, no supervision, and no staff.",
+   "start": 65.364,
+   "end": 71.91,
    "words": [
     {
-     "w": "Britain",
-     "start": 56.724,
-     "end": 56.964
-    },
-    {
-     "w": "had",
-     "start": 56.964,
-     "end": 57.184
-    },
-    {
-     "w": "just",
-     "start": 57.184,
-     "end": 57.364
-    },
-    {
-     "w": "lost",
-     "start": 57.364,
-     "end": 57.584
-    },
-    {
-     "w": "three",
-     "start": 57.584,
-     "end": 57.904
-    },
-    {
-     "w": "battles",
-     "start": 57.904,
-     "end": 58.324
-    },
-    {
-     "w": "in",
-     "start": 58.324,
-     "end": 58.544
-    },
-    {
-     "w": "one",
-     "start": 58.544,
-     "end": 58.724
-    },
-    {
-     "w": "week.",
-     "start": 58.724,
-     "end": 58.964
-    },
-    {
-     "w": "Now",
-     "start": 59.564,
-     "end": 59.624
-    },
-    {
-     "w": "it",
-     "start": 59.624,
-     "end": 59.864
-    },
-    {
-     "w": "had",
-     "start": 59.864,
-     "end": 59.984
-    },
-    {
-     "w": "a",
-     "start": 59.984,
-     "end": 60.064
-    },
-    {
-     "w": "hero.",
-     "start": 60.064,
-     "end": 60.404
-    },
-    {
-     "w": "Less",
-     "start": 61.024,
-     "end": 61.084
-    },
-    {
-     "w": "than",
-     "start": 61.084,
-     "end": 61.284
-    },
-    {
-     "w": "a",
-     "start": 61.284,
-     "end": 61.364
-    },
-    {
-     "w": "year",
-     "start": 61.364,
-     "end": 61.524
-    },
-    {
-     "w": "later,",
-     "start": 61.524,
-     "end": 61.824
-    },
-    {
-     "w": "he",
-     "start": 62.004,
-     "end": 62.064
+     "w": "Tyler",
+     "start": 65.264,
+     "end": 65.544
     },
     {
      "w": "was",
-     "start": 62.064,
-     "end": 62.164
+     "start": 65.544,
+     "end": 65.904
     },
     {
-     "w": "in",
-     "start": 62.164,
-     "end": 62.304
+     "w": "later",
+     "start": 65.904,
+     "end": 66.104
     },
     {
-     "w": "Parliament.",
-     "start": 62.304,
-     "end": 62.544
+     "w": "cleared.",
+     "start": 66.104,
+     "end": 66.564
+    },
+    {
+     "w": "Investigators",
+     "start": 67.544,
+     "end": 67.544
+    },
+    {
+     "w": "found",
+     "start": 67.544,
+     "end": 68.164
+    },
+    {
+     "w": "he'd",
+     "start": 68.164,
+     "end": 68.524
+    },
+    {
+     "w": "been",
+     "start": 68.524,
+     "end": 68.624
+    },
+    {
+     "w": "left",
+     "start": 68.624,
+     "end": 68.824
+    },
+    {
+     "w": "with",
+     "start": 68.824,
+     "end": 69.084
+    },
+    {
+     "w": "no",
+     "start": 69.084,
+     "end": 69.284
+    },
+    {
+     "w": "training,",
+     "start": 69.284,
+     "end": 69.664
+    },
+    {
+     "w": "no",
+     "start": 70.144,
+     "end": 70.284
+    },
+    {
+     "w": "supervision,",
+     "start": 70.284,
+     "end": 70.684
+    },
+    {
+     "w": "and",
+     "start": 71.064,
+     "end": 71.104
+    },
+    {
+     "w": "no",
+     "start": 71.104,
+     "end": 71.304
+    },
+    {
+     "w": "staff.",
+     "start": 71.304,
+     "end": 71.664
     }
    ]
   },
   {
    "scene": 10,
-   "text": "Four decades later, the man worth 25 pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.",
-   "start": 63.328,
-   "end": 71.857,
+   "text": "The warning came in time. The system wasn't built to hear it. Would you have sounded the alarm? Tell me below.",
+   "start": 72.23,
+   "end": 77.955,
    "words": [
     {
-     "w": "Four",
-     "start": 63.228,
-     "end": 63.468
+     "w": "The",
+     "start": 72.13,
+     "end": 72.29
     },
     {
-     "w": "decades",
-     "start": 63.468,
-     "end": 63.708
+     "w": "warning",
+     "start": 72.29,
+     "end": 72.53
     },
     {
-     "w": "later,",
-     "start": 63.708,
-     "end": 64.188
+     "w": "came",
+     "start": 72.53,
+     "end": 72.89
     },
     {
-     "w": "the",
-     "start": 64.448,
-     "end": 64.488
+     "w": "in",
+     "start": 72.89,
+     "end": 73.03
     },
     {
-     "w": "man",
-     "start": 64.488,
-     "end": 64.668
+     "w": "time.",
+     "start": 73.03,
+     "end": 73.31
     },
     {
-     "w": "worth",
-     "start": 64.668,
-     "end": 64.928
+     "w": "The",
+     "start": 73.71,
+     "end": 73.73
     },
     {
-     "w": "25",
-     "start": 64.928,
-     "end": 65.328
+     "w": "system",
+     "start": 73.73,
+     "end": 74.01
     },
     {
-     "w": "pounds",
-     "start": 65.328,
-     "end": 66.028
+     "w": "wasn't",
+     "start": 74.01,
+     "end": 74.43
     },
     {
-     "w": "became",
-     "start": 66.028,
-     "end": 66.388
+     "w": "built",
+     "start": 74.43,
+     "end": 74.59
     },
     {
-     "w": "Prime",
-     "start": 66.388,
-     "end": 66.648
+     "w": "to",
+     "start": 74.59,
+     "end": 74.79
     },
     {
-     "w": "Minister.",
-     "start": 66.648,
-     "end": 67.148
+     "w": "hear",
+     "start": 74.79,
+     "end": 74.99
+    },
+    {
+     "w": "it.",
+     "start": 74.99,
+     "end": 75.19
     },
     {
      "w": "Would",
-     "start": 67.868,
-     "end": 67.888
+     "start": 75.63,
+     "end": 75.65
     },
     {
      "w": "you",
-     "start": 67.888,
-     "end": 68.008
+     "start": 75.65,
+     "end": 75.77
     },
     {
      "w": "have",
-     "start": 68.008,
-     "end": 68.128
+     "start": 75.77,
+     "end": 75.89
     },
     {
-     "w": "turned",
-     "start": 68.128,
-     "end": 68.368
+     "w": "sounded",
+     "start": 75.89,
+     "end": 76.17
     },
     {
-     "w": "him",
-     "start": 68.368,
-     "end": 68.568
+     "w": "the",
+     "start": 76.17,
+     "end": 76.41
     },
     {
-     "w": "in?",
-     "start": 68.568,
-     "end": 68.768
+     "w": "alarm?",
+     "start": 76.41,
+     "end": 76.75
     },
     {
      "w": "Tell",
-     "start": 69.328,
-     "end": 69.408
+     "start": 77.15,
+     "end": 77.19
     },
     {
      "w": "me",
-     "start": 69.408,
-     "end": 69.568
+     "start": 77.19,
+     "end": 77.35
     },
     {
-     "w": "below,",
-     "start": 69.568,
-     "end": 69.828
-    },
-    {
-     "w": "and",
-     "start": 69.828,
-     "end": 70.208
-    },
-    {
-     "w": "follow",
-     "start": 70.208,
-     "end": 70.588
-    },
-    {
-     "w": "Buried",
-     "start": 70.588,
-     "end": 70.988
-    },
-    {
-     "w": "Chronicles.",
-     "start": 70.988,
-     "end": 71.588
+     "w": "below.",
+     "start": 77.35,
+     "end": 77.61
     }
    ]
   }

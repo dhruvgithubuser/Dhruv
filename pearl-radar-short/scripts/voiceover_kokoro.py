@@ -1,4 +1,4 @@
-"""Churchill wanted-poster narration: Kokoro-82M ONNX, deep American male (am_michael/am_onyx blend).
+"""Pearl Harbor radar Short narration: Kokoro-82M ONNX, deep American male (am_michael/am_onyx blend).
 
     python scripts/voiceover_kokoro.py <kokoro_dir> [--whisper]
 
@@ -31,16 +31,16 @@ LEAD = 0.35  # silence before the first word
 
 # (scene, spoken text (what the TTS reads), caption text (exact script wording), pause after in s)
 PHRASES = [
-    (1, "You're a twenty-five-year-old reporter in eighteen ninety-nine. Now you're an escaped prisoner, worth twenty-five pounds, dead or alive. Where do you hide?", "You're a 25-year-old reporter in 1899. Now you're an escaped prisoner, worth 25 pounds, dead or alive. Where do you hide?", 0.5),
-    (2, 'November fifteenth, eighteen ninety-nine. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.', 'November 15, 1899. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.', 0.4),
-    (3, "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.", "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.", 0.4),
-    (4, 'They lock him in a school in Pretoria, turned into a prison for British officers.', 'They lock him in a school in Pretoria, turned into a prison for British officers.', 0.35),
-    (5, 'December twelfth. At night, he climbs the wall by the latrine, and walks out through the town.', 'December 12. At night, he climbs the wall by the latrine, and walks out through the town.', 0.4),
-    (6, 'The Boers put a price on him. Twenty-five pounds, dead or alive.', 'The Boers put a price on him. 25 pounds, dead or alive.', 0.45),
-    (7, 'He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.', 'He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.', 0.4),
-    (8, "Then he's smuggled out in a freight car, buried under bales of wool, almost three hundred miles, to Portuguese East Africa. Free.", "Then he's smuggled out in a freight car, buried under bales of wool, almost 300 miles, to Portuguese East Africa. Free.", 0.45),
-    (9, 'Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.', 'Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.', 0.4),
-    (10, 'Four decades later, the man worth twenty-five pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.', 'Four decades later, the man worth 25 pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.', 0.2),
+    (1, "You spotted Pearl Harbor on radar, forty-six minutes early. You called it in. So why did over twenty-four hundred Americans still die?", "You spotted Pearl Harbor on radar, 46 minutes early. You called it in. So why did over 2,400 Americans still die?", 0.5),
+    (2, "December seventh, nineteen forty-one. Opana Point, on the northern tip of Oahu. Two privates, Joseph Lockard and George Elliott, are running a mobile radar.", "December 7, 1941. Opana Point, on the northern tip of Oahu. Two privates, Joseph Lockard and George Elliott, are running a mobile radar.", 0.4),
+    (3, "It's only allowed to run four hours a day, and it's due to shut down at seven. But the truck taking them to breakfast is late. So they keep practicing.", "It's only allowed to run four hours a day, and it's due to shut down at 7. But the truck taking them to breakfast is late. So they keep practicing.", 0.4),
+    (4, "At seven-oh-two, a huge echo appears. Planes, a hundred and thirty miles out, coming in from the north. More than they have ever seen.", "At 7:02, a huge echo appears. Planes, 130 miles out, coming in from the north. More than they have ever seen.", 0.45),
+    (5, "Lockard phones the information center at Fort Shafter. The officer on duty is Lieutenant Kermit Tyler. He arrived a week ago, with almost no training.", "Lockard phones the information center at Fort Shafter. The officer on duty is Lieutenant Kermit Tyler. He arrived a week ago, with almost no training.", 0.4),
+    (6, "Tyler knows six B-seventeen bombers are flying in from the mainland that morning. So he tells them not to worry.", "Tyler knows six B-17 bombers are flying in from the mainland that morning. So he tells them not to worry.", 0.5),
+    (7, "Lockard and Elliott keep tracking it anyway. Closer. And closer. At seven-forty, they lose contact.", "Lockard and Elliott keep tracking it anyway. Closer. And closer. At 7:40, they lose contact.", 0.4),
+    (8, "Eight minutes later, the first Japanese planes strike Oahu. By the end of the morning, over twenty-four hundred Americans are dead.", "Eight minutes later, the first Japanese planes strike Oahu. By the end of the morning, over 2,400 Americans are dead.", 0.45),
+    (9, "Tyler was later cleared. Investigators found he'd been left with no training, no supervision, and no staff.", "Tyler was later cleared. Investigators found he'd been left with no training, no supervision, and no staff.", 0.4),
+    (10, "The warning came in time. The system wasn't built to hear it. Would you have sounded the alarm? Tell me below.", "The warning came in time. The system wasn't built to hear it. Would you have sounded the alarm? Tell me below.", 0.2),
 ]
 TAIL = 1.0  # title card after the last word
 
@@ -67,7 +67,7 @@ def warm(x):
 
 
 def main():
-    npz = KDIR / "voices_churchill.npz"
+    npz = KDIR / "voices_radar.npz"
     np.savez(npz, narrator=voice_style())
     tts = Kokoro(str(KDIR / "model.onnx"), str(npz))
     parts, phrases, t = [np.zeros(int(LEAD * SR))], [], LEAD

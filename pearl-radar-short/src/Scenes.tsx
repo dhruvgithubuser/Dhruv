@@ -5,15 +5,15 @@ import { Shake } from './vfx';
 import { C, H, HEAD, SANS, SCENES, SERIF, TYPE, W, ease, hash01, lin, pf, wf } from './theme';
 
 /*
- * "Churchill's Wanted Poster: £25, Dead or Alive" (Boer War, 1899) - cinematic documentary Short.
+ * "The Radar Operators Who Saw Pearl Harbor Coming" (7 December 1941) - cinematic documentary Short.
  * Every shot is a still turned into a moving camera shot (depth parallax, scripts/parallax.py):
- * g* are dramatized reconstructions (labelled on screen); real photos of Churchill (1900, and as Prime Minister) are shown as framed prints; the reward notice is a stylised reconstruction.
+ * r* are dramatized reconstructions (labelled on screen). Real photos (SCR-270 set, the original Opana plot,
+ * Kermit Tyler, Battleship Row from a Japanese plane, USS Arizona) are shown as framed prints.
  */
 
 // length (s) of each parallax clip, as rendered by scripts/parallax.py
 const CLIP_S: Record<string, number> = {
-  g02_train: 8, g03_reporter: 4, g03_capture: 4, g04_prison: 6, g05_wall: 7, g06_post: 6, g07_train: 4, g08_mine: 4, g09_shaft: 5,
-  g10_wool: 8, g11_crowd: 8,
+  r01_hero: 10, r02_opana: 10, r03_van: 10, r04_scope: 9, r05_phone: 10, r06_tyler: 10, r07_b17: 8, r08_jp: 9, r09_harbor: 9, r10_dusk: 9,
 };
 const GRADE = 'saturate(0.55) sepia(0.28) contrast(1.1) brightness(0.95)';
 
@@ -120,14 +120,28 @@ const Chips: React.FC<{ items: { at: number; t: string }[]; top?: number; out?: 
 };
 
 /** Big number that counts up. */
-const Count: React.FC<{ at: number; to: number; label: string; dur?: number }> = ({ at, to, label, dur = 40 }) => {
+const Count: React.FC<{ at: number; to: number; label: string; dur?: number; suffix?: string }> = ({ at, to, label, dur = 40, suffix = '' }) => {
   const f = useCurrentFrame();
   if (f < at) return null;
   const v = Math.round(to * ease(f, at, at + dur));
   return (
     <div style={{ position: 'absolute', right: 50, top: 190, textAlign: 'right', opacity: lin(f, at, at + 6) }}>
-      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 170, lineHeight: 1, color: '#fff', textShadow: '0 8px 24px #000' }}>{v}</div>
+      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 170, lineHeight: 1, color: '#fff', textShadow: '0 8px 24px #000' }}>{v.toLocaleString('en-US')}{suffix}</div>
       <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 50, color: C.gold, letterSpacing: 4, textShadow: '0 4px 12px #000' }}>{label}</div>
+    </div>
+  );
+};
+
+/** A small typed document card (newspaper / warrant). */
+const Doc: React.FC<{ at: number; title: string; lines: string[]; stamp?: { at: number; t: string }; y?: number }> = ({ at, title, lines, stamp, y = 230 }) => {
+  const f = useCurrentFrame();
+  if (f < at) return null;
+  const k = ease(f, at, at + 10);
+  return (
+    <div style={{ position: 'absolute', left: 90, right: 90, top: y, transform: `translateY(${40 * (1 - k)}px) rotate(-2deg)`, opacity: k, background: '#efe4c8', padding: '26px 34px', boxShadow: '0 18px 40px rgba(0,0,0,0.7)' }}>
+      <div style={{ fontFamily: SERIF, fontWeight: 900, fontSize: 46, color: '#2a2117', borderBottom: '3px double #2a2117', paddingBottom: 8 }}>{title}</div>
+      {lines.map((l, i) => <div key={i} style={{ fontFamily: TYPE, fontSize: 28, color: '#3a2c1c', marginTop: 10, lineHeight: 1.35, opacity: lin(f, at + 8 + i * 6, at + 14 + i * 6) }}>{l}</div>)}
+      {stamp && f >= stamp.at && <div style={{ position: 'absolute', right: 26, bottom: 18, transform: `rotate(-10deg) scale(${1.5 - 0.5 * ease(f, stamp.at, stamp.at + 7)})`, border: `7px solid ${C.redHi}`, color: C.redHi, fontFamily: HEAD, fontWeight: 700, fontSize: 56, padding: '0 18px', letterSpacing: 4 }}>{stamp.t}</div>}
     </div>
   );
 };
@@ -151,183 +165,168 @@ const Print: React.FC<{ src: string; at: number; out?: number; y?: number; w?: n
   );
 };
 
-/** The reward notice: aged paper, big type, Churchill's 1900 photo pinned on. Visible from frame 0. */
-const Poster: React.FC<{ stamp?: number; push?: number }> = ({ stamp, push = 0.08 }) => {
+/** SCR-270 "A-scope": a green oscilloscope trace; the echo is a spike whose position is the range. */
+const AScope: React.FC<{ at: number; r0: number; r1: number; dur: number; out?: number; lost?: number; y?: number; caption?: string }> = ({ at, r0, r1, dur, out, lost, y = 560, caption }) => {
   const f = useCurrentFrame();
-  const z = 1 + push * ease(f, 0, 240);
+  if (f < at || (out !== undefined && f >= out)) return null;
+  const o = lin(f, at, at + 8) * (out !== undefined ? 1 - lin(f, out - 6, out) : 1);
+  const X0 = 110, X1 = 970, Y0 = 330;
+  const range = r0 + (r1 - r0) * ease(f, at, at + dur);
+  const sx = X0 + ((X1 - X0) * range) / 150;
+  const amp = lost !== undefined ? 1 - lin(f, lost, lost + 10) : 1;
+  const pts: string[] = [];
+  for (let x = X0; x <= X1; x += 6) {
+    const g = 10 * (hash01(x * 7 + f, 3) - 0.5) + (x < X0 + 70 ? 140 * Math.exp(-(x - X0) / 22) : 0);
+    const d = x - sx; const spike = amp * 210 * Math.exp(-(d * d) / 140) * (0.85 + 0.15 * hash01(f, 9));
+    pts.push(`${x},${Y0 - g - spike}`);
+  }
   return (
-    <AbsoluteFill style={{ background: '#140e08' }}>
-      <Img src={staticFile('assets/backgrounds/paper.jpg')} style={{ position: 'absolute', inset: 0, width: W, height: H, objectFit: 'cover', filter: 'blur(10px) brightness(0.35)' }} />
-      <div style={{ position: 'absolute', left: 90, right: 90, top: 130, height: 1120, transform: `scale(${z}) rotate(-1.2deg)`, transformOrigin: '50% 20%', background: '#e9dcbc', boxShadow: '0 40px 80px rgba(0,0,0,0.85), inset 0 0 120px rgba(110,70,20,0.45)', padding: '46px 50px', textAlign: 'center' }}>
-        <Img src={staticFile('assets/backgrounds/paper.jpg')} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.55, mixBlendMode: 'multiply' }} />
-        <div style={{ position: 'relative', fontFamily: SERIF, fontWeight: 900, fontSize: 130, lineHeight: 1, color: '#2a1a0c', letterSpacing: 4 }}>£25</div>
-        <div style={{ position: 'relative', fontFamily: HEAD, fontWeight: 700, fontSize: 100, lineHeight: 1.05, color: '#2a1a0c', letterSpacing: 10 }}>REWARD</div>
-        <div style={{ position: 'relative', height: 6, background: '#2a1a0c', margin: '18px 40px 22px' }} />
-        <div style={{ position: 'relative', margin: '0 auto', width: 430, height: 450, border: '6px solid #2a1a0c', overflow: 'hidden', background: '#222' }}>
-          <Img src={staticFile('assets/archival/churchill1900.jpg')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 20%', filter: 'grayscale(1) sepia(0.35) contrast(1.15)' }} />
-        </div>
-        <div style={{ position: 'relative', fontFamily: TYPE, fontWeight: 700, fontSize: 38, color: '#2a1a0c', marginTop: 18, letterSpacing: 3 }}>THE ESCAPED PRISONER OF WAR</div>
-        <div style={{ position: 'relative', fontFamily: SERIF, fontWeight: 900, fontSize: 100, color: '#2a1a0c', letterSpacing: 6, lineHeight: 1.1 }}>CHURCHILL</div>
-        <div style={{ position: 'relative', fontFamily: HEAD, fontWeight: 700, fontSize: 70, color: C.red, letterSpacing: 6, marginTop: 0 }}>DEAD OR ALIVE</div>
-        <div style={{ position: 'relative', fontFamily: TYPE, fontSize: 22, color: 'rgba(42,26,12,0.7)', marginTop: 16, letterSpacing: 2 }}>PRETORIA · DECEMBER 1899</div>
-      </div>
-      {stamp !== undefined && <Verdict at={stamp} text="DEAD OR ALIVE" y={1150} rot={-7} />}
-      <div style={{ position: 'absolute', left: 40, bottom: 330, fontFamily: TYPE, fontWeight: 700, fontSize: 20, letterSpacing: 3, color: 'rgba(246,236,212,0.6)' }}>STYLISED · BASED ON THE 1899 REWARD NOTICE · PHOTO: CHURCHILL, 1900</div>
-    </AbsoluteFill>
-  );
-};
-
-/** Escape route: Pretoria → Witbank → Lourenço Marques, drawn on as he travels. */
-const Route: React.FC<{ at: number; dur?: number }> = ({ at, dur = 90 }) => {
-  const f = useCurrentFrame();
-  if (f < at) return null;
-  const k = ease(f, at, at + dur);
-  const pts: [number, number][] = [[200, 1080], [470, 1010], [880, 900]];
-  const L = (a: [number, number], b: [number, number]) => Math.hypot(b[0] - a[0], b[1] - a[1]);
-  const tot = L(pts[0], pts[1]) + L(pts[1], pts[2]);
-  const names = [['PRETORIA', 'ESCAPE'], ['WITBANK', 'COAL MINE'], ['LOURENÇO MARQUES', 'FREE']];
-  return (
-    <svg width={W} height={H} style={{ position: 'absolute', inset: 0, opacity: lin(f, at, at + 8) }}>
-      <rect x={120} y={800} width={840} height={380} rx={10} fill="rgba(14,10,6,0.78)" stroke={C.gold} strokeWidth={3} />
-      <polyline points={pts.map((p) => p.join(',')).join(' ')} fill="none" stroke="rgba(246,236,212,0.25)" strokeWidth={6} strokeDasharray="14 12" />
-      <polyline points={pts.map((p) => p.join(',')).join(' ')} fill="none" stroke={C.redHi} strokeWidth={8} strokeDasharray={`${tot * k} ${tot}`} strokeLinecap="round" />
-      {pts.map((p, i) => {
-        const on = k * tot >= (i === 0 ? 0 : i === 1 ? L(pts[0], pts[1]) : tot) - 1;
-        return (
-          <g key={i} opacity={on ? 1 : 0.35}>
-            <circle cx={p[0]} cy={p[1]} r={14} fill={i === 2 ? C.gold : C.redHi} stroke="#fff" strokeWidth={3} />
-            <text x={p[0]} y={p[1] + (i === 2 ? -36 : 52)} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={34} fill="#f6ecd4">{names[i][0]}</text>
-            <text x={p[0]} y={p[1] + (i === 2 ? -72 : 86)} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={24} fill={C.gold}>{names[i][1]}</text>
-          </g>
-        );
-      })}
-      <text x={540} y={1150} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={28} fill="#f6ecd4" opacity={lin(f, at + dur - 10, at + dur)}>ALMOST 300 MILES</text>
+    <svg width={W} height={H} style={{ position: 'absolute', left: 0, top: y - 140, opacity: o }}>
+      <rect x={70} y={120} width={940} height={300} rx={40} fill="rgba(4,18,8,0.92)" stroke="#2b4a30" strokeWidth={6} />
+      {Array.from({ length: 16 }, (_, i) => <line key={i} x1={X0 + ((X1 - X0) * i) / 15} y1={140} x2={X0 + ((X1 - X0) * i) / 15} y2={400} stroke="rgba(120,255,150,0.12)" strokeWidth={2} />)}
+      <polyline points={pts.join(' ')} fill="none" stroke="#9dffb0" strokeWidth={4} style={{ filter: 'drop-shadow(0 0 8px #5dff7a)' }} />
+      {[0, 50, 100, 150].map((m) => <text key={m} x={X0 + ((X1 - X0) * m) / 150} y={448} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={24} fill="#9dffb0">{m} MI</text>)}
+      {amp > 0.05 && <text x={sx} y={Y0 - 240} textAnchor="middle" fontFamily={HEAD} fontWeight={700} fontSize={40} fill="#fff" opacity={amp}>{Math.round(range)} MILES</text>}
+      {caption && <text x={540} y={100} textAnchor="middle" fontFamily={TYPE} fontWeight={700} fontSize={28} letterSpacing={3} fill="#9dffb0">{caption}</text>}
     </svg>
   );
 };
 
-// S01 hook: the reward notice from frame 0.
-const S01: React.FC = () => {
-  return (
-    <AbsoluteFill style={{ background: '#000' }}>
-      <Poster stamp={wf(1, 'dead')} push={0.1} />
-    </AbsoluteFill>
-  );
+/** Green phosphor glow pulsing on the operator's face. */
+const Glow: React.FC<{ o?: number }> = ({ o = 0.1 }) => {
+  const f = useCurrentFrame();
+  return <AbsoluteFill style={{ background: `rgba(80,255,120,${o * (0.6 + 0.4 * hash01(f, 4))})`, mixBlendMode: 'screen' }} />;
 };
 
-// S02 the armoured train, 15 Nov 1899.
+// S01 hook: the operator, the warning on screen from frame 0.
+const S01: React.FC = () => (
+  <AbsoluteFill style={{ background: '#000' }}>
+    <Shot name="r01_hero" from={0} to={end(1)} fadeIn={0} />
+    <Glow o={0.08} />
+    <Dim />
+    <Slate at={-20} place="PEARL HARBOR" date="7 DECEMBER 1941 · 7:02 AM" />
+    <Verdict at={wf(1, '46')} out={wf(1, 'so')} text="46 MIN EARLY" color="#7dff95" y={1080} rot={-6} />
+    <Verdict at={wf(1, '2400')} text="2,400+ DEAD" y={1080} rot={-6} />
+  </AbsoluteFill>
+);
+
+// S02 Opana Point, the two privates, the SCR-270 set.
 const S02: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g02_train" from={0} to={end(2)} />
-    <Haze color="225,215,195" o={0.3} y={1000} />
+    <Shot name="r02_opana" from={0} to={end(2)} />
     <Dim />
-    <Slate at={4} place="NATAL, SOUTH AFRICA" date="15 NOVEMBER 1899" />
-    <Chips top={480} items={[{ at: wf(2, 'correspondent'), t: 'WAR CORRESPONDENT' }, { at: wf(2, 'morning'), t: 'THE MORNING POST' }, { at: wf(2, 'armoured'), t: 'ARMOURED TRAIN' }]} />
+    <Slate at={4} place="OPANA POINT, OAHU" date="7 DECEMBER 1941" out={wf(2, 'two')} />
+    <Chips top={190} items={[{ at: wf(2, 'joseph'), t: 'PVT. JOSEPH LOCKARD' }, { at: wf(2, 'george'), t: 'PVT. GEORGE ELLIOTT' }]} />
+    <Print src="assets/archival/scr270.jpg" at={wf(2, 'mobile')} y={520} w={640} h={600} rot={-3} label="AN SCR-270 MOBILE RADAR" pos="50% 40%" />
   </AbsoluteFill>
 );
 
-// S03 derailed, under fire, captured.
-const S03: React.FC = () => {
-  const de = wf(3, 'derail'); const su = wf(3, 'surrounded');
-  return (
-    <AbsoluteFill style={{ background: '#000' }}>
-      <Shake hits={[de, de + 12]} amp={16}>
-        <Shot name="g03_reporter" from={0} to={su + 6} />
-        <Shot name="g03_capture" from={su} to={end(3)} />
-        <Haze color="220,215,205" o={0.3} y={1200} />
-      </Shake>
-      <Flash at={de} />
-      <Dim />
-      <Chips top={300} items={[{ at: wf(3, 'line'), t: 'CLEARS THE LINE' }, { at: wf(3, 'fire'), t: 'UNDER FIRE' }]} out={su} />
-      <Verdict at={wf(3, 'prisoner')} text="PRISONER OF WAR" y={330} rot={-5} />
-    </AbsoluteFill>
-  );
-};
+// S03 four hours a day, due off at 7, the breakfast truck is late.
+const S03: React.FC = () => (
+  <AbsoluteFill style={{ background: '#000' }}>
+    <Shot name="r03_van" from={0} to={end(3)} />
+    <Glow o={0.05} />
+    <Dim />
+    <Chips top={300} items={[{ at: wf(3, 'four'), t: '4 HOURS A DAY' }, { at: wf(3, 'shut'), t: 'SHUT DOWN AT 7:00' }, { at: wf(3, 'late'), t: 'BREAKFAST TRUCK: LATE' }]} />
+    <Verdict at={wf(3, 'practicing')} text="STILL ON" color="#7dff95" y={1080} rot={-6} />
+  </AbsoluteFill>
+);
 
-// S04 the school-prison in Pretoria.
+// S04 7:02, the echo, 130 miles north.
 const S04: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g04_prison" from={0} to={end(4)} />
-    <Dim />
-    <Slate at={4} place="PRETORIA" date="THE STATE MODEL SCHOOL" />
-    <Chips top={480} items={[{ at: wf(4, 'prison'), t: 'PRISON FOR BRITISH OFFICERS' }]} />
+    <Shot name="r04_scope" from={0} to={end(4)} />
+    <Glow o={0.06} />
+    <Dim top={0.6} bottom={0.7} />
+    <Slate at={2} place="7:02 AM" date="ECHO · FROM THE NORTH" />
+    <AScope at={wf(4, 'huge') - 4} r0={132} r1={124} dur={end(4)} y={620} caption="SCR-270 · RANGE SCOPE (RECONSTRUCTION)" />
+    <Chips top={1060} items={[{ at: wf(4, 'more'), t: 'MORE THAN THEY HAD EVER SEEN' }]} />
   </AbsoluteFill>
 );
 
-// S05 over the wall.
-const S05: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g05_wall" from={0} to={end(5)} />
-    <AbsoluteFill style={{ background: 'rgba(40,70,120,0.18)', mixBlendMode: 'multiply' }} />
-    <Dim />
-    <Slate at={4} place="12 DECEMBER 1899" date="NIGHT" />
-    <Chips top={480} items={[{ at: wf(5, 'wall'), t: 'OVER THE LATRINE WALL' }, { at: wf(5, 'town'), t: 'STRAIGHT THROUGH TOWN' }]} />
-  </AbsoluteFill>
-);
-
-// S06 the price on his head.
-const S06: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g06_post" from={0} to={wf(6, '25') + 4} />
-    <Sequence from={wf(6, '25')} layout="none"><Poster stamp={wf(6, 'dead') - wf(6, '25')} push={0.06} /></Sequence>
-    <Dim top={0.3} bottom={0.4} />
-  </AbsoluteFill>
-);
-
-// S07 goods train, coal mine, John Howard.
-const S07: React.FC = () => {
-  const co = wf(7, 'coal'); const hi = wf(7, 'hides');
+// S05 the phone call, Fort Shafter, Lt Kermit Tyler.
+const S05: React.FC = () => {
+  const of = wf(5, 'officer');
   return (
     <AbsoluteFill style={{ background: '#000' }}>
-      <Shot name="g07_train" from={0} to={co + 6} />
-      <Shot name="g08_mine" from={co} to={hi + 6} />
-      <Shot name="g09_shaft" from={hi} to={end(7)} />
-      <AbsoluteFill style={{ background: `rgba(255,170,80,${0.04 + 0.04 * hash01(useCurrentFrame(), 5)})`, mixBlendMode: 'screen' }} />
+      <Shot name="r05_phone" from={0} to={of + 6} />
+      <Shot name="r06_tyler" from={of} to={end(5)} />
       <Dim />
-      <Slate at={co + 4} place="WITBANK COLLIERY" date="THE MANAGER IS ENGLISH" out={hi} />
-      <Chips top={480} items={[{ at: wf(7, 'howard'), t: 'MANAGER: JOHN HOWARD' }, { at: wf(7, 'bottom'), t: 'HIDDEN UNDERGROUND' }]} />
+      <Slate at={wf(5, 'information')} place="FORT SHAFTER" date="INFORMATION CENTER" out={of} />
+      <Print src="assets/archival/tyler.jpg" at={wf(5, 'kermit')} y={560} w={560} h={560} rot={-3} label="KERMIT TYLER · LATER PHOTO" pos="50% 25%" />
+      <Chips top={190} items={[{ at: wf(5, 'week'), t: '1 WEEK ON THE JOB' }, { at: wf(5, 'training'), t: 'ALMOST NO TRAINING' }]} />
     </AbsoluteFill>
   );
 };
 
-// S08 wool bales, the route, free.
-const S08: React.FC = () => (
+// S06 six B-17s due from the mainland: "not to worry".
+const S06: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g10_wool" from={0} to={end(8)} />
+    <Shot name="r07_b17" from={0} to={end(6)} />
     <Dim />
-    <Chips top={300} items={[{ at: wf(8, 'wool'), t: 'UNDER BALES OF WOOL' }]} />
-    <Route at={wf(8, 'almost') - 10} dur={wf(8, 'free') - wf(8, 'almost') + 10} />
-    <Verdict at={wf(8, 'free')} text="FREE" color={C.gold} y={620} rot={-6} />
+    <Chips top={300} items={[{ at: wf(6, 'six'), t: '6 × B-17 BOMBERS' }, { at: wf(6, 'mainland'), t: 'FROM THE MAINLAND' }]} />
+    <Verdict at={wf(6, 'worry')} text="NOT TO WORRY" y={1080} rot={-6} />
   </AbsoluteFill>
 );
 
-// S09 Black Week, a hero, Parliament.
+// S07 they keep tracking: the real Opana plot; contact lost at 7:40.
+const S07: React.FC = () => (
+  <AbsoluteFill style={{ background: '#0b0805' }}>
+    <Img src={staticFile('assets/archival/plot.jpg')} style={{ position: 'absolute', inset: -60, width: W + 120, height: H + 120, objectFit: 'cover', filter: 'blur(26px) brightness(0.35) grayscale(1)' }} />
+    <Print src="assets/archival/plot.jpg" at={0} y={260} w={700} h={860} rot={-2} label="THE REAL OPANA PLOT · 7 DEC 1941" pos="50% 35%" />
+    <Slate at={wf(7, '740') - 4} place="7:40 AM" date="CONTACT LOST" />
+    <Verdict at={wf(7, 'contact')} text="CONTACT LOST" y={1290} rot={-6} />
+  </AbsoluteFill>
+);
+
+// S08 7:48, the attack; 2,400+ dead.
+const S08: React.FC = () => {
+  const st = wf(8, 'strike'); const by = wf(8, 'by');
+  return (
+    <AbsoluteFill style={{ background: '#000' }}>
+      <Shake hits={[st, st + 10]} amp={18}>
+        <Shot name="r08_jp" from={0} to={st + 6} />
+        <Shot name="r09_harbor" from={st} to={end(8)} />
+        <Haze color="60,55,50" o={0.4} y={900} />
+      </Shake>
+      <Flash at={st} />
+      <Dim />
+      <Slate at={4} place="7:48 AM" date="THE FIRST WAVE" out={st} />
+      <Print src="assets/archival/jpview.jpg" at={st + 4} out={by} y={560} w={900} h={620} rot={-2} label="TAKEN FROM A JAPANESE PLANE" pos="50% 50%" />
+      <Print src="assets/archival/arizona.jpg" at={by} y={560} w={900} h={620} rot={2} label="USS ARIZONA · 7 DEC 1941" pos="50% 50%" />
+      <Count at={wf(8, 'over')} to={2400} suffix="+" label="AMERICANS KILLED" />
+    </AbsoluteFill>
+  );
+};
+
+// S09 the inquiry: cleared.
 const S09: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
-    <Shot name="g11_crowd" from={0} to={end(9)} />
-    <Dim />
-    <Chips top={300} items={[{ at: wf(9, 'three'), t: '"BLACK WEEK": 3 DEFEATS' }, { at: wf(9, 'hero'), t: 'A NATIONAL HERO' }, { at: wf(9, 'parliament'), t: 'MP FOR OLDHAM · 1900' }]} />
+    <Shot name="r06_tyler" from={0} to={end(9)} />
+    <Dim top={0.6} bottom={0.7} />
+    <Doc at={4} title="INQUIRY · AUGUST 1942" lines={['LT. KERMIT TYLER, INFORMATION CENTER', 'NO TRAINING', 'NO SUPERVISION', 'NO STAFF']} stamp={{ at: wf(9, 'cleared'), t: 'CLEARED' }} y={330} />
   </AbsoluteFill>
 );
 
-// S10 Prime Minister, and the question.
+// S10 the warning came in time; the question.
 const S10: React.FC = () => {
   const f = useCurrentFrame();
-  const q = wf(10, 'turned'); const b = wf(10, 'below');
+  const q = wf(10, 'would'); const b = wf(10, 'below');
   const card = (at: number, l: string, t: string, x: number, col: string) => f < at ? null : (
     <div style={{ position: 'absolute', left: x, top: 1000, width: 440, transform: `scale(${0.8 + 0.2 * ease(f, at, at + 8)})`, opacity: lin(f, at, at + 6), background: 'rgba(14,10,6,0.88)', border: `4px solid ${col}`, padding: '18px 22px', textAlign: 'center' }}>
       <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 40, color: col }}>{l}</div>
-      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 58, color: '#fff' }}>{t}</div>
+      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 52, color: '#fff' }}>{t}</div>
     </div>
   );
   return (
-    <AbsoluteFill style={{ background: '#0b0805' }}>
-      <Img src={staticFile('assets/archival/pm.jpg')} style={{ position: 'absolute', inset: -60, width: W + 120, height: H + 120, objectFit: 'cover', filter: 'blur(26px) brightness(0.35) grayscale(1)' }} />
-      <Print src="assets/archival/pm.jpg" at={0} out={q} y={430} w={900} h={640} rot={-2} label="PRIME MINISTER · 1940s" pos="70% 30%" />
-      {f >= q && <div style={{ position: 'absolute', left: 0, right: 0, top: 180, textAlign: 'center', opacity: lin(f, q, q + 8), fontFamily: HEAD, fontWeight: 700, fontSize: 72, color: '#fff', textShadow: '0 8px 24px #000' }}>£25. WOULD YOU TURN HIM IN?</div>}
-      {card(q, 'A', 'TURN HIM IN', 70, C.redHi)}
-      {card(q + 10, 'B', 'HIDE HIM', 570, '#6fbf73')}
-      <div style={{ position: 'absolute', left: 0, right: 0, top: 1600, textAlign: 'center', opacity: lin(f, b + 20, b + 30) }}>
+    <AbsoluteFill style={{ background: '#000' }}>
+      <Shot name="r10_dusk" from={0} to={end(10) + 40} />
+      <Dim top={0.6} bottom={0.75} />
+      {f < q && <div style={{ position: 'absolute', left: 60, right: 60, top: 300, textAlign: 'center', opacity: lin(f, 4, 12), fontFamily: HEAD, fontWeight: 700, fontSize: 70, color: '#fff', textShadow: '0 8px 24px #000' }}>THE WARNING CAME IN TIME</div>}
+      {f >= q && <div style={{ position: 'absolute', left: 40, right: 40, top: 300, textAlign: 'center', opacity: lin(f, q, q + 8), fontFamily: HEAD, fontWeight: 700, fontSize: 68, color: '#fff', textShadow: '0 8px 24px #000' }}>WOULD YOU HAVE SOUNDED THE ALARM?</div>}
+      {card(q, 'A', 'SOUND IT', 70, C.redHi)}
+      {card(q + 10, 'B', 'TRUST THE OFFICER', 570, '#6fbf73')}
+      <div style={{ position: 'absolute', left: 0, right: 0, top: 1600, textAlign: 'center', opacity: lin(f, b + 10, b + 20) }}>
         <span style={{ background: C.red, color: '#fff', fontFamily: SANS, fontWeight: 800, fontSize: 40, padding: '12px 30px', letterSpacing: 2 }}>FOLLOW · BURIED CHRONICLES</span>
       </div>
     </AbsoluteFill>

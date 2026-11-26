@@ -19,10 +19,16 @@ W, H, FPS = 1080, 1920, 30
 # per shot: (kind, strength, seconds, focus x, focus y) - focus in -1..1 is the point the camera pushes toward.
 # kinds: push (dolly in), pull (dolly out), left/right (truck with parallax), rise, drift
 MOTION = {
-    "g02_train": ("push", 1.1, 8, 0.0, 0.2), "g03_reporter": ("push", 1.3, 4, 0.0, -0.3), "g03_capture": ("push", 1.2, 4, 0.1, -0.2),
-    "g04_prison": ("push", 1.0, 6, 0, 0), "g05_wall": ("rise", 1.0, 7, 0, 0), "g06_post": ("right", 1.0, 6, 0, 0),
-    "g07_train": ("push", 1.4, 4, 0.2, -0.1), "g08_mine": ("push", 1.1, 4, 0, 0), "g09_shaft": ("push", 1.3, 5, -0.1, 0.1),
-    "g10_wool": ("push", 1.2, 8, 0.0, -0.1), "g11_crowd": ("pull", 1.3, 8, 0.3, -0.4),
+    "r01_hero": ("push", 1.3, 10, 0.0, -0.2),
+    "r02_opana": ("rise", 1.0, 10, 0, 0),
+    "r03_van": ("push", 1.2, 10, 0.1, 0),
+    "r04_scope": ("push", 1.4, 9, 0, 0),
+    "r05_phone": ("push", 1.3, 10, 0, -0.2),
+    "r06_tyler": ("push", 1.1, 10, 0, -0.1),
+    "r07_b17": ("right", 1.0, 8, 0, 0),
+    "r08_jp": ("push", 1.3, 9, 0, 0),
+    "r09_harbor": ("push", 1.1, 9, 0, 0),
+    "r10_dusk": ("pull", 1.2, 9, 0, 0),
 }
 
 

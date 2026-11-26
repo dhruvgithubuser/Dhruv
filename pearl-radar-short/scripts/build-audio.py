@@ -1,4 +1,4 @@
-"""Sound effects for "Churchill's Wanted Poster" (Short). The music is the creator's own track, not generated.
+"""Sound effects for "The Radar Operators Who Saw Pearl Harbor Coming" (Short). The music is the creator's own track, not generated.
 """
 import json
 import subprocess
@@ -546,24 +546,42 @@ def bowstring():
     return np.sin(2 * np.pi * 95 * tm) * np.exp(-tm / 0.12) * 0.8 + bp(rng.standard_normal(n), 800, 3000) * np.exp(-tm / 0.03) * 0.5
 
 
+def blip(n=3, gap=0.9):
+    """Radar return pings: short sine chirps with a long tail."""
+    out = np.zeros(int((n * gap + 1.5) * SR))
+    for k in range(n):
+        m = int(0.35 * SR); tm = t_(m)
+        x = np.sin(2 * np.pi * 1180 * tm) * np.exp(-tm / 0.07)
+        i = int(k * gap * SR); out[i:i + m] += x
+    return reverb(out / (np.abs(out).max() + 1e-9), 1.2, 1.6, 0.3)
+
+
+def ring(length=2.4):
+    """1940s field-telephone ring: two bells at ~20 Hz tremolo."""
+    tm = t_(int(length * SR))
+    x = (np.sin(2 * np.pi * 950 * tm) + 0.6 * np.sin(2 * np.pi * 1420 * tm)) * (0.5 + 0.5 * np.sign(np.sin(2 * np.pi * 20 * tm)))
+    gate = ((tm % 1.2) < 0.8).astype(float)
+    return x * gate * np.exp(-tm / 3) * 0.6
+
+
 def main():
     """Sound effects only. The music bed is the creator's own track (public/assets/music/score.mp3): never generated or overwritten here."""
     files = {"paper.wav": paper(), "impact.wav": impact(), "whoosh.wav": whoosh(0.8, 200, 3000), "stamp.wav": stamp(),
-             "ticks.wav": ticks(1.0, 14), "clock.wav": clock(4.0), "morse.wav": morse(), "rumble.wav": rumble(6.0),
-             "plane.wav": plane_flyby(6.0), "murmur.wav": murmur(6.0), "wind.wav": wind(6.0), "hiss.wav": hiss(1.2)}
+             "ticks.wav": ticks(1.0, 14), "clock.wav": clock(4.0), "hiss.wav": hiss(1.2), "wind.wav": wind(6.0),
+             "rumble.wav": rumble(6.0), "plane.wav": plane_flyby(6.0), "explosion.wav": explosion(), "blip.wav": blip(4, 0.9), "ring.wav": ring(2.4)}
     for k, v in files.items():
         save(k, v)
     w = word_t
-    cues = [("wind.wav", 0.0, 0.25), ("paper.wav", 0.15, 0.35), ("stamp.wav", w(1, "dead"), 0.55), ("impact.wav", w(1, "hide"), 0.35),
-            ("rumble.wav", S[2], 0.35), ("ticks.wav", w(2, "correspondent"), 0.2), ("ticks.wav", w(2, "armoured"), 0.2),
-            ("impact.wav", w(3, "derail"), 0.6), ("rumble.wav", w(3, "derail"), 0.45), ("hiss.wav", w(3, "line"), 0.25), ("stamp.wav", w(3, "prisoner"), 0.5),
-            ("clock.wav", S[4] + 0.2, 0.25), ("ticks.wav", w(4, "prison"), 0.2),
-            ("wind.wav", S[5], 0.35), ("hiss.wav", w(5, "wall"), 0.2),
-            ("paper.wav", w(6, "price"), 0.4), ("stamp.wav", w(6, "dead"), 0.55),
-            ("plane.wav", S[7], 0.0), ("rumble.wav", S[7], 0.4), ("impact.wav", w(7, "coal"), 0.35), ("ticks.wav", w(7, "howard"), 0.2), ("wind.wav", w(7, "hides"), 0.2),
-            ("rumble.wav", S[8], 0.3), ("ticks.wav", w(8, "almost"), 0.2), ("impact.wav", w(8, "free"), 0.5),
-            ("murmur.wav", S[9], 0.45), ("ticks.wav", w(9, "parliament"), 0.2),
-            ("paper.wav", S[10] + 0.3, 0.3), ("impact.wav", w(10, "turned"), 0.35), ("ticks.wav", w(10, "below"), 0.2)]
+    cues = [("blip.wav", 0.1, 0.45), ("hiss.wav", 0.2, 0.15), ("stamp.wav", w(1, "46"), 0.5), ("stamp.wav", w(1, "2400"), 0.55), ("impact.wav", w(1, "die"), 0.4),
+            ("wind.wav", S[2], 0.35), ("ticks.wav", w(2, "joseph"), 0.2), ("ticks.wav", w(2, "george"), 0.2), ("paper.wav", w(2, "mobile"), 0.35),
+            ("clock.wav", S[3] + 0.2, 0.3), ("ticks.wav", w(3, "four"), 0.2), ("ticks.wav", w(3, "late"), 0.2), ("stamp.wav", w(3, "practicing"), 0.45),
+            ("blip.wav", w(4, "huge") - 0.2, 0.6), ("hiss.wav", S[4], 0.2), ("impact.wav", w(4, "huge"), 0.35), ("ticks.wav", w(4, "more"), 0.2),
+            ("ring.wav", S[5] - 0.2, 0.35), ("paper.wav", w(5, "kermit"), 0.35), ("ticks.wav", w(5, "week"), 0.2), ("ticks.wav", w(5, "training"), 0.2),
+            ("plane.wav", S[6], 0.35), ("ticks.wav", w(6, "six"), 0.2), ("stamp.wav", w(6, "worry"), 0.55),
+            ("paper.wav", S[7] + 0.1, 0.35), ("blip.wav", w(7, "closer"), 0.4), ("impact.wav", w(7, "contact"), 0.45), ("stamp.wav", w(7, "contact") + 0.2, 0.4),
+            ("plane.wav", S[8], 0.55), ("explosion.wav", w(8, "strike"), 0.7), ("rumble.wav", w(8, "strike"), 0.5), ("explosion.wav", w(8, "strike") + 1.3, 0.45), ("paper.wav", w(8, "by"), 0.3), ("impact.wav", w(8, "dead"), 0.45),
+            ("paper.wav", S[9] + 0.1, 0.4), ("stamp.wav", w(9, "cleared"), 0.55), ("ticks.wav", w(9, "staff"), 0.2),
+            ("wind.wav", S[10], 0.35), ("impact.wav", w(10, "would"), 0.35), ("ticks.wav", w(10, "below"), 0.2)]
     cues = [c for c in cues if c[2] > 0]
     (ROOT / "src" / "data" / "sfx-cues.json").write_text(json.dumps([{"file": f, "at": round(a, 3), "volume": v} for f, a, v in cues], indent=1))
     print("sfx", len(files), "cues", len(cues), "(music: creator's own track, untouched)")

@@ -1,4 +1,4 @@
-"""Photoreal cinematic 9:16 stills for "Churchill's Wanted Poster" (Boer War, 1899), generated locally on CPU.
+"""Photoreal cinematic 9:16 stills for "The Radar Operators Who Saw Pearl Harbor Coming" (1941), generated locally on CPU.
 
     python scripts/generate-stills.py <out_dir> [shot ...]
 
@@ -12,21 +12,20 @@ import torch
 from diffusers import AutoencoderKL, LCMScheduler, StableDiffusionPipeline
 from huggingface_hub import hf_hub_download
 
-STYLE = ", cinematic film still, 1899 Boer War period drama, 35mm film grain, dramatic lighting, photorealistic"
-NEG = ("painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, "
-       "modern clothing, smartphone, modern car, airplane, two moons, floating objects, steel helmet, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, duplicate, two heads")
+STYLE = ", cinematic film still, 1941 World War II period drama, 35mm film grain, dramatic lighting, photorealistic"
+NEG = ("painting, oil painting, illustration, drawing, sketch, cartoon, anime, 3d render, cgi, text, watermark, logo, letters, "
+       "modern clothing, smartphone, computer, modern car, jet, two moons, floating objects, deformed, disfigured, extra limbs, extra fingers, blurry, lowres, gore, blood, duplicate, two heads")
 SHOTS = {
-    "g02_train": ('armoured train derailed on a hillside railway in South Africa in 1899, overturned armoured trucks, steam and smoke, Boer riflemen firing from a ridge, grassy veld', 7021),
-    "g03_reporter": ("slim pale young Englishman with red-brown hair in a khaki 1899 war correspondent's uniform and slouch hat, helping wounded soldiers beside a derailed armoured train under fire, smoke", 7031),
-    "g03_capture": ('slim pale young Englishman with red-brown hair in khaki surrendering, hands raised, surrounded by bearded Boer horsemen with rifles and wide-brimmed hats on the open veld, 1899', 7032),
-    "g04_prison": ('British officer prisoners of war in 1899 uniforms standing in the courtyard of a red brick school building behind an iron fence, Pretoria, armed Boer guard at the gate', 7041),
-    "g05_wall": ("slim young man in a dark suit climbing over the top of a tall corrugated iron fence at night, seen from below, dark sky, a single gas lamp glowing, 1899", 7053),
-    "g06_post": ('blank paper notice nailed to a wooden post in a dusty 1899 South African frontier town street, Boer policemen on horseback passing, harsh sun', 7061),
-    "g07_train": ("a man running beside a long steam goods train with open coal wagons on a railway line at night on the African veld, steam and sparks from the locomotive, moonlit grass", 7073),
-    "g08_mine": ('coal mine at night on the South African highveld in 1899, wooden pithead headframe, a mine manager with a lantern leading a tired young fugitive in a dark suit', 7081),
-    "g09_shaft": ('slim pale young Englishman with red-brown hair hiding alone deep underground in a dark coal mine tunnel, sitting on straw by a single candle, rats on the ground, wooden props', 7091),
-    "g10_wool": ('slim pale young Englishman with red-brown hair hidden between large wool bales inside a dark wooden railway goods wagon, thin stripes of daylight through the slats, sweating, 1899', 7101),
-    "g11_crowd": ('cheering crowd waving Union Jack flags on a harbour quay in Durban in December 1899, a slim pale young Englishman with red-brown hair in a pale suit giving a speech from steps, steamships behind', 7111),
+    "r01_hero": ("close-up of a young American army private in 1941, short hair, khaki shirt, wearing bulky old radio headphones, face lit by green glow from a round oscilloscope screen inside a dark army radar truck, eyes wide, tense", 8011),
+    "r02_opana": ("tall metal lattice radar antenna on a grassy hilltop above the Pacific ocean at dawn, Hawaiian coastline below, army trucks parked beside it, 1941, wide shot", 8021),
+    "r03_van": ("two young American army privates in 1941 khaki uniforms inside a cramped army radar truck at dawn, one wearing headphones facing a round oscilloscope screen, the other holding a pencil over a paper plotting board, early light through the open door", 8031),
+    "r04_scope": ("extreme close-up of a round green glowing vintage oscilloscope screen with a bright tall spike on a horizontal line, black metal panel with knobs and dials, dark room", 8041),
+    "r05_phone": ("young American army private in a 1941 khaki uniform speaking urgently into a black field telephone handset inside a radar truck, green screen glow on his face, dawn", 8051),
+    "r06_tyler": ("young American army lieutenant in a 1941 khaki uniform sitting alone at a desk in a quiet military plotting room with a large map table, holding a telephone receiver, calm relaxed expression, early morning light through windows", 8061),
+    "r07_b17": ("a formation of B-17 Flying Fortress bombers flying over the Pacific ocean at sunrise, clouds below, 1941", 8071),
+    "r08_jp": ("a formation of 1941 Japanese navy propeller bombers with red circle insignia flying low over the ocean toward a green mountainous island at sunrise, seen from behind", 8081),
+    "r09_harbor": ("battleships burning in a harbor, thick black smoke rising into the sky, fire on the water, warships, 1941 Pearl Harbor attack", 8091),
+    "r10_dusk": ("silhouette of a tall lattice radar antenna on a hilltop at sunset over the ocean, empty, lonely, 1941", 8101),
 }
 
 out = Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)

@@ -13,7 +13,7 @@ const Fade: React.FC<{ first: boolean; children: React.ReactNode }> = ({ first, 
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
 
-const KEY = new Set(['25yearold', '1899', 'escaped', 'prisoner', '25', 'dead', 'alive', 'hide', 'churchill', 'correspondent', 'armoured', 'derail', 'fire', 'surrounded', 'pretoria', 'school', 'prison', 'wall', 'latrine', 'price', 'train', 'coal', 'mine', 'english', 'howard', 'bottom', 'wool', '300', 'free', 'three', 'hero', 'parliament', 'prime', 'minister', 'turned', 'buried', 'chronicles']);
+const KEY = new Set(['pearl', 'harbor', 'radar', '46', 'early', '2400', 'die', 'opana', 'oahu', 'lockard', 'elliott', 'four', '7', 'late', 'practicing', '702', 'huge', '130', 'north', 'never', 'fort', 'shafter', 'kermit', 'tyler', 'week', 'training', 'six', 'b17', 'worry', 'closer', '740', 'contact', 'japanese', 'strike', 'dead', 'cleared', 'supervision', 'staff', 'time', 'alarm', 'below']);
 const CHUNKS = (() => {
   const out: { words: { w: string; start: number; end: number }[]; start: number; end: number }[] = [];
   for (const p of PHRASES) {
@@ -33,7 +33,7 @@ const Captions: React.FC = () => {
   return <BigCaption words={ch.words} t={t} keys={KEY} k={k} />;
 };
 
-export const ChurchillWanted: React.FC = () => (
+export const PearlRadar: React.FC = () => (
   <AbsoluteFill style={{ background: '#1d1b19' }}>
     <Fonts />
     {SCENE_COMPS.map((Comp, i) => {
