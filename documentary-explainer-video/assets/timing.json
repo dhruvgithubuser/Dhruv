@@ -1,0 +1,75 @@
+{
+ "duration": 65.592,
+ "beats": [
+  {
+   "id": "b01",
+   "scene": "hook",
+   "start": 0.35,
+   "end": 7.424,
+   "text": "November twenty-fourth. A small plane carrying six people falls out of the sky, and into the Gulf of Mexico."
+  },
+  {
+   "id": "b02",
+   "scene": "aircraft",
+   "start": 7.704,
+   "end": 16.116,
+   "text": "The aircraft: a single-engine Cessna two-ten. On board, a family from Florida, heading home after a fishing trip in Louisiana."
+  },
+  {
+   "id": "b03",
+   "scene": "route",
+   "start": 16.396,
+   "end": 21.056,
+   "text": "It took off from New Orleans Lakefront Airport, bound for Fort Myers, Florida."
+  },
+  {
+   "id": "b04",
+   "scene": "zoom",
+   "start": 21.336,
+   "end": 25.756,
+   "text": "But over the Mississippi Sound, near Horn Island, something went terribly wrong."
+  },
+  {
+   "id": "b05",
+   "scene": "descent",
+   "start": 26.036,
+   "end": 33.724,
+   "text": "According to the F.A.A., the plane was descending at about ten thousand feet per minute. Far faster than any normal descent."
+  },
+  {
+   "id": "b06",
+   "scene": "radar",
+   "start": 34.004,
+   "end": 40.333,
+   "text": "Around three forty-five P.M., controllers in Mobile alerted the Coast Guard. Contact was lost."
+  },
+  {
+   "id": "b07",
+   "scene": "debris",
+   "start": 40.613,
+   "end": 46.122,
+   "text": "Rescuers found three life jackets, a life raft, and the plane's cabin, floating on the water."
+  },
+  {
+   "id": "b08",
+   "scene": "divers",
+   "start": 46.402,
+   "end": 52.373,
+   "text": "About four hours later, state divers found all six inside the fuselage. Among them, children."
+  },
+  {
+   "id": "b09",
+   "scene": "clipping",
+   "start": 52.653,
+   "end": 59.302,
+   "text": "The Coast Guard called it a heartbreaking outcome. The N.T.S.B. is now leading the investigation."
+  },
+  {
+   "id": "b10",
+   "scene": "end",
+   "start": 59.582,
+   "end": 64.112,
+   "text": "The question investigators must answer: what made this plane fall so fast?"
+  }
+ ]
+}
