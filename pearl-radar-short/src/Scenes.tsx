@@ -198,15 +198,28 @@ const Glow: React.FC<{ o?: number }> = ({ o = 0.1 }) => {
   return <AbsoluteFill style={{ background: `rgba(80,255,120,${o * (0.6 + 0.4 * hash01(f, 4))})`, mixBlendMode: 'screen' }} />;
 };
 
+/** The hook as a headline, fully visible on frame 0 (matches the YouTube title). */
+const HookTitle: React.FC<{ out: number }> = ({ out }) => {
+  const f = useCurrentFrame();
+  if (f >= out) return null;
+  const o = 1 - lin(f, out - 8, out);
+  return (
+    <div style={{ position: 'absolute', left: 50, right: 50, top: 170, opacity: o, textAlign: 'center' }}>
+      <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 92, lineHeight: 1.02, color: '#fff', textShadow: '0 6px 0 #000, 0 10px 30px rgba(0,0,0,0.9)', letterSpacing: 1 }}>PEARL HARBOR WAS ON RADAR</div>
+      <div style={{ display: 'inline-block', marginTop: 14, background: 'rgba(4,18,8,0.88)', border: '5px solid #7dff95', padding: '4px 26px', fontFamily: HEAD, fontWeight: 700, fontSize: 108, color: '#9dffb0', textShadow: '0 0 18px #3dff6a' }}>46 MINUTES EARLY</div>
+      <div style={{ marginTop: 16, fontFamily: TYPE, fontWeight: 700, fontSize: 32, letterSpacing: 4, color: C.gold, textShadow: '0 3px 10px #000' }}>OAHU · 7 DECEMBER 1941 · 7:02 AM</div>
+    </div>
+  );
+};
+
 // S01 hook: the operator, the warning on screen from frame 0.
 const S01: React.FC = () => (
   <AbsoluteFill style={{ background: '#000' }}>
     <Shot name="r01_hero" from={0} to={end(1)} fadeIn={0} />
     <Glow o={0.08} />
     <Dim />
-    <Slate at={-20} place="PEARL HARBOR" date="7 DECEMBER 1941 · 7:02 AM" />
-    <Verdict at={wf(1, '46')} out={wf(1, 'so')} text="46 MIN EARLY" color="#7dff95" y={1080} rot={-6} />
-    <Verdict at={wf(1, '2400')} text="2,400+ DEAD" y={1080} rot={-6} />
+    <HookTitle out={wf(1, 'so')} />
+    <Verdict at={wf(1, 'so')} text="2,400+ DEAD" y={1080} rot={-6} />
   </AbsoluteFill>
 );
 
