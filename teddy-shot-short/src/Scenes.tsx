@@ -170,7 +170,7 @@ const HookTitle: React.FC<{ out: number }> = ({ out }) => {
   if (f >= out) return null;
   const o = 1 - lin(f, out - 8, out);
   return (
-    <div style={{ position: 'absolute', left: 40, right: 40, top: 170, opacity: o, textAlign: 'center' }}>
+    <div style={{ position: 'absolute', left: 40, right: 40, top: 800, opacity: o, textAlign: 'center' }}>
       <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 84, lineHeight: 1.02, color: '#fff', textShadow: '0 6px 0 #000, 0 10px 30px rgba(0,0,0,0.9)', whiteSpace: 'nowrap' }}>TEDDY ROOSEVELT WAS SHOT</div>
       <div style={{ display: 'inline-block', marginTop: 14, background: 'rgba(60,8,8,0.88)', border: `5px solid ${C.redHi}`, padding: '4px 24px', fontFamily: HEAD, fontWeight: 700, fontSize: 80, color: '#fff', whiteSpace: 'nowrap' }}>THEN SPOKE FOR 50 MINUTES</div>
       <div style={{ marginTop: 16, fontFamily: TYPE, fontWeight: 700, fontSize: 32, letterSpacing: 4, color: C.gold, textShadow: '0 3px 10px #000' }}>MILWAUKEE · 14 OCTOBER 1912</div>
@@ -238,7 +238,7 @@ const S04: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: '#0b0805' }}>
       <Blur src="assets/archival/speech.jpg" />
-      <Print src="assets/archival/glasses.jpg" at={wf(4, 'steel') - 4} out={sp} y={560} w={900} h={460} rot={-2} label="HIS STEEL GLASSES CASE · BULLET HOLE" pos="50% 50%" />
+      <Print src="assets/archival/glasses.jpg" at={2} out={sp} y={560} w={900} h={460} rot={-2} label="HIS STEEL GLASSES CASE · BULLET HOLE" pos="50% 50%" />
       <Print src="assets/archival/speech.jpg" at={sp} y={440} w={640} h={760} rot={2} label="THE BULLET-PIERCED SPEECH" pos="50% 40%" />
       <Count at={wf(4, '50')} to={50} label="PAGES THICK" dur={20} />
     </AbsoluteFill>
