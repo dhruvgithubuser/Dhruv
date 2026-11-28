@@ -1,0 +1,846 @@
+{
+ "fps": 30,
+ "duration": 54.26,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're shot in the chest in 1912. You refuse the hospital and speak for 50 minutes. So why aren't you dead?",
+   "start": 0.35,
+   "end": 7.472,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.49
+    },
+    {
+     "w": "shot",
+     "start": 0.49,
+     "end": 0.71
+    },
+    {
+     "w": "in",
+     "start": 0.71,
+     "end": 0.97
+    },
+    {
+     "w": "the",
+     "start": 0.97,
+     "end": 1.07
+    },
+    {
+     "w": "chest",
+     "start": 1.07,
+     "end": 1.41
+    },
+    {
+     "w": "in",
+     "start": 1.41,
+     "end": 1.69
+    },
+    {
+     "w": "1912.",
+     "start": 1.69,
+     "end": 2.53
+    },
+    {
+     "w": "You",
+     "start": 3.29,
+     "end": 3.31
+    },
+    {
+     "w": "refuse",
+     "start": 3.31,
+     "end": 3.53
+    },
+    {
+     "w": "the",
+     "start": 3.53,
+     "end": 3.89
+    },
+    {
+     "w": "hospital",
+     "start": 3.89,
+     "end": 4.31
+    },
+    {
+     "w": "and",
+     "start": 4.31,
+     "end": 4.59
+    },
+    {
+     "w": "speak",
+     "start": 4.59,
+     "end": 4.83
+    },
+    {
+     "w": "for",
+     "start": 4.83,
+     "end": 5.11
+    },
+    {
+     "w": "50",
+     "start": 5.11,
+     "end": 5.37
+    },
+    {
+     "w": "minutes.",
+     "start": 5.37,
+     "end": 5.73
+    },
+    {
+     "w": "So",
+     "start": 6.13,
+     "end": 6.37
+    },
+    {
+     "w": "why",
+     "start": 6.37,
+     "end": 6.65
+    },
+    {
+     "w": "aren't",
+     "start": 6.65,
+     "end": 6.93
+    },
+    {
+     "w": "you",
+     "start": 6.93,
+     "end": 7.01
+    },
+    {
+     "w": "dead?",
+     "start": 7.01,
+     "end": 7.25
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "October 14, 1912. Milwaukee. Former President Teddy Roosevelt is campaigning for the White House.",
+   "start": 7.832,
+   "end": 15.171,
+   "words": [
+    {
+     "w": "October",
+     "start": 7.732,
+     "end": 8.112
+    },
+    {
+     "w": "14,",
+     "start": 8.112,
+     "end": 8.612
+    },
+    {
+     "w": "1912.",
+     "start": 8.952,
+     "end": 9.732
+    },
+    {
+     "w": "Milwaukee.",
+     "start": 10.492,
+     "end": 10.672
+    },
+    {
+     "w": "Former",
+     "start": 11.392,
+     "end": 11.652
+    },
+    {
+     "w": "President",
+     "start": 11.652,
+     "end": 12.132
+    },
+    {
+     "w": "Teddy",
+     "start": 12.132,
+     "end": 12.432
+    },
+    {
+     "w": "Roosevelt",
+     "start": 12.432,
+     "end": 12.832
+    },
+    {
+     "w": "is",
+     "start": 12.832,
+     "end": 13.352
+    },
+    {
+     "w": "campaigning",
+     "start": 13.352,
+     "end": 13.692
+    },
+    {
+     "w": "for",
+     "start": 13.692,
+     "end": 14.252
+    },
+    {
+     "w": "the",
+     "start": 14.252,
+     "end": 14.332
+    },
+    {
+     "w": "White",
+     "start": 14.332,
+     "end": 14.472
+    },
+    {
+     "w": "House.",
+     "start": 14.472,
+     "end": 14.892
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Outside his hotel, a man named John Schrank fires one shot into his chest.",
+   "start": 15.411,
+   "end": 20.151,
+   "words": [
+    {
+     "w": "Outside",
+     "start": 15.311,
+     "end": 15.631
+    },
+    {
+     "w": "his",
+     "start": 15.631,
+     "end": 15.911
+    },
+    {
+     "w": "hotel,",
+     "start": 15.911,
+     "end": 16.371
+    },
+    {
+     "w": "a",
+     "start": 16.831,
+     "end": 16.911
+    },
+    {
+     "w": "man",
+     "start": 16.911,
+     "end": 17.131
+    },
+    {
+     "w": "named",
+     "start": 17.131,
+     "end": 17.391
+    },
+    {
+     "w": "John",
+     "start": 17.391,
+     "end": 17.711
+    },
+    {
+     "w": "Schrank",
+     "start": 17.711,
+     "end": 18.111
+    },
+    {
+     "w": "fires",
+     "start": 18.111,
+     "end": 18.591
+    },
+    {
+     "w": "one",
+     "start": 18.591,
+     "end": 18.831
+    },
+    {
+     "w": "shot",
+     "start": 18.831,
+     "end": 19.111
+    },
+    {
+     "w": "into",
+     "start": 19.111,
+     "end": 19.351
+    },
+    {
+     "w": "his",
+     "start": 19.351,
+     "end": 19.551
+    },
+    {
+     "w": "chest.",
+     "start": 19.551,
+     "end": 19.851
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "But the bullet first tears through a steel glasses case, and his speech, folded in half. 50 pages thick.",
+   "start": 20.471,
+   "end": 26.946,
+   "words": [
+    {
+     "w": "But",
+     "start": 20.371,
+     "end": 20.551
+    },
+    {
+     "w": "the",
+     "start": 20.551,
+     "end": 20.631
+    },
+    {
+     "w": "bullet",
+     "start": 20.631,
+     "end": 20.851
+    },
+    {
+     "w": "first",
+     "start": 20.851,
+     "end": 21.111
+    },
+    {
+     "w": "tears",
+     "start": 21.111,
+     "end": 21.491
+    },
+    {
+     "w": "through",
+     "start": 21.491,
+     "end": 21.791
+    },
+    {
+     "w": "a",
+     "start": 21.791,
+     "end": 21.911
+    },
+    {
+     "w": "steel",
+     "start": 21.911,
+     "end": 22.111
+    },
+    {
+     "w": "glasses",
+     "start": 22.111,
+     "end": 22.491
+    },
+    {
+     "w": "case,",
+     "start": 22.491,
+     "end": 22.971
+    },
+    {
+     "w": "and",
+     "start": 23.471,
+     "end": 23.511
+    },
+    {
+     "w": "his",
+     "start": 23.511,
+     "end": 23.631
+    },
+    {
+     "w": "speech,",
+     "start": 23.631,
+     "end": 23.971
+    },
+    {
+     "w": "folded",
+     "start": 23.971,
+     "end": 24.391
+    },
+    {
+     "w": "in",
+     "start": 24.391,
+     "end": 24.711
+    },
+    {
+     "w": "half.",
+     "start": 24.711,
+     "end": 24.971
+    },
+    {
+     "w": "50",
+     "start": 25.631,
+     "end": 25.811
+    },
+    {
+     "w": "pages",
+     "start": 25.811,
+     "end": 26.191
+    },
+    {
+     "w": "thick.",
+     "start": 26.191,
+     "end": 26.711
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "He coughs into his hand. No blood. So the lung is fine.",
+   "start": 27.226,
+   "end": 30.5,
+   "words": [
+    {
+     "w": "He",
+     "start": 27.126,
+     "end": 27.286
+    },
+    {
+     "w": "coughs",
+     "start": 27.286,
+     "end": 27.606
+    },
+    {
+     "w": "into",
+     "start": 27.606,
+     "end": 27.706
+    },
+    {
+     "w": "his",
+     "start": 27.706,
+     "end": 27.886
+    },
+    {
+     "w": "hand.",
+     "start": 27.886,
+     "end": 28.166
+    },
+    {
+     "w": "No",
+     "start": 28.526,
+     "end": 28.626
+    },
+    {
+     "w": "blood.",
+     "start": 28.626,
+     "end": 28.986
+    },
+    {
+     "w": "So",
+     "start": 29.306,
+     "end": 29.386
+    },
+    {
+     "w": "the",
+     "start": 29.386,
+     "end": 29.506
+    },
+    {
+     "w": "lung",
+     "start": 29.506,
+     "end": 29.686
+    },
+    {
+     "w": "is",
+     "start": 29.686,
+     "end": 29.946
+    },
+    {
+     "w": "fine.",
+     "start": 29.946,
+     "end": 30.226
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "He walks on stage. \"I don't know whether you fully understand that I have just been shot. But it takes more than that to kill a Bull Moose.\"",
+   "start": 30.74,
+   "end": 38.264,
+   "words": [
+    {
+     "w": "He",
+     "start": 30.64,
+     "end": 30.8
+    },
+    {
+     "w": "walks",
+     "start": 30.8,
+     "end": 30.98
+    },
+    {
+     "w": "on",
+     "start": 30.98,
+     "end": 31.24
+    },
+    {
+     "w": "stage.",
+     "start": 31.24,
+     "end": 31.6
+    },
+    {
+     "w": "\"I",
+     "start": 32.34,
+     "end": 32.38
+    },
+    {
+     "w": "don't",
+     "start": 32.38,
+     "end": 32.52
+    },
+    {
+     "w": "know",
+     "start": 32.52,
+     "end": 32.66
+    },
+    {
+     "w": "whether",
+     "start": 32.66,
+     "end": 32.84
+    },
+    {
+     "w": "you",
+     "start": 32.84,
+     "end": 33.02
+    },
+    {
+     "w": "fully",
+     "start": 33.02,
+     "end": 33.22
+    },
+    {
+     "w": "understand",
+     "start": 33.22,
+     "end": 33.74
+    },
+    {
+     "w": "that",
+     "start": 33.74,
+     "end": 34.2
+    },
+    {
+     "w": "I",
+     "start": 34.2,
+     "end": 34.34
+    },
+    {
+     "w": "have",
+     "start": 34.34,
+     "end": 34.44
+    },
+    {
+     "w": "just",
+     "start": 34.44,
+     "end": 34.62
+    },
+    {
+     "w": "been",
+     "start": 34.62,
+     "end": 34.84
+    },
+    {
+     "w": "shot.",
+     "start": 34.84,
+     "end": 35.08
+    },
+    {
+     "w": "But",
+     "start": 35.64,
+     "end": 35.86
+    },
+    {
+     "w": "it",
+     "start": 35.86,
+     "end": 35.94
+    },
+    {
+     "w": "takes",
+     "start": 35.94,
+     "end": 36.12
+    },
+    {
+     "w": "more",
+     "start": 36.12,
+     "end": 36.4
+    },
+    {
+     "w": "than",
+     "start": 36.4,
+     "end": 36.62
+    },
+    {
+     "w": "that",
+     "start": 36.62,
+     "end": 36.82
+    },
+    {
+     "w": "to",
+     "start": 36.82,
+     "end": 36.94
+    },
+    {
+     "w": "kill",
+     "start": 36.94,
+     "end": 37.16
+    },
+    {
+     "w": "a",
+     "start": 37.16,
+     "end": 37.36
+    },
+    {
+     "w": "Bull",
+     "start": 37.36,
+     "end": 37.58
+    },
+    {
+     "w": "Moose.\"",
+     "start": 37.58,
+     "end": 38.12
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "He speaks for 50 minutes, blood seeping into his shirt. Then he goes to the hospital.",
+   "start": 38.544,
+   "end": 43.6,
+   "words": [
+    {
+     "w": "He",
+     "start": 38.444,
+     "end": 38.604
+    },
+    {
+     "w": "speaks",
+     "start": 38.604,
+     "end": 38.844
+    },
+    {
+     "w": "for",
+     "start": 38.844,
+     "end": 39.104
+    },
+    {
+     "w": "50",
+     "start": 39.104,
+     "end": 39.384
+    },
+    {
+     "w": "minutes,",
+     "start": 39.384,
+     "end": 39.704
+    },
+    {
+     "w": "blood",
+     "start": 40.004,
+     "end": 40.264
+    },
+    {
+     "w": "seeping",
+     "start": 40.264,
+     "end": 40.764
+    },
+    {
+     "w": "into",
+     "start": 40.764,
+     "end": 41.004
+    },
+    {
+     "w": "his",
+     "start": 41.004,
+     "end": 41.164
+    },
+    {
+     "w": "shirt.",
+     "start": 41.164,
+     "end": 41.424
+    },
+    {
+     "w": "Then",
+     "start": 42.144,
+     "end": 42.204
+    },
+    {
+     "w": "he",
+     "start": 42.204,
+     "end": 42.364
+    },
+    {
+     "w": "goes",
+     "start": 42.364,
+     "end": 42.544
+    },
+    {
+     "w": "to",
+     "start": 42.544,
+     "end": 42.824
+    },
+    {
+     "w": "the",
+     "start": 42.824,
+     "end": 42.904
+    },
+    {
+     "w": "hospital.",
+     "start": 42.904,
+     "end": 43.204
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "An X-ray finds it lodged in his chest muscle. Doctors leave it there. He carried it for the rest of his life. Would you have walked on stage? Tell me below.",
+   "start": 43.88,
+   "end": 53.1,
+   "words": [
+    {
+     "w": "An",
+     "start": 43.78,
+     "end": 43.98
+    },
+    {
+     "w": "X-ray",
+     "start": 43.98,
+     "end": 44.44
+    },
+    {
+     "w": "finds",
+     "start": 44.44,
+     "end": 44.84
+    },
+    {
+     "w": "it",
+     "start": 44.84,
+     "end": 44.98
+    },
+    {
+     "w": "lodged",
+     "start": 44.98,
+     "end": 45.26
+    },
+    {
+     "w": "in",
+     "start": 45.26,
+     "end": 45.62
+    },
+    {
+     "w": "his",
+     "start": 45.62,
+     "end": 45.72
+    },
+    {
+     "w": "chest",
+     "start": 45.72,
+     "end": 46.0
+    },
+    {
+     "w": "muscle.",
+     "start": 46.0,
+     "end": 46.46
+    },
+    {
+     "w": "Doctors",
+     "start": 47.18,
+     "end": 47.24
+    },
+    {
+     "w": "leave",
+     "start": 47.24,
+     "end": 47.62
+    },
+    {
+     "w": "it",
+     "start": 47.62,
+     "end": 47.78
+    },
+    {
+     "w": "there.",
+     "start": 47.78,
+     "end": 48.02
+    },
+    {
+     "w": "He",
+     "start": 48.42,
+     "end": 48.46
+    },
+    {
+     "w": "carried",
+     "start": 48.46,
+     "end": 48.74
+    },
+    {
+     "w": "it",
+     "start": 48.74,
+     "end": 48.96
+    },
+    {
+     "w": "for",
+     "start": 48.96,
+     "end": 49.12
+    },
+    {
+     "w": "the",
+     "start": 49.12,
+     "end": 49.22
+    },
+    {
+     "w": "rest",
+     "start": 49.22,
+     "end": 49.38
+    },
+    {
+     "w": "of",
+     "start": 49.38,
+     "end": 49.58
+    },
+    {
+     "w": "his",
+     "start": 49.58,
+     "end": 49.66
+    },
+    {
+     "w": "life.",
+     "start": 49.66,
+     "end": 49.94
+    },
+    {
+     "w": "Would",
+     "start": 50.58,
+     "end": 50.62
+    },
+    {
+     "w": "you",
+     "start": 50.62,
+     "end": 50.74
+    },
+    {
+     "w": "have",
+     "start": 50.74,
+     "end": 50.88
+    },
+    {
+     "w": "walked",
+     "start": 50.88,
+     "end": 51.04
+    },
+    {
+     "w": "on",
+     "start": 51.04,
+     "end": 51.28
+    },
+    {
+     "w": "stage?",
+     "start": 51.28,
+     "end": 51.66
+    },
+    {
+     "w": "Tell",
+     "start": 52.3,
+     "end": 52.34
+    },
+    {
+     "w": "me",
+     "start": 52.34,
+     "end": 52.5
+    },
+    {
+     "w": "below.",
+     "start": 52.5,
+     "end": 52.76
+    }
+   ]
+  }
+ ]
+}
