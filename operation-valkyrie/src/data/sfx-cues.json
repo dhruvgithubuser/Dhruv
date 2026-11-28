@@ -1,0 +1,142 @@
+[
+ {
+  "file": "room.wav",
+  "at": 0.0,
+  "volume": 0.12
+ },
+ {
+  "file": "impact.wav",
+  "at": 0.15,
+  "volume": 0.45
+ },
+ {
+  "file": "paper.wav",
+  "at": 4.948,
+  "volume": 0.4
+ },
+ {
+  "file": "typewriter.wav",
+  "at": 5.048,
+  "volume": 0.25
+ },
+ {
+  "file": "paper.wav",
+  "at": 9.041,
+  "volume": 0.45
+ },
+ {
+  "file": "paper.wav",
+  "at": 10.271,
+  "volume": 0.4
+ },
+ {
+  "file": "impact.wav",
+  "at": 13.793,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 14.713,
+  "volume": 0.2
+ },
+ {
+  "file": "paper.wav",
+  "at": 16.953,
+  "volume": 0.35
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 17.73,
+  "volume": 0.25
+ },
+ {
+  "file": "clock.wav",
+  "at": 19.53,
+  "volume": 0.22
+ },
+ {
+  "file": "impact.wav",
+  "at": 19.93,
+  "volume": 0.2
+ },
+ {
+  "file": "boom.wav",
+  "at": 25.123,
+  "volume": 0.9
+ },
+ {
+  "file": "paper.wav",
+  "at": 27.133,
+  "volume": 0.4
+ },
+ {
+  "file": "paper.wav",
+  "at": 29.363,
+  "volume": 0.4
+ },
+ {
+  "file": "plane.wav",
+  "at": 35.147,
+  "volume": 0.3
+ },
+ {
+  "file": "paper.wav",
+  "at": 37.317,
+  "volume": 0.45
+ },
+ {
+  "file": "typewriter.wav",
+  "at": 38.32,
+  "volume": 0.25
+ },
+ {
+  "file": "impact.wav",
+  "at": 42.38,
+  "volume": 0.45
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 44.558,
+  "volume": 0.25
+ },
+ {
+  "file": "bell.wav",
+  "at": 49.809,
+  "volume": 0.4
+ },
+ {
+  "file": "typewriter.wav",
+  "at": 50.109,
+  "volume": 0.2
+ },
+ {
+  "file": "impact.wav",
+  "at": 52.009,
+  "volume": 0.55
+ },
+ {
+  "file": "impact.wav",
+  "at": 52.969,
+  "volume": 0.5
+ },
+ {
+  "file": "paper.wav",
+  "at": 54.178,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 56.898,
+  "volume": 0.4
+ },
+ {
+  "file": "paper.wav",
+  "at": 57.798,
+  "volume": 0.35
+ },
+ {
+  "file": "impact.wav",
+  "at": 68.4,
+  "volume": 0.55
+ }
+]

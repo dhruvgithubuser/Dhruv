@@ -1,0 +1,1152 @@
+{
+ "fps": 30,
+ "duration": 79.115,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You spotted Pearl Harbor on radar, 46 minutes early. You called it in. So why did over 2,400 Americans still die?",
+   "start": 0.35,
+   "end": 8.025,
+   "words": [
+    {
+     "w": "You",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "spotted",
+     "start": 0.43,
+     "end": 0.71
+    },
+    {
+     "w": "Pearl",
+     "start": 0.71,
+     "end": 1.07
+    },
+    {
+     "w": "Harbor",
+     "start": 1.07,
+     "end": 1.43
+    },
+    {
+     "w": "on",
+     "start": 1.43,
+     "end": 1.73
+    },
+    {
+     "w": "radar,",
+     "start": 1.73,
+     "end": 1.91
+    },
+    {
+     "w": "46",
+     "start": 1.91,
+     "end": 2.57
+    },
+    {
+     "w": "minutes",
+     "start": 2.57,
+     "end": 3.05
+    },
+    {
+     "w": "early.",
+     "start": 3.05,
+     "end": 3.35
+    },
+    {
+     "w": "You",
+     "start": 4.01,
+     "end": 4.03
+    },
+    {
+     "w": "called",
+     "start": 4.03,
+     "end": 4.23
+    },
+    {
+     "w": "it",
+     "start": 4.23,
+     "end": 4.43
+    },
+    {
+     "w": "in.",
+     "start": 4.43,
+     "end": 4.57
+    },
+    {
+     "w": "So",
+     "start": 5.15,
+     "end": 5.21
+    },
+    {
+     "w": "why",
+     "start": 5.21,
+     "end": 5.41
+    },
+    {
+     "w": "did",
+     "start": 5.41,
+     "end": 5.61
+    },
+    {
+     "w": "over",
+     "start": 5.61,
+     "end": 5.81
+    },
+    {
+     "w": "2,400",
+     "start": 5.81,
+     "end": 6.41
+    },
+    {
+     "w": "Americans",
+     "start": 6.41,
+     "end": 7.01
+    },
+    {
+     "w": "still",
+     "start": 7.01,
+     "end": 7.53
+    },
+    {
+     "w": "die?",
+     "start": 7.53,
+     "end": 7.81
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "December 7, 1941. Opana Point, on the northern tip of Oahu. Two privates, Joseph Lockard and George Elliott, are running a mobile radar.",
+   "start": 8.425,
+   "end": 17.941,
+   "words": [
+    {
+     "w": "December",
+     "start": 8.325,
+     "end": 8.645
+    },
+    {
+     "w": "7,",
+     "start": 8.645,
+     "end": 9.065
+    },
+    {
+     "w": "1941.",
+     "start": 9.325,
+     "end": 10.025
+    },
+    {
+     "w": "Opana",
+     "start": 10.025,
+     "end": 10.965
+    },
+    {
+     "w": "Point,",
+     "start": 10.965,
+     "end": 11.605
+    },
+    {
+     "w": "on",
+     "start": 11.605,
+     "end": 11.845
+    },
+    {
+     "w": "the",
+     "start": 11.845,
+     "end": 11.925
+    },
+    {
+     "w": "northern",
+     "start": 11.925,
+     "end": 12.125
+    },
+    {
+     "w": "tip",
+     "start": 12.125,
+     "end": 12.485
+    },
+    {
+     "w": "of",
+     "start": 12.485,
+     "end": 12.645
+    },
+    {
+     "w": "Oahu.",
+     "start": 12.645,
+     "end": 13.085
+    },
+    {
+     "w": "Two",
+     "start": 13.565,
+     "end": 13.705
+    },
+    {
+     "w": "privates,",
+     "start": 13.705,
+     "end": 14.305
+    },
+    {
+     "w": "Joseph",
+     "start": 14.305,
+     "end": 14.585
+    },
+    {
+     "w": "Lockard",
+     "start": 14.585,
+     "end": 15.225
+    },
+    {
+     "w": "and",
+     "start": 15.225,
+     "end": 15.345
+    },
+    {
+     "w": "George",
+     "start": 15.345,
+     "end": 15.525
+    },
+    {
+     "w": "Elliott,",
+     "start": 15.525,
+     "end": 15.945
+    },
+    {
+     "w": "are",
+     "start": 15.945,
+     "end": 16.445
+    },
+    {
+     "w": "running",
+     "start": 16.445,
+     "end": 16.685
+    },
+    {
+     "w": "a",
+     "start": 16.685,
+     "end": 16.905
+    },
+    {
+     "w": "mobile",
+     "start": 16.905,
+     "end": 17.145
+    },
+    {
+     "w": "radar.",
+     "start": 17.145,
+     "end": 17.545
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "It's only allowed to run four hours a day, and it's due to shut down at 7. But the truck taking them to breakfast is late. So they keep practicing.",
+   "start": 18.261,
+   "end": 26.577,
+   "words": [
+    {
+     "w": "It's",
+     "start": 18.161,
+     "end": 18.401
+    },
+    {
+     "w": "only",
+     "start": 18.401,
+     "end": 18.641
+    },
+    {
+     "w": "allowed",
+     "start": 18.641,
+     "end": 18.941
+    },
+    {
+     "w": "to",
+     "start": 18.941,
+     "end": 19.161
+    },
+    {
+     "w": "run",
+     "start": 19.161,
+     "end": 19.341
+    },
+    {
+     "w": "four",
+     "start": 19.341,
+     "end": 19.721
+    },
+    {
+     "w": "hours",
+     "start": 19.721,
+     "end": 20.141
+    },
+    {
+     "w": "a",
+     "start": 20.141,
+     "end": 20.321
+    },
+    {
+     "w": "day,",
+     "start": 20.321,
+     "end": 20.501
+    },
+    {
+     "w": "and",
+     "start": 20.501,
+     "end": 20.741
+    },
+    {
+     "w": "it's",
+     "start": 20.741,
+     "end": 20.901
+    },
+    {
+     "w": "due",
+     "start": 20.901,
+     "end": 21.041
+    },
+    {
+     "w": "to",
+     "start": 21.041,
+     "end": 21.141
+    },
+    {
+     "w": "shut",
+     "start": 21.141,
+     "end": 21.361
+    },
+    {
+     "w": "down",
+     "start": 21.361,
+     "end": 21.681
+    },
+    {
+     "w": "at",
+     "start": 21.681,
+     "end": 21.821
+    },
+    {
+     "w": "7.",
+     "start": 21.821,
+     "end": 22.601
+    },
+    {
+     "w": "But",
+     "start": 22.601,
+     "end": 22.861
+    },
+    {
+     "w": "the",
+     "start": 22.861,
+     "end": 22.961
+    },
+    {
+     "w": "truck",
+     "start": 22.961,
+     "end": 23.161
+    },
+    {
+     "w": "taking",
+     "start": 23.161,
+     "end": 23.561
+    },
+    {
+     "w": "them",
+     "start": 23.561,
+     "end": 23.761
+    },
+    {
+     "w": "to",
+     "start": 23.761,
+     "end": 23.921
+    },
+    {
+     "w": "breakfast",
+     "start": 23.921,
+     "end": 24.141
+    },
+    {
+     "w": "is",
+     "start": 24.141,
+     "end": 24.561
+    },
+    {
+     "w": "late.",
+     "start": 24.561,
+     "end": 24.801
+    },
+    {
+     "w": "So",
+     "start": 25.221,
+     "end": 25.441
+    },
+    {
+     "w": "they",
+     "start": 25.441,
+     "end": 25.561
+    },
+    {
+     "w": "keep",
+     "start": 25.561,
+     "end": 25.761
+    },
+    {
+     "w": "practicing.",
+     "start": 25.761,
+     "end": 26.181
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "At 7:02, a huge echo appears. Planes, 130 miles out, coming in from the north. More than they have ever seen.",
+   "start": 26.897,
+   "end": 34.633,
+   "words": [
+    {
+     "w": "At",
+     "start": 26.797,
+     "end": 26.997
+    },
+    {
+     "w": "7:02,",
+     "start": 26.997,
+     "end": 27.557
+    },
+    {
+     "w": "a",
+     "start": 27.677,
+     "end": 27.937
+    },
+    {
+     "w": "huge",
+     "start": 27.937,
+     "end": 28.177
+    },
+    {
+     "w": "echo",
+     "start": 28.177,
+     "end": 28.497
+    },
+    {
+     "w": "appears.",
+     "start": 28.497,
+     "end": 28.997
+    },
+    {
+     "w": "Planes,",
+     "start": 29.657,
+     "end": 29.997
+    },
+    {
+     "w": "130",
+     "start": 29.997,
+     "end": 30.797
+    },
+    {
+     "w": "miles",
+     "start": 30.797,
+     "end": 31.457
+    },
+    {
+     "w": "out,",
+     "start": 31.457,
+     "end": 31.797
+    },
+    {
+     "w": "coming",
+     "start": 31.797,
+     "end": 32.097
+    },
+    {
+     "w": "in",
+     "start": 32.097,
+     "end": 32.277
+    },
+    {
+     "w": "from",
+     "start": 32.277,
+     "end": 32.437
+    },
+    {
+     "w": "the",
+     "start": 32.437,
+     "end": 32.577
+    },
+    {
+     "w": "north.",
+     "start": 32.577,
+     "end": 32.837
+    },
+    {
+     "w": "More",
+     "start": 32.837,
+     "end": 33.477
+    },
+    {
+     "w": "than",
+     "start": 33.477,
+     "end": 33.657
+    },
+    {
+     "w": "they",
+     "start": 33.657,
+     "end": 33.777
+    },
+    {
+     "w": "have",
+     "start": 33.777,
+     "end": 33.877
+    },
+    {
+     "w": "ever",
+     "start": 33.877,
+     "end": 34.097
+    },
+    {
+     "w": "seen.",
+     "start": 34.097,
+     "end": 34.377
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Lockard phones the information center at Fort Shafter. The officer on duty is Lieutenant Kermit Tyler. He arrived a week ago, with almost no training.",
+   "start": 34.993,
+   "end": 43.879,
+   "words": [
+    {
+     "w": "Lockard",
+     "start": 34.893,
+     "end": 35.333
+    },
+    {
+     "w": "phones",
+     "start": 35.333,
+     "end": 35.533
+    },
+    {
+     "w": "the",
+     "start": 35.533,
+     "end": 35.973
+    },
+    {
+     "w": "information",
+     "start": 35.973,
+     "end": 36.093
+    },
+    {
+     "w": "center",
+     "start": 36.093,
+     "end": 36.853
+    },
+    {
+     "w": "at",
+     "start": 36.853,
+     "end": 37.073
+    },
+    {
+     "w": "Fort",
+     "start": 37.073,
+     "end": 37.293
+    },
+    {
+     "w": "Shafter.",
+     "start": 37.293,
+     "end": 37.733
+    },
+    {
+     "w": "The",
+     "start": 38.393,
+     "end": 38.453
+    },
+    {
+     "w": "officer",
+     "start": 38.453,
+     "end": 38.793
+    },
+    {
+     "w": "on",
+     "start": 38.793,
+     "end": 39.093
+    },
+    {
+     "w": "duty",
+     "start": 39.093,
+     "end": 39.353
+    },
+    {
+     "w": "is",
+     "start": 39.353,
+     "end": 39.753
+    },
+    {
+     "w": "Lieutenant",
+     "start": 39.753,
+     "end": 39.953
+    },
+    {
+     "w": "Kermit",
+     "start": 39.953,
+     "end": 40.493
+    },
+    {
+     "w": "Tyler.",
+     "start": 40.493,
+     "end": 40.673
+    },
+    {
+     "w": "He",
+     "start": 41.473,
+     "end": 41.493
+    },
+    {
+     "w": "arrived",
+     "start": 41.493,
+     "end": 41.733
+    },
+    {
+     "w": "a",
+     "start": 41.733,
+     "end": 41.973
+    },
+    {
+     "w": "week",
+     "start": 41.973,
+     "end": 42.113
+    },
+    {
+     "w": "ago,",
+     "start": 42.113,
+     "end": 42.433
+    },
+    {
+     "w": "with",
+     "start": 42.433,
+     "end": 42.713
+    },
+    {
+     "w": "almost",
+     "start": 42.713,
+     "end": 42.853
+    },
+    {
+     "w": "no",
+     "start": 42.853,
+     "end": 43.233
+    },
+    {
+     "w": "training.",
+     "start": 43.233,
+     "end": 43.613
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Tyler knows six B-17 bombers are flying in from the mainland that morning. So he tells them not to worry.",
+   "start": 44.199,
+   "end": 50.996,
+   "words": [
+    {
+     "w": "Tyler",
+     "start": 44.099,
+     "end": 44.439
+    },
+    {
+     "w": "knows",
+     "start": 44.439,
+     "end": 44.719
+    },
+    {
+     "w": "six",
+     "start": 44.719,
+     "end": 45.199
+    },
+    {
+     "w": "B-17",
+     "start": 45.199,
+     "end": 45.979
+    },
+    {
+     "w": "bombers",
+     "start": 45.979,
+     "end": 46.379
+    },
+    {
+     "w": "are",
+     "start": 46.379,
+     "end": 46.819
+    },
+    {
+     "w": "flying",
+     "start": 46.819,
+     "end": 47.159
+    },
+    {
+     "w": "in",
+     "start": 47.159,
+     "end": 47.519
+    },
+    {
+     "w": "from",
+     "start": 47.519,
+     "end": 47.719
+    },
+    {
+     "w": "the",
+     "start": 47.719,
+     "end": 47.839
+    },
+    {
+     "w": "mainland",
+     "start": 47.839,
+     "end": 48.099
+    },
+    {
+     "w": "that",
+     "start": 48.099,
+     "end": 48.419
+    },
+    {
+     "w": "morning.",
+     "start": 48.419,
+     "end": 48.779
+    },
+    {
+     "w": "So",
+     "start": 49.199,
+     "end": 49.479
+    },
+    {
+     "w": "he",
+     "start": 49.479,
+     "end": 49.559
+    },
+    {
+     "w": "tells",
+     "start": 49.559,
+     "end": 49.839
+    },
+    {
+     "w": "them",
+     "start": 49.839,
+     "end": 50.079
+    },
+    {
+     "w": "not",
+     "start": 50.079,
+     "end": 50.339
+    },
+    {
+     "w": "to",
+     "start": 50.339,
+     "end": 50.519
+    },
+    {
+     "w": "worry.",
+     "start": 50.519,
+     "end": 50.819
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Lockard and Elliott keep tracking it anyway. Closer. And closer. At 7:40, they lose contact.",
+   "start": 51.396,
+   "end": 57.428,
+   "words": [
+    {
+     "w": "Lockard",
+     "start": 51.396,
+     "end": 51.756
+    },
+    {
+     "w": "and",
+     "start": 51.756,
+     "end": 51.856
+    },
+    {
+     "w": "Elliott",
+     "start": 51.856,
+     "end": 52.076
+    },
+    {
+     "w": "keep",
+     "start": 52.076,
+     "end": 52.436
+    },
+    {
+     "w": "tracking",
+     "start": 52.436,
+     "end": 52.776
+    },
+    {
+     "w": "it",
+     "start": 52.776,
+     "end": 53.036
+    },
+    {
+     "w": "anyway.",
+     "start": 53.036,
+     "end": 53.196
+    },
+    {
+     "w": "Closer.",
+     "start": 53.836,
+     "end": 54.076
+    },
+    {
+     "w": "And",
+     "start": 54.076,
+     "end": 54.596
+    },
+    {
+     "w": "closer.",
+     "start": 54.596,
+     "end": 54.816
+    },
+    {
+     "w": "At",
+     "start": 55.436,
+     "end": 55.476
+    },
+    {
+     "w": "7:40,",
+     "start": 55.476,
+     "end": 56.136
+    },
+    {
+     "w": "they",
+     "start": 56.136,
+     "end": 56.376
+    },
+    {
+     "w": "lose",
+     "start": 56.376,
+     "end": 56.536
+    },
+    {
+     "w": "contact.",
+     "start": 56.536,
+     "end": 56.916
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Eight minutes later, the first Japanese planes strike Oahu. By the end of the morning, over 2,400 Americans are dead.",
+   "start": 57.748,
+   "end": 65.004,
+   "words": [
+    {
+     "w": "Eight",
+     "start": 57.648,
+     "end": 57.888
+    },
+    {
+     "w": "minutes",
+     "start": 57.888,
+     "end": 58.108
+    },
+    {
+     "w": "later,",
+     "start": 58.108,
+     "end": 58.508
+    },
+    {
+     "w": "the",
+     "start": 58.828,
+     "end": 58.868
+    },
+    {
+     "w": "first",
+     "start": 58.868,
+     "end": 59.108
+    },
+    {
+     "w": "Japanese",
+     "start": 59.108,
+     "end": 59.608
+    },
+    {
+     "w": "planes",
+     "start": 59.608,
+     "end": 60.008
+    },
+    {
+     "w": "strike",
+     "start": 60.008,
+     "end": 60.428
+    },
+    {
+     "w": "Oahu.",
+     "start": 60.428,
+     "end": 60.968
+    },
+    {
+     "w": "By",
+     "start": 61.648,
+     "end": 61.688
+    },
+    {
+     "w": "the",
+     "start": 61.688,
+     "end": 61.808
+    },
+    {
+     "w": "end",
+     "start": 61.808,
+     "end": 61.988
+    },
+    {
+     "w": "of",
+     "start": 61.988,
+     "end": 62.068
+    },
+    {
+     "w": "the",
+     "start": 62.068,
+     "end": 62.148
+    },
+    {
+     "w": "morning,",
+     "start": 62.148,
+     "end": 62.448
+    },
+    {
+     "w": "over",
+     "start": 62.748,
+     "end": 62.868
+    },
+    {
+     "w": "2,400",
+     "start": 62.868,
+     "end": 63.488
+    },
+    {
+     "w": "Americans",
+     "start": 63.488,
+     "end": 64.108
+    },
+    {
+     "w": "are",
+     "start": 64.108,
+     "end": 64.508
+    },
+    {
+     "w": "dead.",
+     "start": 64.508,
+     "end": 64.748
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Tyler was later cleared. Investigators found he'd been left with no training, no supervision, and no staff.",
+   "start": 65.364,
+   "end": 71.91,
+   "words": [
+    {
+     "w": "Tyler",
+     "start": 65.264,
+     "end": 65.544
+    },
+    {
+     "w": "was",
+     "start": 65.544,
+     "end": 65.904
+    },
+    {
+     "w": "later",
+     "start": 65.904,
+     "end": 66.104
+    },
+    {
+     "w": "cleared.",
+     "start": 66.104,
+     "end": 66.564
+    },
+    {
+     "w": "Investigators",
+     "start": 67.544,
+     "end": 67.544
+    },
+    {
+     "w": "found",
+     "start": 67.544,
+     "end": 68.164
+    },
+    {
+     "w": "he'd",
+     "start": 68.164,
+     "end": 68.524
+    },
+    {
+     "w": "been",
+     "start": 68.524,
+     "end": 68.624
+    },
+    {
+     "w": "left",
+     "start": 68.624,
+     "end": 68.824
+    },
+    {
+     "w": "with",
+     "start": 68.824,
+     "end": 69.084
+    },
+    {
+     "w": "no",
+     "start": 69.084,
+     "end": 69.284
+    },
+    {
+     "w": "training,",
+     "start": 69.284,
+     "end": 69.664
+    },
+    {
+     "w": "no",
+     "start": 70.144,
+     "end": 70.284
+    },
+    {
+     "w": "supervision,",
+     "start": 70.284,
+     "end": 70.684
+    },
+    {
+     "w": "and",
+     "start": 71.064,
+     "end": 71.104
+    },
+    {
+     "w": "no",
+     "start": 71.104,
+     "end": 71.304
+    },
+    {
+     "w": "staff.",
+     "start": 71.304,
+     "end": 71.664
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "The warning came in time. The system wasn't built to hear it. Would you have sounded the alarm? Tell me below.",
+   "start": 72.23,
+   "end": 77.955,
+   "words": [
+    {
+     "w": "The",
+     "start": 72.13,
+     "end": 72.29
+    },
+    {
+     "w": "warning",
+     "start": 72.29,
+     "end": 72.53
+    },
+    {
+     "w": "came",
+     "start": 72.53,
+     "end": 72.89
+    },
+    {
+     "w": "in",
+     "start": 72.89,
+     "end": 73.03
+    },
+    {
+     "w": "time.",
+     "start": 73.03,
+     "end": 73.31
+    },
+    {
+     "w": "The",
+     "start": 73.71,
+     "end": 73.73
+    },
+    {
+     "w": "system",
+     "start": 73.73,
+     "end": 74.01
+    },
+    {
+     "w": "wasn't",
+     "start": 74.01,
+     "end": 74.43
+    },
+    {
+     "w": "built",
+     "start": 74.43,
+     "end": 74.59
+    },
+    {
+     "w": "to",
+     "start": 74.59,
+     "end": 74.79
+    },
+    {
+     "w": "hear",
+     "start": 74.79,
+     "end": 74.99
+    },
+    {
+     "w": "it.",
+     "start": 74.99,
+     "end": 75.19
+    },
+    {
+     "w": "Would",
+     "start": 75.63,
+     "end": 75.65
+    },
+    {
+     "w": "you",
+     "start": 75.65,
+     "end": 75.77
+    },
+    {
+     "w": "have",
+     "start": 75.77,
+     "end": 75.89
+    },
+    {
+     "w": "sounded",
+     "start": 75.89,
+     "end": 76.17
+    },
+    {
+     "w": "the",
+     "start": 76.17,
+     "end": 76.41
+    },
+    {
+     "w": "alarm?",
+     "start": 76.41,
+     "end": 76.75
+    },
+    {
+     "w": "Tell",
+     "start": 77.15,
+     "end": 77.19
+    },
+    {
+     "w": "me",
+     "start": 77.19,
+     "end": 77.35
+    },
+    {
+     "w": "below.",
+     "start": 77.35,
+     "end": 77.61
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1097 @@
+{
+ "fps": 30,
+ "duration": 73.017,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're a 25-year-old reporter in 1899. Now you're an escaped prisoner, worth 25 pounds, dead or alive. Where do you hide?",
+   "start": 0.35,
+   "end": 9.179,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.47
+    },
+    {
+     "w": "a",
+     "start": 0.47,
+     "end": 0.51
+    },
+    {
+     "w": "25-year-old",
+     "start": 0.51,
+     "end": 1.63
+    },
+    {
+     "w": "reporter",
+     "start": 1.63,
+     "end": 2.03
+    },
+    {
+     "w": "in",
+     "start": 2.03,
+     "end": 2.29
+    },
+    {
+     "w": "1899.",
+     "start": 2.29,
+     "end": 2.85
+    },
+    {
+     "w": "Now",
+     "start": 3.89,
+     "end": 3.97
+    },
+    {
+     "w": "you're",
+     "start": 3.97,
+     "end": 4.23
+    },
+    {
+     "w": "an",
+     "start": 4.23,
+     "end": 4.31
+    },
+    {
+     "w": "escaped",
+     "start": 4.31,
+     "end": 4.61
+    },
+    {
+     "w": "prisoner,",
+     "start": 4.61,
+     "end": 5.13
+    },
+    {
+     "w": "worth",
+     "start": 5.47,
+     "end": 5.53
+    },
+    {
+     "w": "25",
+     "start": 5.53,
+     "end": 5.87
+    },
+    {
+     "w": "pounds,",
+     "start": 5.87,
+     "end": 6.57
+    },
+    {
+     "w": "dead",
+     "start": 6.83,
+     "end": 6.97
+    },
+    {
+     "w": "or",
+     "start": 6.97,
+     "end": 7.33
+    },
+    {
+     "w": "alive.",
+     "start": 7.33,
+     "end": 7.61
+    },
+    {
+     "w": "Where",
+     "start": 8.39,
+     "end": 8.43
+    },
+    {
+     "w": "do",
+     "start": 8.43,
+     "end": 8.53
+    },
+    {
+     "w": "you",
+     "start": 8.53,
+     "end": 8.63
+    },
+    {
+     "w": "hide?",
+     "start": 8.63,
+     "end": 8.91
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "November 15, 1899. South Africa. Winston Churchill is a war correspondent for the Morning Post, riding an armoured train near Chieveley.",
+   "start": 9.579,
+   "end": 19.001,
+   "words": [
+    {
+     "w": "November",
+     "start": 9.479,
+     "end": 9.859
+    },
+    {
+     "w": "15,",
+     "start": 9.859,
+     "end": 10.739
+    },
+    {
+     "w": "1899.",
+     "start": 10.739,
+     "end": 11.239
+    },
+    {
+     "w": "South",
+     "start": 12.379,
+     "end": 12.379
+    },
+    {
+     "w": "Africa.",
+     "start": 12.379,
+     "end": 12.859
+    },
+    {
+     "w": "Winston",
+     "start": 13.599,
+     "end": 13.639
+    },
+    {
+     "w": "Churchill",
+     "start": 13.639,
+     "end": 14.119
+    },
+    {
+     "w": "is",
+     "start": 14.119,
+     "end": 14.519
+    },
+    {
+     "w": "a",
+     "start": 14.519,
+     "end": 14.619
+    },
+    {
+     "w": "war",
+     "start": 14.619,
+     "end": 14.859
+    },
+    {
+     "w": "correspondent",
+     "start": 14.859,
+     "end": 15.359
+    },
+    {
+     "w": "for",
+     "start": 15.359,
+     "end": 15.819
+    },
+    {
+     "w": "the",
+     "start": 15.819,
+     "end": 15.899
+    },
+    {
+     "w": "Morning",
+     "start": 15.899,
+     "end": 16.119
+    },
+    {
+     "w": "Post,",
+     "start": 16.119,
+     "end": 16.459
+    },
+    {
+     "w": "riding",
+     "start": 16.859,
+     "end": 17.139
+    },
+    {
+     "w": "an",
+     "start": 17.139,
+     "end": 17.379
+    },
+    {
+     "w": "armoured",
+     "start": 17.379,
+     "end": 17.579
+    },
+    {
+     "w": "train",
+     "start": 17.579,
+     "end": 18.019
+    },
+    {
+     "w": "near",
+     "start": 18.019,
+     "end": 18.319
+    },
+    {
+     "w": "Chieveley.",
+     "start": 18.319,
+     "end": 19.001
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "Boer guns derail it. He helps clear the line, under fire. Then he's surrounded, and taken prisoner.",
+   "start": 19.321,
+   "end": 25.054,
+   "words": [
+    {
+     "w": "Boer",
+     "start": 19.221,
+     "end": 19.561
+    },
+    {
+     "w": "guns",
+     "start": 19.561,
+     "end": 19.841
+    },
+    {
+     "w": "derail",
+     "start": 19.841,
+     "end": 20.241
+    },
+    {
+     "w": "it.",
+     "start": 20.241,
+     "end": 20.621
+    },
+    {
+     "w": "He",
+     "start": 21.001,
+     "end": 21.061
+    },
+    {
+     "w": "helps",
+     "start": 21.061,
+     "end": 21.201
+    },
+    {
+     "w": "clear",
+     "start": 21.201,
+     "end": 21.501
+    },
+    {
+     "w": "the",
+     "start": 21.501,
+     "end": 21.681
+    },
+    {
+     "w": "line,",
+     "start": 21.681,
+     "end": 22.021
+    },
+    {
+     "w": "under",
+     "start": 22.021,
+     "end": 22.241
+    },
+    {
+     "w": "fire.",
+     "start": 22.241,
+     "end": 22.681
+    },
+    {
+     "w": "Then",
+     "start": 23.261,
+     "end": 23.301
+    },
+    {
+     "w": "he's",
+     "start": 23.301,
+     "end": 23.501
+    },
+    {
+     "w": "surrounded,",
+     "start": 23.501,
+     "end": 23.861
+    },
+    {
+     "w": "and",
+     "start": 23.861,
+     "end": 24.141
+    },
+    {
+     "w": "taken",
+     "start": 24.141,
+     "end": 24.401
+    },
+    {
+     "w": "prisoner.",
+     "start": 24.401,
+     "end": 24.641
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "They lock him in a school in Pretoria, turned into a prison for British officers.",
+   "start": 25.374,
+   "end": 29.911,
+   "words": [
+    {
+     "w": "They",
+     "start": 25.274,
+     "end": 25.454
+    },
+    {
+     "w": "lock",
+     "start": 25.454,
+     "end": 25.674
+    },
+    {
+     "w": "him",
+     "start": 25.674,
+     "end": 25.934
+    },
+    {
+     "w": "in",
+     "start": 25.934,
+     "end": 26.034
+    },
+    {
+     "w": "a",
+     "start": 26.034,
+     "end": 26.074
+    },
+    {
+     "w": "school",
+     "start": 26.074,
+     "end": 26.334
+    },
+    {
+     "w": "in",
+     "start": 26.334,
+     "end": 26.634
+    },
+    {
+     "w": "Pretoria,",
+     "start": 26.634,
+     "end": 27.094
+    },
+    {
+     "w": "turned",
+     "start": 27.574,
+     "end": 27.854
+    },
+    {
+     "w": "into",
+     "start": 27.854,
+     "end": 28.174
+    },
+    {
+     "w": "a",
+     "start": 28.174,
+     "end": 28.294
+    },
+    {
+     "w": "prison",
+     "start": 28.294,
+     "end": 28.534
+    },
+    {
+     "w": "for",
+     "start": 28.534,
+     "end": 28.834
+    },
+    {
+     "w": "British",
+     "start": 28.834,
+     "end": 29.034
+    },
+    {
+     "w": "officers.",
+     "start": 29.034,
+     "end": 29.474
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "December 12. At night, he climbs the wall by the latrine, and walks out through the town.",
+   "start": 30.191,
+   "end": 35.392,
+   "words": [
+    {
+     "w": "December",
+     "start": 30.091,
+     "end": 30.511
+    },
+    {
+     "w": "12.",
+     "start": 30.511,
+     "end": 31.471
+    },
+    {
+     "w": "At",
+     "start": 31.471,
+     "end": 31.611
+    },
+    {
+     "w": "night,",
+     "start": 31.611,
+     "end": 31.831
+    },
+    {
+     "w": "he",
+     "start": 32.071,
+     "end": 32.111
+    },
+    {
+     "w": "climbs",
+     "start": 32.111,
+     "end": 32.351
+    },
+    {
+     "w": "the",
+     "start": 32.351,
+     "end": 32.631
+    },
+    {
+     "w": "wall",
+     "start": 32.631,
+     "end": 32.851
+    },
+    {
+     "w": "by",
+     "start": 32.851,
+     "end": 33.151
+    },
+    {
+     "w": "the",
+     "start": 33.151,
+     "end": 33.271
+    },
+    {
+     "w": "latrine,",
+     "start": 33.271,
+     "end": 33.651
+    },
+    {
+     "w": "and",
+     "start": 33.651,
+     "end": 34.011
+    },
+    {
+     "w": "walks",
+     "start": 34.011,
+     "end": 34.211
+    },
+    {
+     "w": "out",
+     "start": 34.211,
+     "end": 34.491
+    },
+    {
+     "w": "through",
+     "start": 34.491,
+     "end": 34.751
+    },
+    {
+     "w": "the",
+     "start": 34.751,
+     "end": 34.851
+    },
+    {
+     "w": "town.",
+     "start": 34.851,
+     "end": 35.071
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "The Boers put a price on him. 25 pounds, dead or alive.",
+   "start": 35.712,
+   "end": 39.591,
+   "words": [
+    {
+     "w": "The",
+     "start": 35.612,
+     "end": 35.772
+    },
+    {
+     "w": "Boers",
+     "start": 35.772,
+     "end": 36.092
+    },
+    {
+     "w": "put",
+     "start": 36.092,
+     "end": 36.272
+    },
+    {
+     "w": "a",
+     "start": 36.272,
+     "end": 36.332
+    },
+    {
+     "w": "price",
+     "start": 36.332,
+     "end": 36.532
+    },
+    {
+     "w": "on",
+     "start": 36.532,
+     "end": 36.852
+    },
+    {
+     "w": "him.",
+     "start": 36.852,
+     "end": 37.012
+    },
+    {
+     "w": "25",
+     "start": 37.392,
+     "end": 37.672
+    },
+    {
+     "w": "pounds,",
+     "start": 37.672,
+     "end": 38.312
+    },
+    {
+     "w": "dead",
+     "start": 38.312,
+     "end": 38.612
+    },
+    {
+     "w": "or",
+     "start": 38.612,
+     "end": 38.912
+    },
+    {
+     "w": "alive.",
+     "start": 38.912,
+     "end": 39.332
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "He jumps a goods train in the dark, and ends up at a coal mine. By luck, the manager is English. John Howard hides him at the bottom of the mine.",
+   "start": 39.951,
+   "end": 48.322,
+   "words": [
+    {
+     "w": "He",
+     "start": 39.851,
+     "end": 40.011
+    },
+    {
+     "w": "jumps",
+     "start": 40.011,
+     "end": 40.211
+    },
+    {
+     "w": "a",
+     "start": 40.211,
+     "end": 40.391
+    },
+    {
+     "w": "goods",
+     "start": 40.391,
+     "end": 40.551
+    },
+    {
+     "w": "train",
+     "start": 40.551,
+     "end": 40.911
+    },
+    {
+     "w": "in",
+     "start": 40.911,
+     "end": 41.111
+    },
+    {
+     "w": "the",
+     "start": 41.111,
+     "end": 41.211
+    },
+    {
+     "w": "dark,",
+     "start": 41.211,
+     "end": 41.431
+    },
+    {
+     "w": "and",
+     "start": 41.431,
+     "end": 41.651
+    },
+    {
+     "w": "ends",
+     "start": 41.651,
+     "end": 41.911
+    },
+    {
+     "w": "up",
+     "start": 41.911,
+     "end": 42.071
+    },
+    {
+     "w": "at",
+     "start": 42.071,
+     "end": 42.231
+    },
+    {
+     "w": "a",
+     "start": 42.231,
+     "end": 42.291
+    },
+    {
+     "w": "coal",
+     "start": 42.291,
+     "end": 42.491
+    },
+    {
+     "w": "mine.",
+     "start": 42.491,
+     "end": 42.851
+    },
+    {
+     "w": "By",
+     "start": 43.551,
+     "end": 43.611
+    },
+    {
+     "w": "luck,",
+     "start": 43.611,
+     "end": 43.871
+    },
+    {
+     "w": "the",
+     "start": 44.211,
+     "end": 44.271
+    },
+    {
+     "w": "manager",
+     "start": 44.271,
+     "end": 44.571
+    },
+    {
+     "w": "is",
+     "start": 44.571,
+     "end": 44.931
+    },
+    {
+     "w": "English.",
+     "start": 44.931,
+     "end": 45.191
+    },
+    {
+     "w": "John",
+     "start": 46.111,
+     "end": 46.111
+    },
+    {
+     "w": "Howard",
+     "start": 46.111,
+     "end": 46.491
+    },
+    {
+     "w": "hides",
+     "start": 46.491,
+     "end": 46.871
+    },
+    {
+     "w": "him",
+     "start": 46.871,
+     "end": 47.111
+    },
+    {
+     "w": "at",
+     "start": 47.111,
+     "end": 47.211
+    },
+    {
+     "w": "the",
+     "start": 47.211,
+     "end": 47.291
+    },
+    {
+     "w": "bottom",
+     "start": 47.291,
+     "end": 47.631
+    },
+    {
+     "w": "of",
+     "start": 47.631,
+     "end": 47.771
+    },
+    {
+     "w": "the",
+     "start": 47.771,
+     "end": 47.871
+    },
+    {
+     "w": "mine.",
+     "start": 47.871,
+     "end": 48.091
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Then he's smuggled out in a freight car, buried under bales of wool, almost 300 miles, to Portuguese East Africa. Free.",
+   "start": 48.642,
+   "end": 56.464,
+   "words": [
+    {
+     "w": "Then",
+     "start": 48.542,
+     "end": 48.742
+    },
+    {
+     "w": "he's",
+     "start": 48.742,
+     "end": 48.862
+    },
+    {
+     "w": "smuggled",
+     "start": 48.822,
+     "end": 49.082
+    },
+    {
+     "w": "out",
+     "start": 49.082,
+     "end": 49.502
+    },
+    {
+     "w": "in",
+     "start": 49.502,
+     "end": 49.642
+    },
+    {
+     "w": "a",
+     "start": 49.642,
+     "end": 49.702
+    },
+    {
+     "w": "freight",
+     "start": 49.702,
+     "end": 49.882
+    },
+    {
+     "w": "car,",
+     "start": 49.882,
+     "end": 50.302
+    },
+    {
+     "w": "buried",
+     "start": 50.762,
+     "end": 50.882
+    },
+    {
+     "w": "under",
+     "start": 50.882,
+     "end": 51.162
+    },
+    {
+     "w": "bales",
+     "start": 51.162,
+     "end": 51.542
+    },
+    {
+     "w": "of",
+     "start": 51.542,
+     "end": 51.722
+    },
+    {
+     "w": "wool,",
+     "start": 51.722,
+     "end": 51.962
+    },
+    {
+     "w": "almost",
+     "start": 51.962,
+     "end": 52.642
+    },
+    {
+     "w": "300",
+     "start": 52.642,
+     "end": 53.002
+    },
+    {
+     "w": "miles,",
+     "start": 53.002,
+     "end": 53.642
+    },
+    {
+     "w": "to",
+     "start": 53.642,
+     "end": 54.022
+    },
+    {
+     "w": "Portuguese",
+     "start": 54.022,
+     "end": 54.342
+    },
+    {
+     "w": "East",
+     "start": 54.342,
+     "end": 54.862
+    },
+    {
+     "w": "Africa.",
+     "start": 54.862,
+     "end": 55.362
+    },
+    {
+     "w": "Free.",
+     "start": 56.042,
+     "end": 56.162
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Britain had just lost three battles in one week. Now it had a hero. Less than a year later, he was in Parliament.",
+   "start": 56.824,
+   "end": 63.008,
+   "words": [
+    {
+     "w": "Britain",
+     "start": 56.724,
+     "end": 56.964
+    },
+    {
+     "w": "had",
+     "start": 56.964,
+     "end": 57.184
+    },
+    {
+     "w": "just",
+     "start": 57.184,
+     "end": 57.364
+    },
+    {
+     "w": "lost",
+     "start": 57.364,
+     "end": 57.584
+    },
+    {
+     "w": "three",
+     "start": 57.584,
+     "end": 57.904
+    },
+    {
+     "w": "battles",
+     "start": 57.904,
+     "end": 58.324
+    },
+    {
+     "w": "in",
+     "start": 58.324,
+     "end": 58.544
+    },
+    {
+     "w": "one",
+     "start": 58.544,
+     "end": 58.724
+    },
+    {
+     "w": "week.",
+     "start": 58.724,
+     "end": 58.964
+    },
+    {
+     "w": "Now",
+     "start": 59.564,
+     "end": 59.624
+    },
+    {
+     "w": "it",
+     "start": 59.624,
+     "end": 59.864
+    },
+    {
+     "w": "had",
+     "start": 59.864,
+     "end": 59.984
+    },
+    {
+     "w": "a",
+     "start": 59.984,
+     "end": 60.064
+    },
+    {
+     "w": "hero.",
+     "start": 60.064,
+     "end": 60.404
+    },
+    {
+     "w": "Less",
+     "start": 61.024,
+     "end": 61.084
+    },
+    {
+     "w": "than",
+     "start": 61.084,
+     "end": 61.284
+    },
+    {
+     "w": "a",
+     "start": 61.284,
+     "end": 61.364
+    },
+    {
+     "w": "year",
+     "start": 61.364,
+     "end": 61.524
+    },
+    {
+     "w": "later,",
+     "start": 61.524,
+     "end": 61.824
+    },
+    {
+     "w": "he",
+     "start": 62.004,
+     "end": 62.064
+    },
+    {
+     "w": "was",
+     "start": 62.064,
+     "end": 62.164
+    },
+    {
+     "w": "in",
+     "start": 62.164,
+     "end": 62.304
+    },
+    {
+     "w": "Parliament.",
+     "start": 62.304,
+     "end": 62.544
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Four decades later, the man worth 25 pounds became Prime Minister. Would you have turned him in? Tell me below, and follow Buried Chronicles.",
+   "start": 63.328,
+   "end": 71.857,
+   "words": [
+    {
+     "w": "Four",
+     "start": 63.228,
+     "end": 63.468
+    },
+    {
+     "w": "decades",
+     "start": 63.468,
+     "end": 63.708
+    },
+    {
+     "w": "later,",
+     "start": 63.708,
+     "end": 64.188
+    },
+    {
+     "w": "the",
+     "start": 64.448,
+     "end": 64.488
+    },
+    {
+     "w": "man",
+     "start": 64.488,
+     "end": 64.668
+    },
+    {
+     "w": "worth",
+     "start": 64.668,
+     "end": 64.928
+    },
+    {
+     "w": "25",
+     "start": 64.928,
+     "end": 65.328
+    },
+    {
+     "w": "pounds",
+     "start": 65.328,
+     "end": 66.028
+    },
+    {
+     "w": "became",
+     "start": 66.028,
+     "end": 66.388
+    },
+    {
+     "w": "Prime",
+     "start": 66.388,
+     "end": 66.648
+    },
+    {
+     "w": "Minister.",
+     "start": 66.648,
+     "end": 67.148
+    },
+    {
+     "w": "Would",
+     "start": 67.868,
+     "end": 67.888
+    },
+    {
+     "w": "you",
+     "start": 67.888,
+     "end": 68.008
+    },
+    {
+     "w": "have",
+     "start": 68.008,
+     "end": 68.128
+    },
+    {
+     "w": "turned",
+     "start": 68.128,
+     "end": 68.368
+    },
+    {
+     "w": "him",
+     "start": 68.368,
+     "end": 68.568
+    },
+    {
+     "w": "in?",
+     "start": 68.568,
+     "end": 68.768
+    },
+    {
+     "w": "Tell",
+     "start": 69.328,
+     "end": 69.408
+    },
+    {
+     "w": "me",
+     "start": 69.408,
+     "end": 69.568
+    },
+    {
+     "w": "below,",
+     "start": 69.568,
+     "end": 69.828
+    },
+    {
+     "w": "and",
+     "start": 69.828,
+     "end": 70.208
+    },
+    {
+     "w": "follow",
+     "start": 70.208,
+     "end": 70.588
+    },
+    {
+     "w": "Buried",
+     "start": 70.588,
+     "end": 70.988
+    },
+    {
+     "w": "Chronicles.",
+     "start": 70.988,
+     "end": 71.588
+    }
+   ]
+  }
+ ]
+}

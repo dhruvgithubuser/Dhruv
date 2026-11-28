@@ -1,0 +1,159 @@
+{
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "Hook",
+   "images": [
+    "sub_underwater"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 2,
+   "title": "World War III",
+   "images": [
+    "control_room"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 3,
+   "title": "The decision",
+   "images": [
+    "arkhipov"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 4,
+   "title": "Date + timeline (code)",
+   "images": [],
+   "code_graphics": true
+  },
+  {
+   "scene": 5,
+   "title": "Globe 1962 (code)",
+   "images": [],
+   "code_graphics": true
+  },
+  {
+   "scene": 6,
+   "title": "Hunted: route + sonar",
+   "images": [
+    "sub_underwater"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 7,
+   "title": "Depth charges",
+   "images": [
+    "destroyers + sub_underwater"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 8,
+   "title": "Inside B-59",
+   "images": [
+    "control_room"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 9,
+   "title": "Battery",
+   "images": [
+    "engine_room"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 10,
+   "title": "Heat / no contact",
+   "images": [
+    "radio"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 11,
+   "title": "The fear",
+   "images": [
+    "crew_heat"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 12,
+   "title": "Torpedo cutaway (code)",
+   "images": [],
+   "code_graphics": true
+  },
+  {
+   "scene": 13,
+   "title": "The commander",
+   "images": [
+    "savitsky"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 14,
+   "title": "Political officer agreed",
+   "images": [
+    "savitsky",
+    "political",
+    "arkhipov"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 15,
+   "title": "Vasili Arkhipov",
+   "images": [
+    "arkhipov"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 16,
+   "title": "The refusal",
+   "images": [
+    "savitsky",
+    "political",
+    "arkhipov"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 17,
+   "title": "Surfacing",
+   "images": [
+    "sub_underwater + surfacing"
+   ],
+   "code_graphics": false
+  },
+  {
+   "scene": 18,
+   "title": "Legacy + title",
+   "images": [
+    "ocean_gold + arkhipov"
+   ],
+   "code_graphics": false
+  }
+ ],
+ "prompts": {
+  "sub_underwater": "Soviet Foxtrot class diesel submarine gliding deep underwater, dark navy ocean, light rays from surface, warship hulls above",
+  "destroyers": "1960s US Navy destroyers sailing on grey Atlantic ocean, cold daylight, overcast sky, spray",
+  "control_room": "cramped 1960s Soviet submarine control room, officers at analog gauges and valves, red emergency light, steam",
+  "engine_room": "1960s submarine battery and engine compartment, analog gauges, pipes, flickering dim yellow lights, sailor checking dials",
+  "radio": "Soviet sailor radio operator with headphones turning dials on 1960s radio equipment, red light, submarine",
+  "crew_heat": "exhausted sweating sailors in a cramped hot submarine compartment, bunks and pipes, dim red light",
+  "surfacing": "Soviet diesel submarine surfacing on the Atlantic ocean in daylight, water pouring off the hull, US destroyer nearby",
+  "ocean_gold": "calm ocean horizon at golden sunrise, soft clouds, peaceful, warm light on the water",
+  "arkhipov": "portrait of a 36 year old Soviet navy officer in 1962, short dark hair, clean-shaven, calm serious face, black naval uniform, shoulder boards, red light",
+  "savitsky": "portrait of a tense exhausted Soviet submarine captain in 1962, short dark hair, clean-shaven, black naval uniform with captain insignia, sweat, red light",
+  "political": "portrait of a stern Soviet naval political officer in 1962, short hair, clean-shaven, black naval uniform, shoulder boards, red light"
+ }
+}

@@ -1,0 +1,1142 @@
+{
+ "fps": 30,
+ "duration": 80.819,
+ "voice": "kokoro am_michael/am_onyx blend",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "What if the fate of the world rested in the hands of just one man?",
+   "start": 0.45,
+   "end": 4.358,
+   "words": [
+    {
+     "w": "What",
+     "start": 0.35,
+     "end": 0.55
+    },
+    {
+     "w": "if",
+     "start": 0.55,
+     "end": 0.65
+    },
+    {
+     "w": "the",
+     "start": 0.65,
+     "end": 0.79
+    },
+    {
+     "w": "fate",
+     "start": 0.79,
+     "end": 1.05
+    },
+    {
+     "w": "of",
+     "start": 1.05,
+     "end": 1.21
+    },
+    {
+     "w": "the",
+     "start": 1.21,
+     "end": 1.31
+    },
+    {
+     "w": "world",
+     "start": 1.31,
+     "end": 1.59
+    },
+    {
+     "w": "rested",
+     "start": 1.59,
+     "end": 1.89
+    },
+    {
+     "w": "in",
+     "start": 1.89,
+     "end": 2.21
+    },
+    {
+     "w": "the",
+     "start": 2.21,
+     "end": 2.29
+    },
+    {
+     "w": "hands",
+     "start": 2.29,
+     "end": 2.55
+    },
+    {
+     "w": "of",
+     "start": 2.55,
+     "end": 2.87
+    },
+    {
+     "w": "just",
+     "start": 3.37,
+     "end": 3.57
+    },
+    {
+     "w": "one",
+     "start": 3.57,
+     "end": 3.81
+    },
+    {
+     "w": "man?",
+     "start": 3.81,
+     "end": 4.15
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "On September 26, 1983,",
+   "start": 4.826,
+   "end": 7.516,
+   "words": [
+    {
+     "w": "On",
+     "start": 4.726,
+     "end": 4.926
+    },
+    {
+     "w": "September",
+     "start": 4.926,
+     "end": 5.186
+    },
+    {
+     "w": "26,",
+     "start": 5.186,
+     "end": 6.326
+    },
+    {
+     "w": "1983,",
+     "start": 6.326,
+     "end": 6.986
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "during the height of the Cold War,",
+   "start": 7.681,
+   "end": 9.464,
+   "words": [
+    {
+     "w": "during",
+     "start": 7.581,
+     "end": 7.841
+    },
+    {
+     "w": "the",
+     "start": 7.841,
+     "end": 7.981
+    },
+    {
+     "w": "height",
+     "start": 7.981,
+     "end": 8.241
+    },
+    {
+     "w": "of",
+     "start": 8.241,
+     "end": 8.501
+    },
+    {
+     "w": "the",
+     "start": 8.501,
+     "end": 8.621
+    },
+    {
+     "w": "Cold",
+     "start": 8.621,
+     "end": 8.861
+    },
+    {
+     "w": "War,",
+     "start": 8.861,
+     "end": 9.301
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Soviet officer Stanislav Petrov was on duty at a secret early-warning command center.",
+   "start": 9.657,
+   "end": 15.001,
+   "words": [
+    {
+     "w": "Soviet",
+     "start": 9.557,
+     "end": 9.957
+    },
+    {
+     "w": "officer",
+     "start": 9.957,
+     "end": 10.297
+    },
+    {
+     "w": "Stanislav",
+     "start": 10.297,
+     "end": 11.097
+    },
+    {
+     "w": "Petrov",
+     "start": 11.097,
+     "end": 11.517
+    },
+    {
+     "w": "was",
+     "start": 11.517,
+     "end": 11.777
+    },
+    {
+     "w": "on",
+     "start": 11.777,
+     "end": 11.917
+    },
+    {
+     "w": "duty",
+     "start": 11.917,
+     "end": 12.157
+    },
+    {
+     "w": "at",
+     "start": 12.157,
+     "end": 12.837
+    },
+    {
+     "w": "a",
+     "start": 12.837,
+     "end": 12.917
+    },
+    {
+     "w": "secret",
+     "start": 12.917,
+     "end": 13.237
+    },
+    {
+     "w": "early-warning",
+     "start": 13.237,
+     "end": 13.957
+    },
+    {
+     "w": "command",
+     "start": 13.957,
+     "end": 14.197
+    },
+    {
+     "w": "center.",
+     "start": 14.197,
+     "end": 14.857
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Suddenly, alarms erupted.",
+   "start": 15.414,
+   "end": 17.154,
+   "words": [
+    {
+     "w": "Suddenly,",
+     "start": 15.314,
+     "end": 15.774
+    },
+    {
+     "w": "alarms",
+     "start": 16.074,
+     "end": 16.334
+    },
+    {
+     "w": "erupted.",
+     "start": 16.334,
+     "end": 16.734
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "The Soviet satellite system reported that American nuclear missiles were heading toward the Soviet Union.",
+   "start": 17.594,
+   "end": 23.424,
+   "words": [
+    {
+     "w": "The",
+     "start": 17.494,
+     "end": 17.674
+    },
+    {
+     "w": "Soviet",
+     "start": 17.674,
+     "end": 18.034
+    },
+    {
+     "w": "satellite",
+     "start": 18.034,
+     "end": 18.394
+    },
+    {
+     "w": "system",
+     "start": 18.394,
+     "end": 19.054
+    },
+    {
+     "w": "reported",
+     "start": 19.054,
+     "end": 19.674
+    },
+    {
+     "w": "that",
+     "start": 19.674,
+     "end": 19.974
+    },
+    {
+     "w": "American",
+     "start": 19.974,
+     "end": 20.394
+    },
+    {
+     "w": "nuclear",
+     "start": 20.394,
+     "end": 20.754
+    },
+    {
+     "w": "missiles",
+     "start": 20.754,
+     "end": 21.314
+    },
+    {
+     "w": "were",
+     "start": 21.314,
+     "end": 21.754
+    },
+    {
+     "w": "heading",
+     "start": 21.754,
+     "end": 21.974
+    },
+    {
+     "w": "toward",
+     "start": 21.974,
+     "end": 22.294
+    },
+    {
+     "w": "the",
+     "start": 22.294,
+     "end": 22.494
+    },
+    {
+     "w": "Soviet",
+     "start": 22.494,
+     "end": 22.734
+    },
+    {
+     "w": "Union.",
+     "start": 22.734,
+     "end": 23.154
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "According to procedure, Petrov had to report the warning immediately to his superiors.",
+   "start": 23.754,
+   "end": 28.564,
+   "words": [
+    {
+     "w": "According",
+     "start": 23.654,
+     "end": 24.034
+    },
+    {
+     "w": "to",
+     "start": 24.034,
+     "end": 24.234
+    },
+    {
+     "w": "procedure,",
+     "start": 24.234,
+     "end": 24.614
+    },
+    {
+     "w": "Petrov",
+     "start": 25.114,
+     "end": 25.474
+    },
+    {
+     "w": "had",
+     "start": 25.474,
+     "end": 25.694
+    },
+    {
+     "w": "to",
+     "start": 25.694,
+     "end": 25.854
+    },
+    {
+     "w": "report",
+     "start": 25.854,
+     "end": 26.114
+    },
+    {
+     "w": "the",
+     "start": 26.114,
+     "end": 26.394
+    },
+    {
+     "w": "warning",
+     "start": 26.394,
+     "end": 26.674
+    },
+    {
+     "w": "immediately",
+     "start": 26.674,
+     "end": 27.234
+    },
+    {
+     "w": "to",
+     "start": 27.234,
+     "end": 27.554
+    },
+    {
+     "w": "his",
+     "start": 27.554,
+     "end": 27.674
+    },
+    {
+     "w": "superiors.",
+     "start": 27.674,
+     "end": 27.974
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "A false decision could have pushed the world toward nuclear catastrophe.",
+   "start": 28.839,
+   "end": 32.47,
+   "words": [
+    {
+     "w": "A",
+     "start": 28.739,
+     "end": 28.899
+    },
+    {
+     "w": "false",
+     "start": 28.899,
+     "end": 29.099
+    },
+    {
+     "w": "decision",
+     "start": 29.099,
+     "end": 29.519
+    },
+    {
+     "w": "could",
+     "start": 29.519,
+     "end": 29.919
+    },
+    {
+     "w": "have",
+     "start": 29.919,
+     "end": 30.019
+    },
+    {
+     "w": "pushed",
+     "start": 30.019,
+     "end": 30.219
+    },
+    {
+     "w": "the",
+     "start": 30.219,
+     "end": 30.439
+    },
+    {
+     "w": "world",
+     "start": 30.439,
+     "end": 30.659
+    },
+    {
+     "w": "toward",
+     "start": 30.659,
+     "end": 31.039
+    },
+    {
+     "w": "nuclear",
+     "start": 31.039,
+     "end": 31.479
+    },
+    {
+     "w": "catastrophe.",
+     "start": 31.479,
+     "end": 31.939
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "But something didn't feel right.",
+   "start": 32.938,
+   "end": 34.43,
+   "words": [
+    {
+     "w": "But",
+     "start": 32.838,
+     "end": 33.018
+    },
+    {
+     "w": "something",
+     "start": 33.018,
+     "end": 33.238
+    },
+    {
+     "w": "didn't",
+     "start": 33.238,
+     "end": 33.718
+    },
+    {
+     "w": "feel",
+     "start": 33.718,
+     "end": 33.898
+    },
+    {
+     "w": "right.",
+     "start": 33.898,
+     "end": 34.278
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "The system initially detected just one launch, followed by four more.",
+   "start": 34.898,
+   "end": 39.008,
+   "words": [
+    {
+     "w": "The",
+     "start": 34.798,
+     "end": 34.978
+    },
+    {
+     "w": "system",
+     "start": 34.978,
+     "end": 35.318
+    },
+    {
+     "w": "initially",
+     "start": 35.318,
+     "end": 35.778
+    },
+    {
+     "w": "detected",
+     "start": 35.778,
+     "end": 36.158
+    },
+    {
+     "w": "just",
+     "start": 36.158,
+     "end": 36.638
+    },
+    {
+     "w": "one",
+     "start": 36.638,
+     "end": 36.898
+    },
+    {
+     "w": "launch,",
+     "start": 36.898,
+     "end": 37.238
+    },
+    {
+     "w": "followed",
+     "start": 37.638,
+     "end": 37.978
+    },
+    {
+     "w": "by",
+     "start": 37.978,
+     "end": 38.258
+    },
+    {
+     "w": "four",
+     "start": 38.258,
+     "end": 38.498
+    },
+    {
+     "w": "more.",
+     "start": 38.498,
+     "end": 38.758
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Petrov questioned the warning.",
+   "start": 39.283,
+   "end": 40.952,
+   "words": [
+    {
+     "w": "Petrov",
+     "start": 39.183,
+     "end": 39.623
+    },
+    {
+     "w": "questioned",
+     "start": 39.623,
+     "end": 40.003
+    },
+    {
+     "w": "the",
+     "start": 40.003,
+     "end": 40.303
+    },
+    {
+     "w": "warning.",
+     "start": 40.303,
+     "end": 40.683
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "A real American first strike, he reasoned, would hardly begin with only five missiles.",
+   "start": 41.172,
+   "end": 46.13,
+   "words": [
+    {
+     "w": "A",
+     "start": 41.072,
+     "end": 41.252
+    },
+    {
+     "w": "real",
+     "start": 41.252,
+     "end": 41.392
+    },
+    {
+     "w": "American",
+     "start": 41.392,
+     "end": 41.832
+    },
+    {
+     "w": "first",
+     "start": 41.832,
+     "end": 42.172
+    },
+    {
+     "w": "strike,",
+     "start": 42.172,
+     "end": 42.512
+    },
+    {
+     "w": "he",
+     "start": 42.512,
+     "end": 42.732
+    },
+    {
+     "w": "reasoned,",
+     "start": 42.732,
+     "end": 43.032
+    },
+    {
+     "w": "would",
+     "start": 43.032,
+     "end": 43.472
+    },
+    {
+     "w": "hardly",
+     "start": 43.472,
+     "end": 43.672
+    },
+    {
+     "w": "begin",
+     "start": 43.672,
+     "end": 44.112
+    },
+    {
+     "w": "with",
+     "start": 44.112,
+     "end": 44.292
+    },
+    {
+     "w": "only",
+     "start": 44.292,
+     "end": 44.632
+    },
+    {
+     "w": "five",
+     "start": 44.632,
+     "end": 45.412
+    },
+    {
+     "w": "missiles.",
+     "start": 45.412,
+     "end": 45.752
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "He decided the alert was probably a false alarm and reported it that way.",
+   "start": 46.57,
+   "end": 50.933,
+   "words": [
+    {
+     "w": "He",
+     "start": 46.47,
+     "end": 46.63
+    },
+    {
+     "w": "decided",
+     "start": 46.63,
+     "end": 46.99
+    },
+    {
+     "w": "the",
+     "start": 46.99,
+     "end": 47.25
+    },
+    {
+     "w": "alert",
+     "start": 47.25,
+     "end": 47.51
+    },
+    {
+     "w": "was",
+     "start": 47.51,
+     "end": 47.81
+    },
+    {
+     "w": "probably",
+     "start": 47.81,
+     "end": 48.29
+    },
+    {
+     "w": "a",
+     "start": 48.29,
+     "end": 48.47
+    },
+    {
+     "w": "false",
+     "start": 48.47,
+     "end": 48.79
+    },
+    {
+     "w": "alarm",
+     "start": 48.79,
+     "end": 49.23
+    },
+    {
+     "w": "and",
+     "start": 49.23,
+     "end": 49.77
+    },
+    {
+     "w": "reported",
+     "start": 49.77,
+     "end": 50.07
+    },
+    {
+     "w": "it",
+     "start": 50.07,
+     "end": 50.35
+    },
+    {
+     "w": "that",
+     "start": 50.35,
+     "end": 50.51
+    },
+    {
+     "w": "way.",
+     "start": 50.51,
+     "end": 50.73
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Minutes passed.",
+   "start": 51.401,
+   "end": 52.351,
+   "words": [
+    {
+     "w": "Minutes",
+     "start": 51.301,
+     "end": 51.621
+    },
+    {
+     "w": "passed.",
+     "start": 51.621,
+     "end": 51.941
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "No missiles arrived.",
+   "start": 52.736,
+   "end": 54.028,
+   "words": [
+    {
+     "w": "No",
+     "start": 52.636,
+     "end": 52.896
+    },
+    {
+     "w": "missiles",
+     "start": 52.896,
+     "end": 53.156
+    },
+    {
+     "w": "arrived.",
+     "start": 53.156,
+     "end": 53.636
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "Investigators later discovered that sunlight reflecting off high-altitude clouds had fooled the Soviet satellite system.",
+   "start": 54.496,
+   "end": 61.479,
+   "words": [
+    {
+     "w": "Investigators",
+     "start": 54.396,
+     "end": 54.816
+    },
+    {
+     "w": "later",
+     "start": 54.816,
+     "end": 55.416
+    },
+    {
+     "w": "discovered",
+     "start": 55.416,
+     "end": 55.916
+    },
+    {
+     "w": "that",
+     "start": 55.916,
+     "end": 56.216
+    },
+    {
+     "w": "sunlight",
+     "start": 56.216,
+     "end": 56.496
+    },
+    {
+     "w": "reflecting",
+     "start": 56.496,
+     "end": 57.136
+    },
+    {
+     "w": "off",
+     "start": 57.136,
+     "end": 57.496
+    },
+    {
+     "w": "high-altitude",
+     "start": 57.496,
+     "end": 58.316
+    },
+    {
+     "w": "clouds",
+     "start": 58.316,
+     "end": 58.636
+    },
+    {
+     "w": "had",
+     "start": 58.636,
+     "end": 59.436
+    },
+    {
+     "w": "fooled",
+     "start": 59.436,
+     "end": 59.676
+    },
+    {
+     "w": "the",
+     "start": 59.676,
+     "end": 59.936
+    },
+    {
+     "w": "Soviet",
+     "start": 59.936,
+     "end": 60.296
+    },
+    {
+     "w": "satellite",
+     "start": 60.296,
+     "end": 60.696
+    },
+    {
+     "w": "system.",
+     "start": 60.696,
+     "end": 61.276
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "text": "Petrov's judgment helped prevent a dangerous miscalculation during one of the Cold War's tensest moments.",
+   "start": 61.864,
+   "end": 68.303,
+   "words": [
+    {
+     "w": "Petrov's",
+     "start": 61.764,
+     "end": 62.364
+    },
+    {
+     "w": "judgment",
+     "start": 62.364,
+     "end": 62.764
+    },
+    {
+     "w": "helped",
+     "start": 62.764,
+     "end": 63.184
+    },
+    {
+     "w": "prevent",
+     "start": 63.184,
+     "end": 63.624
+    },
+    {
+     "w": "a",
+     "start": 63.624,
+     "end": 63.864
+    },
+    {
+     "w": "dangerous",
+     "start": 63.864,
+     "end": 64.344
+    },
+    {
+     "w": "miscalculation",
+     "start": 64.344,
+     "end": 65.304
+    },
+    {
+     "w": "during",
+     "start": 65.304,
+     "end": 65.944
+    },
+    {
+     "w": "one",
+     "start": 65.944,
+     "end": 66.184
+    },
+    {
+     "w": "of",
+     "start": 66.184,
+     "end": 66.284
+    },
+    {
+     "w": "the",
+     "start": 66.284,
+     "end": 66.384
+    },
+    {
+     "w": "Cold",
+     "start": 66.384,
+     "end": 66.584
+    },
+    {
+     "w": "War's",
+     "start": 66.584,
+     "end": 67.164
+    },
+    {
+     "w": "tensest",
+     "start": 67.164,
+     "end": 67.604
+    },
+    {
+     "w": "moments.",
+     "start": 67.604,
+     "end": 67.944
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "He was not a man who launched a weapon.",
+   "start": 68.743,
+   "end": 70.762,
+   "words": [
+    {
+     "w": "He",
+     "start": 68.643,
+     "end": 68.803
+    },
+    {
+     "w": "was",
+     "start": 68.803,
+     "end": 68.883
+    },
+    {
+     "w": "not",
+     "start": 68.883,
+     "end": 69.103
+    },
+    {
+     "w": "a",
+     "start": 69.103,
+     "end": 69.283
+    },
+    {
+     "w": "man",
+     "start": 69.283,
+     "end": 69.523
+    },
+    {
+     "w": "who",
+     "start": 69.523,
+     "end": 69.763
+    },
+    {
+     "w": "launched",
+     "start": 69.763,
+     "end": 70.003
+    },
+    {
+     "w": "a",
+     "start": 70.003,
+     "end": 70.243
+    },
+    {
+     "w": "weapon.",
+     "start": 70.243,
+     "end": 70.543
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "He was the man who refused to mistake a warning for certainty.",
+   "start": 70.982,
+   "end": 74.227,
+   "words": [
+    {
+     "w": "He",
+     "start": 70.882,
+     "end": 71.042
+    },
+    {
+     "w": "was",
+     "start": 71.042,
+     "end": 71.122
+    },
+    {
+     "w": "the",
+     "start": 71.122,
+     "end": 71.222
+    },
+    {
+     "w": "man",
+     "start": 71.222,
+     "end": 71.462
+    },
+    {
+     "w": "who",
+     "start": 71.462,
+     "end": 71.662
+    },
+    {
+     "w": "refused",
+     "start": 71.662,
+     "end": 72.002
+    },
+    {
+     "w": "to",
+     "start": 72.002,
+     "end": 72.382
+    },
+    {
+     "w": "mistake",
+     "start": 72.382,
+     "end": 72.622
+    },
+    {
+     "w": "a",
+     "start": 72.622,
+     "end": 72.902
+    },
+    {
+     "w": "warning",
+     "start": 72.902,
+     "end": 73.242
+    },
+    {
+     "w": "for",
+     "start": 73.242,
+     "end": 73.482
+    },
+    {
+     "w": "certainty.",
+     "start": 73.482,
+     "end": 73.882
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "text": "Sometimes, the bravest decision is knowing when not to act.",
+   "start": 74.722,
+   "end": 78.219,
+   "words": [
+    {
+     "w": "Sometimes,",
+     "start": 74.622,
+     "end": 75.062
+    },
+    {
+     "w": "the",
+     "start": 75.062,
+     "end": 75.382
+    },
+    {
+     "w": "bravest",
+     "start": 75.382,
+     "end": 75.782
+    },
+    {
+     "w": "decision",
+     "start": 75.782,
+     "end": 76.082
+    },
+    {
+     "w": "is",
+     "start": 76.082,
+     "end": 76.362
+    },
+    {
+     "w": "knowing",
+     "start": 76.362,
+     "end": 76.562
+    },
+    {
+     "w": "when",
+     "start": 76.562,
+     "end": 76.902
+    },
+    {
+     "w": "not",
+     "start": 77.382,
+     "end": 77.542
+    },
+    {
+     "w": "to",
+     "start": 77.542,
+     "end": 77.702
+    },
+    {
+     "w": "act.",
+     "start": 77.702,
+     "end": 77.942
+    }
+   ]
+  }
+ ]
+}

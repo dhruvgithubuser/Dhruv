@@ -1,0 +1,28 @@
+{
+  "name": "napoleon-russia-1812",
+  "version": "1.0.0",
+  "private": true,
+  "description": "America's Biggest Win of 1812 Came After the Peace Treaty: 9:16 editorial 2D documentary Short (Remotion).",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "bash scripts/render-video.sh"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "topojson-client": "^3.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "world-atlas": "^2.0.2"
+  }
+}

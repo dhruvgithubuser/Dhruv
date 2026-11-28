@@ -1,0 +1,917 @@
+{
+ "fps": 30,
+ "duration": 60.917,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're looking at Custer's last cry for help. 210 lives depended on it. So why did help never come?",
+   "start": 0.35,
+   "end": 6.834,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.43
+    },
+    {
+     "w": "looking",
+     "start": 0.43,
+     "end": 0.67
+    },
+    {
+     "w": "at",
+     "start": 0.67,
+     "end": 0.81
+    },
+    {
+     "w": "Custer's",
+     "start": 0.81,
+     "end": 1.29
+    },
+    {
+     "w": "last",
+     "start": 1.29,
+     "end": 1.47
+    },
+    {
+     "w": "cry",
+     "start": 1.47,
+     "end": 1.77
+    },
+    {
+     "w": "for",
+     "start": 1.77,
+     "end": 2.05
+    },
+    {
+     "w": "help.",
+     "start": 2.05,
+     "end": 2.25
+    },
+    {
+     "w": "210",
+     "start": 3.33,
+     "end": 3.33
+    },
+    {
+     "w": "lives",
+     "start": 3.33,
+     "end": 3.95
+    },
+    {
+     "w": "depended",
+     "start": 3.95,
+     "end": 4.31
+    },
+    {
+     "w": "on",
+     "start": 4.31,
+     "end": 4.81
+    },
+    {
+     "w": "it.",
+     "start": 4.81,
+     "end": 4.93
+    },
+    {
+     "w": "So",
+     "start": 5.37,
+     "end": 5.41
+    },
+    {
+     "w": "why",
+     "start": 5.41,
+     "end": 5.63
+    },
+    {
+     "w": "did",
+     "start": 5.63,
+     "end": 5.83
+    },
+    {
+     "w": "help",
+     "start": 5.83,
+     "end": 5.99
+    },
+    {
+     "w": "never",
+     "start": 5.99,
+     "end": 6.23
+    },
+    {
+     "w": "come?",
+     "start": 6.23,
+     "end": 6.61
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "June 25, 1876. Custer reached the hills above the Little Bighorn and finally saw the village. It was enormous.",
+   "start": 7.334,
+   "end": 15.174,
+   "words": [
+    {
+     "w": "June",
+     "start": 7.234,
+     "end": 7.514
+    },
+    {
+     "w": "25,",
+     "start": 7.514,
+     "end": 8.434
+    },
+    {
+     "w": "1876.",
+     "start": 8.434,
+     "end": 9.234
+    },
+    {
+     "w": "Custer",
+     "start": 10.114,
+     "end": 10.474
+    },
+    {
+     "w": "reached",
+     "start": 10.474,
+     "end": 10.734
+    },
+    {
+     "w": "the",
+     "start": 10.734,
+     "end": 10.974
+    },
+    {
+     "w": "hills",
+     "start": 10.974,
+     "end": 11.174
+    },
+    {
+     "w": "above",
+     "start": 11.174,
+     "end": 11.494
+    },
+    {
+     "w": "the",
+     "start": 11.494,
+     "end": 11.674
+    },
+    {
+     "w": "Little",
+     "start": 11.674,
+     "end": 11.854
+    },
+    {
+     "w": "Bighorn",
+     "start": 11.854,
+     "end": 12.374
+    },
+    {
+     "w": "and",
+     "start": 12.374,
+     "end": 12.514
+    },
+    {
+     "w": "finally",
+     "start": 12.514,
+     "end": 12.774
+    },
+    {
+     "w": "saw",
+     "start": 12.774,
+     "end": 13.274
+    },
+    {
+     "w": "the",
+     "start": 13.274,
+     "end": 13.394
+    },
+    {
+     "w": "village.",
+     "start": 13.394,
+     "end": 13.674
+    },
+    {
+     "w": "It",
+     "start": 14.194,
+     "end": 14.234
+    },
+    {
+     "w": "was",
+     "start": 14.234,
+     "end": 14.354
+    },
+    {
+     "w": "enormous.",
+     "start": 14.354,
+     "end": 14.634
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "He had already split his regiment in three. Now he needed every man he had.",
+   "start": 15.574,
+   "end": 20.016,
+   "words": [
+    {
+     "w": "He",
+     "start": 15.474,
+     "end": 15.634
+    },
+    {
+     "w": "had",
+     "start": 15.634,
+     "end": 15.714
+    },
+    {
+     "w": "already",
+     "start": 15.714,
+     "end": 15.914
+    },
+    {
+     "w": "split",
+     "start": 15.914,
+     "end": 16.254
+    },
+    {
+     "w": "his",
+     "start": 16.254,
+     "end": 16.434
+    },
+    {
+     "w": "regiment",
+     "start": 16.434,
+     "end": 16.674
+    },
+    {
+     "w": "in",
+     "start": 16.674,
+     "end": 17.054
+    },
+    {
+     "w": "three.",
+     "start": 17.054,
+     "end": 17.374
+    },
+    {
+     "w": "Now",
+     "start": 17.974,
+     "end": 18.154
+    },
+    {
+     "w": "he",
+     "start": 18.154,
+     "end": 18.474
+    },
+    {
+     "w": "needed",
+     "start": 18.474,
+     "end": 18.654
+    },
+    {
+     "w": "every",
+     "start": 18.654,
+     "end": 19.014
+    },
+    {
+     "w": "man",
+     "start": 19.014,
+     "end": 19.354
+    },
+    {
+     "w": "he",
+     "start": 19.354,
+     "end": 19.514
+    },
+    {
+     "w": "had.",
+     "start": 19.514,
+     "end": 19.774
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "His trumpeter, John Martin, was an Italian immigrant who barely spoke English. So the adjutant wrote the order down.",
+   "start": 20.416,
+   "end": 27.27,
+   "words": [
+    {
+     "w": "His",
+     "start": 20.316,
+     "end": 20.516
+    },
+    {
+     "w": "trumpeter,",
+     "start": 20.516,
+     "end": 20.996
+    },
+    {
+     "w": "John",
+     "start": 20.996,
+     "end": 21.436
+    },
+    {
+     "w": "Martin,",
+     "start": 21.436,
+     "end": 21.696
+    },
+    {
+     "w": "was",
+     "start": 21.696,
+     "end": 22.336
+    },
+    {
+     "w": "an",
+     "start": 22.336,
+     "end": 22.456
+    },
+    {
+     "w": "Italian",
+     "start": 22.456,
+     "end": 22.796
+    },
+    {
+     "w": "immigrant",
+     "start": 22.796,
+     "end": 23.216
+    },
+    {
+     "w": "who",
+     "start": 23.216,
+     "end": 23.616
+    },
+    {
+     "w": "barely",
+     "start": 23.616,
+     "end": 23.836
+    },
+    {
+     "w": "spoke",
+     "start": 23.836,
+     "end": 24.256
+    },
+    {
+     "w": "English.",
+     "start": 24.256,
+     "end": 24.656
+    },
+    {
+     "w": "So",
+     "start": 25.276,
+     "end": 25.476
+    },
+    {
+     "w": "the",
+     "start": 25.476,
+     "end": 25.576
+    },
+    {
+     "w": "adjutant",
+     "start": 25.576,
+     "end": 26.116
+    },
+    {
+     "w": "wrote",
+     "start": 26.116,
+     "end": 26.316
+    },
+    {
+     "w": "the",
+     "start": 26.316,
+     "end": 26.536
+    },
+    {
+     "w": "order",
+     "start": 26.536,
+     "end": 26.716
+    },
+    {
+     "w": "down.",
+     "start": 26.716,
+     "end": 27.036
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "Martin galloped back along the trail, as fast as his horse could run.",
+   "start": 27.67,
+   "end": 31.608,
+   "words": [
+    {
+     "w": "Martin",
+     "start": 27.57,
+     "end": 27.93
+    },
+    {
+     "w": "galloped",
+     "start": 27.93,
+     "end": 28.41
+    },
+    {
+     "w": "back",
+     "start": 28.41,
+     "end": 28.63
+    },
+    {
+     "w": "along",
+     "start": 28.63,
+     "end": 28.91
+    },
+    {
+     "w": "the",
+     "start": 28.91,
+     "end": 29.13
+    },
+    {
+     "w": "trail,",
+     "start": 29.13,
+     "end": 29.41
+    },
+    {
+     "w": "as",
+     "start": 29.41,
+     "end": 29.91
+    },
+    {
+     "w": "fast",
+     "start": 29.91,
+     "end": 30.19
+    },
+    {
+     "w": "as",
+     "start": 30.19,
+     "end": 30.47
+    },
+    {
+     "w": "his",
+     "start": 30.47,
+     "end": 30.59
+    },
+    {
+     "w": "horse",
+     "start": 30.59,
+     "end": 30.87
+    },
+    {
+     "w": "could",
+     "start": 30.87,
+     "end": 31.11
+    },
+    {
+     "w": "run.",
+     "start": 31.11,
+     "end": 31.37
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "\u201cBenteen. Come on. Big village. Be quick. Bring packs.\u201d",
+   "start": 31.908,
+   "end": 34.862,
+   "words": [
+    {
+     "w": "\u201cBenteen.",
+     "start": 31.908,
+     "end": 32.268
+    },
+    {
+     "w": "Come",
+     "start": 32.268,
+     "end": 32.488
+    },
+    {
+     "w": "on.",
+     "start": 32.488,
+     "end": 32.708
+    },
+    {
+     "w": "Big",
+     "start": 33.048,
+     "end": 33.148
+    },
+    {
+     "w": "village.",
+     "start": 33.148,
+     "end": 33.428
+    },
+    {
+     "w": "Be",
+     "start": 33.648,
+     "end": 33.688
+    },
+    {
+     "w": "quick.",
+     "start": 33.688,
+     "end": 33.888
+    },
+    {
+     "w": "Bring",
+     "start": 34.068,
+     "end": 34.208
+    },
+    {
+     "w": "packs.\u201d",
+     "start": 34.208,
+     "end": 34.428
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Packs meant the mules. They carried the reserve ammunition.",
+   "start": 35.362,
+   "end": 38.513,
+   "words": [
+    {
+     "w": "Packs",
+     "start": 35.362,
+     "end": 35.482
+    },
+    {
+     "w": "meant",
+     "start": 35.482,
+     "end": 35.782
+    },
+    {
+     "w": "the",
+     "start": 35.782,
+     "end": 35.942
+    },
+    {
+     "w": "mules.",
+     "start": 35.942,
+     "end": 36.222
+    },
+    {
+     "w": "They",
+     "start": 36.682,
+     "end": 36.782
+    },
+    {
+     "w": "carried",
+     "start": 36.782,
+     "end": 37.102
+    },
+    {
+     "w": "the",
+     "start": 37.102,
+     "end": 37.262
+    },
+    {
+     "w": "reserve",
+     "start": 37.262,
+     "end": 37.502
+    },
+    {
+     "w": "ammunition.",
+     "start": 37.502,
+     "end": 37.922
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Captain Benteen got the note. He rode on, but found Major Reno's men shattered on a hill. He stopped. And waited for the pack train.",
+   "start": 38.913,
+   "end": 46.594,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 38.813,
+     "end": 39.193
+    },
+    {
+     "w": "Benteen",
+     "start": 39.193,
+     "end": 39.633
+    },
+    {
+     "w": "got",
+     "start": 39.633,
+     "end": 39.893
+    },
+    {
+     "w": "the",
+     "start": 39.893,
+     "end": 40.073
+    },
+    {
+     "w": "note.",
+     "start": 40.073,
+     "end": 40.333
+    },
+    {
+     "w": "He",
+     "start": 40.853,
+     "end": 40.873
+    },
+    {
+     "w": "rode",
+     "start": 40.873,
+     "end": 41.033
+    },
+    {
+     "w": "on,",
+     "start": 41.033,
+     "end": 41.313
+    },
+    {
+     "w": "but",
+     "start": 41.313,
+     "end": 41.533
+    },
+    {
+     "w": "found",
+     "start": 41.533,
+     "end": 41.793
+    },
+    {
+     "w": "Major",
+     "start": 41.793,
+     "end": 42.173
+    },
+    {
+     "w": "Reno's",
+     "start": 42.173,
+     "end": 42.673
+    },
+    {
+     "w": "men",
+     "start": 42.673,
+     "end": 42.813
+    },
+    {
+     "w": "shattered",
+     "start": 42.813,
+     "end": 43.133
+    },
+    {
+     "w": "on",
+     "start": 43.133,
+     "end": 43.413
+    },
+    {
+     "w": "a",
+     "start": 43.413,
+     "end": 43.513
+    },
+    {
+     "w": "hill.",
+     "start": 43.513,
+     "end": 43.733
+    },
+    {
+     "w": "He",
+     "start": 44.233,
+     "end": 44.253
+    },
+    {
+     "w": "stopped.",
+     "start": 44.253,
+     "end": 44.573
+    },
+    {
+     "w": "And",
+     "start": 44.573,
+     "end": 45.193
+    },
+    {
+     "w": "waited",
+     "start": 45.193,
+     "end": 45.373
+    },
+    {
+     "w": "for",
+     "start": 45.373,
+     "end": 45.733
+    },
+    {
+     "w": "the",
+     "start": 45.733,
+     "end": 45.793
+    },
+    {
+     "w": "pack",
+     "start": 45.793,
+     "end": 45.933
+    },
+    {
+     "w": "train.",
+     "start": 45.933,
+     "end": 46.253
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "More than an hour passed. Custer and about 210 men were never seen alive again.",
+   "start": 46.994,
+   "end": 52.264,
+   "words": [
+    {
+     "w": "More",
+     "start": 46.894,
+     "end": 47.134
+    },
+    {
+     "w": "than",
+     "start": 47.134,
+     "end": 47.314
+    },
+    {
+     "w": "an",
+     "start": 47.314,
+     "end": 47.354
+    },
+    {
+     "w": "hour",
+     "start": 47.354,
+     "end": 47.634
+    },
+    {
+     "w": "passed.",
+     "start": 47.634,
+     "end": 48.034
+    },
+    {
+     "w": "Custer",
+     "start": 48.774,
+     "end": 48.974
+    },
+    {
+     "w": "and",
+     "start": 48.974,
+     "end": 49.234
+    },
+    {
+     "w": "about",
+     "start": 49.234,
+     "end": 49.374
+    },
+    {
+     "w": "210",
+     "start": 49.374,
+     "end": 49.734
+    },
+    {
+     "w": "men",
+     "start": 49.734,
+     "end": 50.734
+    },
+    {
+     "w": "were",
+     "start": 50.734,
+     "end": 50.954
+    },
+    {
+     "w": "never",
+     "start": 50.954,
+     "end": 51.154
+    },
+    {
+     "w": "seen",
+     "start": 51.154,
+     "end": 51.434
+    },
+    {
+     "w": "alive",
+     "start": 51.434,
+     "end": 51.774
+    },
+    {
+     "w": "again.",
+     "start": 51.774,
+     "end": 52.054
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Martin was one of the last soldiers to see Custer alive. Should Benteen have ridden on? Read the note again, and tell me.",
+   "start": 52.764,
+   "end": 59.717,
+   "words": [
+    {
+     "w": "Martin",
+     "start": 52.664,
+     "end": 52.944
+    },
+    {
+     "w": "was",
+     "start": 52.944,
+     "end": 53.224
+    },
+    {
+     "w": "one",
+     "start": 53.224,
+     "end": 53.424
+    },
+    {
+     "w": "of",
+     "start": 53.424,
+     "end": 53.504
+    },
+    {
+     "w": "the",
+     "start": 53.504,
+     "end": 53.604
+    },
+    {
+     "w": "last",
+     "start": 53.604,
+     "end": 53.824
+    },
+    {
+     "w": "soldiers",
+     "start": 53.824,
+     "end": 54.404
+    },
+    {
+     "w": "to",
+     "start": 54.404,
+     "end": 54.724
+    },
+    {
+     "w": "see",
+     "start": 54.724,
+     "end": 54.924
+    },
+    {
+     "w": "Custer",
+     "start": 54.924,
+     "end": 55.204
+    },
+    {
+     "w": "alive.",
+     "start": 55.204,
+     "end": 55.544
+    },
+    {
+     "w": "Should",
+     "start": 56.404,
+     "end": 56.424
+    },
+    {
+     "w": "Benteen",
+     "start": 56.424,
+     "end": 56.844
+    },
+    {
+     "w": "have",
+     "start": 56.844,
+     "end": 57.124
+    },
+    {
+     "w": "ridden",
+     "start": 57.124,
+     "end": 57.284
+    },
+    {
+     "w": "on?",
+     "start": 57.284,
+     "end": 57.604
+    },
+    {
+     "w": "Read",
+     "start": 57.944,
+     "end": 58.224
+    },
+    {
+     "w": "the",
+     "start": 58.224,
+     "end": 58.364
+    },
+    {
+     "w": "note",
+     "start": 58.364,
+     "end": 58.584
+    },
+    {
+     "w": "again,",
+     "start": 58.584,
+     "end": 58.864
+    },
+    {
+     "w": "and",
+     "start": 58.864,
+     "end": 59.124
+    },
+    {
+     "w": "tell",
+     "start": 59.124,
+     "end": 59.364
+    },
+    {
+     "w": "me.",
+     "start": 59.364,
+     "end": 59.564
+    }
+   ]
+  }
+ ]
+}

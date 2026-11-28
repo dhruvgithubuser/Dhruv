@@ -1,0 +1,102 @@
+[
+ {
+  "file": "boom.wav",
+  "at": 0.0,
+  "volume": 0.6
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 0.0,
+  "volume": 0.3
+ },
+ {
+  "file": "boom.wav",
+  "at": 4.866,
+  "volume": 0.55
+ },
+ {
+  "file": "click.wav",
+  "at": 11.055,
+  "volume": 0.5
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 13.049,
+  "volume": 0.3
+ },
+ {
+  "file": "radio.wav",
+  "at": 20.225,
+  "volume": 0.25
+ },
+ {
+  "file": "boom.wav",
+  "at": 29.166,
+  "volume": 0.45
+ },
+ {
+  "file": "boom.wav",
+  "at": 29.566,
+  "volume": 0.45
+ },
+ {
+  "file": "boom.wav",
+  "at": 29.966,
+  "volume": 0.45
+ },
+ {
+  "file": "boom.wav",
+  "at": 30.366,
+  "volume": 0.45
+ },
+ {
+  "file": "boom.wav",
+  "at": 32.555,
+  "volume": 0.6
+ },
+ {
+  "file": "boom.wav",
+  "at": 33.355,
+  "volume": 0.6
+ },
+ {
+  "file": "boom.wav",
+  "at": 34.088,
+  "volume": 0.6
+ },
+ {
+  "file": "boom.wav",
+  "at": 35.022,
+  "volume": 0.6
+ },
+ {
+  "file": "radio.wav",
+  "at": 41.958,
+  "volume": 0.5
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 46.298,
+  "volume": 0.3
+ },
+ {
+  "file": "click.wav",
+  "at": 58.702,
+  "volume": 0.6
+ },
+ {
+  "file": "boom.wav",
+  "at": 64.067,
+  "volume": 0.5
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 71.083,
+  "volume": 0.45
+ },
+ {
+  "file": "wind.wav",
+  "at": 74.965,
+  "volume": 0.3
+ }
+]

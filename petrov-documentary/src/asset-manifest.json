@@ -1,0 +1,263 @@
+{
+ "note": "available=false: the scene uses its code-drawn art; add the file to override",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "The hook",
+   "narration": [
+    "What if the fate of the world rested in the hands of just one man?"
+   ],
+   "codeDrawnArt": [
+    "BunkerWide",
+    "PetrovStanding",
+    "AnimatedGlobe",
+    "ForegroundConsole",
+    "EmergencyLights"
+   ],
+   "illustration": {
+    "file": "images/scene-01/illustration.png",
+    "available": false,
+    "prompt": "Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly, standing alone in a vast underground Soviet early-warning command bunker, giant wall map display, rows of consoles, red light pulsing, dust in light shafts, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 2,
+   "title": "Date reveal",
+   "narration": [
+    "On September 26, 1983,"
+   ],
+   "codeDrawnArt": [
+    "TearCalendar",
+    "WallClock",
+    "Typewriter"
+   ],
+   "illustration": {
+    "file": "images/scene-02/illustration.png",
+    "available": false,
+    "prompt": "Soviet tear-off desk calendar showing 26 СЕНТЯБРЬ 1983 ПОНЕДЕЛЬНИК on a worn bunker desk, wall clock just after midnight, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 3,
+   "title": "Cold War background",
+   "narration": [
+    "during the height of the Cold War,"
+   ],
+   "codeDrawnArt": [
+    "AnimatedGlobe",
+    "Stars"
+   ],
+   "illustration": {
+    "file": "images/scene-03/illustration.png",
+    "available": false,
+    "prompt": "Earth from space centred on the Arctic, USA lit cold blue and the Soviet Union lit red, bomber silhouettes and missile arcs, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 4,
+   "title": "Introducing Petrov",
+   "narration": [
+    "Soviet officer Stanislav Petrov was on duty at a secret early-warning command center."
+   ],
+   "codeDrawnArt": [
+    "Petrov",
+    "BunkerWide",
+    "RadarAnimation",
+    "ForegroundConsole"
+   ],
+   "illustration": {
+    "file": "images/scene-04/illustration.png",
+    "available": false,
+    "prompt": "Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly, seated at a 1980s Soviet early-warning console, green radar glow on his face, officers at consoles behind, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 5,
+   "title": "The bunker",
+   "narration": [
+    "Suddenly, alarms erupted."
+   ],
+   "codeDrawnArt": [
+    "BunkerWide",
+    "EmergencyLights",
+    "ForegroundConsole"
+   ],
+   "illustration": {
+    "file": "images/scene-05/illustration.png",
+    "available": false,
+    "prompt": "wide shot of a Soviet nuclear early-warning command centre as red emergency lights switch on, the illuminated sign \"СТАРТ\" above a wall map, officers turning, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 6,
+   "title": "The warning",
+   "narration": [
+    "The Soviet satellite system reported that American nuclear missiles were heading toward the Soviet Union."
+   ],
+   "codeDrawnArt": [
+    "RadarAnimation",
+    "MissileTrajectory"
+   ],
+   "illustration": {
+    "file": "images/scene-06/illustration.png",
+    "available": false,
+    "prompt": "close-up of a circular 1980s radar CRT showing a polar map with five red missile tracks from the USA toward the USSR, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 7,
+   "title": "Procedure",
+   "narration": [
+    "According to procedure, Petrov had to report the warning immediately to his superiors."
+   ],
+   "codeDrawnArt": [
+    "Petrov",
+    "RedPhone",
+    "BunkerWide"
+   ],
+   "illustration": {
+    "file": "images/scene-07/illustration.png",
+    "available": false,
+    "prompt": "Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly, standing beside a red secure military telephone with no dial, his hand moving toward the receiver, officers watching, red light, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 8,
+   "title": "The consequences",
+   "narration": [
+    "A false decision could have pushed the world toward nuclear catastrophe."
+   ],
+   "codeDrawnArt": [
+    "RedPhone",
+    "MissileSilhouettes"
+   ],
+   "illustration": {
+    "file": "images/scene-08/illustration.png",
+    "available": false,
+    "prompt": "red military telephone in the foreground, silhouettes of ICBMs rising from silos in red smoke behind, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 9,
+   "title": "The doubt",
+   "narration": [
+    "But something didn't feel right."
+   ],
+   "codeDrawnArt": [
+    "Petrov"
+   ],
+   "illustration": {
+    "file": "images/scene-09/illustration.png",
+    "available": false,
+    "prompt": "extreme close-up of Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly's eyes, radar light reflecting across his face, darkness around, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 10,
+   "title": "Five missiles",
+   "narration": [
+    "The system initially detected just one launch, followed by four more.",
+    "Petrov questioned the warning.",
+    "A real American first strike, he reasoned, would hardly begin with only five missiles."
+   ],
+   "codeDrawnArt": [
+    "RadarAnimation",
+    "MissileTrajectory"
+   ],
+   "illustration": {
+    "file": "images/scene-10/illustration.png",
+    "available": false,
+    "prompt": "radar display with exactly five missile warning markers, comparison inset of hundreds of missile icons, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 11,
+   "title": "The decision",
+   "narration": [
+    "He decided the alert was probably a false alarm and reported it that way."
+   ],
+   "codeDrawnArt": [
+    "Petrov",
+    "BunkerWide",
+    "EmergencyLights"
+   ],
+   "illustration": {
+    "file": "images/scene-11/illustration.png",
+    "available": false,
+    "prompt": "Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly, calmly speaking into a red telephone handset while red alarm lights flash and officers watch uncertainly, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 12,
+   "title": "The silence",
+   "narration": [
+    "Minutes passed.",
+    "No missiles arrived."
+   ],
+   "codeDrawnArt": [
+    "BunkerWide",
+    "WallClock",
+    "TimelineGraphic"
+   ],
+   "illustration": {
+    "file": "images/scene-12/illustration.png",
+    "available": false,
+    "prompt": "quiet Soviet command bunker after an alarm, red lights fading, officers waiting, a wall clock, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 13,
+   "title": "The satellite error",
+   "narration": [
+    "Investigators later discovered that sunlight reflecting off high-altitude clouds had fooled the Soviet satellite system."
+   ],
+   "codeDrawnArt": [
+    "AnimatedGlobe",
+    "Satellite",
+    "Sun",
+    "Ray"
+   ],
+   "illustration": {
+    "file": "images/scene-13/illustration.png",
+    "available": false,
+    "prompt": "Soviet early-warning satellite above Earth, sunlight glinting off high-altitude clouds over North America toward its sensor, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 14,
+   "title": "The legacy",
+   "narration": [
+    "Petrov's judgment helped prevent a dangerous miscalculation during one of the Cold War's tensest moments."
+   ],
+   "codeDrawnArt": [
+    "Corridor",
+    "PetrovStanding",
+    "AnimatedGlobe"
+   ],
+   "illustration": {
+    "file": "images/scene-14/illustration.png",
+    "available": false,
+    "prompt": "Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly, walking alone down a dim Soviet military corridor, red lights giving way to warm light, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  },
+  {
+   "scene": 15,
+   "title": "Final message",
+   "narration": [
+    "He was not a man who launched a weapon.",
+    "He was the man who refused to mistake a warning for certainty.",
+    "Sometimes, the bravest decision is knowing when not to act."
+   ],
+   "codeDrawnArt": [
+    "Petrov (silhouette)",
+    "AnimatedGlobe",
+    "DocTitle"
+   ],
+   "illustration": {
+    "file": "images/scene-15/illustration.png",
+    "available": false,
+    "prompt": "silhouette of Lt. Col. Stanislav Petrov, 44, Soviet Air Defence Forces officer, short dark hair neatly combed back with a side part, clean-shaven, strong square jaw, serious composed expression, olive uniform jacket, white shirt, dark tie, lieutenant-colonel shoulder boards; match the supplied 1983 reference photo exactly against a peaceful Earth glowing gold, semi-realistic hand-painted digital illustration, textured brush strokes, dark cinematic lighting, muted olive/charcoal/brown palette, 1980s Soviet technology, 9:16 vertical, no text"
+   }
+  }
+ ]
+}

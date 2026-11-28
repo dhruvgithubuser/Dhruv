@@ -1,0 +1,2483 @@
+{
+ "fps": 30,
+ "duration": 246.114,
+ "voice": "kokoro hm_omega (en-gb phonemes)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "Thursday, the twelfth of June, 2025. Ahmedabad, Gujarat.",
+   "start": 6.5,
+   "end": 11.213,
+   "words": [
+    {
+     "w": "Thursday,",
+     "start": 6.4,
+     "end": 6.86
+    },
+    {
+     "w": "the",
+     "start": 6.86,
+     "end": 7.147
+    },
+    {
+     "w": "twelfth",
+     "start": 7.147,
+     "end": 7.433
+    },
+    {
+     "w": "of",
+     "start": 7.433,
+     "end": 7.72
+    },
+    {
+     "w": "June,",
+     "start": 7.72,
+     "end": 7.9
+    },
+    {
+     "w": "2025.",
+     "start": 7.9,
+     "end": 9.14
+    },
+    {
+     "w": "Ahmedabad,",
+     "start": 9.86,
+     "end": 10.3
+    },
+    {
+     "w": "Gujarat.",
+     "start": 10.3,
+     "end": 10.76
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "text": "The afternoon was hot and clear. Light winds. Six kilometres of visibility.",
+   "start": 11.913,
+   "end": 17.118,
+   "words": [
+    {
+     "w": "The",
+     "start": 11.813,
+     "end": 11.993
+    },
+    {
+     "w": "afternoon",
+     "start": 11.993,
+     "end": 12.273
+    },
+    {
+     "w": "was",
+     "start": 12.273,
+     "end": 12.773
+    },
+    {
+     "w": "hot",
+     "start": 12.773,
+     "end": 13.053
+    },
+    {
+     "w": "and",
+     "start": 13.053,
+     "end": 13.313
+    },
+    {
+     "w": "clear.",
+     "start": 13.313,
+     "end": 13.633
+    },
+    {
+     "w": "Light",
+     "start": 14.193,
+     "end": 14.393
+    },
+    {
+     "w": "winds.",
+     "start": 14.393,
+     "end": 14.673
+    },
+    {
+     "w": "Six",
+     "start": 14.673,
+     "end": 15.293
+    },
+    {
+     "w": "kilometres",
+     "start": 15.293,
+     "end": 15.913
+    },
+    {
+     "w": "of",
+     "start": 15.913,
+     "end": 16.273
+    },
+    {
+     "w": "visibility.",
+     "start": 16.273,
+     "end": 16.653
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "At Sardar Vallabhbhai Patel International Airport, a Boeing 787 Dreamliner was being prepared for a long flight west, to London Gatwick.",
+   "start": 18.018,
+   "end": 28.239,
+   "words": [
+    {
+     "w": "At",
+     "start": 17.918,
+     "end": 18.138
+    },
+    {
+     "w": "Sardar",
+     "start": 18.138,
+     "end": 18.818
+    },
+    {
+     "w": "Vallabhbhai",
+     "start": 18.818,
+     "end": 19.498
+    },
+    {
+     "w": "Patel",
+     "start": 19.498,
+     "end": 20.098
+    },
+    {
+     "w": "International",
+     "start": 20.098,
+     "end": 20.658
+    },
+    {
+     "w": "Airport,",
+     "start": 20.658,
+     "end": 21.238
+    },
+    {
+     "w": "a",
+     "start": 21.898,
+     "end": 21.918
+    },
+    {
+     "w": "Boeing",
+     "start": 21.918,
+     "end": 22.158
+    },
+    {
+     "w": "787",
+     "start": 22.158,
+     "end": 22.938
+    },
+    {
+     "w": "Dreamliner",
+     "start": 22.938,
+     "end": 23.838
+    },
+    {
+     "w": "was",
+     "start": 23.838,
+     "end": 24.518
+    },
+    {
+     "w": "being",
+     "start": 24.518,
+     "end": 24.698
+    },
+    {
+     "w": "prepared",
+     "start": 24.698,
+     "end": 25.018
+    },
+    {
+     "w": "for",
+     "start": 25.018,
+     "end": 25.478
+    },
+    {
+     "w": "a",
+     "start": 25.478,
+     "end": 25.578
+    },
+    {
+     "w": "long",
+     "start": 25.578,
+     "end": 25.798
+    },
+    {
+     "w": "flight",
+     "start": 25.798,
+     "end": 26.118
+    },
+    {
+     "w": "west,",
+     "start": 26.118,
+     "end": 26.518
+    },
+    {
+     "w": "to",
+     "start": 26.518,
+     "end": 27.238
+    },
+    {
+     "w": "London",
+     "start": 27.238,
+     "end": 27.478
+    },
+    {
+     "w": "Gatwick.",
+     "start": 27.478,
+     "end": 28.038
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "This is the story of Air India Flight 171, and of thirty-two seconds that are still not fully explained.",
+   "start": 29.039,
+   "end": 36.517,
+   "words": [
+    {
+     "w": "This",
+     "start": 28.939,
+     "end": 29.219
+    },
+    {
+     "w": "is",
+     "start": 29.219,
+     "end": 29.439
+    },
+    {
+     "w": "the",
+     "start": 29.439,
+     "end": 29.599
+    },
+    {
+     "w": "story",
+     "start": 29.599,
+     "end": 29.979
+    },
+    {
+     "w": "of",
+     "start": 29.979,
+     "end": 30.359
+    },
+    {
+     "w": "Air",
+     "start": 30.359,
+     "end": 30.659
+    },
+    {
+     "w": "India",
+     "start": 30.659,
+     "end": 30.999
+    },
+    {
+     "w": "Flight",
+     "start": 30.999,
+     "end": 31.379
+    },
+    {
+     "w": "171,",
+     "start": 31.379,
+     "end": 32.259
+    },
+    {
+     "w": "and",
+     "start": 32.259,
+     "end": 33.079
+    },
+    {
+     "w": "of",
+     "start": 33.079,
+     "end": 33.179
+    },
+    {
+     "w": "thirty-two",
+     "start": 33.179,
+     "end": 33.619
+    },
+    {
+     "w": "seconds",
+     "start": 33.619,
+     "end": 34.219
+    },
+    {
+     "w": "that",
+     "start": 34.219,
+     "end": 34.799
+    },
+    {
+     "w": "are",
+     "start": 34.799,
+     "end": 34.879
+    },
+    {
+     "w": "still",
+     "start": 34.879,
+     "end": 35.119
+    },
+    {
+     "w": "not",
+     "start": 35.119,
+     "end": 35.299
+    },
+    {
+     "w": "fully",
+     "start": 35.299,
+     "end": 35.559
+    },
+    {
+     "w": "explained.",
+     "start": 35.559,
+     "end": 36.199
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "Air India Flight 171. Two hundred and thirty passengers. Twelve crew.",
+   "start": 41.517,
+   "end": 46.838,
+   "words": [
+    {
+     "w": "Air",
+     "start": 41.517,
+     "end": 41.657
+    },
+    {
+     "w": "India",
+     "start": 41.657,
+     "end": 42.097
+    },
+    {
+     "w": "Flight",
+     "start": 42.097,
+     "end": 42.397
+    },
+    {
+     "w": "171.",
+     "start": 42.397,
+     "end": 43.337
+    },
+    {
+     "w": "Two",
+     "start": 43.337,
+     "end": 43.712
+    },
+    {
+     "w": "hundred",
+     "start": 43.712,
+     "end": 44.087
+    },
+    {
+     "w": "and",
+     "start": 44.087,
+     "end": 44.462
+    },
+    {
+     "w": "thirty",
+     "start": 44.462,
+     "end": 44.837
+    },
+    {
+     "w": "passengers.",
+     "start": 44.837,
+     "end": 45.557
+    },
+    {
+     "w": "Twelve",
+     "start": 45.557,
+     "end": 46.297
+    },
+    {
+     "w": "crew.",
+     "start": 46.297,
+     "end": 46.597
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "The aircraft, registered VT-ANB, had flown with Air India since 2014.",
+   "start": 47.438,
+   "end": 53.068,
+   "words": [
+    {
+     "w": "The",
+     "start": 47.338,
+     "end": 47.538
+    },
+    {
+     "w": "aircraft,",
+     "start": 47.538,
+     "end": 47.838
+    },
+    {
+     "w": "registered",
+     "start": 48.958,
+     "end": 48.958
+    },
+    {
+     "w": "VT-ANB,",
+     "start": 48.958,
+     "end": 50.418
+    },
+    {
+     "w": "had",
+     "start": 50.418,
+     "end": 50.538
+    },
+    {
+     "w": "flown",
+     "start": 50.538,
+     "end": 50.798
+    },
+    {
+     "w": "with",
+     "start": 50.798,
+     "end": 51.118
+    },
+    {
+     "w": "Air",
+     "start": 51.118,
+     "end": 51.378
+    },
+    {
+     "w": "India",
+     "start": 51.378,
+     "end": 51.698
+    },
+    {
+     "w": "since",
+     "start": 51.698,
+     "end": 52.058
+    },
+    {
+     "w": "2014.",
+     "start": 52.058,
+     "end": 52.838
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "In the cockpit sat an experienced crew. The captain had logged around 15,600 hours. The first officer, around 3,400.",
+   "start": 53.868,
+   "end": 63.94,
+   "words": [
+    {
+     "w": "In",
+     "start": 53.768,
+     "end": 53.968
+    },
+    {
+     "w": "the",
+     "start": 53.968,
+     "end": 54.048
+    },
+    {
+     "w": "cockpit",
+     "start": 54.048,
+     "end": 54.308
+    },
+    {
+     "w": "sat",
+     "start": 54.308,
+     "end": 54.908
+    },
+    {
+     "w": "an",
+     "start": 54.908,
+     "end": 55.148
+    },
+    {
+     "w": "experienced",
+     "start": 55.148,
+     "end": 55.528
+    },
+    {
+     "w": "crew.",
+     "start": 55.528,
+     "end": 56.188
+    },
+    {
+     "w": "The",
+     "start": 56.848,
+     "end": 56.848
+    },
+    {
+     "w": "captain",
+     "start": 56.848,
+     "end": 57.088
+    },
+    {
+     "w": "had",
+     "start": 57.088,
+     "end": 57.448
+    },
+    {
+     "w": "logged",
+     "start": 57.448,
+     "end": 57.748
+    },
+    {
+     "w": "around",
+     "start": 57.748,
+     "end": 58.248
+    },
+    {
+     "w": "15,600",
+     "start": 58.248,
+     "end": 59.448
+    },
+    {
+     "w": "hours.",
+     "start": 59.448,
+     "end": 60.188
+    },
+    {
+     "w": "The",
+     "start": 60.788,
+     "end": 60.828
+    },
+    {
+     "w": "first",
+     "start": 60.828,
+     "end": 61.088
+    },
+    {
+     "w": "officer,",
+     "start": 61.088,
+     "end": 61.468
+    },
+    {
+     "w": "around",
+     "start": 61.468,
+     "end": 62.268
+    },
+    {
+     "w": "3,400.",
+     "start": 62.268,
+     "end": 63.94
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "The jet was cleared for a full-length takeoff from runway 23.",
+   "start": 64.84,
+   "end": 68.916,
+   "words": [
+    {
+     "w": "The",
+     "start": 64.74,
+     "end": 64.94
+    },
+    {
+     "w": "jet",
+     "start": 64.94,
+     "end": 65.2
+    },
+    {
+     "w": "was",
+     "start": 65.2,
+     "end": 65.48
+    },
+    {
+     "w": "cleared",
+     "start": 65.48,
+     "end": 65.82
+    },
+    {
+     "w": "for",
+     "start": 65.82,
+     "end": 66.12
+    },
+    {
+     "w": "a",
+     "start": 66.12,
+     "end": 66.22
+    },
+    {
+     "w": "full-length",
+     "start": 66.22,
+     "end": 66.75
+    },
+    {
+     "w": "takeoff",
+     "start": 66.75,
+     "end": 67.28
+    },
+    {
+     "w": "from",
+     "start": 67.28,
+     "end": 67.78
+    },
+    {
+     "w": "runway",
+     "start": 67.78,
+     "end": 68.02
+    },
+    {
+     "w": "23.",
+     "start": 68.02,
+     "end": 68.6
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "After a 62-second takeoff roll, at 1:38 and 39 seconds in the afternoon, Flight 171 left the ground.",
+   "start": 69.516,
+   "end": 78.489,
+   "words": [
+    {
+     "w": "After",
+     "start": 69.416,
+     "end": 69.796
+    },
+    {
+     "w": "a",
+     "start": 69.796,
+     "end": 69.976
+    },
+    {
+     "w": "62-second",
+     "start": 69.976,
+     "end": 70.749
+    },
+    {
+     "w": "takeoff",
+     "start": 70.749,
+     "end": 71.523
+    },
+    {
+     "w": "roll,",
+     "start": 71.523,
+     "end": 72.296
+    },
+    {
+     "w": "at",
+     "start": 72.296,
+     "end": 72.316
+    },
+    {
+     "w": "1:38",
+     "start": 72.316,
+     "end": 73.036
+    },
+    {
+     "w": "and",
+     "start": 73.036,
+     "end": 73.596
+    },
+    {
+     "w": "39",
+     "start": 73.596,
+     "end": 74.016
+    },
+    {
+     "w": "seconds",
+     "start": 74.016,
+     "end": 74.616
+    },
+    {
+     "w": "in",
+     "start": 74.616,
+     "end": 74.876
+    },
+    {
+     "w": "the",
+     "start": 74.876,
+     "end": 74.996
+    },
+    {
+     "w": "afternoon,",
+     "start": 74.996,
+     "end": 75.456
+    },
+    {
+     "w": "Flight",
+     "start": 76.096,
+     "end": 76.236
+    },
+    {
+     "w": "171",
+     "start": 76.236,
+     "end": 76.976
+    },
+    {
+     "w": "left",
+     "start": 76.976,
+     "end": 77.696
+    },
+    {
+     "w": "the",
+     "start": 77.696,
+     "end": 77.956
+    },
+    {
+     "w": "ground.",
+     "start": 77.956,
+     "end": 78.216
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Three seconds later, at 180 knots, the flight recorder logged something extraordinary.",
+   "start": 79.689,
+   "end": 86.021,
+   "words": [
+    {
+     "w": "Three",
+     "start": 79.589,
+     "end": 79.869
+    },
+    {
+     "w": "seconds",
+     "start": 79.869,
+     "end": 80.189
+    },
+    {
+     "w": "later,",
+     "start": 80.189,
+     "end": 80.589
+    },
+    {
+     "w": "at",
+     "start": 81.069,
+     "end": 81.149
+    },
+    {
+     "w": "180",
+     "start": 81.149,
+     "end": 81.789
+    },
+    {
+     "w": "knots,",
+     "start": 81.789,
+     "end": 82.469
+    },
+    {
+     "w": "the",
+     "start": 82.989,
+     "end": 83.089
+    },
+    {
+     "w": "flight",
+     "start": 83.089,
+     "end": 83.369
+    },
+    {
+     "w": "recorder",
+     "start": 83.369,
+     "end": 83.789
+    },
+    {
+     "w": "logged",
+     "start": 83.789,
+     "end": 84.489
+    },
+    {
+     "w": "something",
+     "start": 84.489,
+     "end": 84.989
+    },
+    {
+     "w": "extraordinary.",
+     "start": 84.989,
+     "end": 85.649
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Both engine fuel control switches moved from RUN to CUTOFF. One after the other. One second apart.",
+   "start": 86.721,
+   "end": 94.139,
+   "words": [
+    {
+     "w": "Both",
+     "start": 86.621,
+     "end": 86.961
+    },
+    {
+     "w": "engine",
+     "start": 86.961,
+     "end": 87.281
+    },
+    {
+     "w": "fuel",
+     "start": 87.281,
+     "end": 87.681
+    },
+    {
+     "w": "control",
+     "start": 87.681,
+     "end": 88.101
+    },
+    {
+     "w": "switches",
+     "start": 88.101,
+     "end": 88.461
+    },
+    {
+     "w": "moved",
+     "start": 88.461,
+     "end": 88.981
+    },
+    {
+     "w": "from",
+     "start": 88.981,
+     "end": 89.281
+    },
+    {
+     "w": "RUN",
+     "start": 89.281,
+     "end": 89.881
+    },
+    {
+     "w": "to",
+     "start": 89.881,
+     "end": 90.481
+    },
+    {
+     "w": "CUTOFF.",
+     "start": 90.481,
+     "end": 91.461
+    },
+    {
+     "w": "One",
+     "start": 91.461,
+     "end": 91.601
+    },
+    {
+     "w": "after",
+     "start": 91.601,
+     "end": 91.981
+    },
+    {
+     "w": "the",
+     "start": 91.981,
+     "end": 92.221
+    },
+    {
+     "w": "other.",
+     "start": 92.221,
+     "end": 92.461
+    },
+    {
+     "w": "One",
+     "start": 92.961,
+     "end": 93.101
+    },
+    {
+     "w": "second",
+     "start": 93.101,
+     "end": 93.461
+    },
+    {
+     "w": "apart.",
+     "start": 93.461,
+     "end": 93.801
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Fuel to both engines stopped. Thrust began to fall away. The ram air turbine, the aircraft's emergency power source, dropped into the airstream.",
+   "start": 95.039,
+   "end": 104.482,
+   "words": [
+    {
+     "w": "Fuel",
+     "start": 95.039,
+     "end": 95.379
+    },
+    {
+     "w": "to",
+     "start": 95.379,
+     "end": 95.459
+    },
+    {
+     "w": "both",
+     "start": 95.459,
+     "end": 95.679
+    },
+    {
+     "w": "engines",
+     "start": 95.679,
+     "end": 95.939
+    },
+    {
+     "w": "stopped.",
+     "start": 95.939,
+     "end": 96.539
+    },
+    {
+     "w": "Thrust",
+     "start": 97.059,
+     "end": 97.259
+    },
+    {
+     "w": "began",
+     "start": 97.259,
+     "end": 97.699
+    },
+    {
+     "w": "to",
+     "start": 97.699,
+     "end": 97.959
+    },
+    {
+     "w": "fall",
+     "start": 97.959,
+     "end": 98.179
+    },
+    {
+     "w": "away.",
+     "start": 98.179,
+     "end": 98.479
+    },
+    {
+     "w": "The",
+     "start": 99.179,
+     "end": 99.199
+    },
+    {
+     "w": "ram",
+     "start": 99.199,
+     "end": 99.439
+    },
+    {
+     "w": "air",
+     "start": 99.439,
+     "end": 99.719
+    },
+    {
+     "w": "turbine,",
+     "start": 99.719,
+     "end": 100.139
+    },
+    {
+     "w": "the",
+     "start": 100.679,
+     "end": 100.779
+    },
+    {
+     "w": "aircraft's",
+     "start": 100.779,
+     "end": 101.439
+    },
+    {
+     "w": "emergency",
+     "start": 101.439,
+     "end": 101.859
+    },
+    {
+     "w": "power",
+     "start": 101.859,
+     "end": 102.279
+    },
+    {
+     "w": "source,",
+     "start": 102.279,
+     "end": 102.719
+    },
+    {
+     "w": "dropped",
+     "start": 103.219,
+     "end": 103.299
+    },
+    {
+     "w": "into",
+     "start": 103.299,
+     "end": 103.579
+    },
+    {
+     "w": "the",
+     "start": 103.579,
+     "end": 103.739
+    },
+    {
+     "w": "airstream.",
+     "start": 103.739,
+     "end": 104.482
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "On the cockpit voice recording, one pilot asks the other why he cut off the fuel. The other replies that he did not.",
+   "start": 105.282,
+   "end": 112.743,
+   "words": [
+    {
+     "w": "On",
+     "start": 105.182,
+     "end": 105.402
+    },
+    {
+     "w": "the",
+     "start": 105.402,
+     "end": 105.542
+    },
+    {
+     "w": "cockpit",
+     "start": 105.542,
+     "end": 105.802
+    },
+    {
+     "w": "voice",
+     "start": 105.802,
+     "end": 106.202
+    },
+    {
+     "w": "recording,",
+     "start": 106.202,
+     "end": 106.682
+    },
+    {
+     "w": "one",
+     "start": 107.322,
+     "end": 107.502
+    },
+    {
+     "w": "pilot",
+     "start": 107.502,
+     "end": 107.842
+    },
+    {
+     "w": "asks",
+     "start": 107.842,
+     "end": 108.362
+    },
+    {
+     "w": "the",
+     "start": 108.362,
+     "end": 108.582
+    },
+    {
+     "w": "other",
+     "start": 108.582,
+     "end": 108.802
+    },
+    {
+     "w": "why",
+     "start": 108.802,
+     "end": 109.322
+    },
+    {
+     "w": "he",
+     "start": 109.322,
+     "end": 109.502
+    },
+    {
+     "w": "cut",
+     "start": 109.502,
+     "end": 109.722
+    },
+    {
+     "w": "off",
+     "start": 109.722,
+     "end": 109.902
+    },
+    {
+     "w": "the",
+     "start": 109.902,
+     "end": 110.022
+    },
+    {
+     "w": "fuel.",
+     "start": 110.022,
+     "end": 110.262
+    },
+    {
+     "w": "The",
+     "start": 110.922,
+     "end": 110.942
+    },
+    {
+     "w": "other",
+     "start": 110.942,
+     "end": 111.162
+    },
+    {
+     "w": "replies",
+     "start": 111.162,
+     "end": 111.582
+    },
+    {
+     "w": "that",
+     "start": 111.582,
+     "end": 111.962
+    },
+    {
+     "w": "he",
+     "start": 111.962,
+     "end": 112.102
+    },
+    {
+     "w": "did",
+     "start": 112.102,
+     "end": 112.262
+    },
+    {
+     "w": "not.",
+     "start": 112.262,
+     "end": 112.562
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "Ten seconds after the cutoff, the first switch was moved back to RUN. Four seconds later, the second. The engines began trying to relight.",
+   "start": 113.643,
+   "end": 122.803,
+   "words": [
+    {
+     "w": "Ten",
+     "start": 113.543,
+     "end": 113.783
+    },
+    {
+     "w": "seconds",
+     "start": 113.783,
+     "end": 114.143
+    },
+    {
+     "w": "after",
+     "start": 114.143,
+     "end": 114.463
+    },
+    {
+     "w": "the",
+     "start": 114.463,
+     "end": 114.703
+    },
+    {
+     "w": "cutoff,",
+     "start": 114.703,
+     "end": 115.503
+    },
+    {
+     "w": "the",
+     "start": 115.503,
+     "end": 115.583
+    },
+    {
+     "w": "first",
+     "start": 115.583,
+     "end": 115.843
+    },
+    {
+     "w": "switch",
+     "start": 115.843,
+     "end": 116.103
+    },
+    {
+     "w": "was",
+     "start": 116.103,
+     "end": 116.403
+    },
+    {
+     "w": "moved",
+     "start": 116.403,
+     "end": 116.703
+    },
+    {
+     "w": "back",
+     "start": 116.703,
+     "end": 117.003
+    },
+    {
+     "w": "to",
+     "start": 117.003,
+     "end": 117.243
+    },
+    {
+     "w": "RUN.",
+     "start": 117.243,
+     "end": 117.823
+    },
+    {
+     "w": "Four",
+     "start": 118.483,
+     "end": 118.563
+    },
+    {
+     "w": "seconds",
+     "start": 118.563,
+     "end": 118.863
+    },
+    {
+     "w": "later,",
+     "start": 118.863,
+     "end": 119.303
+    },
+    {
+     "w": "the",
+     "start": 119.683,
+     "end": 119.763
+    },
+    {
+     "w": "second.",
+     "start": 119.763,
+     "end": 120.083
+    },
+    {
+     "w": "The",
+     "start": 120.563,
+     "end": 120.723
+    },
+    {
+     "w": "engines",
+     "start": 120.723,
+     "end": 120.983
+    },
+    {
+     "w": "began",
+     "start": 120.983,
+     "end": 121.543
+    },
+    {
+     "w": "trying",
+     "start": 121.543,
+     "end": 121.863
+    },
+    {
+     "w": "to",
+     "start": 121.863,
+     "end": 122.183
+    },
+    {
+     "w": "relight.",
+     "start": 122.183,
+     "end": 122.803
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Then, a mayday call. A loss of thrust. The controller asked for the flight's call sign. There was no reply.",
+   "start": 123.603,
+   "end": 130.56,
+   "words": [
+    {
+     "w": "Then,",
+     "start": 123.503,
+     "end": 123.883
+    },
+    {
+     "w": "a",
+     "start": 123.883,
+     "end": 124.143
+    },
+    {
+     "w": "mayday",
+     "start": 124.143,
+     "end": 124.543
+    },
+    {
+     "w": "call.",
+     "start": 124.543,
+     "end": 124.783
+    },
+    {
+     "w": "A",
+     "start": 125.283,
+     "end": 125.323
+    },
+    {
+     "w": "loss",
+     "start": 125.323,
+     "end": 125.523
+    },
+    {
+     "w": "of",
+     "start": 125.523,
+     "end": 125.763
+    },
+    {
+     "w": "thrust.",
+     "start": 125.763,
+     "end": 126.083
+    },
+    {
+     "w": "The",
+     "start": 126.743,
+     "end": 126.743
+    },
+    {
+     "w": "controller",
+     "start": 126.743,
+     "end": 127.123
+    },
+    {
+     "w": "asked",
+     "start": 127.123,
+     "end": 127.583
+    },
+    {
+     "w": "for",
+     "start": 127.583,
+     "end": 127.903
+    },
+    {
+     "w": "the",
+     "start": 127.903,
+     "end": 127.983
+    },
+    {
+     "w": "flight's",
+     "start": 127.983,
+     "end": 128.383
+    },
+    {
+     "w": "call",
+     "start": 128.383,
+     "end": 128.523
+    },
+    {
+     "w": "sign.",
+     "start": 128.523,
+     "end": 128.983
+    },
+    {
+     "w": "There",
+     "start": 129.463,
+     "end": 129.503
+    },
+    {
+     "w": "was",
+     "start": 129.503,
+     "end": 129.603
+    },
+    {
+     "w": "no",
+     "start": 129.603,
+     "end": 129.823
+    },
+    {
+     "w": "reply.",
+     "start": 129.823,
+     "end": 130.123
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "Thirty-two seconds after takeoff, at 13:39 and 11 seconds, the recordings stopped.",
+   "start": 131.46,
+   "end": 137.788,
+   "words": [
+    {
+     "w": "Thirty-two",
+     "start": 131.46,
+     "end": 131.82
+    },
+    {
+     "w": "seconds",
+     "start": 131.82,
+     "end": 132.34
+    },
+    {
+     "w": "after",
+     "start": 132.34,
+     "end": 132.74
+    },
+    {
+     "w": "takeoff,",
+     "start": 132.74,
+     "end": 133.16
+    },
+    {
+     "w": "at",
+     "start": 133.76,
+     "end": 133.82
+    },
+    {
+     "w": "13:39",
+     "start": 133.82,
+     "end": 134.86
+    },
+    {
+     "w": "and",
+     "start": 134.86,
+     "end": 135.3
+    },
+    {
+     "w": "11",
+     "start": 135.3,
+     "end": 135.56
+    },
+    {
+     "w": "seconds,",
+     "start": 135.56,
+     "end": 136.08
+    },
+    {
+     "w": "the",
+     "start": 136.56,
+     "end": 136.68
+    },
+    {
+     "w": "recordings",
+     "start": 136.68,
+     "end": 136.9
+    },
+    {
+     "w": "stopped.",
+     "start": 136.9,
+     "end": 137.54
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Flight 171 came down 1.7 kilometres from the runway, onto the hostel buildings of B.J. Medical College, in Meghani Nagar.",
+   "start": 139.988,
+   "end": 150.198,
+   "words": [
+    {
+     "w": "Flight",
+     "start": 139.888,
+     "end": 140.148
+    },
+    {
+     "w": "171",
+     "start": 140.148,
+     "end": 140.868
+    },
+    {
+     "w": "came",
+     "start": 140.868,
+     "end": 141.748
+    },
+    {
+     "w": "down",
+     "start": 141.748,
+     "end": 142.108
+    },
+    {
+     "w": "1.7",
+     "start": 142.108,
+     "end": 142.828
+    },
+    {
+     "w": "kilometres",
+     "start": 142.828,
+     "end": 143.548
+    },
+    {
+     "w": "from",
+     "start": 143.548,
+     "end": 144.128
+    },
+    {
+     "w": "the",
+     "start": 144.128,
+     "end": 144.268
+    },
+    {
+     "w": "runway,",
+     "start": 144.268,
+     "end": 144.548
+    },
+    {
+     "w": "onto",
+     "start": 144.548,
+     "end": 145.248
+    },
+    {
+     "w": "the",
+     "start": 145.248,
+     "end": 145.428
+    },
+    {
+     "w": "hostel",
+     "start": 145.428,
+     "end": 145.728
+    },
+    {
+     "w": "buildings",
+     "start": 145.728,
+     "end": 146.188
+    },
+    {
+     "w": "of",
+     "start": 146.188,
+     "end": 146.528
+    },
+    {
+     "w": "B.J.",
+     "start": 146.528,
+     "end": 147.588
+    },
+    {
+     "w": "Medical",
+     "start": 147.588,
+     "end": 148.228
+    },
+    {
+     "w": "College,",
+     "start": 148.228,
+     "end": 148.648
+    },
+    {
+     "w": "in",
+     "start": 148.648,
+     "end": 149.248
+    },
+    {
+     "w": "Meghani",
+     "start": 149.248,
+     "end": 149.728
+    },
+    {
+     "w": "Nagar.",
+     "start": 149.728,
+     "end": 150.108
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "It was lunchtime. Of the 242 people on board, 241 were killed. On the ground, nineteen more lost their lives, and 67 were seriously injured.",
+   "start": 150.998,
+   "end": 163.116,
+   "words": [
+    {
+     "w": "It",
+     "start": 150.898,
+     "end": 151.078
+    },
+    {
+     "w": "was",
+     "start": 151.078,
+     "end": 151.198
+    },
+    {
+     "w": "lunchtime.",
+     "start": 151.198,
+     "end": 152.418
+    },
+    {
+     "w": "Of",
+     "start": 152.418,
+     "end": 152.438
+    },
+    {
+     "w": "the",
+     "start": 152.438,
+     "end": 152.558
+    },
+    {
+     "w": "242",
+     "start": 152.558,
+     "end": 153.178
+    },
+    {
+     "w": "people",
+     "start": 153.178,
+     "end": 154.178
+    },
+    {
+     "w": "on",
+     "start": 154.178,
+     "end": 154.398
+    },
+    {
+     "w": "board,",
+     "start": 154.398,
+     "end": 154.698
+    },
+    {
+     "w": "241",
+     "start": 155.738,
+     "end": 155.758
+    },
+    {
+     "w": "were",
+     "start": 155.758,
+     "end": 156.678
+    },
+    {
+     "w": "killed.",
+     "start": 156.678,
+     "end": 156.958
+    },
+    {
+     "w": "On",
+     "start": 157.738,
+     "end": 157.738
+    },
+    {
+     "w": "the",
+     "start": 157.738,
+     "end": 157.898
+    },
+    {
+     "w": "ground,",
+     "start": 157.898,
+     "end": 158.158
+    },
+    {
+     "w": "nineteen",
+     "start": 158.158,
+     "end": 159.138
+    },
+    {
+     "w": "more",
+     "start": 159.138,
+     "end": 159.438
+    },
+    {
+     "w": "lost",
+     "start": 159.438,
+     "end": 159.718
+    },
+    {
+     "w": "their",
+     "start": 159.718,
+     "end": 159.918
+    },
+    {
+     "w": "lives,",
+     "start": 159.918,
+     "end": 160.298
+    },
+    {
+     "w": "and",
+     "start": 160.298,
+     "end": 160.918
+    },
+    {
+     "w": "67",
+     "start": 160.918,
+     "end": 161.278
+    },
+    {
+     "w": "were",
+     "start": 161.278,
+     "end": 161.938
+    },
+    {
+     "w": "seriously",
+     "start": 161.938,
+     "end": 162.338
+    },
+    {
+     "w": "injured.",
+     "start": 162.338,
+     "end": 162.838
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "One passenger survived. He had been sitting in seat 11A, beside an emergency exit.",
+   "start": 164.116,
+   "end": 170.342,
+   "words": [
+    {
+     "w": "One",
+     "start": 164.016,
+     "end": 164.336
+    },
+    {
+     "w": "passenger",
+     "start": 164.336,
+     "end": 164.696
+    },
+    {
+     "w": "survived.",
+     "start": 164.696,
+     "end": 165.376
+    },
+    {
+     "w": "He",
+     "start": 166.096,
+     "end": 166.116
+    },
+    {
+     "w": "had",
+     "start": 166.116,
+     "end": 166.216
+    },
+    {
+     "w": "been",
+     "start": 166.216,
+     "end": 166.376
+    },
+    {
+     "w": "sitting",
+     "start": 166.376,
+     "end": 166.716
+    },
+    {
+     "w": "in",
+     "start": 166.716,
+     "end": 166.936
+    },
+    {
+     "w": "seat",
+     "start": 166.936,
+     "end": 167.136
+    },
+    {
+     "w": "11A,",
+     "start": 167.136,
+     "end": 168.096
+    },
+    {
+     "w": "beside",
+     "start": 168.096,
+     "end": 168.796
+    },
+    {
+     "w": "an",
+     "start": 168.796,
+     "end": 169.156
+    },
+    {
+     "w": "emergency",
+     "start": 169.156,
+     "end": 169.456
+    },
+    {
+     "w": "exit.",
+     "start": 169.456,
+     "end": 170.236
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "Hundreds of firefighters, soldiers and disaster response teams were sent to the site.",
+   "start": 171.142,
+   "end": 176.735,
+   "words": [
+    {
+     "w": "Hundreds",
+     "start": 171.042,
+     "end": 171.442
+    },
+    {
+     "w": "of",
+     "start": 171.442,
+     "end": 171.742
+    },
+    {
+     "w": "firefighters,",
+     "start": 171.742,
+     "end": 172.102
+    },
+    {
+     "w": "soldiers",
+     "start": 173.422,
+     "end": 173.422
+    },
+    {
+     "w": "and",
+     "start": 173.422,
+     "end": 173.942
+    },
+    {
+     "w": "disaster",
+     "start": 173.942,
+     "end": 174.242
+    },
+    {
+     "w": "response",
+     "start": 174.242,
+     "end": 174.862
+    },
+    {
+     "w": "teams",
+     "start": 174.862,
+     "end": 175.362
+    },
+    {
+     "w": "were",
+     "start": 175.362,
+     "end": 175.762
+    },
+    {
+     "w": "sent",
+     "start": 175.762,
+     "end": 176.002
+    },
+    {
+     "w": "to",
+     "start": 176.002,
+     "end": 176.202
+    },
+    {
+     "w": "the",
+     "start": 176.202,
+     "end": 176.302
+    },
+    {
+     "w": "site.",
+     "start": 176.302,
+     "end": 176.582
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "India's Aircraft Accident Investigation Bureau led the inquiry, assisted by British and American investigators.",
+   "start": 178.135,
+   "end": 186.169,
+   "words": [
+    {
+     "w": "India's",
+     "start": 178.035,
+     "end": 178.595
+    },
+    {
+     "w": "Aircraft",
+     "start": 178.595,
+     "end": 179.095
+    },
+    {
+     "w": "Accident",
+     "start": 179.095,
+     "end": 179.795
+    },
+    {
+     "w": "Investigation",
+     "start": 179.795,
+     "end": 180.475
+    },
+    {
+     "w": "Bureau",
+     "start": 180.475,
+     "end": 181.195
+    },
+    {
+     "w": "led",
+     "start": 181.195,
+     "end": 181.895
+    },
+    {
+     "w": "the",
+     "start": 181.895,
+     "end": 182.155
+    },
+    {
+     "w": "inquiry,",
+     "start": 182.155,
+     "end": 182.655
+    },
+    {
+     "w": "assisted",
+     "start": 183.275,
+     "end": 183.555
+    },
+    {
+     "w": "by",
+     "start": 183.555,
+     "end": 183.935
+    },
+    {
+     "w": "British",
+     "start": 183.935,
+     "end": 184.255
+    },
+    {
+     "w": "and",
+     "start": 184.255,
+     "end": 184.575
+    },
+    {
+     "w": "American",
+     "start": 184.575,
+     "end": 185.035
+    },
+    {
+     "w": "investigators.",
+     "start": 185.035,
+     "end": 185.755
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "Both flight recorders were recovered. A month later, the preliminary report set out what the switches did, but not why.",
+   "start": 186.869,
+   "end": 194.464,
+   "words": [
+    {
+     "w": "Both",
+     "start": 186.769,
+     "end": 187.129
+    },
+    {
+     "w": "flight",
+     "start": 187.129,
+     "end": 187.449
+    },
+    {
+     "w": "recorders",
+     "start": 187.449,
+     "end": 188.129
+    },
+    {
+     "w": "were",
+     "start": 188.129,
+     "end": 188.309
+    },
+    {
+     "w": "recovered.",
+     "start": 188.309,
+     "end": 188.629
+    },
+    {
+     "w": "A",
+     "start": 189.329,
+     "end": 189.329
+    },
+    {
+     "w": "month",
+     "start": 189.329,
+     "end": 189.509
+    },
+    {
+     "w": "later,",
+     "start": 189.509,
+     "end": 189.929
+    },
+    {
+     "w": "the",
+     "start": 190.389,
+     "end": 190.469
+    },
+    {
+     "w": "preliminary",
+     "start": 190.469,
+     "end": 190.789
+    },
+    {
+     "w": "report",
+     "start": 190.789,
+     "end": 191.389
+    },
+    {
+     "w": "set",
+     "start": 191.389,
+     "end": 191.789
+    },
+    {
+     "w": "out",
+     "start": 191.789,
+     "end": 192.029
+    },
+    {
+     "w": "what",
+     "start": 192.029,
+     "end": 192.269
+    },
+    {
+     "w": "the",
+     "start": 192.269,
+     "end": 192.429
+    },
+    {
+     "w": "switches",
+     "start": 192.429,
+     "end": 192.629
+    },
+    {
+     "w": "did,",
+     "start": 192.629,
+     "end": 193.149
+    },
+    {
+     "w": "but",
+     "start": 193.629,
+     "end": 193.749
+    },
+    {
+     "w": "not",
+     "start": 193.749,
+     "end": 193.909
+    },
+    {
+     "w": "why.",
+     "start": 193.909,
+     "end": 194.189
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "It found no mechanical fault. It made no safety recommendations for Boeing, or for the engine maker, GE.",
+   "start": 195.264,
+   "end": 202.471,
+   "words": [
+    {
+     "w": "It",
+     "start": 195.164,
+     "end": 195.344
+    },
+    {
+     "w": "found",
+     "start": 195.344,
+     "end": 195.604
+    },
+    {
+     "w": "no",
+     "start": 195.604,
+     "end": 195.944
+    },
+    {
+     "w": "mechanical",
+     "start": 195.944,
+     "end": 196.384
+    },
+    {
+     "w": "fault.",
+     "start": 196.384,
+     "end": 196.904
+    },
+    {
+     "w": "It",
+     "start": 197.544,
+     "end": 197.564
+    },
+    {
+     "w": "made",
+     "start": 197.564,
+     "end": 197.724
+    },
+    {
+     "w": "no",
+     "start": 197.724,
+     "end": 198.084
+    },
+    {
+     "w": "safety",
+     "start": 198.084,
+     "end": 198.524
+    },
+    {
+     "w": "recommendations",
+     "start": 198.524,
+     "end": 199.064
+    },
+    {
+     "w": "for",
+     "start": 199.064,
+     "end": 199.624
+    },
+    {
+     "w": "Boeing,",
+     "start": 199.624,
+     "end": 199.924
+    },
+    {
+     "w": "or",
+     "start": 199.924,
+     "end": 200.564
+    },
+    {
+     "w": "for",
+     "start": 200.564,
+     "end": 200.724
+    },
+    {
+     "w": "the",
+     "start": 200.724,
+     "end": 200.844
+    },
+    {
+     "w": "engine",
+     "start": 200.844,
+     "end": 201.044
+    },
+    {
+     "w": "maker,",
+     "start": 201.044,
+     "end": 201.524
+    },
+    {
+     "w": "GE.",
+     "start": 201.524,
+     "end": 202.471
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "In 2018, the US regulator had advised operators to inspect the switches' locking feature. Air India had not done so, because the advice was not mandatory. Later inspections of its fleet found no problems.",
+   "start": 203.171,
+   "end": 217.617,
+   "words": [
+    {
+     "w": "In",
+     "start": 203.071,
+     "end": 203.271
+    },
+    {
+     "w": "2018,",
+     "start": 203.271,
+     "end": 203.971
+    },
+    {
+     "w": "the",
+     "start": 204.411,
+     "end": 204.611
+    },
+    {
+     "w": "US",
+     "start": 204.611,
+     "end": 205.451
+    },
+    {
+     "w": "regulator",
+     "start": 205.451,
+     "end": 205.451
+    },
+    {
+     "w": "had",
+     "start": 205.451,
+     "end": 206.071
+    },
+    {
+     "w": "advised",
+     "start": 206.071,
+     "end": 206.411
+    },
+    {
+     "w": "operators",
+     "start": 206.411,
+     "end": 207.051
+    },
+    {
+     "w": "to",
+     "start": 207.051,
+     "end": 207.711
+    },
+    {
+     "w": "inspect",
+     "start": 207.711,
+     "end": 208.051
+    },
+    {
+     "w": "the",
+     "start": 208.051,
+     "end": 208.371
+    },
+    {
+     "w": "switches'",
+     "start": 208.371,
+     "end": 208.771
+    },
+    {
+     "w": "locking",
+     "start": 208.771,
+     "end": 209.131
+    },
+    {
+     "w": "feature.",
+     "start": 209.131,
+     "end": 209.551
+    },
+    {
+     "w": "Air",
+     "start": 210.271,
+     "end": 210.311
+    },
+    {
+     "w": "India",
+     "start": 210.311,
+     "end": 210.631
+    },
+    {
+     "w": "had",
+     "start": 210.631,
+     "end": 211.031
+    },
+    {
+     "w": "not",
+     "start": 211.031,
+     "end": 211.191
+    },
+    {
+     "w": "done",
+     "start": 211.191,
+     "end": 211.391
+    },
+    {
+     "w": "so,",
+     "start": 211.391,
+     "end": 211.711
+    },
+    {
+     "w": "because",
+     "start": 211.711,
+     "end": 212.351
+    },
+    {
+     "w": "the",
+     "start": 212.351,
+     "end": 212.551
+    },
+    {
+     "w": "advice",
+     "start": 212.551,
+     "end": 212.831
+    },
+    {
+     "w": "was",
+     "start": 212.831,
+     "end": 213.191
+    },
+    {
+     "w": "not",
+     "start": 213.191,
+     "end": 213.431
+    },
+    {
+     "w": "mandatory.",
+     "start": 213.431,
+     "end": 213.931
+    },
+    {
+     "w": "Later",
+     "start": 214.871,
+     "end": 214.871
+    },
+    {
+     "w": "inspections",
+     "start": 214.871,
+     "end": 215.211
+    },
+    {
+     "w": "of",
+     "start": 215.211,
+     "end": 215.831
+    },
+    {
+     "w": "its",
+     "start": 215.831,
+     "end": 215.931
+    },
+    {
+     "w": "fleet",
+     "start": 215.931,
+     "end": 216.191
+    },
+    {
+     "w": "found",
+     "start": 216.191,
+     "end": 216.591
+    },
+    {
+     "w": "no",
+     "start": 216.591,
+     "end": 216.891
+    },
+    {
+     "w": "problems.",
+     "start": 216.891,
+     "end": 217.231
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "At the time of this film, the final report had not been made public.",
+   "start": 218.417,
+   "end": 222.661,
+   "words": [
+    {
+     "w": "At",
+     "start": 218.317,
+     "end": 218.557
+    },
+    {
+     "w": "the",
+     "start": 218.557,
+     "end": 218.677
+    },
+    {
+     "w": "time",
+     "start": 218.677,
+     "end": 218.997
+    },
+    {
+     "w": "of",
+     "start": 218.997,
+     "end": 219.157
+    },
+    {
+     "w": "this",
+     "start": 219.157,
+     "end": 219.337
+    },
+    {
+     "w": "film,",
+     "start": 219.337,
+     "end": 219.697
+    },
+    {
+     "w": "the",
+     "start": 220.117,
+     "end": 220.237
+    },
+    {
+     "w": "final",
+     "start": 220.237,
+     "end": 220.517
+    },
+    {
+     "w": "report",
+     "start": 220.517,
+     "end": 220.997
+    },
+    {
+     "w": "had",
+     "start": 220.997,
+     "end": 221.337
+    },
+    {
+     "w": "not",
+     "start": 221.337,
+     "end": 221.577
+    },
+    {
+     "w": "been",
+     "start": 221.577,
+     "end": 221.757
+    },
+    {
+     "w": "made",
+     "start": 221.757,
+     "end": 221.957
+    },
+    {
+     "w": "public.",
+     "start": 221.957,
+     "end": 222.277
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "Two hundred and sixty lives. Thirty-two seconds.",
+   "start": 224.261,
+   "end": 227.418,
+   "words": [
+    {
+     "w": "Two",
+     "start": 224.261,
+     "end": 224.451
+    },
+    {
+     "w": "hundred",
+     "start": 224.451,
+     "end": 224.641
+    },
+    {
+     "w": "and",
+     "start": 224.641,
+     "end": 224.831
+    },
+    {
+     "w": "sixty",
+     "start": 224.831,
+     "end": 225.021
+    },
+    {
+     "w": "lives.",
+     "start": 225.021,
+     "end": 225.721
+    },
+    {
+     "w": "Thirty-two",
+     "start": 225.721,
+     "end": 226.521
+    },
+    {
+     "w": "seconds.",
+     "start": 226.521,
+     "end": 227.121
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "And a question that their families are still waiting to have answered.",
+   "start": 228.318,
+   "end": 232.114,
+   "words": [
+    {
+     "w": "And",
+     "start": 228.218,
+     "end": 228.418
+    },
+    {
+     "w": "a",
+     "start": 228.418,
+     "end": 228.478
+    },
+    {
+     "w": "question",
+     "start": 228.478,
+     "end": 228.758
+    },
+    {
+     "w": "that",
+     "start": 228.758,
+     "end": 229.178
+    },
+    {
+     "w": "their",
+     "start": 229.178,
+     "end": 229.398
+    },
+    {
+     "w": "families",
+     "start": 229.398,
+     "end": 229.758
+    },
+    {
+     "w": "are",
+     "start": 229.758,
+     "end": 230.378
+    },
+    {
+     "w": "still",
+     "start": 230.378,
+     "end": 230.658
+    },
+    {
+     "w": "waiting",
+     "start": 230.658,
+     "end": 231.038
+    },
+    {
+     "w": "to",
+     "start": 231.038,
+     "end": 231.298
+    },
+    {
+     "w": "have",
+     "start": 231.298,
+     "end": 231.438
+    },
+    {
+     "w": "answered.",
+     "start": 231.438,
+     "end": 231.918
+    }
+   ]
+  }
+ ]
+}

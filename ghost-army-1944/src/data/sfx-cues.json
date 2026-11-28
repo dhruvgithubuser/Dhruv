@@ -1,0 +1,257 @@
+[
+ {
+  "file": "bell.wav",
+  "at": 1.79,
+  "volume": 0.35
+ },
+ {
+  "file": "bell.wav",
+  "at": 2.29,
+  "volume": 0.25
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 4.13,
+  "volume": 0.3
+ },
+ {
+  "file": "impact.wav",
+  "at": 4.93,
+  "volume": 0.35
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 5.388,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 9.025,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 12.097,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 17.433,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 20.876,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 24.062,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 31.563,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 34.945,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 42.34,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 48.0,
+  "volume": 0.3
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 54.596,
+  "volume": 0.3
+ },
+ {
+  "file": "pop.wav",
+  "at": 7.298,
+  "volume": 0.4
+ },
+ {
+  "file": "paper.wav",
+  "at": 9.125,
+  "volume": 0.4
+ },
+ {
+  "file": "hiss.wav",
+  "at": 9.615,
+  "volume": 0.45
+ },
+ {
+  "file": "stamp.wav",
+  "at": 9.965,
+  "volume": 0.5
+ },
+ {
+  "file": "ticks.wav",
+  "at": 10.875,
+  "volume": 0.25
+ },
+ {
+  "file": "marker.wav",
+  "at": 13.147,
+  "volume": 0.3
+ },
+ {
+  "file": "ticks.wav",
+  "at": 13.727,
+  "volume": 0.25
+ },
+ {
+  "file": "ticks.wav",
+  "at": 16.267,
+  "volume": 0.25
+ },
+ {
+  "file": "marker.wav",
+  "at": 18.083,
+  "volume": 0.3
+ },
+ {
+  "file": "paper.wav",
+  "at": 17.883,
+  "volume": 0.3
+ },
+ {
+  "file": "marker.wav",
+  "at": 19.283,
+  "volume": 0.25
+ },
+ {
+  "file": "marker.wav",
+  "at": 20.063,
+  "volume": 0.25
+ },
+ {
+  "file": "hiss.wav",
+  "at": 21.526,
+  "volume": 0.45
+ },
+ {
+  "file": "hiss.wav",
+  "at": 22.266,
+  "volume": 0.4
+ },
+ {
+  "file": "hiss.wav",
+  "at": 22.606,
+  "volume": 0.4
+ },
+ {
+  "file": "clock.wav",
+  "at": 23.166,
+  "volume": 0.3
+ },
+ {
+  "file": "rumble.wav",
+  "at": 24.672,
+  "volume": 0.55
+ },
+ {
+  "file": "ticks.wav",
+  "at": 27.052,
+  "volume": 0.25
+ },
+ {
+  "file": "morse.wav",
+  "at": 28.812,
+  "volume": 0.3
+ },
+ {
+  "file": "ticks.wav",
+  "at": 33.753,
+  "volume": 0.25
+ },
+ {
+  "file": "hiss.wav",
+  "at": 38.735,
+  "volume": 0.3
+ },
+ {
+  "file": "ticks.wav",
+  "at": 38.935,
+  "volume": 0.3
+ },
+ {
+  "file": "pop.wav",
+  "at": 40.895,
+  "volume": 0.4
+ },
+ {
+  "file": "pop.wav",
+  "at": 41.775,
+  "volume": 0.4
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 43.19,
+  "volume": 0.35
+ },
+ {
+  "file": "whoosh.wav",
+  "at": 44.39,
+  "volume": 0.35
+ },
+ {
+  "file": "paper.wav",
+  "at": 44.77,
+  "volume": 0.3
+ },
+ {
+  "file": "stamp.wav",
+  "at": 47.29,
+  "volume": 0.5
+ },
+ {
+  "file": "stamp.wav",
+  "at": 48.25,
+  "volume": 0.55
+ },
+ {
+  "file": "ticks.wav",
+  "at": 48.87,
+  "volume": 0.2
+ },
+ {
+  "file": "stamp.wav",
+  "at": 49.53,
+  "volume": 0.55
+ },
+ {
+  "file": "impact.wav",
+  "at": 51.33,
+  "volume": 0.35
+ },
+ {
+  "file": "bell.wav",
+  "at": 54.03,
+  "volume": 0.35
+ },
+ {
+  "file": "paper.wav",
+  "at": 54.746,
+  "volume": 0.35
+ },
+ {
+  "file": "marker.wav",
+  "at": 56.506,
+  "volume": 0.3
+ },
+ {
+  "file": "hiss.wav",
+  "at": 56.806,
+  "volume": 0.25
+ }
+]

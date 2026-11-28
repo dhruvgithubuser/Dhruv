@@ -1,0 +1,1331 @@
+{
+ "fps": 30,
+ "duration": 84.795,
+ "voice": "kokoro am_michael/am_onyx blend (en-us)",
+ "phrases": [
+  {
+   "scene": 1,
+   "text": "You're looking at a British general wounded 9 times. Any one of them should have killed him. So why did he say he enjoyed the war?",
+   "start": 0.35,
+   "end": 7.39,
+   "words": [
+    {
+     "w": "You're",
+     "start": 0.25,
+     "end": 0.45
+    },
+    {
+     "w": "looking",
+     "start": 0.45,
+     "end": 0.67
+    },
+    {
+     "w": "at",
+     "start": 0.67,
+     "end": 0.87
+    },
+    {
+     "w": "a",
+     "start": 0.87,
+     "end": 0.95
+    },
+    {
+     "w": "British",
+     "start": 0.95,
+     "end": 1.21
+    },
+    {
+     "w": "general",
+     "start": 1.21,
+     "end": 1.69
+    },
+    {
+     "w": "wounded",
+     "start": 1.69,
+     "end": 2.03
+    },
+    {
+     "w": "9",
+     "start": 2.03,
+     "end": 2.49
+    },
+    {
+     "w": "times.",
+     "start": 2.49,
+     "end": 2.85
+    },
+    {
+     "w": "Any",
+     "start": 3.53,
+     "end": 3.67
+    },
+    {
+     "w": "one",
+     "start": 3.67,
+     "end": 3.87
+    },
+    {
+     "w": "of",
+     "start": 3.87,
+     "end": 3.93
+    },
+    {
+     "w": "them",
+     "start": 3.93,
+     "end": 4.11
+    },
+    {
+     "w": "should",
+     "start": 4.11,
+     "end": 4.25
+    },
+    {
+     "w": "have",
+     "start": 4.25,
+     "end": 4.33
+    },
+    {
+     "w": "killed",
+     "start": 4.33,
+     "end": 4.59
+    },
+    {
+     "w": "him.",
+     "start": 4.59,
+     "end": 4.85
+    },
+    {
+     "w": "So",
+     "start": 5.37,
+     "end": 5.43
+    },
+    {
+     "w": "why",
+     "start": 5.43,
+     "end": 5.65
+    },
+    {
+     "w": "did",
+     "start": 5.65,
+     "end": 5.83
+    },
+    {
+     "w": "he",
+     "start": 5.83,
+     "end": 5.93
+    },
+    {
+     "w": "say",
+     "start": 5.93,
+     "end": 6.15
+    },
+    {
+     "w": "he",
+     "start": 6.15,
+     "end": 6.35
+    },
+    {
+     "w": "enjoyed",
+     "start": 6.35,
+     "end": 6.63
+    },
+    {
+     "w": "the",
+     "start": 6.63,
+     "end": 6.91
+    },
+    {
+     "w": "war?",
+     "start": 6.91,
+     "end": 7.17
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "text": "Adrian Carton de Wiart. At 19, he quits Oxford, lies about his name and age, and sails to the Boer War. First wound: a bullet in the stomach.",
+   "start": 7.75,
+   "end": 16.93,
+   "words": [
+    {
+     "w": "Adrian",
+     "start": 7.75,
+     "end": 8.23
+    },
+    {
+     "w": "Carton",
+     "start": 8.23,
+     "end": 8.53
+    },
+    {
+     "w": "de",
+     "start": 8.53,
+     "end": 8.65
+    },
+    {
+     "w": "Wiart.",
+     "start": 8.65,
+     "end": 9.57
+    },
+    {
+     "w": "At",
+     "start": 9.57,
+     "end": 9.65
+    },
+    {
+     "w": "19,",
+     "start": 9.65,
+     "end": 9.93
+    },
+    {
+     "w": "he",
+     "start": 10.25,
+     "end": 10.31
+    },
+    {
+     "w": "quits",
+     "start": 10.31,
+     "end": 10.59
+    },
+    {
+     "w": "Oxford,",
+     "start": 10.59,
+     "end": 10.79
+    },
+    {
+     "w": "lies",
+     "start": 10.79,
+     "end": 11.53
+    },
+    {
+     "w": "about",
+     "start": 11.53,
+     "end": 11.81
+    },
+    {
+     "w": "his",
+     "start": 11.81,
+     "end": 11.97
+    },
+    {
+     "w": "name",
+     "start": 11.97,
+     "end": 12.21
+    },
+    {
+     "w": "and",
+     "start": 12.21,
+     "end": 12.35
+    },
+    {
+     "w": "age,",
+     "start": 12.35,
+     "end": 12.65
+    },
+    {
+     "w": "and",
+     "start": 12.65,
+     "end": 12.93
+    },
+    {
+     "w": "sails",
+     "start": 12.93,
+     "end": 13.15
+    },
+    {
+     "w": "to",
+     "start": 13.15,
+     "end": 13.47
+    },
+    {
+     "w": "the",
+     "start": 13.47,
+     "end": 13.53
+    },
+    {
+     "w": "Boer",
+     "start": 13.53,
+     "end": 13.81
+    },
+    {
+     "w": "War.",
+     "start": 13.81,
+     "end": 13.95
+    },
+    {
+     "w": "First",
+     "start": 14.59,
+     "end": 14.83
+    },
+    {
+     "w": "wound:",
+     "start": 14.83,
+     "end": 15.15
+    },
+    {
+     "w": "a",
+     "start": 15.59,
+     "end": 15.73
+    },
+    {
+     "w": "bullet",
+     "start": 15.73,
+     "end": 15.99
+    },
+    {
+     "w": "in",
+     "start": 15.99,
+     "end": 16.25
+    },
+    {
+     "w": "the",
+     "start": 16.25,
+     "end": 16.33
+    },
+    {
+     "w": "stomach.",
+     "start": 16.33,
+     "end": 16.65
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "text": "1914, Somaliland. Storming a desert fort, he is shot twice in the face. He loses an eye, and part of an ear.",
+   "start": 17.25,
+   "end": 24.453,
+   "words": [
+    {
+     "w": "1914,",
+     "start": 17.15,
+     "end": 17.79
+    },
+    {
+     "w": "Somaliland.",
+     "start": 17.93,
+     "end": 18.85
+    },
+    {
+     "w": "Storming",
+     "start": 19.41,
+     "end": 19.71
+    },
+    {
+     "w": "a",
+     "start": 19.71,
+     "end": 19.81
+    },
+    {
+     "w": "desert",
+     "start": 19.81,
+     "end": 20.11
+    },
+    {
+     "w": "fort,",
+     "start": 20.11,
+     "end": 20.45
+    },
+    {
+     "w": "he",
+     "start": 20.65,
+     "end": 20.69
+    },
+    {
+     "w": "is",
+     "start": 20.69,
+     "end": 20.77
+    },
+    {
+     "w": "shot",
+     "start": 20.77,
+     "end": 21.01
+    },
+    {
+     "w": "twice",
+     "start": 21.01,
+     "end": 21.29
+    },
+    {
+     "w": "in",
+     "start": 21.29,
+     "end": 21.59
+    },
+    {
+     "w": "the",
+     "start": 21.59,
+     "end": 21.67
+    },
+    {
+     "w": "face.",
+     "start": 21.67,
+     "end": 21.93
+    },
+    {
+     "w": "He",
+     "start": 22.53,
+     "end": 22.59
+    },
+    {
+     "w": "loses",
+     "start": 22.59,
+     "end": 22.79
+    },
+    {
+     "w": "an",
+     "start": 22.79,
+     "end": 23.05
+    },
+    {
+     "w": "eye,",
+     "start": 23.05,
+     "end": 23.35
+    },
+    {
+     "w": "and",
+     "start": 23.35,
+     "end": 23.55
+    },
+    {
+     "w": "part",
+     "start": 23.55,
+     "end": 23.75
+    },
+    {
+     "w": "of",
+     "start": 23.75,
+     "end": 23.91
+    },
+    {
+     "w": "an",
+     "start": 23.91,
+     "end": 23.99
+    },
+    {
+     "w": "ear.",
+     "start": 23.99,
+     "end": 24.23
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "text": "He puts on a black eye patch, and sails for France.",
+   "start": 24.733,
+   "end": 27.488,
+   "words": [
+    {
+     "w": "He",
+     "start": 24.633,
+     "end": 24.793
+    },
+    {
+     "w": "puts",
+     "start": 24.793,
+     "end": 24.933
+    },
+    {
+     "w": "on",
+     "start": 24.933,
+     "end": 25.113
+    },
+    {
+     "w": "a",
+     "start": 25.113,
+     "end": 25.173
+    },
+    {
+     "w": "black",
+     "start": 25.173,
+     "end": 25.373
+    },
+    {
+     "w": "eye",
+     "start": 25.373,
+     "end": 25.613
+    },
+    {
+     "w": "patch,",
+     "start": 25.613,
+     "end": 25.933
+    },
+    {
+     "w": "and",
+     "start": 25.933,
+     "end": 26.313
+    },
+    {
+     "w": "sails",
+     "start": 26.313,
+     "end": 26.513
+    },
+    {
+     "w": "for",
+     "start": 26.513,
+     "end": 26.853
+    },
+    {
+     "w": "France.",
+     "start": 26.853,
+     "end": 27.153
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "text": "1915. A shell shatters his left hand. The doctor won't cut off his dangling fingers, so he pulls them off himself.",
+   "start": 27.808,
+   "end": 35.086,
+   "words": [
+    {
+     "w": "1915.",
+     "start": 27.708,
+     "end": 28.388
+    },
+    {
+     "w": "A",
+     "start": 29.188,
+     "end": 29.228
+    },
+    {
+     "w": "shell",
+     "start": 29.228,
+     "end": 29.468
+    },
+    {
+     "w": "shatters",
+     "start": 29.468,
+     "end": 29.948
+    },
+    {
+     "w": "his",
+     "start": 29.948,
+     "end": 30.148
+    },
+    {
+     "w": "left",
+     "start": 30.148,
+     "end": 30.328
+    },
+    {
+     "w": "hand.",
+     "start": 30.328,
+     "end": 30.748
+    },
+    {
+     "w": "The",
+     "start": 31.248,
+     "end": 31.308
+    },
+    {
+     "w": "doctor",
+     "start": 31.308,
+     "end": 31.668
+    },
+    {
+     "w": "won't",
+     "start": 31.668,
+     "end": 31.988
+    },
+    {
+     "w": "cut",
+     "start": 31.988,
+     "end": 32.148
+    },
+    {
+     "w": "off",
+     "start": 32.148,
+     "end": 32.348
+    },
+    {
+     "w": "his",
+     "start": 32.348,
+     "end": 32.508
+    },
+    {
+     "w": "dangling",
+     "start": 32.508,
+     "end": 32.708
+    },
+    {
+     "w": "fingers,",
+     "start": 32.708,
+     "end": 33.428
+    },
+    {
+     "w": "so",
+     "start": 33.428,
+     "end": 33.728
+    },
+    {
+     "w": "he",
+     "start": 33.728,
+     "end": 33.828
+    },
+    {
+     "w": "pulls",
+     "start": 33.828,
+     "end": 34.028
+    },
+    {
+     "w": "them",
+     "start": 34.028,
+     "end": 34.288
+    },
+    {
+     "w": "off",
+     "start": 34.288,
+     "end": 34.448
+    },
+    {
+     "w": "himself.",
+     "start": 34.448,
+     "end": 34.848
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "text": "Later, the surgeons take the whole hand.",
+   "start": 35.406,
+   "end": 37.613,
+   "words": [
+    {
+     "w": "Later,",
+     "start": 35.306,
+     "end": 35.666
+    },
+    {
+     "w": "the",
+     "start": 35.866,
+     "end": 35.906
+    },
+    {
+     "w": "surgeons",
+     "start": 35.906,
+     "end": 36.266
+    },
+    {
+     "w": "take",
+     "start": 36.266,
+     "end": 36.606
+    },
+    {
+     "w": "the",
+     "start": 36.606,
+     "end": 36.806
+    },
+    {
+     "w": "whole",
+     "start": 36.806,
+     "end": 36.966
+    },
+    {
+     "w": "hand.",
+     "start": 36.966,
+     "end": 37.326
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "text": "1916, the Somme. He pulls grenade pins with his teeth. When three other commanders fall, he leads all their men, and wins the Victoria Cross.",
+   "start": 37.933,
+   "end": 46.914,
+   "words": [
+    {
+     "w": "1916,",
+     "start": 37.833,
+     "end": 38.553
+    },
+    {
+     "w": "the",
+     "start": 38.553,
+     "end": 39.093
+    },
+    {
+     "w": "Somme.",
+     "start": 39.093,
+     "end": 39.593
+    },
+    {
+     "w": "He",
+     "start": 40.013,
+     "end": 40.033
+    },
+    {
+     "w": "pulls",
+     "start": 40.033,
+     "end": 40.233
+    },
+    {
+     "w": "grenade",
+     "start": 40.233,
+     "end": 40.573
+    },
+    {
+     "w": "pins",
+     "start": 40.573,
+     "end": 41.073
+    },
+    {
+     "w": "with",
+     "start": 41.073,
+     "end": 41.393
+    },
+    {
+     "w": "his",
+     "start": 41.393,
+     "end": 41.533
+    },
+    {
+     "w": "teeth.",
+     "start": 41.533,
+     "end": 41.753
+    },
+    {
+     "w": "When",
+     "start": 42.433,
+     "end": 42.473
+    },
+    {
+     "w": "three",
+     "start": 42.473,
+     "end": 42.693
+    },
+    {
+     "w": "other",
+     "start": 42.693,
+     "end": 42.933
+    },
+    {
+     "w": "commanders",
+     "start": 42.933,
+     "end": 43.173
+    },
+    {
+     "w": "fall,",
+     "start": 43.173,
+     "end": 43.713
+    },
+    {
+     "w": "he",
+     "start": 44.033,
+     "end": 44.093
+    },
+    {
+     "w": "leads",
+     "start": 44.093,
+     "end": 44.273
+    },
+    {
+     "w": "all",
+     "start": 44.273,
+     "end": 44.613
+    },
+    {
+     "w": "their",
+     "start": 44.613,
+     "end": 44.833
+    },
+    {
+     "w": "men,",
+     "start": 44.833,
+     "end": 45.073
+    },
+    {
+     "w": "and",
+     "start": 45.073,
+     "end": 45.353
+    },
+    {
+     "w": "wins",
+     "start": 45.353,
+     "end": 45.513
+    },
+    {
+     "w": "the",
+     "start": 45.513,
+     "end": 45.793
+    },
+    {
+     "w": "Victoria",
+     "start": 45.793,
+     "end": 45.973
+    },
+    {
+     "w": "Cross.",
+     "start": 45.973,
+     "end": 46.593
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "text": "Then he's shot through the skull. The ankle. The hip. The leg. The ear. Every time, he goes back to the front.",
+   "start": 47.954,
+   "end": 54.083,
+   "words": [
+    {
+     "w": "Then",
+     "start": 47.854,
+     "end": 48.054
+    },
+    {
+     "w": "he's",
+     "start": 48.054,
+     "end": 48.194
+    },
+    {
+     "w": "shot",
+     "start": 48.194,
+     "end": 48.414
+    },
+    {
+     "w": "through",
+     "start": 48.414,
+     "end": 48.694
+    },
+    {
+     "w": "the",
+     "start": 48.694,
+     "end": 48.834
+    },
+    {
+     "w": "skull.",
+     "start": 48.834,
+     "end": 49.094
+    },
+    {
+     "w": "The",
+     "start": 49.714,
+     "end": 49.734
+    },
+    {
+     "w": "ankle.",
+     "start": 49.734,
+     "end": 50.014
+    },
+    {
+     "w": "The",
+     "start": 50.214,
+     "end": 50.254
+    },
+    {
+     "w": "hip.",
+     "start": 50.254,
+     "end": 50.474
+    },
+    {
+     "w": "The",
+     "start": 50.714,
+     "end": 50.774
+    },
+    {
+     "w": "leg.",
+     "start": 50.774,
+     "end": 51.074
+    },
+    {
+     "w": "The",
+     "start": 51.254,
+     "end": 51.334
+    },
+    {
+     "w": "ear.",
+     "start": 51.334,
+     "end": 51.574
+    },
+    {
+     "w": "Every",
+     "start": 52.194,
+     "end": 52.194
+    },
+    {
+     "w": "time,",
+     "start": 52.194,
+     "end": 52.634
+    },
+    {
+     "w": "he",
+     "start": 52.634,
+     "end": 52.874
+    },
+    {
+     "w": "goes",
+     "start": 52.874,
+     "end": 53.034
+    },
+    {
+     "w": "back",
+     "start": 53.034,
+     "end": 53.334
+    },
+    {
+     "w": "to",
+     "start": 53.334,
+     "end": 53.514
+    },
+    {
+     "w": "the",
+     "start": 53.514,
+     "end": 53.594
+    },
+    {
+     "w": "front.",
+     "start": 53.594,
+     "end": 53.834
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "text": "1941. Aged 60, his bomber crashes into the sea off Libya. He swims ashore, and is captured.",
+   "start": 54.443,
+   "end": 61.392,
+   "words": [
+    {
+     "w": "1941.",
+     "start": 54.343,
+     "end": 55.163
+    },
+    {
+     "w": "Aged",
+     "start": 55.943,
+     "end": 56.323
+    },
+    {
+     "w": "60,",
+     "start": 56.323,
+     "end": 56.683
+    },
+    {
+     "w": "his",
+     "start": 56.983,
+     "end": 57.083
+    },
+    {
+     "w": "bomber",
+     "start": 57.083,
+     "end": 57.383
+    },
+    {
+     "w": "crashes",
+     "start": 57.383,
+     "end": 57.823
+    },
+    {
+     "w": "into",
+     "start": 57.823,
+     "end": 58.163
+    },
+    {
+     "w": "the",
+     "start": 58.163,
+     "end": 58.283
+    },
+    {
+     "w": "sea",
+     "start": 58.283,
+     "end": 58.443
+    },
+    {
+     "w": "off",
+     "start": 58.443,
+     "end": 58.683
+    },
+    {
+     "w": "Libya.",
+     "start": 58.683,
+     "end": 58.923
+    },
+    {
+     "w": "He",
+     "start": 59.583,
+     "end": 59.623
+    },
+    {
+     "w": "swims",
+     "start": 59.623,
+     "end": 60.023
+    },
+    {
+     "w": "ashore,",
+     "start": 60.023,
+     "end": 60.263
+    },
+    {
+     "w": "and",
+     "start": 60.263,
+     "end": 60.623
+    },
+    {
+     "w": "is",
+     "start": 60.623,
+     "end": 60.723
+    },
+    {
+     "w": "captured.",
+     "start": 60.723,
+     "end": 61.043
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "text": "In an Italian castle prison, he digs a tunnel for seven months.",
+   "start": 61.672,
+   "end": 65.466,
+   "words": [
+    {
+     "w": "In",
+     "start": 61.572,
+     "end": 61.752
+    },
+    {
+     "w": "an",
+     "start": 61.752,
+     "end": 61.832
+    },
+    {
+     "w": "Italian",
+     "start": 61.832,
+     "end": 62.192
+    },
+    {
+     "w": "castle",
+     "start": 62.192,
+     "end": 62.632
+    },
+    {
+     "w": "prison,",
+     "start": 62.632,
+     "end": 63.072
+    },
+    {
+     "w": "he",
+     "start": 63.652,
+     "end": 63.672
+    },
+    {
+     "w": "digs",
+     "start": 63.672,
+     "end": 63.872
+    },
+    {
+     "w": "a",
+     "start": 63.872,
+     "end": 64.052
+    },
+    {
+     "w": "tunnel",
+     "start": 64.052,
+     "end": 64.252
+    },
+    {
+     "w": "for",
+     "start": 64.252,
+     "end": 64.552
+    },
+    {
+     "w": "seven",
+     "start": 64.552,
+     "end": 64.792
+    },
+    {
+     "w": "months.",
+     "start": 64.792,
+     "end": 65.132
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "text": "Once, he stays free for eight days, disguised as an Italian peasant. He's 62, with one eye, one hand, and he can't speak Italian.",
+   "start": 65.706,
+   "end": 73.642,
+   "words": [
+    {
+     "w": "Once,",
+     "start": 65.606,
+     "end": 65.846
+    },
+    {
+     "w": "he",
+     "start": 65.846,
+     "end": 66.026
+    },
+    {
+     "w": "stays",
+     "start": 66.026,
+     "end": 66.226
+    },
+    {
+     "w": "free",
+     "start": 66.226,
+     "end": 66.526
+    },
+    {
+     "w": "for",
+     "start": 66.526,
+     "end": 66.726
+    },
+    {
+     "w": "eight",
+     "start": 66.726,
+     "end": 66.906
+    },
+    {
+     "w": "days,",
+     "start": 66.906,
+     "end": 67.226
+    },
+    {
+     "w": "disguised",
+     "start": 67.946,
+     "end": 67.946
+    },
+    {
+     "w": "as",
+     "start": 67.946,
+     "end": 68.426
+    },
+    {
+     "w": "an",
+     "start": 68.426,
+     "end": 68.506
+    },
+    {
+     "w": "Italian",
+     "start": 68.506,
+     "end": 68.846
+    },
+    {
+     "w": "peasant.",
+     "start": 68.846,
+     "end": 69.186
+    },
+    {
+     "w": "He's",
+     "start": 69.946,
+     "end": 70.106
+    },
+    {
+     "w": "62,",
+     "start": 70.106,
+     "end": 70.406
+    },
+    {
+     "w": "with",
+     "start": 70.406,
+     "end": 70.926
+    },
+    {
+     "w": "one",
+     "start": 70.926,
+     "end": 71.106
+    },
+    {
+     "w": "eye,",
+     "start": 71.106,
+     "end": 71.386
+    },
+    {
+     "w": "one",
+     "start": 71.566,
+     "end": 71.646
+    },
+    {
+     "w": "hand,",
+     "start": 71.646,
+     "end": 71.986
+    },
+    {
+     "w": "and",
+     "start": 72.206,
+     "end": 72.286
+    },
+    {
+     "w": "he",
+     "start": 72.286,
+     "end": 72.386
+    },
+    {
+     "w": "can't",
+     "start": 72.386,
+     "end": 72.666
+    },
+    {
+     "w": "speak",
+     "start": 72.666,
+     "end": 72.866
+    },
+    {
+     "w": "Italian.",
+     "start": 72.866,
+     "end": 73.306
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "text": "He died in bed, at 83. And in his memoir, he wrote: \"Frankly, I had enjoyed the war.\"",
+   "start": 74.002,
+   "end": 79.289,
+   "words": [
+    {
+     "w": "He",
+     "start": 73.902,
+     "end": 74.062
+    },
+    {
+     "w": "died",
+     "start": 74.062,
+     "end": 74.282
+    },
+    {
+     "w": "in",
+     "start": 74.282,
+     "end": 74.502
+    },
+    {
+     "w": "bed,",
+     "start": 74.502,
+     "end": 74.702
+    },
+    {
+     "w": "at",
+     "start": 74.702,
+     "end": 74.982
+    },
+    {
+     "w": "83.",
+     "start": 74.982,
+     "end": 75.322
+    },
+    {
+     "w": "And",
+     "start": 75.922,
+     "end": 76.142
+    },
+    {
+     "w": "in",
+     "start": 76.142,
+     "end": 76.242
+    },
+    {
+     "w": "his",
+     "start": 76.242,
+     "end": 76.342
+    },
+    {
+     "w": "memoir,",
+     "start": 76.342,
+     "end": 76.642
+    },
+    {
+     "w": "he",
+     "start": 76.922,
+     "end": 76.942
+    },
+    {
+     "w": "wrote:",
+     "start": 76.942,
+     "end": 77.122
+    },
+    {
+     "w": "\"Frankly,",
+     "start": 77.622,
+     "end": 77.782
+    },
+    {
+     "w": "I",
+     "start": 78.142,
+     "end": 78.202
+    },
+    {
+     "w": "had",
+     "start": 78.202,
+     "end": 78.322
+    },
+    {
+     "w": "enjoyed",
+     "start": 78.322,
+     "end": 78.562
+    },
+    {
+     "w": "the",
+     "start": 78.562,
+     "end": 78.842
+    },
+    {
+     "w": "war.\"",
+     "start": 78.842,
+     "end": 79.102
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "text": "Who was tougher? Name one soldier below, and follow Buried Chronicles.",
+   "start": 79.689,
+   "end": 83.635,
+   "words": [
+    {
+     "w": "Who",
+     "start": 79.589,
+     "end": 79.749
+    },
+    {
+     "w": "was",
+     "start": 79.749,
+     "end": 79.849
+    },
+    {
+     "w": "tougher?",
+     "start": 79.849,
+     "end": 80.189
+    },
+    {
+     "w": "Name",
+     "start": 80.629,
+     "end": 80.769
+    },
+    {
+     "w": "one",
+     "start": 80.769,
+     "end": 81.009
+    },
+    {
+     "w": "soldier",
+     "start": 81.009,
+     "end": 81.329
+    },
+    {
+     "w": "below,",
+     "start": 81.329,
+     "end": 81.789
+    },
+    {
+     "w": "and",
+     "start": 81.789,
+     "end": 82.089
+    },
+    {
+     "w": "follow",
+     "start": 82.089,
+     "end": 82.329
+    },
+    {
+     "w": "Buried",
+     "start": 82.329,
+     "end": 82.809
+    },
+    {
+     "w": "Chronicles.",
+     "start": 82.809,
+     "end": 83.369
+    }
+   ]
+  }
+ ]
+}

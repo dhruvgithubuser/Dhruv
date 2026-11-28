@@ -1,0 +1,32 @@
+{
+  "name": "petrov-documentary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Soldier Who Refused to Start World War III: 2D animated documentary short (Remotion)",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "voiceover": "tsx scripts/generate-voiceover.ts",
+    "validate": "tsx scripts/validate-assets.ts",
+    "render": "bash scripts/render-video.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/oswald": "^5.3.0",
+    "@remotion/bundler": "^4.0.541",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "topojson-client": "^3.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "world-atlas": "^2.0.2"
+  }
+}
